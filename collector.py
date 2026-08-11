@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-정보기관 v0.2a-p2 (패치 2: 텔레그램 배달)
+정보기관 v0.2a-p3 (패치 3: 보관함 적재 — 주간 보고 재료)
 - 변경: ① 한국 원천을 구글뉴스 RSS 경유로 교체(공식 피드는 사용자가 주소 제공 시 KR_OFFICIAL_FEEDS에 추가)
         ② 섹터 태그 오탐 수정: 영문 키워드는 단어 경계(word boundary) 매칭 (vessels→ess 오탐 제거)
 설계 원칙: 실패는 침묵이 아니라 소음으로.
@@ -201,9 +201,13 @@ def main():
             msg = f"{type(e).__name__}: {str(e)[:150]}"
             errors.append((name, msg))
             print(f"[FAIL] {name}: {msg}")
-    os.makedirs("briefing", exist_ok=True)
+    content = build_briefing(results, errors)
+    os.makedirs("briefing/history", exist_ok=True)
     with open("briefing/env_latest.md", "w", encoding="utf-8") as f:
-        f.write(build_briefing(results, errors))
+        f.write(content)
+    datestr = datetime.now(KST).strftime("%Y-%m-%d")
+    with open(f"briefing/history/{datestr}.md", "w", encoding="utf-8") as f:
+        f.write(content)
     print(f"브리핑 생성: 성공 {len(results)} / 실패 {len(errors)}")
     send_telegram(build_summary(results, errors))
 

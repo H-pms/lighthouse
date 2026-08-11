@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-정보기관 v0.2a-p1 (패치 1)
+정보기관 v0.2a-p2 (패치 2: 텔레그램 배달)
 - 변경: ① 한국 원천을 구글뉴스 RSS 경유로 교체(공식 피드는 사용자가 주소 제공 시 KR_OFFICIAL_FEEDS에 추가)
         ② 섹터 태그 오탐 수정: 영문 키워드는 단어 경계(word boundary) 매칭 (vessels→ess 오탐 제거)
 설계 원칙: 실패는 침묵이 아니라 소음으로.
@@ -111,6 +111,51 @@ SOURCES = [
     ("🇰🇷 규제·수출통제 언론보도(구글뉴스 경유)", lambda: fetch_rss(gnews("규제 OR 수출통제 OR 관세 발표 when:2d"))),
 ] + [(name, (lambda u: (lambda: fetch_rss(u)))(url)) for name, url in KR_OFFICIAL_FEEDS]
 
+# ---------------- 텔레그램 배달 ----------------
+
+def send_telegram(text):
+    token = os.environ.get("TELEGRAM_TOKEN")
+    chat = os.environ.get("TELEGRAM_CHAT_ID")
+    if not token or not chat:
+        print("[알림 생략] 텔레그램 미설정 — Secrets에 TELEGRAM_TOKEN / TELEGRAM_CHAT_ID 추가 시 활성화")
+        return
+    try:
+        r = requests.post(
+            f"https://api.telegram.org/bot{token}/sendMessage",
+            json={"chat_id": chat, "text": text[:4000], "disable_web_page_preview": True},
+            timeout=20,
+        )
+        r.raise_for_status()
+        print("[알림 OK] 텔레그램 발송 완료")
+    except Exception as e:
+        print(f"[알림 FAIL] 텔레그램: {type(e).__name__}: {str(e)[:120]}")
+
+def build_summary(results, errors):
+    now = datetime.now(KST)
+    lines = [f"🗼 등대 브리핑 {now.strftime('%m/%d %H:%M')}"]
+    lines.append(f"원천: 성공 {len(results)} · 실패 {len(errors)}")
+    for name, msg in errors:
+        lines.append(f"⚠️ {name} 실패 — 수동 확인 요망")
+    counts = {}
+    tagged = []
+    for _, items in results:
+        for it in items:
+            for s in it["sectors"]:
+                counts[s] = counts.get(s, 0) + 1
+            if it["sectors"]:
+                tagged.append(it)
+    if counts:
+        lines.append("섹터: " + " · ".join(f"{s} {n}" for s, n in sorted(counts.items(), key=lambda x: -x[1])[:5]))
+    if tagged:
+        lines.append("주요:")
+        for it in tagged[:5]:
+            t = it["title"][:60] + ("…" if len(it["title"]) > 60 else "")
+            lines.append(f"• [{it['sectors'][0]}] {t}")
+    repo = os.environ.get("GITHUB_REPOSITORY", "")
+    if repo:
+        lines.append(f"전체: https://github.com/{repo}/blob/main/briefing/env_latest.md")
+    return "\n".join(lines)
+
 # ---------------- 브리핑 생성 ----------------
 
 def build_briefing(results, errors):
@@ -160,6 +205,7 @@ def main():
     with open("briefing/env_latest.md", "w", encoding="utf-8") as f:
         f.write(build_briefing(results, errors))
     print(f"브리핑 생성: 성공 {len(results)} / 실패 {len(errors)}")
+    send_telegram(build_summary(results, errors))
 
 if __name__ == "__main__":
     main()

@@ -1,10 +1,10 @@
-name: intel-v02a
+name: lighthouse
 on:
-  workflow_dispatch:        # Actions 탭의 수동 실행 버튼
+  workflow_dispatch:
   schedule:
-    - cron: "30 21 * * *"   # 매일 06:30 KST (UTC 21:30) 무렵, 지연 가능
+    - cron: "30 21 * * *"   # 매일 06:30 KST 무렵
 permissions:
-  contents: write           # 봇이 브리핑 파일을 저장소에 커밋하기 위함
+  contents: write
 jobs:
   run:
     runs-on: ubuntu-latest
@@ -15,6 +15,9 @@ jobs:
           python-version: "3.12"
       - run: pip install requests feedparser
       - run: python collector.py
+        env:
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
       - name: commit briefing
         run: |
           git config user.name "intel-bot"

@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-정보기관 v0.2a-p3 (패치 3: 보관함 적재 — 주간 보고 재료)
+정보기관 v0.2a-p3 (패치 4.1: 산업 감시어 + 언론사 꼬리 오인 방지)
 - 변경: ① 한국 원천을 구글뉴스 RSS 경유로 교체(공식 피드는 사용자가 주소 제공 시 KR_OFFICIAL_FEEDS에 추가)
         ② 섹터 태그 오탐 수정: 영문 키워드는 단어 경계(word boundary) 매칭 (vessels→ess 오탐 제거)
 설계 원칙: 실패는 침묵이 아니라 소음으로.
@@ -32,6 +32,11 @@ SECTOR_KEYWORDS = {
     "방산/우주": ["defense", "military", "space", "방위", "방산", "우주"],
     "2차전지/ESS": ["battery", "energy storage", "ess", "이차전지", "배터리", "양극재"],
     "모빌리티": ["vehicle", "automotive", "자동차", "전기차", "자율주행"],
+    "조선/해운": ["shipbuilding", "shipyard", "vessel", "조선", "해운", "선박", "컨테이너선"],
+    "항공/물류": ["airline", "aviation", "cargo", "logistics", "항공", "물류", "운송"],
+    "원유/가스": ["oil", "crude", "petroleum", "lng", "정유", "원유", "가스", "석유"],
+    "금속/광물": ["copper", "gold", "nickel", "lithium", "rare earth", "구리", "금값", "금 매입", "니켈", "철광석", "희토류", "광물", "제련"],
+    "건설/부동산": ["construction", "housing", "real estate", "건설", "부동산", "분양", "재건축", "주택"],
 }
 
 def _compile():
@@ -52,6 +57,26 @@ _PATTERNS = _compile()
 def tag_sectors(text):
     t = (text or "").lower()
     return [s for s, pats in _PATTERNS.items() if any(p.search(t) for p in pats)]
+
+def load_watchlist():
+    try:
+        return [s.strip() for s in open("watchlist.txt", encoding="utf-8")
+                if s.strip() and not s.strip().startswith("#")]
+    except FileNotFoundError:
+        return []
+
+def apply_watchlist(results):
+    pats = []
+    for t in load_watchlist():
+        tl = t.lower()
+        if re.fullmatch(r"[a-z0-9 .\-]+", tl):
+            pats.append(re.compile(r"\b" + re.escape(tl) + r"\b"))
+        else:
+            pats.append(re.compile(re.escape(tl)))
+    for _, items in results:
+        for it in items:
+            core = it["title"].rsplit(" - ", 1)[0].lower()  # 언론사 꼬리 제거 후 매칭
+            it["star"] = bool(pats) and any(p.search(core) for p in pats)
 
 # ---------------- 원천들 ----------------
 
@@ -134,6 +159,9 @@ def build_summary(results, errors):
     now = datetime.now(KST)
     lines = [f"🗼 등대 브리핑 {now.strftime('%m/%d %H:%M')}"]
     lines.append(f"원천: 성공 {len(results)} · 실패 {len(errors)}")
+    if load_watchlist():
+        stars = sum(1 for _, items in results for it in items if it.get("star"))
+        lines.append(f"⭐ 워치리스트 {stars}건")
     for name, msg in errors:
         lines.append(f"⚠️ {name} 실패 — 수동 확인 요망")
     counts = {}
@@ -170,12 +198,23 @@ def build_briefing(results, errors):
         for name, msg in errors:
             L.append(f"- **{name}**: {msg}")
         L.append("")
+    wl_terms = load_watchlist()
+    if wl_terms:
+        star_items = [it for _, items in results for it in items if it.get("star")]
+        L.append(f"## ⭐ 워치리스트 ({len(star_items)}건 / 감시어 {len(wl_terms)}개, 원천 {len(results)}/{len(results)+len(errors)} 확인)")
+        if star_items:
+            for it in star_items:
+                L.append(f"- {it['date']} | [{it['title']}]({it['link']})")
+        else:
+            L.append("- 신규 0건 — 위 원천 범위에서 확인됨")
+        L.append("")
     for name, items in results:
         L.append(f"## {name} (최신 {len(items)}건)")
         for it in items:
             tag = f" `[{' · '.join(it['sectors'])}]`" if it["sectors"] else ""
             org = f" ({it['org']})" if it["org"] else ""
-            L.append(f"- {it['date']} |{org} [{it['title']}]({it['link']}){tag}")
+            star = "⭐ " if it.get("star") else ""
+            L.append(f"- {star}{it['date']} |{org} [{it['title']}]({it['link']}){tag}")
         L.append("")
     counts = {}
     for _, items in results:
@@ -201,6 +240,7 @@ def main():
             msg = f"{type(e).__name__}: {str(e)[:150]}"
             errors.append((name, msg))
             print(f"[FAIL] {name}: {msg}")
+    apply_watchlist(results)
     content = build_briefing(results, errors)
     os.makedirs("briefing/history", exist_ok=True)
     with open("briefing/env_latest.md", "w", encoding="utf-8") as f:

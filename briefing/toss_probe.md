@@ -1,8 +1,8 @@
 # 토스 API 연결 진단
 
 ```
-🔌 토스 API 연결 진단 2026-08-11 22:48 KST
-  이 실행 환경의 공인 IP: 172.183.135.154  ← 토스 '허용 IP 관리'에 등록 필요
+🔌 토스 API 연결 진단 2026-08-11 22:51 KST
+  이 실행 환경의 공인 IP: 52.186.174.154  ← 토스 '허용 IP 관리'에 등록 필요
   토큰 요청 /oauth2/token → HTTP 403
      응답: {"error":"access_denied","error_description":"IP address not allowed"}
   ⛔ 403 = 허용 IP 미등록 가능성 — 이 실행 환경의 IP를

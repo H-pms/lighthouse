@@ -1,5 +1,5 @@
 # 환경 브리핑 — 2026-08-12
-> 생성 2026-08-12 20:22 KST · 원천 6/7 · 수집 192건
+> 생성 2026-08-12 20:35 KST · 원천 6/7 · 수집 192건
 
 ## ⚠️ 수집 실패
 - **예정 일정**: RuntimeError: 일정 원천 응답 없음
@@ -61,31 +61,31 @@
 - 📄 [서한 [첨부정정]주요사항보고서(신주인수권부사채권발행결정)](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811000009)  
   <sub>DART·코스닥 · 2건 보도</sub>
 
-## 🏛 정책·규제 — 환경 변수 (62건)
+## 🏛 정책·규제 — 환경 변수 (63건)
 <sub>시행일이 있으면 뒷파도의 도착 시점입니다.</sub>
 
 - 📄 [NRC 현대화: 규칙 제정 절차, 연방자문위원회법 조정, 접근 및 보안](https://www.federalregister.gov/documents/2026/08/11/2026-16374/nrc-modernization-rulemaking-procedure-federal-advisory-committee-act-alignment-access-and-security)  
   <sub>원자력규제위원회 · 2건 보도</sub>
   > 미국 원자력규제위원회(NRC)는 정보 보류 및 공포 후 논평 기간과 관련된 절차 조항을 간소화하여 규정을 개정하고 있습니다.
-  > NRC의 규정을 위원회 관리 사무국(CMS) 연방 자문 위원회법(FACA) 표준과 일치시킵니다.
+  > 미국 원자력 규제위원회(NRC)는 정보 보류 및 공포 후 논평 기간과 관련된 절차 조항을 간소화하여 규정을 개정할 것을 제안하고 있습니다.
 - 📄 [바로 먹을 수 있는 신선 농산물의 생물학적 위험을 최소화하기 위한 가이드; 산업계 지침; 유효성](https://www.federalregister.gov/documents/2026/08/12/2026-16420/guide-to-minimize-biological-hazards-in-ready-to-eat-fresh-cut-produce-guidance-for-industry)  
   <sub>바이오/의료 · 보건복지부, 식품의약국</sub>
   > 미국 식품의약국(FDA 또는 당사)은 "즉석 섭취 가능한 신선 가공 농산물의 생물학적 위험을 최소화하기 위한 지침"이라는 제목의 업계 최종 지침을 발표했습니다.
   > 본 지침은 2008년에 발행된 "신선한 과일 및 채소의 미생물 식품 안전 위험을 최소화하기 위한 지침"이라는 제목의 이전 지침을 대체하며 i에 대한 지침 초안에 대한 최종 지침입니다.
-- 📄 [규제 물질 목록: 목록 I에서 O-Desmethyltramadol의 임시 배치](https://www.federalregister.gov/documents/2026/08/12/2026-16413/schedules-of-controlled-substances-temporary-placement-of-o-desmethyltramadol-in-schedule-i)  
+- 📄 [규제 물질 목록: 목록 I의 O-Desmethyltramadol 임시 배치](https://www.federalregister.gov/documents/2026/08/12/2026-16413/schedules-of-controlled-substances-temporary-placement-of-o-desmethyltramadol-in-schedule-i)  
   <sub>Justice Department, Drug Enforcement Administration</sub>
   > DEA는 일정에 O-DSMT를 배치한다는 사실을 토대로 이 조치를 취합니다.
 - 📄 [승인된 사용후 연료 저장용기 목록: NAC International, Inc., MAGNASTOR® 저장 시스템, 규정 준수 증명서 No. 1031, 수정안 Nos. 16 및 17 및 수정안 Nos. 0~16에 대한 수정](https://www.federalregister.gov/documents/2026/08/12/2026-16398/list-of-approved-spent-fuel-storage-casks-nac-international-inc-magnastor-storage-system-certificate)  
   <sub>원자력규제위원회</sub>
-  > 이 직접 최종 규칙은 "승인된 사용후 연료 저장 용기 목록" 내 NAC MAGNASTOR 시스템 목록을 수정하여 수정안 16 및 17을 포함하고 수정안 0~16에 대한 수정 사항을 다음과 같이 수정했습니다.
+  > 이 직접 최종 규칙은 "승인된 사용후 연료 저장 용기 목록" 내의 NAC MAGNASTOR 시스템 목록을 수정하여 수정안 16 및 17을 포함하고 수정안 0~16에 대한 수정 사항을 다음과 같이 수정했습니다.
   > 미국 원자력 규제 위원회(NRC)는 2026년 7월 1일 연방 관보에 게시된 직접 최종 규칙의 발효일을 2026년 9월 14일로 확인합니다.
 - 📄 [구동형 마이크로모빌리티 장치](https://www.federalregister.gov/documents/2026/08/12/2026-16388/powered-micromobility-devices)  
   <sub>모빌리티 · Interior Department, National Park Service</sub>
   > 최종 규칙은 자동차, 전통 자전거, 전기 자전거, 인력으로 구동되는 해안 장치와 별도로 구동형 마이크로모빌리티 장치를 정의하고 국립공원 시스템 단위에서 이러한 장치를 사용할 수 있는 위치와 방법에 대한 규칙을 만듭니다.
-  > 국립공원관리청(National Park Service)은 국립공원 시스템 내에서 구동되는 마이크로모빌리티 장치의 사용을 위한 관리 프레임워크를 마무리합니다.
+  > 국립공원관리청은 국립공원 시스템 내에서 구동되는 마이크로모빌리티 장치의 사용을 위한 관리 프레임워크를 마무리합니다.
 - 📄 [미국으로의 폴리실리콘 및 그 파생상품 수입 조정](https://www.federalregister.gov/documents/2026/08/11/2026-16400/adjusting-imports-of-polysilicon-and-its-derivatives-into-the-united-states)  
   <sub>금속/광물 · Executive Office of the President</sub>
-- 📄 [규제 물질 일정: Suvorexant, Lemborexant 및 Daridorexant의 일정을 일정 IV에서 일정 V로 변경](https://www.federalregister.gov/documents/2026/08/11/2026-16375/schedules-of-controlled-substances-rescheduling-of-suvorexant-lemborexant-and-daridorexant-from)  
+- 📄 [규제 물질 일정: Suvorexant, Lemborexant 및 Daridorexant의 일정 IV를 일정 V로 변경](https://www.federalregister.gov/documents/2026/08/11/2026-16375/schedules-of-controlled-substances-rescheduling-of-suvorexant-lemborexant-and-daridorexant-from)  
   <sub>Justice Department, Drug Enforcement Administration</sub>
   > 미국 마약단속국에서는 수보렉산트([(7R)-4-(5-클로로-1,3-벤족사졸-2-일)-7-메틸-1,4-디아제판-1-일]-[5-메틸-2-(트리아졸-2-일)페닐]메타논), 렘보렉산트의 이전을 제안합니다.
   > ((1R,2S)-2-[(2,4-디메틸피리미딘-5-일)옥시메틸]-2-(3-플루오로페닐)-N-(5-플루오로피리딘-2-일)시클로프로판-1-카르복사미드) 및 다리도렉산트([(2S)-2-(5-클로로-4-메틸-1H-벤즈이미다졸-2-일)-2-메틸피롤리
@@ -101,8 +101,8 @@
   > 2022년 에너지 안보 및 경량화 독립법은 외국 무역에 종사하는 다른 선박(경량화)과 선박 간 액체 화물 운송 작업을 수행하는 개인을 포함하도록 환승 중인 외국인(C) 및 승무원으로 근무하는 외국인(D)에 대한 비이민 분류를 개정했습니다.
   > 이 법령은 자격을 갖춘 외국인이 미국에 입국하거나 요청할 수 있는 권한을 부여합니다.
 - 📰 [새만금 헴프산업클러스터 조성 탄력](https://news.google.com/rss/articles/CBMiWEFVX3lxTE5UbzFVZW9HWGtWX2I5Q2QzTVBscklhVjlJdktEZlp6TEFKUFl3XzFrUUY5QmE1elp0X24wWXhxd2NnaEdocko5a0txdXVRWEcwUXJhSy1xOS3SAVhBVV95cUxOVG8xVWVvR1hrVl9iOUNkM01QbHJJYVY5SXZLRGZaekxBSlBZd18xa1FGOUJhNXpadF9uMFl4cXdjZ2hHaHJKOWtLcXV1UVhHMFFyYUstcTkt?oc=5)  
-  <sub>아주경제 · 3건 보도</sub>
-  > 새만금 헴프산업클러스터 조성 탄력&nbsp;&nbsp;아주경제
+  <sub>ajunews.com · 3건 보도</sub>
+  > 새만금 헴프산업클러스터 조성 탄력&nbsp;&nbsp;ajunews.com
   > 전북자치도·새만금청·헴프기업 7곳, 헴프산업클러스터 조성 ‘맞손’&nbsp;&nbsp;투데이안
 - 📰 [당정 "비아파트 공급 확대 속도전… 금융 지원·규제 완화"](https://news.google.com/rss/articles/CBMiT0FVX3lxTE1VYkhsX25JbXZqVTlLaDg3aV9JZDRndEdWZENQcjB0X0N3TF9hUHhCamJXbzJKVnZ0Z0JHSEFEREdhTmJTcHhVSi1OWnRhU2c?oc=5)  
   <sub>v.daum.net · 2건 보도</sub>
@@ -110,12 +110,12 @@
 - 📰 [與도 비판 쏟아내는 '부동산稅 개편'](https://news.google.com/rss/articles/CBMiWkFVX3lxTE9XZFNya25PVVN0RXFUMXlZSkpBTnktMU1IV0lNTTUwV294WVZfUTFqTXBTZnBTdnpLUlJPdnNrQkpWNEE1OXVTYzloUDczZy1QLTkzWGtPN0prdw?oc=5)  
   <sub>건설/부동산 · 한국경제 · 2건 보도</sub>
   > 與도 비판 쏟아내는 '부동산稅 개편'&nbsp;&nbsp;한국경제
-  > 정부 부동산 정책 재확인…세제 개편·주택 공급 대책에 여야 공방&nbsp;&nbsp;cbci.co.kr
+  > 정부 부동산 정책 재확인…세제 개편·주택 공급 대책에 여야 공방&nbsp;&nbsp;CBC뉴스
 - 📰 [정부 “유휴부지” 서울시 “정비사업”… 주택공급 이견](https://news.google.com/rss/articles/CBMibkFVX3lxTE5tTzQ0RXFuVXNheWdaZzhmckdWcDVrclhLT096enpXcVE4dkZJaVV3c0hxb0MyVS1hd0R6ZHd0eUtZbUJ0ZUhieGh5T3hPNmtfNHRmUHJWVTRHZC1RNlRxZy00NHdYRG8tSlhJclBB?oc=5)  
   <sub>건설/부동산 · 아시아투데이 · 2건 보도</sub>
   > 정부 “유휴부지” 서울시 “정비사업”… 주택공급 이견&nbsp;&nbsp;아시아투데이
   > 與 "서울 주택공급 확대, 정부·서울시 모두 공감...전월세 단기 대책도 최선"&nbsp;&nbsp;뉴스핌
-- _외 48건_
+- _외 49건_
 
 ---
 _공시·정책 원문 우선. 개별 기업 주가·잡담 기사는 제외. 여기 없는 정보는 존재할 수 있음._

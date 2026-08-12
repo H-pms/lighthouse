@@ -189,6 +189,66 @@ def dart_corp():
         except Exception: pass
     return m
 
+DART_DETAIL = {
+    "단일판매": ("dsclsRcpt", None),
+}
+
+def dart_body(rcept_no, report_nm, corp_code, key):
+    """공시 유형별 상세 API로 핵심 수치를 뽑는다. 실패하면 None."""
+    end = TODAY.strftime("%Y%m%d"); bgn = (TODAY - timedelta(days=7)).strftime("%Y%m%d")
+    def call(path, extra=None):
+        p = {"crtfc_key": key, "corp_code": corp_code, "bgn_de": bgn, "end_de": end}
+        if extra: p.update(extra)
+        try:
+            r = requests.get(f"https://opendart.fss.or.kr/api/{path}", params=p, timeout=25)
+            if r.status_code != 200: return None
+            j = r.json()
+            if j.get("status") != "000": return None
+            for x in j.get("list", []):
+                if x.get("rcept_no") == rcept_no:
+                    return x
+            return (j.get("list") or [None])[0]
+        except Exception:
+            return None
+
+    nm = report_nm or ""
+    def won(v):
+        try:
+            n = float(str(v).replace(",", ""))
+            if abs(n) >= 1e12: return f"{n/1e12:.2f}조원"
+            if abs(n) >= 1e8:  return f"{n/1e8:,.0f}억원"
+            return f"{n:,.0f}원"
+        except Exception:
+            return str(v)
+
+    if "유상증자" in nm:
+        d = call("piicDecsn")
+        if d:
+            return (f"신주 {d.get('nstk_ostk_cnt','?')}주 · 조달 {won(d.get('fdpp_fclt') or d.get('fdpp_bsninh') or 0)} "
+                    f"· 방식 {d.get('ic_mthn','?')} · 발행가 {d.get('nstk_asstinh_pymnt_dt','')} "
+                    f"· 자금용도: 시설 {won(d.get('fdpp_fclt',0))}, 운영 {won(d.get('fdpp_op',0))}, "
+                    f"채무상환 {won(d.get('fdpp_dtrp',0))}")
+    if "자기주식" in nm and "취득" in nm:
+        d = call("tsstkAqDecsn") or call("tsstkAqTrgtDecsn")
+        if d:
+            return (f"취득 예정 {d.get('aq_pp_stk_ostk','?')}주 · 금액 {won(d.get('aq_wtn_div_ostk') or d.get('ctr_prc') or 0)} "
+                    f"· 목적 {d.get('aq_pp','')} · 기간 {d.get('aq_pd_bgd','')}~{d.get('aq_pd_edd','')}")
+    if "전환사채" in nm:
+        d = call("cvbdIsDecsn")
+        if d:
+            return (f"발행금액 {won(d.get('bd_fta',0))} · 만기 {d.get('bd_mtd','')} "
+                    f"· 전환가 {d.get('cv_prc','?')}원 · 자금용도: 시설 {won(d.get('fdpp_fclt',0))}, 운영 {won(d.get('fdpp_op',0))}")
+    if "소송" in nm:
+        d = call("lwstLg")
+        if d:
+            return (f"사건 {d.get('icnm','')} · 원고 {d.get('accusr','')} · 청구금액 {won(d.get('rq_cn') or 0)} "
+                    f"· 관할 {d.get('cpct','')}")
+    if "최대주주" in nm:
+        d = call("cprnd") or call("mrhrChg")
+        if d:
+            return f"변경 전 {d.get('bf_mkchg','')} → 후 {d.get('af_mkchg','')} · 지분 {d.get('chg_rt','?')}%"
+    return None
+
 def fetch_dart():
     """전 시장 주요 공시 + 워치리스트 종목 공시"""
     key = dart_key()
@@ -211,8 +271,12 @@ def fetch_dart():
                 ks = kind_of(nm)
                 if not ks: continue
                 sc = rev.get(x.get("corp_code"), ("", x.get("corp_name","")))
+                body = ""
+                if any(k in ks for k in ("의지","자본","위험")) and len(out) < 60:
+                    body = dart_body(x.get("rcept_no"), nm, x.get("corp_code"), key) or ""
                 out.append(item(title=f"{x.get('corp_name')} — {nm}", core=f"{x.get('corp_name')} {nm}",
                     date=x.get("rcept_dt",""), org=f"DART·{label}", official=True, kinds=ks,
+                    abstract=body,
                     link=f"https://dart.fss.or.kr/dsaf001/main.do?rcpNo={x.get('rcept_no')}",
                     symbol=sc[0], company=x.get("corp_name",""), src_kind="공시"))
             time.sleep(0.15)
@@ -226,9 +290,11 @@ def fetch_dart():
                     "page_count":30,"page_no":1}, timeout=40)
         j = r.json() if r.status_code == 200 else {}
         for x in j.get("list", []):
-            out.append(item(title=f"⭐ {c['name']} — {x.get('report_nm')}",
-                core=f"{c['name']} {x.get('report_nm')}", date=x.get("rcept_dt",""),
-                org="DART·감시종목", official=True, kinds=kind_of(x.get("report_nm","")) or ["일정"],
+            nm2 = x.get("report_nm","")
+            out.append(item(title=f"⭐ {c['name']} — {nm2}",
+                core=f"{c['name']} {nm2}", date=x.get("rcept_dt",""),
+                abstract=dart_body(x.get("rcept_no"), nm2, c["code"], key) or "",
+                org="DART·감시종목", official=True, kinds=kind_of(nm2) or ["일정"],
                 link=f"https://dart.fss.or.kr/dsaf001/main.do?rcpNo={x.get('rcept_no')}",
                 symbol=s, company=c["name"], src_kind="공시"))
         time.sleep(0.15)
@@ -266,8 +332,26 @@ def fetch_edgar():
                 f = forms[i]
                 lab = US_FORM.get(f, US_FORM.get(f.split("/")[0], f))
                 acc = rec["accessionNumber"][i].replace("-","")
+                body = ""
+                if f.startswith(("8-K","10-Q","10-K")):
+                    try:
+                        doc = rec.get("primaryDocument", [""])[i]
+                        rr = requests.get(
+                            f"https://www.sec.gov/Archives/edgar/data/{int(cik)}/{acc}/{doc}",
+                            headers={"User-Agent": SEC_UA}, timeout=25)
+                        if rr.status_code == 200:
+                            txt = re.sub(r"(?is)<(script|style)[^>]*>.*?</\1>", " ", rr.text)
+                            txt = re.sub(r"(?s)<[^>]+>", " ", txt)
+                            txt = re.sub(r"&[a-z]+;|&#\d+;", " ", txt)
+                            txt = re.sub(r"\s+", " ", txt).strip()
+                            m2 = re.search(r"(?i)(item\s+\d+\.\d+[^.]{0,90}\.)(.{200,1200})", txt)
+                            raw = (m2.group(1)+m2.group(2)) if m2 else txt[:900]
+                            kb, _ = to_ko(raw[:900])
+                            body = kb or raw[:900]
+                    except Exception:
+                        pass
                 out.append(item(title=f"⭐ {name} — {f} {lab}", core=f"{name} {f} {lab}",
-                    date=d, org="SEC·감시종목", official=True,
+                    date=d, org="SEC·감시종목", official=True, abstract=body,
                     kinds=(["위험"] if f.startswith("8-K") else
                            ["실체"] if f.startswith(("10-Q","10-K")) else
                            ["지분"] if f.startswith(("SC 13","4")) else ["자본"]),

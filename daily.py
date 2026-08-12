@@ -11,7 +11,7 @@ import requests
 
 KST = timezone(timedelta(hours=9))
 API = "https://api.anthropic.com/v1/messages"
-MODEL = os.environ.get("DAILY_MODEL", "claude-haiku-4-5-20251001")
+MODEL = os.environ.get("DAILY_MODEL", "claude-sonnet-5")
 MONTH_LIMIT = int(os.environ.get("DAILY_MONTH_LIMIT", "40"))
 GUARD = "briefing/.last_daily.json"
 MARK = "# 오늘의 보고"
@@ -124,7 +124,7 @@ def build_material(d):
     return "\n".join(lines), items
 
 def call_api(material, meta):
-    body = {"model": MODEL, "max_tokens": 2500, "system": CONSTITUTION,
+    body = {"model": MODEL, "max_tokens": 3500, "system": CONSTITUTION,
             "messages": [{"role": "user", "content":
                 f"[오늘 자료 — {meta['date']} · 원천 {meta['srcs']} · 총 {meta['n']}건]\n"
                 f"[워치리스트: {meta['wl']}]\n\n{material}\n\n"

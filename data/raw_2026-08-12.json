@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-12 22:12",
+ "generated": "2026-08-12 22:15",
  "date": "2026-08-12",
  "sources": [
   {
@@ -79,11 +79,11 @@
    "kinds": [
     "자본"
    ],
+   "abstract": "",
    "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260812000765",
    "symbol": "001360",
    "company": "삼성제약",
    "src_kind": "공시",
-   "abstract": "",
    "sectors": [
     "바이오/의료"
    ],
@@ -101,11 +101,11 @@
    "kinds": [
     "의지"
    ],
+   "abstract": "",
    "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260812000699",
    "symbol": "081660",
    "company": "미스토홀딩스",
    "src_kind": "공시",
-   "abstract": "",
    "sectors": [],
    "watch": [],
    "id": 2,
@@ -121,11 +121,11 @@
    "kinds": [
     "의지"
    ],
+   "abstract": "",
    "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260812000647",
    "symbol": "012280",
    "company": "영화금속",
    "src_kind": "공시",
-   "abstract": "",
    "sectors": [],
    "watch": [],
    "id": 3,
@@ -141,11 +141,11 @@
    "kinds": [
     "자본"
    ],
+   "abstract": "",
    "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260812000624",
    "symbol": "002070",
    "company": "비비안",
    "src_kind": "공시",
-   "abstract": "",
    "sectors": [],
    "watch": [],
    "id": 4,
@@ -161,11 +161,11 @@
    "kinds": [
     "의지"
    ],
+   "abstract": "",
    "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811000482",
    "symbol": "078520",
    "company": "에이블씨엔씨",
    "src_kind": "공시",
-   "abstract": "",
    "sectors": [],
    "watch": [],
    "id": 5,
@@ -181,11 +181,11 @@
    "kinds": [
     "자본"
    ],
+   "abstract": "",
    "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260810000727",
    "symbol": "007460",
    "company": "에이프로젠",
    "src_kind": "공시",
-   "abstract": "",
    "sectors": [],
    "watch": [],
    "id": 6,
@@ -201,11 +201,11 @@
    "kinds": [
     "자본"
    ],
+   "abstract": "",
    "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260810000708",
    "symbol": "007460",
    "company": "에이프로젠",
    "src_kind": "공시",
-   "abstract": "",
    "sectors": [],
    "watch": [],
    "id": 7,
@@ -221,11 +221,11 @@
    "kinds": [
     "의지"
    ],
+   "abstract": "",
    "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260810000659",
    "symbol": "267270",
    "company": "HD건설기계",
    "src_kind": "공시",
-   "abstract": "",
    "sectors": [
     "건설/부동산"
    ],
@@ -243,11 +243,11 @@
    "kinds": [
     "의지"
    ],
+   "abstract": "",
    "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260810000497",
    "symbol": "339770",
    "company": "교촌에프앤비",
    "src_kind": "공시",
-   "abstract": "",
    "sectors": [],
    "watch": [],
    "id": 9,
@@ -263,11 +263,11 @@
    "kinds": [
     "의지"
    ],
+   "abstract": "",
    "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260810000278",
    "symbol": "456040",
    "company": "OCI",
    "src_kind": "공시",
-   "abstract": "",
    "sectors": [],
    "watch": [],
    "id": 10,
@@ -283,11 +283,11 @@
    "kinds": [
     "의지"
    ],
+   "abstract": "",
    "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260810000268",
    "symbol": "010060",
    "company": "OCI홀딩스",
    "src_kind": "공시",
-   "abstract": "",
    "sectors": [],
    "watch": [],
    "id": 11,
@@ -303,11 +303,11 @@
    "kinds": [
     "자본"
    ],
+   "abstract": "",
    "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260810000223",
    "symbol": "011000",
    "company": "진원생명과학",
    "src_kind": "공시",
-   "abstract": "",
    "sectors": [],
    "watch": [],
    "id": 12,
@@ -323,11 +323,11 @@
    "kinds": [
     "자본"
    ],
+   "abstract": "",
    "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260812000765",
    "symbol": "001360",
    "company": "삼성제약",
    "src_kind": "공시",
-   "abstract": "",
    "sectors": [
     "바이오/의료"
    ],
@@ -345,11 +345,11 @@
    "kinds": [
     "의지"
    ],
+   "abstract": "",
    "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260812000699",
    "symbol": "081660",
    "company": "미스토홀딩스",
    "src_kind": "공시",
-   "abstract": "",
    "sectors": [],
    "watch": [],
    "id": 14,
@@ -365,11 +365,11 @@
    "kinds": [
     "의지"
    ],
+   "abstract": "",
    "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260812000647",
    "symbol": "012280",
    "company": "영화금속",
    "src_kind": "공시",
-   "abstract": "",
    "sectors": [],
    "watch": [],
    "id": 15,
@@ -385,11 +385,11 @@
    "kinds": [
     "자본"
    ],
+   "abstract": "",
    "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260812000624",
    "symbol": "002070",
    "company": "비비안",
    "src_kind": "공시",
-   "abstract": "",
    "sectors": [],
    "watch": [],
    "id": 16,
@@ -405,11 +405,11 @@
    "kinds": [
     "의지"
    ],
+   "abstract": "",
    "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811000482",
    "symbol": "078520",
    "company": "에이블씨엔씨",
    "src_kind": "공시",
-   "abstract": "",
    "sectors": [],
    "watch": [],
    "id": 17,
@@ -425,11 +425,11 @@
    "kinds": [
     "자본"
    ],
+   "abstract": "",
    "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260810000727",
    "symbol": "007460",
    "company": "에이프로젠",
    "src_kind": "공시",
-   "abstract": "",
    "sectors": [],
    "watch": [],
    "id": 18,
@@ -445,11 +445,11 @@
    "kinds": [
     "자본"
    ],
+   "abstract": "",
    "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260810000708",
    "symbol": "007460",
    "company": "에이프로젠",
    "src_kind": "공시",
-   "abstract": "",
    "sectors": [],
    "watch": [],
    "id": 19,
@@ -465,11 +465,11 @@
    "kinds": [
     "의지"
    ],
+   "abstract": "",
    "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260810000659",
    "symbol": "267270",
    "company": "HD건설기계",
    "src_kind": "공시",
-   "abstract": "",
    "sectors": [
     "건설/부동산"
    ],
@@ -487,11 +487,11 @@
    "kinds": [
     "의지"
    ],
+   "abstract": "",
    "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260810000497",
    "symbol": "339770",
    "company": "교촌에프앤비",
    "src_kind": "공시",
-   "abstract": "",
    "sectors": [],
    "watch": [],
    "id": 21,
@@ -507,11 +507,11 @@
    "kinds": [
     "의지"
    ],
+   "abstract": "",
    "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260810000278",
    "symbol": "456040",
    "company": "OCI",
    "src_kind": "공시",
-   "abstract": "",
    "sectors": [],
    "watch": [],
    "id": 22,
@@ -527,11 +527,11 @@
    "kinds": [
     "의지"
    ],
+   "abstract": "",
    "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260810000268",
    "symbol": "010060",
    "company": "OCI홀딩스",
    "src_kind": "공시",
-   "abstract": "",
    "sectors": [],
    "watch": [],
    "id": 23,
@@ -547,11 +547,11 @@
    "kinds": [
     "자본"
    ],
+   "abstract": "",
    "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260810000223",
    "symbol": "011000",
    "company": "진원생명과학",
    "src_kind": "공시",
-   "abstract": "",
    "sectors": [],
    "watch": [],
    "id": 24,
@@ -567,11 +567,11 @@
    "kinds": [
     "자본"
    ],
+   "abstract": "",
    "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260812000807",
    "symbol": "175250",
    "company": "아이큐어",
    "src_kind": "공시",
-   "abstract": "",
    "sectors": [],
    "watch": [],
    "id": 25,
@@ -587,11 +587,11 @@
    "kinds": [
     "자본"
    ],
+   "abstract": "",
    "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260812000794",
    "symbol": "900270",
    "company": "헝셩그룹",
    "src_kind": "공시",
-   "abstract": "",
    "sectors": [],
    "watch": [],
    "id": 26,
@@ -607,11 +607,11 @@
    "kinds": [
     "자본"
    ],
+   "abstract": "",
    "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260812000755",
    "symbol": "261200",
    "company": "덴티스",
    "src_kind": "공시",
-   "abstract": "",
    "sectors": [],
    "watch": [],
    "id": 27,
@@ -627,11 +627,11 @@
    "kinds": [
     "자본"
    ],
+   "abstract": "",
    "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260812000653",
    "symbol": "115160",
    "company": "휴맥스",
    "src_kind": "공시",
-   "abstract": "",
    "sectors": [],
    "watch": [],
    "id": 28,
@@ -647,11 +647,11 @@
    "kinds": [
     "의지"
    ],
+   "abstract": "",
    "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260812000717",
    "symbol": "053300",
    "company": "한국정보인증",
    "src_kind": "공시",
-   "abstract": "",
    "sectors": [],
    "watch": [],
    "id": 29,
@@ -667,11 +667,11 @@
    "kinds": [
     "의지"
    ],
+   "abstract": "",
    "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260812000683",
    "symbol": "096530",
    "company": "씨젠",
    "src_kind": "공시",
-   "abstract": "",
    "sectors": [],
    "watch": [],
    "id": 30,
@@ -687,11 +687,11 @@
    "kinds": [
     "자본"
    ],
+   "abstract": "",
    "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260812000663",
    "symbol": "060900",
    "company": "에이전트AI",
    "src_kind": "공시",
-   "abstract": "",
    "sectors": [],
    "watch": [],
    "id": 31,
@@ -707,11 +707,11 @@
    "kinds": [
     "자본"
    ],
+   "abstract": "",
    "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260812000633",
    "symbol": "223310",
    "company": "사토시홀딩스",
    "src_kind": "공시",
-   "abstract": "",
    "sectors": [],
    "watch": [],
    "id": 32,
@@ -727,11 +727,11 @@
    "kinds": [
     "자본"
    ],
+   "abstract": "",
    "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260812000589",
    "symbol": "210120",
    "company": "캔버스엔",
    "src_kind": "공시",
-   "abstract": "",
    "sectors": [],
    "watch": [],
    "id": 33,
@@ -747,11 +747,11 @@
    "kinds": [
     "의지"
    ],
+   "abstract": "",
    "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260812000540",
    "symbol": "439090",
    "company": "마녀공장",
    "src_kind": "공시",
-   "abstract": "",
    "sectors": [],
    "watch": [],
    "id": 34,
@@ -767,11 +767,11 @@
    "kinds": [
     "자본"
    ],
+   "abstract": "",
    "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260812000426",
    "symbol": "020400",
    "company": "대동금속",
    "src_kind": "공시",
-   "abstract": "",
    "sectors": [],
    "watch": [],
    "id": 35,
@@ -787,11 +787,11 @@
    "kinds": [
     "자본"
    ],
+   "abstract": "",
    "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260812000403",
    "symbol": "026910",
    "company": "광진실업",
    "src_kind": "공시",
-   "abstract": "",
    "sectors": [],
    "watch": [],
    "id": 36,
@@ -807,11 +807,11 @@
    "kinds": [
     "의지"
    ],
+   "abstract": "",
    "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260812000327",
    "symbol": "352480",
    "company": "씨앤씨인터내셔널",
    "src_kind": "공시",
-   "abstract": "",
    "sectors": [],
    "watch": [],
    "id": 37,
@@ -827,11 +827,11 @@
    "kinds": [
     "의지"
    ],
+   "abstract": "",
    "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260812000035",
    "symbol": "095660",
    "company": "네오위즈",
    "src_kind": "공시",
-   "abstract": "",
    "sectors": [],
    "watch": [],
    "id": 38,
@@ -847,11 +847,11 @@
    "kinds": [
     "자본"
    ],
+   "abstract": "",
    "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260812000001",
    "symbol": "288980",
    "company": "모아데이타",
    "src_kind": "공시",
-   "abstract": "",
    "sectors": [],
    "watch": [],
    "id": 39,
@@ -867,11 +867,11 @@
    "kinds": [
     "위험"
    ],
+   "abstract": "",
    "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811000703",
    "symbol": "065420",
    "company": "에스아이리소스",
    "src_kind": "공시",
-   "abstract": "",
    "sectors": [],
    "watch": [],
    "id": 40,
@@ -887,11 +887,11 @@
    "kinds": [
     "자본"
    ],
+   "abstract": "",
    "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811000693",
    "symbol": "378800",
    "company": "샤페론",
    "src_kind": "공시",
-   "abstract": "",
    "sectors": [],
    "watch": [],
    "id": 41,
@@ -907,11 +907,11 @@
    "kinds": [
     "자본"
    ],
+   "abstract": "",
    "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811000684",
    "symbol": "060230",
    "company": "제이케이시냅스",
    "src_kind": "공시",
-   "abstract": "",
    "sectors": [],
    "watch": [],
    "id": 42,
@@ -927,11 +927,11 @@
    "kinds": [
     "자본"
    ],
+   "abstract": "",
    "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811000678",
    "symbol": "060230",
    "company": "제이케이시냅스",
    "src_kind": "공시",
-   "abstract": "",
    "sectors": [],
    "watch": [],
    "id": 43,
@@ -947,11 +947,11 @@
    "kinds": [
     "의지"
    ],
+   "abstract": "",
    "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811000585",
    "symbol": "344860",
    "company": "이노진",
    "src_kind": "공시",
-   "abstract": "",
    "sectors": [],
    "watch": [],
    "id": 44,
@@ -967,11 +967,11 @@
    "kinds": [
     "자본"
    ],
+   "abstract": "",
    "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811000550",
    "symbol": "080720",
    "company": "한국유니온제약",
    "src_kind": "공시",
-   "abstract": "",
    "sectors": [
     "바이오/의료"
    ],
@@ -989,11 +989,11 @@
    "kinds": [
     "자본"
    ],
+   "abstract": "",
    "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811000548",
    "symbol": "080720",
    "company": "한국유니온제약",
    "src_kind": "공시",
-   "abstract": "",
    "sectors": [
     "바이오/의료"
    ],
@@ -1011,11 +1011,11 @@
    "kinds": [
     "자본"
    ],
+   "abstract": "",
    "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811000546",
    "symbol": "080720",
    "company": "한국유니온제약",
    "src_kind": "공시",
-   "abstract": "",
    "sectors": [
     "바이오/의료"
    ],
@@ -1033,11 +1033,11 @@
    "kinds": [
     "자본"
    ],
+   "abstract": "",
    "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811000532",
    "symbol": "123010",
    "company": "알엔티엑스",
    "src_kind": "공시",
-   "abstract": "",
    "sectors": [],
    "watch": [],
    "id": 48,
@@ -1053,11 +1053,11 @@
    "kinds": [
     "자본"
    ],
+   "abstract": "",
    "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811000481",
    "symbol": "009730",
    "company": "이렘",
    "src_kind": "공시",
-   "abstract": "",
    "sectors": [],
    "watch": [],
    "id": 49,
@@ -1073,11 +1073,11 @@
    "kinds": [
     "자본"
    ],
+   "abstract": "",
    "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811000527",
    "symbol": "083660",
    "company": "CSA 코스믹",
    "src_kind": "공시",
-   "abstract": "",
    "sectors": [],
    "watch": [],
    "id": 50,
@@ -1093,11 +1093,11 @@
    "kinds": [
     "자본"
    ],
+   "abstract": "",
    "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811000502",
    "symbol": "083660",
    "company": "CSA 코스믹",
    "src_kind": "공시",
-   "abstract": "",
    "sectors": [],
    "watch": [],
    "id": 51,
@@ -1113,11 +1113,11 @@
    "kinds": [
     "자본"
    ],
+   "abstract": "",
    "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811000472",
    "symbol": "466100",
    "company": "클로봇",
    "src_kind": "공시",
-   "abstract": "",
    "sectors": [],
    "watch": [
     "로봇"
@@ -1135,11 +1135,11 @@
    "kinds": [
     "자본"
    ],
+   "abstract": "",
    "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811000451",
    "symbol": "321370",
    "company": "센서뷰",
    "src_kind": "공시",
-   "abstract": "",
    "sectors": [],
    "watch": [],
    "id": 53,
@@ -1155,11 +1155,11 @@
    "kinds": [
     "자본"
    ],
+   "abstract": "",
    "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811000425",
    "symbol": "377030",
    "company": "비트맥스",
    "src_kind": "공시",
-   "abstract": "",
    "sectors": [],
    "watch": [],
    "id": 54,
@@ -1175,11 +1175,11 @@
    "kinds": [
     "의지"
    ],
+   "abstract": "",
    "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811000418",
    "symbol": "332570",
    "company": "PS일렉트로닉스",
    "src_kind": "공시",
-   "abstract": "",
    "sectors": [],
    "watch": [],
    "id": 55,
@@ -1195,11 +1195,11 @@
    "kinds": [
     "의지"
    ],
+   "abstract": "",
    "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811000401",
    "symbol": "218410",
    "company": "RFHIC",
    "src_kind": "공시",
-   "abstract": "",
    "sectors": [],
    "watch": [],
    "id": 56,
@@ -1215,11 +1215,11 @@
    "kinds": [
     "자본"
    ],
+   "abstract": "",
    "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811000390",
    "symbol": "322780",
    "company": "코퍼스코리아",
    "src_kind": "공시",
-   "abstract": "",
    "sectors": [],
    "watch": [],
    "id": 57,
@@ -1235,11 +1235,11 @@
    "kinds": [
     "의지"
    ],
+   "abstract": "",
    "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811000362",
    "symbol": "122990",
    "company": "와이솔",
    "src_kind": "공시",
-   "abstract": "",
    "sectors": [],
    "watch": [],
    "id": 58,
@@ -1255,11 +1255,11 @@
    "kinds": [
     "자본"
    ],
+   "abstract": "",
    "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811000366",
    "symbol": "032800",
    "company": "판타지오",
    "src_kind": "공시",
-   "abstract": "",
    "sectors": [],
    "watch": [],
    "id": 59,
@@ -1275,11 +1275,11 @@
    "kinds": [
     "의지"
    ],
+   "abstract": "",
    "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811000358",
    "symbol": "004780",
    "company": "대륙제관",
    "src_kind": "공시",
-   "abstract": "",
    "sectors": [],
    "watch": [],
    "id": 60,
@@ -1295,11 +1295,11 @@
    "kinds": [
     "자본"
    ],
+   "abstract": "",
    "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811000312",
    "symbol": "060230",
    "company": "제이케이시냅스",
    "src_kind": "공시",
-   "abstract": "",
    "sectors": [],
    "watch": [],
    "id": 61,
@@ -1315,11 +1315,11 @@
    "kinds": [
     "의지"
    ],
+   "abstract": "",
    "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811000291",
    "symbol": "263920",
    "company": "휴엠앤씨",
    "src_kind": "공시",
-   "abstract": "",
    "sectors": [],
    "watch": [],
    "id": 62,
@@ -1335,11 +1335,11 @@
    "kinds": [
     "의지"
    ],
+   "abstract": "",
    "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811000158",
    "symbol": "450330",
    "company": "하스",
    "src_kind": "공시",
-   "abstract": "",
    "sectors": [],
    "watch": [],
    "id": 63,
@@ -1355,11 +1355,11 @@
    "kinds": [
     "자본"
    ],
+   "abstract": "",
    "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811000009",
    "symbol": "011370",
    "company": "서한",
    "src_kind": "공시",
-   "abstract": "",
    "sectors": [],
    "watch": [],
    "id": 64,
@@ -1375,11 +1375,11 @@
    "kinds": [
     "자본"
    ],
+   "abstract": "",
    "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260810000743",
    "symbol": "060900",
    "company": "에이전트AI",
    "src_kind": "공시",
-   "abstract": "",
    "sectors": [],
    "watch": [],
    "id": 65,
@@ -1395,11 +1395,11 @@
    "kinds": [
     "자본"
    ],
+   "abstract": "",
    "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260810000728",
    "symbol": "009620",
    "company": "삼보산업",
    "src_kind": "공시",
-   "abstract": "",
    "sectors": [],
    "watch": [],
    "id": 66,
@@ -1415,11 +1415,11 @@
    "kinds": [
     "의지"
    ],
+   "abstract": "",
    "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260810000474",
    "symbol": "211050",
    "company": "인카금융서비스",
    "src_kind": "공시",
-   "abstract": "",
    "sectors": [],
    "watch": [],
    "id": 67,
@@ -1435,11 +1435,11 @@
    "kinds": [
     "의지"
    ],
+   "abstract": "",
    "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260810000292",
    "symbol": "035080",
    "company": "그래디언트",
    "src_kind": "공시",
-   "abstract": "",
    "sectors": [],
    "watch": [],
    "id": 68,
@@ -1455,11 +1455,11 @@
    "kinds": [
     "자본"
    ],
+   "abstract": "",
    "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260810000282",
    "symbol": "309930",
    "company": "조이웍스앤코",
    "src_kind": "공시",
-   "abstract": "",
    "sectors": [],
    "watch": [],
    "id": 69,
@@ -1475,11 +1475,11 @@
    "kinds": [
     "의지"
    ],
+   "abstract": "",
    "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260810000244",
    "symbol": "363260",
    "company": "모비데이즈",
    "src_kind": "공시",
-   "abstract": "",
    "sectors": [],
    "watch": [],
    "id": 70,
@@ -1495,11 +1495,11 @@
    "kinds": [
     "자본"
    ],
+   "abstract": "",
    "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260810000220",
    "symbol": "340810",
    "company": "시선AI",
    "src_kind": "공시",
-   "abstract": "",
    "sectors": [],
    "watch": [],
    "id": 71,
@@ -1515,11 +1515,11 @@
    "kinds": [
     "자본"
    ],
+   "abstract": "",
    "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260807000794",
    "symbol": "007820",
    "company": "엠엑스로보틱스",
    "src_kind": "공시",
-   "abstract": "",
    "sectors": [],
    "watch": [],
    "id": 72,
@@ -1535,11 +1535,11 @@
    "kinds": [
     "자본"
    ],
+   "abstract": "",
    "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260812000807",
    "symbol": "175250",
    "company": "아이큐어",
    "src_kind": "공시",
-   "abstract": "",
    "sectors": [],
    "watch": [],
    "id": 73,
@@ -1555,11 +1555,11 @@
    "kinds": [
     "자본"
    ],
+   "abstract": "",
    "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260812000794",
    "symbol": "900270",
    "company": "헝셩그룹",
    "src_kind": "공시",
-   "abstract": "",
    "sectors": [],
    "watch": [],
    "id": 74,
@@ -1575,11 +1575,11 @@
    "kinds": [
     "자본"
    ],
+   "abstract": "",
    "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260812000755",
    "symbol": "261200",
    "company": "덴티스",
    "src_kind": "공시",
-   "abstract": "",
    "sectors": [],
    "watch": [],
    "id": 75,
@@ -1595,11 +1595,11 @@
    "kinds": [
     "자본"
    ],
+   "abstract": "",
    "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260812000653",
    "symbol": "115160",
    "company": "휴맥스",
    "src_kind": "공시",
-   "abstract": "",
    "sectors": [],
    "watch": [],
    "id": 76,
@@ -1615,11 +1615,11 @@
    "kinds": [
     "의지"
    ],
+   "abstract": "",
    "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260812000717",
    "symbol": "053300",
    "company": "한국정보인증",
    "src_kind": "공시",
-   "abstract": "",
    "sectors": [],
    "watch": [],
    "id": 77,
@@ -1635,11 +1635,11 @@
    "kinds": [
     "의지"
    ],
+   "abstract": "",
    "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260812000683",
    "symbol": "096530",
    "company": "씨젠",
    "src_kind": "공시",
-   "abstract": "",
    "sectors": [],
    "watch": [],
    "id": 78,
@@ -1655,11 +1655,11 @@
    "kinds": [
     "자본"
    ],
+   "abstract": "",
    "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260812000663",
    "symbol": "060900",
    "company": "에이전트AI",
    "src_kind": "공시",
-   "abstract": "",
    "sectors": [],
    "watch": [],
    "id": 79,
@@ -1675,11 +1675,11 @@
    "kinds": [
     "자본"
    ],
+   "abstract": "",
    "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260812000633",
    "symbol": "223310",
    "company": "사토시홀딩스",
    "src_kind": "공시",
-   "abstract": "",
    "sectors": [],
    "watch": [],
    "id": 80,
@@ -1695,11 +1695,11 @@
    "kinds": [
     "자본"
    ],
+   "abstract": "",
    "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260812000589",
    "symbol": "210120",
    "company": "캔버스엔",
    "src_kind": "공시",
-   "abstract": "",
    "sectors": [],
    "watch": [],
    "id": 81,
@@ -1715,11 +1715,11 @@
    "kinds": [
     "의지"
    ],
+   "abstract": "",
    "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260812000540",
    "symbol": "439090",
    "company": "마녀공장",
    "src_kind": "공시",
-   "abstract": "",
    "sectors": [],
    "watch": [],
    "id": 82,
@@ -1735,11 +1735,11 @@
    "kinds": [
     "자본"
    ],
+   "abstract": "",
    "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260812000426",
    "symbol": "020400",
    "company": "대동금속",
    "src_kind": "공시",
-   "abstract": "",
    "sectors": [],
    "watch": [],
    "id": 83,
@@ -1755,11 +1755,11 @@
    "kinds": [
     "자본"
    ],
+   "abstract": "",
    "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260812000403",
    "symbol": "026910",
    "company": "광진실업",
    "src_kind": "공시",
-   "abstract": "",
    "sectors": [],
    "watch": [],
    "id": 84,
@@ -1775,11 +1775,11 @@
    "kinds": [
     "의지"
    ],
+   "abstract": "",
    "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260812000327",
    "symbol": "352480",
    "company": "씨앤씨인터내셔널",
    "src_kind": "공시",
-   "abstract": "",
    "sectors": [],
    "watch": [],
    "id": 85,
@@ -1795,11 +1795,11 @@
    "kinds": [
     "의지"
    ],
+   "abstract": "",
    "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260812000035",
    "symbol": "095660",
    "company": "네오위즈",
    "src_kind": "공시",
-   "abstract": "",
    "sectors": [],
    "watch": [],
    "id": 86,
@@ -1815,11 +1815,11 @@
    "kinds": [
     "자본"
    ],
+   "abstract": "",
    "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260812000001",
    "symbol": "288980",
    "company": "모아데이타",
    "src_kind": "공시",
-   "abstract": "",
    "sectors": [],
    "watch": [],
    "id": 87,
@@ -1835,11 +1835,11 @@
    "kinds": [
     "위험"
    ],
+   "abstract": "",
    "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811000703",
    "symbol": "065420",
    "company": "에스아이리소스",
    "src_kind": "공시",
-   "abstract": "",
    "sectors": [],
    "watch": [],
    "id": 88,
@@ -1855,11 +1855,11 @@
    "kinds": [
     "자본"
    ],
+   "abstract": "",
    "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811000693",
    "symbol": "378800",
    "company": "샤페론",
    "src_kind": "공시",
-   "abstract": "",
    "sectors": [],
    "watch": [],
    "id": 89,
@@ -1875,11 +1875,11 @@
    "kinds": [
     "자본"
    ],
+   "abstract": "",
    "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811000684",
    "symbol": "060230",
    "company": "제이케이시냅스",
    "src_kind": "공시",
-   "abstract": "",
    "sectors": [],
    "watch": [],
    "id": 90,
@@ -1895,11 +1895,11 @@
    "kinds": [
     "자본"
    ],
+   "abstract": "",
    "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811000678",
    "symbol": "060230",
    "company": "제이케이시냅스",
    "src_kind": "공시",
-   "abstract": "",
    "sectors": [],
    "watch": [],
    "id": 91,
@@ -1915,11 +1915,11 @@
    "kinds": [
     "의지"
    ],
+   "abstract": "",
    "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811000585",
    "symbol": "344860",
    "company": "이노진",
    "src_kind": "공시",
-   "abstract": "",
    "sectors": [],
    "watch": [],
    "id": 92,
@@ -1935,11 +1935,11 @@
    "kinds": [
     "자본"
    ],
+   "abstract": "",
    "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811000550",
    "symbol": "080720",
    "company": "한국유니온제약",
    "src_kind": "공시",
-   "abstract": "",
    "sectors": [
     "바이오/의료"
    ],
@@ -1957,11 +1957,11 @@
    "kinds": [
     "자본"
    ],
+   "abstract": "",
    "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811000548",
    "symbol": "080720",
    "company": "한국유니온제약",
    "src_kind": "공시",
-   "abstract": "",
    "sectors": [
     "바이오/의료"
    ],
@@ -1979,11 +1979,11 @@
    "kinds": [
     "자본"
    ],
+   "abstract": "",
    "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811000546",
    "symbol": "080720",
    "company": "한국유니온제약",
    "src_kind": "공시",
-   "abstract": "",
    "sectors": [
     "바이오/의료"
    ],
@@ -2001,11 +2001,11 @@
    "kinds": [
     "자본"
    ],
+   "abstract": "",
    "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811000532",
    "symbol": "123010",
    "company": "알엔티엑스",
    "src_kind": "공시",
-   "abstract": "",
    "sectors": [],
    "watch": [],
    "id": 96,
@@ -2021,11 +2021,11 @@
    "kinds": [
     "자본"
    ],
+   "abstract": "",
    "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811000481",
    "symbol": "009730",
    "company": "이렘",
    "src_kind": "공시",
-   "abstract": "",
    "sectors": [],
    "watch": [],
    "id": 97,
@@ -2041,11 +2041,11 @@
    "kinds": [
     "자본"
    ],
+   "abstract": "",
    "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811000527",
    "symbol": "083660",
    "company": "CSA 코스믹",
    "src_kind": "공시",
-   "abstract": "",
    "sectors": [],
    "watch": [],
    "id": 98,
@@ -2061,11 +2061,11 @@
    "kinds": [
     "자본"
    ],
+   "abstract": "",
    "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811000502",
    "symbol": "083660",
    "company": "CSA 코스믹",
    "src_kind": "공시",
-   "abstract": "",
    "sectors": [],
    "watch": [],
    "id": 99,
@@ -2081,11 +2081,11 @@
    "kinds": [
     "자본"
    ],
+   "abstract": "",
    "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811000472",
    "symbol": "466100",
    "company": "클로봇",
    "src_kind": "공시",
-   "abstract": "",
    "sectors": [],
    "watch": [
     "로봇"
@@ -2103,11 +2103,11 @@
    "kinds": [
     "자본"
    ],
+   "abstract": "",
    "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811000451",
    "symbol": "321370",
    "company": "센서뷰",
    "src_kind": "공시",
-   "abstract": "",
    "sectors": [],
    "watch": [],
    "id": 101,
@@ -2123,11 +2123,11 @@
    "kinds": [
     "자본"
    ],
+   "abstract": "",
    "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811000425",
    "symbol": "377030",
    "company": "비트맥스",
    "src_kind": "공시",
-   "abstract": "",
    "sectors": [],
    "watch": [],
    "id": 102,
@@ -2143,11 +2143,11 @@
    "kinds": [
     "의지"
    ],
+   "abstract": "",
    "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811000418",
    "symbol": "332570",
    "company": "PS일렉트로닉스",
    "src_kind": "공시",
-   "abstract": "",
    "sectors": [],
    "watch": [],
    "id": 103,
@@ -2163,11 +2163,11 @@
    "kinds": [
     "의지"
    ],
+   "abstract": "",
    "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811000401",
    "symbol": "218410",
    "company": "RFHIC",
    "src_kind": "공시",
-   "abstract": "",
    "sectors": [],
    "watch": [],
    "id": 104,
@@ -2183,11 +2183,11 @@
    "kinds": [
     "자본"
    ],
+   "abstract": "",
    "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811000390",
    "symbol": "322780",
    "company": "코퍼스코리아",
    "src_kind": "공시",
-   "abstract": "",
    "sectors": [],
    "watch": [],
    "id": 105,
@@ -2203,11 +2203,11 @@
    "kinds": [
     "의지"
    ],
+   "abstract": "",
    "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811000362",
    "symbol": "122990",
    "company": "와이솔",
    "src_kind": "공시",
-   "abstract": "",
    "sectors": [],
    "watch": [],
    "id": 106,
@@ -2223,11 +2223,11 @@
    "kinds": [
     "자본"
    ],
+   "abstract": "",
    "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811000366",
    "symbol": "032800",
    "company": "판타지오",
    "src_kind": "공시",
-   "abstract": "",
    "sectors": [],
    "watch": [],
    "id": 107,
@@ -2243,11 +2243,11 @@
    "kinds": [
     "의지"
    ],
+   "abstract": "",
    "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811000358",
    "symbol": "004780",
    "company": "대륙제관",
    "src_kind": "공시",
-   "abstract": "",
    "sectors": [],
    "watch": [],
    "id": 108,
@@ -2263,11 +2263,11 @@
    "kinds": [
     "자본"
    ],
+   "abstract": "",
    "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811000312",
    "symbol": "060230",
    "company": "제이케이시냅스",
    "src_kind": "공시",
-   "abstract": "",
    "sectors": [],
    "watch": [],
    "id": 109,
@@ -2283,11 +2283,11 @@
    "kinds": [
     "의지"
    ],
+   "abstract": "",
    "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811000291",
    "symbol": "263920",
    "company": "휴엠앤씨",
    "src_kind": "공시",
-   "abstract": "",
    "sectors": [],
    "watch": [],
    "id": 110,
@@ -2303,11 +2303,11 @@
    "kinds": [
     "의지"
    ],
+   "abstract": "",
    "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811000158",
    "symbol": "450330",
    "company": "하스",
    "src_kind": "공시",
-   "abstract": "",
    "sectors": [],
    "watch": [],
    "id": 111,
@@ -2323,11 +2323,11 @@
    "kinds": [
     "자본"
    ],
+   "abstract": "",
    "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811000009",
    "symbol": "011370",
    "company": "서한",
    "src_kind": "공시",
-   "abstract": "",
    "sectors": [],
    "watch": [],
    "id": 112,
@@ -2343,11 +2343,11 @@
    "kinds": [
     "자본"
    ],
+   "abstract": "",
    "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260810000743",
    "symbol": "060900",
    "company": "에이전트AI",
    "src_kind": "공시",
-   "abstract": "",
    "sectors": [],
    "watch": [],
    "id": 113,
@@ -2363,11 +2363,11 @@
    "kinds": [
     "자본"
    ],
+   "abstract": "",
    "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260810000728",
    "symbol": "009620",
    "company": "삼보산업",
    "src_kind": "공시",
-   "abstract": "",
    "sectors": [],
    "watch": [],
    "id": 114,
@@ -2383,11 +2383,11 @@
    "kinds": [
     "의지"
    ],
+   "abstract": "",
    "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260810000474",
    "symbol": "211050",
    "company": "인카금융서비스",
    "src_kind": "공시",
-   "abstract": "",
    "sectors": [],
    "watch": [],
    "id": 115,
@@ -2403,11 +2403,11 @@
    "kinds": [
     "의지"
    ],
+   "abstract": "",
    "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260810000292",
    "symbol": "035080",
    "company": "그래디언트",
    "src_kind": "공시",
-   "abstract": "",
    "sectors": [],
    "watch": [],
    "id": 116,
@@ -2423,11 +2423,11 @@
    "kinds": [
     "자본"
    ],
+   "abstract": "",
    "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260810000282",
    "symbol": "309930",
    "company": "조이웍스앤코",
    "src_kind": "공시",
-   "abstract": "",
    "sectors": [],
    "watch": [],
    "id": 117,
@@ -2443,11 +2443,11 @@
    "kinds": [
     "의지"
    ],
+   "abstract": "",
    "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260810000244",
    "symbol": "363260",
    "company": "모비데이즈",
    "src_kind": "공시",
-   "abstract": "",
    "sectors": [],
    "watch": [],
    "id": 118,
@@ -2463,11 +2463,11 @@
    "kinds": [
     "자본"
    ],
+   "abstract": "",
    "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260810000220",
    "symbol": "340810",
    "company": "시선AI",
    "src_kind": "공시",
-   "abstract": "",
    "sectors": [],
    "watch": [],
    "id": 119,
@@ -2483,11 +2483,11 @@
    "kinds": [
     "자본"
    ],
+   "abstract": "",
    "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260807000794",
    "symbol": "007820",
    "company": "엠엑스로보틱스",
    "src_kind": "공시",
-   "abstract": "",
    "sectors": [],
    "watch": [],
    "id": 120,
@@ -2500,6 +2500,7 @@
    "date": "2026-08-10",
    "org": "SEC·감시종목",
    "official": true,
+   "abstract": "soun-20260630 0001840856 2026년 2분기 false 12-31 4 P3Y P3Y P3Y one 90 91 212 183 571 xbrli:shares iso4217:USD iso4217:USD xbrli:shares xbrli:pure soun:tranche soun:vote utr:Rate soun:Year soun:pure soun:segment 0001840856 2026-01-01 2026-06-30 0001840856 us-gaap:CommonClassAMember 2026-01-01 2026-06-30 0001840856 us-gaap:WarrantMember 2026-01-01 2026-06-30 0001840856 us-gaap:CommonClassAember 2026-08",
    "kinds": [
     "실체"
    ],
@@ -2507,7 +2508,6 @@
    "symbol": "SOUN",
    "company": "SOUNDHOUND AI, INC.",
    "src_kind": "공시",
-   "abstract": "",
    "sectors": [],
    "watch": [],
    "id": 121,
@@ -2660,7 +2660,7 @@
    "core": "구동형 마이크로모빌리티 장치",
    "title_en": "Powered Micromobility Devices",
    "date": "2026-08-12",
-   "abstract": "국립공원관리청은 국립공원 시스템 내에서 구동되는 마이크로모빌리티 장치의 사용을 위한 관리 프레임워크를 마무리합니다. 최종 규칙은 자동차, 전통 자전거, 전기 자전거, 인력으로 구동되는 해안 장치와 별도로 전동 마이크로모빌리티 장치를 정의하고 국립공원 시스템 단위에서 이러한 장치를 사용할 수 있는 위치와 방법에 대한 규칙을 만듭니다. 예 o",
+   "abstract": "국립공원관리청은 국립공원 시스템 내에서 구동되는 마이크로모빌리티 장치의 사용을 위한 관리 프레임워크를 마무리합니다. 최종 규칙은 자동차, 전통 자전거, 전기 자전거, 인력으로 구동되는 해안 장치와 별도로 구동형 마이크로모빌리티 장치를 정의하고 국립공원 시스템 단위에서 이러한 장치를 사용할 수 있는 위치와 방법에 대한 규칙을 만듭니다. 예 o",
    "abstract_en": "The National Park Service finalizes a management framework for the use of powered micromobility devices within the National Park System. The final rule defines powered micromobility devices separately from motor vehicles, traditional bicycles, electric bicycles, and human powered coasting devices, and creates rules for where and how they may be used in units of the National Park System. Examples of powered micromobility devices include electric scooters (e- scooters), hoverboards, and Segways.",
    "org": "Interior Department, National Park Service",
    "link": "https://www.federalregister.gov/documents/2026/08/12/2026-16388/powered-micromobility-devices",
@@ -2756,7 +2756,7 @@
    "core": "안전지대; 미시간 호수, 일리노이주 시카고",
    "title_en": "Safety Zone; Lake Michigan, Chicago, IL",
    "date": "2026-08-11",
-   "abstract": "해안 경비대는 일리노이주 시카고 미시간 호수의 먼로 항의 작은 지역 내에 항해 가능한 수역을 위한 임시 안전 구역을 설정하고 있습니다. 이 조치는 시카고 트라이애슬론 수영 경기로 인해 발생하는 잠재적인 위험으로부터 인원, 선박 및 해양 환경을 보호하는 데 필요합니다. 선장이 특별히 승인하지 않는 한 이 구역에 선박이나 사람의 출입이 금지됩니다.",
+   "abstract": "해안경비대는 일리노이주 시카고 미시간 호수의 먼로 항의 작은 지역 내에 항해 가능한 수역을 위한 임시 안전 구역을 설정하고 있습니다. 이 조치는 시카고 트라이애슬론 수영 경기로 인해 발생하는 잠재적인 위험으로부터 인원, 선박 및 해양 환경을 보호하는 데 필요합니다. 선장이 특별히 승인하지 않는 한 이 구역에 선박이나 사람의 출입이 금지됩니다.",
    "abstract_en": "The Coast Guard is establishing a temporary safety zone for navigable waters within a small area of Monroe Harbor in Lake Michigan in Chicago, IL. This action is necessary to protect personnel, vessels, and the marine environment from potential hazards created by the Chicago Triathlon swim event. Entry of vessels or persons into this zone is prohibited unless specifically authorized by the Captain of the Port, Sector Lake Michigan or their designated representative.",
    "org": "Homeland Security Department, Coast Guard",
    "link": "https://www.federalregister.gov/documents/2026/08/11/2026-16341/safety-zone-lake-michigan-chicago-il",
@@ -2780,7 +2780,7 @@
    "core": "구식 항해 및 선박 검사 안내장의 취소",
    "title_en": "Cancellation of Obsolete Navigation and Vessel Inspection Circular",
    "date": "2026-08-11",
-   "abstract": "해안경비대는 구식 항해 및 선박검사 통지서(NVIC)의 취소를 발표했습니다. NVIC는 해안경비대가 발행한 지침 문서입니다. 법적 구속력은 없지만 NVIC는 현장 직원이 수행하는 해안 경비대 검사 및 기타 규제 조치가 완전하고 일관되게 수행되도록 돕습니다. 마찬가지로 해양 산업과 일반 대중도 NVIC에 의존하고 있습니다.",
+   "abstract": "해안경비대가 구식 항해 및 선박검사 통지서(NVIC)의 취소를 발표했습니다. NVIC는 해안경비대가 발행한 지침 문서입니다. 법적 구속력은 없지만 NVIC는 현장 직원이 수행하는 해안 경비대 검사 및 기타 규제 조치가 완전하고 일관되게 수행되도록 돕습니다. 마찬가지로 해양 산업과 일반 대중도 NVIC에 의존하고 있습니다.",
    "abstract_en": "The Coast Guard announces the cancellation of an obsolete Navigation and Vessel Inspection Circular (NVIC). NVICs are guidance documents issued by the Coast Guard. While they do not have the force of law, NVICs help ensure Coast Guard inspections and other regulatory actions conducted by field personnel are complete and consistent. Similarly, the marine industry and the general public rely on NVICs to assess how the Coast Guard will enforce certain regulations or conduct various marine safety programs. Thus, to avoid confusion, it is important that the public be notified when NVICs are cancelled.",
    "org": "Homeland Security Department, Coast Guard",
    "link": "https://www.federalregister.gov/documents/2026/08/11/2026-16337/cancellation-of-obsolete-navigation-and-vessel-inspection-circular",
@@ -2851,7 +2851,7 @@
    "core": "\"폐버스 황당...청년이 좋아하는 주택공급 대책 내놓길\"",
    "date": "Wed, 12 Aug 2026",
    "abstract": "\"폐버스 황당...청년이 좋아하는 주택공급 대책 내놓길\"&nbsp;&nbsp;YTN",
-   "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1OaGYzVUpKeWpnWnVKSHRQV1l0NEFCS3ZuQXdFSWpRNTNyLTVSSHg1YlU5bFlheVdmaHE5LTI2NEcxQUpqOFJMTnlTXzFybUpCVi01Y01OZGtkNDRWOEE?oc=5",
+   "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBpMERGQkpLekw3aUM0ZXhldDhBVGF2R0VJeVNuWDJOQk5iSUM2b0liT0hlZUdxREx0MXlRTjJ6RFJXLXQwZDZoaWVsakV4WlVhc0xoTTB1YkgxT2lZMnc?oc=5",
    "official": false,
    "org": "YTN",
    "kinds": [
@@ -2903,13 +2903,13 @@
    "src_name": "한국 정책 (부처 발표)"
   },
   {
-   "title": "세제개편에 韓 부동산은 혼돈…시장은 셈법 복잡, 건설사는 '훈풍' 기대 - 인베스트조선",
+   "title": "세제개편에 韓 부동산은 혼돈…시장은 셈법 복잡, 건설사는 '훈풍' 기대 - investchosun.com",
    "core": "세제개편에 韓 부동산은 혼돈…시장은 셈법 복잡, 건설사는 '훈풍' 기대",
    "date": "Tue, 11 Aug 2026",
-   "abstract": "세제개편에 韓 부동산은 혼돈…시장은 셈법 복잡, 건설사는 '훈풍' 기대&nbsp;&nbsp;인베스트조선",
+   "abstract": "세제개편에 韓 부동산은 혼돈…시장은 셈법 복잡, 건설사는 '훈풍' 기대&nbsp;&nbsp;investchosun.com",
    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPN2hHUTY5NTBuQjJnc2wtYXN5R2RrSnlHbnUyckl0S09oRV9zR0ZiUkJ4WndPNlVjY21RTGx4ekd6T3N5LXEyWXczVXRHU0NMYnEzcENvVHI4NGx2RnhYTVlXMDl3aUFaT1VyTk5OdE9JMFlyYW9nZXV4MUlqN1dCVW5aZw?oc=5",
    "official": false,
-   "org": "인베스트조선",
+   "org": "investchosun.com",
    "kinds": [
     "정책"
    ],
@@ -2982,26 +2982,6 @@
    "src_name": "한국 정책 (부처 발표)"
   },
   {
-   "title": "[에브리리서치] 세제개편안 '세금폭탄' 48.3%…20·30대·70대 과반 - 폴리뉴스 Polinews",
-   "core": "[에브리리서치] 세제개편안 '세금폭탄' 48.3%…20·30대·70대 과반",
-   "date": "Wed, 12 Aug 2026",
-   "abstract": "[에브리리서치] 세제개편안 '세금폭탄' 48.3%…20·30대·70대 과반&nbsp;&nbsp;폴리뉴스 Polinews",
-   "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE81dFRnRW9udlJzOHhvUXlydEkzRG5STkZIQ19sYTZ2elFyUm5INHVRUUtwbHBwOTZULU50ZnVyeHJxSzhmS3dTV2l1Yjl5YlBOVV9BZnVqNVF1U05lcWVaVGZPQzYxMk8yNFhRTzZB0gFyQVVfeXFMUHhHUEY4Tjc0ZmFydWxUeUpnc1hWcHZqeWRyc2VfVk5ycVZnWWl0ekJJMUZBOW5RN3I4NHdjVWJyQmNzRkp4MkxaR0tXYzVWa0xhQnJUcHp5Z2Y3NUhpR3ZFcFRwaTBVYm9wY1dueXdkcHhR?oc=5",
-   "official": false,
-   "org": "폴리뉴스 Polinews",
-   "kinds": [
-    "정책"
-   ],
-   "src_kind": "정책",
-   "sectors": [
-    "보조금/세제"
-   ],
-   "watch": [],
-   "id": 143,
-   "src": "KR_POLICY",
-   "src_name": "한국 정책 (부처 발표)"
-  },
-  {
    "title": "정부 세제개편에 혼인·출산 불이익 개선 담아 - 지디넷코리아",
    "core": "정부 세제개편에 혼인·출산 불이익 개선 담아",
    "date": "Wed, 12 Aug 2026",
@@ -3017,7 +2997,7 @@
     "보조금/세제"
    ],
    "watch": [],
-   "id": 144,
+   "id": 143,
    "src": "KR_POLICY",
    "src_name": "한국 정책 (부처 발표)"
   },
@@ -3037,7 +3017,7 @@
     "보조금/세제"
    ],
    "watch": [],
-   "id": 145,
+   "id": 144,
    "src": "KR_POLICY",
    "src_name": "한국 정책 (부처 발표)"
   },
@@ -3055,7 +3035,7 @@
    "src_kind": "정책",
    "sectors": [],
    "watch": [],
-   "id": 146,
+   "id": 145,
    "src": "KR_POLICY",
    "src_name": "한국 정책 (부처 발표)"
   },
@@ -3067,6 +3047,26 @@
    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5tTzQ0RXFuVXNheWdaZzhmckdWcDVrclhLT096enpXcVE4dkZJaVV3c0hxb0MyVS1hd0R6ZHd0eUtZbUJ0ZUhieGh5T3hPNmtfNHRmUHJWVTRHZC1RNlRxZy00NHdYRG8tSlhJclBB?oc=5",
    "official": false,
    "org": "아시아투데이",
+   "kinds": [
+    "정책"
+   ],
+   "src_kind": "정책",
+   "sectors": [
+    "건설/부동산"
+   ],
+   "watch": [],
+   "id": 146,
+   "src": "KR_POLICY",
+   "src_name": "한국 정책 (부처 발표)"
+  },
+  {
+   "title": "이르면 이번 주 부동산 대책…정부 \"공급 늘릴 것\" - OBS경인TV",
+   "core": "이르면 이번 주 부동산 대책…정부 \"공급 늘릴 것\"",
+   "date": "Wed, 12 Aug 2026",
+   "abstract": "이르면 이번 주 부동산 대책…정부 \"공급 늘릴 것\"&nbsp;&nbsp;OBS경인TV",
+   "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE81MGg0Mm1DZGxWNm1zNlJTX1Y0TDNhem9WQ0pjaURyU19PSFJYYlMxT0dUc0ZRaDBfVFNZVUFnSERLS1l3bVpFRExlenhQdjhUeXRNdGduVW1EMl9sTFIxNzZ5MjdDdnBOdEdHTlFR?oc=5",
+   "official": false,
+   "org": "OBS경인TV",
    "kinds": [
     "정책"
    ],
@@ -3139,19 +3139,18 @@
    "src_name": "한국 산업·공급망"
   },
   {
-   "title": "핵심광물 재자원화율 20% 목표… 첨단 공급망에 10조원 R&D 투입 - 에너지플랫폼뉴스",
+   "title": "핵심광물 재자원화율 20% 목표… 첨단 공급망에 10조원 R&D 투입 - e-platform.net",
    "core": "핵심광물 재자원화율 20% 목표… 첨단 공급망에 10조원 R&D 투입",
    "date": "Wed, 12 Aug 2026",
-   "abstract": "핵심광물 재자원화율 20% 목표… 첨단 공급망에 10조원 R&amp;D 투입&nbsp;&nbsp;에너지플랫폼뉴스",
+   "abstract": "핵심광물 재자원화율 20% 목표… 첨단 공급망에 10조원 R&amp;D 투입&nbsp;&nbsp;e-platform.net",
    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1OM2NHcHNhdU56Y1V6UlRSU2IxYkVkbERJTWFVSkRBaTlNV1hPeFZveGNuSWx1bm9fNU0yR3NuZ1R6b1puSzE0UWdOaEVxeWxsR0F0N0Q0RGZPVDM3dzdCREpqQ0Q2RVgxYXZLTEVqZ3TSAXBBVV95cUxNTjNjR3BzYXVOemNVelJUUlNiMWJFZGxESU1hVUpEQWk5TVdYT3hWb3hjbklsdW5vXzVNMkdzbmdUem9abksxNFFnTmhFcXlsbEdBdDdENERmT1QzN3c3QkRKakNENkVYMWF2S0xFamd0?oc=5",
    "official": false,
-   "org": "에너지플랫폼뉴스",
+   "org": "e-platform.net",
    "kinds": [
     "정책"
    ],
    "src_kind": "산업",
    "sectors": [
-    "전력/원자력",
     "금속/광물"
    ],
    "watch": [],
@@ -3183,6 +3182,24 @@
    "src_name": "한국 산업·공급망"
   },
   {
+   "title": "‘대체불가 대한민국’ 꽃피울 '7대 첨단기술' 씨뿌린다 - 넷제로뉴스",
+   "core": "‘대체불가 대한민국’ 꽃피울 '7대 첨단기술' 씨뿌린다",
+   "date": "Wed, 12 Aug 2026",
+   "abstract": "‘대체불가 대한민국’ 꽃피울 '7대 첨단기술' 씨뿌린다&nbsp;&nbsp;넷제로뉴스",
+   "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE53WWJTTzk4VEdPWjR0TmVFNzZMZFJjMFFEbnUyaFkydG92ZkE4dUNlYjFKeDJYR2VSMVA5OVJXcHJWTmVXVm5HejRpVTkzMk1ONF8tdVlnbkstMHFwLW1vRDVoR3hXQzIyN3prR3Rn0gFuQVVfeXFMTndZYlNPOThUR09aNHROZUU3NkxkUmMwUURudTJoWTJ0b3ZmQTh1Q2ViMUp4MlhHZVIxUDk5UldwclZOZVdWbkd6NGlVOTMyTU40Xy11WWduSy0wcXAtbW9ENWhHeFdDMjI3emtHdGc?oc=5",
+   "official": false,
+   "org": "넷제로뉴스",
+   "kinds": [
+    "정책"
+   ],
+   "src_kind": "산업",
+   "sectors": [],
+   "watch": [],
+   "id": 153,
+   "src": "KR_INDUS",
+   "src_name": "한국 산업·공급망"
+  },
+  {
    "title": "코트라, '수출 1조달러' 향해 다변화 속도… 신흥시장·비반도체 공략 - S저널",
    "core": "코트라, '수출 1조달러' 향해 다변화 속도… 신흥시장·비반도체 공략",
    "date": "Tue, 11 Aug 2026",
@@ -3200,7 +3217,7 @@
    "watch": [
     "반도체"
    ],
-   "id": 153,
+   "id": 154,
    "src": "KR_INDUS",
    "src_name": "한국 산업·공급망"
   },
@@ -3218,25 +3235,25 @@
    "src_kind": "산업",
    "sectors": [],
    "watch": [],
-   "id": 154,
+   "id": 155,
    "src": "KR_INDUS",
    "src_name": "한국 산업·공급망"
   },
   {
-   "title": "코트라, 수출 다변화 총력전…\"수출 1조 달러, 수출 4강 달성 앞당긴다\" - news1.kr",
+   "title": "코트라, 수출 다변화 총력전…\"수출 1조 달러, 수출 4강 달성 앞당긴다\" - 뉴스1",
    "core": "코트라, 수출 다변화 총력전…\"수출 1조 달러, 수출 4강 달성 앞당긴다\"",
    "date": "Tue, 11 Aug 2026",
-   "abstract": "코트라, 수출 다변화 총력전…\"수출 1조 달러, 수출 4강 달성 앞당긴다\"&nbsp;&nbsp;news1.kr",
+   "abstract": "코트라, 수출 다변화 총력전…\"수출 1조 달러, 수출 4강 달성 앞당긴다\"&nbsp;&nbsp;뉴스1",
    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5vQUJyMFQtN3FtLVFUMkcwYjZ0ZWxfLVB6RkRRR1lLcWlrSlBsOGtjTWd4UE93WGVxS1hiWkFqcldLa3dPSlB5UGh6UEVyaXRzUjQ1Nm9hNTBGSHh2VURSaExCenTSAWRBVV95cUxOb0FCcjBULTdxbS1RVDJHMGI2dGVsXy1QekZEUUdZS3Fpa0pQbDhrY01neFBPd1hlcUtYYlpBanJXS2t3T0pQeVBoelBFcml0c1I0NTZvYTUwRkh4dlVEUmhMQnp0?oc=5",
    "official": false,
-   "org": "news1.kr",
+   "org": "뉴스1",
    "kinds": [
     "정책"
    ],
    "src_kind": "산업",
    "sectors": [],
    "watch": [],
-   "id": 155,
+   "id": 156,
    "src": "KR_INDUS",
    "src_name": "한국 산업·공급망"
   },
@@ -3254,36 +3271,18 @@
    "src_kind": "산업",
    "sectors": [],
    "watch": [],
-   "id": 156,
-   "src": "KR_INDUS",
-   "src_name": "한국 산업·공급망"
-  },
-  {
-   "title": "KOTRA, 수출 스타기업 500개 육성…수출 다변화 흐름 선도 - 데일리안",
-   "core": "KOTRA, 수출 스타기업 500개 육성…수출 다변화 흐름 선도",
-   "date": "Tue, 11 Aug 2026",
-   "abstract": "KOTRA, 수출 스타기업 500개 육성…수출 다변화 흐름 선도&nbsp;&nbsp;데일리안",
-   "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPQVhrV2dQNG5hQTBCeGxSbUdsNFA2d0pnV2RidFkxdXRLUldmX3NjVU9IcGZWdzVVTkNkUmZJM1Y3R043ODl6eTJpTTRYUGctMHp5UENmbWhtZURKVjgzSG9nNzdpMVhnQlA2OWZHdXIyNlNtWW1kdlI3aU1pVGxsOFVINW5hZnEwN3lHWHdBSHhJMjRIQkpkRTNHeGFvYlpoZXRJdV9DcUVnOG16ZGw1T0pMdV9Tb0RJcVZLZDBaNl9RQ1M2T1duVHpYZjFaZw?oc=5",
-   "official": false,
-   "org": "데일리안",
-   "kinds": [
-    "정책"
-   ],
-   "src_kind": "산업",
-   "sectors": [],
-   "watch": [],
    "id": 157,
    "src": "KR_INDUS",
    "src_name": "한국 산업·공급망"
   },
   {
-   "title": "(참고) 첨단기술이 여는 미래, 미래성장동력 「7대 SEED」 보고회 개최 - 네이트",
-   "core": "(참고) 첨단기술이 여는 미래, 미래성장동력 「7대 SEED」 보고회 개최",
-   "date": "Wed, 12 Aug 2026",
-   "abstract": "(참고) 첨단기술이 여는 미래, 미래성장동력 「7대 SEED」 보고회 개최&nbsp;&nbsp;네이트",
-   "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE4ySTlZYUJNLXRjMU50RWJOMnNiMmdWeFN2M2xXeXg1YlZrQWE4cHNLRmh4dEFvR2NnNUdGRF9VckJhMVIxUm56d1RIVFJTOXppN2Nv?oc=5",
+   "title": "KOTRA, 수출 스타기업 500개 육성…수출 다변화 흐름 선도 - dailian.co.kr",
+   "core": "KOTRA, 수출 스타기업 500개 육성…수출 다변화 흐름 선도",
+   "date": "Tue, 11 Aug 2026",
+   "abstract": "KOTRA, 수출 스타기업 500개 육성…수출 다변화 흐름 선도&nbsp;&nbsp;dailian.co.kr",
+   "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPQVhrV2dQNG5hQTBCeGxSbUdsNFA2d0pnV2RidFkxdXRLUldmX3NjVU9IcGZWdzVVTkNkUmZJM1Y3R043ODl6eTJpTTRYUGctMHp5UENmbWhtZURKVjgzSG9nNzdpMVhnQlA2OWZHdXIyNlNtWW1kdlI3aU1pVGxsOFVINW5hZnEwN3lHWHdBSHhJMjRIQkpkRTNHeGFvYlpoZXRJdV9DcUVnOG16ZGw1T0pMdV9Tb0RJcVZLZDBaNl9RQ1M2T1duVHpYZjFaZw?oc=5",
    "official": false,
-   "org": "네이트",
+   "org": "dailian.co.kr",
    "kinds": [
     "정책"
    ],
@@ -3351,13 +3350,13 @@
    "src_name": "해외발 충격 (영문)"
   },
   {
-   "title": "USMCA: Strategic Decisions That Will Shape Auto Sector's Future - mexicobusiness.news",
+   "title": "USMCA: Strategic Decisions That Will Shape Auto Sector's Future - Mexico Business News",
    "core": "USMCA: Strategic Decisions That Will Shape Auto Sector's Future",
    "date": "Wed, 12 Aug 2026",
-   "abstract": "USMCA: Strategic Decisions That Will Shape Auto Sector's Future&nbsp;&nbsp;mexicobusiness.news",
+   "abstract": "USMCA: Strategic Decisions That Will Shape Auto Sector's Future&nbsp;&nbsp;Mexico Business News",
    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQVTNJNldNVUlWNERUSTZmZjhEYUdHNFdMUjJpYm8waDRnRnZVNGhwcld3Vko3LU1QODZkNzZkOUVHMW9FN1BOQ1pHZVJvbTZ2LUJKQlBRYmlHRjBxMU5IdHB4Y2JLQVpOVTlvVVBzall3NGxtVU1SM2hSM1FiU0U4QTlNYWg2UEJxbVlPTFpkZVZWMHlnaS11WWZWd2N1bVp0WUE?oc=5",
    "official": false,
-   "org": "mexicobusiness.news",
+   "org": "Mexico Business News",
    "kinds": [
     "정책"
    ],
@@ -3409,13 +3408,13 @@
    "src_name": "해외발 충격 (영문)"
   },
   {
-   "title": "Trump tariffs fallout: China moves to join Brazil’s WTO challenge of US forced labor duties - Undercurrent News",
+   "title": "Trump tariffs fallout: China moves to join Brazil’s WTO challenge of US forced labor duties - undercurrentnews.com",
    "core": "Trump tariffs fallout: China moves to join Brazil’s WTO challenge of US forced labor duties",
    "date": "Wed, 12 Aug 2026",
-   "abstract": "Trump tariffs fallout: China moves to join Brazil’s WTO challenge of US forced labor duties&nbsp;&nbsp;Undercurrent News",
+   "abstract": "Trump tariffs fallout: China moves to join Brazil’s WTO challenge of US forced labor duties&nbsp;&nbsp;undercurrentnews.com",
    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5lbDBwSXYtSDBMaGNCMXNiVm1QU0htVGlHU1FDVi1NVE5zai11TmpKc2hydkt1elpKVjZTOVhLNW56clZEZmNmRWtCb1hFYzdIWWdkOFFfeEZVUml0Vm1EaFllV1ZubjJrcUVuLVE5dkVVSEdG?oc=5",
    "official": false,
-   "org": "Undercurrent News",
+   "org": "undercurrentnews.com",
    "kinds": [
     "정책"
    ],
@@ -3481,13 +3480,13 @@
    "src_name": "해외발 충격 (영문)"
   },
   {
-   "title": "Is Climate Diplomacy Becoming National Security Policy? - moderndiplomacy.eu",
+   "title": "Is Climate Diplomacy Becoming National Security Policy? - Modern Diplomacy",
    "core": "Is Climate Diplomacy Becoming National Security Policy?",
    "date": "Wed, 12 Aug 2026",
-   "abstract": "Is Climate Diplomacy Becoming National Security Policy?&nbsp;&nbsp;moderndiplomacy.eu",
+   "abstract": "Is Climate Diplomacy Becoming National Security Policy?&nbsp;&nbsp;Modern Diplomacy",
    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNdGtxZFRZUF9MMmcyQnkwT0ZsRUluR3UwX1JRUXJqMFpYLVRiSnpFSF9nTHVHX24ySFNoV3JxWGZyMGt5NWNnVTBvUTZEN2ZOUGNhN2JnN1B5VGJkbHFUaHVNdEpzTkFpWnA3SThyS21BaDVDR1llOEZyekNpTnRvbjh2TE5hVmhnRXpiVUhraVlORXdOVWN2TA?oc=5",
    "official": false,
-   "org": "moderndiplomacy.eu",
+   "org": "Modern Diplomacy",
    "kinds": [
     "정책"
    ],
@@ -3553,13 +3552,13 @@
    "src_name": "해외발 충격 (영문)"
   },
   {
-   "title": "China's rare earth exports to Japan plunge 51pc for first half: Nikkei - The Standard (HK)",
+   "title": "China's rare earth exports to Japan plunge 51pc for first half: Nikkei - thestandard.com.hk",
    "core": "China's rare earth exports to Japan plunge 51pc for first half: Nikkei",
    "date": "Tue, 11 Aug 2026",
-   "abstract": "China's rare earth exports to Japan plunge 51pc for first half: Nikkei&nbsp;&nbsp;The Standard (HK)",
+   "abstract": "China's rare earth exports to Japan plunge 51pc for first half: Nikkei&nbsp;&nbsp;thestandard.com.hk",
    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNUUlwcEFFMjFTSXN2MW5TWjllZm9HWUh1MGhqM2V4b0VrUkp1RURCal9yQVB4amFEa3o4dy1ILXgxRnQ5NFl0Uk1NTEVNYzhWTTBEQmhZdkhZZ1pZVWJYb0VmbHpfQzQyZ1N6dUdBa0s0NW1lLXQzQzVVaEdkbnk4SkFyMTd5LUhNTUJ3eTRxVEdENWQ5Z3Bfdm1XQlotUDJoSXo4OVM0blNaR2Z4VE1vdGtjeUZBYVlzY3JSQXhaOA?oc=5",
    "official": false,
-   "org": "The Standard (HK)",
+   "org": "thestandard.com.hk",
    "kinds": [
     "정책"
    ],

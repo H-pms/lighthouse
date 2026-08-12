@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-12 20:40",
+ "generated": "2026-08-12 20:43",
  "date": "2026-08-12",
  "sources": [
   {
@@ -2906,26 +2906,6 @@
    "src_name": "한국 정책 (부처 발표)"
   },
   {
-   "title": "李대통령이 열어둔 세제개편 수정…'비거주 1주택' 넘어 어디까지 손대나 - 연합인포맥스",
-   "core": "李대통령이 열어둔 세제개편 수정…'비거주 1주택' 넘어 어디까지 손대나",
-   "date": "Tue, 11 Aug 2026",
-   "abstract": "李대통령이 열어둔 세제개편 수정…'비거주 1주택' 넘어 어디까지 손대나&nbsp;&nbsp;연합인포맥스",
-   "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBfa1I4eXY1ZHBPZ3dCUm5CU1I1SElGRmhTVy1zQVEtaGF2VXZxV0VBY2J4Z1ZKR0tBcHg0Y1VkQVFNdl9IMGhsTmxJZHBxeWZhSklkNTZOQjVMbXdsR2VUOFZ1LWFKdkw1YUFJOFpWVlM?oc=5",
-   "official": false,
-   "org": "연합인포맥스",
-   "kinds": [
-    "정책"
-   ],
-   "src_kind": "정책",
-   "sectors": [
-    "보조금/세제"
-   ],
-   "watch": [],
-   "id": 139,
-   "src": "KR_POLICY",
-   "src_name": "한국 정책 (부처 발표)"
-  },
-  {
    "title": "\"재건축 규제 완화, 청년 월세공제 상향\" - 한국경제",
    "core": "\"재건축 규제 완화, 청년 월세공제 상향\"",
    "date": "Wed, 12 Aug 2026",
@@ -2939,6 +2919,26 @@
    "src_kind": "정책",
    "sectors": [
     "건설/부동산"
+   ],
+   "watch": [],
+   "id": 139,
+   "src": "KR_POLICY",
+   "src_name": "한국 정책 (부처 발표)"
+  },
+  {
+   "title": "李대통령이 열어둔 세제개편 수정…'비거주 1주택' 넘어 어디까지 손대나 - 연합인포맥스",
+   "core": "李대통령이 열어둔 세제개편 수정…'비거주 1주택' 넘어 어디까지 손대나",
+   "date": "Tue, 11 Aug 2026",
+   "abstract": "李대통령이 열어둔 세제개편 수정…'비거주 1주택' 넘어 어디까지 손대나&nbsp;&nbsp;연합인포맥스",
+   "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBfa1I4eXY1ZHBPZ3dCUm5CU1I1SElGRmhTVy1zQVEtaGF2VXZxV0VBY2J4Z1ZKR0tBcHg0Y1VkQVFNdl9IMGhsTmxJZHBxeWZhSklkNTZOQjVMbXdsR2VUOFZ1LWFKdkw1YUFJOFpWVlM?oc=5",
+   "official": false,
+   "org": "연합인포맥스",
+   "kinds": [
+    "정책"
+   ],
+   "src_kind": "정책",
+   "sectors": [
+    "보조금/세제"
    ],
    "watch": [],
    "id": 140,
@@ -3020,18 +3020,20 @@
    "src_name": "한국 정책 (부처 발표)"
   },
   {
-   "title": "당정 \"비아파트 공급 확대 속도전… 금융 지원·규제 완화\" - 파이낸셜뉴스",
-   "core": "당정 \"비아파트 공급 확대 속도전… 금융 지원·규제 완화\"",
+   "title": "이르면 이번 주 부동산 대책…정부 \"공급 늘릴 것\" - OBS경인TV",
+   "core": "이르면 이번 주 부동산 대책…정부 \"공급 늘릴 것\"",
    "date": "Wed, 12 Aug 2026",
-   "abstract": "당정 \"비아파트 공급 확대 속도전… 금융 지원·규제 완화\"&nbsp;&nbsp;파이낸셜뉴스",
-   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE84cG9XZVdfV0VvWlFjWERVaWZKeHM3X2JwOS1uYmVYbmpCbEQwZFF3TDJjLVJCal9UdEJ2em9Nb3NEdm5WU09JRi13Mnp1azdWVFh4Vmx0MklCdw?oc=5",
+   "abstract": "이르면 이번 주 부동산 대책…정부 \"공급 늘릴 것\"&nbsp;&nbsp;OBS경인TV",
+   "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE81MGg0Mm1DZGxWNm1zNlJTX1Y0TDNhem9WQ0pjaURyU19PSFJYYlMxT0dUc0ZRaDBfVFNZVUFnSERLS1l3bVpFRExlenhQdjhUeXRNdGduVW1EMl9sTFIxNzZ5MjdDdnBOdEdHTlFR?oc=5",
    "official": false,
-   "org": "파이낸셜뉴스",
+   "org": "OBS경인TV",
    "kinds": [
     "정책"
    ],
    "src_kind": "정책",
-   "sectors": [],
+   "sectors": [
+    "건설/부동산"
+   ],
    "watch": [],
    "id": 145,
    "src": "KR_POLICY",
@@ -3058,20 +3060,18 @@
    "src_name": "한국 정책 (부처 발표)"
   },
   {
-   "title": "與 \"서울 주택공급 확대, 정부·서울시 모두 공감...전월세 단기 대책도 최선\" - 뉴스핌",
-   "core": "與 \"서울 주택공급 확대, 정부·서울시 모두 공감...전월세 단기 대책도 최선\"",
+   "title": "당정 \"비아파트 공급 확대 속도전… 금융 지원·규제 완화\" - 파이낸셜뉴스",
+   "core": "당정 \"비아파트 공급 확대 속도전… 금융 지원·규제 완화\"",
    "date": "Wed, 12 Aug 2026",
-   "abstract": "與 \"서울 주택공급 확대, 정부·서울시 모두 공감...전월세 단기 대책도 최선\"&nbsp;&nbsp;뉴스핌",
-   "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9EdjQ1c0RhT2ZncVVWSWNpNXZudmxqa0tkZ3VXZVF6US02OXFvenR1ZDdMMURWMVJDU2laLXZ5NC1SZzZaNHlHZkdFbnlISEJaSlNxRlplb04tQXdU?oc=5",
+   "abstract": "당정 \"비아파트 공급 확대 속도전… 금융 지원·규제 완화\"&nbsp;&nbsp;파이낸셜뉴스",
+   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE84cG9XZVdfV0VvWlFjWERVaWZKeHM3X2JwOS1uYmVYbmpCbEQwZFF3TDJjLVJCal9UdEJ2em9Nb3NEdm5WU09JRi13Mnp1azdWVFh4Vmx0MklCdw?oc=5",
    "official": false,
-   "org": "뉴스핌",
+   "org": "파이낸셜뉴스",
    "kinds": [
     "정책"
    ],
    "src_kind": "정책",
-   "sectors": [
-    "건설/부동산"
-   ],
+   "sectors": [],
    "watch": [],
    "id": 147,
    "src": "KR_POLICY",
@@ -3160,6 +3160,24 @@
    "src_name": "한국 산업·공급망"
   },
   {
+   "title": "[IT/게임] 베트남 게임 산업의 '아이러니'… 글로벌 수출 강국이나 안방선 외산 게임 천하 - 굿모닝베트남미디어",
+   "core": "[IT/게임] 베트남 게임 산업의 '아이러니'… 글로벌 수출 강국이나 안방선 외산 게임 천하",
+   "date": "Tue, 11 Aug 2026",
+   "abstract": "[IT/게임] 베트남 게임 산업의 '아이러니'… 글로벌 수출 강국이나 안방선 외산 게임 천하&nbsp;&nbsp;굿모닝베트남미디어",
+   "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE0yZmNIclp2X1FYZDUtYWxqQ1l5eHJSTi1XaWNTRUlPTF83RHlMUFBURkJnQ0taZHdFY2w1aDk5a3BFNDRDOER2YUtsZHlfdXFXNDFrOXB3blJjcXdfaWZDNVBsWWVxek9pMFRSbXZCM00?oc=5",
+   "official": false,
+   "org": "굿모닝베트남미디어",
+   "kinds": [
+    "정책"
+   ],
+   "src_kind": "산업",
+   "sectors": [],
+   "watch": [],
+   "id": 152,
+   "src": "KR_INDUS",
+   "src_name": "한국 산업·공급망"
+  },
+  {
    "title": "정부, 피지컬 AI 구매 대폭 확대…로봇 생태계 양성 By EBN - Investing.com 한국어",
    "core": "정부, 피지컬 AI 구매 대폭 확대…로봇 생태계 양성 By EBN",
    "date": "Mon, 10 Aug 2026",
@@ -3175,7 +3193,7 @@
    "watch": [
     "로봇"
    ],
-   "id": 152,
+   "id": 153,
    "src": "KR_INDUS",
    "src_name": "한국 산업·공급망"
   },
@@ -3193,7 +3211,7 @@
    "src_kind": "산업",
    "sectors": [],
    "watch": [],
-   "id": 153,
+   "id": 154,
    "src": "KR_INDUS",
    "src_name": "한국 산업·공급망"
   },
@@ -3211,7 +3229,7 @@
    "src_kind": "산업",
    "sectors": [],
    "watch": [],
-   "id": 154,
+   "id": 155,
    "src": "KR_INDUS",
    "src_name": "한국 산업·공급망"
   },
@@ -3229,7 +3247,7 @@
    "src_kind": "산업",
    "sectors": [],
    "watch": [],
-   "id": 155,
+   "id": 156,
    "src": "KR_INDUS",
    "src_name": "한국 산업·공급망"
   },
@@ -3247,7 +3265,7 @@
    "src_kind": "산업",
    "sectors": [],
    "watch": [],
-   "id": 156,
+   "id": 157,
    "src": "KR_INDUS",
    "src_name": "한국 산업·공급망"
   },
@@ -3265,29 +3283,6 @@
    "src_kind": "산업",
    "sectors": [],
    "watch": [],
-   "id": 157,
-   "src": "KR_INDUS",
-   "src_name": "한국 산업·공급망"
-  },
-  {
-   "title": "\"중국 반도체가 SK하이닉스와 TSMC 추격 어렵다\" 평가 나와, HBM이 차별화 요소 - 비즈니스포스트",
-   "core": "\"중국 반도체가 SK하이닉스와 TSMC 추격 어렵다\" 평가 나와, HBM이 차별화 요소",
-   "date": "Tue, 11 Aug 2026",
-   "abstract": "\"중국 반도체가 SK하이닉스와 TSMC 추격 어렵다\" 평가 나와, HBM이 차별화 요소&nbsp;&nbsp;비즈니스포스트",
-   "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9Ka0RHRXNCZmlnVHdqdV9YeHpaMi1aYTRyd291VFRvNjhvNENwckQ0ZTExVVg5VXZDNy1RVDJfajBQNGFHYjNidlp5ZmpJQU5hQWdoX2FTaWhEQ01ST2ZQTkE0TjkwTl9UOVFFMUp0Q2dmTTQ?oc=5",
-   "official": false,
-   "org": "비즈니스포스트",
-   "kinds": [
-    "정책"
-   ],
-   "src_kind": "산업",
-   "sectors": [
-    "반도체/AI"
-   ],
-   "watch": [
-    "반도체",
-    "HBM"
-   ],
    "id": 158,
    "src": "KR_INDUS",
    "src_name": "한국 산업·공급망"

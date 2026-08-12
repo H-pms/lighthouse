@@ -1,7 +1,7 @@
 # 환경 브리핑 — 2026-08-12
-> 생성 2026-08-12 20:40 KST · 원천 7/7 · 수집 186건
+> 생성 2026-08-12 20:43 KST · 원천 7/7 · 수집 186건
 
-## ⭐ 워치리스트 (7건 / 감시어 21개)
+## ⭐ 워치리스트 (6건 / 감시어 21개)
 - **[로봇]** [이렘 [기재정정]주요사항보고서(유상증자결정)](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811000481) — 42건
 - **[SOUNDHOUND AI, INC.]** [SOUNDHOUND AI, INC. 10-Q 분기보고서](https://www.sec.gov/Archives/edgar/data/1840856/000184085626000022/soun-20260630.htm)
 - **[폴리실리콘]** [미국으로의 폴리실리콘 및 그 파생상품 수입 조정](https://www.federalregister.gov/documents/2026/08/11/2026-16400/adjusting-imports-of-polysilicon-and-its-derivatives-into-the-united-states)
@@ -11,8 +11,6 @@
   - 인도 비하르주 23억불 SMR 추진…한국 원전수출 ‘청신호’&nbsp;&nbsp;에너지안전신문
 - **[로봇]** [정부, 피지컬 AI 구매 대폭 확대…로봇 생태계 양성 By EBN](https://news.google.com/rss/articles/CBMicEFVX3lxTE9lNzl1UmFkWmFxZmt6U2hJN2tuZFN5RXpJUWFCbzRSYnhkSHQycVVQbGZWbFdYTUdiZ093RTJQY1Z3UC1xUEJKSWYyTjY3b2pNR28zSmlMamhVeGJXdm5RUTN6UU5UeGpnQ2tYUkdfdF8?oc=5)
   - 정부, 피지컬 AI 구매 대폭 확대…로봇 생태계 양성 By EBN&nbsp;&nbsp;Investing.com 한국어
-- **[HBM · 반도체]** ["중국 반도체가 SK하이닉스와 TSMC 추격 어렵다" 평가 나와, HBM이 차별화 요소](https://news.google.com/rss/articles/CBMic0FVX3lxTE9Ka0RHRXNCZmlnVHdqdV9YeHpaMi1aYTRyd291VFRvNjhvNENwckQ0ZTExVVg5VXZDNy1RVDJfajBQNGFHYjNidlp5ZmpJQU5hQWdoX2FTaWhEQ01ST2ZQTkE0TjkwTl9UOVFFMUp0Q2dmTTQ?oc=5)
-  - "중국 반도체가 SK하이닉스와 TSMC 추격 어렵다" 평가 나와, HBM이 차별화 요소&nbsp;&nbsp;비즈니스포스트
 
 ## ⚠️ 위험 신호 — 함정일 수 있는 것 (1건)
 <sub>소송·손실·거래정지·최대주주 변경 등. 기회보다 함정을 먼저 확인하세요.</sub>
@@ -107,9 +105,10 @@
   <sub>전력/원자력 · Homeland Security Department</sub>
   > 2022년 에너지 안보 및 경량화 독립법은 외국 무역에 종사하는 다른 선박(경량화)과 선박 간 액체 화물 운송 작업을 수행하는 개인을 포함하도록 환승 중인 외국인(C) 및 승무원으로 근무하는 외국인(D)에 대한 비이민 분류를 개정했습니다.
   > 이 법령은 자격을 갖춘 외국인이 미국에 입국하거나 요청할 수 있는 권한을 부여합니다.
-- 📰 [당정 "비아파트 공급 확대 속도전… 금융 지원·규제 완화"](https://news.google.com/rss/articles/CBMiT0FVX3lxTE1VYkhsX25JbXZqVTlLaDg3aV9JZDRndEdWZENQcjB0X0N3TF9hUHhCamJXbzJKVnZ0Z0JHSEFEREdhTmJTcHhVSi1OWnRhU2c?oc=5)  
-  <sub>v.daum.net · 2건 보도</sub>
-  > 당정 "비아파트 공급 확대 속도전… 금융 지원·규제 완화"&nbsp;&nbsp;파이낸셜뉴스
+- 📰 [이르면 이번 주 부동산 대책…정부 "공급 늘릴 것"](https://news.google.com/rss/articles/CBMibkFVX3lxTE81MGg0Mm1DZGxWNm1zNlJTX1Y0TDNhem9WQ0pjaURyU19PSFJYYlMxT0dUc0ZRaDBfVFNZVUFnSERLS1l3bVpFRExlenhQdjhUeXRNdGduVW1EMl9sTFIxNzZ5MjdDdnBOdEdHTlFR?oc=5)  
+  <sub>보조금/세제 · OBS경인TV · 2건 보도</sub>
+  > 이르면 이번 주 부동산 대책…정부 "공급 늘릴 것"&nbsp;&nbsp;OBS경인TV
+  > [뉴스초점] 정부, 세제개편안 보완 검토…이달 중 공급 대책 발표&nbsp;&nbsp;연합뉴스TV
 - _외 39건_
 
 ## 📅 예정 일정 — 다가올 사건 (1건)

@@ -1,20 +1,18 @@
 {
- "generated": "2026-08-12 20:10",
+ "generated": "2026-08-12 20:22",
  "date": "2026-08-12",
  "sources": [
   {
    "id": "DART",
    "name": "국내 공시 (DART 원문)",
-   "count": 0,
-   "ok": false,
-   "error": "RuntimeError: key.txt 에 DART_KEY 없음"
+   "count": 120,
+   "ok": true
   },
   {
    "id": "EDGAR",
    "name": "미국 공시 (SEC 원문)",
-   "count": 0,
-   "ok": false,
-   "error": "RuntimeError: 최근 5일 내 감시종목 공시 없음"
+   "count": 1,
+   "ok": true
   },
   {
    "id": "FEDREG",
@@ -50,16 +48,6 @@
  ],
  "errors": [
   {
-   "id": "DART",
-   "name": "국내 공시 (DART 원문)",
-   "error": "RuntimeError: key.txt 에 DART_KEY 없음"
-  },
-  {
-   "id": "EDGAR",
-   "name": "미국 공시 (SEC 원문)",
-   "error": "RuntimeError: 최근 5일 내 감시종목 공시 없음"
-  },
-  {
    "id": "CALENDAR",
    "name": "예정 일정",
    "error": "RuntimeError: 일정 원천 응답 없음"
@@ -68,34 +56,2471 @@
  "watchlist": [
   "반도체",
   "HBM",
-  "AI",
-  "인공지능",
   "데이터센터",
-  "로봇",
-  "전력",
+  "액침냉각",
+  "전력망",
   "원전",
-  "원유",
-  "정유",
-  "천연가스",
+  "SMR",
   "2차전지",
   "배터리",
   "조선",
   "해운",
-  "항공",
-  "물류",
-  "운송",
-  "구리",
-  "금값",
-  "니켈",
-  "희토류",
-  "철강",
-  "자동차",
-  "전기차",
   "방산",
+  "원유",
+  "천연가스",
+  "구리",
+  "희토류",
+  "폴리실리콘",
+  "전기차",
+  "로봇",
   "바이오",
-  "건설"
+  "US:SOUN"
  ],
  "items": [
+  {
+   "title": "삼성제약 — 주요사항보고서(자기전환사채만기전취득결정)",
+   "core": "삼성제약 주요사항보고서(자기전환사채만기전취득결정)",
+   "date": "20260812",
+   "org": "DART·유가증권",
+   "official": true,
+   "kinds": [
+    "자본"
+   ],
+   "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260812000765",
+   "symbol": "001360",
+   "company": "삼성제약",
+   "src_kind": "공시",
+   "abstract": "",
+   "sectors": [
+    "바이오/의료"
+   ],
+   "watch": [],
+   "id": 1,
+   "src": "DART",
+   "src_name": "국내 공시 (DART 원문)"
+  },
+  {
+   "title": "미스토홀딩스 — 주요사항보고서(자기주식취득결정)",
+   "core": "미스토홀딩스 주요사항보고서(자기주식취득결정)",
+   "date": "20260812",
+   "org": "DART·유가증권",
+   "official": true,
+   "kinds": [
+    "의지"
+   ],
+   "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260812000699",
+   "symbol": "081660",
+   "company": "미스토홀딩스",
+   "src_kind": "공시",
+   "abstract": "",
+   "sectors": [],
+   "watch": [],
+   "id": 2,
+   "src": "DART",
+   "src_name": "국내 공시 (DART 원문)"
+  },
+  {
+   "title": "영화금속 — 주요사항보고서(자기주식취득신탁계약해지결정)",
+   "core": "영화금속 주요사항보고서(자기주식취득신탁계약해지결정)",
+   "date": "20260812",
+   "org": "DART·유가증권",
+   "official": true,
+   "kinds": [
+    "의지"
+   ],
+   "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260812000647",
+   "symbol": "012280",
+   "company": "영화금속",
+   "src_kind": "공시",
+   "abstract": "",
+   "sectors": [],
+   "watch": [],
+   "id": 3,
+   "src": "DART",
+   "src_name": "국내 공시 (DART 원문)"
+  },
+  {
+   "title": "비비안 — [기재정정]주요사항보고서(무상증자결정)",
+   "core": "비비안 [기재정정]주요사항보고서(무상증자결정)",
+   "date": "20260812",
+   "org": "DART·유가증권",
+   "official": true,
+   "kinds": [
+    "자본"
+   ],
+   "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260812000624",
+   "symbol": "002070",
+   "company": "비비안",
+   "src_kind": "공시",
+   "abstract": "",
+   "sectors": [],
+   "watch": [],
+   "id": 4,
+   "src": "DART",
+   "src_name": "국내 공시 (DART 원문)"
+  },
+  {
+   "title": "에이블씨엔씨 — 주요사항보고서(자기주식취득신탁계약해지결정)",
+   "core": "에이블씨엔씨 주요사항보고서(자기주식취득신탁계약해지결정)",
+   "date": "20260811",
+   "org": "DART·유가증권",
+   "official": true,
+   "kinds": [
+    "의지"
+   ],
+   "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811000482",
+   "symbol": "078520",
+   "company": "에이블씨엔씨",
+   "src_kind": "공시",
+   "abstract": "",
+   "sectors": [],
+   "watch": [],
+   "id": 5,
+   "src": "DART",
+   "src_name": "국내 공시 (DART 원문)"
+  },
+  {
+   "title": "에이프로젠 — 주요사항보고서(전환사채권발행결정)",
+   "core": "에이프로젠 주요사항보고서(전환사채권발행결정)",
+   "date": "20260810",
+   "org": "DART·유가증권",
+   "official": true,
+   "kinds": [
+    "자본"
+   ],
+   "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260810000727",
+   "symbol": "007460",
+   "company": "에이프로젠",
+   "src_kind": "공시",
+   "abstract": "",
+   "sectors": [],
+   "watch": [],
+   "id": 6,
+   "src": "DART",
+   "src_name": "국내 공시 (DART 원문)"
+  },
+  {
+   "title": "에이프로젠 — 주요사항보고서(전환사채권발행결정)",
+   "core": "에이프로젠 주요사항보고서(전환사채권발행결정)",
+   "date": "20260810",
+   "org": "DART·유가증권",
+   "official": true,
+   "kinds": [
+    "자본"
+   ],
+   "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260810000708",
+   "symbol": "007460",
+   "company": "에이프로젠",
+   "src_kind": "공시",
+   "abstract": "",
+   "sectors": [],
+   "watch": [],
+   "id": 7,
+   "src": "DART",
+   "src_name": "국내 공시 (DART 원문)"
+  },
+  {
+   "title": "HD건설기계 — 주요사항보고서(자기주식취득신탁계약해지결정)",
+   "core": "HD건설기계 주요사항보고서(자기주식취득신탁계약해지결정)",
+   "date": "20260810",
+   "org": "DART·유가증권",
+   "official": true,
+   "kinds": [
+    "의지"
+   ],
+   "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260810000659",
+   "symbol": "267270",
+   "company": "HD건설기계",
+   "src_kind": "공시",
+   "abstract": "",
+   "sectors": [
+    "건설/부동산"
+   ],
+   "watch": [],
+   "id": 8,
+   "src": "DART",
+   "src_name": "국내 공시 (DART 원문)"
+  },
+  {
+   "title": "교촌에프앤비 — 주요사항보고서(자기주식처분결정)",
+   "core": "교촌에프앤비 주요사항보고서(자기주식처분결정)",
+   "date": "20260810",
+   "org": "DART·유가증권",
+   "official": true,
+   "kinds": [
+    "의지"
+   ],
+   "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260810000497",
+   "symbol": "339770",
+   "company": "교촌에프앤비",
+   "src_kind": "공시",
+   "abstract": "",
+   "sectors": [],
+   "watch": [],
+   "id": 9,
+   "src": "DART",
+   "src_name": "국내 공시 (DART 원문)"
+  },
+  {
+   "title": "OCI — 주요사항보고서(자기주식취득신탁계약해지결정)",
+   "core": "OCI 주요사항보고서(자기주식취득신탁계약해지결정)",
+   "date": "20260810",
+   "org": "DART·유가증권",
+   "official": true,
+   "kinds": [
+    "의지"
+   ],
+   "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260810000278",
+   "symbol": "456040",
+   "company": "OCI",
+   "src_kind": "공시",
+   "abstract": "",
+   "sectors": [],
+   "watch": [],
+   "id": 10,
+   "src": "DART",
+   "src_name": "국내 공시 (DART 원문)"
+  },
+  {
+   "title": "OCI홀딩스 — 주요사항보고서(자기주식취득신탁계약해지결정)",
+   "core": "OCI홀딩스 주요사항보고서(자기주식취득신탁계약해지결정)",
+   "date": "20260810",
+   "org": "DART·유가증권",
+   "official": true,
+   "kinds": [
+    "의지"
+   ],
+   "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260810000268",
+   "symbol": "010060",
+   "company": "OCI홀딩스",
+   "src_kind": "공시",
+   "abstract": "",
+   "sectors": [],
+   "watch": [],
+   "id": 11,
+   "src": "DART",
+   "src_name": "국내 공시 (DART 원문)"
+  },
+  {
+   "title": "진원생명과학 — [기재정정]주요사항보고서(유상증자결정)",
+   "core": "진원생명과학 [기재정정]주요사항보고서(유상증자결정)",
+   "date": "20260810",
+   "org": "DART·유가증권",
+   "official": true,
+   "kinds": [
+    "자본"
+   ],
+   "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260810000223",
+   "symbol": "011000",
+   "company": "진원생명과학",
+   "src_kind": "공시",
+   "abstract": "",
+   "sectors": [],
+   "watch": [],
+   "id": 12,
+   "src": "DART",
+   "src_name": "국내 공시 (DART 원문)"
+  },
+  {
+   "title": "삼성제약 — 주요사항보고서(자기전환사채만기전취득결정)",
+   "core": "삼성제약 주요사항보고서(자기전환사채만기전취득결정)",
+   "date": "20260812",
+   "org": "DART·유가증권",
+   "official": true,
+   "kinds": [
+    "자본"
+   ],
+   "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260812000765",
+   "symbol": "001360",
+   "company": "삼성제약",
+   "src_kind": "공시",
+   "abstract": "",
+   "sectors": [
+    "바이오/의료"
+   ],
+   "watch": [],
+   "id": 13,
+   "src": "DART",
+   "src_name": "국내 공시 (DART 원문)"
+  },
+  {
+   "title": "미스토홀딩스 — 주요사항보고서(자기주식취득결정)",
+   "core": "미스토홀딩스 주요사항보고서(자기주식취득결정)",
+   "date": "20260812",
+   "org": "DART·유가증권",
+   "official": true,
+   "kinds": [
+    "의지"
+   ],
+   "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260812000699",
+   "symbol": "081660",
+   "company": "미스토홀딩스",
+   "src_kind": "공시",
+   "abstract": "",
+   "sectors": [],
+   "watch": [],
+   "id": 14,
+   "src": "DART",
+   "src_name": "국내 공시 (DART 원문)"
+  },
+  {
+   "title": "영화금속 — 주요사항보고서(자기주식취득신탁계약해지결정)",
+   "core": "영화금속 주요사항보고서(자기주식취득신탁계약해지결정)",
+   "date": "20260812",
+   "org": "DART·유가증권",
+   "official": true,
+   "kinds": [
+    "의지"
+   ],
+   "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260812000647",
+   "symbol": "012280",
+   "company": "영화금속",
+   "src_kind": "공시",
+   "abstract": "",
+   "sectors": [],
+   "watch": [],
+   "id": 15,
+   "src": "DART",
+   "src_name": "국내 공시 (DART 원문)"
+  },
+  {
+   "title": "비비안 — [기재정정]주요사항보고서(무상증자결정)",
+   "core": "비비안 [기재정정]주요사항보고서(무상증자결정)",
+   "date": "20260812",
+   "org": "DART·유가증권",
+   "official": true,
+   "kinds": [
+    "자본"
+   ],
+   "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260812000624",
+   "symbol": "002070",
+   "company": "비비안",
+   "src_kind": "공시",
+   "abstract": "",
+   "sectors": [],
+   "watch": [],
+   "id": 16,
+   "src": "DART",
+   "src_name": "국내 공시 (DART 원문)"
+  },
+  {
+   "title": "에이블씨엔씨 — 주요사항보고서(자기주식취득신탁계약해지결정)",
+   "core": "에이블씨엔씨 주요사항보고서(자기주식취득신탁계약해지결정)",
+   "date": "20260811",
+   "org": "DART·유가증권",
+   "official": true,
+   "kinds": [
+    "의지"
+   ],
+   "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811000482",
+   "symbol": "078520",
+   "company": "에이블씨엔씨",
+   "src_kind": "공시",
+   "abstract": "",
+   "sectors": [],
+   "watch": [],
+   "id": 17,
+   "src": "DART",
+   "src_name": "국내 공시 (DART 원문)"
+  },
+  {
+   "title": "에이프로젠 — 주요사항보고서(전환사채권발행결정)",
+   "core": "에이프로젠 주요사항보고서(전환사채권발행결정)",
+   "date": "20260810",
+   "org": "DART·유가증권",
+   "official": true,
+   "kinds": [
+    "자본"
+   ],
+   "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260810000727",
+   "symbol": "007460",
+   "company": "에이프로젠",
+   "src_kind": "공시",
+   "abstract": "",
+   "sectors": [],
+   "watch": [],
+   "id": 18,
+   "src": "DART",
+   "src_name": "국내 공시 (DART 원문)"
+  },
+  {
+   "title": "에이프로젠 — 주요사항보고서(전환사채권발행결정)",
+   "core": "에이프로젠 주요사항보고서(전환사채권발행결정)",
+   "date": "20260810",
+   "org": "DART·유가증권",
+   "official": true,
+   "kinds": [
+    "자본"
+   ],
+   "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260810000708",
+   "symbol": "007460",
+   "company": "에이프로젠",
+   "src_kind": "공시",
+   "abstract": "",
+   "sectors": [],
+   "watch": [],
+   "id": 19,
+   "src": "DART",
+   "src_name": "국내 공시 (DART 원문)"
+  },
+  {
+   "title": "HD건설기계 — 주요사항보고서(자기주식취득신탁계약해지결정)",
+   "core": "HD건설기계 주요사항보고서(자기주식취득신탁계약해지결정)",
+   "date": "20260810",
+   "org": "DART·유가증권",
+   "official": true,
+   "kinds": [
+    "의지"
+   ],
+   "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260810000659",
+   "symbol": "267270",
+   "company": "HD건설기계",
+   "src_kind": "공시",
+   "abstract": "",
+   "sectors": [
+    "건설/부동산"
+   ],
+   "watch": [],
+   "id": 20,
+   "src": "DART",
+   "src_name": "국내 공시 (DART 원문)"
+  },
+  {
+   "title": "교촌에프앤비 — 주요사항보고서(자기주식처분결정)",
+   "core": "교촌에프앤비 주요사항보고서(자기주식처분결정)",
+   "date": "20260810",
+   "org": "DART·유가증권",
+   "official": true,
+   "kinds": [
+    "의지"
+   ],
+   "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260810000497",
+   "symbol": "339770",
+   "company": "교촌에프앤비",
+   "src_kind": "공시",
+   "abstract": "",
+   "sectors": [],
+   "watch": [],
+   "id": 21,
+   "src": "DART",
+   "src_name": "국내 공시 (DART 원문)"
+  },
+  {
+   "title": "OCI — 주요사항보고서(자기주식취득신탁계약해지결정)",
+   "core": "OCI 주요사항보고서(자기주식취득신탁계약해지결정)",
+   "date": "20260810",
+   "org": "DART·유가증권",
+   "official": true,
+   "kinds": [
+    "의지"
+   ],
+   "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260810000278",
+   "symbol": "456040",
+   "company": "OCI",
+   "src_kind": "공시",
+   "abstract": "",
+   "sectors": [],
+   "watch": [],
+   "id": 22,
+   "src": "DART",
+   "src_name": "국내 공시 (DART 원문)"
+  },
+  {
+   "title": "OCI홀딩스 — 주요사항보고서(자기주식취득신탁계약해지결정)",
+   "core": "OCI홀딩스 주요사항보고서(자기주식취득신탁계약해지결정)",
+   "date": "20260810",
+   "org": "DART·유가증권",
+   "official": true,
+   "kinds": [
+    "의지"
+   ],
+   "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260810000268",
+   "symbol": "010060",
+   "company": "OCI홀딩스",
+   "src_kind": "공시",
+   "abstract": "",
+   "sectors": [],
+   "watch": [],
+   "id": 23,
+   "src": "DART",
+   "src_name": "국내 공시 (DART 원문)"
+  },
+  {
+   "title": "진원생명과학 — [기재정정]주요사항보고서(유상증자결정)",
+   "core": "진원생명과학 [기재정정]주요사항보고서(유상증자결정)",
+   "date": "20260810",
+   "org": "DART·유가증권",
+   "official": true,
+   "kinds": [
+    "자본"
+   ],
+   "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260810000223",
+   "symbol": "011000",
+   "company": "진원생명과학",
+   "src_kind": "공시",
+   "abstract": "",
+   "sectors": [],
+   "watch": [],
+   "id": 24,
+   "src": "DART",
+   "src_name": "국내 공시 (DART 원문)"
+  },
+  {
+   "title": "아이큐어 — [기재정정]주요사항보고서(유상증자결정)",
+   "core": "아이큐어 [기재정정]주요사항보고서(유상증자결정)",
+   "date": "20260812",
+   "org": "DART·코스닥",
+   "official": true,
+   "kinds": [
+    "자본"
+   ],
+   "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260812000807",
+   "symbol": "175250",
+   "company": "아이큐어",
+   "src_kind": "공시",
+   "abstract": "",
+   "sectors": [],
+   "watch": [],
+   "id": 25,
+   "src": "DART",
+   "src_name": "국내 공시 (DART 원문)"
+  },
+  {
+   "title": "헝셩그룹 — [기재정정]주요사항보고서(유상증자결정)",
+   "core": "헝셩그룹 [기재정정]주요사항보고서(유상증자결정)",
+   "date": "20260812",
+   "org": "DART·코스닥",
+   "official": true,
+   "kinds": [
+    "자본"
+   ],
+   "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260812000794",
+   "symbol": "900270",
+   "company": "헝셩그룹",
+   "src_kind": "공시",
+   "abstract": "",
+   "sectors": [],
+   "watch": [],
+   "id": 26,
+   "src": "DART",
+   "src_name": "국내 공시 (DART 원문)"
+  },
+  {
+   "title": "덴티스 — 주요사항보고서(전환사채권발행결정)",
+   "core": "덴티스 주요사항보고서(전환사채권발행결정)",
+   "date": "20260812",
+   "org": "DART·코스닥",
+   "official": true,
+   "kinds": [
+    "자본"
+   ],
+   "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260812000755",
+   "symbol": "261200",
+   "company": "덴티스",
+   "src_kind": "공시",
+   "abstract": "",
+   "sectors": [],
+   "watch": [],
+   "id": 27,
+   "src": "DART",
+   "src_name": "국내 공시 (DART 원문)"
+  },
+  {
+   "title": "휴맥스 — 주요사항보고서(자기전환사채만기전취득결정)",
+   "core": "휴맥스 주요사항보고서(자기전환사채만기전취득결정)",
+   "date": "20260812",
+   "org": "DART·코스닥",
+   "official": true,
+   "kinds": [
+    "자본"
+   ],
+   "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260812000653",
+   "symbol": "115160",
+   "company": "휴맥스",
+   "src_kind": "공시",
+   "abstract": "",
+   "sectors": [],
+   "watch": [],
+   "id": 28,
+   "src": "DART",
+   "src_name": "국내 공시 (DART 원문)"
+  },
+  {
+   "title": "한국정보인증 — 주요사항보고서(자기주식취득신탁계약해지결정)",
+   "core": "한국정보인증 주요사항보고서(자기주식취득신탁계약해지결정)",
+   "date": "20260812",
+   "org": "DART·코스닥",
+   "official": true,
+   "kinds": [
+    "의지"
+   ],
+   "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260812000717",
+   "symbol": "053300",
+   "company": "한국정보인증",
+   "src_kind": "공시",
+   "abstract": "",
+   "sectors": [],
+   "watch": [],
+   "id": 29,
+   "src": "DART",
+   "src_name": "국내 공시 (DART 원문)"
+  },
+  {
+   "title": "씨젠 — 주요사항보고서(자기주식처분결정)",
+   "core": "씨젠 주요사항보고서(자기주식처분결정)",
+   "date": "20260812",
+   "org": "DART·코스닥",
+   "official": true,
+   "kinds": [
+    "의지"
+   ],
+   "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260812000683",
+   "symbol": "096530",
+   "company": "씨젠",
+   "src_kind": "공시",
+   "abstract": "",
+   "sectors": [],
+   "watch": [],
+   "id": 30,
+   "src": "DART",
+   "src_name": "국내 공시 (DART 원문)"
+  },
+  {
+   "title": "에이전트AI — 주요사항보고서(자기전환사채만기전취득결정)",
+   "core": "에이전트AI 주요사항보고서(자기전환사채만기전취득결정)",
+   "date": "20260812",
+   "org": "DART·코스닥",
+   "official": true,
+   "kinds": [
+    "자본"
+   ],
+   "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260812000663",
+   "symbol": "060900",
+   "company": "에이전트AI",
+   "src_kind": "공시",
+   "abstract": "",
+   "sectors": [],
+   "watch": [],
+   "id": 31,
+   "src": "DART",
+   "src_name": "국내 공시 (DART 원문)"
+  },
+  {
+   "title": "사토시홀딩스 — 주요사항보고서(자기전환사채만기전취득결정)",
+   "core": "사토시홀딩스 주요사항보고서(자기전환사채만기전취득결정)",
+   "date": "20260812",
+   "org": "DART·코스닥",
+   "official": true,
+   "kinds": [
+    "자본"
+   ],
+   "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260812000633",
+   "symbol": "223310",
+   "company": "사토시홀딩스",
+   "src_kind": "공시",
+   "abstract": "",
+   "sectors": [],
+   "watch": [],
+   "id": 32,
+   "src": "DART",
+   "src_name": "국내 공시 (DART 원문)"
+  },
+  {
+   "title": "캔버스엔 — [기재정정]주요사항보고서(유상증자결정)",
+   "core": "캔버스엔 [기재정정]주요사항보고서(유상증자결정)",
+   "date": "20260812",
+   "org": "DART·코스닥",
+   "official": true,
+   "kinds": [
+    "자본"
+   ],
+   "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260812000589",
+   "symbol": "210120",
+   "company": "캔버스엔",
+   "src_kind": "공시",
+   "abstract": "",
+   "sectors": [],
+   "watch": [],
+   "id": 33,
+   "src": "DART",
+   "src_name": "국내 공시 (DART 원문)"
+  },
+  {
+   "title": "마녀공장 — 주요사항보고서(자기주식취득신탁계약해지결정)",
+   "core": "마녀공장 주요사항보고서(자기주식취득신탁계약해지결정)",
+   "date": "20260812",
+   "org": "DART·코스닥",
+   "official": true,
+   "kinds": [
+    "의지"
+   ],
+   "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260812000540",
+   "symbol": "439090",
+   "company": "마녀공장",
+   "src_kind": "공시",
+   "abstract": "",
+   "sectors": [],
+   "watch": [],
+   "id": 34,
+   "src": "DART",
+   "src_name": "국내 공시 (DART 원문)"
+  },
+  {
+   "title": "대동금속 — 주요사항보고서(유상증자결정)",
+   "core": "대동금속 주요사항보고서(유상증자결정)",
+   "date": "20260812",
+   "org": "DART·코스닥",
+   "official": true,
+   "kinds": [
+    "자본"
+   ],
+   "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260812000426",
+   "symbol": "020400",
+   "company": "대동금속",
+   "src_kind": "공시",
+   "abstract": "",
+   "sectors": [],
+   "watch": [],
+   "id": 35,
+   "src": "DART",
+   "src_name": "국내 공시 (DART 원문)"
+  },
+  {
+   "title": "광진실업 — [기재정정]주요사항보고서(유상증자결정)",
+   "core": "광진실업 [기재정정]주요사항보고서(유상증자결정)",
+   "date": "20260812",
+   "org": "DART·코스닥",
+   "official": true,
+   "kinds": [
+    "자본"
+   ],
+   "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260812000403",
+   "symbol": "026910",
+   "company": "광진실업",
+   "src_kind": "공시",
+   "abstract": "",
+   "sectors": [],
+   "watch": [],
+   "id": 36,
+   "src": "DART",
+   "src_name": "국내 공시 (DART 원문)"
+  },
+  {
+   "title": "씨앤씨인터내셔널 — 주요사항보고서(자기주식취득신탁계약체결결정)",
+   "core": "씨앤씨인터내셔널 주요사항보고서(자기주식취득신탁계약체결결정)",
+   "date": "20260812",
+   "org": "DART·코스닥",
+   "official": true,
+   "kinds": [
+    "의지"
+   ],
+   "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260812000327",
+   "symbol": "352480",
+   "company": "씨앤씨인터내셔널",
+   "src_kind": "공시",
+   "abstract": "",
+   "sectors": [],
+   "watch": [],
+   "id": 37,
+   "src": "DART",
+   "src_name": "국내 공시 (DART 원문)"
+  },
+  {
+   "title": "네오위즈 — 주요사항보고서(자기주식취득신탁계약체결결정)",
+   "core": "네오위즈 주요사항보고서(자기주식취득신탁계약체결결정)",
+   "date": "20260812",
+   "org": "DART·코스닥",
+   "official": true,
+   "kinds": [
+    "의지"
+   ],
+   "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260812000035",
+   "symbol": "095660",
+   "company": "네오위즈",
+   "src_kind": "공시",
+   "abstract": "",
+   "sectors": [],
+   "watch": [],
+   "id": 38,
+   "src": "DART",
+   "src_name": "국내 공시 (DART 원문)"
+  },
+  {
+   "title": "모아데이타 — [기재정정]주요사항보고서(자기전환사채만기전취득결정)",
+   "core": "모아데이타 [기재정정]주요사항보고서(자기전환사채만기전취득결정)",
+   "date": "20260812",
+   "org": "DART·코스닥",
+   "official": true,
+   "kinds": [
+    "자본"
+   ],
+   "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260812000001",
+   "symbol": "288980",
+   "company": "모아데이타",
+   "src_kind": "공시",
+   "abstract": "",
+   "sectors": [],
+   "watch": [],
+   "id": 39,
+   "src": "DART",
+   "src_name": "국내 공시 (DART 원문)"
+  },
+  {
+   "title": "에스아이리소스 — 주요사항보고서(소송등의제기)",
+   "core": "에스아이리소스 주요사항보고서(소송등의제기)",
+   "date": "20260811",
+   "org": "DART·코스닥",
+   "official": true,
+   "kinds": [
+    "위험"
+   ],
+   "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811000703",
+   "symbol": "065420",
+   "company": "에스아이리소스",
+   "src_kind": "공시",
+   "abstract": "",
+   "sectors": [],
+   "watch": [],
+   "id": 40,
+   "src": "DART",
+   "src_name": "국내 공시 (DART 원문)"
+  },
+  {
+   "title": "샤페론 — 주요사항보고서(자기전환사채만기전취득결정)",
+   "core": "샤페론 주요사항보고서(자기전환사채만기전취득결정)",
+   "date": "20260811",
+   "org": "DART·코스닥",
+   "official": true,
+   "kinds": [
+    "자본"
+   ],
+   "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811000693",
+   "symbol": "378800",
+   "company": "샤페론",
+   "src_kind": "공시",
+   "abstract": "",
+   "sectors": [],
+   "watch": [],
+   "id": 41,
+   "src": "DART",
+   "src_name": "국내 공시 (DART 원문)"
+  },
+  {
+   "title": "제이케이시냅스 — [기재정정]주요사항보고서(전환사채권발행결정)",
+   "core": "제이케이시냅스 [기재정정]주요사항보고서(전환사채권발행결정)",
+   "date": "20260811",
+   "org": "DART·코스닥",
+   "official": true,
+   "kinds": [
+    "자본"
+   ],
+   "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811000684",
+   "symbol": "060230",
+   "company": "제이케이시냅스",
+   "src_kind": "공시",
+   "abstract": "",
+   "sectors": [],
+   "watch": [],
+   "id": 42,
+   "src": "DART",
+   "src_name": "국내 공시 (DART 원문)"
+  },
+  {
+   "title": "제이케이시냅스 — [기재정정]주요사항보고서(전환사채권발행결정)",
+   "core": "제이케이시냅스 [기재정정]주요사항보고서(전환사채권발행결정)",
+   "date": "20260811",
+   "org": "DART·코스닥",
+   "official": true,
+   "kinds": [
+    "자본"
+   ],
+   "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811000678",
+   "symbol": "060230",
+   "company": "제이케이시냅스",
+   "src_kind": "공시",
+   "abstract": "",
+   "sectors": [],
+   "watch": [],
+   "id": 43,
+   "src": "DART",
+   "src_name": "국내 공시 (DART 원문)"
+  },
+  {
+   "title": "이노진 — 주요사항보고서(자기주식취득결정)",
+   "core": "이노진 주요사항보고서(자기주식취득결정)",
+   "date": "20260811",
+   "org": "DART·코스닥",
+   "official": true,
+   "kinds": [
+    "의지"
+   ],
+   "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811000585",
+   "symbol": "344860",
+   "company": "이노진",
+   "src_kind": "공시",
+   "abstract": "",
+   "sectors": [],
+   "watch": [],
+   "id": 44,
+   "src": "DART",
+   "src_name": "국내 공시 (DART 원문)"
+  },
+  {
+   "title": "한국유니온제약 — [기재정정]주요사항보고서(유상증자결정)",
+   "core": "한국유니온제약 [기재정정]주요사항보고서(유상증자결정)",
+   "date": "20260811",
+   "org": "DART·코스닥",
+   "official": true,
+   "kinds": [
+    "자본"
+   ],
+   "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811000550",
+   "symbol": "080720",
+   "company": "한국유니온제약",
+   "src_kind": "공시",
+   "abstract": "",
+   "sectors": [
+    "바이오/의료"
+   ],
+   "watch": [],
+   "id": 45,
+   "src": "DART",
+   "src_name": "국내 공시 (DART 원문)"
+  },
+  {
+   "title": "한국유니온제약 — [기재정정]주요사항보고서(감자결정)",
+   "core": "한국유니온제약 [기재정정]주요사항보고서(감자결정)",
+   "date": "20260811",
+   "org": "DART·코스닥",
+   "official": true,
+   "kinds": [
+    "자본"
+   ],
+   "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811000548",
+   "symbol": "080720",
+   "company": "한국유니온제약",
+   "src_kind": "공시",
+   "abstract": "",
+   "sectors": [
+    "바이오/의료"
+   ],
+   "watch": [],
+   "id": 46,
+   "src": "DART",
+   "src_name": "국내 공시 (DART 원문)"
+  },
+  {
+   "title": "한국유니온제약 — [기재정정]주요사항보고서(유상증자결정)",
+   "core": "한국유니온제약 [기재정정]주요사항보고서(유상증자결정)",
+   "date": "20260811",
+   "org": "DART·코스닥",
+   "official": true,
+   "kinds": [
+    "자본"
+   ],
+   "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811000546",
+   "symbol": "080720",
+   "company": "한국유니온제약",
+   "src_kind": "공시",
+   "abstract": "",
+   "sectors": [
+    "바이오/의료"
+   ],
+   "watch": [],
+   "id": 47,
+   "src": "DART",
+   "src_name": "국내 공시 (DART 원문)"
+  },
+  {
+   "title": "알엔티엑스 — [기재정정]주요사항보고서(전환사채권발행결정)",
+   "core": "알엔티엑스 [기재정정]주요사항보고서(전환사채권발행결정)",
+   "date": "20260811",
+   "org": "DART·코스닥",
+   "official": true,
+   "kinds": [
+    "자본"
+   ],
+   "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811000532",
+   "symbol": "123010",
+   "company": "알엔티엑스",
+   "src_kind": "공시",
+   "abstract": "",
+   "sectors": [],
+   "watch": [],
+   "id": 48,
+   "src": "DART",
+   "src_name": "국내 공시 (DART 원문)"
+  },
+  {
+   "title": "이렘 — [기재정정]주요사항보고서(유상증자결정)",
+   "core": "이렘 [기재정정]주요사항보고서(유상증자결정)",
+   "date": "20260811",
+   "org": "DART·코스닥",
+   "official": true,
+   "kinds": [
+    "자본"
+   ],
+   "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811000481",
+   "symbol": "009730",
+   "company": "이렘",
+   "src_kind": "공시",
+   "abstract": "",
+   "sectors": [],
+   "watch": [],
+   "id": 49,
+   "src": "DART",
+   "src_name": "국내 공시 (DART 원문)"
+  },
+  {
+   "title": "CSA 코스믹 — [기재정정]주요사항보고서(유상증자결정)",
+   "core": "CSA 코스믹 [기재정정]주요사항보고서(유상증자결정)",
+   "date": "20260811",
+   "org": "DART·코스닥",
+   "official": true,
+   "kinds": [
+    "자본"
+   ],
+   "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811000527",
+   "symbol": "083660",
+   "company": "CSA 코스믹",
+   "src_kind": "공시",
+   "abstract": "",
+   "sectors": [],
+   "watch": [],
+   "id": 50,
+   "src": "DART",
+   "src_name": "국내 공시 (DART 원문)"
+  },
+  {
+   "title": "CSA 코스믹 — [기재정정]주요사항보고서(유상증자결정)",
+   "core": "CSA 코스믹 [기재정정]주요사항보고서(유상증자결정)",
+   "date": "20260811",
+   "org": "DART·코스닥",
+   "official": true,
+   "kinds": [
+    "자본"
+   ],
+   "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811000502",
+   "symbol": "083660",
+   "company": "CSA 코스믹",
+   "src_kind": "공시",
+   "abstract": "",
+   "sectors": [],
+   "watch": [],
+   "id": 51,
+   "src": "DART",
+   "src_name": "국내 공시 (DART 원문)"
+  },
+  {
+   "title": "클로봇 — [기재정정]주요사항보고서(유상증자결정)",
+   "core": "클로봇 [기재정정]주요사항보고서(유상증자결정)",
+   "date": "20260811",
+   "org": "DART·코스닥",
+   "official": true,
+   "kinds": [
+    "자본"
+   ],
+   "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811000472",
+   "symbol": "466100",
+   "company": "클로봇",
+   "src_kind": "공시",
+   "abstract": "",
+   "sectors": [],
+   "watch": [
+    "로봇"
+   ],
+   "id": 52,
+   "src": "DART",
+   "src_name": "국내 공시 (DART 원문)"
+  },
+  {
+   "title": "센서뷰 — [기재정정]주요사항보고서(유상증자결정)",
+   "core": "센서뷰 [기재정정]주요사항보고서(유상증자결정)",
+   "date": "20260811",
+   "org": "DART·코스닥",
+   "official": true,
+   "kinds": [
+    "자본"
+   ],
+   "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811000451",
+   "symbol": "321370",
+   "company": "센서뷰",
+   "src_kind": "공시",
+   "abstract": "",
+   "sectors": [],
+   "watch": [],
+   "id": 53,
+   "src": "DART",
+   "src_name": "국내 공시 (DART 원문)"
+  },
+  {
+   "title": "비트맥스 — 주요사항보고서(자기전환사채만기전취득결정)",
+   "core": "비트맥스 주요사항보고서(자기전환사채만기전취득결정)",
+   "date": "20260811",
+   "org": "DART·코스닥",
+   "official": true,
+   "kinds": [
+    "자본"
+   ],
+   "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811000425",
+   "symbol": "377030",
+   "company": "비트맥스",
+   "src_kind": "공시",
+   "abstract": "",
+   "sectors": [],
+   "watch": [],
+   "id": 54,
+   "src": "DART",
+   "src_name": "국내 공시 (DART 원문)"
+  },
+  {
+   "title": "PS일렉트로닉스 — 주요사항보고서(자기주식취득신탁계약해지결정)",
+   "core": "PS일렉트로닉스 주요사항보고서(자기주식취득신탁계약해지결정)",
+   "date": "20260811",
+   "org": "DART·코스닥",
+   "official": true,
+   "kinds": [
+    "의지"
+   ],
+   "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811000418",
+   "symbol": "332570",
+   "company": "PS일렉트로닉스",
+   "src_kind": "공시",
+   "abstract": "",
+   "sectors": [],
+   "watch": [],
+   "id": 55,
+   "src": "DART",
+   "src_name": "국내 공시 (DART 원문)"
+  },
+  {
+   "title": "RFHIC — 주요사항보고서(자기주식처분결정)",
+   "core": "RFHIC 주요사항보고서(자기주식처분결정)",
+   "date": "20260811",
+   "org": "DART·코스닥",
+   "official": true,
+   "kinds": [
+    "의지"
+   ],
+   "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811000401",
+   "symbol": "218410",
+   "company": "RFHIC",
+   "src_kind": "공시",
+   "abstract": "",
+   "sectors": [],
+   "watch": [],
+   "id": 56,
+   "src": "DART",
+   "src_name": "국내 공시 (DART 원문)"
+  },
+  {
+   "title": "코퍼스코리아 — [기재정정]주요사항보고서(유상증자결정)",
+   "core": "코퍼스코리아 [기재정정]주요사항보고서(유상증자결정)",
+   "date": "20260811",
+   "org": "DART·코스닥",
+   "official": true,
+   "kinds": [
+    "자본"
+   ],
+   "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811000390",
+   "symbol": "322780",
+   "company": "코퍼스코리아",
+   "src_kind": "공시",
+   "abstract": "",
+   "sectors": [],
+   "watch": [],
+   "id": 57,
+   "src": "DART",
+   "src_name": "국내 공시 (DART 원문)"
+  },
+  {
+   "title": "와이솔 — 주요사항보고서(자기주식취득신탁계약해지결정)",
+   "core": "와이솔 주요사항보고서(자기주식취득신탁계약해지결정)",
+   "date": "20260811",
+   "org": "DART·코스닥",
+   "official": true,
+   "kinds": [
+    "의지"
+   ],
+   "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811000362",
+   "symbol": "122990",
+   "company": "와이솔",
+   "src_kind": "공시",
+   "abstract": "",
+   "sectors": [],
+   "watch": [],
+   "id": 58,
+   "src": "DART",
+   "src_name": "국내 공시 (DART 원문)"
+  },
+  {
+   "title": "판타지오 — [기재정정]주요사항보고서(유상증자결정)",
+   "core": "판타지오 [기재정정]주요사항보고서(유상증자결정)",
+   "date": "20260811",
+   "org": "DART·코스닥",
+   "official": true,
+   "kinds": [
+    "자본"
+   ],
+   "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811000366",
+   "symbol": "032800",
+   "company": "판타지오",
+   "src_kind": "공시",
+   "abstract": "",
+   "sectors": [],
+   "watch": [],
+   "id": 59,
+   "src": "DART",
+   "src_name": "국내 공시 (DART 원문)"
+  },
+  {
+   "title": "대륙제관 — 주요사항보고서(자기주식취득신탁계약해지결정)",
+   "core": "대륙제관 주요사항보고서(자기주식취득신탁계약해지결정)",
+   "date": "20260811",
+   "org": "DART·코스닥",
+   "official": true,
+   "kinds": [
+    "의지"
+   ],
+   "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811000358",
+   "symbol": "004780",
+   "company": "대륙제관",
+   "src_kind": "공시",
+   "abstract": "",
+   "sectors": [],
+   "watch": [],
+   "id": 60,
+   "src": "DART",
+   "src_name": "국내 공시 (DART 원문)"
+  },
+  {
+   "title": "제이케이시냅스 — 주요사항보고서(자기전환사채매도결정)",
+   "core": "제이케이시냅스 주요사항보고서(자기전환사채매도결정)",
+   "date": "20260811",
+   "org": "DART·코스닥",
+   "official": true,
+   "kinds": [
+    "자본"
+   ],
+   "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811000312",
+   "symbol": "060230",
+   "company": "제이케이시냅스",
+   "src_kind": "공시",
+   "abstract": "",
+   "sectors": [],
+   "watch": [],
+   "id": 61,
+   "src": "DART",
+   "src_name": "국내 공시 (DART 원문)"
+  },
+  {
+   "title": "휴엠앤씨 — 주요사항보고서(자기주식취득신탁계약해지결정)",
+   "core": "휴엠앤씨 주요사항보고서(자기주식취득신탁계약해지결정)",
+   "date": "20260811",
+   "org": "DART·코스닥",
+   "official": true,
+   "kinds": [
+    "의지"
+   ],
+   "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811000291",
+   "symbol": "263920",
+   "company": "휴엠앤씨",
+   "src_kind": "공시",
+   "abstract": "",
+   "sectors": [],
+   "watch": [],
+   "id": 62,
+   "src": "DART",
+   "src_name": "국내 공시 (DART 원문)"
+  },
+  {
+   "title": "하스 — 주요사항보고서(자기주식취득신탁계약체결결정)",
+   "core": "하스 주요사항보고서(자기주식취득신탁계약체결결정)",
+   "date": "20260811",
+   "org": "DART·코스닥",
+   "official": true,
+   "kinds": [
+    "의지"
+   ],
+   "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811000158",
+   "symbol": "450330",
+   "company": "하스",
+   "src_kind": "공시",
+   "abstract": "",
+   "sectors": [],
+   "watch": [],
+   "id": 63,
+   "src": "DART",
+   "src_name": "국내 공시 (DART 원문)"
+  },
+  {
+   "title": "서한 — [첨부정정]주요사항보고서(신주인수권부사채권발행결정)",
+   "core": "서한 [첨부정정]주요사항보고서(신주인수권부사채권발행결정)",
+   "date": "20260811",
+   "org": "DART·코스닥",
+   "official": true,
+   "kinds": [
+    "자본"
+   ],
+   "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811000009",
+   "symbol": "011370",
+   "company": "서한",
+   "src_kind": "공시",
+   "abstract": "",
+   "sectors": [],
+   "watch": [],
+   "id": 64,
+   "src": "DART",
+   "src_name": "국내 공시 (DART 원문)"
+  },
+  {
+   "title": "에이전트AI — 주요사항보고서(자기전환사채만기전취득결정)",
+   "core": "에이전트AI 주요사항보고서(자기전환사채만기전취득결정)",
+   "date": "20260811",
+   "org": "DART·코스닥",
+   "official": true,
+   "kinds": [
+    "자본"
+   ],
+   "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260810000743",
+   "symbol": "060900",
+   "company": "에이전트AI",
+   "src_kind": "공시",
+   "abstract": "",
+   "sectors": [],
+   "watch": [],
+   "id": 65,
+   "src": "DART",
+   "src_name": "국내 공시 (DART 원문)"
+  },
+  {
+   "title": "삼보산업 — [기재정정]주요사항보고서(유상증자결정)",
+   "core": "삼보산업 [기재정정]주요사항보고서(유상증자결정)",
+   "date": "20260810",
+   "org": "DART·코스닥",
+   "official": true,
+   "kinds": [
+    "자본"
+   ],
+   "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260810000728",
+   "symbol": "009620",
+   "company": "삼보산업",
+   "src_kind": "공시",
+   "abstract": "",
+   "sectors": [],
+   "watch": [],
+   "id": 66,
+   "src": "DART",
+   "src_name": "국내 공시 (DART 원문)"
+  },
+  {
+   "title": "인카금융서비스 — 주요사항보고서(자기주식취득신탁계약해지결정)",
+   "core": "인카금융서비스 주요사항보고서(자기주식취득신탁계약해지결정)",
+   "date": "20260810",
+   "org": "DART·코스닥",
+   "official": true,
+   "kinds": [
+    "의지"
+   ],
+   "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260810000474",
+   "symbol": "211050",
+   "company": "인카금융서비스",
+   "src_kind": "공시",
+   "abstract": "",
+   "sectors": [],
+   "watch": [],
+   "id": 67,
+   "src": "DART",
+   "src_name": "국내 공시 (DART 원문)"
+  },
+  {
+   "title": "그래디언트 — 주요사항보고서(자기주식취득신탁계약체결결정)",
+   "core": "그래디언트 주요사항보고서(자기주식취득신탁계약체결결정)",
+   "date": "20260810",
+   "org": "DART·코스닥",
+   "official": true,
+   "kinds": [
+    "의지"
+   ],
+   "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260810000292",
+   "symbol": "035080",
+   "company": "그래디언트",
+   "src_kind": "공시",
+   "abstract": "",
+   "sectors": [],
+   "watch": [],
+   "id": 68,
+   "src": "DART",
+   "src_name": "국내 공시 (DART 원문)"
+  },
+  {
+   "title": "조이웍스앤코 — 주요사항보고서(자기전환사채만기전취득결정)",
+   "core": "조이웍스앤코 주요사항보고서(자기전환사채만기전취득결정)",
+   "date": "20260810",
+   "org": "DART·코스닥",
+   "official": true,
+   "kinds": [
+    "자본"
+   ],
+   "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260810000282",
+   "symbol": "309930",
+   "company": "조이웍스앤코",
+   "src_kind": "공시",
+   "abstract": "",
+   "sectors": [],
+   "watch": [],
+   "id": 69,
+   "src": "DART",
+   "src_name": "국내 공시 (DART 원문)"
+  },
+  {
+   "title": "모비데이즈 — 주요사항보고서(자기주식취득신탁계약체결결정)",
+   "core": "모비데이즈 주요사항보고서(자기주식취득신탁계약체결결정)",
+   "date": "20260810",
+   "org": "DART·코스닥",
+   "official": true,
+   "kinds": [
+    "의지"
+   ],
+   "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260810000244",
+   "symbol": "363260",
+   "company": "모비데이즈",
+   "src_kind": "공시",
+   "abstract": "",
+   "sectors": [],
+   "watch": [],
+   "id": 70,
+   "src": "DART",
+   "src_name": "국내 공시 (DART 원문)"
+  },
+  {
+   "title": "시선AI — [기재정정]주요사항보고서(유상증자결정)",
+   "core": "시선AI [기재정정]주요사항보고서(유상증자결정)",
+   "date": "20260810",
+   "org": "DART·코스닥",
+   "official": true,
+   "kinds": [
+    "자본"
+   ],
+   "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260810000220",
+   "symbol": "340810",
+   "company": "시선AI",
+   "src_kind": "공시",
+   "abstract": "",
+   "sectors": [],
+   "watch": [],
+   "id": 71,
+   "src": "DART",
+   "src_name": "국내 공시 (DART 원문)"
+  },
+  {
+   "title": "엠엑스로보틱스 — 주요사항보고서(유상증자결정)",
+   "core": "엠엑스로보틱스 주요사항보고서(유상증자결정)",
+   "date": "20260810",
+   "org": "DART·코스닥",
+   "official": true,
+   "kinds": [
+    "자본"
+   ],
+   "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260807000794",
+   "symbol": "007820",
+   "company": "엠엑스로보틱스",
+   "src_kind": "공시",
+   "abstract": "",
+   "sectors": [],
+   "watch": [],
+   "id": 72,
+   "src": "DART",
+   "src_name": "국내 공시 (DART 원문)"
+  },
+  {
+   "title": "아이큐어 — [기재정정]주요사항보고서(유상증자결정)",
+   "core": "아이큐어 [기재정정]주요사항보고서(유상증자결정)",
+   "date": "20260812",
+   "org": "DART·코스닥",
+   "official": true,
+   "kinds": [
+    "자본"
+   ],
+   "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260812000807",
+   "symbol": "175250",
+   "company": "아이큐어",
+   "src_kind": "공시",
+   "abstract": "",
+   "sectors": [],
+   "watch": [],
+   "id": 73,
+   "src": "DART",
+   "src_name": "국내 공시 (DART 원문)"
+  },
+  {
+   "title": "헝셩그룹 — [기재정정]주요사항보고서(유상증자결정)",
+   "core": "헝셩그룹 [기재정정]주요사항보고서(유상증자결정)",
+   "date": "20260812",
+   "org": "DART·코스닥",
+   "official": true,
+   "kinds": [
+    "자본"
+   ],
+   "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260812000794",
+   "symbol": "900270",
+   "company": "헝셩그룹",
+   "src_kind": "공시",
+   "abstract": "",
+   "sectors": [],
+   "watch": [],
+   "id": 74,
+   "src": "DART",
+   "src_name": "국내 공시 (DART 원문)"
+  },
+  {
+   "title": "덴티스 — 주요사항보고서(전환사채권발행결정)",
+   "core": "덴티스 주요사항보고서(전환사채권발행결정)",
+   "date": "20260812",
+   "org": "DART·코스닥",
+   "official": true,
+   "kinds": [
+    "자본"
+   ],
+   "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260812000755",
+   "symbol": "261200",
+   "company": "덴티스",
+   "src_kind": "공시",
+   "abstract": "",
+   "sectors": [],
+   "watch": [],
+   "id": 75,
+   "src": "DART",
+   "src_name": "국내 공시 (DART 원문)"
+  },
+  {
+   "title": "휴맥스 — 주요사항보고서(자기전환사채만기전취득결정)",
+   "core": "휴맥스 주요사항보고서(자기전환사채만기전취득결정)",
+   "date": "20260812",
+   "org": "DART·코스닥",
+   "official": true,
+   "kinds": [
+    "자본"
+   ],
+   "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260812000653",
+   "symbol": "115160",
+   "company": "휴맥스",
+   "src_kind": "공시",
+   "abstract": "",
+   "sectors": [],
+   "watch": [],
+   "id": 76,
+   "src": "DART",
+   "src_name": "국내 공시 (DART 원문)"
+  },
+  {
+   "title": "한국정보인증 — 주요사항보고서(자기주식취득신탁계약해지결정)",
+   "core": "한국정보인증 주요사항보고서(자기주식취득신탁계약해지결정)",
+   "date": "20260812",
+   "org": "DART·코스닥",
+   "official": true,
+   "kinds": [
+    "의지"
+   ],
+   "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260812000717",
+   "symbol": "053300",
+   "company": "한국정보인증",
+   "src_kind": "공시",
+   "abstract": "",
+   "sectors": [],
+   "watch": [],
+   "id": 77,
+   "src": "DART",
+   "src_name": "국내 공시 (DART 원문)"
+  },
+  {
+   "title": "씨젠 — 주요사항보고서(자기주식처분결정)",
+   "core": "씨젠 주요사항보고서(자기주식처분결정)",
+   "date": "20260812",
+   "org": "DART·코스닥",
+   "official": true,
+   "kinds": [
+    "의지"
+   ],
+   "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260812000683",
+   "symbol": "096530",
+   "company": "씨젠",
+   "src_kind": "공시",
+   "abstract": "",
+   "sectors": [],
+   "watch": [],
+   "id": 78,
+   "src": "DART",
+   "src_name": "국내 공시 (DART 원문)"
+  },
+  {
+   "title": "에이전트AI — 주요사항보고서(자기전환사채만기전취득결정)",
+   "core": "에이전트AI 주요사항보고서(자기전환사채만기전취득결정)",
+   "date": "20260812",
+   "org": "DART·코스닥",
+   "official": true,
+   "kinds": [
+    "자본"
+   ],
+   "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260812000663",
+   "symbol": "060900",
+   "company": "에이전트AI",
+   "src_kind": "공시",
+   "abstract": "",
+   "sectors": [],
+   "watch": [],
+   "id": 79,
+   "src": "DART",
+   "src_name": "국내 공시 (DART 원문)"
+  },
+  {
+   "title": "사토시홀딩스 — 주요사항보고서(자기전환사채만기전취득결정)",
+   "core": "사토시홀딩스 주요사항보고서(자기전환사채만기전취득결정)",
+   "date": "20260812",
+   "org": "DART·코스닥",
+   "official": true,
+   "kinds": [
+    "자본"
+   ],
+   "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260812000633",
+   "symbol": "223310",
+   "company": "사토시홀딩스",
+   "src_kind": "공시",
+   "abstract": "",
+   "sectors": [],
+   "watch": [],
+   "id": 80,
+   "src": "DART",
+   "src_name": "국내 공시 (DART 원문)"
+  },
+  {
+   "title": "캔버스엔 — [기재정정]주요사항보고서(유상증자결정)",
+   "core": "캔버스엔 [기재정정]주요사항보고서(유상증자결정)",
+   "date": "20260812",
+   "org": "DART·코스닥",
+   "official": true,
+   "kinds": [
+    "자본"
+   ],
+   "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260812000589",
+   "symbol": "210120",
+   "company": "캔버스엔",
+   "src_kind": "공시",
+   "abstract": "",
+   "sectors": [],
+   "watch": [],
+   "id": 81,
+   "src": "DART",
+   "src_name": "국내 공시 (DART 원문)"
+  },
+  {
+   "title": "마녀공장 — 주요사항보고서(자기주식취득신탁계약해지결정)",
+   "core": "마녀공장 주요사항보고서(자기주식취득신탁계약해지결정)",
+   "date": "20260812",
+   "org": "DART·코스닥",
+   "official": true,
+   "kinds": [
+    "의지"
+   ],
+   "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260812000540",
+   "symbol": "439090",
+   "company": "마녀공장",
+   "src_kind": "공시",
+   "abstract": "",
+   "sectors": [],
+   "watch": [],
+   "id": 82,
+   "src": "DART",
+   "src_name": "국내 공시 (DART 원문)"
+  },
+  {
+   "title": "대동금속 — 주요사항보고서(유상증자결정)",
+   "core": "대동금속 주요사항보고서(유상증자결정)",
+   "date": "20260812",
+   "org": "DART·코스닥",
+   "official": true,
+   "kinds": [
+    "자본"
+   ],
+   "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260812000426",
+   "symbol": "020400",
+   "company": "대동금속",
+   "src_kind": "공시",
+   "abstract": "",
+   "sectors": [],
+   "watch": [],
+   "id": 83,
+   "src": "DART",
+   "src_name": "국내 공시 (DART 원문)"
+  },
+  {
+   "title": "광진실업 — [기재정정]주요사항보고서(유상증자결정)",
+   "core": "광진실업 [기재정정]주요사항보고서(유상증자결정)",
+   "date": "20260812",
+   "org": "DART·코스닥",
+   "official": true,
+   "kinds": [
+    "자본"
+   ],
+   "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260812000403",
+   "symbol": "026910",
+   "company": "광진실업",
+   "src_kind": "공시",
+   "abstract": "",
+   "sectors": [],
+   "watch": [],
+   "id": 84,
+   "src": "DART",
+   "src_name": "국내 공시 (DART 원문)"
+  },
+  {
+   "title": "씨앤씨인터내셔널 — 주요사항보고서(자기주식취득신탁계약체결결정)",
+   "core": "씨앤씨인터내셔널 주요사항보고서(자기주식취득신탁계약체결결정)",
+   "date": "20260812",
+   "org": "DART·코스닥",
+   "official": true,
+   "kinds": [
+    "의지"
+   ],
+   "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260812000327",
+   "symbol": "352480",
+   "company": "씨앤씨인터내셔널",
+   "src_kind": "공시",
+   "abstract": "",
+   "sectors": [],
+   "watch": [],
+   "id": 85,
+   "src": "DART",
+   "src_name": "국내 공시 (DART 원문)"
+  },
+  {
+   "title": "네오위즈 — 주요사항보고서(자기주식취득신탁계약체결결정)",
+   "core": "네오위즈 주요사항보고서(자기주식취득신탁계약체결결정)",
+   "date": "20260812",
+   "org": "DART·코스닥",
+   "official": true,
+   "kinds": [
+    "의지"
+   ],
+   "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260812000035",
+   "symbol": "095660",
+   "company": "네오위즈",
+   "src_kind": "공시",
+   "abstract": "",
+   "sectors": [],
+   "watch": [],
+   "id": 86,
+   "src": "DART",
+   "src_name": "국내 공시 (DART 원문)"
+  },
+  {
+   "title": "모아데이타 — [기재정정]주요사항보고서(자기전환사채만기전취득결정)",
+   "core": "모아데이타 [기재정정]주요사항보고서(자기전환사채만기전취득결정)",
+   "date": "20260812",
+   "org": "DART·코스닥",
+   "official": true,
+   "kinds": [
+    "자본"
+   ],
+   "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260812000001",
+   "symbol": "288980",
+   "company": "모아데이타",
+   "src_kind": "공시",
+   "abstract": "",
+   "sectors": [],
+   "watch": [],
+   "id": 87,
+   "src": "DART",
+   "src_name": "국내 공시 (DART 원문)"
+  },
+  {
+   "title": "에스아이리소스 — 주요사항보고서(소송등의제기)",
+   "core": "에스아이리소스 주요사항보고서(소송등의제기)",
+   "date": "20260811",
+   "org": "DART·코스닥",
+   "official": true,
+   "kinds": [
+    "위험"
+   ],
+   "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811000703",
+   "symbol": "065420",
+   "company": "에스아이리소스",
+   "src_kind": "공시",
+   "abstract": "",
+   "sectors": [],
+   "watch": [],
+   "id": 88,
+   "src": "DART",
+   "src_name": "국내 공시 (DART 원문)"
+  },
+  {
+   "title": "샤페론 — 주요사항보고서(자기전환사채만기전취득결정)",
+   "core": "샤페론 주요사항보고서(자기전환사채만기전취득결정)",
+   "date": "20260811",
+   "org": "DART·코스닥",
+   "official": true,
+   "kinds": [
+    "자본"
+   ],
+   "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811000693",
+   "symbol": "378800",
+   "company": "샤페론",
+   "src_kind": "공시",
+   "abstract": "",
+   "sectors": [],
+   "watch": [],
+   "id": 89,
+   "src": "DART",
+   "src_name": "국내 공시 (DART 원문)"
+  },
+  {
+   "title": "제이케이시냅스 — [기재정정]주요사항보고서(전환사채권발행결정)",
+   "core": "제이케이시냅스 [기재정정]주요사항보고서(전환사채권발행결정)",
+   "date": "20260811",
+   "org": "DART·코스닥",
+   "official": true,
+   "kinds": [
+    "자본"
+   ],
+   "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811000684",
+   "symbol": "060230",
+   "company": "제이케이시냅스",
+   "src_kind": "공시",
+   "abstract": "",
+   "sectors": [],
+   "watch": [],
+   "id": 90,
+   "src": "DART",
+   "src_name": "국내 공시 (DART 원문)"
+  },
+  {
+   "title": "제이케이시냅스 — [기재정정]주요사항보고서(전환사채권발행결정)",
+   "core": "제이케이시냅스 [기재정정]주요사항보고서(전환사채권발행결정)",
+   "date": "20260811",
+   "org": "DART·코스닥",
+   "official": true,
+   "kinds": [
+    "자본"
+   ],
+   "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811000678",
+   "symbol": "060230",
+   "company": "제이케이시냅스",
+   "src_kind": "공시",
+   "abstract": "",
+   "sectors": [],
+   "watch": [],
+   "id": 91,
+   "src": "DART",
+   "src_name": "국내 공시 (DART 원문)"
+  },
+  {
+   "title": "이노진 — 주요사항보고서(자기주식취득결정)",
+   "core": "이노진 주요사항보고서(자기주식취득결정)",
+   "date": "20260811",
+   "org": "DART·코스닥",
+   "official": true,
+   "kinds": [
+    "의지"
+   ],
+   "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811000585",
+   "symbol": "344860",
+   "company": "이노진",
+   "src_kind": "공시",
+   "abstract": "",
+   "sectors": [],
+   "watch": [],
+   "id": 92,
+   "src": "DART",
+   "src_name": "국내 공시 (DART 원문)"
+  },
+  {
+   "title": "한국유니온제약 — [기재정정]주요사항보고서(유상증자결정)",
+   "core": "한국유니온제약 [기재정정]주요사항보고서(유상증자결정)",
+   "date": "20260811",
+   "org": "DART·코스닥",
+   "official": true,
+   "kinds": [
+    "자본"
+   ],
+   "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811000550",
+   "symbol": "080720",
+   "company": "한국유니온제약",
+   "src_kind": "공시",
+   "abstract": "",
+   "sectors": [
+    "바이오/의료"
+   ],
+   "watch": [],
+   "id": 93,
+   "src": "DART",
+   "src_name": "국내 공시 (DART 원문)"
+  },
+  {
+   "title": "한국유니온제약 — [기재정정]주요사항보고서(감자결정)",
+   "core": "한국유니온제약 [기재정정]주요사항보고서(감자결정)",
+   "date": "20260811",
+   "org": "DART·코스닥",
+   "official": true,
+   "kinds": [
+    "자본"
+   ],
+   "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811000548",
+   "symbol": "080720",
+   "company": "한국유니온제약",
+   "src_kind": "공시",
+   "abstract": "",
+   "sectors": [
+    "바이오/의료"
+   ],
+   "watch": [],
+   "id": 94,
+   "src": "DART",
+   "src_name": "국내 공시 (DART 원문)"
+  },
+  {
+   "title": "한국유니온제약 — [기재정정]주요사항보고서(유상증자결정)",
+   "core": "한국유니온제약 [기재정정]주요사항보고서(유상증자결정)",
+   "date": "20260811",
+   "org": "DART·코스닥",
+   "official": true,
+   "kinds": [
+    "자본"
+   ],
+   "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811000546",
+   "symbol": "080720",
+   "company": "한국유니온제약",
+   "src_kind": "공시",
+   "abstract": "",
+   "sectors": [
+    "바이오/의료"
+   ],
+   "watch": [],
+   "id": 95,
+   "src": "DART",
+   "src_name": "국내 공시 (DART 원문)"
+  },
+  {
+   "title": "알엔티엑스 — [기재정정]주요사항보고서(전환사채권발행결정)",
+   "core": "알엔티엑스 [기재정정]주요사항보고서(전환사채권발행결정)",
+   "date": "20260811",
+   "org": "DART·코스닥",
+   "official": true,
+   "kinds": [
+    "자본"
+   ],
+   "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811000532",
+   "symbol": "123010",
+   "company": "알엔티엑스",
+   "src_kind": "공시",
+   "abstract": "",
+   "sectors": [],
+   "watch": [],
+   "id": 96,
+   "src": "DART",
+   "src_name": "국내 공시 (DART 원문)"
+  },
+  {
+   "title": "이렘 — [기재정정]주요사항보고서(유상증자결정)",
+   "core": "이렘 [기재정정]주요사항보고서(유상증자결정)",
+   "date": "20260811",
+   "org": "DART·코스닥",
+   "official": true,
+   "kinds": [
+    "자본"
+   ],
+   "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811000481",
+   "symbol": "009730",
+   "company": "이렘",
+   "src_kind": "공시",
+   "abstract": "",
+   "sectors": [],
+   "watch": [],
+   "id": 97,
+   "src": "DART",
+   "src_name": "국내 공시 (DART 원문)"
+  },
+  {
+   "title": "CSA 코스믹 — [기재정정]주요사항보고서(유상증자결정)",
+   "core": "CSA 코스믹 [기재정정]주요사항보고서(유상증자결정)",
+   "date": "20260811",
+   "org": "DART·코스닥",
+   "official": true,
+   "kinds": [
+    "자본"
+   ],
+   "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811000527",
+   "symbol": "083660",
+   "company": "CSA 코스믹",
+   "src_kind": "공시",
+   "abstract": "",
+   "sectors": [],
+   "watch": [],
+   "id": 98,
+   "src": "DART",
+   "src_name": "국내 공시 (DART 원문)"
+  },
+  {
+   "title": "CSA 코스믹 — [기재정정]주요사항보고서(유상증자결정)",
+   "core": "CSA 코스믹 [기재정정]주요사항보고서(유상증자결정)",
+   "date": "20260811",
+   "org": "DART·코스닥",
+   "official": true,
+   "kinds": [
+    "자본"
+   ],
+   "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811000502",
+   "symbol": "083660",
+   "company": "CSA 코스믹",
+   "src_kind": "공시",
+   "abstract": "",
+   "sectors": [],
+   "watch": [],
+   "id": 99,
+   "src": "DART",
+   "src_name": "국내 공시 (DART 원문)"
+  },
+  {
+   "title": "클로봇 — [기재정정]주요사항보고서(유상증자결정)",
+   "core": "클로봇 [기재정정]주요사항보고서(유상증자결정)",
+   "date": "20260811",
+   "org": "DART·코스닥",
+   "official": true,
+   "kinds": [
+    "자본"
+   ],
+   "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811000472",
+   "symbol": "466100",
+   "company": "클로봇",
+   "src_kind": "공시",
+   "abstract": "",
+   "sectors": [],
+   "watch": [
+    "로봇"
+   ],
+   "id": 100,
+   "src": "DART",
+   "src_name": "국내 공시 (DART 원문)"
+  },
+  {
+   "title": "센서뷰 — [기재정정]주요사항보고서(유상증자결정)",
+   "core": "센서뷰 [기재정정]주요사항보고서(유상증자결정)",
+   "date": "20260811",
+   "org": "DART·코스닥",
+   "official": true,
+   "kinds": [
+    "자본"
+   ],
+   "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811000451",
+   "symbol": "321370",
+   "company": "센서뷰",
+   "src_kind": "공시",
+   "abstract": "",
+   "sectors": [],
+   "watch": [],
+   "id": 101,
+   "src": "DART",
+   "src_name": "국내 공시 (DART 원문)"
+  },
+  {
+   "title": "비트맥스 — 주요사항보고서(자기전환사채만기전취득결정)",
+   "core": "비트맥스 주요사항보고서(자기전환사채만기전취득결정)",
+   "date": "20260811",
+   "org": "DART·코스닥",
+   "official": true,
+   "kinds": [
+    "자본"
+   ],
+   "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811000425",
+   "symbol": "377030",
+   "company": "비트맥스",
+   "src_kind": "공시",
+   "abstract": "",
+   "sectors": [],
+   "watch": [],
+   "id": 102,
+   "src": "DART",
+   "src_name": "국내 공시 (DART 원문)"
+  },
+  {
+   "title": "PS일렉트로닉스 — 주요사항보고서(자기주식취득신탁계약해지결정)",
+   "core": "PS일렉트로닉스 주요사항보고서(자기주식취득신탁계약해지결정)",
+   "date": "20260811",
+   "org": "DART·코스닥",
+   "official": true,
+   "kinds": [
+    "의지"
+   ],
+   "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811000418",
+   "symbol": "332570",
+   "company": "PS일렉트로닉스",
+   "src_kind": "공시",
+   "abstract": "",
+   "sectors": [],
+   "watch": [],
+   "id": 103,
+   "src": "DART",
+   "src_name": "국내 공시 (DART 원문)"
+  },
+  {
+   "title": "RFHIC — 주요사항보고서(자기주식처분결정)",
+   "core": "RFHIC 주요사항보고서(자기주식처분결정)",
+   "date": "20260811",
+   "org": "DART·코스닥",
+   "official": true,
+   "kinds": [
+    "의지"
+   ],
+   "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811000401",
+   "symbol": "218410",
+   "company": "RFHIC",
+   "src_kind": "공시",
+   "abstract": "",
+   "sectors": [],
+   "watch": [],
+   "id": 104,
+   "src": "DART",
+   "src_name": "국내 공시 (DART 원문)"
+  },
+  {
+   "title": "코퍼스코리아 — [기재정정]주요사항보고서(유상증자결정)",
+   "core": "코퍼스코리아 [기재정정]주요사항보고서(유상증자결정)",
+   "date": "20260811",
+   "org": "DART·코스닥",
+   "official": true,
+   "kinds": [
+    "자본"
+   ],
+   "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811000390",
+   "symbol": "322780",
+   "company": "코퍼스코리아",
+   "src_kind": "공시",
+   "abstract": "",
+   "sectors": [],
+   "watch": [],
+   "id": 105,
+   "src": "DART",
+   "src_name": "국내 공시 (DART 원문)"
+  },
+  {
+   "title": "와이솔 — 주요사항보고서(자기주식취득신탁계약해지결정)",
+   "core": "와이솔 주요사항보고서(자기주식취득신탁계약해지결정)",
+   "date": "20260811",
+   "org": "DART·코스닥",
+   "official": true,
+   "kinds": [
+    "의지"
+   ],
+   "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811000362",
+   "symbol": "122990",
+   "company": "와이솔",
+   "src_kind": "공시",
+   "abstract": "",
+   "sectors": [],
+   "watch": [],
+   "id": 106,
+   "src": "DART",
+   "src_name": "국내 공시 (DART 원문)"
+  },
+  {
+   "title": "판타지오 — [기재정정]주요사항보고서(유상증자결정)",
+   "core": "판타지오 [기재정정]주요사항보고서(유상증자결정)",
+   "date": "20260811",
+   "org": "DART·코스닥",
+   "official": true,
+   "kinds": [
+    "자본"
+   ],
+   "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811000366",
+   "symbol": "032800",
+   "company": "판타지오",
+   "src_kind": "공시",
+   "abstract": "",
+   "sectors": [],
+   "watch": [],
+   "id": 107,
+   "src": "DART",
+   "src_name": "국내 공시 (DART 원문)"
+  },
+  {
+   "title": "대륙제관 — 주요사항보고서(자기주식취득신탁계약해지결정)",
+   "core": "대륙제관 주요사항보고서(자기주식취득신탁계약해지결정)",
+   "date": "20260811",
+   "org": "DART·코스닥",
+   "official": true,
+   "kinds": [
+    "의지"
+   ],
+   "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811000358",
+   "symbol": "004780",
+   "company": "대륙제관",
+   "src_kind": "공시",
+   "abstract": "",
+   "sectors": [],
+   "watch": [],
+   "id": 108,
+   "src": "DART",
+   "src_name": "국내 공시 (DART 원문)"
+  },
+  {
+   "title": "제이케이시냅스 — 주요사항보고서(자기전환사채매도결정)",
+   "core": "제이케이시냅스 주요사항보고서(자기전환사채매도결정)",
+   "date": "20260811",
+   "org": "DART·코스닥",
+   "official": true,
+   "kinds": [
+    "자본"
+   ],
+   "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811000312",
+   "symbol": "060230",
+   "company": "제이케이시냅스",
+   "src_kind": "공시",
+   "abstract": "",
+   "sectors": [],
+   "watch": [],
+   "id": 109,
+   "src": "DART",
+   "src_name": "국내 공시 (DART 원문)"
+  },
+  {
+   "title": "휴엠앤씨 — 주요사항보고서(자기주식취득신탁계약해지결정)",
+   "core": "휴엠앤씨 주요사항보고서(자기주식취득신탁계약해지결정)",
+   "date": "20260811",
+   "org": "DART·코스닥",
+   "official": true,
+   "kinds": [
+    "의지"
+   ],
+   "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811000291",
+   "symbol": "263920",
+   "company": "휴엠앤씨",
+   "src_kind": "공시",
+   "abstract": "",
+   "sectors": [],
+   "watch": [],
+   "id": 110,
+   "src": "DART",
+   "src_name": "국내 공시 (DART 원문)"
+  },
+  {
+   "title": "하스 — 주요사항보고서(자기주식취득신탁계약체결결정)",
+   "core": "하스 주요사항보고서(자기주식취득신탁계약체결결정)",
+   "date": "20260811",
+   "org": "DART·코스닥",
+   "official": true,
+   "kinds": [
+    "의지"
+   ],
+   "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811000158",
+   "symbol": "450330",
+   "company": "하스",
+   "src_kind": "공시",
+   "abstract": "",
+   "sectors": [],
+   "watch": [],
+   "id": 111,
+   "src": "DART",
+   "src_name": "국내 공시 (DART 원문)"
+  },
+  {
+   "title": "서한 — [첨부정정]주요사항보고서(신주인수권부사채권발행결정)",
+   "core": "서한 [첨부정정]주요사항보고서(신주인수권부사채권발행결정)",
+   "date": "20260811",
+   "org": "DART·코스닥",
+   "official": true,
+   "kinds": [
+    "자본"
+   ],
+   "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811000009",
+   "symbol": "011370",
+   "company": "서한",
+   "src_kind": "공시",
+   "abstract": "",
+   "sectors": [],
+   "watch": [],
+   "id": 112,
+   "src": "DART",
+   "src_name": "국내 공시 (DART 원문)"
+  },
+  {
+   "title": "에이전트AI — 주요사항보고서(자기전환사채만기전취득결정)",
+   "core": "에이전트AI 주요사항보고서(자기전환사채만기전취득결정)",
+   "date": "20260811",
+   "org": "DART·코스닥",
+   "official": true,
+   "kinds": [
+    "자본"
+   ],
+   "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260810000743",
+   "symbol": "060900",
+   "company": "에이전트AI",
+   "src_kind": "공시",
+   "abstract": "",
+   "sectors": [],
+   "watch": [],
+   "id": 113,
+   "src": "DART",
+   "src_name": "국내 공시 (DART 원문)"
+  },
+  {
+   "title": "삼보산업 — [기재정정]주요사항보고서(유상증자결정)",
+   "core": "삼보산업 [기재정정]주요사항보고서(유상증자결정)",
+   "date": "20260810",
+   "org": "DART·코스닥",
+   "official": true,
+   "kinds": [
+    "자본"
+   ],
+   "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260810000728",
+   "symbol": "009620",
+   "company": "삼보산업",
+   "src_kind": "공시",
+   "abstract": "",
+   "sectors": [],
+   "watch": [],
+   "id": 114,
+   "src": "DART",
+   "src_name": "국내 공시 (DART 원문)"
+  },
+  {
+   "title": "인카금융서비스 — 주요사항보고서(자기주식취득신탁계약해지결정)",
+   "core": "인카금융서비스 주요사항보고서(자기주식취득신탁계약해지결정)",
+   "date": "20260810",
+   "org": "DART·코스닥",
+   "official": true,
+   "kinds": [
+    "의지"
+   ],
+   "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260810000474",
+   "symbol": "211050",
+   "company": "인카금융서비스",
+   "src_kind": "공시",
+   "abstract": "",
+   "sectors": [],
+   "watch": [],
+   "id": 115,
+   "src": "DART",
+   "src_name": "국내 공시 (DART 원문)"
+  },
+  {
+   "title": "그래디언트 — 주요사항보고서(자기주식취득신탁계약체결결정)",
+   "core": "그래디언트 주요사항보고서(자기주식취득신탁계약체결결정)",
+   "date": "20260810",
+   "org": "DART·코스닥",
+   "official": true,
+   "kinds": [
+    "의지"
+   ],
+   "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260810000292",
+   "symbol": "035080",
+   "company": "그래디언트",
+   "src_kind": "공시",
+   "abstract": "",
+   "sectors": [],
+   "watch": [],
+   "id": 116,
+   "src": "DART",
+   "src_name": "국내 공시 (DART 원문)"
+  },
+  {
+   "title": "조이웍스앤코 — 주요사항보고서(자기전환사채만기전취득결정)",
+   "core": "조이웍스앤코 주요사항보고서(자기전환사채만기전취득결정)",
+   "date": "20260810",
+   "org": "DART·코스닥",
+   "official": true,
+   "kinds": [
+    "자본"
+   ],
+   "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260810000282",
+   "symbol": "309930",
+   "company": "조이웍스앤코",
+   "src_kind": "공시",
+   "abstract": "",
+   "sectors": [],
+   "watch": [],
+   "id": 117,
+   "src": "DART",
+   "src_name": "국내 공시 (DART 원문)"
+  },
+  {
+   "title": "모비데이즈 — 주요사항보고서(자기주식취득신탁계약체결결정)",
+   "core": "모비데이즈 주요사항보고서(자기주식취득신탁계약체결결정)",
+   "date": "20260810",
+   "org": "DART·코스닥",
+   "official": true,
+   "kinds": [
+    "의지"
+   ],
+   "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260810000244",
+   "symbol": "363260",
+   "company": "모비데이즈",
+   "src_kind": "공시",
+   "abstract": "",
+   "sectors": [],
+   "watch": [],
+   "id": 118,
+   "src": "DART",
+   "src_name": "국내 공시 (DART 원문)"
+  },
+  {
+   "title": "시선AI — [기재정정]주요사항보고서(유상증자결정)",
+   "core": "시선AI [기재정정]주요사항보고서(유상증자결정)",
+   "date": "20260810",
+   "org": "DART·코스닥",
+   "official": true,
+   "kinds": [
+    "자본"
+   ],
+   "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260810000220",
+   "symbol": "340810",
+   "company": "시선AI",
+   "src_kind": "공시",
+   "abstract": "",
+   "sectors": [],
+   "watch": [],
+   "id": 119,
+   "src": "DART",
+   "src_name": "국내 공시 (DART 원문)"
+  },
+  {
+   "title": "엠엑스로보틱스 — 주요사항보고서(유상증자결정)",
+   "core": "엠엑스로보틱스 주요사항보고서(유상증자결정)",
+   "date": "20260810",
+   "org": "DART·코스닥",
+   "official": true,
+   "kinds": [
+    "자본"
+   ],
+   "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260807000794",
+   "symbol": "007820",
+   "company": "엠엑스로보틱스",
+   "src_kind": "공시",
+   "abstract": "",
+   "sectors": [],
+   "watch": [],
+   "id": 120,
+   "src": "DART",
+   "src_name": "국내 공시 (DART 원문)"
+  },
+  {
+   "title": "⭐ SOUNDHOUND AI, INC. — 10-Q 분기보고서",
+   "core": "SOUNDHOUND AI, INC. 10-Q 분기보고서",
+   "date": "2026-08-10",
+   "org": "SEC·감시종목",
+   "official": true,
+   "kinds": [
+    "실체"
+   ],
+   "link": "https://www.sec.gov/Archives/edgar/data/1840856/000184085626000022/soun-20260630.htm",
+   "symbol": "SOUN",
+   "company": "SOUNDHOUND AI, INC.",
+   "src_kind": "공시",
+   "abstract": "",
+   "sectors": [],
+   "watch": [],
+   "id": 121,
+   "src": "EDGAR",
+   "src_name": "미국 공시 (SEC 원문)"
+  },
   {
    "title": "Guide To Minimize Biological Hazards in Ready-to-Eat Fresh-Cut Produce; Guidance for Industry; Availability",
    "core": "바로 먹을 수 있는 신선 농산물의 생물학적 위험을 최소화하기 위한 가이드; 산업계 지침; 유효성",
@@ -116,13 +2541,13 @@
     "바이오/의료"
    ],
    "watch": [],
-   "id": 1,
+   "id": 122,
    "src": "FEDREG",
    "src_name": "미국 정책 (연방관보 원문)"
   },
   {
    "title": "Schedules of Controlled Substances: Temporary Placement of O-Desmethyltramadol in Schedule I",
-   "core": "규제 물질 목록: 목록 I의 O-Desmethyltramadol 임시 배치",
+   "core": "규제 물질 목록: 목록 I에서 O-Desmethyltramadol의 임시 배치",
    "title_en": "Schedules of Controlled Substances: Temporary Placement of O-Desmethyltramadol in Schedule I",
    "date": "2026-08-12",
    "abstract": "마약 단속국(Drug Enforcement Administration)은 이성질체, 에스테르, 에테르, 염 및 이성질체, 에스테르 및 에테르의 염을 포함하는 O-데스메틸트라마돌(다른 이름: O-DSMT; 데스메트라마돌; 3-[(1R,2R)-2-[(디메틸아미노)메틸]-1-하이드록시사이클로헥실]페놀)을 통제 물질법(Controlled Substances Act)의 일정 I에 포함하도록 임시 명령을 내립니다. DEA는 일정에 O-DSMT를 배치한다는 사실을 토대로 이 조치를 취합니다.",
@@ -138,7 +2563,7 @@
    "effective": "",
    "sectors": [],
    "watch": [],
-   "id": 2,
+   "id": 123,
    "src": "FEDREG",
    "src_name": "미국 정책 (연방관보 원문)"
   },
@@ -147,7 +2572,7 @@
    "core": "승인된 사용후 연료 저장용기 목록: NAC International, Inc., MAGNASTOR® 저장 시스템, 규정 준수 증명서 No. 1031, 수정안 Nos. 16 및 17 및 수정안 Nos. 0~16에 대한 수정",
    "title_en": "List of Approved Spent Fuel Storage Casks: NAC International, Inc., MAGNASTOR® Storage System, Certificate of Compliance No. 1031, Amendment Nos. 16 and 17 and Revisions to Amendment Nos. 0 through 16",
    "date": "2026-08-12",
-   "abstract": "미국 원자력 규제 위원회(NRC)는 2026년 7월 1일 연방 관보에 게시된 직접 최종 규칙의 발효일을 2026년 9월 14일로 확인합니다. 이 직접 최종 규칙은 \"승인된 사용후 연료 저장 용기 목록\" 내의 NAC MAGNASTOR 시스템 목록을 수정하여 수정안 16 및 17을 포함하고 수정안 0~16에 대한 수정 사항을 다음과 같이 수정했습니다. 인증서",
+   "abstract": "미국 원자력 규제 위원회(NRC)는 2026년 7월 1일 연방 관보에 게시된 직접 최종 규칙의 발효일을 2026년 9월 14일로 확인합니다. 이 직접 최종 규칙은 \"승인된 사용후 연료 저장 용기 목록\" 내 NAC MAGNASTOR 시스템 목록을 수정하여 수정안 16 및 17을 포함하고 수정안 0~16에 대한 수정 사항을 다음과 같이 수정했습니다. 인증서",
    "abstract_en": "The U.S. Nuclear Regulatory Commission (NRC) is confirming the effective date of September 14, 2026, for the direct final rule that was published in the Federal Register on July 1, 2026. This direct final rule amended the NAC MAGNASTOR System listing within the \"List of approved spent fuel storage casks\" to include Amendment Nos. 16 and 17 and revisions to Amendment Nos. 0 through 16 to Certificate of Compliance No. 1031.",
    "org": "원자력규제위원회",
    "link": "https://www.federalregister.gov/documents/2026/08/12/2026-16398/list-of-approved-spent-fuel-storage-casks-nac-international-inc-magnastor-storage-system-certificate",
@@ -160,7 +2585,7 @@
    "effective": "",
    "sectors": [],
    "watch": [],
-   "id": 3,
+   "id": 124,
    "src": "FEDREG",
    "src_name": "미국 정책 (연방관보 원문)"
   },
@@ -169,7 +2594,7 @@
    "core": "구동형 마이크로모빌리티 장치",
    "title_en": "Powered Micromobility Devices",
    "date": "2026-08-12",
-   "abstract": "국립공원관리청은 국립공원 시스템 내에서 구동되는 마이크로모빌리티 장치의 사용을 위한 관리 프레임워크를 마무리합니다. 최종 규칙은 자동차, 전통 자전거, 전기 자전거, 인력으로 구동되는 해안 장치와 별도로 구동형 마이크로모빌리티 장치를 정의하고 국립공원 시스템 단위에서 이러한 장치를 사용할 수 있는 위치와 방법에 대한 규칙을 만듭니다. 예 o",
+   "abstract": "국립공원관리청(National Park Service)은 국립공원 시스템 내에서 구동되는 마이크로모빌리티 장치의 사용을 위한 관리 프레임워크를 마무리합니다. 최종 규칙은 자동차, 전통 자전거, 전기 자전거, 인력으로 구동되는 해안 장치와 별도로 구동형 마이크로모빌리티 장치를 정의하고 국립공원 시스템 단위에서 이러한 장치를 사용할 수 있는 위치와 방법에 대한 규칙을 만듭니다. 예 o",
    "abstract_en": "The National Park Service finalizes a management framework for the use of powered micromobility devices within the National Park System. The final rule defines powered micromobility devices separately from motor vehicles, traditional bicycles, electric bicycles, and human powered coasting devices, and creates rules for where and how they may be used in units of the National Park System. Examples of powered micromobility devices include electric scooters (e- scooters), hoverboards, and Segways.",
    "org": "Interior Department, National Park Service",
    "link": "https://www.federalregister.gov/documents/2026/08/12/2026-16388/powered-micromobility-devices",
@@ -184,7 +2609,7 @@
     "모빌리티"
    ],
    "watch": [],
-   "id": 4,
+   "id": 125,
    "src": "FEDREG",
    "src_name": "미국 정책 (연방관보 원문)"
   },
@@ -207,14 +2632,16 @@
    "sectors": [
     "금속/광물"
    ],
-   "watch": [],
-   "id": 5,
+   "watch": [
+    "폴리실리콘"
+   ],
+   "id": 126,
    "src": "FEDREG",
    "src_name": "미국 정책 (연방관보 원문)"
   },
   {
    "title": "Schedules of Controlled Substances: Rescheduling of Suvorexant, Lemborexant, and Daridorexant From Schedule IV Into Schedule V",
-   "core": "규제 물질 일정: Suvorexant, Lemborexant 및 Daridorexant의 일정 IV를 일정 V로 변경",
+   "core": "규제 물질 일정: Suvorexant, Lemborexant 및 Daridorexant의 일정을 일정 IV에서 일정 V로 변경",
    "title_en": "Schedules of Controlled Substances: Rescheduling of Suvorexant, Lemborexant, and Daridorexant From Schedule IV Into Schedule V",
    "date": "2026-08-11",
    "abstract": "미국 마약단속국에서는 수보렉산트([(7R)-4-(5-클로로-1,3-벤족사졸-2-일)-7-메틸-1,4-디아제판-1-일]-[5-메틸-2-(트리아졸-2-일)페닐]메타논), 렘보렉산트의 이전을 제안합니다. ((1R,2S)-2-[(2,4-디메틸피리미딘-5-일)옥시메틸]-2-(3-플루오로페닐)-N-(5-플루오로피리딘-2-일)시클로프로판-1-카르복사미드) 및 다리도렉산트([(2S)-2-(5-클로로-4-메틸-1H-벤즈이미다졸-2-일)-2-메틸피롤리",
@@ -230,7 +2657,7 @@
    "effective": "",
    "sectors": [],
    "watch": [],
-   "id": 6,
+   "id": 127,
    "src": "FEDREG",
    "src_name": "미국 정책 (연방관보 원문)"
   },
@@ -239,7 +2666,7 @@
    "core": "NRC 현대화: 규칙 제정 절차, 연방자문위원회법 조정, 접근 및 보안",
    "title_en": "NRC Modernization: Rulemaking Procedure, Federal Advisory Committee Act Alignment, Access, and Security",
    "date": "2026-08-11",
-   "abstract": "미국 원자력규제위원회(NRC)는 정보 보류 및 공포 후 논평 기간과 관련된 절차 조항을 간소화하여 규정을 개정하고 있습니다. NRC의 규정을 위원회 관리 사무국(CMS) 연방 자문 위원회법(FACA) 표준과 일치시킵니다. 국가 안보 적격성 기준 업데이트. 목표는 현대화하고 이를 명확하게 하는 것입니다.",
+   "abstract": "미국 원자력규제위원회(NRC)는 정보 보류 및 공포 후 논평 기간과 관련된 절차 조항을 간소화하여 규정을 개정하고 있습니다. NRC의 규정을 위원회 관리 사무국(CMS) 연방 자문 위원회법(FACA) 표준과 일치시킵니다. 국가 안보 적격성 기준 업데이트. 목표는 현대화하고 명확하게 하는 것입니다.",
    "abstract_en": "The U.S. Nuclear Regulatory Commission (NRC) is amending its regulations by streamlining procedural provisions related to information withholding and post-promulgation comment periods; aligning the NRC's regulations with Committee Management Secretariat (CMS) Federal Advisory Committee Act (FACA) standards; and updating national security eligibility criteria. The goal is to modernize and clarify the NRC's regulatory framework to ensure consistency with government-wide standards and improve administrative efficiency. The scope includes updates to outdated provisions and revisions to ensure compliance with current federal policies. This action is being taken in response to Executive Order 14300, \"Ordering the Reform of the Nuclear Regulatory Commission.\"",
    "org": "원자력규제위원회",
    "link": "https://www.federalregister.gov/documents/2026/08/11/2026-16374/nrc-modernization-rulemaking-procedure-federal-advisory-committee-act-alignment-access-and-security",
@@ -252,7 +2679,7 @@
    "effective": "",
    "sectors": [],
    "watch": [],
-   "id": 7,
+   "id": 128,
    "src": "FEDREG",
    "src_name": "미국 정책 (연방관보 원문)"
   },
@@ -261,7 +2688,7 @@
    "core": "NRC 현대화: 규칙 제정 절차, 연방자문위원회법 조정, 접근 및 보안",
    "title_en": "NRC Modernization: Rulemaking Procedure, Federal Advisory Committee Act Alignment, Access, and Security",
    "date": "2026-08-11",
-   "abstract": "미국 원자력 규제위원회(NRC)는 정보 보류 및 공포 후 논평 기간과 관련된 절차 조항을 간소화하여 규정을 개정할 것을 제안하고 있습니다. NRC의 규정을 위원회 관리 사무국(CMS) 연방 자문 위원회법(FACA) 표준과 일치시킵니다. 국가 안보 적격성 기준 업데이트. 목표는 현대화하고",
+   "abstract": "미국 원자력규제위원회(NRC)는 정보 보류 및 공포 후 논평 기간과 관련된 절차 조항을 간소화하여 규정을 개정할 것을 제안하고 있습니다. NRC의 규정을 위원회 관리 사무국(CMS) 연방 자문 위원회법(FACA) 표준과 일치시킵니다. 국가 안보 적격성 기준 업데이트. 목표는 현대화하고",
    "abstract_en": "The U.S. Nuclear Regulatory Commission (NRC) is proposing to amend its regulations by streamlining procedural provisions related to information withholding and post-promulgation comment periods; aligning the NRC's regulations with Committee Management Secretariat (CMS) Federal Advisory Committee Act (FACA) standards; and updating national security eligibility criteria. The goal is to modernize and clarify the NRC's regulatory framework to ensure consistency with government-wide standards and improve administrative efficiency. The scope includes updates to outdated provisions and revisions to ensure compliance with current federal policies. This action is being undertaken in response to Executive Order 14300, \"Ordering the Reform of the Nuclear Regulatory Commission.\"",
    "org": "원자력규제위원회",
    "link": "https://www.federalregister.gov/documents/2026/08/11/2026-16373/nrc-modernization-rulemaking-procedure-federal-advisory-committee-act-alignment-access-and-security",
@@ -274,7 +2701,7 @@
    "effective": "",
    "sectors": [],
    "watch": [],
-   "id": 8,
+   "id": 129,
    "src": "FEDREG",
    "src_name": "미국 정책 (연방관보 원문)"
   },
@@ -298,7 +2725,7 @@
     "수출통제/관세"
    ],
    "watch": [],
-   "id": 9,
+   "id": 130,
    "src": "FEDREG",
    "src_name": "미국 정책 (연방관보 원문)"
   },
@@ -322,11 +2749,8 @@
     "모빌리티",
     "항공/물류"
    ],
-   "watch": [
-    "항공",
-    "자동차"
-   ],
-   "id": 10,
+   "watch": [],
+   "id": 131,
    "src": "FEDREG",
    "src_name": "미국 정책 (연방관보 원문)"
   },
@@ -353,7 +2777,7 @@
     "항공/물류"
    ],
    "watch": [],
-   "id": 11,
+   "id": 132,
    "src": "FEDREG",
    "src_name": "미국 정책 (연방관보 원문)"
   },
@@ -373,18 +2797,18 @@
     "보조금/세제"
    ],
    "watch": [],
-   "id": 12,
+   "id": 133,
    "src": "KR_POLICY",
    "src_name": "한국 정책 (부처 발표)"
   },
   {
-   "title": "송영길 “부동산세 손대지 말라”…정부 세제개편 전면수정 요구 - 문화일보",
+   "title": "송영길 “부동산세 손대지 말라”…정부 세제개편 전면수정 요구 - munhwa.com",
    "core": "송영길 “부동산세 손대지 말라”…정부 세제개편 전면수정 요구",
    "date": "Wed, 12 Aug 2026",
-   "abstract": "송영길 “부동산세 손대지 말라”…정부 세제개편 전면수정 요구&nbsp;&nbsp;문화일보",
+   "abstract": "송영길 “부동산세 손대지 말라”…정부 세제개편 전면수정 요구&nbsp;&nbsp;munhwa.com",
    "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1IRW9meGZLNlRJMmpPeVB1bHRXelRxR2V0MndQTi15YjVVVTFia3BMb3Q5NmdPcjltWExEMTVNdnZ5OWhrWFo0ZG9XakdDdFU4?oc=5",
    "official": false,
-   "org": "문화일보",
+   "org": "munhwa.com",
    "kinds": [
     "정책"
    ],
@@ -394,7 +2818,7 @@
     "건설/부동산"
    ],
    "watch": [],
-   "id": 13,
+   "id": 134,
    "src": "KR_POLICY",
    "src_name": "한국 정책 (부처 발표)"
   },
@@ -414,7 +2838,7 @@
     "보조금/세제"
    ],
    "watch": [],
-   "id": 14,
+   "id": 135,
    "src": "KR_POLICY",
    "src_name": "한국 정책 (부처 발표)"
   },
@@ -434,7 +2858,25 @@
     "보조금/세제"
    ],
    "watch": [],
-   "id": 15,
+   "id": 136,
+   "src": "KR_POLICY",
+   "src_name": "한국 정책 (부처 발표)"
+  },
+  {
+   "title": "정부 돌봄·간병 자살 대책에...케어러들 “실질 부담 대체할 시스템 필요” - 투데이신문",
+   "core": "정부 돌봄·간병 자살 대책에...케어러들 “실질 부담 대체할 시스템 필요”",
+   "date": "Wed, 12 Aug 2026",
+   "abstract": "정부 돌봄·간병 자살 대책에...케어러들 “실질 부담 대체할 시스템 필요”&nbsp;&nbsp;투데이신문",
+   "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1JS2UtMkFLY3dCaXpqZUlHQ21sdEtRWi1Kb0pCZDhsbGpreE00NGgwbGpWdTFlMm16VkpuUmZ1U1RtQ1JKSTkwVllDR0JhbEh3bmxBWHR5NjBVU25pNG91VW9RVk1OTVJoeF80UHA3Z9IBb0FVX3lxTE1JS2UtMkFLY3dCaXpqZUlHQ21sdEtRWi1Kb0pCZDhsbGpreE00NGgwbGpWdTFlMm16VkpuUmZ1U1RtQ1JKSTkwVllDR0JhbEh3bmxBWHR5NjBVU25pNG91VW9RVk1OTVJoeF80UHA3Zw?oc=5",
+   "official": false,
+   "org": "투데이신문",
+   "kinds": [
+    "정책"
+   ],
+   "src_kind": "정책",
+   "sectors": [],
+   "watch": [],
+   "id": 137,
    "src": "KR_POLICY",
    "src_name": "한국 정책 (부처 발표)"
   },
@@ -454,30 +2896,8 @@
     "보조금/세제",
     "건설/부동산"
    ],
-   "watch": [
-    "건설"
-   ],
-   "id": 16,
-   "src": "KR_POLICY",
-   "src_name": "한국 정책 (부처 발표)"
-  },
-  {
-   "title": "與 \"정부, 주택공급·금융대책 내일 발표...국민 체감 속도감 있는 실행 중요\" - 조세일보",
-   "core": "與 \"정부, 주택공급·금융대책 내일 발표...국민 체감 속도감 있는 실행 중요\"",
-   "date": "Wed, 12 Aug 2026",
-   "abstract": "與 \"정부, 주택공급·금융대책 내일 발표...국민 체감 속도감 있는 실행 중요\"&nbsp;&nbsp;조세일보",
-   "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1LOVJCSm9kU1hBa1AzOTdIZGZBRXBGbGdlUjA5WWlRaXFoMmlQRmRvdGpLMV9hU2dyV2FCVWVqanV1TzREcjYzVUVkS1BBZ3lpeENtVnFzdTUwelJianFN?oc=5",
-   "official": false,
-   "org": "조세일보",
-   "kinds": [
-    "정책"
-   ],
-   "src_kind": "정책",
-   "sectors": [
-    "건설/부동산"
-   ],
    "watch": [],
-   "id": 17,
+   "id": 138,
    "src": "KR_POLICY",
    "src_name": "한국 정책 (부처 발표)"
   },
@@ -497,7 +2917,7 @@
     "보조금/세제"
    ],
    "watch": [],
-   "id": 18,
+   "id": 139,
    "src": "KR_POLICY",
    "src_name": "한국 정책 (부처 발표)"
   },
@@ -517,7 +2937,7 @@
     "건설/부동산"
    ],
    "watch": [],
-   "id": 19,
+   "id": 140,
    "src": "KR_POLICY",
    "src_name": "한국 정책 (부처 발표)"
   },
@@ -535,7 +2955,7 @@
    "src_kind": "정책",
    "sectors": [],
    "watch": [],
-   "id": 20,
+   "id": 141,
    "src": "KR_POLICY",
    "src_name": "한국 정책 (부처 발표)"
   },
@@ -553,7 +2973,27 @@
    "src_kind": "정책",
    "sectors": [],
    "watch": [],
-   "id": 21,
+   "id": 142,
+   "src": "KR_POLICY",
+   "src_name": "한국 정책 (부처 발표)"
+  },
+  {
+   "title": "정부 세제개편에 혼인·출산 불이익 개선 담아 - 지디넷코리아",
+   "core": "정부 세제개편에 혼인·출산 불이익 개선 담아",
+   "date": "Wed, 12 Aug 2026",
+   "abstract": "정부 세제개편에 혼인·출산 불이익 개선 담아&nbsp;&nbsp;지디넷코리아",
+   "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1KOWRHZGR1aURXVUhCY3M4cTY0Yk5nWEszVEpMY2JhdGpfdFNFMDNvTEZUMGViMURkSzAxRE9laUhDT3U0Nm03eWNHX19xWFM3UXVXZEtB?oc=5",
+   "official": false,
+   "org": "지디넷코리아",
+   "kinds": [
+    "정책"
+   ],
+   "src_kind": "정책",
+   "sectors": [
+    "보조금/세제"
+   ],
+   "watch": [],
+   "id": 143,
    "src": "KR_POLICY",
    "src_name": "한국 정책 (부처 발표)"
   },
@@ -571,7 +3011,7 @@
    "src_kind": "정책",
    "sectors": [],
    "watch": [],
-   "id": 22,
+   "id": 144,
    "src": "KR_POLICY",
    "src_name": "한국 정책 (부처 발표)"
   },
@@ -589,18 +3029,18 @@
    "src_kind": "정책",
    "sectors": [],
    "watch": [],
-   "id": 23,
+   "id": 145,
    "src": "KR_POLICY",
    "src_name": "한국 정책 (부처 발표)"
   },
   {
-   "title": "정부 부동산 정책 재확인…세제 개편·주택 공급 대책에 여야 공방 - CBC뉴스",
+   "title": "정부 부동산 정책 재확인…세제 개편·주택 공급 대책에 여야 공방 - cbci.co.kr",
    "core": "정부 부동산 정책 재확인…세제 개편·주택 공급 대책에 여야 공방",
    "date": "Wed, 12 Aug 2026",
-   "abstract": "정부 부동산 정책 재확인…세제 개편·주택 공급 대책에 여야 공방&nbsp;&nbsp;CBC뉴스",
+   "abstract": "정부 부동산 정책 재확인…세제 개편·주택 공급 대책에 여야 공방&nbsp;&nbsp;cbci.co.kr",
    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9YNTJ1ck1pVDhIMlNWS1IwUVZKT0RGdHJ4dmo1cWMtS1lHVUpETks1RXVuWjVLM3RKSkVKd1VBQk1JcU1IZElfQko5eXI2eUFDckRaWVJiSU9mV0NPS1VmWnA4VDBZS3hX?oc=5",
    "official": false,
-   "org": "CBC뉴스",
+   "org": "cbci.co.kr",
    "kinds": [
     "정책"
    ],
@@ -610,7 +3050,7 @@
     "건설/부동산"
    ],
    "watch": [],
-   "id": 24,
+   "id": 146,
    "src": "KR_POLICY",
    "src_name": "한국 정책 (부처 발표)"
   },
@@ -628,7 +3068,7 @@
    "src_kind": "정책",
    "sectors": [],
    "watch": [],
-   "id": 25,
+   "id": 147,
    "src": "KR_POLICY",
    "src_name": "한국 정책 (부처 발표)"
   },
@@ -648,7 +3088,7 @@
     "보조금/세제"
    ],
    "watch": [],
-   "id": 26,
+   "id": 148,
    "src": "KR_POLICY",
    "src_name": "한국 정책 (부처 발표)"
   },
@@ -668,27 +3108,7 @@
     "건설/부동산"
    ],
    "watch": [],
-   "id": 27,
-   "src": "KR_POLICY",
-   "src_name": "한국 정책 (부처 발표)"
-  },
-  {
-   "title": "정부 세제개편에 혼인·출산 불이익 개선 담아 - v.daum.net",
-   "core": "정부 세제개편에 혼인·출산 불이익 개선 담아",
-   "date": "Wed, 12 Aug 2026",
-   "abstract": "정부 세제개편에 혼인·출산 불이익 개선 담아&nbsp;&nbsp;v.daum.net",
-   "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5kQmFZY0lhY1NpaHZtNmpxaU50RFV6NnZabjZMalhSaFQ4VHI2Ty1MMFQ1Q05zb0FfSTRZLTRkNVBJbElJTkpDSHFxaDFiZGc?oc=5",
-   "official": false,
-   "org": "v.daum.net",
-   "kinds": [
-    "정책"
-   ],
-   "src_kind": "정책",
-   "sectors": [
-    "보조금/세제"
-   ],
-   "watch": [],
-   "id": 28,
+   "id": 149,
    "src": "KR_POLICY",
    "src_name": "한국 정책 (부처 발표)"
   },
@@ -708,7 +3128,27 @@
     "건설/부동산"
    ],
    "watch": [],
-   "id": 29,
+   "id": 150,
+   "src": "KR_POLICY",
+   "src_name": "한국 정책 (부처 발표)"
+  },
+  {
+   "title": "정부 세제개편안 논란 확산, 與 대책부심…野 파상공세 - 경상일보",
+   "core": "정부 세제개편안 논란 확산, 與 대책부심…野 파상공세",
+   "date": "Tue, 11 Aug 2026",
+   "abstract": "정부 세제개편안 논란 확산, 與 대책부심…野 파상공세&nbsp;&nbsp;경상일보",
+   "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8tQ1dNd0l6QnRLUHBKX2xzazEtX2FnNmc0dDc3eHZ4WWVWM3V5SXBHdTZNcVVPVzQwRWpYQUozRU5kbGFHV0QwblJUSkZTRHdYUDRmem1Ta0xWOFJLVnBFUWV3Yk80dDZVc1VrLQ?oc=5",
+   "official": false,
+   "org": "경상일보",
+   "kinds": [
+    "정책"
+   ],
+   "src_kind": "정책",
+   "sectors": [
+    "보조금/세제"
+   ],
+   "watch": [],
+   "id": 151,
    "src": "KR_POLICY",
    "src_name": "한국 정책 (부처 발표)"
   },
@@ -728,25 +3168,7 @@
     "건설/부동산"
    ],
    "watch": [],
-   "id": 30,
-   "src": "KR_POLICY",
-   "src_name": "한국 정책 (부처 발표)"
-  },
-  {
-   "title": "정부 돌봄·간병 자살 대책에...케어러들 “실질 부담 대체할 시스템 필요” - 투데이신문",
-   "core": "정부 돌봄·간병 자살 대책에...케어러들 “실질 부담 대체할 시스템 필요”",
-   "date": "Wed, 12 Aug 2026",
-   "abstract": "정부 돌봄·간병 자살 대책에...케어러들 “실질 부담 대체할 시스템 필요”&nbsp;&nbsp;투데이신문",
-   "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1kaEM3MGlLMElWcWFOSWpwUkdPOWFvSGJSck1hV21xVHBxcGZELUcyQWZISUtnQWZiNktoRXVFWnNKNUx3Q3NyTnEzNnE5RE9YZWc5dzIwU0x2QnZha21WMDBhX2F2bGlTYmZv0gFvQVVfeXFMTUlLZS0yQUtjd0JpemplSUdDbWx0S1FaLUpvSkJkOGxsamt4TTQ0aDBsalZ1MWUybXpWSm5SZnVTVG1DUkpJOTBWWUNHQmFsSHdubEFYdHk2MFVTbmk0b3VVb1FWTU5NUmh4XzRQcDdn?oc=5",
-   "official": false,
-   "org": "투데이신문",
-   "kinds": [
-    "정책"
-   ],
-   "src_kind": "정책",
-   "sectors": [],
-   "watch": [],
-   "id": 31,
+   "id": 152,
    "src": "KR_POLICY",
    "src_name": "한국 정책 (부처 발표)"
   },
@@ -768,7 +3190,7 @@
    "watch": [
     "바이오"
    ],
-   "id": 32,
+   "id": 153,
    "src": "KR_INDUS",
    "src_name": "한국 산업·공급망"
   },
@@ -786,7 +3208,7 @@
    "src_kind": "산업",
    "sectors": [],
    "watch": [],
-   "id": 33,
+   "id": 154,
    "src": "KR_INDUS",
    "src_name": "한국 산업·공급망"
   },
@@ -804,7 +3226,7 @@
    "src_kind": "산업",
    "sectors": [],
    "watch": [],
-   "id": 34,
+   "id": 155,
    "src": "KR_INDUS",
    "src_name": "한국 산업·공급망"
   },
@@ -821,10 +3243,8 @@
    ],
    "src_kind": "산업",
    "sectors": [],
-   "watch": [
-    "AI"
-   ],
-   "id": 35,
+   "watch": [],
+   "id": 156,
    "src": "KR_INDUS",
    "src_name": "한국 산업·공급망"
   },
@@ -842,7 +3262,7 @@
    "src_kind": "산업",
    "sectors": [],
    "watch": [],
-   "id": 36,
+   "id": 157,
    "src": "KR_INDUS",
    "src_name": "한국 산업·공급망"
   },
@@ -860,7 +3280,7 @@
    "src_kind": "산업",
    "sectors": [],
    "watch": [],
-   "id": 37,
+   "id": 158,
    "src": "KR_INDUS",
    "src_name": "한국 산업·공급망"
   },
@@ -878,7 +3298,7 @@
    "src_kind": "산업",
    "sectors": [],
    "watch": [],
-   "id": 38,
+   "id": 159,
    "src": "KR_INDUS",
    "src_name": "한국 산업·공급망"
   },
@@ -898,8 +3318,10 @@
     "전력/원자력",
     "방산/우주"
    ],
-   "watch": [],
-   "id": 39,
+   "watch": [
+    "SMR"
+   ],
+   "id": 160,
    "src": "KR_INDUS",
    "src_name": "한국 산업·공급망"
   },
@@ -917,7 +3339,7 @@
    "src_kind": "산업",
    "sectors": [],
    "watch": [],
-   "id": 40,
+   "id": 161,
    "src": "KR_INDUS",
    "src_name": "한국 산업·공급망"
   },
@@ -937,9 +3359,30 @@
     "전력/원자력"
    ],
    "watch": [
-    "원전"
+    "원전",
+    "SMR"
    ],
-   "id": 41,
+   "id": 162,
+   "src": "KR_INDUS",
+   "src_name": "한국 산업·공급망"
+  },
+  {
+   "title": "정부, 피지컬 AI 구매 대폭 확대…로봇 생태계 양성 By EBN - Investing.com 한국어",
+   "core": "정부, 피지컬 AI 구매 대폭 확대…로봇 생태계 양성 By EBN",
+   "date": "Mon, 10 Aug 2026",
+   "abstract": "정부, 피지컬 AI 구매 대폭 확대…로봇 생태계 양성 By EBN&nbsp;&nbsp;Investing.com 한국어",
+   "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9lNzl1UmFkWmFxZmt6U2hJN2tuZFN5RXpJUWFCbzRSYnhkSHQycVVQbGZWbFdYTUdiZ093RTJQY1Z3UC1xUEJKSWYyTjY3b2pNR28zSmlMamhVeGJXdm5RUTN6UU5UeGpnQ2tYUkdfdF8?oc=5",
+   "official": false,
+   "org": "Investing.com 한국어",
+   "kinds": [
+    "정책"
+   ],
+   "src_kind": "산업",
+   "sectors": [],
+   "watch": [
+    "로봇"
+   ],
+   "id": 163,
    "src": "KR_INDUS",
    "src_name": "한국 산업·공급망"
   },
@@ -957,25 +3400,43 @@
    "src_kind": "산업",
    "sectors": [],
    "watch": [],
-   "id": 42,
+   "id": 164,
    "src": "KR_INDUS",
    "src_name": "한국 산업·공급망"
   },
   {
-   "title": "코트라, 수출 다변화 총력전…\"수출 1조 달러, 수출 4강 달성 앞당긴다\" - 뉴스1",
-   "core": "코트라, 수출 다변화 총력전…\"수출 1조 달러, 수출 4강 달성 앞당긴다\"",
-   "date": "Tue, 11 Aug 2026",
-   "abstract": "코트라, 수출 다변화 총력전…\"수출 1조 달러, 수출 4강 달성 앞당긴다\"&nbsp;&nbsp;뉴스1",
-   "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5vQUJyMFQtN3FtLVFUMkcwYjZ0ZWxfLVB6RkRRR1lLcWlrSlBsOGtjTWd4UE93WGVxS1hiWkFqcldLa3dPSlB5UGh6UEVyaXRzUjQ1Nm9hNTBGSHh2VURSaExCenTSAWRBVV95cUxOb0FCcjBULTdxbS1RVDJHMGI2dGVsXy1QekZEUUdZS3Fpa0pQbDhrY01neFBPd1hlcUtYYlpBanJXS2t3T0pQeVBoelBFcml0c1I0NTZvYTUwRkh4dlVEUmhMQnp0?oc=5",
+   "title": "새만금 헴프산업클러스터 조성 탄력 - 아주경제",
+   "core": "새만금 헴프산업클러스터 조성 탄력",
+   "date": "Wed, 12 Aug 2026",
+   "abstract": "새만금 헴프산업클러스터 조성 탄력&nbsp;&nbsp;아주경제",
+   "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5UbzFVZW9HWGtWX2I5Q2QzTVBscklhVjlJdktEZlp6TEFKUFl3XzFrUUY5QmE1elp0X24wWXhxd2NnaEdocko5a0txdXVRWEcwUXJhSy1xOS3SAVhBVV95cUxOVG8xVWVvR1hrVl9iOUNkM01QbHJJYVY5SXZLRGZaekxBSlBZd18xa1FGOUJhNXpadF9uMFl4cXdjZ2hHaHJKOWtLcXV1UVhHMFFyYUstcTkt?oc=5",
    "official": false,
-   "org": "뉴스1",
+   "org": "아주경제",
    "kinds": [
     "정책"
    ],
    "src_kind": "산업",
    "sectors": [],
    "watch": [],
-   "id": 43,
+   "id": 165,
+   "src": "KR_INDUS",
+   "src_name": "한국 산업·공급망"
+  },
+  {
+   "title": "코트라, 수출 다변화 총력전…\"수출 1조 달러, 수출 4강 달성 앞당긴다\" - news1.kr",
+   "core": "코트라, 수출 다변화 총력전…\"수출 1조 달러, 수출 4강 달성 앞당긴다\"",
+   "date": "Tue, 11 Aug 2026",
+   "abstract": "코트라, 수출 다변화 총력전…\"수출 1조 달러, 수출 4강 달성 앞당긴다\"&nbsp;&nbsp;news1.kr",
+   "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5vQUJyMFQtN3FtLVFUMkcwYjZ0ZWxfLVB6RkRRR1lLcWlrSlBsOGtjTWd4UE93WGVxS1hiWkFqcldLa3dPSlB5UGh6UEVyaXRzUjQ1Nm9hNTBGSHh2VURSaExCenTSAWRBVV95cUxOb0FCcjBULTdxbS1RVDJHMGI2dGVsXy1QekZEUUdZS3Fpa0pQbDhrY01neFBPd1hlcUtYYlpBanJXS2t3T0pQeVBoelBFcml0c1I0NTZvYTUwRkh4dlVEUmhMQnp0?oc=5",
+   "official": false,
+   "org": "news1.kr",
+   "kinds": [
+    "정책"
+   ],
+   "src_kind": "산업",
+   "sectors": [],
+   "watch": [],
+   "id": 166,
    "src": "KR_INDUS",
    "src_name": "한국 산업·공급망"
   },
@@ -993,7 +3454,7 @@
    "src_kind": "산업",
    "sectors": [],
    "watch": [],
-   "id": 44,
+   "id": 167,
    "src": "KR_INDUS",
    "src_name": "한국 산업·공급망"
   },
@@ -1013,43 +3474,7 @@
     "금속/광물"
    ],
    "watch": [],
-   "id": 45,
-   "src": "KR_INDUS",
-   "src_name": "한국 산업·공급망"
-  },
-  {
-   "title": "코트라, 수출 다변화 전략 회의…\"수출 1조달러 앞장\" - 이투뉴스",
-   "core": "코트라, 수출 다변화 전략 회의…\"수출 1조달러 앞장\"",
-   "date": "Tue, 11 Aug 2026",
-   "abstract": "코트라, 수출 다변화 전략 회의…\"수출 1조달러 앞장\"&nbsp;&nbsp;이투뉴스",
-   "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5iNXlvYlA4VEtudWd2S2hsSFNDT1J0Mld3R1N4cnhpY2VkNlNhTER2dXFMdDhkSE1vZHBGazNBLXp3ZUZZUmFJTnZ2dElIQ1RaUzV3U2pQR0JEd19nQW1hcEoxTXZtbHc?oc=5",
-   "official": false,
-   "org": "이투뉴스",
-   "kinds": [
-    "정책"
-   ],
-   "src_kind": "산업",
-   "sectors": [],
-   "watch": [],
-   "id": 46,
-   "src": "KR_INDUS",
-   "src_name": "한국 산업·공급망"
-  },
-  {
-   "title": "KOTRA, 수출 스타기업 500개 육성…수출 다변화 흐름 선도 - 데일리안",
-   "core": "KOTRA, 수출 스타기업 500개 육성…수출 다변화 흐름 선도",
-   "date": "Tue, 11 Aug 2026",
-   "abstract": "KOTRA, 수출 스타기업 500개 육성…수출 다변화 흐름 선도&nbsp;&nbsp;데일리안",
-   "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPQVhrV2dQNG5hQTBCeGxSbUdsNFA2d0pnV2RidFkxdXRLUldmX3NjVU9IcGZWdzVVTkNkUmZJM1Y3R043ODl6eTJpTTRYUGctMHp5UENmbWhtZURKVjgzSG9nNzdpMVhnQlA2OWZHdXIyNlNtWW1kdlI3aU1pVGxsOFVINW5hZnEwN3lHWHdBSHhJMjRIQkpkRTNHeGFvYlpoZXRJdV9DcUVnOG16ZGw1T0pMdV9Tb0RJcVZLZDBaNl9RQ1M2T1duVHpYZjFaZw?oc=5",
-   "official": false,
-   "org": "데일리안",
-   "kinds": [
-    "정책"
-   ],
-   "src_kind": "산업",
-   "sectors": [],
-   "watch": [],
-   "id": 47,
+   "id": 168,
    "src": "KR_INDUS",
    "src_name": "한국 산업·공급망"
   },
@@ -1071,7 +3496,43 @@
    "watch": [
     "방산"
    ],
-   "id": 48,
+   "id": 169,
+   "src": "KR_INDUS",
+   "src_name": "한국 산업·공급망"
+  },
+  {
+   "title": "코트라, 수출 다변화 전략 회의…\"수출 1조달러 앞장\" - 이투뉴스",
+   "core": "코트라, 수출 다변화 전략 회의…\"수출 1조달러 앞장\"",
+   "date": "Tue, 11 Aug 2026",
+   "abstract": "코트라, 수출 다변화 전략 회의…\"수출 1조달러 앞장\"&nbsp;&nbsp;이투뉴스",
+   "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5iNXlvYlA4VEtudWd2S2hsSFNDT1J0Mld3R1N4cnhpY2VkNlNhTER2dXFMdDhkSE1vZHBGazNBLXp3ZUZZUmFJTnZ2dElIQ1RaUzV3U2pQR0JEd19nQW1hcEoxTXZtbHc?oc=5",
+   "official": false,
+   "org": "이투뉴스",
+   "kinds": [
+    "정책"
+   ],
+   "src_kind": "산업",
+   "sectors": [],
+   "watch": [],
+   "id": 170,
+   "src": "KR_INDUS",
+   "src_name": "한국 산업·공급망"
+  },
+  {
+   "title": "KOTRA, 수출 스타기업 500개 육성…수출 다변화 흐름 선도 - 데일리안",
+   "core": "KOTRA, 수출 스타기업 500개 육성…수출 다변화 흐름 선도",
+   "date": "Tue, 11 Aug 2026",
+   "abstract": "KOTRA, 수출 스타기업 500개 육성…수출 다변화 흐름 선도&nbsp;&nbsp;데일리안",
+   "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPQVhrV2dQNG5hQTBCeGxSbUdsNFA2d0pnV2RidFkxdXRLUldmX3NjVU9IcGZWdzVVTkNkUmZJM1Y3R043ODl6eTJpTTRYUGctMHp5UENmbWhtZURKVjgzSG9nNzdpMVhnQlA2OWZHdXIyNlNtWW1kdlI3aU1pVGxsOFVINW5hZnEwN3lHWHdBSHhJMjRIQkpkRTNHeGFvYlpoZXRJdV9DcUVnOG16ZGw1T0pMdV9Tb0RJcVZLZDBaNl9RQ1M2T1duVHpYZjFaZw?oc=5",
+   "official": false,
+   "org": "데일리안",
+   "kinds": [
+    "정책"
+   ],
+   "src_kind": "산업",
+   "sectors": [],
+   "watch": [],
+   "id": 171,
    "src": "KR_INDUS",
    "src_name": "한국 산업·공급망"
   },
@@ -1094,47 +3555,7 @@
     "반도체",
     "HBM"
    ],
-   "id": 49,
-   "src": "KR_INDUS",
-   "src_name": "한국 산업·공급망"
-  },
-  {
-   "title": "(참고) 첨단기술이 여는 미래, 미래성장동력 「7대 SEED」 보고회 개최 - 네이트",
-   "core": "(참고) 첨단기술이 여는 미래, 미래성장동력 「7대 SEED」 보고회 개최",
-   "date": "Wed, 12 Aug 2026",
-   "abstract": "(참고) 첨단기술이 여는 미래, 미래성장동력 「7대 SEED」 보고회 개최&nbsp;&nbsp;네이트",
-   "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE4ySTlZYUJNLXRjMU50RWJOMnNiMmdWeFN2M2xXeXg1YlZrQWE4cHNLRmh4dEFvR2NnNUdGRF9VckJhMVIxUm56d1RIVFJTOXppN2Nv?oc=5",
-   "official": false,
-   "org": "네이트",
-   "kinds": [
-    "정책"
-   ],
-   "src_kind": "산업",
-   "sectors": [],
-   "watch": [],
-   "id": 50,
-   "src": "KR_INDUS",
-   "src_name": "한국 산업·공급망"
-  },
-  {
-   "title": "배터리·모터·열관리 한곳에…현대차 영남권 ‘밸류체인’ 주목 - 시사1",
-   "core": "배터리·모터·열관리 한곳에…현대차 영남권 ‘밸류체인’ 주목",
-   "date": "Wed, 12 Aug 2026",
-   "abstract": "배터리·모터·열관리 한곳에…현대차 영남권 ‘밸류체인’ 주목&nbsp;&nbsp;시사1",
-   "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1mMXNNdGJYMlVMVWdQWGw1bEcwMkkyWG5VbmVCOHhqazNWdW9jejFHenM2R1BjejFtbFNrOUtDakFiMC1NR1h3ZjhGYmhKeHN0cGRYZ0hRYmo5MjA0QWE5OA?oc=5",
-   "official": false,
-   "org": "시사1",
-   "kinds": [
-    "정책"
-   ],
-   "src_kind": "산업",
-   "sectors": [
-    "2차전지/ESS"
-   ],
-   "watch": [
-    "배터리"
-   ],
-   "id": 51,
+   "id": 172,
    "src": "KR_INDUS",
    "src_name": "한국 산업·공급망"
   },
@@ -1151,21 +3572,19 @@
    ],
    "src_kind": "해외",
    "sectors": [],
-   "watch": [
-    "AI"
-   ],
-   "id": 52,
+   "watch": [],
+   "id": 173,
    "src": "GLOBAL",
    "src_name": "해외발 충격 (영문)"
   },
   {
-   "title": "Power up: How EU-Africa cooperation can drive Europe’s battery recycling future - PubAffairs Bruxelles",
+   "title": "Power up: How EU-Africa cooperation can drive Europe’s battery recycling future - pubaffairsbruxelles.eu",
    "core": "Power up: How EU-Africa cooperation can drive Europe’s battery recycling future",
    "date": "Wed, 12 Aug 2026",
-   "abstract": "Power up: How EU-Africa cooperation can drive Europe’s battery recycling future&nbsp;&nbsp;PubAffairs Bruxelles",
+   "abstract": "Power up: How EU-Africa cooperation can drive Europe’s battery recycling future&nbsp;&nbsp;pubaffairsbruxelles.eu",
    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOYXJZMU9ndk1OWnI2Q0ZGRGdFNE43YktRenNuenkyamltVi1GWVpEd1FDN0g3ajlrMFVHNDNjT0ZtdENuOVMxNDlCczZheVp5ZlZ1OUJvaFZ4Wk84WmdKcUxRbFI5M0J0ZTVHQUlSZWk0VzZ0NW5nRTg5RVVOdTZUYXhMZnh6UkpZN3lLVHpSWWU1TDdEdVdnb0RZZVA0SVB6ajRGdFpHd1RINFI2N0pJUzV3czlnT1NXZGFGZnRvV0huYlhYUFdVVm13?oc=5",
    "official": false,
-   "org": "PubAffairs Bruxelles",
+   "org": "pubaffairsbruxelles.eu",
    "kinds": [
     "정책"
    ],
@@ -1174,27 +3593,25 @@
     "2차전지/ESS"
    ],
    "watch": [],
-   "id": 53,
+   "id": 174,
    "src": "GLOBAL",
    "src_name": "해외발 충격 (영문)"
   },
   {
-   "title": "Critical Minerals Race Reshapes Global Power and Raises New Risks for Developing Economies - AZoM",
+   "title": "Critical Minerals Race Reshapes Global Power and Raises New Risks for Developing Economies - azom.com",
    "core": "Critical Minerals Race Reshapes Global Power and Raises New Risks for Developing Economies",
    "date": "Wed, 12 Aug 2026",
-   "abstract": "Critical Minerals Race Reshapes Global Power and Raises New Risks for Developing Economies&nbsp;&nbsp;AZoM",
+   "abstract": "Critical Minerals Race Reshapes Global Power and Raises New Risks for Developing Economies&nbsp;&nbsp;azom.com",
    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5KcUlzRFY0OUFkNk9mdmtSejBlNUdyQ0tXb2xsSXMwb3dOdWhpU0VUdFNxeDlxYjgyYkFTbWVPTEhZUjhCUkpMSC1RZFVHZ3FSWFh2N0Fn?oc=5",
    "official": false,
-   "org": "AZoM",
+   "org": "azom.com",
    "kinds": [
     "정책"
    ],
    "src_kind": "해외",
    "sectors": [],
-   "watch": [
-    "AI"
-   ],
-   "id": 54,
+   "watch": [],
+   "id": 175,
    "src": "GLOBAL",
    "src_name": "해외발 충격 (영문)"
   },
@@ -1214,43 +3631,43 @@
     "금속/광물"
    ],
    "watch": [],
-   "id": 55,
+   "id": 176,
    "src": "GLOBAL",
    "src_name": "해외발 충격 (영문)"
   },
   {
-   "title": "Trump tariffs fallout: China moves to join Brazil’s WTO challenge of US forced labor duties - Undercurrent News",
+   "title": "Trump tariffs fallout: China moves to join Brazil’s WTO challenge of US forced labor duties - undercurrentnews.com",
    "core": "Trump tariffs fallout: China moves to join Brazil’s WTO challenge of US forced labor duties",
    "date": "Wed, 12 Aug 2026",
-   "abstract": "Trump tariffs fallout: China moves to join Brazil’s WTO challenge of US forced labor duties&nbsp;&nbsp;Undercurrent News",
+   "abstract": "Trump tariffs fallout: China moves to join Brazil’s WTO challenge of US forced labor duties&nbsp;&nbsp;undercurrentnews.com",
    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5lbDBwSXYtSDBMaGNCMXNiVm1QU0htVGlHU1FDVi1NVE5zai11TmpKc2hydkt1elpKVjZTOVhLNW56clZEZmNmRWtCb1hFYzdIWWdkOFFfeEZVUml0Vm1EaFllV1ZubjJrcUVuLVE5dkVVSEdG?oc=5",
    "official": false,
-   "org": "Undercurrent News",
+   "org": "undercurrentnews.com",
    "kinds": [
     "정책"
    ],
    "src_kind": "해외",
    "sectors": [],
    "watch": [],
-   "id": 56,
+   "id": 177,
    "src": "GLOBAL",
    "src_name": "해외발 충격 (영문)"
   },
   {
-   "title": "Beyond China: Why Latin America can become India’s next critical minerals and energy frontier - ET Government",
-   "core": "Beyond China: Why Latin America can become India’s next critical minerals and energy frontier",
+   "title": "Beyond China: Why Latin America can become India’s next critical minerals and energy frontier - government.economictimes.indiatimes.com",
+   "core": "Beyond China: Why Latin America can become India’s next critical minerals and energy frontier - government.economictimes.indiatimes.com",
    "date": "Wed, 12 Aug 2026",
-   "abstract": "Beyond China: Why Latin America can become India’s next critical minerals and energy frontier&nbsp;&nbsp;ET Government",
+   "abstract": "Beyond China: Why Latin America can become India’s next critical minerals and energy frontier&nbsp;&nbsp;government.economictimes.indiatimes.com",
    "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPeUhaV2RhTm1COGt1RURBOVF4elNTTDllY3l4aUlDbGh2N2lOUE9xNWdlSWVyN2ozRjBXS3RpM0QzRDR2dW5RNUlFOFp4MmFfMDQ4S3dzZDNVV2dMSnVNT2dfc0poRWxRbXVBQUtGTGRjbnNOS3EzRDFMLUk2QV9ZT3NuWUswZ3E1T0xieW1iSXhYLUVqV0wwYTZUUzhWV3JGZjNMeTdCSXl3ODV1UVM4X2pQSlcwaGx3a2ZOV0FQX3VGVlVDT3R4cXdpUS1acFJQQ3VrQUxJQmhwZjRURTcxYWV0aFNaVjN2T3NGdloyZ1VoSXpjSkV1QdIB_gFBVV95cUxPR1ZIcGJzNFpjNUozZWNQR0t3a1ktNnhkX0syYmRib3RiclVHb3V0QzJDZTRPanJhRG5nUlM5VnBLVlpZMHZvR1EyeER2NVhsSTZ0TTVVM1ZLTVFvSDgwbHBubnNTRmlMc0pIejRISzBmNmdsQ3dheGpEcUdsVFZRWTQzSTkwLWl3Q1IzR05INnV3MDFQWTBZeFRmUXRLUVdQb2xfc2toaVR6ZWUyWEtkT29lT2xua3lEbDVpMHA5d2ZaS1UxWUw4TDJTSUdfeDhoMnd2Tko5a1hSalZNUFJRLWpLM0psbjE1cGctcXRWTnRzSWpMSVIzVWZQR084UQ?oc=5",
    "official": false,
-   "org": "ET Government",
+   "org": "government.economictimes.indiatimes.com",
    "kinds": [
     "정책"
    ],
    "src_kind": "해외",
    "sectors": [],
    "watch": [],
-   "id": 57,
+   "id": 178,
    "src": "GLOBAL",
    "src_name": "해외발 충격 (영문)"
   },
@@ -1268,7 +3685,7 @@
    "src_kind": "해외",
    "sectors": [],
    "watch": [],
-   "id": 58,
+   "id": 179,
    "src": "GLOBAL",
    "src_name": "해외발 충격 (영문)"
   },
@@ -1286,25 +3703,7 @@
    "src_kind": "해외",
    "sectors": [],
    "watch": [],
-   "id": 59,
-   "src": "GLOBAL",
-   "src_name": "해외발 충격 (영문)"
-  },
-  {
-   "title": "INVESTOR VIEW: Fastest route to cleaner batteries runs through Asia - Reuters",
-   "core": "INVESTOR VIEW: Fastest route to cleaner batteries runs through Asia",
-   "date": "Mon, 10 Aug 2026",
-   "abstract": "INVESTOR VIEW: Fastest route to cleaner batteries runs through Asia&nbsp;&nbsp;Reuters",
-   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNYmstbUV0OWJfUzhmakRLNUdKdEhkSHlVdjFBM3BEcnljV0VPRDk0YlVuYUU1UXY3UVRQUkViWlBTUXdhMnVMRUdrc0tSUUdURG5qcFFKSEk5VmFOM0NjdHJpUjlkNldQbVpadjJIS3RveDFHaEVBdTlyRDNNdzRvNGtrVlo2T3psTHdMUTR5cW85NXc3VWZIU2tIZWFyQU05WF9zYkR0dzdVUmg1cnJUSDZuSDhaSWhuRVpLSnl0bw?oc=5",
-   "official": false,
-   "org": "Reuters",
-   "kinds": [
-    "정책"
-   ],
-   "src_kind": "해외",
-   "sectors": [],
-   "watch": [],
-   "id": 60,
+   "id": 180,
    "src": "GLOBAL",
    "src_name": "해외발 충격 (영문)"
   },
@@ -1324,7 +3723,7 @@
     "금속/광물"
    ],
    "watch": [],
-   "id": 61,
+   "id": 181,
    "src": "GLOBAL",
    "src_name": "해외발 충격 (영문)"
   },
@@ -1342,7 +3741,7 @@
    "src_kind": "해외",
    "sectors": [],
    "watch": [],
-   "id": 62,
+   "id": 182,
    "src": "GLOBAL",
    "src_name": "해외발 충격 (영문)"
   },
@@ -1360,7 +3759,7 @@
    "src_kind": "해외",
    "sectors": [],
    "watch": [],
-   "id": 63,
+   "id": 183,
    "src": "GLOBAL",
    "src_name": "해외발 충격 (영문)"
   },
@@ -1378,7 +3777,7 @@
    "src_kind": "해외",
    "sectors": [],
    "watch": [],
-   "id": 64,
+   "id": 184,
    "src": "GLOBAL",
    "src_name": "해외발 충격 (영문)"
   },
@@ -1396,7 +3795,7 @@
    "src_kind": "해외",
    "sectors": [],
    "watch": [],
-   "id": 65,
+   "id": 185,
    "src": "GLOBAL",
    "src_name": "해외발 충격 (영문)"
   },
@@ -1416,18 +3815,18 @@
     "금속/광물"
    ],
    "watch": [],
-   "id": 66,
+   "id": 186,
    "src": "GLOBAL",
    "src_name": "해외발 충격 (영문)"
   },
   {
-   "title": "S&P Critical Mineral Market Reports: Structural Costs Explained - discoveryalert.com.au",
+   "title": "S&P Critical Mineral Market Reports: Structural Costs Explained - Discovery Alert",
    "core": "S&P Critical Mineral Market Reports: Structural Costs Explained",
    "date": "Wed, 12 Aug 2026",
-   "abstract": "S&amp;P Critical Mineral Market Reports: Structural Costs Explained&nbsp;&nbsp;discoveryalert.com.au",
+   "abstract": "S&amp;P Critical Mineral Market Reports: Structural Costs Explained&nbsp;&nbsp;Discovery Alert",
    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNWVk2RmUyMkVuWHdySUlGWWtEN2JyazBmZXZ2NDZUejFDTlJYeWhpdEtxZ2x1bVFOVDRzV19PNEQtbkxUdHJ2d1pHU21oNDJZNjVMdlBBMlRGQVJmM2R6Ym1fS1VZRGxQSF9qOHdEQUhIQjRQZU9hZnN3SXBRTkJuOHByYkZzckd1N1pEODljZDNWbnFfaFBn?oc=5",
    "official": false,
-   "org": "discoveryalert.com.au",
+   "org": "Discovery Alert",
    "kinds": [
     "정책"
    ],
@@ -1435,10 +3834,8 @@
    "sectors": [
     "금속/광물"
    ],
-   "watch": [
-    "AI"
-   ],
-   "id": 67,
+   "watch": [],
+   "id": 187,
    "src": "GLOBAL",
    "src_name": "해외발 충격 (영문)"
   },
@@ -1458,45 +3855,7 @@
     "금속/광물"
    ],
    "watch": [],
-   "id": 68,
-   "src": "GLOBAL",
-   "src_name": "해외발 충격 (영문)"
-  },
-  {
-   "title": "European Union Retaining Rings - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
-   "core": "European Union Retaining Rings - Market Analysis, Forecast, Size, Trends and Insights",
-   "date": "Mon, 10 Aug 2026",
-   "abstract": "European Union Retaining Rings - Market Analysis, Forecast, Size, Trends and Insights&nbsp;&nbsp;IndexBox",
-   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOYnZpSlkxWGRXU09FaVphQUlPNUJoSG4zdFhKcUhuWnlHTHkzTnI3WGE5bFh4WXdrc18xdmI1cUpsLUt1bWJJeG1ZWDBzWkw1YW43cW9LQ0ZtaEFFWWxkdUluZkFsNGZ3aUtyOXhpQlVhQXA4S3VnM1NZWGJrVTlvaU1YVm9ueTI4RHdRcGljcE5xSzM2dWxEQXNNR045ZTF5U0k3cWFqRU5fRzFFUHZDZQ?oc=5",
-   "official": false,
-   "org": "IndexBox",
-   "kinds": [
-    "정책"
-   ],
-   "src_kind": "해외",
-   "sectors": [],
-   "watch": [
-    "AI"
-   ],
-   "id": 69,
-   "src": "GLOBAL",
-   "src_name": "해외발 충격 (영문)"
-  },
-  {
-   "title": "European Union Shoulder Washers - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
-   "core": "European Union Shoulder Washers - Market Analysis, Forecast, Size, Trends and Insights",
-   "date": "Mon, 10 Aug 2026",
-   "abstract": "European Union Shoulder Washers - Market Analysis, Forecast, Size, Trends and Insights&nbsp;&nbsp;IndexBox",
-   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxONTh1NjhvQWJkcWxHOGN1RTFpYkFDRDBqYzJzaE5CcXFOS0pLYzhuLVdvcjRtQlljaG5kUnExd3F4MG9HT0R5Zk1ZazRHN1pNY1dIaDk5SUF1Q3owc2phMWZtdTJ3WUZma3pIQjVhSzBKSnlneE9Ob1VYQV92R3pEUHVLd0hqNmIzRHp5SFZ1X2t2QVAzWFJpNkUtUEt5Sm1fdlJFT3N6d0xKQzZvN2FFRXhn?oc=5",
-   "official": false,
-   "org": "IndexBox",
-   "kinds": [
-    "정책"
-   ],
-   "src_kind": "해외",
-   "sectors": [],
-   "watch": [],
-   "id": 70,
+   "id": 188,
    "src": "GLOBAL",
    "src_name": "해외발 충격 (영문)"
   },
@@ -1514,7 +3873,61 @@
    "src_kind": "해외",
    "sectors": [],
    "watch": [],
-   "id": 71,
+   "id": 189,
+   "src": "GLOBAL",
+   "src_name": "해외발 충격 (영문)"
+  },
+  {
+   "title": "European Union Retaining Rings - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+   "core": "European Union Retaining Rings - Market Analysis, Forecast, Size, Trends and Insights",
+   "date": "Mon, 10 Aug 2026",
+   "abstract": "European Union Retaining Rings - Market Analysis, Forecast, Size, Trends and Insights&nbsp;&nbsp;IndexBox",
+   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOYnZpSlkxWGRXU09FaVphQUlPNUJoSG4zdFhKcUhuWnlHTHkzTnI3WGE5bFh4WXdrc18xdmI1cUpsLUt1bWJJeG1ZWDBzWkw1YW43cW9LQ0ZtaEFFWWxkdUluZkFsNGZ3aUtyOXhpQlVhQXA4S3VnM1NZWGJrVTlvaU1YVm9ueTI4RHdRcGljcE5xSzM2dWxEQXNNR045ZTF5U0k3cWFqRU5fRzFFUHZDZQ?oc=5",
+   "official": false,
+   "org": "IndexBox",
+   "kinds": [
+    "정책"
+   ],
+   "src_kind": "해외",
+   "sectors": [],
+   "watch": [],
+   "id": 190,
+   "src": "GLOBAL",
+   "src_name": "해외발 충격 (영문)"
+  },
+  {
+   "title": "European Union Shoulder Washers - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+   "core": "European Union Shoulder Washers - Market Analysis, Forecast, Size, Trends and Insights",
+   "date": "Mon, 10 Aug 2026",
+   "abstract": "European Union Shoulder Washers - Market Analysis, Forecast, Size, Trends and Insights&nbsp;&nbsp;IndexBox",
+   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxONTh1NjhvQWJkcWxHOGN1RTFpYkFDRDBqYzJzaE5CcXFOS0pLYzhuLVdvcjRtQlljaG5kUnExd3F4MG9HT0R5Zk1ZazRHN1pNY1dIaDk5SUF1Q3owc2phMWZtdTJ3WUZma3pIQjVhSzBKSnlneE9Ob1VYQV92R3pEUHVLd0hqNmIzRHp5SFZ1X2t2QVAzWFJpNkUtUEt5Sm1fdlJFT3N6d0xKQzZvN2FFRXhn?oc=5",
+   "official": false,
+   "org": "IndexBox",
+   "kinds": [
+    "정책"
+   ],
+   "src_kind": "해외",
+   "sectors": [],
+   "watch": [],
+   "id": 191,
+   "src": "GLOBAL",
+   "src_name": "해외발 충격 (영문)"
+  },
+  {
+   "title": "SGQ: 155% increase, higher grade. Now for the share price to catch up to its bigger peers... - Next Investors",
+   "core": "SGQ: 155% increase, higher grade. Now for the share price to catch up to its bigger peers...",
+   "date": "Tue, 11 Aug 2026",
+   "abstract": "SGQ: 155% increase, higher grade. Now for the share price to catch up to its bigger peers...&nbsp;&nbsp;Next Investors",
+   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQYzB0M05QTm5aeWloWnR1eEZKaFJVRzMwTjQ3eGhQR1ZfYlRHOEt5MkhGZGVFalMxQU5CRnRqamtYNFFkelBlaElKNmd1dVE5S3FFT1pxSDBYUXRkSTgyNmxZZHJsS3JPQlRjSm5lVGNZSkd0a2s5al8zQUxXRUpNbFFWdTI4OUFCaGZ5cy15MzV6N2VDZzI1OVkwNWJXUE9TYzFIVFdnNWxIWXM2akp1VVpyTnlXUHlSa1diTXhB?oc=5",
+   "official": false,
+   "org": "Next Investors",
+   "kinds": [
+    "정책"
+   ],
+   "src_kind": "해외",
+   "sectors": [],
+   "watch": [],
+   "id": 192,
    "src": "GLOBAL",
    "src_name": "해외발 충격 (영문)"
   }

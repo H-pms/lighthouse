@@ -56,9 +56,16 @@ def kind_of(t):
     return [k for k, ws in KIND.items() if any(w in t for w in ws)]
 
 # 개별 기업 주가·잡담 기사 제외
-NOISE = re.compile(r"(경시대회|수상|시상|캠페인|봉사|기념식|위촉|임명식|채용|사내|동호회|"
+NOISE = re.compile(r"(경시대회|수상|시상|캠페인|봉사|기념식|위촉|임명식|채용|사내|동호회|간담회 개최|"
                    r"주가|급등|급락|상한가|하한가|추천주|유망주|테마주|목표주가|증권가|호재|악재|"
-                   r"운세|날씨|스포츠|연예)")
+                   r"운세|날씨|스포츠|연예|칼럼|사설|인터뷰|기고|오피니언|만평|"
+                   r"축사|개회사|표창|공모전|festival|축제)")
+
+# 정치 공방·지역 행사 등 투자 재료가 아닌 것만 제외 (나머지는 통과)
+KR_DROP = re.compile(r"(요구|반발|공방|논란|비판|성토|규탄|촉구|해명|의혹|"
+                     r"의원|대표는|당은|여당|야당|국정감사|대정부질문|"
+                     r"맞손|업무협약 체결|간담회|토론회|세미나 개최|포럼 개최|박람회|"
+                     r"카지노|헴프|축제)")
 
 MEDIA_TAIL = re.compile(r"\s*[-–—]\s*[^-–—]{1,25}$")
 def strip_media(t):
@@ -272,9 +279,31 @@ def fetch_edgar():
     return out
 
 # ══════════════ 3. 미국 정책 (연방관보) ══════════════
-POL_KEY = ["tariff","export control","semiconductor","critical mineral","energy","nuclear",
-           "battery","vehicle","drug","medical device","shipbuilding","steel","aluminum",
-           "solar","polysilicon","artificial intelligence","data center","sanction","entity list"]
+# 경제적 조치 — 이 중 하나는 반드시 있어야 통과
+POL_ACTION = ["tariff", "duty", "quota", "export control", "import restriction", "sanction",
+              "entity list", "subsidy", "tax credit", "grant program", "loan guarantee",
+              "price floor", "antidumping", "countervailing", "safeguard", "trade remedy",
+              "supply chain", "critical mineral", "strategic reserve", "procurement",
+              "emission standard", "efficiency standard", "licensing requirement",
+              "approval of", "authorization for", "moratorium", "ban on", "restriction on"]
+# 산업 — 이 중 하나는 반드시 있어야 통과
+POL_INDUSTRY = ["semiconductor", "chip", "polysilicon", "solar", "battery", "lithium",
+                "rare earth", "steel", "aluminum", "copper", "nickel", "shipbuilding", "vessel",
+                "aircraft", "automobile", "vehicle", "electric vehicle", "nuclear reactor",
+                "power grid", "transmission line", "natural gas", "crude", "petroleum",
+                "artificial intelligence", "data center", "cloud computing", "biotechnology",
+                "pharmaceutical", "medical device", "defense", "satellite", "telecommunication",
+                "refrigerant", "chemical", "fertilizer", "energy", "electricity", "mineral",
+                "manufacturing", "import", "export", "commodity", "machinery", "equipment"]
+# 행정 잡무 — 하나라도 있으면 제외
+POL_ADMIN = ["meeting notice", "advisory committee", "sunshine act", "privacy act",
+             "paperwork reduction", "records schedule", "delegation of authority",
+             "organization and functions", "request for nominations", "patent license",
+             "government-owned invention", "senior executive service", "freedom of information",
+             "system of records", "state implementation plan", "air quality designation",
+             "national register of historic", "endangered species", "fishery", "hunting",
+             "grazing", "schedules of controlled substances", "temporary placement"]
+
 def fetch_fedreg():
     r = requests.get("https://www.federalregister.gov/api/v1/documents.json",
         params={"per_page":40,"order":"newest",
@@ -285,8 +314,10 @@ def fetch_fedreg():
     for d in r.json().get("results", []):
         title = (d.get("title") or "").strip()
         abst = (d.get("abstract") or "")[:800]
-        blob = (title + " " + abst).lower()
-        if not any(k in blob for k in POL_KEY): continue
+        blob = (title + " " + abst).lower()      # ← 반드시 영문 원문으로 검사
+        if any(k in blob for k in POL_ADMIN): continue
+        # 산업이 걸리면 통과. 경제조치는 가점 요소일 뿐 필수 아님
+        if not any(k in blob for k in POL_INDUSTRY): continue
         kt, ok = to_ko(title)
         ka, _ = to_ko(abst) if abst else ("", False)
         out.append(item(title=title, core=kt or title, title_en=title,
@@ -341,6 +372,8 @@ def fetch_rss(url, official=False, src_kind="정책", limit=20):
         t = getattr(e, "title", "").strip()
         core = strip_media(t)
         if NOISE.search(core): continue
+        if src_kind in ("정책", "산업") and re.search(r"[가-힣]", core) and KR_DROP.search(core):
+            continue
         summ = re.sub(r"\s+"," ", re.sub(r"<[^>]+>","", getattr(e,"summary",""))).strip()[:600]
         out.append(item(title=t, core=core, date=getattr(e,"published",getattr(e,"updated",""))[:16],
             abstract=summ, link=getattr(e,"link",""), official=official,
@@ -356,23 +389,50 @@ def gnews_en(q, days=2):
 
 # ══════════════ 5. 예정 일정 ══════════════
 def fetch_calendar():
-    """예정된 사건 — 재료에서 시행일·발표일을 뽑아 모은다"""
+    """예정된 사건 — 정책 시행일 + 공개 일정"""
     out = []
-    # 연준 FOMC (공개 일정)
+    # 1) 연방관보에서 '시행일이 앞으로인 것'을 일정으로
     try:
-        r = requests.get("https://www.federalreserve.gov/json/ne-fomc.json",
+        r = requests.get("https://www.federalregister.gov/api/v1/documents.json",
+            params={"per_page":60,"order":"newest","conditions[type][]":["RULE"]},
+            headers={"User-Agent":UA}, timeout=30)
+        if r.status_code == 200:
+            today = TODAY.strftime("%Y-%m-%d")
+            for d in r.json().get("results", []):
+                eff = d.get("effective_on")
+                title = (d.get("title") or "")
+                blob = title.lower()
+                if not eff or eff <= today: continue
+                if any(k in blob for k in POL_ADMIN): continue
+                if not any(k in blob for k in POL_INDUSTRY): continue
+                kt, _ = to_ko(title)
+                out.append(item(title=f"[시행예정 {eff}] {title}", core=f"[{eff} 시행] {kt or title}",
+                    date=eff, org=gloss(", ".join(a.get("name","") for a in (d.get("agencies") or [])[:1])),
+                    official=True, kinds=["일정"], src_kind="일정", link=d.get("html_url",""),
+                    effective=eff, abstract=f"이 규정은 {eff}부터 시행됩니다."))
+    except Exception: pass
+    # 2) FOMC 일정 페이지에서 날짜 추출
+    try:
+        r = requests.get("https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
                          headers={"User-Agent":UA}, timeout=20)
         if r.status_code == 200:
-            for x in (r.json() or [])[:12]:
-                d = str(x.get("d",""))[:10]
-                if d and d >= TODAY.strftime("%Y-%m-%d"):
-                    out.append(item(title=f"[예정] FOMC {d}", core=f"FOMC 회의 {d}", date=d,
+            yr = TODAY.year
+            for m in re.finditer(r"(?is)<div class=\"fomc-meeting__month[^>]*>.*?>([A-Za-z]+)</.*?"
+                                 r"<div class=\"fomc-meeting__date[^>]*>(\d+)-?(\d+)?", r.text):
+                mon, d1, d2 = m.group(1), m.group(2), m.group(3) or m.group(2)
+                try:
+                    dt = datetime.strptime(f"{mon} {d2} {yr}", "%B %d %Y")
+                except Exception:
+                    continue
+                ds = dt.strftime("%Y-%m-%d")
+                if ds >= TODAY.strftime("%Y-%m-%d"):
+                    out.append(item(title=f"[예정] FOMC {ds}", core=f"FOMC 금리 결정 {ds}", date=ds,
                         org="연준", official=True, kinds=["일정"], src_kind="일정",
                         link="https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
-                        abstract="미국 기준금리 결정 회의. 전후로 시장 변동성이 커질 수 있습니다."))
+                        abstract="미국 기준금리 결정. 전후로 시장 변동성이 커질 수 있습니다."))
     except Exception: pass
-    if not out: raise RuntimeError("일정 원천 응답 없음")
-    return out
+    if not out: raise RuntimeError("예정 일정 0건 (시행예정 규정·FOMC 일정 미확보)")
+    return out[:15]
 
 # ══════════════ 원천 목록 ══════════════
 SOURCES = [

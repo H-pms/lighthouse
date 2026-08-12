@@ -40,6 +40,8 @@ jobs:
 
       - name: 1) 수집
         if: steps.sw.outputs.state != 'off'
+        env:
+          DART_KEY: ${{ secrets.DART_KEY }}
         run: python collector.py
 
       - name: 2) 요약 + 텔레그램

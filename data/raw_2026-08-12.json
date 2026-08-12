@@ -1,50 +1,68 @@
 {
- "generated": "2026-08-12 19:49",
+ "generated": "2026-08-12 20:10",
  "date": "2026-08-12",
  "sources": [
   {
-   "id": "US_FEDREG",
-   "name": "미국 연방관보(공식)",
-   "count": 15,
-   "ok": true
-  },
-  {
-   "id": "KR_ECON",
-   "name": "한국 경제부처·한은",
-   "count": 15,
-   "ok": true
-  },
-  {
-   "id": "KR_REG",
-   "name": "한국 규제·수출통제",
-   "count": 15,
-   "ok": true
-  },
-  {
-   "id": "KR_OFF0",
-   "name": "정책브리핑 보도자료(공식)",
+   "id": "DART",
+   "name": "국내 공시 (DART 원문)",
    "count": 0,
    "ok": false,
-   "error": "RuntimeError: 피드 비었음/오류: <unknown>:27:2: mismatched tag"
+   "error": "RuntimeError: key.txt 에 DART_KEY 없음"
   },
   {
-   "id": "KR_OFF1",
-   "name": "정책브리핑 정책뉴스(공식)",
+   "id": "EDGAR",
+   "name": "미국 공시 (SEC 원문)",
    "count": 0,
    "ok": false,
-   "error": "RuntimeError: 피드 비었음/오류: <unknown>:27:2: mismatched tag"
+   "error": "RuntimeError: 최근 5일 내 감시종목 공시 없음"
+  },
+  {
+   "id": "FEDREG",
+   "name": "미국 정책 (연방관보 원문)",
+   "count": 11,
+   "ok": true
+  },
+  {
+   "id": "KR_POLICY",
+   "name": "한국 정책 (부처 발표)",
+   "count": 20,
+   "ok": true
+  },
+  {
+   "id": "KR_INDUS",
+   "name": "한국 산업·공급망",
+   "count": 20,
+   "ok": true
+  },
+  {
+   "id": "GLOBAL",
+   "name": "해외발 충격 (영문)",
+   "count": 20,
+   "ok": true
+  },
+  {
+   "id": "CALENDAR",
+   "name": "예정 일정",
+   "count": 0,
+   "ok": false,
+   "error": "RuntimeError: 일정 원천 응답 없음"
   }
  ],
  "errors": [
   {
-   "id": "KR_OFF0",
-   "name": "정책브리핑 보도자료(공식)",
-   "error": "RuntimeError: 피드 비었음/오류: <unknown>:27:2: mismatched tag"
+   "id": "DART",
+   "name": "국내 공시 (DART 원문)",
+   "error": "RuntimeError: key.txt 에 DART_KEY 없음"
   },
   {
-   "id": "KR_OFF1",
-   "name": "정책브리핑 정책뉴스(공식)",
-   "error": "RuntimeError: 피드 비었음/오류: <unknown>:27:2: mismatched tag"
+   "id": "EDGAR",
+   "name": "미국 공시 (SEC 원문)",
+   "error": "RuntimeError: 최근 5일 내 감시종목 공시 없음"
+  },
+  {
+   "id": "CALENDAR",
+   "name": "예정 일정",
+   "error": "RuntimeError: 일정 원천 응답 없음"
   }
  ],
  "watchlist": [
@@ -79,818 +97,1427 @@
  ],
  "items": [
   {
-   "title": "Appellate Jurisdiction Update II",
-   "core": "항소 관할권 업데이트 II",
-   "title_en": "Appellate Jurisdiction Update II",
+   "title": "Guide To Minimize Biological Hazards in Ready-to-Eat Fresh-Cut Produce; Guidance for Industry; Availability",
+   "core": "바로 먹을 수 있는 신선 농산물의 생물학적 위험을 최소화하기 위한 가이드; 산업계 지침; 유효성",
+   "title_en": "Guide To Minimize Biological Hazards in Ready-to-Eat Fresh-Cut Produce; Guidance for Industry; Availability",
    "date": "2026-08-12",
-   "org": "Merit Systems Protection Board",
-   "link": "https://www.federalregister.gov/documents/2026/08/12/2026-16456/appellate-jurisdiction-update-ii",
-   "abstract": "Merit Systems Protection Board(MSPB 또는 위원회)는 보호관찰 종료, 적합성 및 감원(RIF) 항소에 대한 MSPB의 관할권에 대한 언급을 제거하기 위해 규정을 개정하고 있습니다. 이 개정판은 이러한 유형의 항소를 심리하기 위한 MSPB의 관할권을 인사 관리국(OPM)이 철회한 것을 반영합니다. 이 규칙은 Forei에 대한 MSPB의 법적 관할권을 유지합니다.",
-   "abstract_en": "The Merit Systems Protection Board (MSPB or Board) is amending its regulations to remove references to MSPB's jurisdiction over probationary termination, suitability, and reduction-in-force (RIF) appeals. This revision reflects the Office of Personnel Management's (OPM's) rescission of the MSPB's jurisdiction to hear these types of appeals. The rule retains MSPB's statutory jurisdiction over Foreign Service reduction-in-force appeals under 22 U.S.C. 4010a.",
-   "translated": true,
+   "abstract": "미국 식품의약국(FDA 또는 당사)은 \"즉석 섭취 가능한 신선 가공 농산물의 생물학적 위험을 최소화하기 위한 지침\"이라는 제목의 업계 최종 지침을 발표했습니다. 본 지침은 2008년에 발행된 \"신선한 과일 및 채소의 미생물 식품 안전 위험을 최소화하기 위한 지침\"이라는 제목의 이전 지침을 대체하며 i에 대한 지침 초안에 대한 최종 지침입니다.",
+   "abstract_en": "The Food and Drug Administration (FDA or we) is announcing the availability of a final guidance for industry entitled \"Guide to Minimize Biological Hazards in Ready-to-Eat Fresh-Cut Produce.\" This guidance supersedes a previous guidance, entitled \"Guide to Minimize Microbial Food Safety Hazards of Fresh-Cut Fruits and Vegetables,\" issued in 2008, and is a final guidance to the draft guidance for industry entitled \"Guide to Minimize Food Safety Hazards of Fresh-Cut Produce\" issued in 2018. The guidance is intended to help manufacturers or processors of ready-to-eat fresh-cut produce that is not a low-moisture food comply with applicable requirements in our regulations on current good manufacturing practices for hazard analysis and risk-based preventive controls for human food.",
+   "org": "보건복지부, 식품의약국",
+   "link": "https://www.federalregister.gov/documents/2026/08/12/2026-16420/guide-to-minimize-biological-hazards-in-ready-to-eat-fresh-cut-produce-guidance-for-industry",
    "official": true,
-   "kind": "Rule",
-   "docket": "",
-   "id": 1,
-   "src": "US_FEDREG",
-   "src_name": "미국 연방관보(공식)",
-   "sectors": [],
-   "watch": []
-  },
-  {
-   "title": "Community Reinvestment Act Regulations",
-   "core": "지역사회 재투자법 규정",
-   "title_en": "Community Reinvestment Act Regulations",
-   "date": "2026-08-12",
-   "org": "재무부, Comptroller of the Currency",
-   "link": "https://www.federalregister.gov/documents/2026/08/12/2026-16454/community-reinvestment-act-regulations",
-   "abstract": "통화감사원장(OCC)과 연방예금보험공사(FDIC)는 은행이 지역사회의 신용 수요를 충족하도록 장려한다는 법적 목표에 다시 초점을 맞추기 위해 실질적, 기술적, 프로세스 중심의 특정 변경을 통해 지역사회 재투자법 규칙을 개정할 것을 제안하고 있습니다. 지역사회 개발 보조금이 더 효과적으로 도달할 수 있도록 보장하기 위해",
-   "abstract_en": "The Office of the Comptroller of the Currency (OCC) and the Federal Deposit Insurance Corporation (FDIC) are proposing to amend their Community Reinvestment Act rules by making certain substantive, technical, and process-oriented changes to refocus on the statutory objective of encouraging banks to meet the credit needs of their communities; to better ensure that community development grants reach the communities they are intended to benefit; to reduce unnecessary burden, particularly for community banks; and to provide greater clarity for how to obtain CRA consideration. The OCC and the FDIC are also proposing certain technical changes to their rules implementing the Community Reinvestment ",
    "translated": true,
-   "official": true,
-   "kind": "Proposed Rule",
-   "docket": "",
-   "id": 2,
-   "src": "US_FEDREG",
-   "src_name": "미국 연방관보(공식)",
-   "sectors": [
-    "보조금/세제",
-    "금융/증권"
+   "kinds": [
+    "정책"
    ],
-   "watch": []
-  },
-  {
-   "title": "Government Owned Invention Available for License: MC38 B2m KO Cell Line",
-   "core": "라이센스 가능한 정부 소유 발명품: MC38 B2m KO Cell Line",
-   "title_en": "Government Owned Invention Available for License: MC38 B2m KO Cell Line",
-   "date": "2026-08-12",
-   "org": "보건복지부, 국립보건원",
-   "link": "https://www.federalregister.gov/documents/2026/08/12/2026-16449/government-owned-invention-available-for-license-mc38-b2m-ko-cell-line",
-   "abstract": "국립암연구소(NCI)는 MHC-I 항원 제시의 상실로 인한 PD-1/PD-L1 체크포인트 차단에 대한 종양 저항성을 모델로 하는 CRISPR/Cas9 조작 MC38 B2m 녹아웃 쥐 결장암 세포주에 대한 허가권자를 찾고 있습니다. 이 연구 도구는 체크포인트 불응성 종양을 연구하고 암에 대한 대체 또는 병용 면역요법 전략을 평가할 수 있는 기회를 제공합니다.",
-   "abstract_en": "The National Cancer Institute (NCI) seeks licensees for a CRISPR/Cas9-engineered MC38 B2m knockout murine colon cancer cell line that models tumor resistance to PD-1/PD-L1 checkpoint blockade caused by loss of MHC-I antigen presentation. This research tool provides an opportunity to study checkpoint-refractory tumors and evaluate alternative or combination immunotherapy strategies for cancers that evade conventional T-cell-mediated recognition.",
-   "translated": true,
-   "official": true,
-   "kind": "Notice",
-   "docket": "",
-   "id": 3,
-   "src": "US_FEDREG",
-   "src_name": "미국 연방관보(공식)",
-   "sectors": [],
-   "watch": []
-  },
-  {
-   "title": "UChicago Argonne LLC et al; Notice of Decision on Application for Duty-Free Entry of Scientific Instruments",
-   "core": "UChicago Argonne LLC 외; 과학기기 면세입국 신청 결정 통지서",
-   "title_en": "UChicago Argonne LLC et al; Notice of Decision on Application for Duty-Free Entry of Scientific Instruments",
-   "date": "2026-08-12",
-   "org": "상무부, 국제무역청",
-   "link": "https://www.federalregister.gov/documents/2026/08/12/2026-16448/uchicago-argonne-llc-et-al-notice-of-decision-on-application-for-duty-free-entry-of-scientific",
-   "abstract": "",
-   "abstract_en": "",
-   "translated": true,
-   "official": true,
-   "kind": "Notice",
-   "docket": "",
-   "id": 4,
-   "src": "US_FEDREG",
-   "src_name": "미국 연방관보(공식)",
-   "sectors": [],
-   "watch": []
-  },
-  {
-   "title": "Pacific Northwest National Laboratory et al; Application(s) for Duty-Free Entry of Scientific Instruments",
-   "core": "태평양 북서부 국립연구소(Pacific Northwest National Laboratory) 외; 과학 장비의 면세 입국 신청서",
-   "title_en": "Pacific Northwest National Laboratory et al; Application(s) for Duty-Free Entry of Scientific Instruments",
-   "date": "2026-08-12",
-   "org": "상무부, 국제무역청",
-   "link": "https://www.federalregister.gov/documents/2026/08/12/2026-16447/pacific-northwest-national-laboratory-et-al-applications-for-duty-free-entry-of-scientific",
-   "abstract": "",
-   "abstract_en": "",
-   "translated": true,
-   "official": true,
-   "kind": "Notice",
-   "docket": "",
-   "id": 5,
-   "src": "US_FEDREG",
-   "src_name": "미국 연방관보(공식)",
-   "sectors": [],
-   "watch": []
-  },
-  {
-   "title": "Wooden Bedroom Furniture From the People's Republic of China: Final Results of Antidumping Duty Administrative Review; 2024",
-   "core": "중화인민공화국 목재 침실 가구: 반덤핑 관세 행정 검토 최종 결과; 2024년",
-   "title_en": "Wooden Bedroom Furniture From the People's Republic of China: Final Results of Antidumping Duty Administrative Review; 2024",
-   "date": "2026-08-12",
-   "org": "상무부, 국제무역청",
-   "link": "https://www.federalregister.gov/documents/2026/08/12/2026-16446/wooden-bedroom-furniture-from-the-peoples-republic-of-china-final-results-of-antidumping-duty",
-   "abstract": "미국 상무부는 검토 중인 11개 회사가 별도의 세율에 대한 자격을 설정하지 않았으므로 중화인민공화국(중국) 전체 법인의 일부이며 중국 전체 법인 세율이 적용된다고 계속 판단하고 있습니다. 기간 검토(POR)는 ​​2024년 1월 1일부터 2024년 12월 31일까지입니다.",
-   "abstract_en": "The U.S. Department of Commerce (Commerce) continues to determine that 11 companies under review did not establish their entitlement to a separate rate and are thus part of the People's Republic of China (China)-wide entity and subject to the China-wide entity rate. The period review (POR) is January 1, 2024, through December 31, 2024.",
-   "translated": true,
-   "official": true,
-   "kind": "Notice",
-   "docket": "",
-   "id": 6,
-   "src": "US_FEDREG",
-   "src_name": "미국 연방관보(공식)",
-   "sectors": [
-    "수출통제/관세"
-   ],
-   "watch": []
-  },
-  {
-   "title": "Agency Information Collection Activities; Submission to the Office of Management and Budget (OMB) for Review and Approval; Comment Request; Steel Import License",
-   "core": "기관 정보 수집 활동; 검토 및 승인을 위해 관리예산처(OMB)에 제출 댓글 요청; 철강 수입 허가",
-   "title_en": "Agency Information Collection Activities; Submission to the Office of Management and Budget (OMB) for Review and Approval; Comment Request; Steel Import License",
-   "date": "2026-08-12",
-   "org": "상무부, 국제무역청",
-   "link": "https://www.federalregister.gov/documents/2026/08/12/2026-16445/agency-information-collection-activities-submission-to-the-office-of-management-and-budget-omb-for",
-   "abstract": "",
-   "abstract_en": "",
-   "translated": true,
-   "official": true,
-   "kind": "Notice",
-   "docket": "",
-   "id": 7,
-   "src": "US_FEDREG",
-   "src_name": "미국 연방관보(공식)",
-   "sectors": [],
-   "watch": [
-    "철강"
-   ]
-  },
-  {
-   "title": "Prospective Grant of an Exclusive Patent License: Development and Commercialization of BL-760 Dye for Intraoperative Fluorescence Imaging",
-   "core": "독점 특허 라이선스 부여 예정: 수술 중 형광 이미징용 BL-760 염료 개발 및 상용화",
-   "title_en": "Prospective Grant of an Exclusive Patent License: Development and Commercialization of BL-760 Dye for Intraoperative Fluorescence Imaging",
-   "date": "2026-08-12",
-   "org": "보건복지부, 국립보건원",
-   "link": "https://www.federalregister.gov/documents/2026/08/12/2026-16444/prospective-grant-of-an-exclusive-patent-license-development-and-commercialization-of-bl-760-dye-for",
-   "abstract": "국립 보건원(국립보건원), 보건 복지부 산하 기관인 국립 암 연구소(National Cancer Institute)는 메릴랜드주 컬럼비아에 위치한 회사인 OptoSurgical LLC(\"OptoSurgical\")에 본 공지의 보충 정보 섹션에 나열된 특허 및 특허 출원에 포함된 발명을 실시하기 위한 독점 특허 라이센스 부여를 고려하고 있습니다.",
-   "abstract_en": "The National Cancer Institute, an institute of the National Institutes of Health, Department of Health and Human Services, is contemplating the grant of an Exclusive Patent License to practice the inventions embodied in the patents and patent applications listed in the Supplementary Information section of this notice to OptoSurgical LLC (\"OptoSurgical\"), a company located in Columbia, Maryland, the United States of America.",
-   "translated": true,
-   "official": true,
-   "kind": "Notice",
-   "docket": "",
-   "id": 8,
-   "src": "US_FEDREG",
-   "src_name": "미국 연방관보(공식)",
-   "sectors": [],
-   "watch": []
-  },
-  {
-   "title": "Government Owned Invention Available for License: Monoclonal Antibody (RO4) That Reacts With the Juxta-Membrane Region of Mesothelin",
-   "core": "라이센스 가능한 정부 소유 발명품: 메소텔린의 Juxta-Membrane 영역과 반응하는 단일클론항체(RO4)",
-   "title_en": "Government Owned Invention Available for License: Monoclonal Antibody (RO4) That Reacts With the Juxta-Membrane Region of Mesothelin",
-   "date": "2026-08-12",
-   "org": "보건복지부, 국립보건원",
-   "link": "https://www.federalregister.gov/documents/2026/08/12/2026-16443/government-owned-invention-available-for-license-monoclonal-antibody-ro4-that-reacts-with-the",
-   "abstract": "국립 암 연구소(NCI)는 메조텔린(MSLN) 발현 암을 치료하는 데 사용할 수 있는 새로운 단클론 항체(mAb) RO4에 대한 연구 공동 개발 파트너 및/또는 허가권자를 찾고 있습니다.",
-   "abstract_en": "The National Cancer Institute (NCI) seeks research co- development partners and/or licensees for a novel monoclonal antibody (mAb), RO4, that can be used to treat mesothelin (MSLN) expressing cancers.",
-   "translated": true,
-   "official": true,
-   "kind": "Notice",
-   "docket": "",
-   "id": 9,
-   "src": "US_FEDREG",
-   "src_name": "미국 연방관보(공식)",
-   "sectors": [],
-   "watch": []
-  },
-  {
-   "title": "Government Owned Invention Available for License: Human Antibodies Targeting Beneficial Viral Peptide in Liver Cancer",
-   "core": "라이센스 가능한 정부 소유 발명품: 간암에 유익한 바이러스성 펩타이드를 표적으로 하는 인간 항체",
-   "title_en": "Government Owned Invention Available for License: Human Antibodies Targeting Beneficial Viral Peptide in Liver Cancer",
-   "date": "2026-08-12",
-   "org": "보건복지부, 국립보건원",
-   "link": "https://www.federalregister.gov/documents/2026/08/12/2026-16442/government-owned-invention-available-for-license-human-antibodies-targeting-beneficial-viral-peptide",
-   "abstract": "국립암연구소(NCI)는 간암 치료를 위한 항CE1 항체 모음을 개발하기 위해 연구 공동 개발 파트너 및/또는 허가권자를 찾고 있습니다.",
-   "abstract_en": "The National Cancer Institute (NCI) seeks research co- development partners and/or licensees to develop a collection of anti- CE1 antibodies for liver cancer treatment.",
-   "translated": true,
-   "official": true,
-   "kind": "Notice",
-   "docket": "",
-   "id": 10,
-   "src": "US_FEDREG",
-   "src_name": "미국 연방관보(공식)",
-   "sectors": [],
-   "watch": []
-  },
-  {
-   "title": "Government Owned Invention Available for License: DNA Methylation-Based Cancer Diagnostics for Accurate Tumor Classification",
-   "core": "라이센스 가능한 정부 소유 발명품: 정확한 종양 분류를 위한 DNA 메틸화 기반 암 진단",
-   "title_en": "Government Owned Invention Available for License: DNA Methylation-Based Cancer Diagnostics for Accurate Tumor Classification",
-   "date": "2026-08-12",
-   "org": "보건복지부, 국립보건원",
-   "link": "https://www.federalregister.gov/documents/2026/08/12/2026-16441/government-owned-invention-available-for-license-dna-methylation-based-cancer-diagnostics-for",
-   "abstract": "이 기술은 중추신경계, 신장 및 조혈계 종양에 대한 유용성이 입증되어 암 분류의 정확성과 일관성을 향상시키도록 설계된 DNA 메틸화 기반 진단 플랫폼을 포함합니다. 질병별 메틸화 시그니처를 식별함으로써 이 접근법은 관찰자 간 변동성을 줄이고 진단 신뢰도를 향상시킵니다. 중앙",
-   "abstract_en": "This technology encompasses a DNA methylation-based diagnostic platform designed to improve the accuracy and consistency of cancer classification, with demonstrated utility for tumors of the central nervous system, kidney, and hematopoietic system. By identifying disease-specific methylation signatures, the approach reduces interobserver variability and enhances diagnostic confidence. The central nervous system (CNS) classifier is built from a curated reference set of 16,567 methylation profiles and organizes tumors into 22 families and 133 clinically relevant diagnostic classes, including 21 newly developed methylation classes not represented in other existing tools. Across multiple indepen",
-   "translated": true,
-   "official": true,
-   "kind": "Notice",
-   "docket": "",
-   "id": 11,
-   "src": "US_FEDREG",
-   "src_name": "미국 연방관보(공식)",
-   "sectors": [],
-   "watch": []
-  },
-  {
-   "title": "NIH Owned Invention Available for License: Soluble Tissue Factor, a Novel Target, and Antibodies, for Diagnosis, Prevention and Treatment of Thrombosis and Related Conditions",
-   "core": "라이센스가 가능한 NIH 소유 발명품: 혈전증 및 관련 질환의 진단, 예방 및 치료를 위한 가용성 조직 인자, 새로운 표적 및 항체",
-   "title_en": "NIH Owned Invention Available for License: Soluble Tissue Factor, a Novel Target, and Antibodies, for Diagnosis, Prevention and Treatment of Thrombosis and Related Conditions",
-   "date": "2026-08-12",
-   "org": "보건복지부, 국립보건원",
-   "link": "https://www.federalregister.gov/documents/2026/08/12/2026-16440/nih-owned-invention-available-for-license-soluble-tissue-factor-a-novel-target-and-antibodies-for",
-   "abstract": "국립암연구소(NCI)의 과학자들은 혈전증에 대한 새로운 치료, 진단 및 예후 표적인 용해성 조직 인자(sTF)를 발견했습니다. NCI는 정상적인 지혈을 유지하면서 병리학적 응고를 선택적으로 중화하는 최초의 항체와 플랫폼을 개발했습니다. 본 플랫폼 기술은 병리학적 혈전증의 예방, 진단, 치료에 사용될 수 있습니다.",
-   "abstract_en": "Scientists at the National Cancer Institute (NCI) have discovered a novel therapeutic, diagnostic and prognostic target for thrombosis: Soluble Tissue Factor (sTF). NCI has generated first-in- class antibodies and platform selectively neutralizing pathological coagulation while preserving normal hemostasis. This platform technology can be used to prevent, diagnose and treat pathological thrombosis caused by a variety of clinical conditions-including cancer, sepsis, infectious diseases (e.g., COVID), autoimmune disorders, trauma, heart conditions and inflammatory conditions. It offers a much more sensitive and specific test of thrombosis than the current D-dimer test. It may be applicable to ",
-   "translated": true,
-   "official": true,
-   "kind": "Notice",
-   "docket": "",
-   "id": 12,
-   "src": "US_FEDREG",
-   "src_name": "미국 연방관보(공식)",
-   "sectors": [],
-   "watch": []
-  },
-  {
-   "title": "Government Owned Invention Available for License: Quantitative Particle Identification (QPID) Digital Autoradiography System",
-   "core": "라이센스 가능한 정부 소유 발명품: 정량적 입자 식별(QPID) 디지털 자동방사선 촬영 시스템",
-   "title_en": "Government Owned Invention Available for License: Quantitative Particle Identification (QPID) Digital Autoradiography System",
-   "date": "2026-08-12",
-   "org": "보건복지부, 국립보건원",
-   "link": "https://www.federalregister.gov/documents/2026/08/12/2026-16439/government-owned-invention-available-for-license-quantitative-particle-identification-qpid-digital",
-   "abstract": "국립 암 연구소(NCI)는 입자 식별 기능을 갖춘 QPID 디지털 방사선 촬영 시스템에 대한 연구 공동 개발 파트너 및/또는 라이센스 사용자를 찾고 있습니다.",
-   "abstract_en": "The National Cancer Institute (NCI) seeks research co- development partners and/or licensees for a QPID digital autoradiography system with particle identification capabilities.",
-   "translated": true,
-   "official": true,
-   "kind": "Notice",
-   "docket": "",
-   "id": 13,
-   "src": "US_FEDREG",
-   "src_name": "미국 연방관보(공식)",
-   "sectors": [],
-   "watch": []
-  },
-  {
-   "title": "NIH Owned Invention Available for License: Drug-Regulatable, Inducible Expression of Membrane-Bound Interleukin 12 (DRIM-IL-12) for Use in Adoptive Cell Therapy",
-   "core": "라이센스 가능한 NIH 소유 발명품: 입양 세포 치료에 사용하기 위한 막 결합 인터루킨 12(DRIM-IL-12)의 약물 조절 가능, 유도 가능 발현",
-   "title_en": "NIH Owned Invention Available for License: Drug-Regulatable, Inducible Expression of Membrane-Bound Interleukin 12 (DRIM-IL-12) for Use in Adoptive Cell Therapy",
-   "date": "2026-08-12",
-   "org": "보건복지부, 국립보건원",
-   "link": "https://www.federalregister.gov/documents/2026/08/12/2026-16438/nih-owned-invention-available-for-license-drug-regulatable-inducible-expression-of-membrane-bound",
-   "abstract": "국립 암 연구소(NCI)의 과학자들은 조작된 T 세포(CAR, TCR, TIL)를 이용한 입양 세포 치료(ACT)에서 안전성을 향상시키면서 항종양 효능을 강화하는 엄격하게 규제되는 새로운 약물 반응성 막 결합 IL-12 사이토카인 플랫폼을 개발했습니다. NCI는 이 기술을 임상 번역으로 발전시키기 위해 연구 공동 개발 파트너 및/또는 라이센스 사용자를 찾고 있습니다.",
-   "abstract_en": "Scientists at the National Cancer Institute (NCI) have developed a novel tightly regulated drug-responsive, membrane-bound IL- 12 cytokine platform, that enhances anti-tumor efficacy in adoptive cell therapy (ACT) with engineered T-cells (CAR, TCR, TILs) while improving safety. The NCI seeks research co-development partners and/or licensees to advance this technology toward clinical translation.",
-   "translated": true,
-   "official": true,
-   "kind": "Notice",
-   "docket": "",
-   "id": 14,
-   "src": "US_FEDREG",
-   "src_name": "미국 연방관보(공식)",
+   "src_kind": "정책",
+   "effective": "",
    "sectors": [
     "바이오/의료"
    ],
-   "watch": []
+   "watch": [],
+   "id": 1,
+   "src": "FEDREG",
+   "src_name": "미국 정책 (연방관보 원문)"
   },
   {
-   "title": "Agency Information Collection Activities; Proposed eCollection eComments Requested; New Information Collection; USAO-PR COMMUNITY OUTREACH REQUEST FORM Feedback Form Package",
-   "core": "기관 정보 수집 활동; 제안된 eCollection eComments가 요청되었습니다. 새로운 정보 수집; USAO-PR 커뮤니티 지원 요청 양식 피드백 양식 패키지",
-   "title_en": "Agency Information Collection Activities; Proposed eCollection eComments Requested; New Information Collection; USAO-PR COMMUNITY OUTREACH REQUEST FORM Feedback Form Package",
+   "title": "Schedules of Controlled Substances: Temporary Placement of O-Desmethyltramadol in Schedule I",
+   "core": "규제 물질 목록: 목록 I의 O-Desmethyltramadol 임시 배치",
+   "title_en": "Schedules of Controlled Substances: Temporary Placement of O-Desmethyltramadol in Schedule I",
    "date": "2026-08-12",
-   "org": "Justice Department",
-   "link": "https://www.federalregister.gov/documents/2026/08/12/2026-16437/agency-information-collection-activities-proposed-ecollection-ecomments-requested-new-information",
-   "abstract": "USAO-PR, 법무부(DOJ)는 1995년 서류감축법에 따라 검토 및 승인을 위해 관리예산처(OMB)에 다음 정보 수집 요청을 제출할 예정입니다.",
-   "abstract_en": "The USAO-PR, Department of Justice (DOJ), will be submitting the following information collection request to the Office of Management and Budget (OMB) for review and approval in accordance with the Paperwork Reduction Act of 1995.",
-   "translated": true,
+   "abstract": "마약 단속국(Drug Enforcement Administration)은 이성질체, 에스테르, 에테르, 염 및 이성질체, 에스테르 및 에테르의 염을 포함하는 O-데스메틸트라마돌(다른 이름: O-DSMT; 데스메트라마돌; 3-[(1R,2R)-2-[(디메틸아미노)메틸]-1-하이드록시사이클로헥실]페놀)을 통제 물질법(Controlled Substances Act)의 일정 I에 포함하도록 임시 명령을 내립니다. DEA는 일정에 O-DSMT를 배치한다는 사실을 토대로 이 조치를 취합니다.",
+   "abstract_en": "The Drug Enforcement Administration issues this temporary order to schedule O-desmethyltramadol (other names: O-DSMT; desmetramadol; 3-[(1R,2R)-2-[(dimethylamino)methyl]-1- hydroxycyclohexyl]phenol), including its isomers, esters, ethers, salts, and salts of isomers, esters and ethers, in schedule I of the Controlled Substances Act. DEA bases this action on a finding that placing O-DSMT in schedule I is necessary to avoid an imminent hazard to public safety. This order imposes the regulatory controls and administrative, civil, and criminal sanctions applicable to schedule I controlled substances on persons who handle (manufacture, distribute, reverse distribute, import, export, engage in research, conduct instructional activities or chemical analysis with, or possess) or propose to handle ",
+   "org": "Justice Department, Drug Enforcement Administration",
+   "link": "https://www.federalregister.gov/documents/2026/08/12/2026-16413/schedules-of-controlled-substances-temporary-placement-of-o-desmethyltramadol-in-schedule-i",
    "official": true,
-   "kind": "Notice",
-   "docket": "",
-   "id": 15,
-   "src": "US_FEDREG",
-   "src_name": "미국 연방관보(공식)",
-   "sectors": [],
-   "watch": []
-  },
-  {
-   "title": "금융위 \"금융행정 쇄신방안 확정된 바 없어\" - 대한민국 정책브리핑",
-   "core": "금융위 \"금융행정 쇄신방안 확정된 바 없어\"",
-   "date": "Wed, 12 Aug 2026",
-   "org": "대한민국 정책브리핑",
-   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNOXNOWV9vQjlyYTdjYlVQeF9BSGRFZjJFdFFjUG4zMmlkeUM5bmcxekFyZjRDUy16a1FmU1U3ZXVRWjE5TldrM0ZLSXROLXV1QW1aQWlNVFFhRGstcXVnTUM2aW9BWjdsRkVQdmVHazFDTXpqTnlkU3dfQ0JodXRFTE9wUFhfLUJS?oc=5",
-   "abstract": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
-   "body_ok": true,
-   "official": false,
-   "id": 16,
-   "src": "KR_ECON",
-   "src_name": "한국 경제부처·한은",
-   "sectors": [
-    "금융/증권"
+   "translated": true,
+   "kinds": [
+    "정책"
    ],
-   "watch": []
+   "src_kind": "정책",
+   "effective": "",
+   "sectors": [],
+   "watch": [],
+   "id": 2,
+   "src": "FEDREG",
+   "src_name": "미국 정책 (연방관보 원문)"
   },
   {
-   "title": "한국은행, 직원 150명에 60억원 상당 주택 대출…형평성 논란 - 연합뉴스TV",
-   "core": "한국은행, 직원 150명에 60억원 상당 주택 대출…형평성 논란",
+   "title": "List of Approved Spent Fuel Storage Casks: NAC International, Inc., MAGNASTOR® Storage System, Certificate of Compliance No. 1031, Amendment Nos. 16 and 17 and Revisions to Amendment Nos. 0 through 16",
+   "core": "승인된 사용후 연료 저장용기 목록: NAC International, Inc., MAGNASTOR® 저장 시스템, 규정 준수 증명서 No. 1031, 수정안 Nos. 16 및 17 및 수정안 Nos. 0~16에 대한 수정",
+   "title_en": "List of Approved Spent Fuel Storage Casks: NAC International, Inc., MAGNASTOR® Storage System, Certificate of Compliance No. 1031, Amendment Nos. 16 and 17 and Revisions to Amendment Nos. 0 through 16",
+   "date": "2026-08-12",
+   "abstract": "미국 원자력 규제 위원회(NRC)는 2026년 7월 1일 연방 관보에 게시된 직접 최종 규칙의 발효일을 2026년 9월 14일로 확인합니다. 이 직접 최종 규칙은 \"승인된 사용후 연료 저장 용기 목록\" 내의 NAC MAGNASTOR 시스템 목록을 수정하여 수정안 16 및 17을 포함하고 수정안 0~16에 대한 수정 사항을 다음과 같이 수정했습니다. 인증서",
+   "abstract_en": "The U.S. Nuclear Regulatory Commission (NRC) is confirming the effective date of September 14, 2026, for the direct final rule that was published in the Federal Register on July 1, 2026. This direct final rule amended the NAC MAGNASTOR System listing within the \"List of approved spent fuel storage casks\" to include Amendment Nos. 16 and 17 and revisions to Amendment Nos. 0 through 16 to Certificate of Compliance No. 1031.",
+   "org": "원자력규제위원회",
+   "link": "https://www.federalregister.gov/documents/2026/08/12/2026-16398/list-of-approved-spent-fuel-storage-casks-nac-international-inc-magnastor-storage-system-certificate",
+   "official": true,
+   "translated": true,
+   "kinds": [
+    "정책"
+   ],
+   "src_kind": "정책",
+   "effective": "",
+   "sectors": [],
+   "watch": [],
+   "id": 3,
+   "src": "FEDREG",
+   "src_name": "미국 정책 (연방관보 원문)"
+  },
+  {
+   "title": "Powered Micromobility Devices",
+   "core": "구동형 마이크로모빌리티 장치",
+   "title_en": "Powered Micromobility Devices",
+   "date": "2026-08-12",
+   "abstract": "국립공원관리청은 국립공원 시스템 내에서 구동되는 마이크로모빌리티 장치의 사용을 위한 관리 프레임워크를 마무리합니다. 최종 규칙은 자동차, 전통 자전거, 전기 자전거, 인력으로 구동되는 해안 장치와 별도로 구동형 마이크로모빌리티 장치를 정의하고 국립공원 시스템 단위에서 이러한 장치를 사용할 수 있는 위치와 방법에 대한 규칙을 만듭니다. 예 o",
+   "abstract_en": "The National Park Service finalizes a management framework for the use of powered micromobility devices within the National Park System. The final rule defines powered micromobility devices separately from motor vehicles, traditional bicycles, electric bicycles, and human powered coasting devices, and creates rules for where and how they may be used in units of the National Park System. Examples of powered micromobility devices include electric scooters (e- scooters), hoverboards, and Segways.",
+   "org": "Interior Department, National Park Service",
+   "link": "https://www.federalregister.gov/documents/2026/08/12/2026-16388/powered-micromobility-devices",
+   "official": true,
+   "translated": true,
+   "kinds": [
+    "정책"
+   ],
+   "src_kind": "정책",
+   "effective": "",
+   "sectors": [
+    "모빌리티"
+   ],
+   "watch": [],
+   "id": 4,
+   "src": "FEDREG",
+   "src_name": "미국 정책 (연방관보 원문)"
+  },
+  {
+   "title": "Adjusting Imports of Polysilicon and Its Derivatives Into the United States",
+   "core": "미국으로의 폴리실리콘 및 그 파생상품 수입 조정",
+   "title_en": "Adjusting Imports of Polysilicon and Its Derivatives Into the United States",
+   "date": "2026-08-11",
+   "abstract": "",
+   "abstract_en": "",
+   "org": "Executive Office of the President",
+   "link": "https://www.federalregister.gov/documents/2026/08/11/2026-16400/adjusting-imports-of-polysilicon-and-its-derivatives-into-the-united-states",
+   "official": true,
+   "translated": true,
+   "kinds": [
+    "정책"
+   ],
+   "src_kind": "정책",
+   "effective": "",
+   "sectors": [
+    "금속/광물"
+   ],
+   "watch": [],
+   "id": 5,
+   "src": "FEDREG",
+   "src_name": "미국 정책 (연방관보 원문)"
+  },
+  {
+   "title": "Schedules of Controlled Substances: Rescheduling of Suvorexant, Lemborexant, and Daridorexant From Schedule IV Into Schedule V",
+   "core": "규제 물질 일정: Suvorexant, Lemborexant 및 Daridorexant의 일정 IV를 일정 V로 변경",
+   "title_en": "Schedules of Controlled Substances: Rescheduling of Suvorexant, Lemborexant, and Daridorexant From Schedule IV Into Schedule V",
+   "date": "2026-08-11",
+   "abstract": "미국 마약단속국에서는 수보렉산트([(7R)-4-(5-클로로-1,3-벤족사졸-2-일)-7-메틸-1,4-디아제판-1-일]-[5-메틸-2-(트리아졸-2-일)페닐]메타논), 렘보렉산트의 이전을 제안합니다. ((1R,2S)-2-[(2,4-디메틸피리미딘-5-일)옥시메틸]-2-(3-플루오로페닐)-N-(5-플루오로피리딘-2-일)시클로프로판-1-카르복사미드) 및 다리도렉산트([(2S)-2-(5-클로로-4-메틸-1H-벤즈이미다졸-2-일)-2-메틸피롤리",
+   "abstract_en": "The Drug Enforcement Administration proposes to transfer suvorexant ([(7R)-4-(5-chloro-1,3-benzoxazol-2-yl)-7-methyl-1,4- diazepan-1-yl]-[5-methyl-2-(triazol-2-yl)phenyl]methanone), lemborexant ((1R,2S)-2-[(2,4-dimethylpyrimidin-5-yl)oxymethyl]-2-(3-fluorophenyl)- N-(5-fluoropyridin-2-yl)cyclopropane-1-carboxamide), and daridorexant ([(2S)-2-(5-chloro-4-methyl-1H-benzimidazol-2-yl)-2-methylpyrrolidin-1- yl]-[5-methoxy-2-(triazol-2-yl)phenyl]methanone) from schedule IV to schedule V of the Controlled Substances Act. If finalized, this action would impose the regulatory controls and administrative, civil, and criminal sanctions applicable to schedule V controlled substances on persons who handle (manufacture, distribute, reverse distribute, import, export, engage in research, conduct instruc",
+   "org": "Justice Department, Drug Enforcement Administration",
+   "link": "https://www.federalregister.gov/documents/2026/08/11/2026-16375/schedules-of-controlled-substances-rescheduling-of-suvorexant-lemborexant-and-daridorexant-from",
+   "official": true,
+   "translated": true,
+   "kinds": [
+    "정책"
+   ],
+   "src_kind": "정책",
+   "effective": "",
+   "sectors": [],
+   "watch": [],
+   "id": 6,
+   "src": "FEDREG",
+   "src_name": "미국 정책 (연방관보 원문)"
+  },
+  {
+   "title": "NRC Modernization: Rulemaking Procedure, Federal Advisory Committee Act Alignment, Access, and Security",
+   "core": "NRC 현대화: 규칙 제정 절차, 연방자문위원회법 조정, 접근 및 보안",
+   "title_en": "NRC Modernization: Rulemaking Procedure, Federal Advisory Committee Act Alignment, Access, and Security",
+   "date": "2026-08-11",
+   "abstract": "미국 원자력규제위원회(NRC)는 정보 보류 및 공포 후 논평 기간과 관련된 절차 조항을 간소화하여 규정을 개정하고 있습니다. NRC의 규정을 위원회 관리 사무국(CMS) 연방 자문 위원회법(FACA) 표준과 일치시킵니다. 국가 안보 적격성 기준 업데이트. 목표는 현대화하고 이를 명확하게 하는 것입니다.",
+   "abstract_en": "The U.S. Nuclear Regulatory Commission (NRC) is amending its regulations by streamlining procedural provisions related to information withholding and post-promulgation comment periods; aligning the NRC's regulations with Committee Management Secretariat (CMS) Federal Advisory Committee Act (FACA) standards; and updating national security eligibility criteria. The goal is to modernize and clarify the NRC's regulatory framework to ensure consistency with government-wide standards and improve administrative efficiency. The scope includes updates to outdated provisions and revisions to ensure compliance with current federal policies. This action is being taken in response to Executive Order 14300, \"Ordering the Reform of the Nuclear Regulatory Commission.\"",
+   "org": "원자력규제위원회",
+   "link": "https://www.federalregister.gov/documents/2026/08/11/2026-16374/nrc-modernization-rulemaking-procedure-federal-advisory-committee-act-alignment-access-and-security",
+   "official": true,
+   "translated": true,
+   "kinds": [
+    "정책"
+   ],
+   "src_kind": "정책",
+   "effective": "",
+   "sectors": [],
+   "watch": [],
+   "id": 7,
+   "src": "FEDREG",
+   "src_name": "미국 정책 (연방관보 원문)"
+  },
+  {
+   "title": "NRC Modernization: Rulemaking Procedure, Federal Advisory Committee Act Alignment, Access, and Security",
+   "core": "NRC 현대화: 규칙 제정 절차, 연방자문위원회법 조정, 접근 및 보안",
+   "title_en": "NRC Modernization: Rulemaking Procedure, Federal Advisory Committee Act Alignment, Access, and Security",
+   "date": "2026-08-11",
+   "abstract": "미국 원자력 규제위원회(NRC)는 정보 보류 및 공포 후 논평 기간과 관련된 절차 조항을 간소화하여 규정을 개정할 것을 제안하고 있습니다. NRC의 규정을 위원회 관리 사무국(CMS) 연방 자문 위원회법(FACA) 표준과 일치시킵니다. 국가 안보 적격성 기준 업데이트. 목표는 현대화하고",
+   "abstract_en": "The U.S. Nuclear Regulatory Commission (NRC) is proposing to amend its regulations by streamlining procedural provisions related to information withholding and post-promulgation comment periods; aligning the NRC's regulations with Committee Management Secretariat (CMS) Federal Advisory Committee Act (FACA) standards; and updating national security eligibility criteria. The goal is to modernize and clarify the NRC's regulatory framework to ensure consistency with government-wide standards and improve administrative efficiency. The scope includes updates to outdated provisions and revisions to ensure compliance with current federal policies. This action is being undertaken in response to Executive Order 14300, \"Ordering the Reform of the Nuclear Regulatory Commission.\"",
+   "org": "원자력규제위원회",
+   "link": "https://www.federalregister.gov/documents/2026/08/11/2026-16373/nrc-modernization-rulemaking-procedure-federal-advisory-committee-act-alignment-access-and-security",
+   "official": true,
+   "translated": true,
+   "kinds": [
+    "정책"
+   ],
+   "src_kind": "정책",
+   "effective": "",
+   "sectors": [],
+   "watch": [],
+   "id": 8,
+   "src": "FEDREG",
+   "src_name": "미국 정책 (연방관보 원문)"
+  },
+  {
+   "title": "Determination To Defer Sanctions; Arizona; Maricopa County Air Quality Department; Gasoline Loading",
+   "core": "제재 연기 결정; 애리조나; Maricopa 카운티 대기질 부서; 가솔린 로딩",
+   "title_en": "Determination To Defer Sanctions; Arizona; Maricopa County Air Quality Department; Gasoline Loading",
+   "date": "2026-08-11",
+   "abstract": "미국 환경 보호국(EPA)은 ADEQ(애리조나주 환경부)가 Maricopa 카운티 대기질부(MCAQD 또는 \"카운티\")를 대신하여 휘발성 유기 화합물(VOC) 배출에 관한 청정 공기법(CAA 또는 \"법\") 주 시행 계획(SIP)의 결함을 해결하는 규칙을 제출했다는 임시 최종 결정을 내리고 있습니다.",
+   "abstract_en": "The U.S. Environmental Protection Agency (EPA) is making an interim final determination that the Arizona Department of Environmental Quality (ADEQ) has submitted rules on behalf of the Maricopa County Air Quality Department (MCAQD or \"County\") that addresses deficiencies in its Clean Air Act (CAA or \"Act\") State Implementation Plan (SIP) concerning emissions of volatile organic compounds (VOC) from loading of organic liquids and gasoline. This determination is based on a proposed approval of MCAQD Rule 352 and conditional approval of MCAQD Rule 353, published elsewhere in this issue of the Federal Register, that regulate this category of sources. The effect of this interim final determination is that the application of offset and highway sanctions that was triggered by a previous limited d",
+   "org": "환경보호청",
+   "link": "https://www.federalregister.gov/documents/2026/08/11/2026-16334/determination-to-defer-sanctions-arizona-maricopa-county-air-quality-department-gasoline-loading",
+   "official": true,
+   "translated": true,
+   "kinds": [
+    "정책"
+   ],
+   "src_kind": "정책",
+   "effective": "",
+   "sectors": [
+    "수출통제/관세"
+   ],
+   "watch": [],
+   "id": 9,
+   "src": "FEDREG",
+   "src_name": "미국 정책 (연방관보 원문)"
+  },
+  {
+   "title": "Air Plan Approval; New Hampshire; Repeal of Motor Vehicle Inspection and Maintenance Program",
+   "core": "항공 계획 승인; 뉴햄프셔; 자동차 검사 및 유지관리 프로그램 폐지",
+   "title_en": "Air Plan Approval; New Hampshire; Repeal of Motor Vehicle Inspection and Maintenance Program",
+   "date": "2026-08-11",
+   "abstract": "미국 환경보호국(EPA)은 뉴햄프셔주 환경서비스부(NHDES)를 통해 2025년 12월 24일 뉴햄프셔주가 제출한 주 시행계획(SIP) 개정안을 조건부 승인할 것을 제안하고 있습니다. 제안된 개정안은 주 전역의 자동차 검사 및 유지관리(I/M) 프로그램을 적극적 조치로 제거할 것입니다.",
+   "abstract_en": "The U.S. Environmental Protection Agency (EPA) is proposing to conditionally approve a State Implementation Plan (SIP) revision submitted by the State of New Hampshire on December 24, 2025, through the New Hampshire Department of Environmental Services (NHDES). The proposed revision would remove the Statewide motor vehicle inspection and maintenance (I/M) program as an active measure, which was previously approved into the SIP to address emissions from on-road sources. In accordance with plan revision requirements of the Clean Air Act (CAA), the SIP submittal contains a demonstration that the removal of the I/M program will not interfere with New Hampshire's compliance with any National Ambient Air Quality Standard (NAAQS) or with any applicable requirement of the CAA. In a letter to the E",
+   "org": "환경보호청",
+   "link": "https://www.federalregister.gov/documents/2026/08/11/2026-16330/air-plan-approval-new-hampshire-repeal-of-motor-vehicle-inspection-and-maintenance-program",
+   "official": true,
+   "translated": true,
+   "kinds": [
+    "정책"
+   ],
+   "src_kind": "정책",
+   "effective": "",
+   "sectors": [
+    "모빌리티",
+    "항공/물류"
+   ],
+   "watch": [
+    "항공",
+    "자동차"
+   ],
+   "id": 10,
+   "src": "FEDREG",
+   "src_name": "미국 정책 (연방관보 원문)"
+  },
+  {
+   "title": "Regulatory Changes Required by the Energy Security and Lightering Independence Act of 2022",
+   "core": "2022년 에너지 안보 및 조명 독립법에서 요구하는 규제 변경",
+   "title_en": "Regulatory Changes Required by the Energy Security and Lightering Independence Act of 2022",
+   "date": "2026-08-11",
+   "abstract": "2022년 에너지 안보 및 경량화 독립법은 외국 무역에 종사하는 다른 선박(경량화)과 선박 간 액체 화물 운송 작업을 수행하는 개인을 포함하도록 환승 중인 외국인(C) 및 승무원으로 근무하는 외국인(D)에 대한 비이민 분류를 개정했습니다. 이 법령은 자격을 갖춘 외국인이 미국에 입국하거나 요청할 수 있는 권한을 부여합니다.",
+   "abstract_en": "The Energy Security and Lightering Independence Act of 2022 amended the nonimmigrant classifications for aliens in transit (C) and for aliens serving as crewmen (D) to include individuals who perform ship-to-ship liquid cargo transfer operations to or from another vessel engaged in foreign trade (lightering). The statute authorizes qualifying aliens to seek admission to the United States or request temporary landing permits for a period not to exceed 180 days. This rule amends Department of Homeland Security (DHS) regulations to conform to these statutory changes and make related technical amendments.",
+   "org": "Homeland Security Department",
+   "link": "https://www.federalregister.gov/documents/2026/08/11/2026-16319/regulatory-changes-required-by-the-energy-security-and-lightering-independence-act-of-2022",
+   "official": true,
+   "translated": true,
+   "kinds": [
+    "정책"
+   ],
+   "src_kind": "정책",
+   "effective": "",
+   "sectors": [
+    "전력/원자력",
+    "수출통제/관세",
+    "조선/해운",
+    "항공/물류"
+   ],
+   "watch": [],
+   "id": 11,
+   "src": "FEDREG",
+   "src_name": "미국 정책 (연방관보 원문)"
+  },
+  {
+   "title": "[뉴스초점] 정부, 세제개편안 보완 검토…이달 중 공급 대책 발표 - 연합뉴스TV",
+   "core": "[뉴스초점] 정부, 세제개편안 보완 검토…이달 중 공급 대책 발표",
    "date": "Wed, 12 Aug 2026",
+   "abstract": "[뉴스초점] 정부, 세제개편안 보완 검토…이달 중 공급 대책 발표&nbsp;&nbsp;연합뉴스TV",
+   "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9TeU81R2tXNTlKV1dweEtXaURrcG12OHQ4WXZ0LWN0MFR1N2UtRll2MXk3aFhBS0Vmc1hORW5OR0ZxWFcwaEw2cmVsVXhmVTBFS3JpVXBqQXJOOV9uM0FPQmItZmljdlE?oc=5",
+   "official": false,
    "org": "연합뉴스TV",
-   "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE44dm03Zkt6RWo4ZGdNc0xGZzdNb2F4a2tYV1RReUQ3enYyUGNnZzJtbXRRQlZvenRLRjZFMV9ST1RFbGZLX2YzeUkzSXZSbDMtY01VWXN0ZWNXZXFBdWg2aXUxajRXVDA?oc=5",
-   "abstract": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
-   "body_ok": true,
+   "kinds": [
+    "정책"
+   ],
+   "src_kind": "정책",
+   "sectors": [
+    "보조금/세제"
+   ],
+   "watch": [],
+   "id": 12,
+   "src": "KR_POLICY",
+   "src_name": "한국 정책 (부처 발표)"
+  },
+  {
+   "title": "송영길 “부동산세 손대지 말라”…정부 세제개편 전면수정 요구 - 문화일보",
+   "core": "송영길 “부동산세 손대지 말라”…정부 세제개편 전면수정 요구",
+   "date": "Wed, 12 Aug 2026",
+   "abstract": "송영길 “부동산세 손대지 말라”…정부 세제개편 전면수정 요구&nbsp;&nbsp;문화일보",
+   "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1IRW9meGZLNlRJMmpPeVB1bHRXelRxR2V0MndQTi15YjVVVTFia3BMb3Q5NmdPcjltWExEMTVNdnZ5OWhrWFo0ZG9XakdDdFU4?oc=5",
    "official": false,
+   "org": "문화일보",
+   "kinds": [
+    "정책"
+   ],
+   "src_kind": "정책",
+   "sectors": [
+    "보조금/세제",
+    "건설/부동산"
+   ],
+   "watch": [],
+   "id": 13,
+   "src": "KR_POLICY",
+   "src_name": "한국 정책 (부처 발표)"
+  },
+  {
+   "title": "“비거주를 죄악시” “과세 실익 없어”… 민주당 세제 개편안 수정논의 본격 시동 - 경향신문",
+   "core": "“비거주를 죄악시” “과세 실익 없어”… 민주당 세제 개편안 수정논의 본격 시동",
+   "date": "Wed, 12 Aug 2026",
+   "abstract": "“비거주를 죄악시” “과세 실익 없어”… 민주당 세제 개편안 수정논의 본격 시동&nbsp;&nbsp;경향신문",
+   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9xbmxiLU9jM3RGVWV0Xy1YVDdEODB0c0w0TjJfa05FTWRnV2hOOW9QbnJsUEFxM0xoYzNZbndUWEktUldSUFdzTkJEdzIyQXJ6N3hRZ1JIOFZjZ9IBX0FVX3lxTFA0NG42dFZnOEEwOWt4VHBmaktYMlRsUWwxbnlRcDZudjl5VUpoblhmN1l4UXMxR3ozekRzc2NzMndxTFN6bURnRXdJeGE0NjZ5WFVicUtXc19ONWtxU0hN?oc=5",
+   "official": false,
+   "org": "경향신문",
+   "kinds": [
+    "정책"
+   ],
+   "src_kind": "정책",
+   "sectors": [
+    "보조금/세제"
+   ],
+   "watch": [],
+   "id": 14,
+   "src": "KR_POLICY",
+   "src_name": "한국 정책 (부처 발표)"
+  },
+  {
+   "title": "[칼럼] 2026년 세제개편안을 통해 살펴본 정부의 정책 방향 - 아시아투데이",
+   "core": "[칼럼] 2026년 세제개편안을 통해 살펴본 정부의 정책 방향",
+   "date": "Wed, 12 Aug 2026",
+   "abstract": "[칼럼] 2026년 세제개편안을 통해 살펴본 정부의 정책 방향&nbsp;&nbsp;아시아투데이",
+   "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBJNzNHbWhac205d1plZUMwbDlnTHpKVUtiRlZNeWdPVkdrd1hiRGlaOWpxNVFkc0NSd3RrTXJvaE1GdjZMQUhNZ1lnckRXWmJLb2tBVUQ4VDVVc25lUEZVSHF5eWh6cEttMWFjZVVR?oc=5",
+   "official": false,
+   "org": "아시아투데이",
+   "kinds": [
+    "정책"
+   ],
+   "src_kind": "정책",
+   "sectors": [
+    "보조금/세제"
+   ],
+   "watch": [],
+   "id": 15,
+   "src": "KR_POLICY",
+   "src_name": "한국 정책 (부처 발표)"
+  },
+  {
+   "title": "세제개편에 韓 부동산은 혼돈…시장은 셈법 복잡, 건설사는 '훈풍' 기대 - 인베스트조선",
+   "core": "세제개편에 韓 부동산은 혼돈…시장은 셈법 복잡, 건설사는 '훈풍' 기대",
+   "date": "Tue, 11 Aug 2026",
+   "abstract": "세제개편에 韓 부동산은 혼돈…시장은 셈법 복잡, 건설사는 '훈풍' 기대&nbsp;&nbsp;인베스트조선",
+   "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPN2hHUTY5NTBuQjJnc2wtYXN5R2RrSnlHbnUyckl0S09oRV9zR0ZiUkJ4WndPNlVjY21RTGx4ekd6T3N5LXEyWXczVXRHU0NMYnEzcENvVHI4NGx2RnhYTVlXMDl3aUFaT1VyTk5OdE9JMFlyYW9nZXV4MUlqN1dCVW5aZw?oc=5",
+   "official": false,
+   "org": "인베스트조선",
+   "kinds": [
+    "정책"
+   ],
+   "src_kind": "정책",
+   "sectors": [
+    "보조금/세제",
+    "건설/부동산"
+   ],
+   "watch": [
+    "건설"
+   ],
+   "id": 16,
+   "src": "KR_POLICY",
+   "src_name": "한국 정책 (부처 발표)"
+  },
+  {
+   "title": "與 \"정부, 주택공급·금융대책 내일 발표...국민 체감 속도감 있는 실행 중요\" - 조세일보",
+   "core": "與 \"정부, 주택공급·금융대책 내일 발표...국민 체감 속도감 있는 실행 중요\"",
+   "date": "Wed, 12 Aug 2026",
+   "abstract": "與 \"정부, 주택공급·금융대책 내일 발표...국민 체감 속도감 있는 실행 중요\"&nbsp;&nbsp;조세일보",
+   "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1LOVJCSm9kU1hBa1AzOTdIZGZBRXBGbGdlUjA5WWlRaXFoMmlQRmRvdGpLMV9hU2dyV2FCVWVqanV1TzREcjYzVUVkS1BBZ3lpeENtVnFzdTUwelJianFN?oc=5",
+   "official": false,
+   "org": "조세일보",
+   "kinds": [
+    "정책"
+   ],
+   "src_kind": "정책",
+   "sectors": [
+    "건설/부동산"
+   ],
+   "watch": [],
    "id": 17,
-   "src": "KR_ECON",
-   "src_name": "한국 경제부처·한은",
-   "sectors": [
-    "금리/통화",
-    "건설/부동산",
-    "금융/증권"
-   ],
-   "watch": []
+   "src": "KR_POLICY",
+   "src_name": "한국 정책 (부처 발표)"
   },
   {
-   "title": "스크래핑 차단에 비대면 주담대 차질 우려…금융위, 단계적 시행 검토 - 연합인포맥스",
-   "core": "스크래핑 차단에 비대면 주담대 차질 우려…금융위, 단계적 시행 검토",
-   "date": "Wed, 12 Aug 2026",
-   "org": "연합인포맥스",
-   "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5tXzh3ZUw3LXlLRy14aHEwYW44NEFHQm9LQkdUc1pTMUM1NHhIa051aVpoNlI1cFVFX0RrQ0k3WEx5a0l6NEhzTkdBSElVeEUxZTE0Y3h0SlFVcFU5SW1oRXl5YnllRkxWdUctcTQyejLSAXRBVV95cUxNLXVoZW81YXVaYjdkQmJrZzNUZ3poZUgya09BMEUxdDVReTVFYW9XSjk2b3VBVno3OWZUNkx1UUJvLXZfUDlHT294TVRDd3huV2pFS3NwcHNtMFIxSUk1M1l4MnBENzdLM2MxNWZXcElTZjBvRQ?oc=5",
-   "abstract": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
-   "body_ok": true,
+   "title": "李대통령이 열어둔 세제개편 수정…'비거주 1주택' 넘어 어디까지 손대나 - 연합인포맥스",
+   "core": "李대통령이 열어둔 세제개편 수정…'비거주 1주택' 넘어 어디까지 손대나",
+   "date": "Tue, 11 Aug 2026",
+   "abstract": "李대통령이 열어둔 세제개편 수정…'비거주 1주택' 넘어 어디까지 손대나&nbsp;&nbsp;연합인포맥스",
+   "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBfa1I4eXY1ZHBPZ3dCUm5CU1I1SElGRmhTVy1zQVEtaGF2VXZxV0VBY2J4Z1ZKR0tBcHg0Y1VkQVFNdl9IMGhsTmxJZHBxeWZhSklkNTZOQjVMbXdsR2VUOFZ1LWFKdkw1YUFJOFpWVlM?oc=5",
    "official": false,
+   "org": "연합인포맥스",
+   "kinds": [
+    "정책"
+   ],
+   "src_kind": "정책",
+   "sectors": [
+    "보조금/세제"
+   ],
+   "watch": [],
    "id": 18,
-   "src": "KR_ECON",
-   "src_name": "한국 경제부처·한은",
-   "sectors": [
-    "금융/증권"
-   ],
-   "watch": []
+   "src": "KR_POLICY",
+   "src_name": "한국 정책 (부처 발표)"
   },
   {
-   "title": "국민은 대출 절벽인데… 한국은행 사내대출 특혜 논란 - 쿠키뉴스",
-   "core": "국민은 대출 절벽인데… 한국은행 사내대출 특혜 논란",
+   "title": "\"재건축 규제 완화, 청년 월세공제 상향\" - 한국경제",
+   "core": "\"재건축 규제 완화, 청년 월세공제 상향\"",
    "date": "Wed, 12 Aug 2026",
-   "org": "쿠키뉴스",
-   "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9mQlVGY2d6X0pEYV8weTQ2Ml9JZWc3SlpCeFBsNmIzanJBdmc5Q1ZTb0RPd2N0ZVRDclIzYWlhYmZfc08yRFI2T3doOFk4YUFKcW1IdVlxdUNBa01ja1pBT0N5RQ?oc=5",
-   "abstract": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
-   "body_ok": true,
+   "abstract": "\"재건축 규제 완화, 청년 월세공제 상향\"&nbsp;&nbsp;한국경제",
+   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFAxVzBIR2UtOW5HRElfRzBWaUc1VlRSd3RrY2dqTWJkZi16NGZfQUNSOWRqd0YwSUEwSjZXTHVFcl9xWE44MTh0MFRGTVotUEcxeGJEdzZLQjY1Zw?oc=5",
    "official": false,
+   "org": "한국경제",
+   "kinds": [
+    "정책"
+   ],
+   "src_kind": "정책",
+   "sectors": [
+    "건설/부동산"
+   ],
+   "watch": [],
    "id": 19,
-   "src": "KR_ECON",
-   "src_name": "한국 경제부처·한은",
-   "sectors": [
-    "금리/통화",
-    "금융/증권"
-   ],
-   "watch": []
+   "src": "KR_POLICY",
+   "src_name": "한국 정책 (부처 발표)"
   },
   {
-   "title": "금융위, 스크래핑 차단 대응방안 논의...\"공공 마이데이터 연계 검토\" - 비즈월드",
-   "core": "금융위, 스크래핑 차단 대응방안 논의...\"공공 마이데이터 연계 검토\"",
+   "title": "\"주민 소변서 녹조독소 검출…정부 대책 필요\" - LG헬로비전",
+   "core": "\"주민 소변서 녹조독소 검출…정부 대책 필요\"",
    "date": "Wed, 12 Aug 2026",
-   "org": "비즈월드",
-   "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA5T2dZamUydFBUWllRWmExeFlRYldJVlRkUVp0SXgtSnFpVkdfMzk5TmJkTG9yaDFxNW1uSFR1MVRPRE9JSjdsOXNMdVNSbmZ1cWl3bEkzRzVRNVBQTFhUN1NPSVFwZk5ERkE?oc=5",
-   "abstract": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
-   "body_ok": true,
+   "abstract": "\"주민 소변서 녹조독소 검출…정부 대책 필요\"&nbsp;&nbsp;LG헬로비전",
+   "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBJY3dLN0UzVzVUcEZFWlJERDlNSGdqRUlqU0tuVTdBREJSTExLa3hjMllScmd3RU1meDlHOWlMWElhZnZ0Vmt4TzN4d1hKZEVmcjdzT1BhRWdyenNFbXhBc0RXUGdRZkVEejhPNFp6SThyMm8?oc=5",
    "official": false,
+   "org": "LG헬로비전",
+   "kinds": [
+    "정책"
+   ],
+   "src_kind": "정책",
+   "sectors": [],
+   "watch": [],
    "id": 20,
-   "src": "KR_ECON",
-   "src_name": "한국 경제부처·한은",
-   "sectors": [
-    "금융/증권"
-   ],
-   "watch": []
+   "src": "KR_POLICY",
+   "src_name": "한국 정책 (부처 발표)"
   },
   {
-   "title": "한국은행, 전북대 ‘행BOK열차’ 팀 통화정책 경시대회 금상 - 전북제일신문",
-   "core": "한국은행, 전북대 ‘행BOK열차’ 팀 통화정책 경시대회 금상",
+   "title": "‘1년 선거주’ 수정 검토…직장·질병 등 사유 언제든 발생 지적 - 한겨레",
+   "core": "‘1년 선거주’ 수정 검토…직장·질병 등 사유 언제든 발생 지적",
    "date": "Wed, 12 Aug 2026",
-   "org": "전북제일신문",
-   "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9SU0tpUXUzQnRPaUJzOUZ6UlBVaEJTY2tpYXc4eWxUdE5YUk1PRnZNVzZVNlF6WUJRVXlGY2FiLUs4Sm5EdlhNSFRGNFFwSGxCaVhhUU5oMF9jZzZkSjMyS25lamd0X1F6Q1E?oc=5",
-   "abstract": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
-   "body_ok": true,
+   "abstract": "‘1년 선거주’ 수정 검토…직장·질병 등 사유 언제든 발생 지적&nbsp;&nbsp;한겨레",
+   "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9RTGxRaVk4QV81U2NaZ3Q5X3FJSzlzNE1kb3ZPWDJGdUFQT0hIT2lZV21ZZEp4czdQMzV1aUVMWmhPdXVjNmE2ZzFqdVNLQlNweEE1a2JJYk5CWjVzekdHbFY4UkdFakJxZnV6YmFibjFCUQ?oc=5",
    "official": false,
+   "org": "한겨레",
+   "kinds": [
+    "정책"
+   ],
+   "src_kind": "정책",
+   "sectors": [],
+   "watch": [],
    "id": 21,
-   "src": "KR_ECON",
-   "src_name": "한국 경제부처·한은",
-   "sectors": [
-    "금리/통화",
-    "금융/증권"
-   ],
-   "watch": []
+   "src": "KR_POLICY",
+   "src_name": "한국 정책 (부처 발표)"
   },
   {
-   "title": "주담대·전세대출 발목 잡나… 금융위, '스크래핑 차단'에 긴급 대응 나서 - 녹색경제신문",
-   "core": "주담대·전세대출 발목 잡나… 금융위, '스크래핑 차단'에 긴급 대응 나서",
+   "title": "문대림 의원 \"제주지역 가뭄, 정부차원 중장기 대책.투자 필요\" - 헤드라인제주",
+   "core": "문대림 의원 \"제주지역 가뭄, 정부차원 중장기 대책.투자 필요\"",
    "date": "Wed, 12 Aug 2026",
-   "org": "녹색경제신문",
-   "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE80OTZLRGVJTDJzbFpSOHpET3I1Z1dwajFkLWZlaTg5cmRvZWl2bVU1eVJjUUhxb1dCU0c4N0hWcHQwM2Rrcl9zRnVWTmRXbXNUcGt6MzhPWWZVX1M0SGFwNzdEUHlMelpK?oc=5",
-   "abstract": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
-   "body_ok": true,
+   "abstract": "문대림 의원 \"제주지역 가뭄, 정부차원 중장기 대책.투자 필요\"&nbsp;&nbsp;헤드라인제주",
+   "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE04MG9XTU80MFBZeko3c09jSGtqV0JzOGRNcTI3c1JZNjhCSFNORzBOLUpHU1JkemlueXFpc1ljcU5taGE3T2NIRk5XRlZLTkhDc3luaUgtSmV1aTh0SFlnczAwb3h4YkJIeTlfUXdielA2Yzg?oc=5",
    "official": false,
+   "org": "헤드라인제주",
+   "kinds": [
+    "정책"
+   ],
+   "src_kind": "정책",
+   "sectors": [],
+   "watch": [],
    "id": 22,
-   "src": "KR_ECON",
-   "src_name": "한국 경제부처·한은",
-   "sectors": [
-    "금융/증권"
-   ],
-   "watch": []
+   "src": "KR_POLICY",
+   "src_name": "한국 정책 (부처 발표)"
   },
   {
-   "title": "금융위 \"레버리지ETF 변동성에 일조…상폐시 시장 충격\" - g-enews.com",
-   "core": "금융위 \"레버리지ETF 변동성에 일조…상폐시 시장 충격\"",
+   "title": "당정 \"비아파트 공급 확대 속도전… 금융 지원·규제 완화\" - v.daum.net",
+   "core": "당정 \"비아파트 공급 확대 속도전… 금융 지원·규제 완화\"",
    "date": "Wed, 12 Aug 2026",
-   "org": "g-enews.com",
-   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPWFAyN3FLX0d1TTh0aDV0eGRRdWhqLWhTTmZGNjZ2WkhsZFFVZzZCSGtER25vOWJENWlGT2w0eFlZY2dQZUFTOThneWNQTWVDQU1lUnZhTThOOEJNdXNMYl9YTE5VZHhjU3Z0MlNqaFprbWpIYzlJaEFKS2twaGxWeENvY2lCamRB?oc=5",
-   "abstract": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
-   "body_ok": true,
+   "abstract": "당정 \"비아파트 공급 확대 속도전… 금융 지원·규제 완화\"&nbsp;&nbsp;v.daum.net",
+   "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1VYkhsX25JbXZqVTlLaDg3aV9JZDRndEdWZENQcjB0X0N3TF9hUHhCamJXbzJKVnZ0Z0JHSEFEREdhTmJTcHhVSi1OWnRhU2c?oc=5",
    "official": false,
-   "id": 23,
-   "src": "KR_ECON",
-   "src_name": "한국 경제부처·한은",
-   "sectors": [
-    "금융/증권"
-   ],
-   "watch": []
-  },
-  {
-   "title": "전북대 ‘행BOK열차’ 팀, 한국은행 통화정책 경시대회 '금상' 수상 - 전민일보",
-   "core": "전북대 ‘행BOK열차’ 팀, 한국은행 통화정책 경시대회 '금상' 수상",
-   "date": "Wed, 12 Aug 2026",
-   "org": "전민일보",
-   "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5IdGdaY2N3YkVqVHNXZktLZmVTNXRYYXdwMGxFUm43aW5fZXUxWUlaR1c3S1ltR3J3WE04NHZWcmJSZVhLWkxsQ3FveV94NUQ4cDZyNVBxdUd3VEVCWERHaXNOSTBBYjl1RTBF?oc=5",
-   "abstract": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
-   "body_ok": true,
-   "official": false,
-   "id": 24,
-   "src": "KR_ECON",
-   "src_name": "한국 경제부처·한은",
-   "sectors": [
-    "금리/통화",
-    "금융/증권"
-   ],
-   "watch": []
-  },
-  {
-   "title": "\"아기 통장 어쩌나...일단은 안심\"...금융위, 스크래핑 차단 대응 논의 - fnnews.com",
-   "core": "\"아기 통장 어쩌나...일단은 안심\"...금융위, 스크래핑 차단 대응 논의",
-   "date": "Wed, 12 Aug 2026",
-   "org": "fnnews.com",
-   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9kVUFnTG16YVdMTjdGYWdfU0F2UDNDbVFVa29IRzd5bXNCRjlkMmZxSjFMMnQwWXV1cTROaWtKU2h3UlpYNExxTlUyS3NoQm43WTcxUjMzVW9Gdw?oc=5",
-   "abstract": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
-   "body_ok": true,
-   "official": false,
-   "id": 25,
-   "src": "KR_ECON",
-   "src_name": "한국 경제부처·한은",
-   "sectors": [
-    "금융/증권"
-   ],
-   "watch": []
-  },
-  {
-   "title": "자동 스크래핑 금지에 ‘비대면 금융’ 차질 우려… 금융위 대책 마련 - 조선비즈 - Chosunbiz",
-   "core": "자동 스크래핑 금지에 ‘비대면 금융’ 차질 우려… 금융위 대책 마련",
-   "date": "Wed, 12 Aug 2026",
-   "org": "Chosunbiz",
-   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQR1FENTBDZW0wMUxWOFBtLUNwTnlvbW9GVjl2UjhvR3NfYjFzYjVIVXpWR3E0ck42RW52QWlpV3hIWTh0UDR3VFNWOUQzOTNvdFd1OUx6SjlxOERVekhaVWxqOUFHeHFiQU00dWx2alhNMmRRN3NjQllIVVdtcVJKOUtsLVhNX3pFWXdOLWkyc2E5MW9o0gGUAUFVX3lxTFBHUUQ1MENlbTAxTFY4UG0tQ3BOeW9tb0ZWOXZSOG9Hc19iMXNiNUhVelZHcTRyTjZFbnZBaWlXeEhZOHRQNHdUU1Y5RDM5M290V3U5THpKOXE4RFV6SFpVbGo5QUd4cWJBTTR1bHZqWE0yZFE3c2NCWUhVV21xUko5S2wtWE1fekVZd04taTJzYTkxb2g?oc=5",
-   "abstract": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
-   "body_ok": true,
-   "official": false,
-   "id": 26,
-   "src": "KR_ECON",
-   "src_name": "한국 경제부처·한은",
-   "sectors": [
-    "금융/증권"
-   ],
-   "watch": []
-  },
-  {
-   "title": "한국은행, '2026 제23회 한국은행 통화정책 경시대회' 전국결선대회 개최 결과 발표 - BBS불교방송",
-   "core": "한국은행, '2026 제23회 한국은행 통화정책 경시대회' 전국결선대회 개최 결과 발표",
-   "date": "Wed, 12 Aug 2026",
-   "org": "BBS불교방송",
-   "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBUQnF1NExPaDUwTE1pWTNOQTU1dDI3STVnZ2Y2RjhpbXVjS0UyMDF5amtVTzFSMkIxNjYzWFdod19DdjdGLUlvMkJZUUJIR0otMTJJUG5HaWNLVXBlZ0lDSEdlb0M4M2NkdW9n?oc=5",
-   "abstract": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
-   "body_ok": true,
-   "official": false,
-   "id": 27,
-   "src": "KR_ECON",
-   "src_name": "한국 경제부처·한은",
-   "sectors": [
-    "금리/통화",
-    "금융/증권"
-   ],
-   "watch": []
-  },
-  {
-   "title": "금융위, 하반기 D-테스트베드 15개팀 모집…AI 전형엔 GPU 지원 - 디지털데일리",
-   "core": "금융위, 하반기 D-테스트베드 15개팀 모집…AI 전형엔 GPU 지원",
-   "date": "Wed, 12 Aug 2026",
-   "org": "디지털데일리",
-   "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE05RW9ua1ZVMVhHbEJ6YmZseDlja0FxN2x0eFhNaE1aQ2RxNC1fUUgtZDhVeUtrREU4UkNrUzM1Zm94UGlFYkpoVDU2MG5MLUdxb3VpWHFFYklNUVNzTWo3SEpicF8?oc=5",
-   "abstract": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
-   "body_ok": true,
-   "official": false,
-   "id": 28,
-   "src": "KR_ECON",
-   "src_name": "한국 경제부처·한은",
-   "sectors": [
-    "반도체/AI",
-    "금융/증권"
-   ],
-   "watch": [
-    "AI"
-   ]
-  },
-  {
-   "title": "AI가 중립금리에 미치는 영향은…한은 \"AI 성과 배분에 달려\" | - 연합인포맥스",
-   "core": "AI가 중립금리에 미치는 영향은…한은 \"AI 성과 배분에 달려\" |",
-   "date": "Wed, 12 Aug 2026",
-   "org": "연합인포맥스",
-   "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9tM3FoVlozWmhvWmJ4d082NEdXODZab0RtY2VtUFNGRS1OSGUyRG9UVHZuekt4SmJacjlGNnEwWGVrVHpQV1pPdkZpQXRmeGxHVEFnbDF6c1BqQ0E0TVdCWUN6a3JiWDVsSUF6Wl94RHB0YkVT?oc=5",
-   "abstract": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
-   "body_ok": true,
-   "official": false,
-   "id": 29,
-   "src": "KR_ECON",
-   "src_name": "한국 경제부처·한은",
-   "sectors": [
-    "반도체/AI",
-    "금리/통화"
-   ],
-   "watch": [
-    "AI"
-   ]
-  },
-  {
-   "title": "금융위 \"총량관리 목표 조정방안 금주중 발표 예정\" - 대한민국 정책브리핑",
-   "core": "금융위 \"총량관리 목표 조정방안 금주중 발표 예정\"",
-   "date": "Wed, 12 Aug 2026",
-   "org": "대한민국 정책브리핑",
-   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOR1owWmI4VW83eHRCbTFVV21ZQ1ZNdVFoc3ZpRDNkbEZRMjhOc2xqZ1g5MUZkcTRhMTd4NlhYRWRscldxS3NPTG9OeVpSWG1HNGFpd25rdk9yd0FOX2R2eXowcndJQ2FrWU1zMUhKVW9vejdnbldoN1U5WkNRRXdScFJhVzd6cmhWVVVUbg?oc=5",
-   "abstract": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
-   "body_ok": true,
-   "official": false,
-   "id": 30,
-   "src": "KR_ECON",
-   "src_name": "한국 경제부처·한은",
-   "sectors": [
-    "금융/증권"
-   ],
-   "watch": []
-  },
-  {
-   "title": "[민간 정비사업 주택ㆍSOC 확충 킹핀]②정부 규제가 정비사업 최대 리스크 - 대한경제",
-   "core": "[민간 정비사업 주택ㆍSOC 확충 킹핀]②정부 규제가 정비사업 최대 리스크",
-   "date": "Tue, 11 Aug 2026",
-   "org": "대한경제",
-   "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9zR18wbVBONExSSHhQR0ljcDUzSUJ1UmpnNGc5WEoxclBVZnBDWDNIT2xMY1BROFpnZGlKYzN3TGFoREVsUEgwNlhQYzB5OTBaVFo2VmZ6bFVoNGxWaVRWdk9VcHc1WkFTZ21XSV9WSFJsYVhS?oc=5",
-   "abstract": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
-   "body_ok": true,
-   "official": false,
-   "id": 31,
-   "src": "KR_REG",
-   "src_name": "한국 규제·수출통제",
-   "sectors": [
-    "건설/부동산"
-   ],
-   "watch": []
-  },
-  {
-   "title": "13일 부동산 대책 연쇄 발표…주택 신속공급·금융규제 손본다 - 포쓰저널",
-   "core": "13일 부동산 대책 연쇄 발표…주택 신속공급·금융규제 손본다",
-   "date": "Wed, 12 Aug 2026",
-   "org": "포쓰저널",
-   "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBidG9DUHVVT3BKenl4WkVnSVRyZ2V4QlQtMnZvV09TTHZCVTZ5OWRaTlZvZzYzYm5RaTRkTlBhbi1nOUJPUmF3MWdyNkFIRDR6MGJTMkNqUm1nelhvMWpjNkRqYjk?oc=5",
-   "abstract": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
-   "body_ok": true,
-   "official": false,
-   "id": 32,
-   "src": "KR_REG",
-   "src_name": "한국 규제·수출통제",
-   "sectors": [
-    "건설/부동산"
-   ],
-   "watch": []
-  },
-  {
-   "title": "한성숙 \"신산업 창업벤처 규제개선 전담기구 신설\" - 뉴시스",
-   "core": "한성숙 \"신산업 창업벤처 규제개선 전담기구 신설\"",
-   "date": "Wed, 12 Aug 2026",
-   "org": "뉴시스",
-   "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFB6cjlveFpLbUdwYU1pYm14OFM1UkZTMFVLMTdwcm15Z0JJYkJEX1pDaGpPeWZ2TkZGUFFqUVNVazMzdDhLUG5jeEJ6cnBTOVFjWmJoMjlBanVqZ1VqVXNESU1ISEQ3dGE1YzZDbE9WVlItaXBYZjJqY9IBeEFVX3lxTFB6cjlveFpLbUdwYU1pYm14OFM1UkZTMFVLMTdwcm15Z0JJYkJEX1pDaGpPeWZ2TkZGUFFqUVNVazMzdDhLUG5jeEJ6cnBTOVFjWmJoMjlBanVqZ1VqVXNESU1ISEQ3dGE1YzZDbE9WVlItaXBYZjJqYw?oc=5",
-   "abstract": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
-   "body_ok": true,
-   "official": false,
-   "id": 33,
-   "src": "KR_REG",
-   "src_name": "한국 규제·수출통제",
-   "sectors": [],
-   "watch": []
-  },
-  {
-   "title": "슬롯 터보 학생를 위한 글쓰기 기술 심층 분석 - Gwara Media",
-   "core": "슬롯 터보 학생를 위한 글쓰기 기술 심층 분석",
-   "date": "Wed, 12 Aug 2026",
-   "org": "Gwara Media",
-   "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQeGUwWWdNdXdBa05aNGU4VFd6V3d1VktQUGRHZDdvejZ5WENINkxVaDV2T3c4dWZzcE1va3dmOFV1WlZwNEtzblBBRXNibUVaN1l5WlJHdGEwQ3dNRFhPdVpyMU5xYWRCV1JwWF9nQXZHNUFmOTdaWDRIWFU1aHVNV09IYU1MNVYxQmpaUFFVQm9EQnBYUHl5Q2VyY1pFRDdTRVpZZTlhdjRMMHVMTnNVekNJeVY0UHpRSDJYMDNnT2hZTkFxZ2t2Smw3WDlWdw?oc=5",
-   "abstract": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
-   "body_ok": true,
-   "official": false,
-   "id": 34,
-   "src": "KR_REG",
-   "src_name": "한국 규제·수출통제",
-   "sectors": [],
-   "watch": []
-  },
-  {
-   "title": "산업부, 美폴리실리콘 관세부과 민관합동 대응 착수 - IT비즈뉴스",
-   "core": "산업부, 美폴리실리콘 관세부과 민관합동 대응 착수",
-   "date": "Wed, 12 Aug 2026",
-   "org": "IT비즈뉴스",
-   "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1ORVBlVmRRdzNpYWJpRXdDX3lxMGR1U0ZQWGZHQ0FFQTBiTVVpbG1TT1NYbTE2U2ZEdlRNNjgwdVFrZjZVaEM5Y3RNZmRxYS1nMjg0X0ljYVdSUkw2WW5MSGJCTmhwNmRDNHNRWQ?oc=5",
-   "abstract": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
-   "body_ok": true,
-   "official": false,
-   "id": 35,
-   "src": "KR_REG",
-   "src_name": "한국 규제·수출통제",
-   "sectors": [
-    "수출통제/관세",
-    "금속/광물"
-   ],
-   "watch": []
-  },
-  {
-   "title": "부안군, 전북특별자치도 규제합리화 우수사례 경진대회 2년 연속 수상 - 전북투데이",
-   "core": "부안군, 전북특별자치도 규제합리화 우수사례 경진대회 2년 연속 수상",
-   "date": "Wed, 12 Aug 2026",
-   "org": "전북투데이",
-   "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFA4RWo1OVNKUkZWdU5CLU1vQUNVSVJjcHRGVGlaWFRhaWZOZ1BCNW5NNlhUVy1PNDNfZ29KMHlMUUdaWEFPNkFvZzJNazA2MWZyN3Y1a3B5clU5R2JqalFsRU5ud1c?oc=5",
-   "abstract": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
-   "body_ok": true,
-   "official": false,
-   "id": 36,
-   "src": "KR_REG",
-   "src_name": "한국 규제·수출통제",
-   "sectors": [],
-   "watch": []
-  },
-  {
-   "title": "WHO, 의료기기 우수규제기관 임시 목록 발표 - BRIC",
-   "core": "WHO, 의료기기 우수규제기관 임시 목록 발표",
-   "date": "Tue, 11 Aug 2026",
-   "org": "BRIC",
-   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPWklFSzkwSEoyazcxRERQNjdtU1BWR1ZlSFpydWd4dTdwV2F1VVRlWTJQcXZCLVUzNl9kdlZkTDZrUHZEZW44SzdsdEJ4STFENDFCa191RGFFbXJQZGY4NmQ5YWVCeGJfN3VDeUJlYldmSVlMR2pXdGNUWFRMRVg2ZUJwWVY2Y0JweWhhbjBGdERwd05pOGtoMnZVYkNaVFREYkpuLTJfRllTUm81?oc=5",
-   "abstract": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
-   "body_ok": true,
-   "official": false,
-   "id": 37,
-   "src": "KR_REG",
-   "src_name": "한국 규제·수출통제",
-   "sectors": [],
-   "watch": []
-  },
-  {
-   "title": "산업부, 美 폴리실리콘 232조 관세 민관합동 대책회의 개최 - electimes.com",
-   "core": "산업부, 美 폴리실리콘 232조 관세 민관합동 대책회의 개최",
-   "date": "Tue, 11 Aug 2026",
-   "org": "electimes.com",
-   "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBmUVlzVlU2NWl1V0gwWmpBVlVNOXl3d3NvSTJiLWNzWEJPdnNjOFBnMXN3Z1BRdGFMd19qeUY4MkFfeW9XLVA3ckY5WlFwVk1NZlgySXdEem03TUtOdFRJaVlueGdmb1A1QnZDN3EzS27SAXBBVV95cUxQZlFZc1ZVNjVpdVdIMFpqQVZVTTl5d3dzb0kyYi1jc1hCT3ZzYzhQZzFzd2dQUXRhTHdfanlGODJBX3lvVy1QN3JGOVpRcFZNTWZYMkl3RHptN01LTnRUSWlZbnhnZm9QNUJ2QzdxM0tu?oc=5",
-   "abstract": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
-   "body_ok": true,
-   "official": false,
-   "id": 38,
-   "src": "KR_REG",
-   "src_name": "한국 규제·수출통제",
-   "sectors": [
-    "수출통제/관세",
-    "금속/광물"
-   ],
-   "watch": []
-  },
-  {
-   "title": "산업부, 美 폴리실리콘 232조 관세 민관합동 대책회의 개최 - dhns.co.kr",
-   "core": "산업부, 美 폴리실리콘 232조 관세 민관합동 대책회의 개최",
-   "date": "Tue, 11 Aug 2026",
-   "org": "dhns.co.kr",
-   "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE4zeUdaQWRqZ1pHcDVnMFJFcmZaNHU4MGVPRktCd3hOcUhWQkZKaGxJbzJfX2dkMG84TW01LTFmeG41RkxrVUo2M3N3TGo1WWY2TUQ2TnVUczQ1dTB2Wlp0TUZJeWYtOUE?oc=5",
-   "abstract": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
-   "body_ok": true,
-   "official": false,
-   "id": 39,
-   "src": "KR_REG",
-   "src_name": "한국 규제·수출통제",
-   "sectors": [
-    "수출통제/관세",
-    "금속/광물"
-   ],
-   "watch": []
-  },
-  {
-   "title": "산업부, 미국 폴리실리콘 관세에 민관합동 대책회의 - 연합뉴스",
-   "core": "산업부, 미국 폴리실리콘 관세에 민관합동 대책회의",
-   "date": "Tue, 11 Aug 2026",
-   "org": "연합뉴스",
-   "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE14SkxCaHFTdHJoQ2VIYXlWQ1E0TXhYaUJSY2xNOUxmdXJQSHBkTk5jUkJMTWNYM3YzalBsMUstVDVIdDJfbkRxdkx3b2VoNTY2dFA4S2VMYmpHSU1mdjc3etIBYEFVX3lxTE14SkxCaHFTdHJoQ2VIYXlWQ1E0TXhYaUJSY2xNOUxmdXJQSHBkTk5jUkJMTWNYM3YzalBsMUstVDVIdDJfbkRxdkx3b2VoNTY2dFA4S2VMYmpHSU1mdjc3eg?oc=5",
-   "abstract": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
-   "body_ok": true,
-   "official": false,
-   "id": 40,
-   "src": "KR_REG",
-   "src_name": "한국 규제·수출통제",
-   "sectors": [
-    "수출통제/관세",
-    "금속/광물"
-   ],
-   "watch": []
-  },
-  {
-   "title": "서울 집값 1년 만에 15% 급등… 10·15 규제 이후 7%↑ - 매일일보",
-   "core": "서울 집값 1년 만에 15% 급등… 10·15 규제 이후 7%↑",
-   "date": "Tue, 11 Aug 2026",
-   "org": "매일일보",
-   "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1zcjFUY0RzYW9GdTR6RnVjTmJ5ZVBMMGhBMzg2ODdxVVdGbkxQZEU0Q3dtZXBrblNBZVBqX3JaZjI4bjR2OXVjc0Y5QUt1NVdwUXo0dG1PYlNMMk1lQ2xmMUdVMmc?oc=5",
-   "abstract": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
-   "body_ok": true,
-   "official": false,
-   "id": 41,
-   "src": "KR_REG",
-   "src_name": "한국 규제·수출통제",
-   "sectors": [],
-   "watch": []
-  },
-  {
-   "title": "美 폴리실리콘 관세 대응 착수…산업부, 업계 영향 점검 - v.daum.net",
-   "core": "美 폴리실리콘 관세 대응 착수…산업부, 업계 영향 점검",
-   "date": "Tue, 11 Aug 2026",
    "org": "v.daum.net",
-   "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBEOTRaQmpYMnJTT19vNWVUek4xVFltR3lkUG41ejM2ZDZXUDFubzhCMjY5Rm42SmVveVNfd1ByYzl6WW5xVS1Rc3FVcGlTSEVfc1BNbQ?oc=5",
-   "abstract": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
-   "body_ok": true,
-   "official": false,
-   "id": 42,
-   "src": "KR_REG",
-   "src_name": "한국 규제·수출통제",
-   "sectors": [
-    "수출통제/관세",
-    "금속/광물"
+   "kinds": [
+    "정책"
    ],
-   "watch": []
+   "src_kind": "정책",
+   "sectors": [],
+   "watch": [],
+   "id": 23,
+   "src": "KR_POLICY",
+   "src_name": "한국 정책 (부처 발표)"
   },
   {
-   "title": "주택공급대책 곧 발표…재개발 재건축 업계는 “글쎄” - 하우징헤럴드",
-   "core": "주택공급대책 곧 발표…재개발 재건축 업계는 “글쎄”",
+   "title": "정부 부동산 정책 재확인…세제 개편·주택 공급 대책에 여야 공방 - CBC뉴스",
+   "core": "정부 부동산 정책 재확인…세제 개편·주택 공급 대책에 여야 공방",
    "date": "Wed, 12 Aug 2026",
-   "org": "하우징헤럴드",
-   "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9aamNGNG5BdkktWE5qeHptWWxYVkNRSmRkVFRfQWxtN2U0SGNGWG5FalFpejVhTktoZDFNdWN5Y2RZR3pHQjl1RklRcnJ6NUlGcDkwek5BT0pwWmxueS1ZamUyUVFoZno2ektIYWxLamw5Wjg?oc=5",
-   "abstract": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
-   "body_ok": true,
+   "abstract": "정부 부동산 정책 재확인…세제 개편·주택 공급 대책에 여야 공방&nbsp;&nbsp;CBC뉴스",
+   "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9YNTJ1ck1pVDhIMlNWS1IwUVZKT0RGdHJ4dmo1cWMtS1lHVUpETks1RXVuWjVLM3RKSkVKd1VBQk1JcU1IZElfQko5eXI2eUFDckRaWVJiSU9mV0NPS1VmWnA4VDBZS3hX?oc=5",
    "official": false,
-   "id": 43,
-   "src": "KR_REG",
-   "src_name": "한국 규제·수출통제",
+   "org": "CBC뉴스",
+   "kinds": [
+    "정책"
+   ],
+   "src_kind": "정책",
+   "sectors": [
+    "보조금/세제",
+    "건설/부동산"
+   ],
+   "watch": [],
+   "id": 24,
+   "src": "KR_POLICY",
+   "src_name": "한국 정책 (부처 발표)"
+  },
+  {
+   "title": "당정 \"비아파트 공급 확대 속도전… 금융 지원·규제 완화\" - 파이낸셜뉴스",
+   "core": "당정 \"비아파트 공급 확대 속도전… 금융 지원·규제 완화\"",
+   "date": "Wed, 12 Aug 2026",
+   "abstract": "당정 \"비아파트 공급 확대 속도전… 금융 지원·규제 완화\"&nbsp;&nbsp;파이낸셜뉴스",
+   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE84cG9XZVdfV0VvWlFjWERVaWZKeHM3X2JwOS1uYmVYbmpCbEQwZFF3TDJjLVJCal9UdEJ2em9Nb3NEdm5WU09JRi13Mnp1azdWVFh4Vmx0MklCdw?oc=5",
+   "official": false,
+   "org": "파이낸셜뉴스",
+   "kinds": [
+    "정책"
+   ],
+   "src_kind": "정책",
+   "sectors": [],
+   "watch": [],
+   "id": 25,
+   "src": "KR_POLICY",
+   "src_name": "한국 정책 (부처 발표)"
+  },
+  {
+   "title": "커지는 세제개편 ‘후폭풍’…반발 진화 속 수정 나서는 정부 - 아시아투데이",
+   "core": "커지는 세제개편 ‘후폭풍’…반발 진화 속 수정 나서는 정부",
+   "date": "Wed, 12 Aug 2026",
+   "abstract": "커지는 세제개편 ‘후폭풍’…반발 진화 속 수정 나서는 정부&nbsp;&nbsp;아시아투데이",
+   "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE0wOFZBTjZpNnNHTG0zSUYtQllCTVNJcS1RQjZSVkYyeVYtMG9kUTNGdFo0bUl0V01zcmFhVDI3VzdzdUdrODhQVkswZ2E0NE4tX3JaRy01OGM0NHpSSXRaWnI4S3ZfRGZBRW9VWUVn?oc=5",
+   "official": false,
+   "org": "아시아투데이",
+   "kinds": [
+    "정책"
+   ],
+   "src_kind": "정책",
+   "sectors": [
+    "보조금/세제"
+   ],
+   "watch": [],
+   "id": 26,
+   "src": "KR_POLICY",
+   "src_name": "한국 정책 (부처 발표)"
+  },
+  {
+   "title": "與도 비판 쏟아내는 '부동산稅 개편' - 한국경제",
+   "core": "與도 비판 쏟아내는 '부동산稅 개편'",
+   "date": "Wed, 12 Aug 2026",
+   "abstract": "與도 비판 쏟아내는 '부동산稅 개편'&nbsp;&nbsp;한국경제",
+   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9XZFNya25PVVN0RXFUMXlZSkpBTnktMU1IV0lNTTUwV294WVZfUTFqTXBTZnBTdnpLUlJPdnNrQkpWNEE1OXVTYzloUDczZy1QLTkzWGtPN0prdw?oc=5",
+   "official": false,
+   "org": "한국경제",
+   "kinds": [
+    "정책"
+   ],
+   "src_kind": "정책",
    "sectors": [
     "건설/부동산"
    ],
-   "watch": []
+   "watch": [],
+   "id": 27,
+   "src": "KR_POLICY",
+   "src_name": "한국 정책 (부처 발표)"
   },
   {
-   "title": "최저가격제·232조 관세 꺼낸 美…韓 폴리실리콘 수출 ‘촉각’ - 에너지신문",
-   "core": "최저가격제·232조 관세 꺼낸 美…韓 폴리실리콘 수출 ‘촉각’",
-   "date": "Tue, 11 Aug 2026",
-   "org": "에너지신문",
-   "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBXaW42Wm5BYmQtVmdPRUhCdnp5aHpROHhKZlRoc25IYkNlYlhTcDd3Mm9nVm1aQ0VFV2oxTUpyZDJXanRONWstM1hXelhsWHNOZ0ZaVzJKblQ0bXVmX2tJWlR5dnJ5dGZSSURsOU5OdXJBdw?oc=5",
-   "abstract": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
-   "body_ok": true,
+   "title": "정부 세제개편에 혼인·출산 불이익 개선 담아 - v.daum.net",
+   "core": "정부 세제개편에 혼인·출산 불이익 개선 담아",
+   "date": "Wed, 12 Aug 2026",
+   "abstract": "정부 세제개편에 혼인·출산 불이익 개선 담아&nbsp;&nbsp;v.daum.net",
+   "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5kQmFZY0lhY1NpaHZtNmpxaU50RFV6NnZabjZMalhSaFQ4VHI2Ty1MMFQ1Q05zb0FfSTRZLTRkNVBJbElJTkpDSHFxaDFiZGc?oc=5",
    "official": false,
+   "org": "v.daum.net",
+   "kinds": [
+    "정책"
+   ],
+   "src_kind": "정책",
+   "sectors": [
+    "보조금/세제"
+   ],
+   "watch": [],
+   "id": 28,
+   "src": "KR_POLICY",
+   "src_name": "한국 정책 (부처 발표)"
+  },
+  {
+   "title": "정부 “유휴부지” 서울시 “정비사업”… 주택공급 이견 - 아시아투데이",
+   "core": "정부 “유휴부지” 서울시 “정비사업”… 주택공급 이견",
+   "date": "Wed, 12 Aug 2026",
+   "abstract": "정부 “유휴부지” 서울시 “정비사업”… 주택공급 이견&nbsp;&nbsp;아시아투데이",
+   "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5tTzQ0RXFuVXNheWdaZzhmckdWcDVrclhLT096enpXcVE4dkZJaVV3c0hxb0MyVS1hd0R6ZHd0eUtZbUJ0ZUhieGh5T3hPNmtfNHRmUHJWVTRHZC1RNlRxZy00NHdYRG8tSlhJclBB?oc=5",
+   "official": false,
+   "org": "아시아투데이",
+   "kinds": [
+    "정책"
+   ],
+   "src_kind": "정책",
+   "sectors": [
+    "건설/부동산"
+   ],
+   "watch": [],
+   "id": 29,
+   "src": "KR_POLICY",
+   "src_name": "한국 정책 (부처 발표)"
+  },
+  {
+   "title": "與 \"서울 주택공급 확대, 정부·서울시 모두 공감...전월세 단기 대책도 최선\" - 뉴스핌",
+   "core": "與 \"서울 주택공급 확대, 정부·서울시 모두 공감...전월세 단기 대책도 최선\"",
+   "date": "Wed, 12 Aug 2026",
+   "abstract": "與 \"서울 주택공급 확대, 정부·서울시 모두 공감...전월세 단기 대책도 최선\"&nbsp;&nbsp;뉴스핌",
+   "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9EdjQ1c0RhT2ZncVVWSWNpNXZudmxqa0tkZ3VXZVF6US02OXFvenR1ZDdMMURWMVJDU2laLXZ5NC1SZzZaNHlHZkdFbnlISEJaSlNxRlplb04tQXdU?oc=5",
+   "official": false,
+   "org": "뉴스핌",
+   "kinds": [
+    "정책"
+   ],
+   "src_kind": "정책",
+   "sectors": [
+    "건설/부동산"
+   ],
+   "watch": [],
+   "id": 30,
+   "src": "KR_POLICY",
+   "src_name": "한국 정책 (부처 발표)"
+  },
+  {
+   "title": "정부 돌봄·간병 자살 대책에...케어러들 “실질 부담 대체할 시스템 필요” - 투데이신문",
+   "core": "정부 돌봄·간병 자살 대책에...케어러들 “실질 부담 대체할 시스템 필요”",
+   "date": "Wed, 12 Aug 2026",
+   "abstract": "정부 돌봄·간병 자살 대책에...케어러들 “실질 부담 대체할 시스템 필요”&nbsp;&nbsp;투데이신문",
+   "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1kaEM3MGlLMElWcWFOSWpwUkdPOWFvSGJSck1hV21xVHBxcGZELUcyQWZISUtnQWZiNktoRXVFWnNKNUx3Q3NyTnEzNnE5RE9YZWc5dzIwU0x2QnZha21WMDBhX2F2bGlTYmZv0gFvQVVfeXFMTUlLZS0yQUtjd0JpemplSUdDbWx0S1FaLUpvSkJkOGxsamt4TTQ0aDBsalZ1MWUybXpWSm5SZnVTVG1DUkpJOTBWWUNHQmFsSHdubEFYdHk2MFVTbmk0b3VVb1FWTU5NUmh4XzRQcDdn?oc=5",
+   "official": false,
+   "org": "투데이신문",
+   "kinds": [
+    "정책"
+   ],
+   "src_kind": "정책",
+   "sectors": [],
+   "watch": [],
+   "id": 31,
+   "src": "KR_POLICY",
+   "src_name": "한국 정책 (부처 발표)"
+  },
+  {
+   "title": "규제를 넘어 산업으로…새만금, 3875억 ‘헴프 바이오 생태계’ 승부수 - 브릿지경제",
+   "core": "규제를 넘어 산업으로…새만금, 3875억 ‘헴프 바이오 생태계’ 승부수",
+   "date": "Wed, 12 Aug 2026",
+   "abstract": "규제를 넘어 산업으로…새만금, 3875억 ‘헴프 바이오 생태계’ 승부수&nbsp;&nbsp;브릿지경제",
+   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5xRjhvblNjR1lVLXdLVVA1Q083S0lrbk5NSXloTGVqRXRqRjdOX2lJNFM0ODJFZHo5TGlhLXN1YWVIdnJwaF80MjV6YmFhajJhb1VPUHgxZXlfdw?oc=5",
+   "official": false,
+   "org": "브릿지경제",
+   "kinds": [
+    "정책"
+   ],
+   "src_kind": "산업",
+   "sectors": [
+    "바이오/의료"
+   ],
+   "watch": [
+    "바이오"
+   ],
+   "id": 32,
+   "src": "KR_INDUS",
+   "src_name": "한국 산업·공급망"
+  },
+  {
+   "title": "전북도-새만금청-기업, 헴프산업클러스터 조성·투자 '맞손' - 뉴시스",
+   "core": "전북도-새만금청",
+   "date": "Wed, 12 Aug 2026",
+   "abstract": "전북도-새만금청-기업, 헴프산업클러스터 조성·투자 '맞손'&nbsp;&nbsp;뉴시스",
+   "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5NbzU0Rl9FeFRTblNhckszekplcWV3b3RJVFNOdHYwVFRuQ3hEOGRDNVRBQ0xOMTRJUDQtYjlhQUJ0YzRycWtnZlh4cjNra0swQ0RMWjlNR0I1VVVFR1B3TFpQazlwNXkybmVibTJUdzVZQ3p1N2xxZNIBeEFVX3lxTE5NbzU0Rl9FeFRTblNhckszekplcWV3b3RJVFNOdHYwVFRuQ3hEOGRDNVRBQ0xOMTRJUDQtYjlhQUJ0YzRycWtnZlh4cjNra0swQ0RMWjlNR0I1VVVFR1B3TFpQazlwNXkybmVibTJUdzVZQ3p1N2xxZA?oc=5",
+   "official": false,
+   "org": "뉴시스",
+   "kinds": [
+    "정책"
+   ],
+   "src_kind": "산업",
+   "sectors": [],
+   "watch": [],
+   "id": 33,
+   "src": "KR_INDUS",
+   "src_name": "한국 산업·공급망"
+  },
+  {
+   "title": "전북도·새만금청·7개 기업, 새만금 헴프산업 클러스터 조성 '본격화' - 뉴스핌",
+   "core": "전북도·새만금청·7개 기업, 새만금 헴프산업 클러스터 조성 '본격화'",
+   "date": "Wed, 12 Aug 2026",
+   "abstract": "전북도·새만금청·7개 기업, 새만금 헴프산업 클러스터 조성 '본격화'&nbsp;&nbsp;뉴스핌",
+   "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1MTzRTdUdORFgwREtoQUZ2MmloTXpBb3lrbmdWcFc2eTdnbFZOUzRsSDhkbi02ZlJONWNGYkZ4Sk9qdTcwRW92ZGk3RTU1Zy1pcXRvRF9ETTRnTzFM?oc=5",
+   "official": false,
+   "org": "뉴스핌",
+   "kinds": [
+    "정책"
+   ],
+   "src_kind": "산업",
+   "sectors": [],
+   "watch": [],
+   "id": 34,
+   "src": "KR_INDUS",
+   "src_name": "한국 산업·공급망"
+  },
+  {
+   "title": "산업부, 3대 메가프로젝트·AI 전환 총력…“산업강국 도약” - 스페셜경제",
+   "core": "산업부, 3대 메가프로젝트·AI 전환 총력…“산업강국 도약”",
+   "date": "Wed, 12 Aug 2026",
+   "abstract": "산업부, 3대 메가프로젝트·AI 전환 총력…“산업강국 도약”&nbsp;&nbsp;스페셜경제",
+   "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBkUkpIaWlIRDdFUFgtUFZpc3VkbWRMUDVTVDNNWWR5UkVGQ0JremlMZ1c1ZjJ6UEY5Rk1WZHJQUDZ1QnVIckk0RDdmWVl5R1pEMXZwNUdVNjhRZFpaanpHRVpGX0hEZlNxSHRrcQ?oc=5",
+   "official": false,
+   "org": "스페셜경제",
+   "kinds": [
+    "정책"
+   ],
+   "src_kind": "산업",
+   "sectors": [],
+   "watch": [
+    "AI"
+   ],
+   "id": 35,
+   "src": "KR_INDUS",
+   "src_name": "한국 산업·공급망"
+  },
+  {
+   "title": "전북자치도·새만금청·헴프기업 7곳, 헴프산업클러스터 조성 ‘맞손’ - 투데이안",
+   "core": "전북자치도·새만금청·헴프기업 7곳, 헴프산업클러스터 조성 ‘맞손’",
+   "date": "Wed, 12 Aug 2026",
+   "abstract": "전북자치도·새만금청·헴프기업 7곳, 헴프산업클러스터 조성 ‘맞손’&nbsp;&nbsp;투데이안",
+   "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE92NXV4R3lHdVFXZkRVb1RNMGVBelZBeGpiS1ZTNTlvamV1QllBMjFlYWZ0Z0hYaE4wOElJbk82cWswSWFIMnlpTkltTW9meXQweDg2NUg4OE1nNGl5WWZpT2JLU0lMakNndnc?oc=5",
+   "official": false,
+   "org": "투데이안",
+   "kinds": [
+    "정책"
+   ],
+   "src_kind": "산업",
+   "sectors": [],
+   "watch": [],
+   "id": 36,
+   "src": "KR_INDUS",
+   "src_name": "한국 산업·공급망"
+  },
+  {
+   "title": "전북자치도·새만금청·헴프기업 7곳, 헴프산업클러스터 조성 ‘맞손’ - 뉴스홈(newshome)",
+   "core": "전북자치도·새만금청·헴프기업 7곳, 헴프산업클러스터 조성 ‘맞손’",
+   "date": "Wed, 12 Aug 2026",
+   "abstract": "전북자치도·새만금청·헴프기업 7곳, 헴프산업클러스터 조성 ‘맞손’&nbsp;&nbsp;뉴스홈(newshome)",
+   "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5XblV6WmRvbXR1MVRITDFPbUhUYkVucW1LWXpMYjRRUzFmSmJVMThHb2U3MUkzM3RtWG9Gdnd5UWhnejMtelFZMGdydXBPSjU5MTJaOTNIc2RlM2ZNUDd5SkFlQzFUZWtXa3FKMXl3?oc=5",
+   "official": false,
+   "org": "뉴스홈(newshome)",
+   "kinds": [
+    "정책"
+   ],
+   "src_kind": "산업",
+   "sectors": [],
+   "watch": [],
+   "id": 37,
+   "src": "KR_INDUS",
+   "src_name": "한국 산업·공급망"
+  },
+  {
+   "title": "이상적인 카지노 - 에 대한 심층 분석 - Gwara Media",
+   "core": "이상적인 카지노",
+   "date": "Tue, 11 Aug 2026",
+   "abstract": "이상적인 카지노 - 에 대한 심층 분석&nbsp;&nbsp;Gwara Media",
+   "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNaUdpdTA4anZfNGlzLWlNTkVOWXlKUUp5Mk9paUFPcmFuR01QVWFXT1JMZ0NNWXhaQ2hqbE1MLURkZS1MOTVYN3RCQjYxN2ljS2xjVXdlWnN5YTd2T1RLY0Z0QVJpVEdGdGlRZ2hWZFBlOUNmaWZWU0toNG44SVBBTEZvUGxuYW92RDlZdnp0eFNhcXBRRWh1SHlVdkwtMDRFYnllc1JCY2FVR3Q4VnpWZVNuZGY2ZG1McHc1S0hsU01xeThHZFNuZjZ3VVU3UTdYeVREcF9oRW1kcTJocVFyS2RzS1oyR1Fsc0dCWG5YUnFMLTZqS1pJTDdjeDFvOTd2RVRB?oc=5",
+   "official": false,
+   "org": "Gwara Media",
+   "kinds": [
+    "정책"
+   ],
+   "src_kind": "산업",
+   "sectors": [],
+   "watch": [],
+   "id": 38,
+   "src": "KR_INDUS",
+   "src_name": "한국 산업·공급망"
+  },
+  {
+   "title": "SMR·양자·우주…정부, 7대 미래성장동력 '씨앗' 뿌린다 - 연합뉴스",
+   "core": "SMR·양자·우주…정부, 7대 미래성장동력 '씨앗' 뿌린다",
+   "date": "Wed, 12 Aug 2026",
+   "abstract": "SMR·양자·우주…정부, 7대 미래성장동력 '씨앗' 뿌린다&nbsp;&nbsp;연합뉴스",
+   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9NSGZCS251VWNQd19sd3dldnRVR2Yya1FOblNFM0dGQTNQUEo2aTV3aXZBZGxDY2ZUUHgtRlAxckl0dk5lWDllZWo3RGJVU0diZ2hiTVJNckxYcUHSAWBBVV95cUxNRXVabFlLOFZxT0UyMDNVSUdOdDV2NEFPWnEtQkhuUEpUbV81YTlaMEo0VGRHMUlpYzZhUTBQLV9aODBHeERBbnFpVUFQU0hEWnN1cV9feEN3N2doM2hXQXk?oc=5",
+   "official": false,
+   "org": "연합뉴스",
+   "kinds": [
+    "정책"
+   ],
+   "src_kind": "산업",
+   "sectors": [
+    "전력/원자력",
+    "방산/우주"
+   ],
+   "watch": [],
+   "id": 39,
+   "src": "KR_INDUS",
+   "src_name": "한국 산업·공급망"
+  },
+  {
+   "title": "2035년까지 3875억 투입, 헴프산업클러스터 조성…재배부터 연구·생산까지 전주기 산업생태계 구축 - 전북일보 인터넷신문",
+   "core": "2035년까지 3875억 투입, 헴프산업클러스터 조성…재배부터 연구·생산까지 전주기 산업생태계 구축",
+   "date": "Wed, 12 Aug 2026",
+   "abstract": "2035년까지 3875억 투입, 헴프산업클러스터 조성…재배부터 연구·생산까지 전주기 산업생태계 구축&nbsp;&nbsp;전북일보 인터넷신문",
+   "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE56Q01meHhFTC12MnVTU05hZWdTbUlYaDZhVG9kSFdjWDNfUVd5ZTVYWDNaTmtMZnRZZVVfWkU2aVlTYmxHWXdYbmY1emFyTGlObmZ6QWRidkrSAVhBVV95cUxOekNNZnh4RUwtdjJ1U1NOYWVnU21JWGg2YVRvZEhXY1gzX1FXeWU1WFgzWk5rTGZ0WWVVX1pFNmlZU2JsR1l3WG5mNXphckxpTm5mekFkYnZK?oc=5",
+   "official": false,
+   "org": "전북일보 인터넷신문",
+   "kinds": [
+    "정책"
+   ],
+   "src_kind": "산업",
+   "sectors": [],
+   "watch": [],
+   "id": 40,
+   "src": "KR_INDUS",
+   "src_name": "한국 산업·공급망"
+  },
+  {
+   "title": "인도 비하르주 23억불 SMR 추진…한국 원전수출 ‘청신호’ - 에너지안전신문",
+   "core": "인도 비하르주 23억불 SMR 추진…한국 원전수출 ‘청신호’",
+   "date": "Tue, 11 Aug 2026",
+   "abstract": "인도 비하르주 23억불 SMR 추진…한국 원전수출 ‘청신호’&nbsp;&nbsp;에너지안전신문",
+   "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5TS3Y2RmR6VXk0VUZLbkxKWmhXSDBKNF9ZdjFBaDUzLTRsV2hvaUw0R3JtNzBiSkhBUUk2TWpSY0U1NXpHb0w5NGk5dy1CaW5kdzh4TGhqS2FsTzRxTkhlOGZINTM?oc=5",
+   "official": false,
+   "org": "에너지안전신문",
+   "kinds": [
+    "정책"
+   ],
+   "src_kind": "산업",
+   "sectors": [
+    "전력/원자력"
+   ],
+   "watch": [
+    "원전"
+   ],
+   "id": 41,
+   "src": "KR_INDUS",
+   "src_name": "한국 산업·공급망"
+  },
+  {
+   "title": "경북도, ‘식품한류산업국’ 출범…\"5차 산업은 무병장수\" | - LG헬로비전",
+   "core": "경북도, ‘식품한류산업국’ 출범…\"5차 산업은 무병장수\" |",
+   "date": "Tue, 11 Aug 2026",
+   "abstract": "경북도, ‘식품한류산업국’ 출범…\"5차 산업은 무병장수\" |&nbsp;&nbsp;LG헬로비전",
+   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE4ybkNCOU1INXgtQnFpaGh1emxuSDh6V09fcm1qX25VNnpCV0VvYldEOXUxQ2ZzaU9kUzZxTnh3ZTNrUGFySWs2UWRzUVdKallBRExRRFRJZ0hOdmVGSkw3TllDYUZIa1hmRk5TSzJhWmxwdmNkOUE?oc=5",
+   "official": false,
+   "org": "LG헬로비전",
+   "kinds": [
+    "정책"
+   ],
+   "src_kind": "산업",
+   "sectors": [],
+   "watch": [],
+   "id": 42,
+   "src": "KR_INDUS",
+   "src_name": "한국 산업·공급망"
+  },
+  {
+   "title": "코트라, 수출 다변화 총력전…\"수출 1조 달러, 수출 4강 달성 앞당긴다\" - 뉴스1",
+   "core": "코트라, 수출 다변화 총력전…\"수출 1조 달러, 수출 4강 달성 앞당긴다\"",
+   "date": "Tue, 11 Aug 2026",
+   "abstract": "코트라, 수출 다변화 총력전…\"수출 1조 달러, 수출 4강 달성 앞당긴다\"&nbsp;&nbsp;뉴스1",
+   "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5vQUJyMFQtN3FtLVFUMkcwYjZ0ZWxfLVB6RkRRR1lLcWlrSlBsOGtjTWd4UE93WGVxS1hiWkFqcldLa3dPSlB5UGh6UEVyaXRzUjQ1Nm9hNTBGSHh2VURSaExCenTSAWRBVV95cUxOb0FCcjBULTdxbS1RVDJHMGI2dGVsXy1QekZEUUdZS3Fpa0pQbDhrY01neFBPd1hlcUtYYlpBanJXS2t3T0pQeVBoelBFcml0c1I0NTZvYTUwRkh4dlVEUmhMQnp0?oc=5",
+   "official": false,
+   "org": "뉴스1",
+   "kinds": [
+    "정책"
+   ],
+   "src_kind": "산업",
+   "sectors": [],
+   "watch": [],
+   "id": 43,
+   "src": "KR_INDUS",
+   "src_name": "한국 산업·공급망"
+  },
+  {
+   "title": "'K-메가프로젝트', 704조 지역투자 앞당긴다 - 넷제로뉴스",
+   "core": "'K-메가프로젝트', 704조 지역투자 앞당긴다",
+   "date": "Mon, 10 Aug 2026",
+   "abstract": "'K-메가프로젝트', 704조 지역투자 앞당긴다&nbsp;&nbsp;넷제로뉴스",
+   "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBfcENlNGxRcV9oSWhmVHgzY1ZFM3VUVWNRSkRkckFhY2xqZHM3OUVTc2R1b09xSVV6SVNYT2g2aF9qVzV6bFluQ09hOFF2V0FsUmMxSTB6OVFna3hKMjRLTHRSUFR6V2h2NWZxZTF30gFuQVVfeXFMUF9wQ2U0bFFxX2hJaGZUeDNjVkUzdVRVY1FKRGRyQWFjbGpkczc5RVNzZHVvT3FJVXpJU1hPaDZoX2pXNXpsWW5DT2E4UXZXQWxSYzFJMHo5UWdreEoyNEtMdFJQVHpXaHY1ZnFlMXc?oc=5",
+   "official": false,
+   "org": "넷제로뉴스",
+   "kinds": [
+    "정책"
+   ],
+   "src_kind": "산업",
+   "sectors": [],
+   "watch": [],
    "id": 44,
-   "src": "KR_REG",
-   "src_name": "한국 규제·수출통제",
-   "sectors": [
-    "수출통제/관세",
-    "금속/광물"
-   ],
-   "watch": []
+   "src": "KR_INDUS",
+   "src_name": "한국 산업·공급망"
   },
   {
-   "title": "미국 폴리실리콘 232조 관세 부과 대응 민관 합동 회의 개최 - 2news.co.kr",
-   "core": "미국 폴리실리콘 232조 관세 부과 대응 민관 합동 회의 개최",
+   "title": "코트라·한국지질자원연구원, 핵심광물 공급망 안정화 위해 맞손 - 마켓인",
+   "core": "코트라·한국지질자원연구원, 핵심광물 공급망 안정화 위해 맞손",
    "date": "Tue, 11 Aug 2026",
-   "org": "2news.co.kr",
-   "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1wbGFFdUxfUWphaWJNbWkzeG0zYk5KWF9hb2lUc20zNGhPRHRiSmphUkNlRmhVQzh4Yjgxc1NqSnZkaXlIU05hTVRUczZSc2N3VUtTdWJRQnR1SEd2RnpVb0tjS3FnU0l0?oc=5",
-   "abstract": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
-   "body_ok": true,
+   "abstract": "코트라·한국지질자원연구원, 핵심광물 공급망 안정화 위해 맞손&nbsp;&nbsp;마켓인",
+   "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1BOVNISFBUOHNYQThxVW9STFkxdktlZk9Cd1dadUFuY0taSzVBT2w4YlVVMnVhdFJMUjBNUnZzaHFqdzR5Q3M4NEp2Z1RNWVVRakdCcUF0aHF4UDh5T3pSblh2UENsdTVDMW5MOURoeDJKalU?oc=5",
    "official": false,
-   "id": 45,
-   "src": "KR_REG",
-   "src_name": "한국 규제·수출통제",
+   "org": "마켓인",
+   "kinds": [
+    "정책"
+   ],
+   "src_kind": "산업",
    "sectors": [
-    "수출통제/관세",
     "금속/광물"
    ],
-   "watch": []
+   "watch": [],
+   "id": 45,
+   "src": "KR_INDUS",
+   "src_name": "한국 산업·공급망"
+  },
+  {
+   "title": "코트라, 수출 다변화 전략 회의…\"수출 1조달러 앞장\" - 이투뉴스",
+   "core": "코트라, 수출 다변화 전략 회의…\"수출 1조달러 앞장\"",
+   "date": "Tue, 11 Aug 2026",
+   "abstract": "코트라, 수출 다변화 전략 회의…\"수출 1조달러 앞장\"&nbsp;&nbsp;이투뉴스",
+   "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5iNXlvYlA4VEtudWd2S2hsSFNDT1J0Mld3R1N4cnhpY2VkNlNhTER2dXFMdDhkSE1vZHBGazNBLXp3ZUZZUmFJTnZ2dElIQ1RaUzV3U2pQR0JEd19nQW1hcEoxTXZtbHc?oc=5",
+   "official": false,
+   "org": "이투뉴스",
+   "kinds": [
+    "정책"
+   ],
+   "src_kind": "산업",
+   "sectors": [],
+   "watch": [],
+   "id": 46,
+   "src": "KR_INDUS",
+   "src_name": "한국 산업·공급망"
+  },
+  {
+   "title": "KOTRA, 수출 스타기업 500개 육성…수출 다변화 흐름 선도 - 데일리안",
+   "core": "KOTRA, 수출 스타기업 500개 육성…수출 다변화 흐름 선도",
+   "date": "Tue, 11 Aug 2026",
+   "abstract": "KOTRA, 수출 스타기업 500개 육성…수출 다변화 흐름 선도&nbsp;&nbsp;데일리안",
+   "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPQVhrV2dQNG5hQTBCeGxSbUdsNFA2d0pnV2RidFkxdXRLUldmX3NjVU9IcGZWdzVVTkNkUmZJM1Y3R043ODl6eTJpTTRYUGctMHp5UENmbWhtZURKVjgzSG9nNzdpMVhnQlA2OWZHdXIyNlNtWW1kdlI3aU1pVGxsOFVINW5hZnEwN3lHWHdBSHhJMjRIQkpkRTNHeGFvYlpoZXRJdV9DcUVnOG16ZGw1T0pMdV9Tb0RJcVZLZDBaNl9RQ1M2T1duVHpYZjFaZw?oc=5",
+   "official": false,
+   "org": "데일리안",
+   "kinds": [
+    "정책"
+   ],
+   "src_kind": "산업",
+   "sectors": [],
+   "watch": [],
+   "id": 47,
+   "src": "KR_INDUS",
+   "src_name": "한국 산업·공급망"
+  },
+  {
+   "title": "[게시판] 수출플러스지원단, 경북 구미 방산수출기업 간담회 - 연합뉴스",
+   "core": "[게시판] 수출플러스지원단, 경북 구미 방산수출기업 간담회",
+   "date": "Wed, 12 Aug 2026",
+   "abstract": "[게시판] 수출플러스지원단, 경북 구미 방산수출기업 간담회&nbsp;&nbsp;연합뉴스",
+   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9QZXNXTlVsTG1SXzhZdGFjSktMWUh2dUVfZVFFUDdEczZmellYOG1CbzdGTEVtdExYRVN2UFMwQk1wdWpuZGZ0OHRIU0dNVzYtSlZZS0o2SDFYcTTSAWBBVV95cUxOZjN0d1k3Qk1HeGpHZzNCUU1FTjZUM2hmdWtBNmhNdURNUWI5SVV5SzhEMnhsVUlxTm10Rlg1QTJHWlgzNDNZSUVGYjVlX3ZBZjY1OWM1OXp5N3RqdzdKQ2Y?oc=5",
+   "official": false,
+   "org": "연합뉴스",
+   "kinds": [
+    "정책"
+   ],
+   "src_kind": "산업",
+   "sectors": [
+    "방산/우주"
+   ],
+   "watch": [
+    "방산"
+   ],
+   "id": 48,
+   "src": "KR_INDUS",
+   "src_name": "한국 산업·공급망"
+  },
+  {
+   "title": "\"중국 반도체가 SK하이닉스와 TSMC 추격 어렵다\" 평가 나와, HBM이 차별화 요소 - 비즈니스포스트",
+   "core": "\"중국 반도체가 SK하이닉스와 TSMC 추격 어렵다\" 평가 나와, HBM이 차별화 요소",
+   "date": "Tue, 11 Aug 2026",
+   "abstract": "\"중국 반도체가 SK하이닉스와 TSMC 추격 어렵다\" 평가 나와, HBM이 차별화 요소&nbsp;&nbsp;비즈니스포스트",
+   "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9Ka0RHRXNCZmlnVHdqdV9YeHpaMi1aYTRyd291VFRvNjhvNENwckQ0ZTExVVg5VXZDNy1RVDJfajBQNGFHYjNidlp5ZmpJQU5hQWdoX2FTaWhEQ01ST2ZQTkE0TjkwTl9UOVFFMUp0Q2dmTTQ?oc=5",
+   "official": false,
+   "org": "비즈니스포스트",
+   "kinds": [
+    "정책"
+   ],
+   "src_kind": "산업",
+   "sectors": [
+    "반도체/AI"
+   ],
+   "watch": [
+    "반도체",
+    "HBM"
+   ],
+   "id": 49,
+   "src": "KR_INDUS",
+   "src_name": "한국 산업·공급망"
+  },
+  {
+   "title": "(참고) 첨단기술이 여는 미래, 미래성장동력 「7대 SEED」 보고회 개최 - 네이트",
+   "core": "(참고) 첨단기술이 여는 미래, 미래성장동력 「7대 SEED」 보고회 개최",
+   "date": "Wed, 12 Aug 2026",
+   "abstract": "(참고) 첨단기술이 여는 미래, 미래성장동력 「7대 SEED」 보고회 개최&nbsp;&nbsp;네이트",
+   "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE4ySTlZYUJNLXRjMU50RWJOMnNiMmdWeFN2M2xXeXg1YlZrQWE4cHNLRmh4dEFvR2NnNUdGRF9VckJhMVIxUm56d1RIVFJTOXppN2Nv?oc=5",
+   "official": false,
+   "org": "네이트",
+   "kinds": [
+    "정책"
+   ],
+   "src_kind": "산업",
+   "sectors": [],
+   "watch": [],
+   "id": 50,
+   "src": "KR_INDUS",
+   "src_name": "한국 산업·공급망"
+  },
+  {
+   "title": "배터리·모터·열관리 한곳에…현대차 영남권 ‘밸류체인’ 주목 - 시사1",
+   "core": "배터리·모터·열관리 한곳에…현대차 영남권 ‘밸류체인’ 주목",
+   "date": "Wed, 12 Aug 2026",
+   "abstract": "배터리·모터·열관리 한곳에…현대차 영남권 ‘밸류체인’ 주목&nbsp;&nbsp;시사1",
+   "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1mMXNNdGJYMlVMVWdQWGw1bEcwMkkyWG5VbmVCOHhqazNWdW9jejFHenM2R1BjejFtbFNrOUtDakFiMC1NR1h3ZjhGYmhKeHN0cGRYZ0hRYmo5MjA0QWE5OA?oc=5",
+   "official": false,
+   "org": "시사1",
+   "kinds": [
+    "정책"
+   ],
+   "src_kind": "산업",
+   "sectors": [
+    "2차전지/ESS"
+   ],
+   "watch": [
+    "배터리"
+   ],
+   "id": 51,
+   "src": "KR_INDUS",
+   "src_name": "한국 산업·공급망"
+  },
+  {
+   "title": "The “Brussels Effect” multiplied to redraw global supply chains - Lowy Institute",
+   "core": "The “Brussels Effect” multiplied to redraw global supply chains",
+   "date": "Wed, 12 Aug 2026",
+   "abstract": "The “Brussels Effect” multiplied to redraw global supply chains&nbsp;&nbsp;Lowy Institute",
+   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPbFFVSTdoaF9RM1p1VVdwQmJOeFJJWmJuQkdXczR2U3dicHZpTHJBTk9vM2dSWDFDd2RtaWVlMk1DUXlnc3JIbVBHWHJPcDhUYXJyUWdUak9QUGxMbHprRXo1NHZnTE9zMG1TVW9TYWpjSFFnRTZyVVVOcVg5TnoyOU40a1BqSFNVUDd2N0VmZmYteU5UQUVVeER1Z3FhQ2tKbGxjdEVwalNKSE0?oc=5",
+   "official": false,
+   "org": "Lowy Institute",
+   "kinds": [
+    "정책"
+   ],
+   "src_kind": "해외",
+   "sectors": [],
+   "watch": [
+    "AI"
+   ],
+   "id": 52,
+   "src": "GLOBAL",
+   "src_name": "해외발 충격 (영문)"
+  },
+  {
+   "title": "Power up: How EU-Africa cooperation can drive Europe’s battery recycling future - PubAffairs Bruxelles",
+   "core": "Power up: How EU-Africa cooperation can drive Europe’s battery recycling future",
+   "date": "Wed, 12 Aug 2026",
+   "abstract": "Power up: How EU-Africa cooperation can drive Europe’s battery recycling future&nbsp;&nbsp;PubAffairs Bruxelles",
+   "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOYXJZMU9ndk1OWnI2Q0ZGRGdFNE43YktRenNuenkyamltVi1GWVpEd1FDN0g3ajlrMFVHNDNjT0ZtdENuOVMxNDlCczZheVp5ZlZ1OUJvaFZ4Wk84WmdKcUxRbFI5M0J0ZTVHQUlSZWk0VzZ0NW5nRTg5RVVOdTZUYXhMZnh6UkpZN3lLVHpSWWU1TDdEdVdnb0RZZVA0SVB6ajRGdFpHd1RINFI2N0pJUzV3czlnT1NXZGFGZnRvV0huYlhYUFdVVm13?oc=5",
+   "official": false,
+   "org": "PubAffairs Bruxelles",
+   "kinds": [
+    "정책"
+   ],
+   "src_kind": "해외",
+   "sectors": [
+    "2차전지/ESS"
+   ],
+   "watch": [],
+   "id": 53,
+   "src": "GLOBAL",
+   "src_name": "해외발 충격 (영문)"
+  },
+  {
+   "title": "Critical Minerals Race Reshapes Global Power and Raises New Risks for Developing Economies - AZoM",
+   "core": "Critical Minerals Race Reshapes Global Power and Raises New Risks for Developing Economies",
+   "date": "Wed, 12 Aug 2026",
+   "abstract": "Critical Minerals Race Reshapes Global Power and Raises New Risks for Developing Economies&nbsp;&nbsp;AZoM",
+   "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5KcUlzRFY0OUFkNk9mdmtSejBlNUdyQ0tXb2xsSXMwb3dOdWhpU0VUdFNxeDlxYjgyYkFTbWVPTEhZUjhCUkpMSC1RZFVHZ3FSWFh2N0Fn?oc=5",
+   "official": false,
+   "org": "AZoM",
+   "kinds": [
+    "정책"
+   ],
+   "src_kind": "해외",
+   "sectors": [],
+   "watch": [
+    "AI"
+   ],
+   "id": 54,
+   "src": "GLOBAL",
+   "src_name": "해외발 충격 (영문)"
+  },
+  {
+   "title": "Cellulose Ether Frothers Market To Hit Index 170 by 2035 on Lithium and Copper Mining Demand - News and Statistics - IndexBox",
+   "core": "Cellulose Ether Frothers Market To Hit Index 170 by 2035 on Lithium and Copper Mining Demand",
+   "date": "Wed, 12 Aug 2026",
+   "abstract": "Cellulose Ether Frothers Market To Hit Index 170 by 2035 on Lithium and Copper Mining Demand - News and Statistics&nbsp;&nbsp;IndexBox",
+   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNSDlzaWRyTklYdVAxSVRLNWtYZzFGQVlvYUk3T1BVS3duWm8wRHRVT2dra3JnQmN1VE12UFVvMEt0ZmF6Q0tyUC1hemZQa05MZHBRV05fVjI5VFJBbFNndXlBNXZVMllXTzdnYjNuakI5QnN4Z3ZHZXRHZ1dPT3FUUW9ZM3lKQURDUXd3dlJHdE12SDZEOVhFR09FZjE0bWxzbjUyMnVhek9oNG9jNVBpVHg4SEhHUGRlLW1COG9HY3ViQQ?oc=5",
+   "official": false,
+   "org": "IndexBox",
+   "kinds": [
+    "정책"
+   ],
+   "src_kind": "해외",
+   "sectors": [
+    "금속/광물"
+   ],
+   "watch": [],
+   "id": 55,
+   "src": "GLOBAL",
+   "src_name": "해외발 충격 (영문)"
+  },
+  {
+   "title": "Trump tariffs fallout: China moves to join Brazil’s WTO challenge of US forced labor duties - Undercurrent News",
+   "core": "Trump tariffs fallout: China moves to join Brazil’s WTO challenge of US forced labor duties",
+   "date": "Wed, 12 Aug 2026",
+   "abstract": "Trump tariffs fallout: China moves to join Brazil’s WTO challenge of US forced labor duties&nbsp;&nbsp;Undercurrent News",
+   "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5lbDBwSXYtSDBMaGNCMXNiVm1QU0htVGlHU1FDVi1NVE5zai11TmpKc2hydkt1elpKVjZTOVhLNW56clZEZmNmRWtCb1hFYzdIWWdkOFFfeEZVUml0Vm1EaFllV1ZubjJrcUVuLVE5dkVVSEdG?oc=5",
+   "official": false,
+   "org": "Undercurrent News",
+   "kinds": [
+    "정책"
+   ],
+   "src_kind": "해외",
+   "sectors": [],
+   "watch": [],
+   "id": 56,
+   "src": "GLOBAL",
+   "src_name": "해외발 충격 (영문)"
+  },
+  {
+   "title": "Beyond China: Why Latin America can become India’s next critical minerals and energy frontier - ET Government",
+   "core": "Beyond China: Why Latin America can become India’s next critical minerals and energy frontier",
+   "date": "Wed, 12 Aug 2026",
+   "abstract": "Beyond China: Why Latin America can become India’s next critical minerals and energy frontier&nbsp;&nbsp;ET Government",
+   "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPeUhaV2RhTm1COGt1RURBOVF4elNTTDllY3l4aUlDbGh2N2lOUE9xNWdlSWVyN2ozRjBXS3RpM0QzRDR2dW5RNUlFOFp4MmFfMDQ4S3dzZDNVV2dMSnVNT2dfc0poRWxRbXVBQUtGTGRjbnNOS3EzRDFMLUk2QV9ZT3NuWUswZ3E1T0xieW1iSXhYLUVqV0wwYTZUUzhWV3JGZjNMeTdCSXl3ODV1UVM4X2pQSlcwaGx3a2ZOV0FQX3VGVlVDT3R4cXdpUS1acFJQQ3VrQUxJQmhwZjRURTcxYWV0aFNaVjN2T3NGdloyZ1VoSXpjSkV1QdIB_gFBVV95cUxPR1ZIcGJzNFpjNUozZWNQR0t3a1ktNnhkX0syYmRib3RiclVHb3V0QzJDZTRPanJhRG5nUlM5VnBLVlpZMHZvR1EyeER2NVhsSTZ0TTVVM1ZLTVFvSDgwbHBubnNTRmlMc0pIejRISzBmNmdsQ3dheGpEcUdsVFZRWTQzSTkwLWl3Q1IzR05INnV3MDFQWTBZeFRmUXRLUVdQb2xfc2toaVR6ZWUyWEtkT29lT2xua3lEbDVpMHA5d2ZaS1UxWUw4TDJTSUdfeDhoMnd2Tko5a1hSalZNUFJRLWpLM0psbjE1cGctcXRWTnRzSWpMSVIzVWZQR084UQ?oc=5",
+   "official": false,
+   "org": "ET Government",
+   "kinds": [
+    "정책"
+   ],
+   "src_kind": "해외",
+   "sectors": [],
+   "watch": [],
+   "id": 57,
+   "src": "GLOBAL",
+   "src_name": "해외발 충격 (영문)"
+  },
+  {
+   "title": "Ten Fault Lines That Will Define the Global Energy Transition - ORF Middle East",
+   "core": "Ten Fault Lines That Will Define the Global Energy Transition",
+   "date": "Tue, 11 Aug 2026",
+   "abstract": "Ten Fault Lines That Will Define the Global Energy Transition&nbsp;&nbsp;ORF Middle East",
+   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNZEMtQWE3eWFjOEo1ME9jdkVhRlFUcXdIamFGeGxlY3MzQ3FvM1M3VmRUYkJLZXpsRWxHemJiTFNxX0RnUVJlMi10bEduU1NfLXZRTWRDLUlsM0ZMR2NhcEdTeGplV1NnZjRiRW4zUGRBMkFOOEFhLWhMUHlQMExxLVBETndEamZhcTh2am9wUXRwZ0RoajVBVg?oc=5",
+   "official": false,
+   "org": "ORF Middle East",
+   "kinds": [
+    "정책"
+   ],
+   "src_kind": "해외",
+   "sectors": [],
+   "watch": [],
+   "id": 58,
+   "src": "GLOBAL",
+   "src_name": "해외발 충격 (영문)"
+  },
+  {
+   "title": "Under the Radar: The Hidden Winners of the Critical Minerals Boom - Benzinga",
+   "core": "Under the Radar: The Hidden Winners of the Critical Minerals Boom",
+   "date": "Tue, 11 Aug 2026",
+   "abstract": "Under the Radar: The Hidden Winners of the Critical Minerals Boom&nbsp;&nbsp;Benzinga",
+   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNRkQzS21icWs2RFVRQzRIaGhMX0lfaERXWExGNmVwa3NKTHBSLU1na2hMYUFnVFAzVU50MGx4ZGFHVFRmbEFQc2VCYTF1aUhhMU9VeU5IcktYdWYyN0c5Zkw5d3E2MEFJUWVOQTdqdlMyMTlQOE5jRHV1bXVpZ0NPU2VQOEpvMjl3ZGJyTmZoQ09XVlpXVjVxTWU5T2pKVy1KMFAtREZOQUc4aFdaY0E?oc=5",
+   "official": false,
+   "org": "Benzinga",
+   "kinds": [
+    "정책"
+   ],
+   "src_kind": "해외",
+   "sectors": [],
+   "watch": [],
+   "id": 59,
+   "src": "GLOBAL",
+   "src_name": "해외발 충격 (영문)"
+  },
+  {
+   "title": "INVESTOR VIEW: Fastest route to cleaner batteries runs through Asia - Reuters",
+   "core": "INVESTOR VIEW: Fastest route to cleaner batteries runs through Asia",
+   "date": "Mon, 10 Aug 2026",
+   "abstract": "INVESTOR VIEW: Fastest route to cleaner batteries runs through Asia&nbsp;&nbsp;Reuters",
+   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNYmstbUV0OWJfUzhmakRLNUdKdEhkSHlVdjFBM3BEcnljV0VPRDk0YlVuYUU1UXY3UVRQUkViWlBTUXdhMnVMRUdrc0tSUUdURG5qcFFKSEk5VmFOM0NjdHJpUjlkNldQbVpadjJIS3RveDFHaEVBdTlyRDNNdzRvNGtrVlo2T3psTHdMUTR5cW85NXc3VWZIU2tIZWFyQU05WF9zYkR0dzdVUmg1cnJUSDZuSDhaSWhuRVpLSnl0bw?oc=5",
+   "official": false,
+   "org": "Reuters",
+   "kinds": [
+    "정책"
+   ],
+   "src_kind": "해외",
+   "sectors": [],
+   "watch": [],
+   "id": 60,
+   "src": "GLOBAL",
+   "src_name": "해외발 충격 (영문)"
+  },
+  {
+   "title": "Best Rare Earth Stocks to Buy Now August 2026 - Zacks Investment Research",
+   "core": "Best Rare Earth Stocks to Buy Now August 2026",
+   "date": "Wed, 12 Aug 2026",
+   "abstract": "Best Rare Earth Stocks to Buy Now August 2026&nbsp;&nbsp;Zacks Investment Research",
+   "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5Kb3JyUVVPQUU2Z1ZLN2xScXE0SldVZTNHSW5kYldwTmR2QnlEN3B1aTZkREE2VGNfMW9reDRUODNFY2ZkQU9lT1JHRTRTTWlTcmlFYkZ0RzhDQnRkeVk1RFBHYWdaRDZkeFZTNXZhWXFxdGhB?oc=5",
+   "official": false,
+   "org": "Zacks Investment Research",
+   "kinds": [
+    "정책"
+   ],
+   "src_kind": "해외",
+   "sectors": [
+    "금속/광물"
+   ],
+   "watch": [],
+   "id": 61,
+   "src": "GLOBAL",
+   "src_name": "해외발 충격 (영문)"
+  },
+  {
+   "title": "Is Climate Diplomacy Becoming National Security Policy? - Modern Diplomacy",
+   "core": "Is Climate Diplomacy Becoming National Security Policy?",
+   "date": "Wed, 12 Aug 2026",
+   "abstract": "Is Climate Diplomacy Becoming National Security Policy?&nbsp;&nbsp;Modern Diplomacy",
+   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNdGtxZFRZUF9MMmcyQnkwT0ZsRUluR3UwX1JRUXJqMFpYLVRiSnpFSF9nTHVHX24ySFNoV3JxWGZyMGt5NWNnVTBvUTZEN2ZOUGNhN2JnN1B5VGJkbHFUaHVNdEpzTkFpWnA3SThyS21BaDVDR1llOEZyekNpTnRvbjh2TE5hVmhnRXpiVUhraVlORXdOVWN2TA?oc=5",
+   "official": false,
+   "org": "Modern Diplomacy",
+   "kinds": [
+    "정책"
+   ],
+   "src_kind": "해외",
+   "sectors": [],
+   "watch": [],
+   "id": 62,
+   "src": "GLOBAL",
+   "src_name": "해외발 충격 (영문)"
+  },
+  {
+   "title": "Australia Ups Scrutiny of Chinese-Linked Rare Earths Investors - ASHARQ AL-AWSAT English",
+   "core": "Australia Ups Scrutiny of Chinese-Linked Rare Earths Investors",
+   "date": "Tue, 11 Aug 2026",
+   "abstract": "Australia Ups Scrutiny of Chinese-Linked Rare Earths Investors&nbsp;&nbsp;ASHARQ AL-AWSAT English",
+   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOYXc1YXFLU1ViZloyOUp1TzFmWFg2dWkzcEo5LTFqUEo5VkhXY0U5Y29oVVZyWElSemhOVXV0RGw2T0NQOEJ5MkZ1UjB6Q0JHVG42elREb05wVGVXRHJaSjNtaWM4LUtyQnBUUmtkenVaaU83QXFlZVZaUnVpT2pTdVl5ajlhS1V3UzloX0k1cUZoUGlVVkllRnN3ekZkWElzOEJzdWJB?oc=5",
+   "official": false,
+   "org": "ASHARQ AL-AWSAT English",
+   "kinds": [
+    "정책"
+   ],
+   "src_kind": "해외",
+   "sectors": [],
+   "watch": [],
+   "id": 63,
+   "src": "GLOBAL",
+   "src_name": "해외발 충격 (영문)"
+  },
+  {
+   "title": "EU raw-materials hub draws calls for industry role, greater investment powers - MLex",
+   "core": "EU raw-materials hub draws calls for industry role, greater investment powers",
+   "date": "Mon, 10 Aug 2026",
+   "abstract": "EU raw-materials hub draws calls for industry role, greater investment powers&nbsp;&nbsp;MLex",
+   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPWF9JZjJySHhhbFJMR2pPQWt0MGVzWk1OLTFTdjRPUFZSckJsbDlBaFREQlVvdFVnUEpacDJMa1RBSGp5VWlhdFYtS3ZwM000TUt2dUNMV3FvZGNNeDNUVmE0ejR2LWJCczM3SXRxUTNaTGpmbGxqWldrb3RIWUNKSUpuZU1NS2lKLXBnckJhZFdqdHNJc0ZyS3VCWWZ4QXhHb3ZfNEtUQ3hyWG9sWnRzOFkyaXlJbFVBOXNEam1vZWJiV2fSAVpBVV95cUxQaTlUbU1xQnN4bUt3ejZMTmZUUThWZVVFS3hVeTgtVjhCYnpZbmh6RldqWFQ1ZXhpT3l3WXl6Rld2YWRWaW11NkVzUElmdWVwVkpvdTVyVjRPQ1E?oc=5",
+   "official": false,
+   "org": "MLex",
+   "kinds": [
+    "정책"
+   ],
+   "src_kind": "해외",
+   "sectors": [],
+   "watch": [],
+   "id": 64,
+   "src": "GLOBAL",
+   "src_name": "해외발 충격 (영문)"
+  },
+  {
+   "title": "Strategic Competitors or Partners? An Agenda for EU-China Relations - Trends Research",
+   "core": "Strategic Competitors or Partners? An Agenda for EU",
+   "date": "Mon, 10 Aug 2026",
+   "abstract": "Strategic Competitors or Partners? An Agenda for EU-China Relations&nbsp;&nbsp;Trends Research",
+   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPRmFudWZfYmJrX3RZOUZFWE9sYkk0aHNDUHpqRzRKUk1LOU1UaVd5TS1iNnlhYWZsLW96VVRYaTRjaGh5RkdxUlZibHBKWlNqZ0ZmcE1yaGlLUkFMRlRiVThxMFZ4ZmRIV3BWTE1xYjJwREpZOTdwSnRlLTFobmRzdl9xOHVSN0FRclZ5aU92TVRISDhoTFJKb3BIZFZSZk5i?oc=5",
+   "official": false,
+   "org": "Trends Research",
+   "kinds": [
+    "정책"
+   ],
+   "src_kind": "해외",
+   "sectors": [],
+   "watch": [],
+   "id": 65,
+   "src": "GLOBAL",
+   "src_name": "해외발 충격 (영문)"
+  },
+  {
+   "title": "China's rare earth exports to Japan plunge 51pc for first half: Nikkei - The Standard (HK)",
+   "core": "China's rare earth exports to Japan plunge 51pc for first half: Nikkei",
+   "date": "Tue, 11 Aug 2026",
+   "abstract": "China's rare earth exports to Japan plunge 51pc for first half: Nikkei&nbsp;&nbsp;The Standard (HK)",
+   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNUUlwcEFFMjFTSXN2MW5TWjllZm9HWUh1MGhqM2V4b0VrUkp1RURCal9yQVB4amFEa3o4dy1ILXgxRnQ5NFl0Uk1NTEVNYzhWTTBEQmhZdkhZZ1pZVWJYb0VmbHpfQzQyZ1N6dUdBa0s0NW1lLXQzQzVVaEdkbnk4SkFyMTd5LUhNTUJ3eTRxVEdENWQ5Z3Bfdm1XQlotUDJoSXo4OVM0blNaR2Z4VE1vdGtjeUZBYVlzY3JSQXhaOA?oc=5",
+   "official": false,
+   "org": "The Standard (HK)",
+   "kinds": [
+    "정책"
+   ],
+   "src_kind": "해외",
+   "sectors": [
+    "금속/광물"
+   ],
+   "watch": [],
+   "id": 66,
+   "src": "GLOBAL",
+   "src_name": "해외발 충격 (영문)"
+  },
+  {
+   "title": "S&P Critical Mineral Market Reports: Structural Costs Explained - discoveryalert.com.au",
+   "core": "S&P Critical Mineral Market Reports: Structural Costs Explained",
+   "date": "Wed, 12 Aug 2026",
+   "abstract": "S&amp;P Critical Mineral Market Reports: Structural Costs Explained&nbsp;&nbsp;discoveryalert.com.au",
+   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNWVk2RmUyMkVuWHdySUlGWWtEN2JyazBmZXZ2NDZUejFDTlJYeWhpdEtxZ2x1bVFOVDRzV19PNEQtbkxUdHJ2d1pHU21oNDJZNjVMdlBBMlRGQVJmM2R6Ym1fS1VZRGxQSF9qOHdEQUhIQjRQZU9hZnN3SXBRTkJuOHByYkZzckd1N1pEODljZDNWbnFfaFBn?oc=5",
+   "official": false,
+   "org": "discoveryalert.com.au",
+   "kinds": [
+    "정책"
+   ],
+   "src_kind": "해외",
+   "sectors": [
+    "금속/광물"
+   ],
+   "watch": [
+    "AI"
+   ],
+   "id": 67,
+   "src": "GLOBAL",
+   "src_name": "해외발 충격 (영문)"
+  },
+  {
+   "title": "America Wants 3,655 More Missile Interceptors. China Still Sits Upstream - Rare Earth Exchanges",
+   "core": "America Wants 3,655 More Missile Interceptors. China Still Sits Upstream",
+   "date": "Wed, 12 Aug 2026",
+   "abstract": "America Wants 3,655 More Missile Interceptors. China Still Sits Upstream&nbsp;&nbsp;Rare Earth Exchanges",
+   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQR0xQZWNaaWp6TVZRUEZIRUtaWHVTWkR0NGVlQjB0OUpFeHJRRWtBaGhYVVN2MGc5Zk9GWUJFZGdtOHVteGVxZWRCamlaQmJMelREVnFBVDZETG5jTWJIc1FGblh6YUVXa0FjOENNRnR5Si0ya1NVTFFZZVBCQ2gtWS11QnQyb1JMQmNmQ193blVXZnVmcVJ3aTlpRDNLTHpUdnBwMDd4RzlnN25j?oc=5",
+   "official": false,
+   "org": "Rare Earth Exchanges",
+   "kinds": [
+    "정책"
+   ],
+   "src_kind": "해외",
+   "sectors": [
+    "금속/광물"
+   ],
+   "watch": [],
+   "id": 68,
+   "src": "GLOBAL",
+   "src_name": "해외발 충격 (영문)"
+  },
+  {
+   "title": "European Union Retaining Rings - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+   "core": "European Union Retaining Rings - Market Analysis, Forecast, Size, Trends and Insights",
+   "date": "Mon, 10 Aug 2026",
+   "abstract": "European Union Retaining Rings - Market Analysis, Forecast, Size, Trends and Insights&nbsp;&nbsp;IndexBox",
+   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOYnZpSlkxWGRXU09FaVphQUlPNUJoSG4zdFhKcUhuWnlHTHkzTnI3WGE5bFh4WXdrc18xdmI1cUpsLUt1bWJJeG1ZWDBzWkw1YW43cW9LQ0ZtaEFFWWxkdUluZkFsNGZ3aUtyOXhpQlVhQXA4S3VnM1NZWGJrVTlvaU1YVm9ueTI4RHdRcGljcE5xSzM2dWxEQXNNR045ZTF5U0k3cWFqRU5fRzFFUHZDZQ?oc=5",
+   "official": false,
+   "org": "IndexBox",
+   "kinds": [
+    "정책"
+   ],
+   "src_kind": "해외",
+   "sectors": [],
+   "watch": [
+    "AI"
+   ],
+   "id": 69,
+   "src": "GLOBAL",
+   "src_name": "해외발 충격 (영문)"
+  },
+  {
+   "title": "European Union Shoulder Washers - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+   "core": "European Union Shoulder Washers - Market Analysis, Forecast, Size, Trends and Insights",
+   "date": "Mon, 10 Aug 2026",
+   "abstract": "European Union Shoulder Washers - Market Analysis, Forecast, Size, Trends and Insights&nbsp;&nbsp;IndexBox",
+   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxONTh1NjhvQWJkcWxHOGN1RTFpYkFDRDBqYzJzaE5CcXFOS0pLYzhuLVdvcjRtQlljaG5kUnExd3F4MG9HT0R5Zk1ZazRHN1pNY1dIaDk5SUF1Q3owc2phMWZtdTJ3WUZma3pIQjVhSzBKSnlneE9Ob1VYQV92R3pEUHVLd0hqNmIzRHp5SFZ1X2t2QVAzWFJpNkUtUEt5Sm1fdlJFT3N6d0xKQzZvN2FFRXhn?oc=5",
+   "official": false,
+   "org": "IndexBox",
+   "kinds": [
+    "정책"
+   ],
+   "src_kind": "해외",
+   "sectors": [],
+   "watch": [],
+   "id": 70,
+   "src": "GLOBAL",
+   "src_name": "해외발 충격 (영문)"
+  },
+  {
+   "title": "India-SACU trade pact: Why the Africa deal matters for cars, pharma and critical minerals - Firstpost",
+   "core": "India-SACU trade pact: Why the Africa deal matters for cars, pharma and critical minerals",
+   "date": "Tue, 11 Aug 2026",
+   "abstract": "India-SACU trade pact: Why the Africa deal matters for cars, pharma and critical minerals&nbsp;&nbsp;Firstpost",
+   "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNbmRCRVR2eWFSZmlVcDFGT2JhSFQtRTZnU3U1cGdUTjZWWlp5cTlxaUdxVldoQWpIOS1BbTlNRERPeU9tOEJiZUtOcTZoWlFhNklmellNcU5hNkpOT3VscWMtbjY2ZTlPdWtscTVjZkJleGRmblExRE5YcXpSb3lIRTJVZVdjUTZLYlVDUTg3OGc3Wlc4dVZkLWc3T2FjeWE2SGgxVWc2UFpaZ2pqZlB4TTctdWo0WllMaWkzWDRSMEl3RF9jR2tBakJHeGZrNjNROGfSAdcBQVVfeXFMUFh0Q2k0SHFiczF4bWRROEtxUlpEV1RxX3NoMlN2cko3NHhXRHVtX1AyUFJzQkNhOUNURG42bVFOMU5aSnpQX2hVdmJLb1Zyd1RWLWdlZUVRVnBMOTlXWVJmcnBuVUdqUVFtaXlnM2RlV2pQRjhkMHg1YkROXzg2Tm1NeGkwRHVyUUg2VThHUlQ1RzNzS1RBNVNqOHJxaFFFS1Qtcm5GSkZNYnBwcnVtQ1pHbHEzRE5XWGZDSmdzNFNOYUt6dFBSLXd3SHF6WkxmN1ExT2hKenM?oc=5",
+   "official": false,
+   "org": "Firstpost",
+   "kinds": [
+    "정책"
+   ],
+   "src_kind": "해외",
+   "sectors": [],
+   "watch": [],
+   "id": 71,
+   "src": "GLOBAL",
+   "src_name": "해외발 충격 (영문)"
   }
  ],
- "coverage": "위 원천의 최근 게시물만 담음. 여기 없는 정책·공시는 존재할 수 있음(그물은 표본)."
+ "coverage": "공시·정책 원문 우선. 개별 기업 주가·잡담 기사는 제외. 여기 없는 정보는 존재할 수 있음."
 }

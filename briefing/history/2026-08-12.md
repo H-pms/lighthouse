@@ -1,110 +1,93 @@
 # 환경 브리핑 — 2026-08-12
-> 생성 2026-08-12 19:49 KST · 원천 3/5 · 수집 45건
+> 생성 2026-08-12 20:10 KST · 원천 4/7 · 수집 71건
 
 ## ⚠️ 수집 실패
-- **정책브리핑 보도자료(공식)**: RuntimeError: 피드 비었음/오류: <unknown>:27:2: mismatched tag
-- **정책브리핑 정책뉴스(공식)**: RuntimeError: 피드 비었음/오류: <unknown>:27:2: mismatched tag
+- **국내 공시 (DART 원문)**: RuntimeError: key.txt 에 DART_KEY 없음
+- **미국 공시 (SEC 원문)**: RuntimeError: 최근 5일 내 감시종목 공시 없음
+- **예정 일정**: RuntimeError: 일정 원천 응답 없음
 
-## 오늘의 요점
+## ⭐ 워치리스트 (12건 / 감시어 28개)
+- **[자동차 · 항공]** [항공 계획 승인; 뉴햄프셔; 자동차 검사 및 유지관리 프로그램 폐지](https://www.federalregister.gov/documents/2026/08/11/2026-16330/air-plan-approval-new-hampshire-repeal-of-motor-vehicle-inspection-and-maintenance-program)
+  - 제안된 개정안은 주 전역의 자동차 검사 및 유지관리(I/M) 프로그램을 적극적 조치로 제거할 것입니다.
+- **[건설]** [세제개편에 韓 부동산은 혼돈…시장은 셈법 복잡, 건설사는 '훈풍' 기대](https://news.google.com/rss/articles/CBMigwFBVV95cUxPN2hHUTY5NTBuQjJnc2wtYXN5R2RrSnlHbnUyckl0S09oRV9zR0ZiUkJ4WndPNlVjY21RTGx4ekd6T3N5LXEyWXczVXRHU0NMYnEzcENvVHI4NGx2RnhYTVlXMDl3aUFaT1VyTk5OdE9JMFlyYW9nZXV4MUlqN1dCVW5aZw?oc=5)
+  - 세제개편에 韓 부동산은 혼돈…시장은 셈법 복잡, 건설사는 '훈풍' 기대&nbsp;&nbsp;인베스트조선
+- **[바이오]** [규제를 넘어 산업으로…새만금, 3875억 ‘헴프 바이오 생태계’ 승부수](https://news.google.com/rss/articles/CBMiWkFVX3lxTE5xRjhvblNjR1lVLXdLVVA1Q083S0lrbk5NSXloTGVqRXRqRjdOX2lJNFM0ODJFZHo5TGlhLXN1YWVIdnJwaF80MjV6YmFhajJhb1VPUHgxZXlfdw?oc=5)
+  - 규제를 넘어 산업으로…새만금, 3875억 ‘헴프 바이오 생태계’ 승부수&nbsp;&nbsp;브릿지경제
+- **[AI]** [산업부, 3대 메가프로젝트·AI 전환 총력…“산업강국 도약”](https://news.google.com/rss/articles/CBMibEFVX3lxTFBkUkpIaWlIRDdFUFgtUFZpc3VkbWRMUDVTVDNNWWR5UkVGQ0JremlMZ1c1ZjJ6UEY5Rk1WZHJQUDZ1QnVIckk0RDdmWVl5R1pEMXZwNUdVNjhRZFpaanpHRVpGX0hEZlNxSHRrcQ?oc=5)
+  - 산업부, 3대 메가프로젝트·AI 전환 총력…“산업강국 도약”&nbsp;&nbsp;스페셜경제
+- **[원전]** [인도 비하르주 23억불 SMR 추진…한국 원전수출 ‘청신호’](https://news.google.com/rss/articles/CBMiZEFVX3lxTE5TS3Y2RmR6VXk0VUZLbkxKWmhXSDBKNF9ZdjFBaDUzLTRsV2hvaUw0R3JtNzBiSkhBUUk2TWpSY0U1NXpHb0w5NGk5dy1CaW5kdzh4TGhqS2FsTzRxTkhlOGZINTM?oc=5)
+  - 인도 비하르주 23억불 SMR 추진…한국 원전수출 ‘청신호’&nbsp;&nbsp;에너지안전신문
+- **[방산]** [[게시판] 수출플러스지원단, 경북 구미 방산수출기업 간담회](https://news.google.com/rss/articles/CBMiW0FVX3lxTE9QZXNXTlVsTG1SXzhZdGFjSktMWUh2dUVfZVFFUDdEczZmellYOG1CbzdGTEVtdExYRVN2UFMwQk1wdWpuZGZ0OHRIU0dNVzYtSlZZS0o2SDFYcTTSAWBBVV95cUxOZjN0d1k3Qk1HeGpHZzNCUU1FTjZUM2hmdWtBNmhNdURNUWI5SVV5SzhEMnhsVUlxTm10Rlg1QTJHWlgzNDNZSUVGYjVlX3ZBZjY1OWM1OXp5N3RqdzdKQ2Y?oc=5)
+  - [게시판] 수출플러스지원단, 경북 구미 방산수출기업 간담회&nbsp;&nbsp;연합뉴스
+- **[HBM · 반도체]** ["중국 반도체가 SK하이닉스와 TSMC 추격 어렵다" 평가 나와, HBM이 차별화 요소](https://news.google.com/rss/articles/CBMic0FVX3lxTE9Ka0RHRXNCZmlnVHdqdV9YeHpaMi1aYTRyd291VFRvNjhvNENwckQ0ZTExVVg5VXZDNy1RVDJfajBQNGFHYjNidlp5ZmpJQU5hQWdoX2FTaWhEQ01ST2ZQTkE0TjkwTl9UOVFFMUp0Q2dmTTQ?oc=5)
+  - "중국 반도체가 SK하이닉스와 TSMC 추격 어렵다" 평가 나와, HBM이 차별화 요소&nbsp;&nbsp;비즈니스포스트
+- **[배터리]** [배터리·모터·열관리 한곳에…현대차 영남권 ‘밸류체인’ 주목](https://news.google.com/rss/articles/CBMiYEFVX3lxTE1mMXNNdGJYMlVMVWdQWGw1bEcwMkkyWG5VbmVCOHhqazNWdW9jejFHenM2R1BjejFtbFNrOUtDakFiMC1NR1h3ZjhGYmhKeHN0cGRYZ0hRYmo5MjA0QWE5OA?oc=5)
+  - 배터리·모터·열관리 한곳에…현대차 영남권 ‘밸류체인’ 주목&nbsp;&nbsp;시사1
+- **[AI]** [The “Brussels Effect” multiplied to redraw global supply chains](https://news.google.com/rss/articles/CBMiqwFBVV95cUxPbFFVSTdoaF9RM1p1VVdwQmJOeFJJWmJuQkdXczR2U3dicHZpTHJBTk9vM2dSWDFDd2RtaWVlMk1DUXlnc3JIbVBHWHJPcDhUYXJyUWdUak9QUGxMbHprRXo1NHZnTE9zMG1TVW9TYWpjSFFnRTZyVVVOcVg5TnoyOU40a1BqSFNVUDd2N0VmZmYteU5UQUVVeER1Z3FhQ2tKbGxjdEVwalNKSE0?oc=5)
+  - The “Brussels Effect” multiplied to redraw global supply chains&nbsp;&nbsp;Lowy Institute
+- **[AI]** [Critical Minerals Race Reshapes Global Power and Raises New Risks for Developing Economies](https://news.google.com/rss/articles/CBMiVkFVX3lxTE5KcUlzRFY0OUFkNk9mdmtSejBlNUdyQ0tXb2xsSXMwb3dOdWhpU0VUdFNxeDlxYjgyYkFTbWVPTEhZUjhCUkpMSC1RZFVHZ3FSWFh2N0Fn?oc=5)
+  - Critical Minerals Race Reshapes Global Power and Raises New Risks for Developing Economies&nbsp;&nbsp;AZoM
+- **[AI]** [S&P Critical Mineral Market Reports: Structural Costs Explained](https://news.google.com/rss/articles/CBMilwFBVV95cUxNWVk2RmUyMkVuWHdySUlGWWtEN2JyazBmZXZ2NDZUejFDTlJYeWhpdEtxZ2x1bVFOVDRzV19PNEQtbkxUdHJ2d1pHU21oNDJZNjVMdlBBMlRGQVJmM2R6Ym1fS1VZRGxQSF9qOHdEQUhIQjRQZU9hZnN3SXBRTkJuOHByYkZzckd1N1pEODljZDNWbnFfaFBn?oc=5)
+  - S&amp;P Critical Mineral Market Reports: Structural Costs Explained&nbsp;&nbsp;discoveryalert.com.au
+- **[AI]** [European Union Retaining Rings - Market Analysis, Forecast, Size, Trends and Insights](https://news.google.com/rss/articles/CBMisAFBVV95cUxOYnZpSlkxWGRXU09FaVphQUlPNUJoSG4zdFhKcUhuWnlHTHkzTnI3WGE5bFh4WXdrc18xdmI1cUpsLUt1bWJJeG1ZWDBzWkw1YW43cW9LQ0ZtaEFFWWxkdUluZkFsNGZ3aUtyOXhpQlVhQXA4S3VnM1NZWGJrVTlvaU1YVm9ueTI4RHdRcGljcE5xSzM2dWxEQXNNR045ZTF5U0k3cWFqRU5fRzFFUHZDZQ?oc=5) — 2건
+  - European Union Retaining Rings - Market Analysis, Forecast, Size, Trends and Insights&nbsp;&nbsp;IndexBox
 
-**라이센스 가능한 정부 소유 발명품: MC38 B2m KO Cell Line**  
-<sub>바이오/의료 · 6개 매체 보도 · 공식 원문 · 보건복지부, 국립보건원</sub>  
-> 국립암연구소(NCI)는 MHC-I 항원 제시의 상실로 인한 PD-1/PD-L1 체크포인트 차단에 대한 종양 저항성을 모델로 하는 CRISPR/Cas9 조작 MC38 B2m 녹아웃 쥐 결장암 세포주에 대한 허가권자를 찾고 있습니다.
-> NCI는 이 기술을 임상 번역으로 발전시키기 위해 연구 공동 개발 파트너 및/또는 라이센스 사용자를 찾고 있습니다.
-> 국립 암 연구소(NCI)는 입자 식별 기능을 갖춘 QPID 디지털 방사선 촬영 시스템에 대한 연구 공동 개발 파트너 및/또는 라이센스 사용자를 찾고 있습니다.
-[원문](https://www.federalregister.gov/documents/2026/08/12/2026-16449/government-owned-invention-available-for-license-mc38-b2m-ko-cell-line) · [관련1](https://www.federalregister.gov/documents/2026/08/12/2026-16443/government-owned-invention-available-for-license-monoclonal-antibody-ro4-that-reacts-with-the) · [관련2](https://www.federalregister.gov/documents/2026/08/12/2026-16442/government-owned-invention-available-for-license-human-antibodies-targeting-beneficial-viral-peptide) · [관련3](https://www.federalregister.gov/documents/2026/08/12/2026-16441/government-owned-invention-available-for-license-dna-methylation-based-cancer-diagnostics-for)
+## 🏛 정책·규제 — 환경 변수 (63건)
+<sub>시행일이 있으면 뒷파도의 도착 시점입니다.</sub>
 
-**산업부, 美폴리실리콘 관세부과 민관합동 대응 착수**  
-<sub>수출통제/관세 · 5개 매체 보도 · IT비즈뉴스</sub>  
-> Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.
-[원문](https://news.google.com/rss/articles/CBMibEFVX3lxTE1ORVBlVmRRdzNpYWJpRXdDX3lxMGR1U0ZQWGZHQ0FFQTBiTVVpbG1TT1NYbTE2U2ZEdlRNNjgwdVFrZjZVaEM5Y3RNZmRxYS1nMjg0X0ljYVdSUkw2WW5MSGJCTmhwNmRDNHNRWQ?oc=5) · [관련1](https://news.google.com/rss/articles/CBMicEFVX3lxTFBmUVlzVlU2NWl1V0gwWmpBVlVNOXl3d3NvSTJiLWNzWEJPdnNjOFBnMXN3Z1BRdGFMd19qeUY4MkFfeW9XLVA3ckY5WlFwVk1NZlgySXdEem03TUtOdFRJaVlueGdmb1A1QnZDN3EzS27SAXBBVV95cUxQZlFZc1ZVNjVpdVdIMFpqQVZVTTl5d3dzb0kyYi1jc1hCT3ZzYzhQZzFzd2dQUXRhTHdfanlGODJBX3lvVy1QN3JGOVpRcFZNTWZYMkl3RHptN01LTnRUSWlZbnhnZm9QNUJ2QzdxM0tu?oc=5) · [관련2](https://news.google.com/rss/articles/CBMiZ0FVX3lxTE4zeUdaQWRqZ1pHcDVnMFJFcmZaNHU4MGVPRktCd3hOcUhWQkZKaGxJbzJfX2dkMG84TW01LTFmeG41RkxrVUo2M3N3TGo1WWY2TUQ2TnVUczQ1dTB2Wlp0TUZJeWYtOUE?oc=5) · [관련3](https://news.google.com/rss/articles/CBMiYEFVX3lxTE14SkxCaHFTdHJoQ2VIYXlWQ1E0TXhYaUJSY2xNOUxmdXJQSHBkTk5jUkJMTWNYM3YzalBsMUstVDVIdDJfbkRxdkx3b2VoNTY2dFA4S2VMYmpHSU1mdjc3etIBYEFVX3lxTE14SkxCaHFTdHJoQ2VIYXlWQ1E0TXhYaUJSY2xNOUxmdXJQSHBkTk5jUkJMTWNYM3YzalBsMUstVDVIdDJfbkRxdkx3b2VoNTY2dFA4S2VMYmpHSU1mdjc3eg?oc=5)
-
-**한국은행, 전북대 ‘행BOK열차’ 팀 통화정책 경시대회 금상**  
-<sub>금리/통화 · 3개 매체 보도 · 전북제일신문</sub>  
-> Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.
-[원문](https://news.google.com/rss/articles/CBMiakFVX3lxTE9SU0tpUXUzQnRPaUJzOUZ6UlBVaEJTY2tpYXc4eWxUdE5YUk1PRnZNVzZVNlF6WUJRVXlGY2FiLUs4Sm5EdlhNSFRGNFFwSGxCaVhhUU5oMF9jZzZkSjMyS25lamd0X1F6Q1E?oc=5) · [관련1](https://news.google.com/rss/articles/CBMia0FVX3lxTE5IdGdaY2N3YkVqVHNXZktLZmVTNXRYYXdwMGxFUm43aW5fZXUxWUlaR1c3S1ltR3J3WE04NHZWcmJSZVhLWkxsQ3FveV94NUQ4cDZyNVBxdUd3VEVCWERHaXNOSTBBYjl1RTBF?oc=5) · [관련2](https://news.google.com/rss/articles/CBMia0FVX3lxTFBUQnF1NExPaDUwTE1pWTNOQTU1dDI3STVnZ2Y2RjhpbXVjS0UyMDF5amtVTzFSMkIxNjYzWFdod19DdjdGLUlvMkJZUUJIR0otMTJJUG5HaWNLVXBlZ0lDSEdlb0M4M2NkdW9n?oc=5)
-
-**국민은 대출 절벽인데… 한국은행 사내대출 특혜 논란**  
-<sub>금리/통화 · 2개 매체 보도 · 쿠키뉴스</sub>  
-> Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.
-[원문](https://news.google.com/rss/articles/CBMiY0FVX3lxTE9mQlVGY2d6X0pEYV8weTQ2Ml9JZWc3SlpCeFBsNmIzanJBdmc5Q1ZTb0RPd2N0ZVRDclIzYWlhYmZfc08yRFI2T3doOFk4YUFKcW1IdVlxdUNBa01ja1pBT0N5RQ?oc=5) · [관련1](https://news.google.com/rss/articles/CBMiY0FVX3lxTE9mQlVGY2d6X0pEYV8weTQ2Ml9JZWc3SlpCeFBsNmIzanJBdmc5Q1ZTb0RPd2N0ZVRDclIzYWlhYmZfc08yRFI2T3doOFk4YUFKcW1IdVlxdUNBa01ja1pBT0N5RQ?oc=5)
-
-**스크래핑 차단에 비대면 주담대 차질 우려…금융위, 단계적 시행 검토**  
-<sub>금융/증권 · 2개 매체 보도 · 연합인포맥스</sub>  
-> Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.
-[원문](https://news.google.com/rss/articles/CBMicEFVX3lxTE5tXzh3ZUw3LXlLRy14aHEwYW44NEFHQm9LQkdUc1pTMUM1NHhIa051aVpoNlI1cFVFX0RrQ0k3WEx5a0l6NEhzTkdBSElVeEUxZTE0Y3h0SlFVcFU5SW1oRXl5YnllRkxWdUctcTQyejLSAXRBVV95cUxNLXVoZW81YXVaYjdkQmJrZzNUZ3poZUgya09BMEUxdDVReTVFYW9XSjk2b3VBVno3OWZUNkx1UUJvLXZfUDlHT294TVRDd3huV2pFS3NwcHNtMFIxSUk1M1l4MnBENzdLM2MxNWZXcElTZjBvRQ?oc=5) · [관련1](https://news.google.com/rss/articles/CBMilAFBVV95cUxQR1FENTBDZW0wMUxWOFBtLUNwTnlvbW9GVjl2UjhvR3NfYjFzYjVIVXpWR3E0ck42RW52QWlpV3hIWTh0UDR3VFNWOUQzOTNvdFd1OUx6SjlxOERVekhaVWxqOUFHeHFiQU00dWx2alhNMmRRN3NjQllIVVdtcVJKOUtsLVhNX3pFWXdOLWkyc2E5MW9o0gGUAUFVX3lxTFBHUUQ1MENlbTAxTFY4UG0tQ3BOeW9tb0ZWOXZSOG9Hc19iMXNiNUhVelZHcTRyTjZFbnZBaWlXeEhZOHRQNHdUU1Y5RDM5M290V3U5THpKOXE4RFV6SFpVbGo5QUd4cWJBTTR1bHZqWE0yZFE3c2NCWUhVV21xUko5S2wtWE1fekVZd04taTJzYTkxb2g?oc=5)
-
-**금융위, 스크래핑 차단 대응방안 논의..."공공 마이데이터 연계 검토"**  
-<sub>금융/증권 · 2개 매체 보도 · 비즈월드</sub>  
-> Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.
-[원문](https://news.google.com/rss/articles/CBMiakFVX3lxTFA5T2dZamUydFBUWllRWmExeFlRYldJVlRkUVp0SXgtSnFpVkdfMzk5TmJkTG9yaDFxNW1uSFR1MVRPRE9JSjdsOXNMdVNSbmZ1cWl3bEkzRzVRNVBQTFhUN1NPSVFwZk5ERkE?oc=5) · [관련1](https://news.google.com/rss/articles/CBMiWkFVX3lxTE9kVUFnTG16YVdMTjdGYWdfU0F2UDNDbVFVa29IRzd5bXNCRjlkMmZxSjFMMnQwWXV1cTROaWtKU2h3UlpYNExxTlUyS3NoQm43WTcxUjMzVW9Gdw?oc=5)
-
-## ⭐ 워치리스트 (3개 사안 / 감시어 28개)
-- **[철강]** [기관 정보 수집 활동; 검토 및 승인을 위해 관리예산처(OMB)에 제출 댓글 요청; 철강 수입 허가](https://www.federalregister.gov/documents/2026/08/12/2026-16445/agency-information-collection-activities-submission-to-the-office-of-management-and-budget-omb-for)
-- **[AI]** [금융위, 하반기 D-테스트베드 15개팀 모집…AI 전형엔 GPU 지원](https://news.google.com/rss/articles/CBMiZEFVX3lxTE05RW9ua1ZVMVhHbEJ6YmZseDlja0FxN2x0eFhNaE1aQ2RxNC1fUUgtZDhVeUtrREU4UkNrUzM1Zm94UGlFYkpoVDU2MG5MLUdxb3VpWHFFYklNUVNzTWo3SEpicF8?oc=5)
-  - Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.
-- **[AI]** [AI가 중립금리에 미치는 영향은…한은 "AI 성과 배분에 달려" |](https://news.google.com/rss/articles/CBMidEFVX3lxTE9tM3FoVlozWmhvWmJ4d082NEdXODZab0RtY2VtUFNGRS1OSGUyRG9UVHZuekt4SmJacjlGNnEwWGVrVHpQV1pPdkZpQXRmeGxHVEFnbDF6c1BqQ0E0TVdCWUN6a3JiWDVsSUF6Wl94RHB0YkVT?oc=5)
-  - Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.
-
-## 분야별
-
-### 수출통제/관세 — 사안 3개 / 기사 8건
-- 📰 [산업부, 美폴리실리콘 관세부과 민관합동 대응 착수](https://news.google.com/rss/articles/CBMibEFVX3lxTE1ORVBlVmRRdzNpYWJpRXdDX3lxMGR1U0ZQWGZHQ0FFQTBiTVVpbG1TT1NYbTE2U2ZEdlRNNjgwdVFrZjZVaEM5Y3RNZmRxYS1nMjg0X0ljYVdSUkw2WW5MSGJCTmhwNmRDNHNRWQ?oc=5) — 5건 _(+금속/광물)_
-- 📰 [최저가격제·232조 관세 꺼낸 美…韓 폴리실리콘 수출 ‘촉각’](https://news.google.com/rss/articles/CBMickFVX3lxTFBXaW42Wm5BYmQtVmdPRUhCdnp5aHpROHhKZlRoc25IYkNlYlhTcDd3Mm9nVm1aQ0VFV2oxTUpyZDJXanRONWstM1hXelhsWHNOZ0ZaVzJKblQ0bXVmX2tJWlR5dnJ5dGZSSURsOU5OdXJBdw?oc=5) — 2건 _(+금속/광물)_
-  - Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.
-- 📄 [중화인민공화국 목재 침실 가구: 반덤핑 관세 행정 검토 최종 결과; 2024년](https://www.federalregister.gov/documents/2026/08/12/2026-16446/wooden-bedroom-furniture-from-the-peoples-republic-of-china-final-results-of-antidumping-duty)
-  - 기간 검토(POR)는 ​​2024년 1월 1일부터 2024년 12월 31일까지입니다.
-
-### 금융/증권 — 사안 6개 / 기사 8건
-- 📰 [스크래핑 차단에 비대면 주담대 차질 우려…금융위, 단계적 시행 검토](https://news.google.com/rss/articles/CBMicEFVX3lxTE5tXzh3ZUw3LXlLRy14aHEwYW44NEFHQm9LQkdUc1pTMUM1NHhIa051aVpoNlI1cFVFX0RrQ0k3WEx5a0l6NEhzTkdBSElVeEUxZTE0Y3h0SlFVcFU5SW1oRXl5YnllRkxWdUctcTQyejLSAXRBVV95cUxNLXVoZW81YXVaYjdkQmJrZzNUZ3poZUgya09BMEUxdDVReTVFYW9XSjk2b3VBVno3OWZUNkx1UUJvLXZfUDlHT294TVRDd3huV2pFS3NwcHNtMFIxSUk1M1l4MnBENzdLM2MxNWZXcElTZjBvRQ?oc=5) — 2건
-- 📰 [금융위, 스크래핑 차단 대응방안 논의..."공공 마이데이터 연계 검토"](https://news.google.com/rss/articles/CBMiakFVX3lxTFA5T2dZamUydFBUWllRWmExeFlRYldJVlRkUVp0SXgtSnFpVkdfMzk5TmJkTG9yaDFxNW1uSFR1MVRPRE9JSjdsOXNMdVNSbmZ1cWl3bEkzRzVRNVBQTFhUN1NPSVFwZk5ERkE?oc=5) — 2건
-- 📰 [금융위 "금융행정 쇄신방안 확정된 바 없어"](https://news.google.com/rss/articles/CBMiiAFBVV95cUxNOXNOWV9vQjlyYTdjYlVQeF9BSGRFZjJFdFFjUG4zMmlkeUM5bmcxekFyZjRDUy16a1FmU1U3ZXVRWjE5TldrM0ZLSXROLXV1QW1aQWlNVFFhRGstcXVnTUM2aW9BWjdsRkVQdmVHazFDTXpqTnlkU3dfQ0JodXRFTE9wUFhfLUJS?oc=5)
-  - Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.
-- 📰 [주담대·전세대출 발목 잡나… 금융위, '스크래핑 차단'에 긴급 대응 나서](https://news.google.com/rss/articles/CBMiaEFVX3lxTE80OTZLRGVJTDJzbFpSOHpET3I1Z1dwajFkLWZlaTg5cmRvZWl2bVU1eVJjUUhxb1dCU0c4N0hWcHQwM2Rrcl9zRnVWTmRXbXNUcGt6MzhPWWZVX1M0SGFwNzdEUHlMelpK?oc=5)
-  - Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.
-- 📰 [금융위 "레버리지ETF 변동성에 일조…상폐시 시장 충격"](https://news.google.com/rss/articles/CBMiiAFBVV95cUxPWFAyN3FLX0d1TTh0aDV0eGRRdWhqLWhTTmZGNjZ2WkhsZFFVZzZCSGtER25vOWJENWlGT2w0eFlZY2dQZUFTOThneWNQTWVDQU1lUnZhTThOOEJNdXNMYl9YTE5VZHhjU3Z0MlNqaFprbWpIYzlJaEFKS2twaGxWeENvY2lCamRB?oc=5)
-  - Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.
-- 📰 [금융위 "총량관리 목표 조정방안 금주중 발표 예정"](https://news.google.com/rss/articles/CBMijAFBVV95cUxOR1owWmI4VW83eHRCbTFVV21ZQ1ZNdVFoc3ZpRDNkbEZRMjhOc2xqZ1g5MUZkcTRhMTd4NlhYRWRscldxS3NPTG9OeVpSWG1HNGFpd25rdk9yd0FOX2R2eXowcndJQ2FrWU1zMUhKVW9vejdnbldoN1U5WkNRRXdScFJhVzd6cmhWVVVUbg?oc=5)
-  - Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.
-
-### 바이오/의료 — 사안 1개 / 기사 6건
-- 📄 [라이센스 가능한 정부 소유 발명품: MC38 B2m KO Cell Line](https://www.federalregister.gov/documents/2026/08/12/2026-16449/government-owned-invention-available-for-license-mc38-b2m-ko-cell-line) — 6건
-
-### 금리/통화 — 사안 2개 / 기사 5건
-- 📰 [한국은행, 전북대 ‘행BOK열차’ 팀 통화정책 경시대회 금상](https://news.google.com/rss/articles/CBMiakFVX3lxTE9SU0tpUXUzQnRPaUJzOUZ6UlBVaEJTY2tpYXc4eWxUdE5YUk1PRnZNVzZVNlF6WUJRVXlGY2FiLUs4Sm5EdlhNSFRGNFFwSGxCaVhhUU5oMF9jZzZkSjMyS25lamd0X1F6Q1E?oc=5) — 3건 _(+금융/증권)_
-- 📰 [국민은 대출 절벽인데… 한국은행 사내대출 특혜 논란](https://news.google.com/rss/articles/CBMiY0FVX3lxTE9mQlVGY2d6X0pEYV8weTQ2Ml9JZWc3SlpCeFBsNmIzanJBdmc5Q1ZTb0RPd2N0ZVRDclIzYWlhYmZfc08yRFI2T3doOFk4YUFKcW1IdVlxdUNBa01ja1pBT0N5RQ?oc=5) — 2건 _(+금융/증권, 건설/부동산)_
-
-### 건설/부동산 — 사안 3개 / 기사 3건
-- 📰 [[민간 정비사업 주택ㆍSOC 확충 킹핀]②정부 규제가 정비사업 최대 리스크](https://news.google.com/rss/articles/CBMidEFVX3lxTE9zR18wbVBONExSSHhQR0ljcDUzSUJ1UmpnNGc5WEoxclBVZnBDWDNIT2xMY1BROFpnZGlKYzN3TGFoREVsUEgwNlhQYzB5OTBaVFo2VmZ6bFVoNGxWaVRWdk9VcHc1WkFTZ21XSV9WSFJsYVhS?oc=5)
-  - Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.
-- 📰 [13일 부동산 대책 연쇄 발표…주택 신속공급·금융규제 손본다](https://news.google.com/rss/articles/CBMiZEFVX3lxTFBidG9DUHVVT3BKenl4WkVnSVRyZ2V4QlQtMnZvV09TTHZCVTZ5OWRaTlZvZzYzYm5RaTRkTlBhbi1nOUJPUmF3MWdyNkFIRDR6MGJTMkNqUm1nelhvMWpjNkRqYjk?oc=5)
-  - Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.
-- 📰 [주택공급대책 곧 발표…재개발 재건축 업계는 “글쎄”](https://news.google.com/rss/articles/CBMic0FVX3lxTE9aamNGNG5BdkktWE5qeHptWWxYVkNRSmRkVFRfQWxtN2U0SGNGWG5FalFpejVhTktoZDFNdWN5Y2RZR3pHQjl1RklRcnJ6NUlGcDkwek5BT0pwWmxueS1ZamUyUVFoZno2ektIYWxLamw5Wjg?oc=5)
-  - Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.
-
-### 반도체/AI — 사안 2개 / 기사 2건
-- 📰 [금융위, 하반기 D-테스트베드 15개팀 모집…AI 전형엔 GPU 지원](https://news.google.com/rss/articles/CBMiZEFVX3lxTE05RW9ua1ZVMVhHbEJ6YmZseDlja0FxN2x0eFhNaE1aQ2RxNC1fUUgtZDhVeUtrREU4UkNrUzM1Zm94UGlFYkpoVDU2MG5MLUdxb3VpWHFFYklNUVNzTWo3SEpicF8?oc=5) _(+금융/증권)_
-  - Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.
-- 📰 [AI가 중립금리에 미치는 영향은…한은 "AI 성과 배분에 달려" |](https://news.google.com/rss/articles/CBMidEFVX3lxTE9tM3FoVlozWmhvWmJ4d082NEdXODZab0RtY2VtUFNGRS1OSGUyRG9UVHZuekt4SmJacjlGNnEwWGVrVHpQV1pPdkZpQXRmeGxHVEFnbDF6c1BqQ0E0TVdCWUN6a3JiWDVsSUF6Wl94RHB0YkVT?oc=5) _(+금리/통화)_
-  - Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.
-
-### 보조금/세제 — 사안 1개 / 기사 1건
-- 📄 [지역사회 재투자법 규정](https://www.federalregister.gov/documents/2026/08/12/2026-16454/community-reinvestment-act-regulations) _(+금융/증권)_
-  - 통화감사원장(OCC)과 연방예금보험공사(FDIC)는 은행이 지역사회의 신용 수요를 충족하도록 장려한다는 법적 목표에 다시 초점을 맞추기 위해 실질적, 기술적, 프로세스 중심의 특정 변경을 통해 지역사회 재투자법 규칙을 개정할 것을 제안하고 있습니다.
-
-### 분류 밖 — 12개 사안
-- 📄 [항소 관할권 업데이트 II](https://www.federalregister.gov/documents/2026/08/12/2026-16456/appellate-jurisdiction-update-ii)
-- 📄 [UChicago Argonne LLC 외; 과학기기 면세입국 신청 결정 통지서](https://www.federalregister.gov/documents/2026/08/12/2026-16448/uchicago-argonne-llc-et-al-notice-of-decision-on-application-for-duty-free-entry-of-scientific)
-- 📄 [태평양 북서부 국립연구소(Pacific Northwest National Laboratory) 외; 과학 장비의 면세 입국 신청서](https://www.federalregister.gov/documents/2026/08/12/2026-16447/pacific-northwest-national-laboratory-et-al-applications-for-duty-free-entry-of-scientific)
-- 📄 [기관 정보 수집 활동; 검토 및 승인을 위해 관리예산처(OMB)에 제출 댓글 요청; 철강 수입 허가](https://www.federalregister.gov/documents/2026/08/12/2026-16445/agency-information-collection-activities-submission-to-the-office-of-management-and-budget-omb-for)
-- 📄 [독점 특허 라이선스 부여 예정: 수술 중 형광 이미징용 BL-760 염료 개발 및 상용화](https://www.federalregister.gov/documents/2026/08/12/2026-16444/prospective-grant-of-an-exclusive-patent-license-development-and-commercialization-of-bl-760-dye-for)
-- 📄 [라이센스가 가능한 NIH 소유 발명품: 혈전증 및 관련 질환의 진단, 예방 및 치료를 위한 가용성 조직 인자, 새로운 표적 및 항체](https://www.federalregister.gov/documents/2026/08/12/2026-16440/nih-owned-invention-available-for-license-soluble-tissue-factor-a-novel-target-and-antibodies-for)
-- 📄 [기관 정보 수집 활동; 제안된 eCollection eComments가 요청되었습니다. 새로운 정보 수집; USAO-PR 커뮤니티 지원 요청 양식 피드백 양식 패키지](https://www.federalregister.gov/documents/2026/08/12/2026-16437/agency-information-collection-activities-proposed-ecollection-ecomments-requested-new-information)
-- 📰 [한성숙 "신산업 창업벤처 규제개선 전담기구 신설"](https://news.google.com/rss/articles/CBMieEFVX3lxTFB6cjlveFpLbUdwYU1pYm14OFM1UkZTMFVLMTdwcm15Z0JJYkJEX1pDaGpPeWZ2TkZGUFFqUVNVazMzdDhLUG5jeEJ6cnBTOVFjWmJoMjlBanVqZ1VqVXNESU1ISEQ3dGE1YzZDbE9WVlItaXBYZjJqY9IBeEFVX3lxTFB6cjlveFpLbUdwYU1pYm14OFM1UkZTMFVLMTdwcm15Z0JJYkJEX1pDaGpPeWZ2TkZGUFFqUVNVazMzdDhLUG5jeEJ6cnBTOVFjWmJoMjlBanVqZ1VqVXNESU1ISEQ3dGE1YzZDbE9WVlItaXBYZjJqYw?oc=5)
-- 📰 [슬롯 터보 학생를 위한 글쓰기 기술 심층 분석](https://news.google.com/rss/articles/CBMizgFBVV95cUxQeGUwWWdNdXdBa05aNGU4VFd6V3d1VktQUGRHZDdvejZ5WENINkxVaDV2T3c4dWZzcE1va3dmOFV1WlZwNEtzblBBRXNibUVaN1l5WlJHdGEwQ3dNRFhPdVpyMU5xYWRCV1JwWF9nQXZHNUFmOTdaWDRIWFU1aHVNV09IYU1MNVYxQmpaUFFVQm9EQnBYUHl5Q2VyY1pFRDdTRVpZZTlhdjRMMHVMTnNVekNJeVY0UHpRSDJYMDNnT2hZTkFxZ2t2Smw3WDlWdw?oc=5)
-- 📰 [부안군, 전북특별자치도 규제합리화 우수사례 경진대회 2년 연속 수상](https://news.google.com/rss/articles/CBMiZEFVX3lxTFA4RWo1OVNKUkZWdU5CLU1vQUNVSVJjcHRGVGlaWFRhaWZOZ1BCNW5NNlhUVy1PNDNfZ29KMHlMUUdaWEFPNkFvZzJNazA2MWZyN3Y1a3B5clU5R2JqalFsRU5ud1c?oc=5)
+- 📄 [NRC 현대화: 규칙 제정 절차, 연방자문위원회법 조정, 접근 및 보안](https://www.federalregister.gov/documents/2026/08/11/2026-16374/nrc-modernization-rulemaking-procedure-federal-advisory-committee-act-alignment-access-and-security)  
+  <sub>원자력규제위원회 · 2건 보도</sub>
+  > 미국 원자력규제위원회(NRC)는 정보 보류 및 공포 후 논평 기간과 관련된 절차 조항을 간소화하여 규정을 개정하고 있습니다.
+  > 미국 원자력 규제위원회(NRC)는 정보 보류 및 공포 후 논평 기간과 관련된 절차 조항을 간소화하여 규정을 개정할 것을 제안하고 있습니다.
+- 📄 [바로 먹을 수 있는 신선 농산물의 생물학적 위험을 최소화하기 위한 가이드; 산업계 지침; 유효성](https://www.federalregister.gov/documents/2026/08/12/2026-16420/guide-to-minimize-biological-hazards-in-ready-to-eat-fresh-cut-produce-guidance-for-industry)  
+  <sub>바이오/의료 · 보건복지부, 식품의약국</sub>
+  > 미국 식품의약국(FDA 또는 당사)은 "즉석 섭취 가능한 신선 가공 농산물의 생물학적 위험을 최소화하기 위한 지침"이라는 제목의 업계 최종 지침을 발표했습니다.
+  > 본 지침은 2008년에 발행된 "신선한 과일 및 채소의 미생물 식품 안전 위험을 최소화하기 위한 지침"이라는 제목의 이전 지침을 대체하며 i에 대한 지침 초안에 대한 최종 지침입니다.
+- 📄 [규제 물질 목록: 목록 I의 O-Desmethyltramadol 임시 배치](https://www.federalregister.gov/documents/2026/08/12/2026-16413/schedules-of-controlled-substances-temporary-placement-of-o-desmethyltramadol-in-schedule-i)  
+  <sub>Justice Department, Drug Enforcement Administration</sub>
+  > DEA는 일정에 O-DSMT를 배치한다는 사실을 토대로 이 조치를 취합니다.
+- 📄 [승인된 사용후 연료 저장용기 목록: NAC International, Inc., MAGNASTOR® 저장 시스템, 규정 준수 증명서 No. 1031, 수정안 Nos. 16 및 17 및 수정안 Nos. 0~16에 대한 수정](https://www.federalregister.gov/documents/2026/08/12/2026-16398/list-of-approved-spent-fuel-storage-casks-nac-international-inc-magnastor-storage-system-certificate)  
+  <sub>원자력규제위원회</sub>
+  > 이 직접 최종 규칙은 "승인된 사용후 연료 저장 용기 목록" 내의 NAC MAGNASTOR 시스템 목록을 수정하여 수정안 16 및 17을 포함하고 수정안 0~16에 대한 수정 사항을 다음과 같이 수정했습니다.
+  > 미국 원자력 규제 위원회(NRC)는 2026년 7월 1일 연방 관보에 게시된 직접 최종 규칙의 발효일을 2026년 9월 14일로 확인합니다.
+- 📄 [구동형 마이크로모빌리티 장치](https://www.federalregister.gov/documents/2026/08/12/2026-16388/powered-micromobility-devices)  
+  <sub>모빌리티 · Interior Department, National Park Service</sub>
+  > 최종 규칙은 자동차, 전통 자전거, 전기 자전거, 인력으로 구동되는 해안 장치와 별도로 구동형 마이크로모빌리티 장치를 정의하고 국립공원 시스템 단위에서 이러한 장치를 사용할 수 있는 위치와 방법에 대한 규칙을 만듭니다.
+  > 국립공원관리청은 국립공원 시스템 내에서 구동되는 마이크로모빌리티 장치의 사용을 위한 관리 프레임워크를 마무리합니다.
+- 📄 [미국으로의 폴리실리콘 및 그 파생상품 수입 조정](https://www.federalregister.gov/documents/2026/08/11/2026-16400/adjusting-imports-of-polysilicon-and-its-derivatives-into-the-united-states)  
+  <sub>금속/광물 · Executive Office of the President</sub>
+- 📄 [규제 물질 일정: Suvorexant, Lemborexant 및 Daridorexant의 일정 IV를 일정 V로 변경](https://www.federalregister.gov/documents/2026/08/11/2026-16375/schedules-of-controlled-substances-rescheduling-of-suvorexant-lemborexant-and-daridorexant-from)  
+  <sub>Justice Department, Drug Enforcement Administration</sub>
+  > 미국 마약단속국에서는 수보렉산트([(7R)-4-(5-클로로-1,3-벤족사졸-2-일)-7-메틸-1,4-디아제판-1-일]-[5-메틸-2-(트리아졸-2-일)페닐]메타논), 렘보렉산트의 이전을 제안합니다.
+  > ((1R,2S)-2-[(2,4-디메틸피리미딘-5-일)옥시메틸]-2-(3-플루오로페닐)-N-(5-플루오로피리딘-2-일)시클로프로판-1-카르복사미드) 및 다리도렉산트([(2S)-2-(5-클로로-4-메틸-1H-벤즈이미다졸-2-일)-2-메틸피롤리
+- 📄 [제재 연기 결정; 애리조나; Maricopa 카운티 대기질 부서; 가솔린 로딩](https://www.federalregister.gov/documents/2026/08/11/2026-16334/determination-to-defer-sanctions-arizona-maricopa-county-air-quality-department-gasoline-loading)  
+  <sub>수출통제/관세 · 환경보호청</sub>
+  > 미국 환경 보호국(EPA)은 ADEQ(애리조나주 환경부)가 Maricopa 카운티 대기질부(MCAQD 또는 "카운티")를 대신하여 휘발성 유기 화합물(VOC) 배출에 관한 청정 공기법(CAA 또는 "법") 주 시행 계획(SIP)의 결함을 해결하는 규칙을 제출했다는 임시 최종 결정을 내리고 있습니다.
+- 📄 [항공 계획 승인; 뉴햄프셔; 자동차 검사 및 유지관리 프로그램 폐지](https://www.federalregister.gov/documents/2026/08/11/2026-16330/air-plan-approval-new-hampshire-repeal-of-motor-vehicle-inspection-and-maintenance-program)  
+  <sub>모빌리티 · 환경보호청</sub>
+  > 제안된 개정안은 주 전역의 자동차 검사 및 유지관리(I/M) 프로그램을 적극적 조치로 제거할 것입니다.
+  > 미국 환경보호국(EPA)은 뉴햄프셔주 환경서비스부(NHDES)를 통해 2025년 12월 24일 뉴햄프셔주가 제출한 주 시행계획(SIP) 개정안을 조건부 승인할 것을 제안하고 있습니다.
+- 📄 [2022년 에너지 안보 및 조명 독립법에서 요구하는 규제 변경](https://www.federalregister.gov/documents/2026/08/11/2026-16319/regulatory-changes-required-by-the-energy-security-and-lightering-independence-act-of-2022)  
+  <sub>전력/원자력 · Homeland Security Department</sub>
+  > 2022년 에너지 안보 및 경량화 독립법은 외국 무역에 종사하는 다른 선박(경량화)과 선박 간 액체 화물 운송 작업을 수행하는 개인을 포함하도록 환승 중인 외국인(C) 및 승무원으로 근무하는 외국인(D)에 대한 비이민 분류를 개정했습니다.
+  > 이 법령은 자격을 갖춘 외국인이 미국에 입국하거나 요청할 수 있는 권한을 부여합니다.
+- 📰 [당정 "비아파트 공급 확대 속도전… 금융 지원·규제 완화"](https://news.google.com/rss/articles/CBMiT0FVX3lxTE1VYkhsX25JbXZqVTlLaDg3aV9JZDRndEdWZENQcjB0X0N3TF9hUHhCamJXbzJKVnZ0Z0JHSEFEREdhTmJTcHhVSi1OWnRhU2c?oc=5)  
+  <sub>v.daum.net · 2건 보도</sub>
+  > 당정 "비아파트 공급 확대 속도전… 금융 지원·규제 완화"&nbsp;&nbsp;파이낸셜뉴스
+- 📰 [與도 비판 쏟아내는 '부동산稅 개편'](https://news.google.com/rss/articles/CBMiWkFVX3lxTE9XZFNya25PVVN0RXFUMXlZSkpBTnktMU1IV0lNTTUwV294WVZfUTFqTXBTZnBTdnpLUlJPdnNrQkpWNEE1OXVTYzloUDczZy1QLTkzWGtPN0prdw?oc=5)  
+  <sub>건설/부동산 · 한국경제 · 2건 보도</sub>
+  > 與도 비판 쏟아내는 '부동산稅 개편'&nbsp;&nbsp;한국경제
+  > 정부 부동산 정책 재확인…세제 개편·주택 공급 대책에 여야 공방&nbsp;&nbsp;CBC뉴스
+- 📰 [정부 “유휴부지” 서울시 “정비사업”… 주택공급 이견](https://news.google.com/rss/articles/CBMibkFVX3lxTE5tTzQ0RXFuVXNheWdaZzhmckdWcDVrclhLT096enpXcVE4dkZJaVV3c0hxb0MyVS1hd0R6ZHd0eUtZbUJ0ZUhieGh5T3hPNmtfNHRmUHJWVTRHZC1RNlRxZy00NHdYRG8tSlhJclBB?oc=5)  
+  <sub>건설/부동산 · 아시아투데이 · 2건 보도</sub>
+  > 정부 “유휴부지” 서울시 “정비사업”… 주택공급 이견&nbsp;&nbsp;아시아투데이
+  > 與 "서울 주택공급 확대, 정부·서울시 모두 공감...전월세 단기 대책도 최선"&nbsp;&nbsp;뉴스핌
+- 📰 [전북도-새만금청](https://news.google.com/rss/articles/CBMieEFVX3lxTE5NbzU0Rl9FeFRTblNhckszekplcWV3b3RJVFNOdHYwVFRuQ3hEOGRDNVRBQ0xOMTRJUDQtYjlhQUJ0YzRycWtnZlh4cjNra0swQ0RMWjlNR0I1VVVFR1B3TFpQazlwNXkybmVibTJUdzVZQ3p1N2xxZNIBeEFVX3lxTE5NbzU0Rl9FeFRTblNhckszekplcWV3b3RJVFNOdHYwVFRuQ3hEOGRDNVRBQ0xOMTRJUDQtYjlhQUJ0YzRycWtnZlh4cjNra0swQ0RMWjlNR0I1VVVFR1B3TFpQazlwNXkybmVibTJUdzVZQ3p1N2xxZA?oc=5)  
+  <sub>뉴시스 · 2건 보도</sub>
+  > 전북도-새만금청-기업, 헴프산업클러스터 조성·투자 '맞손'&nbsp;&nbsp;뉴시스
+  > 전북도·새만금청·7개 기업, 새만금 헴프산업 클러스터 조성 '본격화'&nbsp;&nbsp;뉴스핌
+- _외 49건_
 
 ---
-_위 원천의 최근 게시물만 담음. 여기 없는 정책·공시는 존재할 수 있음(그물은 표본)._
-_📄 공식 원문 · 📰 언론 보도 · 영문 15건 한국어 번역_
-_이 요약은 프로그램이 묶고 추린 것이며 해석·판단이 아닙니다._
+_공시·정책 원문 우선. 개별 기업 주가·잡담 기사는 제외. 여기 없는 정보는 존재할 수 있음._
+_📄 원문 · 📰 보도 · 프로그램이 묶고 추린 것이며 해석·판단이 아닙니다._

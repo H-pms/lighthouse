@@ -45,7 +45,7 @@ SECTORS = {
 # ══════════════ 유형 (투자 의미) ══════════════
 KIND = {
     "의지": ["공급계약","수주","시설투자","자기주식","자사주","취득 결정","투자 결정","증설","신규시설"],
-    "실체": ["잠정실적","영업실적","분기보고서","반기보고서","사업보고서","매출액또는손익구조"],
+    "실체": ["잠정","영업실적","실적","분기보고서","반기보고서","사업보고서","매출액또는손익구조","공정공시"],
     "자본": ["유상증자","무상증자","전환사채","신주인수권","감자","교환사채"],
     "위험": ["소송","횡령","배임","관리종목","거래정지","감사의견","상장폐지","손실발생","최대주주변경","불성실공시"],
     "지분": ["주식등의대량보유","임원ㆍ주요주주","의결권"],
@@ -88,12 +88,16 @@ def load_watchlist():
         return []
 
 def load_symbols():
-    """watchlist.txt 에서 종목코드/티커만 추출 (6자리 숫자 = 국내, 대문자 = 미국)"""
+    """종목만 추출. 국내=6자리 숫자, 미국=US: 접두사 (산업 약어와 혼동 방지)"""
     kr, us = [], []
     for w in load_watchlist():
         w = w.strip()
-        if re.fullmatch(r"\d{6}", w): kr.append(w)
-        elif re.fullmatch(r"[A-Z]{1,5}", w): us.append(w)
+        if re.fullmatch(r"\d{6}", w):
+            kr.append(w)
+        elif w.upper().startswith("US:"):
+            t = w.split(":", 1)[1].strip().upper()
+            if re.fullmatch(r"[A-Z.\-]{1,6}", t):
+                us.append(t)
     return kr, us
 
 _WL = None
@@ -295,10 +299,43 @@ def fetch_fedreg():
     return out
 
 # ══════════════ 4. 한국 정책 원문 ══════════════
+def _entries_from_broken_xml(text):
+    """표준을 안 지키는 RSS를 정규식으로 직접 읽는다 (korea.kr 대응)"""
+    out = []
+    for blk in re.findall(r"(?is)<item[^>]*>(.*?)</item>", text):
+        def pick(tag):
+            m = re.search(rf"(?is)<{tag}[^>]*>(.*?)</{tag}>", blk)
+            if not m: return ""
+            v = m.group(1)
+            v = re.sub(r"(?is)<!\[CDATA\[(.*?)\]\]>", r"\1", v)
+            return re.sub(r"(?s)<[^>]+>", "", v).strip()
+        t = pick("title")
+        if t:
+            out.append({"title": t, "link": pick("link"),
+                        "summary": pick("description"),
+                        "published": pick("pubDate") or pick("dc:date")})
+    return out
+
 def fetch_rss(url, official=False, src_kind="정책", limit=20):
     if not HAS_FEED: raise RuntimeError("feedparser 미설치")
     f = feedparser.parse(url, agent=UA)
-    if not f.entries: raise RuntimeError(f"피드 비었음: {str(getattr(f,'bozo_exception','0건'))[:100]}")
+    entries = f.entries
+    if not entries:
+        # 깨진 XML 대비: 직접 받아 정규식으로 읽기
+        try:
+            r = requests.get(url, headers={"User-Agent": UA}, timeout=30)
+            if r.status_code == 200:
+                r.encoding = r.apparent_encoding or "utf-8"
+                raw = _entries_from_broken_xml(r.text)
+                if raw:
+                    class E:
+                        def __init__(s, d): s.__dict__.update(d)
+                    entries = [E(d) for d in raw]
+        except Exception:
+            pass
+    if not entries:
+        raise RuntimeError(f"피드 비었음: {str(getattr(f,'bozo_exception','0건'))[:100]}")
+    f = type("F", (), {"entries": entries})()
     out = []
     for e in f.entries[:limit]:
         t = getattr(e, "title", "").strip()

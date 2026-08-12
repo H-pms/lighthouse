@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
 """
-정보기관 v0.2a-p3 (패치 4.1: 산업 감시어 + 언론사 꼬리 오인 방지)
-- 변경: ① 한국 원천을 구글뉴스 RSS 경유로 교체(공식 피드는 사용자가 주소 제공 시 KR_OFFICIAL_FEEDS에 추가)
-        ② 섹터 태그 오탐 수정: 영문 키워드는 단어 경계(word boundary) 매칭 (vessels→ess 오탐 제거)
-설계 원칙: 실패는 침묵이 아니라 소음으로.
+등대 collector v0.4 — 수집 전용
+- 정책·뉴스 원천에서 항목을 모아 원자료(JSON)로 저장한다. 요약·보고는 하지 않는다.
+- 산출물: data/raw_YYYY-MM-DD.json (당일 원자료), data/latest.json (최신 사본)
+- 실패는 침묵이 아니라 소음으로: 원천별 성패를 기록한다.
 """
-import os, re
+import os, re, json
 from datetime import datetime, timezone, timedelta
 from urllib.parse import quote
 
@@ -18,26 +18,43 @@ except ImportError:
     HAS_FEEDPARSER = False
 
 KST = timezone(timedelta(hours=9))
-UA = "LighthouseIntel/0.2a (personal research bot)"
-MAX_PER_SECTION = 12
+UA = "LighthouseIntel/0.4 (personal research bot)"
+MAX_PER_SECTION = 15
 
 SECTOR_KEYWORDS = {
-    "반도체/AI": ["semiconductor", "chip", "ai", "artificial intelligence", "data center", "반도체", "인공지능", "파운드리", "hbm", "데이터센터"],
-    "전력/원자력": ["electric grid", "power plant", "nuclear", "grid", "전력", "송전", "변전", "원전", "smr", "에너지"],
+    "반도체/AI": ["semiconductor", "chip", "ai", "artificial intelligence", "data center",
+                "반도체", "인공지능", "파운드리", "hbm", "데이터센터"],
+    "전력/원자력": ["electric grid", "power plant", "nuclear", "grid",
+                 "전력", "송전", "변전", "원전", "smr", "에너지"],
     "냉각/냉매": ["refrigerant", "cooling", "hfc", "냉매", "냉각", "액침"],
-    "수출통제/관세": ["export control", "tariff", "sanction", "수출통제", "관세", "제재", "무역"],
-    "금리/통화": ["interest rate", "federal reserve", "monetary", "금리", "기준금리", "통화정책", "한국은행"],
+    "수출통제/관세": ["export control", "tariff", "sanction", "수출통제", "관세", "제재", "무역", "232조"],
+    "금리/통화": ["interest rate", "federal reserve", "monetary",
+                "금리", "기준금리", "통화정책", "한국은행", "환율"],
     "보조금/세제": ["subsidy", "tax credit", "grant", "보조금", "세액공제", "지원금", "세제"],
     "바이오/의료": ["fda", "drug", "clinical", "바이오", "의약", "임상", "제약"],
     "방산/우주": ["defense", "military", "space", "방위", "방산", "우주"],
     "2차전지/ESS": ["battery", "energy storage", "ess", "이차전지", "배터리", "양극재"],
     "모빌리티": ["vehicle", "automotive", "자동차", "전기차", "자율주행"],
-    "조선/해운": ["shipbuilding", "shipyard", "vessel", "조선", "해운", "선박", "컨테이너선"],
+    "조선/해운": ["shipbuilding", "shipyard", "vessel", "조선업", "해운", "선박", "컨테이너선", "수주"],
     "항공/물류": ["airline", "aviation", "cargo", "logistics", "항공", "물류", "운송"],
-    "원유/가스": ["oil", "crude", "petroleum", "lng", "정유", "원유", "가스", "석유"],
-    "금속/광물": ["copper", "gold", "nickel", "lithium", "rare earth", "구리", "금값", "금 매입", "니켈", "철광석", "희토류", "광물", "제련"],
+    "원유/가스": ["oil", "crude", "petroleum", "lng", "정유", "원유", "천연가스", "석유"],
+    "금속/광물": ["copper", "gold", "nickel", "lithium", "rare earth",
+               "구리", "금값", "니켈", "철광석", "희토류", "광물", "제련", "폴리실리콘"],
     "건설/부동산": ["construction", "housing", "real estate", "건설", "부동산", "분양", "재건축", "주택"],
+    "금융/증권": ["금융위", "금감원", "증권", "은행", "보험", "가상자산", "펀드"],
 }
+
+MEDIA_TAIL = re.compile(r"\s*[-–—]\s*[^-–—]{1,25}$")
+
+def strip_media(title):
+    """제목 끝의 언론사 꼬리를 반복 제거 (조선비즈 - Chosunbiz 처럼 두 번 붙는 경우 대응)"""
+    t = title or ""
+    for _ in range(3):
+        t2 = MEDIA_TAIL.sub("", t).strip()
+        if t2 == t or len(t2) < 8:
+            break
+        t = t2
+    return t
 
 def _compile():
     out = {}
@@ -45,9 +62,9 @@ def _compile():
         pats = []
         for k in kws:
             k = k.strip().lower()
-            if re.fullmatch(r"[a-z0-9 ]+", k):      # 영문·숫자 → 단어 경계 매칭
+            if re.fullmatch(r"[a-z0-9 ]+", k):
                 pats.append(re.compile(r"\b" + re.escape(k) + r"\b"))
-            else:                                    # 한국어 → 부분 문자열 매칭
+            else:
                 pats.append(re.compile(re.escape(k)))
         out[sec] = pats
     return out
@@ -65,191 +82,107 @@ def load_watchlist():
     except FileNotFoundError:
         return []
 
-def apply_watchlist(results):
-    pats = []
-    for t in load_watchlist():
-        tl = t.lower()
-        if re.fullmatch(r"[a-z0-9 .\-]+", tl):
-            pats.append(re.compile(r"\b" + re.escape(tl) + r"\b"))
-        else:
-            pats.append(re.compile(re.escape(tl)))
-    for _, items in results:
-        for it in items:
-            core = it["title"].rsplit(" - ", 1)[0].lower()  # 언론사 꼬리 제거 후 매칭
-            it["star"] = bool(pats) and any(p.search(core) for p in pats)
+_WL = None
 
-# ---------------- 원천들 ----------------
+def watch_hit(core_title):
+    """언론사 꼬리를 뗀 제목에서만 감시어를 찾는다"""
+    global _WL
+    if _WL is None:
+        _WL = []
+        for t in load_watchlist():
+            tl = t.strip().lower()
+            if re.fullmatch(r"[a-z0-9 .\-]+", tl):
+                _WL.append((t, re.compile(r"\b" + re.escape(tl) + r"\b")))
+            else:
+                _WL.append((t, re.compile(re.escape(tl))))
+    low = (core_title or "").lower()
+    return [t for t, p in _WL if p.search(low)]
+
+# ---------------- 원천 ----------------
 
 def fetch_federal_register():
-    r = requests.get(
-        "https://www.federalregister.gov/api/v1/documents.json",
-        params={"per_page": MAX_PER_SECTION, "order": "newest"},
-        headers={"User-Agent": UA}, timeout=30,
-    )
+    r = requests.get("https://www.federalregister.gov/api/v1/documents.json",
+                     params={"per_page": MAX_PER_SECTION, "order": "newest"},
+                     headers={"User-Agent": UA}, timeout=30)
     r.raise_for_status()
     items = []
     for d in r.json().get("results", []):
         title = (d.get("title") or "").strip()
-        abstract = d.get("abstract") or ""
-        items.append({
-            "title": title,
-            "date": d.get("publication_date", ""),
-            "org": ", ".join(a.get("name", "") for a in (d.get("agencies") or [])[:2]),
-            "link": d.get("html_url", ""),
-            "sectors": tag_sectors(title + " " + abstract),
-        })
+        items.append({"title": title, "core": title, "date": d.get("publication_date", ""),
+                      "org": ", ".join(a.get("name", "") for a in (d.get("agencies") or [])[:2]),
+                      "link": d.get("html_url", ""), "abstract": (d.get("abstract") or "")[:400],
+                      "official": True})
     if not items:
         raise RuntimeError("응답은 왔으나 문서 0건 — API 형식 변경 의심")
     return items
 
-def fetch_rss(url):
+def fetch_rss(url, official=False):
     if not HAS_FEEDPARSER:
         raise RuntimeError("feedparser 미설치")
     f = feedparser.parse(url, agent=UA)
     if not f.entries:
-        err = getattr(f, "bozo_exception", "항목 0건")
-        raise RuntimeError(f"피드 비었음/오류: {str(err)[:120]}")
+        raise RuntimeError(f"피드 비었음/오류: {str(getattr(f,'bozo_exception','항목 0건'))[:120]}")
     items = []
     for e in f.entries[:MAX_PER_SECTION]:
         title = getattr(e, "title", "").strip()
-        summary = getattr(e, "summary", "")
-        items.append({
-            "title": title,
-            "date": getattr(e, "published", getattr(e, "updated", ""))[:16],
-            "org": "",
-            "link": getattr(e, "link", ""),
-            "sectors": tag_sectors(title + " " + summary),
-        })
+        items.append({"title": title, "core": strip_media(title),
+                      "date": getattr(e, "published", getattr(e, "updated", ""))[:16],
+                      "org": getattr(e, "source", {}).get("title", "") if hasattr(e, "source") else "",
+                      "link": getattr(e, "link", ""),
+                      "abstract": re.sub(r"<[^>]+>", "", getattr(e, "summary", ""))[:400],
+                      "official": official})
     return items
 
 def gnews(query):
     return f"https://news.google.com/rss/search?q={quote(query)}&hl=ko&gl=KR&ceid=KR:ko"
 
-# 공식 피드 주소를 확보하면 아래 목록에 ("이름", "주소") 형태로 추가 — 자동으로 수집에 포함됨
-KR_OFFICIAL_FEEDS = [
-    # 예: ("🇰🇷 정책브리핑·보도자료(공식)", "https://www.korea.kr/rss/XXXX.xml"),
-]
+KR_OFFICIAL_FEEDS = []
 
 SOURCES = [
-    ("🇺🇸 연방관보(공식)", fetch_federal_register),
-    ("🇰🇷 경제부처·한은 언론보도(구글뉴스 경유)", lambda: fetch_rss(gnews("기획재정부 OR 산업통상자원부 OR 금융위원회 OR 한국은행 when:2d"))),
-    ("🇰🇷 규제·수출통제 언론보도(구글뉴스 경유)", lambda: fetch_rss(gnews("규제 OR 수출통제 OR 관세 발표 when:2d"))),
-] + [(name, (lambda u: (lambda: fetch_rss(u)))(url)) for name, url in KR_OFFICIAL_FEEDS]
+    ("US_FEDREG", "미국 연방관보(공식)", fetch_federal_register),
+    ("KR_ECON", "한국 경제부처·한은", lambda: fetch_rss(gnews("기획재정부 OR 산업통상자원부 OR 금융위원회 OR 한국은행 when:2d"))),
+    ("KR_REG", "한국 규제·수출통제", lambda: fetch_rss(gnews("규제 OR 수출통제 OR 관세 발표 when:2d"))),
+] + [(f"KR_OFF{i}", n, (lambda u: (lambda: fetch_rss(u, official=True)))(u))
+     for i, (n, u) in enumerate(KR_OFFICIAL_FEEDS)]
 
-# ---------------- 텔레그램 배달 ----------------
-
-def send_telegram(text):
-    token = os.environ.get("TELEGRAM_TOKEN")
-    chat = os.environ.get("TELEGRAM_CHAT_ID")
-    if not token or not chat:
-        print("[알림 생략] 텔레그램 미설정 — Secrets에 TELEGRAM_TOKEN / TELEGRAM_CHAT_ID 추가 시 활성화")
-        return
-    try:
-        r = requests.post(
-            f"https://api.telegram.org/bot{token}/sendMessage",
-            json={"chat_id": chat, "text": text[:4000], "disable_web_page_preview": True},
-            timeout=20,
-        )
-        r.raise_for_status()
-        print("[알림 OK] 텔레그램 발송 완료")
-    except Exception as e:
-        print(f"[알림 FAIL] 텔레그램: {type(e).__name__}: {str(e)[:120]}")
-
-def build_summary(results, errors):
-    now = datetime.now(KST)
-    lines = [f"🗼 등대 브리핑 {now.strftime('%m/%d %H:%M')}"]
-    lines.append(f"원천: 성공 {len(results)} · 실패 {len(errors)}")
-    if load_watchlist():
-        stars = sum(1 for _, items in results for it in items if it.get("star"))
-        lines.append(f"⭐ 워치리스트 {stars}건")
-    for name, msg in errors:
-        lines.append(f"⚠️ {name} 실패 — 수동 확인 요망")
-    counts = {}
-    tagged = []
-    for _, items in results:
-        for it in items:
-            for s in it["sectors"]:
-                counts[s] = counts.get(s, 0) + 1
-            if it["sectors"]:
-                tagged.append(it)
-    if counts:
-        lines.append("섹터: " + " · ".join(f"{s} {n}" for s, n in sorted(counts.items(), key=lambda x: -x[1])[:5]))
-    if tagged:
-        lines.append("주요:")
-        for it in tagged[:5]:
-            t = it["title"][:60] + ("…" if len(it["title"]) > 60 else "")
-            lines.append(f"• [{it['sectors'][0]}] {t}")
-    repo = os.environ.get("GITHUB_REPOSITORY", "")
-    if repo:
-        lines.append(f"전체: https://github.com/{repo}/blob/main/briefing/env_latest.md")
-    return "\n".join(lines)
-
-# ---------------- 브리핑 생성 ----------------
-
-def build_briefing(results, errors):
-    now = datetime.now(KST)
-    L = []
-    L.append("# 환경 브리핑 — 정보기관 v0.2a-p1")
-    L.append(f"- 생성 시각: {now.strftime('%Y-%m-%d %H:%M')} KST")
-    L.append("- 커버리지(규칙 8): 아래 원천의 최근 게시물만 담음. **여기 없는 정책·공시는 존재할 수 있다(그물은 표본).** 구글뉴스 경유 항목은 정책 원문이 아니라 언론 보도임.")
-    L.append("")
-    if errors:
-        L.append("## ⚠️ 수집 실패 경고 — 수동 확인 요망")
-        for name, msg in errors:
-            L.append(f"- **{name}**: {msg}")
-        L.append("")
-    wl_terms = load_watchlist()
-    if wl_terms:
-        star_items = [it for _, items in results for it in items if it.get("star")]
-        L.append(f"## ⭐ 워치리스트 ({len(star_items)}건 / 감시어 {len(wl_terms)}개, 원천 {len(results)}/{len(results)+len(errors)} 확인)")
-        if star_items:
-            for it in star_items:
-                L.append(f"- {it['date']} | [{it['title']}]({it['link']})")
-        else:
-            L.append("- 신규 0건 — 위 원천 범위에서 확인됨")
-        L.append("")
-    for name, items in results:
-        L.append(f"## {name} (최신 {len(items)}건)")
-        for it in items:
-            tag = f" `[{' · '.join(it['sectors'])}]`" if it["sectors"] else ""
-            org = f" ({it['org']})" if it["org"] else ""
-            star = "⭐ " if it.get("star") else ""
-            L.append(f"- {star}{it['date']} |{org} [{it['title']}]({it['link']}){tag}")
-        L.append("")
-    counts = {}
-    for _, items in results:
-        for it in items:
-            for s in it["sectors"]:
-                counts[s] = counts.get(s, 0) + 1
-    if counts:
-        L.append("## 섹터 태그 요약")
-        L.append(" · ".join(f"{s} {n}건" for s, n in sorted(counts.items(), key=lambda x: -x[1])))
-        L.append("")
-    L.append("---")
-    L.append("_다음 단계: 이 파일의 Raw 링크를 Claude에게 붙여넣으면 분석 보고를 받는다._")
-    return "\n".join(L)
 
 def main():
-    results, errors = [], []
-    for name, fn in SOURCES:
+    now = datetime.now(KST)
+    sources, errors, items = [], [], []
+    seq = 0
+    for sid, name, fn in SOURCES:
         try:
-            items = fn()
-            results.append((name, items))
-            print(f"[OK] {name}: {len(items)}건")
+            got = fn()
+            for it in got:
+                seq += 1
+                core = it.get("core") or it["title"]
+                it.update(id=seq, src=sid, src_name=name,
+                          sectors=tag_sectors(core + " " + it.get("abstract", "")),
+                          watch=watch_hit(core))
+                items.append(it)
+            sources.append({"id": sid, "name": name, "count": len(got), "ok": True})
+            print(f"[OK] {name}: {len(got)}건")
         except Exception as e:
             msg = f"{type(e).__name__}: {str(e)[:150]}"
-            errors.append((name, msg))
+            errors.append({"id": sid, "name": name, "error": msg})
+            sources.append({"id": sid, "name": name, "count": 0, "ok": False, "error": msg})
             print(f"[FAIL] {name}: {msg}")
-    apply_watchlist(results)
-    content = build_briefing(results, errors)
-    os.makedirs("briefing/history", exist_ok=True)
-    with open("briefing/env_latest.md", "w", encoding="utf-8") as f:
-        f.write(content)
-    datestr = datetime.now(KST).strftime("%Y-%m-%d")
-    with open(f"briefing/history/{datestr}.md", "w", encoding="utf-8") as f:
-        f.write(content)
-    print(f"브리핑 생성: 성공 {len(results)} / 실패 {len(errors)}")
-    send_telegram(build_summary(results, errors))
+
+    data = {
+        "generated": now.strftime("%Y-%m-%d %H:%M"),
+        "date": now.strftime("%Y-%m-%d"),
+        "sources": sources,
+        "errors": errors,
+        "watchlist": load_watchlist(),
+        "items": items,
+        "coverage": "위 원천의 최근 게시물만 담음. 여기 없는 정책·공시는 존재할 수 있음(그물은 표본).",
+    }
+    os.makedirs("data", exist_ok=True)
+    for path in (f"data/raw_{data['date']}.json", "data/latest.json"):
+        with open(path, "w", encoding="utf-8") as f:
+            json.dump(data, f, ensure_ascii=False, indent=1)
+    print(f"수집 완료: {len(items)}건 · 성공 {len(sources)-len(errors)}/{len(sources)} 원천 → data/latest.json")
+
 
 if __name__ == "__main__":
     main()

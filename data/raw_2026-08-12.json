@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-12 21:48",
+ "generated": "2026-08-12 22:01",
  "date": "2026-08-12",
  "sources": [
   {
@@ -23,7 +23,7 @@
   {
    "id": "KR_POLICY",
    "name": "한국 정책 (부처 발표)",
-   "count": 12,
+   "count": 13,
    "ok": true
   },
   {
@@ -2867,13 +2867,13 @@
    "src_name": "한국 정책 (부처 발표)"
   },
   {
-   "title": "정부 돌봄·간병 자살 대책에...케어러들 “실질 부담 대체할 시스템 필요” - 투데이신문",
-   "core": "정부 돌봄·간병 자살 대책에...케어러들 “실질 부담 대체할 시스템 필요”",
+   "title": "‘1년 선거주’ 수정 검토…직장·질병 등 사유 언제든 발생 지적 - 한겨레",
+   "core": "‘1년 선거주’ 수정 검토…직장·질병 등 사유 언제든 발생 지적",
    "date": "Wed, 12 Aug 2026",
-   "abstract": "정부 돌봄·간병 자살 대책에...케어러들 “실질 부담 대체할 시스템 필요”&nbsp;&nbsp;투데이신문",
-   "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1JS2UtMkFLY3dCaXpqZUlHQ21sdEtRWi1Kb0pCZDhsbGpreE00NGgwbGpWdTFlMm16VkpuUmZ1U1RtQ1JKSTkwVllDR0JhbEh3bmxBWHR5NjBVU25pNG91VW9RVk1OTVJoeF80UHA3Z9IBb0FVX3lxTE1JS2UtMkFLY3dCaXpqZUlHQ21sdEtRWi1Kb0pCZDhsbGpreE00NGgwbGpWdTFlMm16VkpuUmZ1U1RtQ1JKSTkwVllDR0JhbEh3bmxBWHR5NjBVU25pNG91VW9RVk1OTVJoeF80UHA3Zw?oc=5",
+   "abstract": "‘1년 선거주’ 수정 검토…직장·질병 등 사유 언제든 발생 지적&nbsp;&nbsp;한겨레",
+   "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9RTGxRaVk4QV81U2NaZ3Q5X3FJSzlzNE1kb3ZPWDJGdUFQT0hIT2lZV21ZZEp4czdQMzV1aUVMWmhPdXVjNmE2ZzFqdVNLQlNweEE1a2JJYk5CWjVzekdHbFY4UkdFakJxZnV6YmFibjFCUQ?oc=5",
    "official": false,
-   "org": "투데이신문",
+   "org": "한겨레",
    "kinds": [
     "정책"
    ],
@@ -2885,13 +2885,13 @@
    "src_name": "한국 정책 (부처 발표)"
   },
   {
-   "title": "‘1년 선거주’ 수정 검토…직장·질병 등 사유 언제든 발생 지적 - 한겨레",
-   "core": "‘1년 선거주’ 수정 검토…직장·질병 등 사유 언제든 발생 지적",
+   "title": "정부 돌봄·간병 자살 대책에...케어러들 “실질 부담 대체할 시스템 필요” - 투데이신문",
+   "core": "정부 돌봄·간병 자살 대책에...케어러들 “실질 부담 대체할 시스템 필요”",
    "date": "Wed, 12 Aug 2026",
-   "abstract": "‘1년 선거주’ 수정 검토…직장·질병 등 사유 언제든 발생 지적&nbsp;&nbsp;한겨레",
-   "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9RTGxRaVk4QV81U2NaZ3Q5X3FJSzlzNE1kb3ZPWDJGdUFQT0hIT2lZV21ZZEp4czdQMzV1aUVMWmhPdXVjNmE2ZzFqdVNLQlNweEE1a2JJYk5CWjVzekdHbFY4UkdFakJxZnV6YmFibjFCUQ?oc=5",
+   "abstract": "정부 돌봄·간병 자살 대책에...케어러들 “실질 부담 대체할 시스템 필요”&nbsp;&nbsp;투데이신문",
+   "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1JS2UtMkFLY3dCaXpqZUlHQ21sdEtRWi1Kb0pCZDhsbGpreE00NGgwbGpWdTFlMm16VkpuUmZ1U1RtQ1JKSTkwVllDR0JhbEh3bmxBWHR5NjBVU25pNG91VW9RVk1OTVJoeF80UHA3Z9IBb0FVX3lxTE1JS2UtMkFLY3dCaXpqZUlHQ21sdEtRWi1Kb0pCZDhsbGpreE00NGgwbGpWdTFlMm16VkpuUmZ1U1RtQ1JKSTkwVllDR0JhbEh3bmxBWHR5NjBVU25pNG91VW9RVk1OTVJoeF80UHA3Zw?oc=5",
    "official": false,
-   "org": "한겨레",
+   "org": "투데이신문",
    "kinds": [
     "정책"
    ],
@@ -2923,24 +2923,6 @@
    "src_name": "한국 정책 (부처 발표)"
   },
   {
-   "title": "\"주민 소변서 녹조독소 검출…정부 대책 필요\" - LG헬로비전",
-   "core": "\"주민 소변서 녹조독소 검출…정부 대책 필요\"",
-   "date": "Wed, 12 Aug 2026",
-   "abstract": "\"주민 소변서 녹조독소 검출…정부 대책 필요\"&nbsp;&nbsp;LG헬로비전",
-   "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBJY3dLN0UzVzVUcEZFWlJERDlNSGdqRUlqU0tuVTdBREJSTExLa3hjMllScmd3RU1meDlHOWlMWElhZnZ0Vmt4TzN4d1hKZEVmcjdzT1BhRWdyenNFbXhBc0RXUGdRZkVEejhPNFp6SThyMm8?oc=5",
-   "official": false,
-   "org": "LG헬로비전",
-   "kinds": [
-    "정책"
-   ],
-   "src_kind": "정책",
-   "sectors": [],
-   "watch": [],
-   "id": 140,
-   "src": "KR_POLICY",
-   "src_name": "한국 정책 (부처 발표)"
-  },
-  {
    "title": "세제개편에 韓 부동산은 혼돈…시장은 셈법 복잡, 건설사는 '훈풍' 기대 - 인베스트조선",
    "core": "세제개편에 韓 부동산은 혼돈…시장은 셈법 복잡, 건설사는 '훈풍' 기대",
    "date": "Tue, 11 Aug 2026",
@@ -2957,7 +2939,65 @@
     "건설/부동산"
    ],
    "watch": [],
+   "id": 140,
+   "src": "KR_POLICY",
+   "src_name": "한국 정책 (부처 발표)"
+  },
+  {
+   "title": "李대통령이 열어둔 세제개편 수정…'비거주 1주택' 넘어 어디까지 손대나 - news.einfomax.co.kr",
+   "core": "李대통령이 열어둔 세제개편 수정…'비거주 1주택' 넘어 어디까지 손대나",
+   "date": "Tue, 11 Aug 2026",
+   "abstract": "李대통령이 열어둔 세제개편 수정…'비거주 1주택' 넘어 어디까지 손대나&nbsp;&nbsp;news.einfomax.co.kr",
+   "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBfa1I4eXY1ZHBPZ3dCUm5CU1I1SElGRmhTVy1zQVEtaGF2VXZxV0VBY2J4Z1ZKR0tBcHg0Y1VkQVFNdl9IMGhsTmxJZHBxeWZhSklkNTZOQjVMbXdsR2VUOFZ1LWFKdkw1YUFJOFpWVlM?oc=5",
+   "official": false,
+   "org": "news.einfomax.co.kr",
+   "kinds": [
+    "정책"
+   ],
+   "src_kind": "정책",
+   "sectors": [
+    "보조금/세제"
+   ],
+   "watch": [],
    "id": 141,
+   "src": "KR_POLICY",
+   "src_name": "한국 정책 (부처 발표)"
+  },
+  {
+   "title": "\"주민 소변서 녹조독소 검출…정부 대책 필요\" - LG헬로비전",
+   "core": "\"주민 소변서 녹조독소 검출…정부 대책 필요\"",
+   "date": "Wed, 12 Aug 2026",
+   "abstract": "\"주민 소변서 녹조독소 검출…정부 대책 필요\"&nbsp;&nbsp;LG헬로비전",
+   "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBJY3dLN0UzVzVUcEZFWlJERDlNSGdqRUlqU0tuVTdBREJSTExLa3hjMllScmd3RU1meDlHOWlMWElhZnZ0Vmt4TzN4d1hKZEVmcjdzT1BhRWdyenNFbXhBc0RXUGdRZkVEejhPNFp6SThyMm8?oc=5",
+   "official": false,
+   "org": "LG헬로비전",
+   "kinds": [
+    "정책"
+   ],
+   "src_kind": "정책",
+   "sectors": [],
+   "watch": [],
+   "id": 142,
+   "src": "KR_POLICY",
+   "src_name": "한국 정책 (부처 발표)"
+  },
+  {
+   "title": "[에브리리서치] 세제개편안 '세금폭탄' 48.3%…20·30대·70대 과반 - 폴리뉴스 Polinews",
+   "core": "[에브리리서치] 세제개편안 '세금폭탄' 48.3%…20·30대·70대 과반",
+   "date": "Wed, 12 Aug 2026",
+   "abstract": "[에브리리서치] 세제개편안 '세금폭탄' 48.3%…20·30대·70대 과반&nbsp;&nbsp;폴리뉴스 Polinews",
+   "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE81dFRnRW9udlJzOHhvUXlydEkzRG5STkZIQ19sYTZ2elFyUm5INHVRUUtwbHBwOTZULU50ZnVyeHJxSzhmS3dTV2l1Yjl5YlBOVV9BZnVqNVF1U05lcWVaVGZPQzYxMk8yNFhRTzZB0gFyQVVfeXFMUHhHUEY4Tjc0ZmFydWxUeUpnc1hWcHZqeWRyc2VfVk5ycVZnWWl0ekJJMUZBOW5RN3I4NHdjVWJyQmNzRkp4MkxaR0tXYzVWa0xhQnJUcHp5Z2Y3NUhpR3ZFcFRwaTBVYm9wY1dueXdkcHhR?oc=5",
+   "official": false,
+   "org": "폴리뉴스 Polinews",
+   "kinds": [
+    "정책"
+   ],
+   "src_kind": "정책",
+   "sectors": [
+    "보조금/세제"
+   ],
+   "watch": [],
+   "id": 143,
    "src": "KR_POLICY",
    "src_name": "한국 정책 (부처 발표)"
   },
@@ -2977,7 +3017,7 @@
     "보조금/세제"
    ],
    "watch": [],
-   "id": 142,
+   "id": 144,
    "src": "KR_POLICY",
    "src_name": "한국 정책 (부처 발표)"
   },
@@ -2997,7 +3037,25 @@
     "보조금/세제"
    ],
    "watch": [],
-   "id": 143,
+   "id": 145,
+   "src": "KR_POLICY",
+   "src_name": "한국 정책 (부처 발표)"
+  },
+  {
+   "title": "당정 \"비아파트 공급 확대 속도전… 금융 지원·규제 완화\" - v.daum.net",
+   "core": "당정 \"비아파트 공급 확대 속도전… 금융 지원·규제 완화\"",
+   "date": "Wed, 12 Aug 2026",
+   "abstract": "당정 \"비아파트 공급 확대 속도전… 금융 지원·규제 완화\"&nbsp;&nbsp;v.daum.net",
+   "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1VYkhsX25JbXZqVTlLaDg3aV9JZDRndEdWZENQcjB0X0N3TF9hUHhCamJXbzJKVnZ0Z0JHSEFEREdhTmJTcHhVSi1OWnRhU2c?oc=5",
+   "official": false,
+   "org": "v.daum.net",
+   "kinds": [
+    "정책"
+   ],
+   "src_kind": "정책",
+   "sectors": [],
+   "watch": [],
+   "id": 146,
    "src": "KR_POLICY",
    "src_name": "한국 정책 (부처 발표)"
   },
@@ -3017,45 +3075,7 @@
     "건설/부동산"
    ],
    "watch": [],
-   "id": 144,
-   "src": "KR_POLICY",
-   "src_name": "한국 정책 (부처 발표)"
-  },
-  {
-   "title": "당정 \"비아파트 공급 확대 속도전… 금융 지원·규제 완화\" - v.daum.net",
-   "core": "당정 \"비아파트 공급 확대 속도전… 금융 지원·규제 완화\"",
-   "date": "Wed, 12 Aug 2026",
-   "abstract": "당정 \"비아파트 공급 확대 속도전… 금융 지원·규제 완화\"&nbsp;&nbsp;v.daum.net",
-   "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1VYkhsX25JbXZqVTlLaDg3aV9JZDRndEdWZENQcjB0X0N3TF9hUHhCamJXbzJKVnZ0Z0JHSEFEREdhTmJTcHhVSi1OWnRhU2c?oc=5",
-   "official": false,
-   "org": "v.daum.net",
-   "kinds": [
-    "정책"
-   ],
-   "src_kind": "정책",
-   "sectors": [],
-   "watch": [],
-   "id": 145,
-   "src": "KR_POLICY",
-   "src_name": "한국 정책 (부처 발표)"
-  },
-  {
-   "title": "이르면 이번 주 부동산 대책…정부 \"공급 늘릴 것\" - OBS경인TV",
-   "core": "이르면 이번 주 부동산 대책…정부 \"공급 늘릴 것\"",
-   "date": "Wed, 12 Aug 2026",
-   "abstract": "이르면 이번 주 부동산 대책…정부 \"공급 늘릴 것\"&nbsp;&nbsp;OBS경인TV",
-   "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE81MGg0Mm1DZGxWNm1zNlJTX1Y0TDNhem9WQ0pjaURyU19PSFJYYlMxT0dUc0ZRaDBfVFNZVUFnSERLS1l3bVpFRExlenhQdjhUeXRNdGduVW1EMl9sTFIxNzZ5MjdDdnBOdEdHTlFR?oc=5",
-   "official": false,
-   "org": "OBS경인TV",
-   "kinds": [
-    "정책"
-   ],
-   "src_kind": "정책",
-   "sectors": [
-    "건설/부동산"
-   ],
-   "watch": [],
-   "id": 146,
+   "id": 147,
    "src": "KR_POLICY",
    "src_name": "한국 정책 (부처 발표)"
   },
@@ -3073,7 +3093,7 @@
    "src_kind": "산업",
    "sectors": [],
    "watch": [],
-   "id": 147,
+   "id": 148,
    "src": "KR_INDUS",
    "src_name": "한국 산업·공급망"
   },
@@ -3091,7 +3111,7 @@
    "src_kind": "산업",
    "sectors": [],
    "watch": [],
-   "id": 148,
+   "id": 149,
    "src": "KR_INDUS",
    "src_name": "한국 산업·공급망"
   },
@@ -3114,7 +3134,7 @@
    "watch": [
     "SMR"
    ],
-   "id": 149,
+   "id": 150,
    "src": "KR_INDUS",
    "src_name": "한국 산업·공급망"
   },
@@ -3135,7 +3155,7 @@
     "금속/광물"
    ],
    "watch": [],
-   "id": 150,
+   "id": 151,
    "src": "KR_INDUS",
    "src_name": "한국 산업·공급망"
   },
@@ -3158,7 +3178,7 @@
     "원전",
     "SMR"
    ],
-   "id": 151,
+   "id": 152,
    "src": "KR_INDUS",
    "src_name": "한국 산업·공급망"
   },
@@ -3180,7 +3200,7 @@
    "watch": [
     "반도체"
    ],
-   "id": 152,
+   "id": 153,
    "src": "KR_INDUS",
    "src_name": "한국 산업·공급망"
   },
@@ -3198,7 +3218,7 @@
    "src_kind": "산업",
    "sectors": [],
    "watch": [],
-   "id": 153,
+   "id": 154,
    "src": "KR_INDUS",
    "src_name": "한국 산업·공급망"
   },
@@ -3216,7 +3236,7 @@
    "src_kind": "산업",
    "sectors": [],
    "watch": [],
-   "id": 154,
+   "id": 155,
    "src": "KR_INDUS",
    "src_name": "한국 산업·공급망"
   },
@@ -3234,7 +3254,7 @@
    "src_kind": "산업",
    "sectors": [],
    "watch": [],
-   "id": 155,
+   "id": 156,
    "src": "KR_INDUS",
    "src_name": "한국 산업·공급망"
   },
@@ -3252,7 +3272,7 @@
    "src_kind": "산업",
    "sectors": [],
    "watch": [],
-   "id": 156,
+   "id": 157,
    "src": "KR_INDUS",
    "src_name": "한국 산업·공급망"
   },
@@ -3270,7 +3290,7 @@
    "src_kind": "산업",
    "sectors": [],
    "watch": [],
-   "id": 157,
+   "id": 158,
    "src": "KR_INDUS",
    "src_name": "한국 산업·공급망"
   },
@@ -3288,7 +3308,7 @@
    "src_kind": "해외",
    "sectors": [],
    "watch": [],
-   "id": 158,
+   "id": 159,
    "src": "GLOBAL",
    "src_name": "해외발 충격 (영문)"
   },
@@ -3308,7 +3328,7 @@
     "2차전지/ESS"
    ],
    "watch": [],
-   "id": 159,
+   "id": 160,
    "src": "GLOBAL",
    "src_name": "해외발 충격 (영문)"
   },
@@ -3326,7 +3346,25 @@
    "src_kind": "해외",
    "sectors": [],
    "watch": [],
-   "id": 160,
+   "id": 161,
+   "src": "GLOBAL",
+   "src_name": "해외발 충격 (영문)"
+  },
+  {
+   "title": "USMCA: Strategic Decisions That Will Shape Auto Sector's Future - mexicobusiness.news",
+   "core": "USMCA: Strategic Decisions That Will Shape Auto Sector's Future",
+   "date": "Wed, 12 Aug 2026",
+   "abstract": "USMCA: Strategic Decisions That Will Shape Auto Sector's Future&nbsp;&nbsp;mexicobusiness.news",
+   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQVTNJNldNVUlWNERUSTZmZjhEYUdHNFdMUjJpYm8waDRnRnZVNGhwcld3Vko3LU1QODZkNzZkOUVHMW9FN1BOQ1pHZVJvbTZ2LUJKQlBRYmlHRjBxMU5IdHB4Y2JLQVpOVTlvVVBzall3NGxtVU1SM2hSM1FiU0U4QTlNYWg2UEJxbVlPTFpkZVZWMHlnaS11WWZWd2N1bVp0WUE?oc=5",
+   "official": false,
+   "org": "mexicobusiness.news",
+   "kinds": [
+    "정책"
+   ],
+   "src_kind": "해외",
+   "sectors": [],
+   "watch": [],
+   "id": 162,
    "src": "GLOBAL",
    "src_name": "해외발 충격 (영문)"
   },
@@ -3346,97 +3384,7 @@
     "금속/광물"
    ],
    "watch": [],
-   "id": 161,
-   "src": "GLOBAL",
-   "src_name": "해외발 충격 (영문)"
-  },
-  {
-   "title": "Trump tariffs fallout: China moves to join Brazil’s WTO challenge of US forced labor duties - Undercurrent News",
-   "core": "Trump tariffs fallout: China moves to join Brazil’s WTO challenge of US forced labor duties",
-   "date": "Wed, 12 Aug 2026",
-   "abstract": "Trump tariffs fallout: China moves to join Brazil’s WTO challenge of US forced labor duties&nbsp;&nbsp;Undercurrent News",
-   "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5lbDBwSXYtSDBMaGNCMXNiVm1QU0htVGlHU1FDVi1NVE5zai11TmpKc2hydkt1elpKVjZTOVhLNW56clZEZmNmRWtCb1hFYzdIWWdkOFFfeEZVUml0Vm1EaFllV1ZubjJrcUVuLVE5dkVVSEdG?oc=5",
-   "official": false,
-   "org": "Undercurrent News",
-   "kinds": [
-    "정책"
-   ],
-   "src_kind": "해외",
-   "sectors": [],
-   "watch": [],
-   "id": 162,
-   "src": "GLOBAL",
-   "src_name": "해외발 충격 (영문)"
-  },
-  {
-   "title": "USMCA: Strategic Decisions That Will Shape Auto Sector's Future - Mexico Business News",
-   "core": "USMCA: Strategic Decisions That Will Shape Auto Sector's Future",
-   "date": "Wed, 12 Aug 2026",
-   "abstract": "USMCA: Strategic Decisions That Will Shape Auto Sector's Future&nbsp;&nbsp;Mexico Business News",
-   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQVTNJNldNVUlWNERUSTZmZjhEYUdHNFdMUjJpYm8waDRnRnZVNGhwcld3Vko3LU1QODZkNzZkOUVHMW9FN1BOQ1pHZVJvbTZ2LUJKQlBRYmlHRjBxMU5IdHB4Y2JLQVpOVTlvVVBzall3NGxtVU1SM2hSM1FiU0U4QTlNYWg2UEJxbVlPTFpkZVZWMHlnaS11WWZWd2N1bVp0WUE?oc=5",
-   "official": false,
-   "org": "Mexico Business News",
-   "kinds": [
-    "정책"
-   ],
-   "src_kind": "해외",
-   "sectors": [],
-   "watch": [],
    "id": 163,
-   "src": "GLOBAL",
-   "src_name": "해외발 충격 (영문)"
-  },
-  {
-   "title": "Beyond China: Why Latin America can become India’s next critical minerals and energy frontier - ET Government",
-   "core": "Beyond China: Why Latin America can become India’s next critical minerals and energy frontier",
-   "date": "Wed, 12 Aug 2026",
-   "abstract": "Beyond China: Why Latin America can become India’s next critical minerals and energy frontier&nbsp;&nbsp;ET Government",
-   "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPeUhaV2RhTm1COGt1RURBOVF4elNTTDllY3l4aUlDbGh2N2lOUE9xNWdlSWVyN2ozRjBXS3RpM0QzRDR2dW5RNUlFOFp4MmFfMDQ4S3dzZDNVV2dMSnVNT2dfc0poRWxRbXVBQUtGTGRjbnNOS3EzRDFMLUk2QV9ZT3NuWUswZ3E1T0xieW1iSXhYLUVqV0wwYTZUUzhWV3JGZjNMeTdCSXl3ODV1UVM4X2pQSlcwaGx3a2ZOV0FQX3VGVlVDT3R4cXdpUS1acFJQQ3VrQUxJQmhwZjRURTcxYWV0aFNaVjN2T3NGdloyZ1VoSXpjSkV1QdIB_gFBVV95cUxPR1ZIcGJzNFpjNUozZWNQR0t3a1ktNnhkX0syYmRib3RiclVHb3V0QzJDZTRPanJhRG5nUlM5VnBLVlpZMHZvR1EyeER2NVhsSTZ0TTVVM1ZLTVFvSDgwbHBubnNTRmlMc0pIejRISzBmNmdsQ3dheGpEcUdsVFZRWTQzSTkwLWl3Q1IzR05INnV3MDFQWTBZeFRmUXRLUVdQb2xfc2toaVR6ZWUyWEtkT29lT2xua3lEbDVpMHA5d2ZaS1UxWUw4TDJTSUdfeDhoMnd2Tko5a1hSalZNUFJRLWpLM0psbjE1cGctcXRWTnRzSWpMSVIzVWZQR084UQ?oc=5",
-   "official": false,
-   "org": "ET Government",
-   "kinds": [
-    "정책"
-   ],
-   "src_kind": "해외",
-   "sectors": [],
-   "watch": [],
-   "id": 164,
-   "src": "GLOBAL",
-   "src_name": "해외발 충격 (영문)"
-  },
-  {
-   "title": "Ten Fault Lines That Will Define the Global Energy Transition - ORF Middle East",
-   "core": "Ten Fault Lines That Will Define the Global Energy Transition",
-   "date": "Tue, 11 Aug 2026",
-   "abstract": "Ten Fault Lines That Will Define the Global Energy Transition&nbsp;&nbsp;ORF Middle East",
-   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNZEMtQWE3eWFjOEo1ME9jdkVhRlFUcXdIamFGeGxlY3MzQ3FvM1M3VmRUYkJLZXpsRWxHemJiTFNxX0RnUVJlMi10bEduU1NfLXZRTWRDLUlsM0ZMR2NhcEdTeGplV1NnZjRiRW4zUGRBMkFOOEFhLWhMUHlQMExxLVBETndEamZhcTh2am9wUXRwZ0RoajVBVg?oc=5",
-   "official": false,
-   "org": "ORF Middle East",
-   "kinds": [
-    "정책"
-   ],
-   "src_kind": "해외",
-   "sectors": [],
-   "watch": [],
-   "id": 165,
-   "src": "GLOBAL",
-   "src_name": "해외발 충격 (영문)"
-  },
-  {
-   "title": "Under the Radar: The Hidden Winners of the Critical Minerals Boom - Benzinga",
-   "core": "Under the Radar: The Hidden Winners of the Critical Minerals Boom",
-   "date": "Tue, 11 Aug 2026",
-   "abstract": "Under the Radar: The Hidden Winners of the Critical Minerals Boom&nbsp;&nbsp;Benzinga",
-   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNRkQzS21icWs2RFVRQzRIaGhMX0lfaERXWExGNmVwa3NKTHBSLU1na2hMYUFnVFAzVU50MGx4ZGFHVFRmbEFQc2VCYTF1aUhhMU9VeU5IcktYdWYyN0c5Zkw5d3E2MEFJUWVOQTdqdlMyMTlQOE5jRHV1bXVpZ0NPU2VQOEpvMjl3ZGJyTmZoQ09XVlpXVjVxTWU5T2pKVy1KMFAtREZOQUc4aFdaY0E?oc=5",
-   "official": false,
-   "org": "Benzinga",
-   "kinds": [
-    "정책"
-   ],
-   "src_kind": "해외",
-   "sectors": [],
-   "watch": [],
-   "id": 166,
    "src": "GLOBAL",
    "src_name": "해외발 충격 (영문)"
   },
@@ -3456,18 +3404,72 @@
     "금속/광물"
    ],
    "watch": [],
+   "id": 164,
+   "src": "GLOBAL",
+   "src_name": "해외발 충격 (영문)"
+  },
+  {
+   "title": "Trump tariffs fallout: China moves to join Brazil’s WTO challenge of US forced labor duties - Undercurrent News",
+   "core": "Trump tariffs fallout: China moves to join Brazil’s WTO challenge of US forced labor duties",
+   "date": "Wed, 12 Aug 2026",
+   "abstract": "Trump tariffs fallout: China moves to join Brazil’s WTO challenge of US forced labor duties&nbsp;&nbsp;Undercurrent News",
+   "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5lbDBwSXYtSDBMaGNCMXNiVm1QU0htVGlHU1FDVi1NVE5zai11TmpKc2hydkt1elpKVjZTOVhLNW56clZEZmNmRWtCb1hFYzdIWWdkOFFfeEZVUml0Vm1EaFllV1ZubjJrcUVuLVE5dkVVSEdG?oc=5",
+   "official": false,
+   "org": "Undercurrent News",
+   "kinds": [
+    "정책"
+   ],
+   "src_kind": "해외",
+   "sectors": [],
+   "watch": [],
+   "id": 165,
+   "src": "GLOBAL",
+   "src_name": "해외발 충격 (영문)"
+  },
+  {
+   "title": "Beyond China: Why Latin America can become India’s next critical minerals and energy frontier - ET Government",
+   "core": "Beyond China: Why Latin America can become India’s next critical minerals and energy frontier",
+   "date": "Wed, 12 Aug 2026",
+   "abstract": "Beyond China: Why Latin America can become India’s next critical minerals and energy frontier&nbsp;&nbsp;ET Government",
+   "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPeUhaV2RhTm1COGt1RURBOVF4elNTTDllY3l4aUlDbGh2N2lOUE9xNWdlSWVyN2ozRjBXS3RpM0QzRDR2dW5RNUlFOFp4MmFfMDQ4S3dzZDNVV2dMSnVNT2dfc0poRWxRbXVBQUtGTGRjbnNOS3EzRDFMLUk2QV9ZT3NuWUswZ3E1T0xieW1iSXhYLUVqV0wwYTZUUzhWV3JGZjNMeTdCSXl3ODV1UVM4X2pQSlcwaGx3a2ZOV0FQX3VGVlVDT3R4cXdpUS1acFJQQ3VrQUxJQmhwZjRURTcxYWV0aFNaVjN2T3NGdloyZ1VoSXpjSkV1QdIB_gFBVV95cUxPR1ZIcGJzNFpjNUozZWNQR0t3a1ktNnhkX0syYmRib3RiclVHb3V0QzJDZTRPanJhRG5nUlM5VnBLVlpZMHZvR1EyeER2NVhsSTZ0TTVVM1ZLTVFvSDgwbHBubnNTRmlMc0pIejRISzBmNmdsQ3dheGpEcUdsVFZRWTQzSTkwLWl3Q1IzR05INnV3MDFQWTBZeFRmUXRLUVdQb2xfc2toaVR6ZWUyWEtkT29lT2xua3lEbDVpMHA5d2ZaS1UxWUw4TDJTSUdfeDhoMnd2Tko5a1hSalZNUFJRLWpLM0psbjE1cGctcXRWTnRzSWpMSVIzVWZQR084UQ?oc=5",
+   "official": false,
+   "org": "ET Government",
+   "kinds": [
+    "정책"
+   ],
+   "src_kind": "해외",
+   "sectors": [],
+   "watch": [],
+   "id": 166,
+   "src": "GLOBAL",
+   "src_name": "해외발 충격 (영문)"
+  },
+  {
+   "title": "Ten Fault Lines That Will Define the Global Energy Transition - ORF Middle East",
+   "core": "Ten Fault Lines That Will Define the Global Energy Transition",
+   "date": "Tue, 11 Aug 2026",
+   "abstract": "Ten Fault Lines That Will Define the Global Energy Transition&nbsp;&nbsp;ORF Middle East",
+   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNZEMtQWE3eWFjOEo1ME9jdkVhRlFUcXdIamFGeGxlY3MzQ3FvM1M3VmRUYkJLZXpsRWxHemJiTFNxX0RnUVJlMi10bEduU1NfLXZRTWRDLUlsM0ZMR2NhcEdTeGplV1NnZjRiRW4zUGRBMkFOOEFhLWhMUHlQMExxLVBETndEamZhcTh2am9wUXRwZ0RoajVBVg?oc=5",
+   "official": false,
+   "org": "ORF Middle East",
+   "kinds": [
+    "정책"
+   ],
+   "src_kind": "해외",
+   "sectors": [],
+   "watch": [],
    "id": 167,
    "src": "GLOBAL",
    "src_name": "해외발 충격 (영문)"
   },
   {
-   "title": "Is Climate Diplomacy Becoming National Security Policy? - Modern Diplomacy",
-   "core": "Is Climate Diplomacy Becoming National Security Policy?",
-   "date": "Wed, 12 Aug 2026",
-   "abstract": "Is Climate Diplomacy Becoming National Security Policy?&nbsp;&nbsp;Modern Diplomacy",
-   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNdGtxZFRZUF9MMmcyQnkwT0ZsRUluR3UwX1JRUXJqMFpYLVRiSnpFSF9nTHVHX24ySFNoV3JxWGZyMGt5NWNnVTBvUTZEN2ZOUGNhN2JnN1B5VGJkbHFUaHVNdEpzTkFpWnA3SThyS21BaDVDR1llOEZyekNpTnRvbjh2TE5hVmhnRXpiVUhraVlORXdOVWN2TA?oc=5",
+   "title": "Under the Radar: The Hidden Winners of the Critical Minerals Boom - Benzinga",
+   "core": "Under the Radar: The Hidden Winners of the Critical Minerals Boom",
+   "date": "Tue, 11 Aug 2026",
+   "abstract": "Under the Radar: The Hidden Winners of the Critical Minerals Boom&nbsp;&nbsp;Benzinga",
+   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNRkQzS21icWs2RFVRQzRIaGhMX0lfaERXWExGNmVwa3NKTHBSLU1na2hMYUFnVFAzVU50MGx4ZGFHVFRmbEFQc2VCYTF1aUhhMU9VeU5IcktYdWYyN0c5Zkw5d3E2MEFJUWVOQTdqdlMyMTlQOE5jRHV1bXVpZ0NPU2VQOEpvMjl3ZGJyTmZoQ09XVlpXVjVxTWU5T2pKVy1KMFAtREZOQUc4aFdaY0E?oc=5",
    "official": false,
-   "org": "Modern Diplomacy",
+   "org": "Benzinga",
    "kinds": [
     "정책"
    ],
@@ -3475,6 +3477,24 @@
    "sectors": [],
    "watch": [],
    "id": 168,
+   "src": "GLOBAL",
+   "src_name": "해외발 충격 (영문)"
+  },
+  {
+   "title": "Is Climate Diplomacy Becoming National Security Policy? - moderndiplomacy.eu",
+   "core": "Is Climate Diplomacy Becoming National Security Policy?",
+   "date": "Wed, 12 Aug 2026",
+   "abstract": "Is Climate Diplomacy Becoming National Security Policy?&nbsp;&nbsp;moderndiplomacy.eu",
+   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNdGtxZFRZUF9MMmcyQnkwT0ZsRUluR3UwX1JRUXJqMFpYLVRiSnpFSF9nTHVHX24ySFNoV3JxWGZyMGt5NWNnVTBvUTZEN2ZOUGNhN2JnN1B5VGJkbHFUaHVNdEpzTkFpWnA3SThyS21BaDVDR1llOEZyekNpTnRvbjh2TE5hVmhnRXpiVUhraVlORXdOVWN2TA?oc=5",
+   "official": false,
+   "org": "moderndiplomacy.eu",
+   "kinds": [
+    "정책"
+   ],
+   "src_kind": "해외",
+   "sectors": [],
+   "watch": [],
+   "id": 169,
    "src": "GLOBAL",
    "src_name": "해외발 충격 (영문)"
   },
@@ -3492,7 +3512,7 @@
    "src_kind": "해외",
    "sectors": [],
    "watch": [],
-   "id": 169,
+   "id": 170,
    "src": "GLOBAL",
    "src_name": "해외발 충격 (영문)"
   },
@@ -3510,7 +3530,7 @@
    "src_kind": "해외",
    "sectors": [],
    "watch": [],
-   "id": 170,
+   "id": 171,
    "src": "GLOBAL",
    "src_name": "해외발 충격 (영문)"
   },
@@ -3528,7 +3548,7 @@
    "src_kind": "해외",
    "sectors": [],
    "watch": [],
-   "id": 171,
+   "id": 172,
    "src": "GLOBAL",
    "src_name": "해외발 충격 (영문)"
   },
@@ -3548,7 +3568,7 @@
     "금속/광물"
    ],
    "watch": [],
-   "id": 172,
+   "id": 173,
    "src": "GLOBAL",
    "src_name": "해외발 충격 (영문)"
   },
@@ -3568,7 +3588,7 @@
     "금속/광물"
    ],
    "watch": [],
-   "id": 173,
+   "id": 174,
    "src": "GLOBAL",
    "src_name": "해외발 충격 (영문)"
   },
@@ -3588,43 +3608,7 @@
     "금속/광물"
    ],
    "watch": [],
-   "id": 174,
-   "src": "GLOBAL",
-   "src_name": "해외발 충격 (영문)"
-  },
-  {
-   "title": "European Union Retaining Rings - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
-   "core": "European Union Retaining Rings - Market Analysis, Forecast, Size, Trends and Insights",
-   "date": "Mon, 10 Aug 2026",
-   "abstract": "European Union Retaining Rings - Market Analysis, Forecast, Size, Trends and Insights&nbsp;&nbsp;IndexBox",
-   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOYnZpSlkxWGRXU09FaVphQUlPNUJoSG4zdFhKcUhuWnlHTHkzTnI3WGE5bFh4WXdrc18xdmI1cUpsLUt1bWJJeG1ZWDBzWkw1YW43cW9LQ0ZtaEFFWWxkdUluZkFsNGZ3aUtyOXhpQlVhQXA4S3VnM1NZWGJrVTlvaU1YVm9ueTI4RHdRcGljcE5xSzM2dWxEQXNNR045ZTF5U0k3cWFqRU5fRzFFUHZDZQ?oc=5",
-   "official": false,
-   "org": "IndexBox",
-   "kinds": [
-    "정책"
-   ],
-   "src_kind": "해외",
-   "sectors": [],
-   "watch": [],
    "id": 175,
-   "src": "GLOBAL",
-   "src_name": "해외발 충격 (영문)"
-  },
-  {
-   "title": "European Union Shoulder Washers - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
-   "core": "European Union Shoulder Washers - Market Analysis, Forecast, Size, Trends and Insights",
-   "date": "Mon, 10 Aug 2026",
-   "abstract": "European Union Shoulder Washers - Market Analysis, Forecast, Size, Trends and Insights&nbsp;&nbsp;IndexBox",
-   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxONTh1NjhvQWJkcWxHOGN1RTFpYkFDRDBqYzJzaE5CcXFOS0pLYzhuLVdvcjRtQlljaG5kUnExd3F4MG9HT0R5Zk1ZazRHN1pNY1dIaDk5SUF1Q3owc2phMWZtdTJ3WUZma3pIQjVhSzBKSnlneE9Ob1VYQV92R3pEUHVLd0hqNmIzRHp5SFZ1X2t2QVAzWFJpNkUtUEt5Sm1fdlJFT3N6d0xKQzZvN2FFRXhn?oc=5",
-   "official": false,
-   "org": "IndexBox",
-   "kinds": [
-    "정책"
-   ],
-   "src_kind": "해외",
-   "sectors": [],
-   "watch": [],
-   "id": 176,
    "src": "GLOBAL",
    "src_name": "해외발 충격 (영문)"
   },
@@ -3642,7 +3626,43 @@
    "src_kind": "해외",
    "sectors": [],
    "watch": [],
+   "id": 176,
+   "src": "GLOBAL",
+   "src_name": "해외발 충격 (영문)"
+  },
+  {
+   "title": "European Union Retaining Rings - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+   "core": "European Union Retaining Rings - Market Analysis, Forecast, Size, Trends and Insights",
+   "date": "Mon, 10 Aug 2026",
+   "abstract": "European Union Retaining Rings - Market Analysis, Forecast, Size, Trends and Insights&nbsp;&nbsp;IndexBox",
+   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOYnZpSlkxWGRXU09FaVphQUlPNUJoSG4zdFhKcUhuWnlHTHkzTnI3WGE5bFh4WXdrc18xdmI1cUpsLUt1bWJJeG1ZWDBzWkw1YW43cW9LQ0ZtaEFFWWxkdUluZkFsNGZ3aUtyOXhpQlVhQXA4S3VnM1NZWGJrVTlvaU1YVm9ueTI4RHdRcGljcE5xSzM2dWxEQXNNR045ZTF5U0k3cWFqRU5fRzFFUHZDZQ?oc=5",
+   "official": false,
+   "org": "IndexBox",
+   "kinds": [
+    "정책"
+   ],
+   "src_kind": "해외",
+   "sectors": [],
+   "watch": [],
    "id": 177,
+   "src": "GLOBAL",
+   "src_name": "해외발 충격 (영문)"
+  },
+  {
+   "title": "European Union Shoulder Washers - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+   "core": "European Union Shoulder Washers - Market Analysis, Forecast, Size, Trends and Insights",
+   "date": "Mon, 10 Aug 2026",
+   "abstract": "European Union Shoulder Washers - Market Analysis, Forecast, Size, Trends and Insights&nbsp;&nbsp;IndexBox",
+   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxONTh1NjhvQWJkcWxHOGN1RTFpYkFDRDBqYzJzaE5CcXFOS0pLYzhuLVdvcjRtQlljaG5kUnExd3F4MG9HT0R5Zk1ZazRHN1pNY1dIaDk5SUF1Q3owc2phMWZtdTJ3WUZma3pIQjVhSzBKSnlneE9Ob1VYQV92R3pEUHVLd0hqNmIzRHp5SFZ1X2t2QVAzWFJpNkUtUEt5Sm1fdlJFT3N6d0xKQzZvN2FFRXhn?oc=5",
+   "official": false,
+   "org": "IndexBox",
+   "kinds": [
+    "정책"
+   ],
+   "src_kind": "해외",
+   "sectors": [],
+   "watch": [],
+   "id": 178,
    "src": "GLOBAL",
    "src_name": "해외발 충격 (영문)"
   },
@@ -3662,7 +3682,7 @@
     "금리/통화"
    ],
    "watch": [],
-   "id": 178,
+   "id": 179,
    "src": "CALENDAR",
    "src_name": "예정 일정"
   },
@@ -3682,7 +3702,7 @@
     "금리/통화"
    ],
    "watch": [],
-   "id": 179,
+   "id": 180,
    "src": "CALENDAR",
    "src_name": "예정 일정"
   },
@@ -3702,7 +3722,7 @@
     "금리/통화"
    ],
    "watch": [],
-   "id": 180,
+   "id": 181,
    "src": "CALENDAR",
    "src_name": "예정 일정"
   },
@@ -3722,7 +3742,7 @@
     "금리/통화"
    ],
    "watch": [],
-   "id": 181,
+   "id": 182,
    "src": "CALENDAR",
    "src_name": "예정 일정"
   },
@@ -3742,7 +3762,7 @@
     "금리/통화"
    ],
    "watch": [],
-   "id": 182,
+   "id": 183,
    "src": "CALENDAR",
    "src_name": "예정 일정"
   },
@@ -3762,7 +3782,7 @@
     "금리/통화"
    ],
    "watch": [],
-   "id": 183,
+   "id": 184,
    "src": "CALENDAR",
    "src_name": "예정 일정"
   },
@@ -3782,7 +3802,7 @@
     "금리/통화"
    ],
    "watch": [],
-   "id": 184,
+   "id": 185,
    "src": "CALENDAR",
    "src_name": "예정 일정"
   },
@@ -3802,7 +3822,7 @@
     "금리/통화"
    ],
    "watch": [],
-   "id": 185,
+   "id": 186,
    "src": "CALENDAR",
    "src_name": "예정 일정"
   }

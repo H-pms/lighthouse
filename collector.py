@@ -189,65 +189,43 @@ def dart_corp():
         except Exception: pass
     return m
 
-DART_DETAIL = {
-    "단일판매": ("dsclsRcpt", None),
-}
-
-def dart_body(rcept_no, report_nm, corp_code, key):
-    """공시 유형별 상세 API로 핵심 수치를 뽑는다. 실패하면 None."""
-    end = TODAY.strftime("%Y%m%d"); bgn = (TODAY - timedelta(days=7)).strftime("%Y%m%d")
-    def call(path, extra=None):
-        p = {"crtfc_key": key, "corp_code": corp_code, "bgn_de": bgn, "end_de": end}
-        if extra: p.update(extra)
-        try:
-            r = requests.get(f"https://opendart.fss.or.kr/api/{path}", params=p, timeout=25)
-            if r.status_code != 200: return None
-            j = r.json()
-            if j.get("status") != "000": return None
-            for x in j.get("list", []):
-                if x.get("rcept_no") == rcept_no:
-                    return x
-            return (j.get("list") or [None])[0]
-        except Exception:
+def dart_body(rcept_no, report_nm, corp_code, key, limit=700):
+    """공시 원문(document.xml)을 받아 핵심 표·문장을 추출한다. 유형 무관."""
+    try:
+        r = requests.get("https://opendart.fss.or.kr/api/document.xml",
+                         params={"crtfc_key": key, "rcept_no": rcept_no}, timeout=30)
+        if r.status_code != 200 or len(r.content) < 500:
             return None
-
-    nm = report_nm or ""
-    def won(v):
-        try:
-            n = float(str(v).replace(",", ""))
-            if abs(n) >= 1e12: return f"{n/1e12:.2f}조원"
-            if abs(n) >= 1e8:  return f"{n/1e8:,.0f}억원"
-            return f"{n:,.0f}원"
-        except Exception:
-            return str(v)
-
-    if "유상증자" in nm:
-        d = call("piicDecsn")
-        if d:
-            return (f"신주 {d.get('nstk_ostk_cnt','?')}주 · 조달 {won(d.get('fdpp_fclt') or d.get('fdpp_bsninh') or 0)} "
-                    f"· 방식 {d.get('ic_mthn','?')} · 발행가 {d.get('nstk_asstinh_pymnt_dt','')} "
-                    f"· 자금용도: 시설 {won(d.get('fdpp_fclt',0))}, 운영 {won(d.get('fdpp_op',0))}, "
-                    f"채무상환 {won(d.get('fdpp_dtrp',0))}")
-    if "자기주식" in nm and "취득" in nm:
-        d = call("tsstkAqDecsn") or call("tsstkAqTrgtDecsn")
-        if d:
-            return (f"취득 예정 {d.get('aq_pp_stk_ostk','?')}주 · 금액 {won(d.get('aq_wtn_div_ostk') or d.get('ctr_prc') or 0)} "
-                    f"· 목적 {d.get('aq_pp','')} · 기간 {d.get('aq_pd_bgd','')}~{d.get('aq_pd_edd','')}")
-    if "전환사채" in nm:
-        d = call("cvbdIsDecsn")
-        if d:
-            return (f"발행금액 {won(d.get('bd_fta',0))} · 만기 {d.get('bd_mtd','')} "
-                    f"· 전환가 {d.get('cv_prc','?')}원 · 자금용도: 시설 {won(d.get('fdpp_fclt',0))}, 운영 {won(d.get('fdpp_op',0))}")
-    if "소송" in nm:
-        d = call("lwstLg")
-        if d:
-            return (f"사건 {d.get('icnm','')} · 원고 {d.get('accusr','')} · 청구금액 {won(d.get('rq_cn') or 0)} "
-                    f"· 관할 {d.get('cpct','')}")
-    if "최대주주" in nm:
-        d = call("cprnd") or call("mrhrChg")
-        if d:
-            return f"변경 전 {d.get('bf_mkchg','')} → 후 {d.get('af_mkchg','')} · 지분 {d.get('chg_rt','?')}%"
-    return None
+        z = zipfile.ZipFile(io.BytesIO(r.content))
+        raw = z.read(z.namelist()[0])
+        for enc in ("euc-kr", "cp949", "utf-8"):
+            try:
+                html = raw.decode(enc); break
+            except Exception:
+                continue
+        else:
+            return None
+        # 표를 "항목: 값" 형태로
+        pairs = []
+        for tr in re.findall(r"(?is)<TR[^>]*>(.*?)</TR>", html):
+            cells = [re.sub(r"(?s)<[^>]+>", " ", c) for c in re.findall(r"(?is)<T[DEH][^>]*>(.*?)</T[DEH]>", tr)]
+            cells = [re.sub(r"&[a-z]+;|&#\d+;", " ", c) for c in cells]
+            cells = [re.sub(r"\s+", " ", c).strip() for c in cells]
+            cells = [c for c in cells if c and c not in ("-", "－")]
+            if len(cells) >= 2:
+                k, v = cells[0][:28], " ".join(cells[1:])[:60]
+                if k and v and not k.startswith("주") and len(k) > 1:
+                    pairs.append(f"{k}: {v}")
+        out = " · ".join(pairs[:14])
+        if len(out) < 40:
+            txt = re.sub(r"(?is)<(script|style)[^>]*>.*?</\1>", " ", html)
+            txt = re.sub(r"(?s)<[^>]+>", " ", txt)
+            txt = re.sub(r"&[a-z]+;|&#\d+;", " ", txt)
+            txt = re.sub(r"\s+", " ", txt).strip()
+            out = txt[:limit]
+        return out[:limit] if out and len(out) > 30 else None
+    except Exception:
+        return None
 
 def fetch_dart():
     """전 시장 주요 공시 + 워치리스트 종목 공시"""
@@ -272,7 +250,7 @@ def fetch_dart():
                 if not ks: continue
                 sc = rev.get(x.get("corp_code"), ("", x.get("corp_name","")))
                 body = ""
-                if any(k in ks for k in ("의지","자본","위험")) and len(out) < 60:
+                if any(k in ks for k in ("의지","자본","위험","실체")) and len(out) < 40:
                     body = dart_body(x.get("rcept_no"), nm, x.get("corp_code"), key) or ""
                 out.append(item(title=f"{x.get('corp_name')} — {nm}", core=f"{x.get('corp_name')} {nm}",
                     date=x.get("rcept_dt",""), org=f"DART·{label}", official=True, kinds=ks,
@@ -333,7 +311,7 @@ def fetch_edgar():
                 lab = US_FORM.get(f, US_FORM.get(f.split("/")[0], f))
                 acc = rec["accessionNumber"][i].replace("-","")
                 body = ""
-                if f.startswith(("8-K","10-Q","10-K")):
+                if f.startswith("8-K"):
                     try:
                         doc = rec.get("primaryDocument", [""])[i]
                         rr = requests.get(
@@ -344,8 +322,15 @@ def fetch_edgar():
                             txt = re.sub(r"(?s)<[^>]+>", " ", txt)
                             txt = re.sub(r"&[a-z]+;|&#\d+;", " ", txt)
                             txt = re.sub(r"\s+", " ", txt).strip()
+                            txt = re.sub(r"(?i)\b(xbrli?|iso4217|us-gaap|dei):\S+", " ", txt)
+                            txt = re.sub(r"\b[Pp]\d+[YMD]\b", " ", txt)
+                            txt = re.sub(r"\s+", " ", txt)
+                            # Item 조항부터 시작 — 앞의 표지·태그 잔재는 버린다
                             m2 = re.search(r"(?i)(item\s+\d+\.\d+[^.]{0,90}\.)(.{200,1200})", txt)
-                            raw = (m2.group(1)+m2.group(2)) if m2 else txt[:900]
+                            raw = (m2.group(1) + m2.group(2)) if m2 else ""
+                            if len(raw) < 120:
+                                m3 = re.search(r"(?i)(announc|report|result|agreement|entered into|completed)(.{200,900})", txt)
+                                raw = (m3.group(1)+m3.group(2)) if m3 else txt[:800]
                             kb, _ = to_ko(raw[:900])
                             body = kb or raw[:900]
                     except Exception:

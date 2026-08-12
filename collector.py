@@ -189,6 +189,10 @@ def dart_corp():
         except Exception: pass
     return m
 
+COVER = re.compile(r"(금융위원회|한국거래소|회\s*사\s*명|대\s*표\s*이\s*사|본\s*점\s*소\s*재\s*지|"
+                   r"작\s*성\s*책\s*임\s*자|전\s*화\s*번\s*호|홈페이지|전자우편|담당자|"
+                   r"정정대상 공시서류|제출일|귀중)")
+
 def dart_body(rcept_no, report_nm, corp_code, key, limit=700):
     """공시 원문(document.xml)을 받아 핵심 표·문장을 추출한다. 유형 무관."""
     try:
@@ -214,8 +218,11 @@ def dart_body(rcept_no, report_nm, corp_code, key, limit=700):
             cells = [c for c in cells if c and c not in ("-", "－")]
             if len(cells) >= 2:
                 k, v = cells[0][:28], " ".join(cells[1:])[:60]
-                if k and v and not k.startswith("주") and len(k) > 1:
-                    pairs.append(f"{k}: {v}")
+                if not (k and v and len(k) > 1) or k.startswith("주"):
+                    continue
+                if COVER.search(k):        # 모든 공시에 붙는 표지 — 버림
+                    continue
+                pairs.append(f"{k}: {v}")
         out = " · ".join(pairs[:14])
         if len(out) < 40:
             txt = re.sub(r"(?is)<(script|style)[^>]*>.*?</\1>", " ", html)
@@ -311,7 +318,7 @@ def fetch_edgar():
                 lab = US_FORM.get(f, US_FORM.get(f.split("/")[0], f))
                 acc = rec["accessionNumber"][i].replace("-","")
                 body = ""
-                if f.startswith("8-K"):
+                if f.startswith(("8-K", "10-Q", "10-K")):
                     try:
                         doc = rec.get("primaryDocument", [""])[i]
                         rr = requests.get(
@@ -326,10 +333,19 @@ def fetch_edgar():
                             txt = re.sub(r"\b[Pp]\d+[YMD]\b", " ", txt)
                             txt = re.sub(r"\s+", " ", txt)
                             # Item 조항부터 시작 — 앞의 표지·태그 잔재는 버린다
-                            m2 = re.search(r"(?i)(item\s+\d+\.\d+[^.]{0,90}\.)(.{200,1200})", txt)
-                            raw = (m2.group(1) + m2.group(2)) if m2 else ""
+                            raw = ""
+                            if f.startswith("8-K"):
+                                m2 = re.search(r"(?i)(item\s+\d+\.\d+[^.]{0,90}\.)(.{200,1200})", txt)
+                                raw = (m2.group(1) + m2.group(2)) if m2 else ""
+                            else:
+                                # 10-Q/10-K: 경영진 논의(MD&A)에서 수치 있는 문장만
+                                m4 = re.search(r"(?is)(management.s discussion and analysis.{0,120})(.{400,4000})", txt)
+                                seg = m4.group(2) if m4 else txt
+                                sents = [s.strip() for s in re.split(r"(?<=\.)\s+", seg)
+                                         if 60 < len(s) < 300 and re.search(r"\$[\d,.]+\s*(million|billion)|\d+(\.\d+)?%", s)]
+                                raw = " ".join(sents[:6])
                             if len(raw) < 120:
-                                m3 = re.search(r"(?i)(announc|report|result|agreement|entered into|completed)(.{200,900})", txt)
+                                m3 = re.search(r"(?i)(announc|reported|revenue|agreement|entered into|completed)(.{200,900})", txt)
                                 raw = (m3.group(1)+m3.group(2)) if m3 else txt[:800]
                             kb, _ = to_ko(raw[:900])
                             body = kb or raw[:900]

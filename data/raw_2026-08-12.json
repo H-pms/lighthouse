@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-12 22:01",
+ "generated": "2026-08-12 22:12",
  "date": "2026-08-12",
  "sources": [
   {
@@ -2903,26 +2903,6 @@
    "src_name": "한국 정책 (부처 발표)"
   },
   {
-   "title": "\"재건축 규제 완화, 청년 월세공제 상향\" - 한국경제",
-   "core": "\"재건축 규제 완화, 청년 월세공제 상향\"",
-   "date": "Wed, 12 Aug 2026",
-   "abstract": "\"재건축 규제 완화, 청년 월세공제 상향\"&nbsp;&nbsp;한국경제",
-   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFAxVzBIR2UtOW5HRElfRzBWaUc1VlRSd3RrY2dqTWJkZi16NGZfQUNSOWRqd0YwSUEwSjZXTHVFcl9xWE44MTh0MFRGTVotUEcxeGJEdzZLQjY1Zw?oc=5",
-   "official": false,
-   "org": "한국경제",
-   "kinds": [
-    "정책"
-   ],
-   "src_kind": "정책",
-   "sectors": [
-    "건설/부동산"
-   ],
-   "watch": [],
-   "id": 139,
-   "src": "KR_POLICY",
-   "src_name": "한국 정책 (부처 발표)"
-  },
-  {
    "title": "세제개편에 韓 부동산은 혼돈…시장은 셈법 복잡, 건설사는 '훈풍' 기대 - 인베스트조선",
    "core": "세제개편에 韓 부동산은 혼돈…시장은 셈법 복잡, 건설사는 '훈풍' 기대",
    "date": "Tue, 11 Aug 2026",
@@ -2939,18 +2919,38 @@
     "건설/부동산"
    ],
    "watch": [],
+   "id": 139,
+   "src": "KR_POLICY",
+   "src_name": "한국 정책 (부처 발표)"
+  },
+  {
+   "title": "\"재건축 규제 완화, 청년 월세공제 상향\" - 한국경제",
+   "core": "\"재건축 규제 완화, 청년 월세공제 상향\"",
+   "date": "Wed, 12 Aug 2026",
+   "abstract": "\"재건축 규제 완화, 청년 월세공제 상향\"&nbsp;&nbsp;한국경제",
+   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFAxVzBIR2UtOW5HRElfRzBWaUc1VlRSd3RrY2dqTWJkZi16NGZfQUNSOWRqd0YwSUEwSjZXTHVFcl9xWE44MTh0MFRGTVotUEcxeGJEdzZLQjY1Zw?oc=5",
+   "official": false,
+   "org": "한국경제",
+   "kinds": [
+    "정책"
+   ],
+   "src_kind": "정책",
+   "sectors": [
+    "건설/부동산"
+   ],
+   "watch": [],
    "id": 140,
    "src": "KR_POLICY",
    "src_name": "한국 정책 (부처 발표)"
   },
   {
-   "title": "李대통령이 열어둔 세제개편 수정…'비거주 1주택' 넘어 어디까지 손대나 - news.einfomax.co.kr",
+   "title": "李대통령이 열어둔 세제개편 수정…'비거주 1주택' 넘어 어디까지 손대나 - 연합인포맥스",
    "core": "李대통령이 열어둔 세제개편 수정…'비거주 1주택' 넘어 어디까지 손대나",
    "date": "Tue, 11 Aug 2026",
-   "abstract": "李대통령이 열어둔 세제개편 수정…'비거주 1주택' 넘어 어디까지 손대나&nbsp;&nbsp;news.einfomax.co.kr",
+   "abstract": "李대통령이 열어둔 세제개편 수정…'비거주 1주택' 넘어 어디까지 손대나&nbsp;&nbsp;연합인포맥스",
    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBfa1I4eXY1ZHBPZ3dCUm5CU1I1SElGRmhTVy1zQVEtaGF2VXZxV0VBY2J4Z1ZKR0tBcHg0Y1VkQVFNdl9IMGhsTmxJZHBxeWZhSklkNTZOQjVMbXdsR2VUOFZ1LWFKdkw1YUFJOFpWVlM?oc=5",
    "official": false,
-   "org": "news.einfomax.co.kr",
+   "org": "연합인포맥스",
    "kinds": [
     "정책"
    ],
@@ -3223,13 +3223,13 @@
    "src_name": "한국 산업·공급망"
   },
   {
-   "title": "코트라, 수출 다변화 총력전…\"수출 1조 달러, 수출 4강 달성 앞당긴다\" - 뉴스1",
+   "title": "코트라, 수출 다변화 총력전…\"수출 1조 달러, 수출 4강 달성 앞당긴다\" - news1.kr",
    "core": "코트라, 수출 다변화 총력전…\"수출 1조 달러, 수출 4강 달성 앞당긴다\"",
    "date": "Tue, 11 Aug 2026",
-   "abstract": "코트라, 수출 다변화 총력전…\"수출 1조 달러, 수출 4강 달성 앞당긴다\"&nbsp;&nbsp;뉴스1",
+   "abstract": "코트라, 수출 다변화 총력전…\"수출 1조 달러, 수출 4강 달성 앞당긴다\"&nbsp;&nbsp;news1.kr",
    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5vQUJyMFQtN3FtLVFUMkcwYjZ0ZWxfLVB6RkRRR1lLcWlrSlBsOGtjTWd4UE93WGVxS1hiWkFqcldLa3dPSlB5UGh6UEVyaXRzUjQ1Nm9hNTBGSHh2VURSaExCenTSAWRBVV95cUxOb0FCcjBULTdxbS1RVDJHMGI2dGVsXy1QekZEUUdZS3Fpa0pQbDhrY01neFBPd1hlcUtYYlpBanJXS2t3T0pQeVBoelBFcml0c1I0NTZvYTUwRkh4dlVEUmhMQnp0?oc=5",
    "official": false,
-   "org": "뉴스1",
+   "org": "news1.kr",
    "kinds": [
     "정책"
    ],

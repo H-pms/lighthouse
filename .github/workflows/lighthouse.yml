@@ -3,7 +3,11 @@ on:
   workflow_dispatch:          # 수동 실행 버튼
     inputs:
       weekly:
-        description: '주간 AI 보고서도 함께 실행'
+        description: '주간 AI 보고서도 함께 실행 (유료 — API 크레딧 소모)'
+        type: boolean
+        default: false
+      force:
+        description: '오늘 이미 만들었어도 다시 생성 (중복 방지 해제)'
         type: boolean
         default: false
   schedule:
@@ -59,6 +63,8 @@ jobs:
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           GITHUB_REPOSITORY: ${{ github.repository }}
+          FORCE_REPORT: ${{ inputs.force }}
+          REPORT_MONTH_LIMIT: "8"
         run: python reporter.py
 
       - name: 4) 결과 저장

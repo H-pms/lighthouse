@@ -10,6 +10,10 @@ on:
         description: '오늘 이미 만들었어도 다시 생성 (중복 방지 해제)'
         type: boolean
         default: false
+      free:
+        description: '무료 요약만 (AI 미사용 · 비용 0원)'
+        type: boolean
+        default: false
   schedule:
     - cron: "30 21 * * *"     # 매일 06:30 KST 무렵 (수집+요약)
     - cron: "0 9 * * 0"       # 일요일 18:00 KST 무렵 (+ AI 주간보고)
@@ -48,8 +52,21 @@ jobs:
           DART_KEY: ${{ secrets.DART_KEY }}
         run: python collector.py
 
-      - name: 2) 요약 + 텔레그램
-        if: steps.sw.outputs.state != 'off'
+      - name: 2) 일일 AI 요약 + 텔레그램
+        if: steps.sw.outputs.state != 'off' && inputs.free != true
+        continue-on-error: true
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          FORCE_DAILY: ${{ inputs.force }}
+          DAILY_MODEL: "claude-haiku-4-5-20251001"
+          DAILY_MONTH_LIMIT: "40"
+        run: python daily.py
+
+      - name: 2b) 무료 요약 (free 옵션을 켰을 때만)
+        if: steps.sw.outputs.state != 'off' && inputs.free == true
         env:
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}

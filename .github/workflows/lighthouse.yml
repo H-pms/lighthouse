@@ -1,0 +1,69 @@
+name: lighthouse
+on:
+  workflow_dispatch:          # 수동 실행 버튼
+    inputs:
+      weekly:
+        description: '주간 AI 보고서도 함께 실행'
+        type: boolean
+        default: false
+  schedule:
+    - cron: "30 21 * * *"     # 매일 06:30 KST 무렵 (수집+요약)
+    - cron: "0 9 * * 0"       # 일요일 18:00 KST 무렵 (+ AI 주간보고)
+permissions:
+  contents: write
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: 스위치 확인 (switch.txt 가 off 면 중단)
+        id: sw
+        run: |
+          STATE=on
+          if [ -f switch.txt ]; then
+            STATE=$(head -1 switch.txt | tr -d '[:space:]' | tr '[:upper:]' '[:lower:]')
+          fi
+          echo "state=$STATE" >> $GITHUB_OUTPUT
+          if [ "$STATE" = "off" ]; then
+            echo "::notice::switch.txt = off — 이번 실행은 건너뜁니다"
+          fi
+
+      - uses: actions/setup-python@v5
+        if: steps.sw.outputs.state != 'off'
+        with:
+          python-version: "3.12"
+
+      - name: 부품 설치
+        if: steps.sw.outputs.state != 'off'
+        run: pip install requests feedparser
+
+      - name: 1) 수집
+        if: steps.sw.outputs.state != 'off'
+        run: python collector.py
+
+      - name: 2) 요약 + 텔레그램
+        if: steps.sw.outputs.state != 'off'
+        env:
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: python digest.py
+
+      - name: 3) 주간 AI 보고 (일요일 또는 수동 선택 시)
+        if: steps.sw.outputs.state != 'off' && (github.event.schedule == '0 9 * * 0' || inputs.weekly)
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: python reporter.py
+
+      - name: 4) 결과 저장
+        if: steps.sw.outputs.state != 'off'
+        run: |
+          git config user.name "intel-bot"
+          git config user.email "intel-bot@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet || git commit -m "등대 $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push

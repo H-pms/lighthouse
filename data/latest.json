@@ -1,0 +1,760 @@
+{
+ "generated": "2026-08-12 19:38",
+ "date": "2026-08-12",
+ "sources": [
+  {
+   "id": "US_FEDREG",
+   "name": "미국 연방관보(공식)",
+   "count": 15,
+   "ok": true
+  },
+  {
+   "id": "KR_ECON",
+   "name": "한국 경제부처·한은",
+   "count": 15,
+   "ok": true
+  },
+  {
+   "id": "KR_REG",
+   "name": "한국 규제·수출통제",
+   "count": 15,
+   "ok": true
+  }
+ ],
+ "errors": [],
+ "watchlist": [
+  "반도체",
+  "HBM",
+  "AI",
+  "인공지능",
+  "데이터센터",
+  "로봇",
+  "전력",
+  "원전",
+  "원유",
+  "정유",
+  "천연가스",
+  "2차전지",
+  "배터리",
+  "조선",
+  "해운",
+  "항공",
+  "물류",
+  "운송",
+  "구리",
+  "금값",
+  "니켈",
+  "희토류",
+  "철강",
+  "자동차",
+  "전기차",
+  "방산",
+  "바이오",
+  "건설"
+ ],
+ "items": [
+  {
+   "title": "Appellate Jurisdiction Update II",
+   "core": "Appellate Jurisdiction Update II",
+   "date": "2026-08-12",
+   "org": "Merit Systems Protection Board",
+   "link": "https://www.federalregister.gov/documents/2026/08/12/2026-16456/appellate-jurisdiction-update-ii",
+   "abstract": "The Merit Systems Protection Board (MSPB or Board) is amending its regulations to remove references to MSPB's jurisdiction over probationary termination, suitability, and reduction-in-force (RIF) appeals. This revision reflects the Office of Personnel Management's (OPM's) rescission of the MSPB's jurisdiction to hear these types of appeals. The rule retains MSPB's statutory jurisdiction over Forei",
+   "official": true,
+   "id": 1,
+   "src": "US_FEDREG",
+   "src_name": "미국 연방관보(공식)",
+   "sectors": [],
+   "watch": []
+  },
+  {
+   "title": "Community Reinvestment Act Regulations",
+   "core": "Community Reinvestment Act Regulations",
+   "date": "2026-08-12",
+   "org": "Treasury Department, Comptroller of the Currency",
+   "link": "https://www.federalregister.gov/documents/2026/08/12/2026-16454/community-reinvestment-act-regulations",
+   "abstract": "The Office of the Comptroller of the Currency (OCC) and the Federal Deposit Insurance Corporation (FDIC) are proposing to amend their Community Reinvestment Act rules by making certain substantive, technical, and process-oriented changes to refocus on the statutory objective of encouraging banks to meet the credit needs of their communities; to better ensure that community development grants reach",
+   "official": true,
+   "id": 2,
+   "src": "US_FEDREG",
+   "src_name": "미국 연방관보(공식)",
+   "sectors": [],
+   "watch": []
+  },
+  {
+   "title": "Government Owned Invention Available for License: MC38 B2m KO Cell Line",
+   "core": "Government Owned Invention Available for License: MC38 B2m KO Cell Line",
+   "date": "2026-08-12",
+   "org": "Health and Human Services Department, National Institutes of Health",
+   "link": "https://www.federalregister.gov/documents/2026/08/12/2026-16449/government-owned-invention-available-for-license-mc38-b2m-ko-cell-line",
+   "abstract": "The National Cancer Institute (NCI) seeks licensees for a CRISPR/Cas9-engineered MC38 B2m knockout murine colon cancer cell line that models tumor resistance to PD-1/PD-L1 checkpoint blockade caused by loss of MHC-I antigen presentation. This research tool provides an opportunity to study checkpoint-refractory tumors and evaluate alternative or combination immunotherapy strategies for cancers that",
+   "official": true,
+   "id": 3,
+   "src": "US_FEDREG",
+   "src_name": "미국 연방관보(공식)",
+   "sectors": [],
+   "watch": []
+  },
+  {
+   "title": "UChicago Argonne LLC et al; Notice of Decision on Application for Duty-Free Entry of Scientific Instruments",
+   "core": "UChicago Argonne LLC et al; Notice of Decision on Application for Duty-Free Entry of Scientific Instruments",
+   "date": "2026-08-12",
+   "org": "Commerce Department, International Trade Administration",
+   "link": "https://www.federalregister.gov/documents/2026/08/12/2026-16448/uchicago-argonne-llc-et-al-notice-of-decision-on-application-for-duty-free-entry-of-scientific",
+   "abstract": "",
+   "official": true,
+   "id": 4,
+   "src": "US_FEDREG",
+   "src_name": "미국 연방관보(공식)",
+   "sectors": [],
+   "watch": []
+  },
+  {
+   "title": "Pacific Northwest National Laboratory et al; Application(s) for Duty-Free Entry of Scientific Instruments",
+   "core": "Pacific Northwest National Laboratory et al; Application(s) for Duty-Free Entry of Scientific Instruments",
+   "date": "2026-08-12",
+   "org": "Commerce Department, International Trade Administration",
+   "link": "https://www.federalregister.gov/documents/2026/08/12/2026-16447/pacific-northwest-national-laboratory-et-al-applications-for-duty-free-entry-of-scientific",
+   "abstract": "",
+   "official": true,
+   "id": 5,
+   "src": "US_FEDREG",
+   "src_name": "미국 연방관보(공식)",
+   "sectors": [],
+   "watch": []
+  },
+  {
+   "title": "Wooden Bedroom Furniture From the People's Republic of China: Final Results of Antidumping Duty Administrative Review; 2024",
+   "core": "Wooden Bedroom Furniture From the People's Republic of China: Final Results of Antidumping Duty Administrative Review; 2024",
+   "date": "2026-08-12",
+   "org": "Commerce Department, International Trade Administration",
+   "link": "https://www.federalregister.gov/documents/2026/08/12/2026-16446/wooden-bedroom-furniture-from-the-peoples-republic-of-china-final-results-of-antidumping-duty",
+   "abstract": "The U.S. Department of Commerce (Commerce) continues to determine that 11 companies under review did not establish their entitlement to a separate rate and are thus part of the People's Republic of China (China)-wide entity and subject to the China-wide entity rate. The period review (POR) is January 1, 2024, through December 31, 2024.",
+   "official": true,
+   "id": 6,
+   "src": "US_FEDREG",
+   "src_name": "미국 연방관보(공식)",
+   "sectors": [],
+   "watch": []
+  },
+  {
+   "title": "Agency Information Collection Activities; Submission to the Office of Management and Budget (OMB) for Review and Approval; Comment Request; Steel Import License",
+   "core": "Agency Information Collection Activities; Submission to the Office of Management and Budget (OMB) for Review and Approval; Comment Request; Steel Import License",
+   "date": "2026-08-12",
+   "org": "Commerce Department, International Trade Administration",
+   "link": "https://www.federalregister.gov/documents/2026/08/12/2026-16445/agency-information-collection-activities-submission-to-the-office-of-management-and-budget-omb-for",
+   "abstract": "",
+   "official": true,
+   "id": 7,
+   "src": "US_FEDREG",
+   "src_name": "미국 연방관보(공식)",
+   "sectors": [],
+   "watch": []
+  },
+  {
+   "title": "Prospective Grant of an Exclusive Patent License: Development and Commercialization of BL-760 Dye for Intraoperative Fluorescence Imaging",
+   "core": "Prospective Grant of an Exclusive Patent License: Development and Commercialization of BL-760 Dye for Intraoperative Fluorescence Imaging",
+   "date": "2026-08-12",
+   "org": "Health and Human Services Department, National Institutes of Health",
+   "link": "https://www.federalregister.gov/documents/2026/08/12/2026-16444/prospective-grant-of-an-exclusive-patent-license-development-and-commercialization-of-bl-760-dye-for",
+   "abstract": "The National Cancer Institute, an institute of the National Institutes of Health, Department of Health and Human Services, is contemplating the grant of an Exclusive Patent License to practice the inventions embodied in the patents and patent applications listed in the Supplementary Information section of this notice to OptoSurgical LLC (\"OptoSurgical\"), a company located in Columbia, Maryland, th",
+   "official": true,
+   "id": 8,
+   "src": "US_FEDREG",
+   "src_name": "미국 연방관보(공식)",
+   "sectors": [
+    "보조금/세제"
+   ],
+   "watch": []
+  },
+  {
+   "title": "Government Owned Invention Available for License: Monoclonal Antibody (RO4) That Reacts With the Juxta-Membrane Region of Mesothelin",
+   "core": "Government Owned Invention Available for License: Monoclonal Antibody (RO4) That Reacts With the Juxta-Membrane Region of Mesothelin",
+   "date": "2026-08-12",
+   "org": "Health and Human Services Department, National Institutes of Health",
+   "link": "https://www.federalregister.gov/documents/2026/08/12/2026-16443/government-owned-invention-available-for-license-monoclonal-antibody-ro4-that-reacts-with-the",
+   "abstract": "The National Cancer Institute (NCI) seeks research co- development partners and/or licensees for a novel monoclonal antibody (mAb), RO4, that can be used to treat mesothelin (MSLN) expressing cancers.",
+   "official": true,
+   "id": 9,
+   "src": "US_FEDREG",
+   "src_name": "미국 연방관보(공식)",
+   "sectors": [],
+   "watch": []
+  },
+  {
+   "title": "Government Owned Invention Available for License: Human Antibodies Targeting Beneficial Viral Peptide in Liver Cancer",
+   "core": "Government Owned Invention Available for License: Human Antibodies Targeting Beneficial Viral Peptide in Liver Cancer",
+   "date": "2026-08-12",
+   "org": "Health and Human Services Department, National Institutes of Health",
+   "link": "https://www.federalregister.gov/documents/2026/08/12/2026-16442/government-owned-invention-available-for-license-human-antibodies-targeting-beneficial-viral-peptide",
+   "abstract": "The National Cancer Institute (NCI) seeks research co- development partners and/or licensees to develop a collection of anti- CE1 antibodies for liver cancer treatment.",
+   "official": true,
+   "id": 10,
+   "src": "US_FEDREG",
+   "src_name": "미국 연방관보(공식)",
+   "sectors": [],
+   "watch": []
+  },
+  {
+   "title": "Government Owned Invention Available for License: DNA Methylation-Based Cancer Diagnostics for Accurate Tumor Classification",
+   "core": "Government Owned Invention Available for License: DNA Methylation-Based Cancer Diagnostics for Accurate Tumor Classification",
+   "date": "2026-08-12",
+   "org": "Health and Human Services Department, National Institutes of Health",
+   "link": "https://www.federalregister.gov/documents/2026/08/12/2026-16441/government-owned-invention-available-for-license-dna-methylation-based-cancer-diagnostics-for",
+   "abstract": "This technology encompasses a DNA methylation-based diagnostic platform designed to improve the accuracy and consistency of cancer classification, with demonstrated utility for tumors of the central nervous system, kidney, and hematopoietic system. By identifying disease-specific methylation signatures, the approach reduces interobserver variability and enhances diagnostic confidence. The central ",
+   "official": true,
+   "id": 11,
+   "src": "US_FEDREG",
+   "src_name": "미국 연방관보(공식)",
+   "sectors": [],
+   "watch": []
+  },
+  {
+   "title": "NIH Owned Invention Available for License: Soluble Tissue Factor, a Novel Target, and Antibodies, for Diagnosis, Prevention and Treatment of Thrombosis and Related Conditions",
+   "core": "NIH Owned Invention Available for License: Soluble Tissue Factor, a Novel Target, and Antibodies, for Diagnosis, Prevention and Treatment of Thrombosis and Related Conditions",
+   "date": "2026-08-12",
+   "org": "Health and Human Services Department, National Institutes of Health",
+   "link": "https://www.federalregister.gov/documents/2026/08/12/2026-16440/nih-owned-invention-available-for-license-soluble-tissue-factor-a-novel-target-and-antibodies-for",
+   "abstract": "Scientists at the National Cancer Institute (NCI) have discovered a novel therapeutic, diagnostic and prognostic target for thrombosis: Soluble Tissue Factor (sTF). NCI has generated first-in- class antibodies and platform selectively neutralizing pathological coagulation while preserving normal hemostasis. This platform technology can be used to prevent, diagnose and treat pathological thrombosis",
+   "official": true,
+   "id": 12,
+   "src": "US_FEDREG",
+   "src_name": "미국 연방관보(공식)",
+   "sectors": [],
+   "watch": []
+  },
+  {
+   "title": "Government Owned Invention Available for License: Quantitative Particle Identification (QPID) Digital Autoradiography System",
+   "core": "Government Owned Invention Available for License: Quantitative Particle Identification (QPID) Digital Autoradiography System",
+   "date": "2026-08-12",
+   "org": "Health and Human Services Department, National Institutes of Health",
+   "link": "https://www.federalregister.gov/documents/2026/08/12/2026-16439/government-owned-invention-available-for-license-quantitative-particle-identification-qpid-digital",
+   "abstract": "The National Cancer Institute (NCI) seeks research co- development partners and/or licensees for a QPID digital autoradiography system with particle identification capabilities.",
+   "official": true,
+   "id": 13,
+   "src": "US_FEDREG",
+   "src_name": "미국 연방관보(공식)",
+   "sectors": [],
+   "watch": []
+  },
+  {
+   "title": "NIH Owned Invention Available for License: Drug-Regulatable, Inducible Expression of Membrane-Bound Interleukin 12 (DRIM-IL-12) for Use in Adoptive Cell Therapy",
+   "core": "NIH Owned Invention Available for License: Drug-Regulatable, Inducible Expression of Membrane-Bound Interleukin 12 (DRIM-IL-12) for Use in Adoptive Cell Therapy",
+   "date": "2026-08-12",
+   "org": "Health and Human Services Department, National Institutes of Health",
+   "link": "https://www.federalregister.gov/documents/2026/08/12/2026-16438/nih-owned-invention-available-for-license-drug-regulatable-inducible-expression-of-membrane-bound",
+   "abstract": "Scientists at the National Cancer Institute (NCI) have developed a novel tightly regulated drug-responsive, membrane-bound IL- 12 cytokine platform, that enhances anti-tumor efficacy in adoptive cell therapy (ACT) with engineered T-cells (CAR, TCR, TILs) while improving safety. The NCI seeks research co-development partners and/or licensees to advance this technology toward clinical translation.",
+   "official": true,
+   "id": 14,
+   "src": "US_FEDREG",
+   "src_name": "미국 연방관보(공식)",
+   "sectors": [
+    "바이오/의료"
+   ],
+   "watch": []
+  },
+  {
+   "title": "Agency Information Collection Activities; Proposed eCollection eComments Requested; New Information Collection; USAO-PR COMMUNITY OUTREACH REQUEST FORM Feedback Form Package",
+   "core": "Agency Information Collection Activities; Proposed eCollection eComments Requested; New Information Collection; USAO-PR COMMUNITY OUTREACH REQUEST FORM Feedback Form Package",
+   "date": "2026-08-12",
+   "org": "Justice Department",
+   "link": "https://www.federalregister.gov/documents/2026/08/12/2026-16437/agency-information-collection-activities-proposed-ecollection-ecomments-requested-new-information",
+   "abstract": "The USAO-PR, Department of Justice (DOJ), will be submitting the following information collection request to the Office of Management and Budget (OMB) for review and approval in accordance with the Paperwork Reduction Act of 1995.",
+   "official": true,
+   "id": 15,
+   "src": "US_FEDREG",
+   "src_name": "미국 연방관보(공식)",
+   "sectors": [],
+   "watch": []
+  },
+  {
+   "title": "금융위 \"총량관리 목표 조정방안 금주중 발표 예정\" - 대한민국 정책브리핑",
+   "core": "금융위 \"총량관리 목표 조정방안 금주중 발표 예정\"",
+   "date": "Wed, 12 Aug 2026",
+   "org": "대한민국 정책브리핑",
+   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQUEJ1aFFZdnh2RHF1Y3ZHNXFvMlk1N1VjTVhWMVltYzdWNk5XTUFJU04xQ1d4V2ZudnBVQUo4M3VZT3FidXA3RGFRTDlYT2lRcTZ3YktwY2l6MTd1ZDU3Q0pLUml3NC15c1BXVjZmREJlSXdBZFVIR29SOGVfZ3FCQkhOeGVWckEyQlJ1RjJsOA?oc=5",
+   "abstract": "금융위 \"총량관리 목표 조정방안 금주중 발표 예정\"&nbsp;&nbsp;대한민국 정책브리핑",
+   "official": false,
+   "id": 16,
+   "src": "KR_ECON",
+   "src_name": "한국 경제부처·한은",
+   "sectors": [
+    "금융/증권"
+   ],
+   "watch": []
+  },
+  {
+   "title": "한국은행, 직원 150명에 60억원 상당 주택 대출…형평성 논란 - 연합뉴스TV",
+   "core": "한국은행, 직원 150명에 60억원 상당 주택 대출…형평성 논란",
+   "date": "Wed, 12 Aug 2026",
+   "org": "연합뉴스TV",
+   "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE44dm03Zkt6RWo4ZGdNc0xGZzdNb2F4a2tYV1RReUQ3enYyUGNnZzJtbXRRQlZvenRLRjZFMV9ST1RFbGZLX2YzeUkzSXZSbDMtY01VWXN0ZWNXZXFBdWg2aXUxajRXVDA?oc=5",
+   "abstract": "한국은행, 직원 150명에 60억원 상당 주택 대출…형평성 논란&nbsp;&nbsp;연합뉴스TV",
+   "official": false,
+   "id": 17,
+   "src": "KR_ECON",
+   "src_name": "한국 경제부처·한은",
+   "sectors": [
+    "금리/통화",
+    "건설/부동산",
+    "금융/증권"
+   ],
+   "watch": []
+  },
+  {
+   "title": "스크래핑 차단에 비대면 주담대 차질 우려…금융위, 단계적 시행 검토 - 연합인포맥스",
+   "core": "스크래핑 차단에 비대면 주담대 차질 우려…금융위, 단계적 시행 검토",
+   "date": "Wed, 12 Aug 2026",
+   "org": "연합인포맥스",
+   "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5tXzh3ZUw3LXlLRy14aHEwYW44NEFHQm9LQkdUc1pTMUM1NHhIa051aVpoNlI1cFVFX0RrQ0k3WEx5a0l6NEhzTkdBSElVeEUxZTE0Y3h0SlFVcFU5SW1oRXl5YnllRkxWdUctcTQyejLSAXRBVV95cUxNLXVoZW81YXVaYjdkQmJrZzNUZ3poZUgya09BMEUxdDVReTVFYW9XSjk2b3VBVno3OWZUNkx1UUJvLXZfUDlHT294TVRDd3huV2pFS3NwcHNtMFIxSUk1M1l4MnBENzdLM2MxNWZXcElTZjBvRQ?oc=5",
+   "abstract": "스크래핑 차단에 비대면 주담대 차질 우려…금융위, 단계적 시행 검토&nbsp;&nbsp;연합인포맥스",
+   "official": false,
+   "id": 18,
+   "src": "KR_ECON",
+   "src_name": "한국 경제부처·한은",
+   "sectors": [
+    "금융/증권"
+   ],
+   "watch": []
+  },
+  {
+   "title": "국민은 대출 절벽인데… 한국은행 사내대출 특혜 논란 - 쿠키뉴스",
+   "core": "국민은 대출 절벽인데… 한국은행 사내대출 특혜 논란",
+   "date": "Wed, 12 Aug 2026",
+   "org": "쿠키뉴스",
+   "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9mQlVGY2d6X0pEYV8weTQ2Ml9JZWc3SlpCeFBsNmIzanJBdmc5Q1ZTb0RPd2N0ZVRDclIzYWlhYmZfc08yRFI2T3doOFk4YUFKcW1IdVlxdUNBa01ja1pBT0N5RQ?oc=5",
+   "abstract": "국민은 대출 절벽인데… 한국은행 사내대출 특혜 논란&nbsp;&nbsp;쿠키뉴스",
+   "official": false,
+   "id": 19,
+   "src": "KR_ECON",
+   "src_name": "한국 경제부처·한은",
+   "sectors": [
+    "금리/통화",
+    "금융/증권"
+   ],
+   "watch": []
+  },
+  {
+   "title": "한국은행, 전북대 ‘행BOK열차’ 팀 통화정책 경시대회 금상 - 전북제일신문",
+   "core": "한국은행, 전북대 ‘행BOK열차’ 팀 통화정책 경시대회 금상",
+   "date": "Wed, 12 Aug 2026",
+   "org": "전북제일신문",
+   "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9SU0tpUXUzQnRPaUJzOUZ6UlBVaEJTY2tpYXc4eWxUdE5YUk1PRnZNVzZVNlF6WUJRVXlGY2FiLUs4Sm5EdlhNSFRGNFFwSGxCaVhhUU5oMF9jZzZkSjMyS25lamd0X1F6Q1E?oc=5",
+   "abstract": "한국은행, 전북대 ‘행BOK열차’ 팀 통화정책 경시대회 금상&nbsp;&nbsp;전북제일신문",
+   "official": false,
+   "id": 20,
+   "src": "KR_ECON",
+   "src_name": "한국 경제부처·한은",
+   "sectors": [
+    "금리/통화",
+    "금융/증권"
+   ],
+   "watch": []
+  },
+  {
+   "title": "주담대·전세대출 발목 잡나… 금융위, '스크래핑 차단'에 긴급 대응 나서 - 녹색경제신문",
+   "core": "주담대·전세대출 발목 잡나… 금융위, '스크래핑 차단'에 긴급 대응 나서",
+   "date": "Wed, 12 Aug 2026",
+   "org": "녹색경제신문",
+   "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE80OTZLRGVJTDJzbFpSOHpET3I1Z1dwajFkLWZlaTg5cmRvZWl2bVU1eVJjUUhxb1dCU0c4N0hWcHQwM2Rrcl9zRnVWTmRXbXNUcGt6MzhPWWZVX1M0SGFwNzdEUHlMelpK?oc=5",
+   "abstract": "주담대·전세대출 발목 잡나… 금융위, '스크래핑 차단'에 긴급 대응 나서&nbsp;&nbsp;녹색경제신문",
+   "official": false,
+   "id": 21,
+   "src": "KR_ECON",
+   "src_name": "한국 경제부처·한은",
+   "sectors": [
+    "금융/증권"
+   ],
+   "watch": []
+  },
+  {
+   "title": "금융위 \"레버리지ETF 변동성에 일조…상폐시 시장 충격\" - 글로벌이코노믹",
+   "core": "금융위 \"레버리지ETF 변동성에 일조…상폐시 시장 충격\"",
+   "date": "Wed, 12 Aug 2026",
+   "org": "글로벌이코노믹",
+   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPWFAyN3FLX0d1TTh0aDV0eGRRdWhqLWhTTmZGNjZ2WkhsZFFVZzZCSGtER25vOWJENWlGT2w0eFlZY2dQZUFTOThneWNQTWVDQU1lUnZhTThOOEJNdXNMYl9YTE5VZHhjU3Z0MlNqaFprbWpIYzlJaEFKS2twaGxWeENvY2lCamRB?oc=5",
+   "abstract": "금융위 \"레버리지ETF 변동성에 일조…상폐시 시장 충격\"&nbsp;&nbsp;글로벌이코노믹",
+   "official": false,
+   "id": 22,
+   "src": "KR_ECON",
+   "src_name": "한국 경제부처·한은",
+   "sectors": [
+    "금융/증권"
+   ],
+   "watch": []
+  },
+  {
+   "title": "전북대 ‘행BOK열차’ 팀, 한국은행 통화정책 경시대회 '금상' 수상 - 전민일보",
+   "core": "전북대 ‘행BOK열차’ 팀, 한국은행 통화정책 경시대회 '금상' 수상",
+   "date": "Wed, 12 Aug 2026",
+   "org": "전민일보",
+   "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5IdGdaY2N3YkVqVHNXZktLZmVTNXRYYXdwMGxFUm43aW5fZXUxWUlaR1c3S1ltR3J3WE04NHZWcmJSZVhLWkxsQ3FveV94NUQ4cDZyNVBxdUd3VEVCWERHaXNOSTBBYjl1RTBF?oc=5",
+   "abstract": "전북대 ‘행BOK열차’ 팀, 한국은행 통화정책 경시대회 '금상' 수상&nbsp;&nbsp;전민일보",
+   "official": false,
+   "id": 23,
+   "src": "KR_ECON",
+   "src_name": "한국 경제부처·한은",
+   "sectors": [
+    "금리/통화",
+    "금융/증권"
+   ],
+   "watch": []
+  },
+  {
+   "title": "\"아기 통장 어쩌나...일단은 안심\"...금융위, 스크래핑 차단 대응 논의 - 파이낸셜뉴스",
+   "core": "\"아기 통장 어쩌나...일단은 안심\"...금융위, 스크래핑 차단 대응 논의",
+   "date": "Wed, 12 Aug 2026",
+   "org": "파이낸셜뉴스",
+   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9kVUFnTG16YVdMTjdGYWdfU0F2UDNDbVFVa29IRzd5bXNCRjlkMmZxSjFMMnQwWXV1cTROaWtKU2h3UlpYNExxTlUyS3NoQm43WTcxUjMzVW9Gdw?oc=5",
+   "abstract": "\"아기 통장 어쩌나...일단은 안심\"...금융위, 스크래핑 차단 대응 논의&nbsp;&nbsp;파이낸셜뉴스",
+   "official": false,
+   "id": 24,
+   "src": "KR_ECON",
+   "src_name": "한국 경제부처·한은",
+   "sectors": [
+    "금융/증권"
+   ],
+   "watch": []
+  },
+  {
+   "title": "자동 스크래핑 금지에 ‘비대면 금융’ 차질 우려… 금융위 대책 마련 - 조선비즈 - Chosunbiz",
+   "core": "자동 스크래핑 금지에 ‘비대면 금융’ 차질 우려… 금융위 대책 마련",
+   "date": "Wed, 12 Aug 2026",
+   "org": "Chosunbiz",
+   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQR1FENTBDZW0wMUxWOFBtLUNwTnlvbW9GVjl2UjhvR3NfYjFzYjVIVXpWR3E0ck42RW52QWlpV3hIWTh0UDR3VFNWOUQzOTNvdFd1OUx6SjlxOERVekhaVWxqOUFHeHFiQU00dWx2alhNMmRRN3NjQllIVVdtcVJKOUtsLVhNX3pFWXdOLWkyc2E5MW9o0gGUAUFVX3lxTFBHUUQ1MENlbTAxTFY4UG0tQ3BOeW9tb0ZWOXZSOG9Hc19iMXNiNUhVelZHcTRyTjZFbnZBaWlXeEhZOHRQNHdUU1Y5RDM5M290V3U5THpKOXE4RFV6SFpVbGo5QUd4cWJBTTR1bHZqWE0yZFE3c2NCWUhVV21xUko5S2wtWE1fekVZd04taTJzYTkxb2g?oc=5",
+   "abstract": "자동 스크래핑 금지에 ‘비대면 금융’ 차질 우려… 금융위 대책 마련 - 조선비즈&nbsp;&nbsp;Chosunbiz",
+   "official": false,
+   "id": 25,
+   "src": "KR_ECON",
+   "src_name": "한국 경제부처·한은",
+   "sectors": [
+    "금융/증권"
+   ],
+   "watch": []
+  },
+  {
+   "title": "한국은행, '2026 제23회 한국은행 통화정책 경시대회' 전국결선대회 개최 결과 발표 - news.bbsi.co.kr",
+   "core": "한국은행, '2026 제23회 한국은행 통화정책 경시대회' 전국결선대회 개최 결과 발표",
+   "date": "Wed, 12 Aug 2026",
+   "org": "news.bbsi.co.kr",
+   "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBUQnF1NExPaDUwTE1pWTNOQTU1dDI3STVnZ2Y2RjhpbXVjS0UyMDF5amtVTzFSMkIxNjYzWFdod19DdjdGLUlvMkJZUUJIR0otMTJJUG5HaWNLVXBlZ0lDSEdlb0M4M2NkdW9n?oc=5",
+   "abstract": "한국은행, '2026 제23회 한국은행 통화정책 경시대회' 전국결선대회 개최 결과 발표&nbsp;&nbsp;news.bbsi.co.kr",
+   "official": false,
+   "id": 26,
+   "src": "KR_ECON",
+   "src_name": "한국 경제부처·한은",
+   "sectors": [
+    "금리/통화",
+    "금융/증권"
+   ],
+   "watch": []
+  },
+  {
+   "title": "금융위, 하반기 D-테스트베드 15개팀 모집…AI 전형엔 GPU 지원 - 디지털데일리",
+   "core": "금융위, 하반기 D-테스트베드 15개팀 모집…AI 전형엔 GPU 지원",
+   "date": "Wed, 12 Aug 2026",
+   "org": "디지털데일리",
+   "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE05RW9ua1ZVMVhHbEJ6YmZseDlja0FxN2x0eFhNaE1aQ2RxNC1fUUgtZDhVeUtrREU4UkNrUzM1Zm94UGlFYkpoVDU2MG5MLUdxb3VpWHFFYklNUVNzTWo3SEpicF8?oc=5",
+   "abstract": "금융위, 하반기 D-테스트베드 15개팀 모집…AI 전형엔 GPU 지원&nbsp;&nbsp;디지털데일리",
+   "official": false,
+   "id": 27,
+   "src": "KR_ECON",
+   "src_name": "한국 경제부처·한은",
+   "sectors": [
+    "반도체/AI",
+    "금융/증권"
+   ],
+   "watch": [
+    "AI"
+   ]
+  },
+  {
+   "title": "금융위 \"금융행정 쇄신방안 확정된 바 없어\" - 대한민국 정책브리핑",
+   "core": "금융위 \"금융행정 쇄신방안 확정된 바 없어\"",
+   "date": "Wed, 12 Aug 2026",
+   "org": "대한민국 정책브리핑",
+   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNeGhxUU9vQWxzWUdySWIwNS16N1hWNjUtSFhadE5aTVdPZW1pVWFCbENsX1cxT2M4VGJZSXM0RFVWbXQ4VjAwcGRodjNZRGZxTmVoSVNUWVVNbVFEU0paT1QyblJTTEpCSVdEM013Z3pTQms5Y2kwT2NEUzZzRURzaUhNS285Uzh5YWVmeDlkYw?oc=5",
+   "abstract": "금융위 \"금융행정 쇄신방안 확정된 바 없어\"&nbsp;&nbsp;대한민국 정책브리핑",
+   "official": false,
+   "id": 28,
+   "src": "KR_ECON",
+   "src_name": "한국 경제부처·한은",
+   "sectors": [
+    "금융/증권"
+   ],
+   "watch": []
+  },
+  {
+   "title": "AI가 중립금리에 미치는 영향은…한은 \"AI 성과 배분에 달려\" | - 연합인포맥스",
+   "core": "AI가 중립금리에 미치는 영향은…한은 \"AI 성과 배분에 달려\" |",
+   "date": "Wed, 12 Aug 2026",
+   "org": "연합인포맥스",
+   "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9tM3FoVlozWmhvWmJ4d082NEdXODZab0RtY2VtUFNGRS1OSGUyRG9UVHZuekt4SmJacjlGNnEwWGVrVHpQV1pPdkZpQXRmeGxHVEFnbDF6c1BqQ0E0TVdCWUN6a3JiWDVsSUF6Wl94RHB0YkVT?oc=5",
+   "abstract": "AI가 중립금리에 미치는 영향은…한은 \"AI 성과 배분에 달려\" |&nbsp;&nbsp;연합인포맥스",
+   "official": false,
+   "id": 29,
+   "src": "KR_ECON",
+   "src_name": "한국 경제부처·한은",
+   "sectors": [
+    "반도체/AI",
+    "금리/통화"
+   ],
+   "watch": [
+    "AI"
+   ]
+  },
+  {
+   "title": "금융위 검사 쇄신 추진과 금리 불확실성 등 이시각 주요뉴스 - 연합인포맥스",
+   "core": "금융위 검사 쇄신 추진과 금리 불확실성 등 이시각 주요뉴스",
+   "date": "Wed, 12 Aug 2026",
+   "org": "연합인포맥스",
+   "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5MWHhiSjE4b0RkTTFuOC1QbklTZzlxTURhWk1JMENrWklWckx5cWlYUHJfUk85Tk1HTXBiZDZlYnBLTmJBa0otYjlvXzNqdDRuUnNrWTVGMHNwa2kzd1k3bE8xZTA5ZXhvNm92NnVITmfSAXRBVV95cUxQeGZQWFNDOTE2V1BuRUFlWnU0dk10SDdGX21HXzBMc1JYZU02cmxUaEF5S0MyUWFlTkdXTzFvd3B0bHJZN0c5NzdWeHp0S2RRd0hkNUo2NEd6YTNpLXZmbHVFa3NVVklfUTY5aEFORzd5b3ZTdw?oc=5",
+   "abstract": "금융위 검사 쇄신 추진과 금리 불확실성 등 이시각 주요뉴스&nbsp;&nbsp;연합인포맥스",
+   "official": false,
+   "id": 30,
+   "src": "KR_ECON",
+   "src_name": "한국 경제부처·한은",
+   "sectors": [
+    "금리/통화",
+    "금융/증권"
+   ],
+   "watch": []
+  },
+  {
+   "title": "[민간 정비사업 주택ㆍSOC 확충 킹핀]②정부 규제가 정비사업 최대 리스크 - 대한경제",
+   "core": "[민간 정비사업 주택ㆍSOC 확충 킹핀]②정부 규제가 정비사업 최대 리스크",
+   "date": "Tue, 11 Aug 2026",
+   "org": "대한경제",
+   "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9zR18wbVBONExSSHhQR0ljcDUzSUJ1UmpnNGc5WEoxclBVZnBDWDNIT2xMY1BROFpnZGlKYzN3TGFoREVsUEgwNlhQYzB5OTBaVFo2VmZ6bFVoNGxWaVRWdk9VcHc1WkFTZ21XSV9WSFJsYVhS?oc=5",
+   "abstract": "[민간 정비사업 주택ㆍSOC 확충 킹핀]②정부 규제가 정비사업 최대 리스크&nbsp;&nbsp;대한경제",
+   "official": false,
+   "id": 31,
+   "src": "KR_REG",
+   "src_name": "한국 규제·수출통제",
+   "sectors": [
+    "건설/부동산"
+   ],
+   "watch": []
+  },
+  {
+   "title": "13일 부동산 대책 연쇄 발표…주택 신속공급·금융규제 손본다 - 포쓰저널",
+   "core": "13일 부동산 대책 연쇄 발표…주택 신속공급·금융규제 손본다",
+   "date": "Wed, 12 Aug 2026",
+   "org": "포쓰저널",
+   "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBidG9DUHVVT3BKenl4WkVnSVRyZ2V4QlQtMnZvV09TTHZCVTZ5OWRaTlZvZzYzYm5RaTRkTlBhbi1nOUJPUmF3MWdyNkFIRDR6MGJTMkNqUm1nelhvMWpjNkRqYjk?oc=5",
+   "abstract": "13일 부동산 대책 연쇄 발표…주택 신속공급·금융규제 손본다&nbsp;&nbsp;포쓰저널",
+   "official": false,
+   "id": 32,
+   "src": "KR_REG",
+   "src_name": "한국 규제·수출통제",
+   "sectors": [
+    "건설/부동산"
+   ],
+   "watch": []
+  },
+  {
+   "title": "한성숙 \"신산업 창업벤처 규제개선 전담기구 신설\" - 뉴시스",
+   "core": "한성숙 \"신산업 창업벤처 규제개선 전담기구 신설\"",
+   "date": "Wed, 12 Aug 2026",
+   "org": "뉴시스",
+   "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFB6cjlveFpLbUdwYU1pYm14OFM1UkZTMFVLMTdwcm15Z0JJYkJEX1pDaGpPeWZ2TkZGUFFqUVNVazMzdDhLUG5jeEJ6cnBTOVFjWmJoMjlBanVqZ1VqVXNESU1ISEQ3dGE1YzZDbE9WVlItaXBYZjJqY9IBeEFVX3lxTFB6cjlveFpLbUdwYU1pYm14OFM1UkZTMFVLMTdwcm15Z0JJYkJEX1pDaGpPeWZ2TkZGUFFqUVNVazMzdDhLUG5jeEJ6cnBTOVFjWmJoMjlBanVqZ1VqVXNESU1ISEQ3dGE1YzZDbE9WVlItaXBYZjJqYw?oc=5",
+   "abstract": "한성숙 \"신산업 창업벤처 규제개선 전담기구 신설\"&nbsp;&nbsp;뉴시스",
+   "official": false,
+   "id": 33,
+   "src": "KR_REG",
+   "src_name": "한국 규제·수출통제",
+   "sectors": [],
+   "watch": []
+  },
+  {
+   "title": "슬롯 터보 학생를 위한 글쓰기 기술 심층 분석 - Gwara Media",
+   "core": "슬롯 터보 학생를 위한 글쓰기 기술 심층 분석",
+   "date": "Wed, 12 Aug 2026",
+   "org": "Gwara Media",
+   "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQeGUwWWdNdXdBa05aNGU4VFd6V3d1VktQUGRHZDdvejZ5WENINkxVaDV2T3c4dWZzcE1va3dmOFV1WlZwNEtzblBBRXNibUVaN1l5WlJHdGEwQ3dNRFhPdVpyMU5xYWRCV1JwWF9nQXZHNUFmOTdaWDRIWFU1aHVNV09IYU1MNVYxQmpaUFFVQm9EQnBYUHl5Q2VyY1pFRDdTRVpZZTlhdjRMMHVMTnNVekNJeVY0UHpRSDJYMDNnT2hZTkFxZ2t2Smw3WDlWdw?oc=5",
+   "abstract": "슬롯 터보 학생를 위한 글쓰기 기술 심층 분석&nbsp;&nbsp;Gwara Media",
+   "official": false,
+   "id": 34,
+   "src": "KR_REG",
+   "src_name": "한국 규제·수출통제",
+   "sectors": [],
+   "watch": []
+  },
+  {
+   "title": "부안군, 전북특별자치도 규제합리화 우수사례 경진대회 2년 연속 수상 - 전북투데이",
+   "core": "부안군, 전북특별자치도 규제합리화 우수사례 경진대회 2년 연속 수상",
+   "date": "Wed, 12 Aug 2026",
+   "org": "전북투데이",
+   "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFA4RWo1OVNKUkZWdU5CLU1vQUNVSVJjcHRGVGlaWFRhaWZOZ1BCNW5NNlhUVy1PNDNfZ29KMHlMUUdaWEFPNkFvZzJNazA2MWZyN3Y1a3B5clU5R2JqalFsRU5ud1c?oc=5",
+   "abstract": "부안군, 전북특별자치도 규제합리화 우수사례 경진대회 2년 연속 수상&nbsp;&nbsp;전북투데이",
+   "official": false,
+   "id": 35,
+   "src": "KR_REG",
+   "src_name": "한국 규제·수출통제",
+   "sectors": [],
+   "watch": []
+  },
+  {
+   "title": "산업부, 美폴리실리콘 관세부과 민관합동 대응 착수 - IT비즈뉴스",
+   "core": "산업부, 美폴리실리콘 관세부과 민관합동 대응 착수",
+   "date": "Wed, 12 Aug 2026",
+   "org": "IT비즈뉴스",
+   "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1ORVBlVmRRdzNpYWJpRXdDX3lxMGR1U0ZQWGZHQ0FFQTBiTVVpbG1TT1NYbTE2U2ZEdlRNNjgwdVFrZjZVaEM5Y3RNZmRxYS1nMjg0X0ljYVdSUkw2WW5MSGJCTmhwNmRDNHNRWQ?oc=5",
+   "abstract": "산업부, 美폴리실리콘 관세부과 민관합동 대응 착수&nbsp;&nbsp;IT비즈뉴스",
+   "official": false,
+   "id": 36,
+   "src": "KR_REG",
+   "src_name": "한국 규제·수출통제",
+   "sectors": [
+    "수출통제/관세",
+    "금속/광물"
+   ],
+   "watch": []
+  },
+  {
+   "title": "WHO, 의료기기 우수규제기관 임시 목록 발표 - BRIC",
+   "core": "WHO, 의료기기 우수규제기관 임시 목록 발표",
+   "date": "Tue, 11 Aug 2026",
+   "org": "BRIC",
+   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPWklFSzkwSEoyazcxRERQNjdtU1BWR1ZlSFpydWd4dTdwV2F1VVRlWTJQcXZCLVUzNl9kdlZkTDZrUHZEZW44SzdsdEJ4STFENDFCa191RGFFbXJQZGY4NmQ5YWVCeGJfN3VDeUJlYldmSVlMR2pXdGNUWFRMRVg2ZUJwWVY2Y0JweWhhbjBGdERwd05pOGtoMnZVYkNaVFREYkpuLTJfRllTUm81?oc=5",
+   "abstract": "WHO, 의료기기 우수규제기관 임시 목록 발표&nbsp;&nbsp;BRIC",
+   "official": false,
+   "id": 37,
+   "src": "KR_REG",
+   "src_name": "한국 규제·수출통제",
+   "sectors": [],
+   "watch": []
+  },
+  {
+   "title": "산업부, 美 폴리실리콘 232조 관세 민관합동 대책회의 개최 - electimes.com",
+   "core": "산업부, 美 폴리실리콘 232조 관세 민관합동 대책회의 개최",
+   "date": "Tue, 11 Aug 2026",
+   "org": "electimes.com",
+   "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBmUVlzVlU2NWl1V0gwWmpBVlVNOXl3d3NvSTJiLWNzWEJPdnNjOFBnMXN3Z1BRdGFMd19qeUY4MkFfeW9XLVA3ckY5WlFwVk1NZlgySXdEem03TUtOdFRJaVlueGdmb1A1QnZDN3EzS27SAXBBVV95cUxQZlFZc1ZVNjVpdVdIMFpqQVZVTTl5d3dzb0kyYi1jc1hCT3ZzYzhQZzFzd2dQUXRhTHdfanlGODJBX3lvVy1QN3JGOVpRcFZNTWZYMkl3RHptN01LTnRUSWlZbnhnZm9QNUJ2QzdxM0tu?oc=5",
+   "abstract": "산업부, 美 폴리실리콘 232조 관세 민관합동 대책회의 개최&nbsp;&nbsp;electimes.com",
+   "official": false,
+   "id": 38,
+   "src": "KR_REG",
+   "src_name": "한국 규제·수출통제",
+   "sectors": [
+    "수출통제/관세",
+    "금속/광물"
+   ],
+   "watch": []
+  },
+  {
+   "title": "산업부, 美 폴리실리콘 232조 관세 민관합동 대책회의 개최 - dhns.co.kr",
+   "core": "산업부, 美 폴리실리콘 232조 관세 민관합동 대책회의 개최",
+   "date": "Tue, 11 Aug 2026",
+   "org": "dhns.co.kr",
+   "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE4zeUdaQWRqZ1pHcDVnMFJFcmZaNHU4MGVPRktCd3hOcUhWQkZKaGxJbzJfX2dkMG84TW01LTFmeG41RkxrVUo2M3N3TGo1WWY2TUQ2TnVUczQ1dTB2Wlp0TUZJeWYtOUE?oc=5",
+   "abstract": "산업부, 美 폴리실리콘 232조 관세 민관합동 대책회의 개최&nbsp;&nbsp;dhns.co.kr",
+   "official": false,
+   "id": 39,
+   "src": "KR_REG",
+   "src_name": "한국 규제·수출통제",
+   "sectors": [
+    "수출통제/관세",
+    "금속/광물"
+   ],
+   "watch": []
+  },
+  {
+   "title": "산업부, 미국 폴리실리콘 관세에 민관합동 대책회의 - 연합뉴스",
+   "core": "산업부, 미국 폴리실리콘 관세에 민관합동 대책회의",
+   "date": "Tue, 11 Aug 2026",
+   "org": "연합뉴스",
+   "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE14SkxCaHFTdHJoQ2VIYXlWQ1E0TXhYaUJSY2xNOUxmdXJQSHBkTk5jUkJMTWNYM3YzalBsMUstVDVIdDJfbkRxdkx3b2VoNTY2dFA4S2VMYmpHSU1mdjc3etIBYEFVX3lxTE14SkxCaHFTdHJoQ2VIYXlWQ1E0TXhYaUJSY2xNOUxmdXJQSHBkTk5jUkJMTWNYM3YzalBsMUstVDVIdDJfbkRxdkx3b2VoNTY2dFA4S2VMYmpHSU1mdjc3eg?oc=5",
+   "abstract": "산업부, 미국 폴리실리콘 관세에 민관합동 대책회의&nbsp;&nbsp;연합뉴스",
+   "official": false,
+   "id": 40,
+   "src": "KR_REG",
+   "src_name": "한국 규제·수출통제",
+   "sectors": [
+    "수출통제/관세",
+    "금속/광물"
+   ],
+   "watch": []
+  },
+  {
+   "title": "서울 집값 1년 만에 15% 급등… 10·15 규제 이후 7%↑ - 매일일보",
+   "core": "서울 집값 1년 만에 15% 급등… 10·15 규제 이후 7%↑",
+   "date": "Tue, 11 Aug 2026",
+   "org": "매일일보",
+   "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1zcjFUY0RzYW9GdTR6RnVjTmJ5ZVBMMGhBMzg2ODdxVVdGbkxQZEU0Q3dtZXBrblNBZVBqX3JaZjI4bjR2OXVjc0Y5QUt1NVdwUXo0dG1PYlNMMk1lQ2xmMUdVMmc?oc=5",
+   "abstract": "서울 집값 1년 만에 15% 급등… 10·15 규제 이후 7%↑&nbsp;&nbsp;매일일보",
+   "official": false,
+   "id": 41,
+   "src": "KR_REG",
+   "src_name": "한국 규제·수출통제",
+   "sectors": [],
+   "watch": []
+  },
+  {
+   "title": "美 폴리실리콘 관세 대응 착수…산업부, 업계 영향 점검 - v.daum.net",
+   "core": "美 폴리실리콘 관세 대응 착수…산업부, 업계 영향 점검",
+   "date": "Tue, 11 Aug 2026",
+   "org": "v.daum.net",
+   "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBEOTRaQmpYMnJTT19vNWVUek4xVFltR3lkUG41ejM2ZDZXUDFubzhCMjY5Rm42SmVveVNfd1ByYzl6WW5xVS1Rc3FVcGlTSEVfc1BNbQ?oc=5",
+   "abstract": "美 폴리실리콘 관세 대응 착수…산업부, 업계 영향 점검&nbsp;&nbsp;v.daum.net",
+   "official": false,
+   "id": 42,
+   "src": "KR_REG",
+   "src_name": "한국 규제·수출통제",
+   "sectors": [
+    "수출통제/관세",
+    "금속/광물"
+   ],
+   "watch": []
+  },
+  {
+   "title": "주택공급대책 곧 발표…재개발 재건축 업계는 “글쎄” - 하우징헤럴드",
+   "core": "주택공급대책 곧 발표…재개발 재건축 업계는 “글쎄”",
+   "date": "Wed, 12 Aug 2026",
+   "org": "하우징헤럴드",
+   "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9aamNGNG5BdkktWE5qeHptWWxYVkNRSmRkVFRfQWxtN2U0SGNGWG5FalFpejVhTktoZDFNdWN5Y2RZR3pHQjl1RklRcnJ6NUlGcDkwek5BT0pwWmxueS1ZamUyUVFoZno2ektIYWxLamw5Wjg?oc=5",
+   "abstract": "주택공급대책 곧 발표…재개발 재건축 업계는 “글쎄”&nbsp;&nbsp;하우징헤럴드",
+   "official": false,
+   "id": 43,
+   "src": "KR_REG",
+   "src_name": "한국 규제·수출통제",
+   "sectors": [
+    "건설/부동산"
+   ],
+   "watch": []
+  },
+  {
+   "title": "최저가격제·232조 관세 꺼낸 美…韓 폴리실리콘 수출 ‘촉각’ - 에너지신문",
+   "core": "최저가격제·232조 관세 꺼낸 美…韓 폴리실리콘 수출 ‘촉각’",
+   "date": "Tue, 11 Aug 2026",
+   "org": "에너지신문",
+   "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBXaW42Wm5BYmQtVmdPRUhCdnp5aHpROHhKZlRoc25IYkNlYlhTcDd3Mm9nVm1aQ0VFV2oxTUpyZDJXanRONWstM1hXelhsWHNOZ0ZaVzJKblQ0bXVmX2tJWlR5dnJ5dGZSSURsOU5OdXJBdw?oc=5",
+   "abstract": "최저가격제·232조 관세 꺼낸 美…韓 폴리실리콘 수출 ‘촉각’&nbsp;&nbsp;에너지신문",
+   "official": false,
+   "id": 44,
+   "src": "KR_REG",
+   "src_name": "한국 규제·수출통제",
+   "sectors": [
+    "전력/원자력",
+    "수출통제/관세",
+    "금속/광물"
+   ],
+   "watch": []
+  },
+  {
+   "title": "한 총리 \"신산업 분야 '규제 걸림돌' 리스트업…속도감 있게 개선할 것\" - 뉴시스",
+   "core": "한 총리 \"신산업 분야 '규제 걸림돌' 리스트업…속도감 있게 개선할 것\"",
+   "date": "Wed, 12 Aug 2026",
+   "org": "뉴시스",
+   "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9MMlQ3SUdmZzRraDdOb2RyaWY3VVNlSzQteUVmS0VPem56blJsa2ZlTWEtaGNxcU5QRnBIVEg3R0JWMHJvSks1MVZYNENXMDdoYUc5MUVEZjVxQTFjQmtKNThRdzdmcHNldk85cjJURmFKMExfUk1nRdIBeEFVX3lxTE9MMlQ3SUdmZzRraDdOb2RyaWY3VVNlSzQteUVmS0VPem56blJsa2ZlTWEtaGNxcU5QRnBIVEg3R0JWMHJvSks1MVZYNENXMDdoYUc5MUVEZjVxQTFjQmtKNThRdzdmcHNldk85cjJURmFKMExfUk1nRQ?oc=5",
+   "abstract": "한 총리 \"신산업 분야 '규제 걸림돌' 리스트업…속도감 있게 개선할 것\"&nbsp;&nbsp;뉴시스",
+   "official": false,
+   "id": 45,
+   "src": "KR_REG",
+   "src_name": "한국 규제·수출통제",
+   "sectors": [],
+   "watch": []
+  }
+ ],
+ "coverage": "위 원천의 최근 게시물만 담음. 여기 없는 정책·공시는 존재할 수 있음(그물은 표본)."
+}

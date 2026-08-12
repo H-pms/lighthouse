@@ -61,7 +61,7 @@ jobs:
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           GITHUB_REPOSITORY: ${{ github.repository }}
           FORCE_DAILY: ${{ inputs.force }}
-          DAILY_MODEL: "claude-haiku-4-5-20251001"
+          DAILY_MODEL: "claude-sonnet-5"
           DAILY_MONTH_LIMIT: "40"
         run: python daily.py
 

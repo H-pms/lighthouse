@@ -13,6 +13,7 @@ EXECUTOR = "claude-opus-5"
 ADVISOR = "claude-fable-5"
 BETA = "advisor-tool-2026-03-01"
 MARK = "# 주간 보고서"
+MONTH_LIMIT = int(os.environ.get("REPORT_MONTH_LIMIT", "8"))   # 월 최대 실행 횟수
 
 CONSTITUTION = """너는 정책·공시 브리핑을 요약·정리해 주간 보고서를 쓰는 분석관이다. 규칙:
 1. 재료에 없는 사실을 주장하지 않는다. 배경지식은 [기억] 태그, 확신 없으면 "모른다"라고 쓴다.
@@ -79,6 +80,10 @@ def call_api(messages):
     return r.json()
 
 def _main():
+    force = os.environ.get("FORCE_REPORT", "").lower() in ("1", "true", "yes")
+    okg, st = guard_check(force)
+    if not okg:
+        return
     if not os.environ.get("ANTHROPIC_API_KEY"):
         print("[생략] ANTHROPIC_API_KEY 미설정")
         send_telegram("⚠️ 주간 보고 생략: API 키가 금고에 없습니다 (ANTHROPIC_API_KEY)")
@@ -123,8 +128,19 @@ def _main():
     if resp and resp.get("stop_reason") == "max_tokens":
         report += "\n\n⚠️ 길이 상한(6000토큰)에서 잘림 — 상한 조정이 필요합니다."
 
+    usage = {}
+    if resp:
+        u = resp.get("usage") or {}
+        for k in ("input_tokens", "output_tokens", "cache_read_input_tokens"):
+            if u.get(k):
+                usage[k] = u[k]
+    cost = est_cost(usage)
+    guard_record(st, usage)
     stamp = datetime.now(KST).strftime("%Y-%m-%d %H:%M")
-    header = f"> 생성: {stamp} KST · 분석관 {EXECUTOR} · 검토관 {ADVISOR} · 재료 {count}건 ({period})\n\n"
+    header = (f"> 생성: {stamp} KST · 분석관 {EXECUTOR} · 검토관 {ADVISOR} · 재료 {count}건 ({period})\n"
+              f"> 사용 토큰: 입력 {usage.get('input_tokens',0):,} · 출력 {usage.get('output_tokens',0):,}"
+              + (f" · 추정 비용 약 {cost:,.0f}원" if cost else "")
+              + f" · 이번 달 {st['count']}/{MONTH_LIMIT}회\n\n")
     final = header + report
     os.makedirs("briefing/reports", exist_ok=True)
     with open("briefing/report_latest.md", "w", encoding="utf-8") as f:
@@ -135,7 +151,57 @@ def _main():
 
     repo = os.environ.get("GITHUB_REPOSITORY", "")
     link = f"\n전문: https://github.com/{repo}/blob/main/briefing/report_latest.md" if repo else ""
-    send_telegram(f"📊 주간 보고서 ({period})\n\n{report[:1400]}{link}")
+    tail = (f"\n\n💰 이번 실행 약 {cost:,.0f}원 · 이번 달 {st['count']}/{MONTH_LIMIT}회" if cost else "")
+    send_telegram(f"📊 주간 보고서 ({period})\n\n{report[:1300]}{link}{tail}")
+
+# ══════════ 비용 안전장치 ══════════
+GUARD = "briefing/.last_report.json"
+
+def guard_check(force=False):
+    """같은 날 중복 실행·과다 호출을 막는다. (통과=True)"""
+    today = datetime.now(KST).strftime("%Y-%m-%d")
+    month = today[:7]
+    st = {"last_date": None, "month": month, "count": 0, "runs": []}
+    if os.path.exists(GUARD):
+        try:
+            st.update(json.load(open(GUARD, encoding="utf-8")))
+        except Exception:
+            pass
+    if st.get("month") != month:      # 달이 바뀌면 카운터 초기화
+        st = {"last_date": st.get("last_date"), "month": month, "count": 0, "runs": []}
+
+    if not force and st.get("last_date") == today:
+        msg = (f"⏭ 주간 보고 건너뜀 — 오늘({today}) 이미 생성했습니다.\n"
+               f"다시 만들려면 Run workflow 에서 force 를 켜세요.")
+        print(msg); send_telegram(msg)
+        return False, st
+    if st.get("count", 0) >= MONTH_LIMIT:
+        msg = (f"🛑 주간 보고 중단 — 이번 달 {st['count']}회로 상한({MONTH_LIMIT}회)에 도달했습니다.\n"
+               f"상한은 reporter.py 의 MONTH_LIMIT 에서 조정할 수 있습니다.")
+        print(msg); send_telegram(msg)
+        return False, st
+    return True, st
+
+def guard_record(st, usage=None):
+    today = datetime.now(KST).strftime("%Y-%m-%d")
+    st["last_date"] = today
+    st["count"] = st.get("count", 0) + 1
+    st.setdefault("runs", []).append({"at": datetime.now(KST).strftime("%Y-%m-%d %H:%M"),
+                                      "usage": usage or {}})
+    st["runs"] = st["runs"][-30:]
+    os.makedirs("briefing", exist_ok=True)
+    json.dump(st, open(GUARD, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+
+def est_cost(usage):
+    """대략 비용(원). 하한 단가 가정이므로 참고용."""
+    try:
+        i = usage.get("input_tokens", 0) + usage.get("cache_read_input_tokens", 0)
+        o = usage.get("output_tokens", 0)
+        usd = i / 1e6 * 5 + o / 1e6 * 25      # Opus 4.8 단가 기준(하한 가정)
+        return usd * 1400
+    except Exception:
+        return None
+
 
 def main():
     try:

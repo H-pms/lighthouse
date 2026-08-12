@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-등대 digest v2 — 무료 요약기
+등대 digest v3 — 무료 요약기 (공시 우선 · 유형별 배치)
 - 원자료를 읽어 사안 단위로 묶고, 본문에서 핵심 문장을 뽑아 보고서를 만든다.
 - 한 사안은 한 곳에만 배치(주섹터). 중복 출력 없음.
 - AI가 아니므로 해석하지 않는다. 묶기·세기·추리기만 한다.
@@ -78,6 +78,26 @@ def summarize(grp, keyw):
         if len(out) >= CUT: break
     return out
 
+KIND_ORDER = ["위험", "의지", "실체", "자본", "지분", "정책", "일정"]
+KIND_LABEL = {
+ "위험":"⚠️ 위험 신호 — 함정일 수 있는 것",
+ "의지":"💪 의지 신호 — 자기 것을 거는 행동",
+ "실체":"📊 실체 변화 — 실적·수주",
+ "자본":"💧 자본 변동 — 희석·조달",
+ "지분":"👤 지분 변동 — 누가 들어오고 나갔나",
+ "정책":"🏛 정책·규제 — 환경 변수",
+ "일정":"📅 예정 일정 — 다가올 사건",
+}
+KIND_NOTE = {
+ "위험":"소송·손실·거래정지·최대주주 변경 등. 기회보다 함정을 먼저 확인하세요.",
+ "의지":"공급계약·시설투자·자사주 취득. 말이 아니라 행동으로 자기 것을 건 사례입니다.",
+ "실체":"잠정실적·분기보고서. 인식(주가)이 따라왔는지 대조해 보세요.",
+ "자본":"증자·전환사채는 지분 희석, 감자·자사주 소각은 반대 방향입니다.",
+ "지분":"5% 이상 대주주 변동과 임원 매매. 매수인지 부여인지 원문에서 확인하세요.",
+ "정책":"시행일이 있으면 뒷파도의 도착 시점입니다.",
+ "일정":"반증 시한을 정할 때 쓰는 달력입니다.",
+}
+
 def build(data):
     items = data.get("items", [])
     ok = [s for s in data["sources"] if s["ok"]]
@@ -86,106 +106,88 @@ def build(data):
     L.append(f"# 환경 브리핑 — {data['date']}")
     L.append(f"> 생성 {data.get('generated','')} KST · 원천 {len(ok)}/{len(data['sources'])} · 수집 {len(items)}건")
     L.append("")
-    T.append(f"🗼 등대 브리핑 {data['date']}")
+    T.append(f"🗼 등대 {data['date']}")
     if bad:
         L.append("## ⚠️ 수집 실패")
         for s in bad: L.append(f"- **{s['name']}**: {s.get('error','')}")
         L.append("")
         T.append(f"⚠️ 원천 {len(bad)}곳 실패")
 
-    # 전체를 사안 단위로 한 번만 묶는다 (섹터 중복 제거)
     groups = cluster(items)
     packed = []
     for g in groups:
         h = headline(g)
-        secs = Counter(s for x in g for s in x["sectors"])
-        main = secs.most_common(1)[0][0] if secs else "기타"
-        keyw = set(words(h["core"]))
-        packed.append({"g": g, "h": h, "n": len(g), "sec": main,
-                       "secs": [s for s, _ in secs.most_common()],
-                       "lines": summarize(g, keyw),
+        ks = Counter(k for x in g for k in x.get("kinds", []))
+        secs = Counter(s for x in g for s in x.get("sectors", []))
+        packed.append({"g": g, "h": h, "n": len(g),
+                       "kind": (ks.most_common(1)[0][0] if ks else "기타"),
+                       "sec": (secs.most_common(1)[0][0] if secs else ""),
+                       "lines": summarize(g, set(words(h["core"]))),
                        "watch": sorted({w for x in g for w in x.get("watch", [])}),
-                       "official": any(x.get("official") for x in g)})
-    packed.sort(key=lambda p: (-p["n"], 0 if p["official"] else 1))
-
-    # ── 오늘의 요점: 반복이 많거나 공식 원문인 사안 ──
-    top = [p for p in packed if p["n"] >= 2 or p["official"]][:6]
-    if top:
-        L.append("## 오늘의 요점")
-        for p in top:
-            L.append(f"\n**{p['h']['core']}**  ")
-            meta = [f"{p['sec']}"]
-            if p["n"] > 1: meta.append(f"{p['n']}개 매체 보도")
-            if p["official"]: meta.append("공식 원문")
-            if p["h"].get("org"): meta.append(p["h"]["org"])
-            L.append(f"<sub>{' · '.join(meta)}</sub>  ")
-            for s in p["lines"]:
-                L.append(f"> {s}")
-            if not p["lines"]:
-                L.append("> _본문을 가져오지 못했습니다 — 원문 링크에서 확인하세요._")
-            L.append(f"[원문]({p['h']['link']})" +
-                     ("".join(f" · [관련{i+1}]({x['link']})" for i, x in enumerate(p['g'][1:4])) if p["n"] > 1 else ""))
-        L.append("")
+                       "official": any(x.get("official") for x in g),
+                       "sym": h.get("symbol", ""), "co": h.get("company", "")})
 
     # ── 워치리스트 ──
-    wl = [p for p in packed if p["watch"]]
-    L.append(f"## ⭐ 워치리스트 ({len(wl)}개 사안 / 감시어 {len(data.get('watchlist',[]))}개)")
+    wl = [p for p in packed if p["watch"] or p["h"].get("org","").endswith("감시종목")]
+    L.append(f"## ⭐ 워치리스트 ({len(wl)}건 / 감시어 {len(data.get('watchlist',[]))}개)")
     if wl:
-        for p in wl:
-            L.append(f"- **[{' · '.join(p['watch'])}]** [{p['h']['core']}]({p['h']['link']})"
-                     + (f" — {p['n']}건" if p["n"] > 1 else ""))
-            if p["lines"]:
-                L.append(f"  - {p['lines'][0][:150]}")
+        for p in wl[:12]:
+            tag = " · ".join(p["watch"]) or p["co"] or p["sec"]
+            L.append(f"- **[{tag}]** [{p['h']['core']}]({p['h']['link']})" + (f" — {p['n']}건" if p["n"]>1 else ""))
+            if p["lines"]: L.append(f"  - {p['lines'][0][:170]}")
         T.append(f"⭐ 워치리스트 {len(wl)}건")
         for p in wl[:3]:
-            T.append(f"• [{'·'.join(p['watch'])}] {p['h']['core'][:50]}")
+            T.append(f"• {p['h']['core'][:54]}")
     else:
         L.append("- 신규 0건 — 위 원천 범위에서 확인됨")
     L.append("")
 
-    # ── 섹터별 (사안은 주섹터에만) ──
-    bysec = {}
+    # ── 유형별 (투자 의미 순서) ──
+    bykind = {}
     for p in packed:
-        bysec.setdefault(p["sec"], []).append(p)
-    L.append("## 분야별")
-    for sec, ps in sorted(bysec.items(), key=lambda kv: -sum(x["n"] for x in kv[1])):
-        if sec == "기타": continue
-        L.append(f"\n### {sec} — 사안 {len(ps)}개 / 기사 {sum(p['n'] for p in ps)}건")
-        for p in ps:
+        bykind.setdefault(p["kind"], []).append(p)
+    tg_lines = []
+    for k in KIND_ORDER:
+        ps = bykind.get(k)
+        if not ps: continue
+        ps.sort(key=lambda p: (0 if p["official"] else 1, -p["n"]))
+        L.append(f"## {KIND_LABEL[k]} ({len(ps)}건)")
+        L.append(f"<sub>{KIND_NOTE[k]}</sub>")
+        L.append("")
+        for p in ps[:14]:
             mark = "📄" if p["official"] else "📰"
-            extra = f" _(+{', '.join(p['secs'][1:3])})_" if len(p["secs"]) > 1 else ""
+            meta = []
+            if p["sec"]: meta.append(p["sec"])
+            if p["h"].get("org"): meta.append(p["h"]["org"])
+            if p["n"] > 1: meta.append(f"{p['n']}건 보도")
+            if p["h"].get("effective"): meta.append(f"시행 {p['h']['effective']}")
             L.append(f"- {mark} [{p['h']['core']}]({p['h']['link']})"
-                     + (f" — {p['n']}건" if p["n"] > 1 else "") + extra)
-            if p["lines"] and p not in top:
-                L.append(f"  - {p['lines'][0][:160]}")
-    etc = bysec.get("기타", [])
+                     + (f"  \n  <sub>{' · '.join(meta)}</sub>" if meta else ""))
+            for s in p["lines"][:2]:
+                L.append(f"  > {s}")
+        if len(ps) > 14:
+            L.append(f"- _외 {len(ps)-14}건_")
+        L.append("")
+        tg_lines.append((k, len(ps), ps[0]["h"]["core"] if ps else ""))
+
+    etc = bykind.get("기타", [])
     if etc:
-        L.append(f"\n### 분류 밖 — {len(etc)}개 사안")
-        for p in etc[:10]:
+        L.append(f"## 그 외 ({len(etc)}건)")
+        for p in etc[:8]:
             L.append(f"- {'📄' if p['official'] else '📰'} [{p['h']['core']}]({p['h']['link']})"
-                     + (f" — {p['n']}건" if p["n"] > 1 else ""))
+                     + (f" — {p['n']}건" if p["n"]>1 else ""))
+        L.append("")
 
-    sec_count = Counter()
-    for p in packed:
-        sec_count[p["sec"]] += p["n"]
-    if sec_count:
-        T.append("분야: " + " · ".join(f"{s} {n}" for s, n in sec_count.most_common(4)))
-    if top:
+    # 텔레그램 본문
+    if tg_lines:
         T.append("")
-        T.append("오늘의 요점:")
-        for p in top[:4]:
-            head = p["h"]["core"][:44]
-            sub = (p["lines"][0][:60] + "…") if p["lines"] else ""
-            T.append(f"• {head}" + (f"\n  {sub}" if sub else ""))
+        for k, n, top in tg_lines[:5]:
+            T.append(f"{KIND_LABEL[k].split(' — ')[0]} {n}건")
+            if top: T.append(f"  · {top[:52]}")
 
-    trn = sum(1 for x in items if x.get("translated"))
-    L.append("")
     L.append("---")
     L.append(f"_{data.get('coverage','')}_")
-    L.append(f"_📄 공식 원문 · 📰 언론 보도 · 영문 {trn}건 한국어 번역_" if trn else
-             "_📄 공식 원문 · 📰 언론 보도_")
-    L.append("_이 요약은 프로그램이 묶고 추린 것이며 해석·판단이 아닙니다._")
-
+    L.append("_📄 원문 · 📰 보도 · 프로그램이 묶고 추린 것이며 해석·판단이 아닙니다._")
     repo = os.environ.get("GITHUB_REPOSITORY", "")
     if repo:
         T.append("")

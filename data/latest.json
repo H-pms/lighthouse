@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-12 20:43",
+ "generated": "2026-08-12 21:48",
  "date": "2026-08-12",
  "sources": [
   {
@@ -23,7 +23,7 @@
   {
    "id": "KR_POLICY",
    "name": "한국 정책 (부처 발표)",
-   "count": 13,
+   "count": 12,
    "ok": true
   },
   {
@@ -2847,19 +2847,19 @@
    "src_name": "한국 정책 (부처 발표)"
   },
   {
-   "title": "“비거주를 죄악시” “과세 실익 없어”… 민주당 세제 개편안 수정논의 본격 시동 - 경향신문",
-   "core": "“비거주를 죄악시” “과세 실익 없어”… 민주당 세제 개편안 수정논의 본격 시동",
+   "title": "\"폐버스 황당...청년이 좋아하는 주택공급 대책 내놓길\" - YTN",
+   "core": "\"폐버스 황당...청년이 좋아하는 주택공급 대책 내놓길\"",
    "date": "Wed, 12 Aug 2026",
-   "abstract": "“비거주를 죄악시” “과세 실익 없어”… 민주당 세제 개편안 수정논의 본격 시동&nbsp;&nbsp;경향신문",
-   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9xbmxiLU9jM3RGVWV0Xy1YVDdEODB0c0w0TjJfa05FTWRnV2hOOW9QbnJsUEFxM0xoYzNZbndUWEktUldSUFdzTkJEdzIyQXJ6N3hRZ1JIOFZjZ9IBX0FVX3lxTFA0NG42dFZnOEEwOWt4VHBmaktYMlRsUWwxbnlRcDZudjl5VUpoblhmN1l4UXMxR3ozekRzc2NzMndxTFN6bURnRXdJeGE0NjZ5WFVicUtXc19ONWtxU0hN?oc=5",
+   "abstract": "\"폐버스 황당...청년이 좋아하는 주택공급 대책 내놓길\"&nbsp;&nbsp;YTN",
+   "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1OaGYzVUpKeWpnWnVKSHRQV1l0NEFCS3ZuQXdFSWpRNTNyLTVSSHg1YlU5bFlheVdmaHE5LTI2NEcxQUpqOFJMTnlTXzFybUpCVi01Y01OZGtkNDRWOEE?oc=5",
    "official": false,
-   "org": "경향신문",
+   "org": "YTN",
    "kinds": [
     "정책"
    ],
    "src_kind": "정책",
    "sectors": [
-    "보조금/세제"
+    "건설/부동산"
    ],
    "watch": [],
    "id": 136,
@@ -2885,21 +2885,18 @@
    "src_name": "한국 정책 (부처 발표)"
   },
   {
-   "title": "세제개편에 韓 부동산은 혼돈…시장은 셈법 복잡, 건설사는 '훈풍' 기대 - investchosun.com",
-   "core": "세제개편에 韓 부동산은 혼돈…시장은 셈법 복잡, 건설사는 '훈풍' 기대",
-   "date": "Tue, 11 Aug 2026",
-   "abstract": "세제개편에 韓 부동산은 혼돈…시장은 셈법 복잡, 건설사는 '훈풍' 기대&nbsp;&nbsp;investchosun.com",
-   "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPN2hHUTY5NTBuQjJnc2wtYXN5R2RrSnlHbnUyckl0S09oRV9zR0ZiUkJ4WndPNlVjY21RTGx4ekd6T3N5LXEyWXczVXRHU0NMYnEzcENvVHI4NGx2RnhYTVlXMDl3aUFaT1VyTk5OdE9JMFlyYW9nZXV4MUlqN1dCVW5aZw?oc=5",
+   "title": "‘1년 선거주’ 수정 검토…직장·질병 등 사유 언제든 발생 지적 - 한겨레",
+   "core": "‘1년 선거주’ 수정 검토…직장·질병 등 사유 언제든 발생 지적",
+   "date": "Wed, 12 Aug 2026",
+   "abstract": "‘1년 선거주’ 수정 검토…직장·질병 등 사유 언제든 발생 지적&nbsp;&nbsp;한겨레",
+   "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9RTGxRaVk4QV81U2NaZ3Q5X3FJSzlzNE1kb3ZPWDJGdUFQT0hIT2lZV21ZZEp4czdQMzV1aUVMWmhPdXVjNmE2ZzFqdVNLQlNweEE1a2JJYk5CWjVzekdHbFY4UkdFakJxZnV6YmFibjFCUQ?oc=5",
    "official": false,
-   "org": "investchosun.com",
+   "org": "한겨레",
    "kinds": [
     "정책"
    ],
    "src_kind": "정책",
-   "sectors": [
-    "보조금/세제",
-    "건설/부동산"
-   ],
+   "sectors": [],
    "watch": [],
    "id": 138,
    "src": "KR_POLICY",
@@ -2926,26 +2923,6 @@
    "src_name": "한국 정책 (부처 발표)"
   },
   {
-   "title": "李대통령이 열어둔 세제개편 수정…'비거주 1주택' 넘어 어디까지 손대나 - 연합인포맥스",
-   "core": "李대통령이 열어둔 세제개편 수정…'비거주 1주택' 넘어 어디까지 손대나",
-   "date": "Tue, 11 Aug 2026",
-   "abstract": "李대통령이 열어둔 세제개편 수정…'비거주 1주택' 넘어 어디까지 손대나&nbsp;&nbsp;연합인포맥스",
-   "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBfa1I4eXY1ZHBPZ3dCUm5CU1I1SElGRmhTVy1zQVEtaGF2VXZxV0VBY2J4Z1ZKR0tBcHg0Y1VkQVFNdl9IMGhsTmxJZHBxeWZhSklkNTZOQjVMbXdsR2VUOFZ1LWFKdkw1YUFJOFpWVlM?oc=5",
-   "official": false,
-   "org": "연합인포맥스",
-   "kinds": [
-    "정책"
-   ],
-   "src_kind": "정책",
-   "sectors": [
-    "보조금/세제"
-   ],
-   "watch": [],
-   "id": 140,
-   "src": "KR_POLICY",
-   "src_name": "한국 정책 (부처 발표)"
-  },
-  {
    "title": "\"주민 소변서 녹조독소 검출…정부 대책 필요\" - LG헬로비전",
    "core": "\"주민 소변서 녹조독소 검출…정부 대책 필요\"",
    "date": "Wed, 12 Aug 2026",
@@ -2959,25 +2936,28 @@
    "src_kind": "정책",
    "sectors": [],
    "watch": [],
-   "id": 141,
+   "id": 140,
    "src": "KR_POLICY",
    "src_name": "한국 정책 (부처 발표)"
   },
   {
-   "title": "‘1년 선거주’ 수정 검토…직장·질병 등 사유 언제든 발생 지적 - 한겨레",
-   "core": "‘1년 선거주’ 수정 검토…직장·질병 등 사유 언제든 발생 지적",
-   "date": "Wed, 12 Aug 2026",
-   "abstract": "‘1년 선거주’ 수정 검토…직장·질병 등 사유 언제든 발생 지적&nbsp;&nbsp;한겨레",
-   "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9RTGxRaVk4QV81U2NaZ3Q5X3FJSzlzNE1kb3ZPWDJGdUFQT0hIT2lZV21ZZEp4czdQMzV1aUVMWmhPdXVjNmE2ZzFqdVNLQlNweEE1a2JJYk5CWjVzekdHbFY4UkdFakJxZnV6YmFibjFCUQ?oc=5",
+   "title": "세제개편에 韓 부동산은 혼돈…시장은 셈법 복잡, 건설사는 '훈풍' 기대 - 인베스트조선",
+   "core": "세제개편에 韓 부동산은 혼돈…시장은 셈법 복잡, 건설사는 '훈풍' 기대",
+   "date": "Tue, 11 Aug 2026",
+   "abstract": "세제개편에 韓 부동산은 혼돈…시장은 셈법 복잡, 건설사는 '훈풍' 기대&nbsp;&nbsp;인베스트조선",
+   "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPN2hHUTY5NTBuQjJnc2wtYXN5R2RrSnlHbnUyckl0S09oRV9zR0ZiUkJ4WndPNlVjY21RTGx4ekd6T3N5LXEyWXczVXRHU0NMYnEzcENvVHI4NGx2RnhYTVlXMDl3aUFaT1VyTk5OdE9JMFlyYW9nZXV4MUlqN1dCVW5aZw?oc=5",
    "official": false,
-   "org": "한겨레",
+   "org": "인베스트조선",
    "kinds": [
     "정책"
    ],
    "src_kind": "정책",
-   "sectors": [],
+   "sectors": [
+    "보조금/세제",
+    "건설/부동산"
+   ],
    "watch": [],
-   "id": 142,
+   "id": 141,
    "src": "KR_POLICY",
    "src_name": "한국 정책 (부처 발표)"
   },
@@ -2997,45 +2977,27 @@
     "보조금/세제"
    ],
    "watch": [],
-   "id": 143,
+   "id": 142,
    "src": "KR_POLICY",
    "src_name": "한국 정책 (부처 발표)"
   },
   {
-   "title": "당정 \"비아파트 공급 확대 속도전… 금융 지원·규제 완화\" - v.daum.net",
-   "core": "당정 \"비아파트 공급 확대 속도전… 금융 지원·규제 완화\"",
+   "title": "“비거주를 죄악시” “과세 실익 없어”… 민주당 세제 개편안 수정논의 본격 시동 - 경향신문",
+   "core": "“비거주를 죄악시” “과세 실익 없어”… 민주당 세제 개편안 수정논의 본격 시동",
    "date": "Wed, 12 Aug 2026",
-   "abstract": "당정 \"비아파트 공급 확대 속도전… 금융 지원·규제 완화\"&nbsp;&nbsp;v.daum.net",
-   "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1VYkhsX25JbXZqVTlLaDg3aV9JZDRndEdWZENQcjB0X0N3TF9hUHhCamJXbzJKVnZ0Z0JHSEFEREdhTmJTcHhVSi1OWnRhU2c?oc=5",
+   "abstract": "“비거주를 죄악시” “과세 실익 없어”… 민주당 세제 개편안 수정논의 본격 시동&nbsp;&nbsp;경향신문",
+   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9xbmxiLU9jM3RGVWV0Xy1YVDdEODB0c0w0TjJfa05FTWRnV2hOOW9QbnJsUEFxM0xoYzNZbndUWEktUldSUFdzTkJEdzIyQXJ6N3hRZ1JIOFZjZ9IBX0FVX3lxTFA0NG42dFZnOEEwOWt4VHBmaktYMlRsUWwxbnlRcDZudjl5VUpoblhmN1l4UXMxR3ozekRzc2NzMndxTFN6bURnRXdJeGE0NjZ5WFVicUtXc19ONWtxU0hN?oc=5",
    "official": false,
-   "org": "v.daum.net",
-   "kinds": [
-    "정책"
-   ],
-   "src_kind": "정책",
-   "sectors": [],
-   "watch": [],
-   "id": 144,
-   "src": "KR_POLICY",
-   "src_name": "한국 정책 (부처 발표)"
-  },
-  {
-   "title": "이르면 이번 주 부동산 대책…정부 \"공급 늘릴 것\" - OBS경인TV",
-   "core": "이르면 이번 주 부동산 대책…정부 \"공급 늘릴 것\"",
-   "date": "Wed, 12 Aug 2026",
-   "abstract": "이르면 이번 주 부동산 대책…정부 \"공급 늘릴 것\"&nbsp;&nbsp;OBS경인TV",
-   "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE81MGg0Mm1DZGxWNm1zNlJTX1Y0TDNhem9WQ0pjaURyU19PSFJYYlMxT0dUc0ZRaDBfVFNZVUFnSERLS1l3bVpFRExlenhQdjhUeXRNdGduVW1EMl9sTFIxNzZ5MjdDdnBOdEdHTlFR?oc=5",
-   "official": false,
-   "org": "OBS경인TV",
+   "org": "경향신문",
    "kinds": [
     "정책"
    ],
    "src_kind": "정책",
    "sectors": [
-    "건설/부동산"
+    "보조금/세제"
    ],
    "watch": [],
-   "id": 145,
+   "id": 143,
    "src": "KR_POLICY",
    "src_name": "한국 정책 (부처 발표)"
   },
@@ -3055,25 +3017,45 @@
     "건설/부동산"
    ],
    "watch": [],
-   "id": 146,
+   "id": 144,
    "src": "KR_POLICY",
    "src_name": "한국 정책 (부처 발표)"
   },
   {
-   "title": "당정 \"비아파트 공급 확대 속도전… 금융 지원·규제 완화\" - 파이낸셜뉴스",
+   "title": "당정 \"비아파트 공급 확대 속도전… 금융 지원·규제 완화\" - v.daum.net",
    "core": "당정 \"비아파트 공급 확대 속도전… 금융 지원·규제 완화\"",
    "date": "Wed, 12 Aug 2026",
-   "abstract": "당정 \"비아파트 공급 확대 속도전… 금융 지원·규제 완화\"&nbsp;&nbsp;파이낸셜뉴스",
-   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE84cG9XZVdfV0VvWlFjWERVaWZKeHM3X2JwOS1uYmVYbmpCbEQwZFF3TDJjLVJCal9UdEJ2em9Nb3NEdm5WU09JRi13Mnp1azdWVFh4Vmx0MklCdw?oc=5",
+   "abstract": "당정 \"비아파트 공급 확대 속도전… 금융 지원·규제 완화\"&nbsp;&nbsp;v.daum.net",
+   "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1VYkhsX25JbXZqVTlLaDg3aV9JZDRndEdWZENQcjB0X0N3TF9hUHhCamJXbzJKVnZ0Z0JHSEFEREdhTmJTcHhVSi1OWnRhU2c?oc=5",
    "official": false,
-   "org": "파이낸셜뉴스",
+   "org": "v.daum.net",
    "kinds": [
     "정책"
    ],
    "src_kind": "정책",
    "sectors": [],
    "watch": [],
-   "id": 147,
+   "id": 145,
+   "src": "KR_POLICY",
+   "src_name": "한국 정책 (부처 발표)"
+  },
+  {
+   "title": "이르면 이번 주 부동산 대책…정부 \"공급 늘릴 것\" - OBS경인TV",
+   "core": "이르면 이번 주 부동산 대책…정부 \"공급 늘릴 것\"",
+   "date": "Wed, 12 Aug 2026",
+   "abstract": "이르면 이번 주 부동산 대책…정부 \"공급 늘릴 것\"&nbsp;&nbsp;OBS경인TV",
+   "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE81MGg0Mm1DZGxWNm1zNlJTX1Y0TDNhem9WQ0pjaURyU19PSFJYYlMxT0dUc0ZRaDBfVFNZVUFnSERLS1l3bVpFRExlenhQdjhUeXRNdGduVW1EMl9sTFIxNzZ5MjdDdnBOdEdHTlFR?oc=5",
+   "official": false,
+   "org": "OBS경인TV",
+   "kinds": [
+    "정책"
+   ],
+   "src_kind": "정책",
+   "sectors": [
+    "건설/부동산"
+   ],
+   "watch": [],
+   "id": 146,
    "src": "KR_POLICY",
    "src_name": "한국 정책 (부처 발표)"
   },
@@ -3091,7 +3073,7 @@
    "src_kind": "산업",
    "sectors": [],
    "watch": [],
-   "id": 148,
+   "id": 147,
    "src": "KR_INDUS",
    "src_name": "한국 산업·공급망"
   },
@@ -3109,7 +3091,7 @@
    "src_kind": "산업",
    "sectors": [],
    "watch": [],
-   "id": 149,
+   "id": 148,
    "src": "KR_INDUS",
    "src_name": "한국 산업·공급망"
   },
@@ -3132,6 +3114,27 @@
    "watch": [
     "SMR"
    ],
+   "id": 149,
+   "src": "KR_INDUS",
+   "src_name": "한국 산업·공급망"
+  },
+  {
+   "title": "핵심광물 재자원화율 20% 목표… 첨단 공급망에 10조원 R&D 투입 - 에너지플랫폼뉴스",
+   "core": "핵심광물 재자원화율 20% 목표… 첨단 공급망에 10조원 R&D 투입",
+   "date": "Wed, 12 Aug 2026",
+   "abstract": "핵심광물 재자원화율 20% 목표… 첨단 공급망에 10조원 R&amp;D 투입&nbsp;&nbsp;에너지플랫폼뉴스",
+   "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1OM2NHcHNhdU56Y1V6UlRSU2IxYkVkbERJTWFVSkRBaTlNV1hPeFZveGNuSWx1bm9fNU0yR3NuZ1R6b1puSzE0UWdOaEVxeWxsR0F0N0Q0RGZPVDM3dzdCREpqQ0Q2RVgxYXZLTEVqZ3TSAXBBVV95cUxNTjNjR3BzYXVOemNVelJUUlNiMWJFZGxESU1hVUpEQWk5TVdYT3hWb3hjbklsdW5vXzVNMkdzbmdUem9abksxNFFnTmhFcXlsbEdBdDdENERmT1QzN3c3QkRKakNENkVYMWF2S0xFamd0?oc=5",
+   "official": false,
+   "org": "에너지플랫폼뉴스",
+   "kinds": [
+    "정책"
+   ],
+   "src_kind": "산업",
+   "sectors": [
+    "전력/원자력",
+    "금속/광물"
+   ],
+   "watch": [],
    "id": 150,
    "src": "KR_INDUS",
    "src_name": "한국 산업·공급망"
@@ -3160,40 +3163,24 @@
    "src_name": "한국 산업·공급망"
   },
   {
-   "title": "[IT/게임] 베트남 게임 산업의 '아이러니'… 글로벌 수출 강국이나 안방선 외산 게임 천하 - 굿모닝베트남미디어",
-   "core": "[IT/게임] 베트남 게임 산업의 '아이러니'… 글로벌 수출 강국이나 안방선 외산 게임 천하",
+   "title": "코트라, '수출 1조달러' 향해 다변화 속도… 신흥시장·비반도체 공략 - S저널",
+   "core": "코트라, '수출 1조달러' 향해 다변화 속도… 신흥시장·비반도체 공략",
    "date": "Tue, 11 Aug 2026",
-   "abstract": "[IT/게임] 베트남 게임 산업의 '아이러니'… 글로벌 수출 강국이나 안방선 외산 게임 천하&nbsp;&nbsp;굿모닝베트남미디어",
-   "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE0yZmNIclp2X1FYZDUtYWxqQ1l5eHJSTi1XaWNTRUlPTF83RHlMUFBURkJnQ0taZHdFY2w1aDk5a3BFNDRDOER2YUtsZHlfdXFXNDFrOXB3blJjcXdfaWZDNVBsWWVxek9pMFRSbXZCM00?oc=5",
+   "abstract": "코트라, '수출 1조달러' 향해 다변화 속도… 신흥시장·비반도체 공략&nbsp;&nbsp;S저널",
+   "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9BQVlidjZiaUg3OXBQRldwNWItZHo1RWV6Rk1QYXBWZ0hvQmxqbDJkTGhYSVl1elo5Ql9NRHdjeGxadmRlX21oXzlEQmJ5dmdKdXBLMzlfU25GVmdFRnpIUDBLNHlpbU03MjBxN29n?oc=5",
    "official": false,
-   "org": "굿모닝베트남미디어",
+   "org": "S저널",
    "kinds": [
     "정책"
    ],
    "src_kind": "산업",
-   "sectors": [],
-   "watch": [],
-   "id": 152,
-   "src": "KR_INDUS",
-   "src_name": "한국 산업·공급망"
-  },
-  {
-   "title": "정부, 피지컬 AI 구매 대폭 확대…로봇 생태계 양성 By EBN - Investing.com 한국어",
-   "core": "정부, 피지컬 AI 구매 대폭 확대…로봇 생태계 양성 By EBN",
-   "date": "Mon, 10 Aug 2026",
-   "abstract": "정부, 피지컬 AI 구매 대폭 확대…로봇 생태계 양성 By EBN&nbsp;&nbsp;Investing.com 한국어",
-   "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9lNzl1UmFkWmFxZmt6U2hJN2tuZFN5RXpJUWFCbzRSYnhkSHQycVVQbGZWbFdYTUdiZ093RTJQY1Z3UC1xUEJKSWYyTjY3b2pNR28zSmlMamhVeGJXdm5RUTN6UU5UeGpnQ2tYUkdfdF8?oc=5",
-   "official": false,
-   "org": "Investing.com 한국어",
-   "kinds": [
-    "정책"
+   "sectors": [
+    "반도체/AI"
    ],
-   "src_kind": "산업",
-   "sectors": [],
    "watch": [
-    "로봇"
+    "반도체"
    ],
-   "id": 153,
+   "id": 152,
    "src": "KR_INDUS",
    "src_name": "한국 산업·공급망"
   },
@@ -3211,7 +3198,7 @@
    "src_kind": "산업",
    "sectors": [],
    "watch": [],
-   "id": 154,
+   "id": 153,
    "src": "KR_INDUS",
    "src_name": "한국 산업·공급망"
   },
@@ -3229,25 +3216,7 @@
    "src_kind": "산업",
    "sectors": [],
    "watch": [],
-   "id": 155,
-   "src": "KR_INDUS",
-   "src_name": "한국 산업·공급망"
-  },
-  {
-   "title": "'K-메가프로젝트', 704조 지역투자 앞당긴다 - 넷제로뉴스",
-   "core": "'K-메가프로젝트', 704조 지역투자 앞당긴다",
-   "date": "Mon, 10 Aug 2026",
-   "abstract": "'K-메가프로젝트', 704조 지역투자 앞당긴다&nbsp;&nbsp;넷제로뉴스",
-   "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBfcENlNGxRcV9oSWhmVHgzY1ZFM3VUVWNRSkRkckFhY2xqZHM3OUVTc2R1b09xSVV6SVNYT2g2aF9qVzV6bFluQ09hOFF2V0FsUmMxSTB6OVFna3hKMjRLTHRSUFR6V2h2NWZxZTF30gFuQVVfeXFMUF9wQ2U0bFFxX2hJaGZUeDNjVkUzdVRVY1FKRGRyQWFjbGpkczc5RVNzZHVvT3FJVXpJU1hPaDZoX2pXNXpsWW5DT2E4UXZXQWxSYzFJMHo5UWdreEoyNEtMdFJQVHpXaHY1ZnFlMXc?oc=5",
-   "official": false,
-   "org": "넷제로뉴스",
-   "kinds": [
-    "정책"
-   ],
-   "src_kind": "산업",
-   "sectors": [],
-   "watch": [],
-   "id": 156,
+   "id": 154,
    "src": "KR_INDUS",
    "src_name": "한국 산업·공급망"
   },
@@ -3265,7 +3234,7 @@
    "src_kind": "산업",
    "sectors": [],
    "watch": [],
-   "id": 157,
+   "id": 155,
    "src": "KR_INDUS",
    "src_name": "한국 산업·공급망"
   },
@@ -3283,7 +3252,25 @@
    "src_kind": "산업",
    "sectors": [],
    "watch": [],
-   "id": 158,
+   "id": 156,
+   "src": "KR_INDUS",
+   "src_name": "한국 산업·공급망"
+  },
+  {
+   "title": "(참고) 첨단기술이 여는 미래, 미래성장동력 「7대 SEED」 보고회 개최 - 네이트",
+   "core": "(참고) 첨단기술이 여는 미래, 미래성장동력 「7대 SEED」 보고회 개최",
+   "date": "Wed, 12 Aug 2026",
+   "abstract": "(참고) 첨단기술이 여는 미래, 미래성장동력 「7대 SEED」 보고회 개최&nbsp;&nbsp;네이트",
+   "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE4ySTlZYUJNLXRjMU50RWJOMnNiMmdWeFN2M2xXeXg1YlZrQWE4cHNLRmh4dEFvR2NnNUdGRF9VckJhMVIxUm56d1RIVFJTOXppN2Nv?oc=5",
+   "official": false,
+   "org": "네이트",
+   "kinds": [
+    "정책"
+   ],
+   "src_kind": "산업",
+   "sectors": [],
+   "watch": [],
+   "id": 157,
    "src": "KR_INDUS",
    "src_name": "한국 산업·공급망"
   },
@@ -3301,7 +3288,7 @@
    "src_kind": "해외",
    "sectors": [],
    "watch": [],
-   "id": 159,
+   "id": 158,
    "src": "GLOBAL",
    "src_name": "해외발 충격 (영문)"
   },
@@ -3321,7 +3308,7 @@
     "2차전지/ESS"
    ],
    "watch": [],
-   "id": 160,
+   "id": 159,
    "src": "GLOBAL",
    "src_name": "해외발 충격 (영문)"
   },
@@ -3339,7 +3326,7 @@
    "src_kind": "해외",
    "sectors": [],
    "watch": [],
-   "id": 161,
+   "id": 160,
    "src": "GLOBAL",
    "src_name": "해외발 충격 (영문)"
   },
@@ -3359,7 +3346,7 @@
     "금속/광물"
    ],
    "watch": [],
-   "id": 162,
+   "id": 161,
    "src": "GLOBAL",
    "src_name": "해외발 충격 (영문)"
   },
@@ -3377,7 +3364,7 @@
    "src_kind": "해외",
    "sectors": [],
    "watch": [],
-   "id": 163,
+   "id": 162,
    "src": "GLOBAL",
    "src_name": "해외발 충격 (영문)"
   },
@@ -3395,7 +3382,7 @@
    "src_kind": "해외",
    "sectors": [],
    "watch": [],
-   "id": 164,
+   "id": 163,
    "src": "GLOBAL",
    "src_name": "해외발 충격 (영문)"
   },
@@ -3413,7 +3400,7 @@
    "src_kind": "해외",
    "sectors": [],
    "watch": [],
-   "id": 165,
+   "id": 164,
    "src": "GLOBAL",
    "src_name": "해외발 충격 (영문)"
   },
@@ -3431,7 +3418,7 @@
    "src_kind": "해외",
    "sectors": [],
    "watch": [],
-   "id": 166,
+   "id": 165,
    "src": "GLOBAL",
    "src_name": "해외발 충격 (영문)"
   },
@@ -3449,7 +3436,7 @@
    "src_kind": "해외",
    "sectors": [],
    "watch": [],
-   "id": 167,
+   "id": 166,
    "src": "GLOBAL",
    "src_name": "해외발 충격 (영문)"
   },
@@ -3469,7 +3456,7 @@
     "금속/광물"
    ],
    "watch": [],
-   "id": 168,
+   "id": 167,
    "src": "GLOBAL",
    "src_name": "해외발 충격 (영문)"
   },
@@ -3487,7 +3474,7 @@
    "src_kind": "해외",
    "sectors": [],
    "watch": [],
-   "id": 169,
+   "id": 168,
    "src": "GLOBAL",
    "src_name": "해외발 충격 (영문)"
   },
@@ -3505,7 +3492,7 @@
    "src_kind": "해외",
    "sectors": [],
    "watch": [],
-   "id": 170,
+   "id": 169,
    "src": "GLOBAL",
    "src_name": "해외발 충격 (영문)"
   },
@@ -3523,7 +3510,7 @@
    "src_kind": "해외",
    "sectors": [],
    "watch": [],
-   "id": 171,
+   "id": 170,
    "src": "GLOBAL",
    "src_name": "해외발 충격 (영문)"
   },
@@ -3541,7 +3528,7 @@
    "src_kind": "해외",
    "sectors": [],
    "watch": [],
-   "id": 172,
+   "id": 171,
    "src": "GLOBAL",
    "src_name": "해외발 충격 (영문)"
   },
@@ -3561,7 +3548,7 @@
     "금속/광물"
    ],
    "watch": [],
-   "id": 173,
+   "id": 172,
    "src": "GLOBAL",
    "src_name": "해외발 충격 (영문)"
   },
@@ -3581,7 +3568,7 @@
     "금속/광물"
    ],
    "watch": [],
-   "id": 174,
+   "id": 173,
    "src": "GLOBAL",
    "src_name": "해외발 충격 (영문)"
   },
@@ -3601,7 +3588,7 @@
     "금속/광물"
    ],
    "watch": [],
-   "id": 175,
+   "id": 174,
    "src": "GLOBAL",
    "src_name": "해외발 충격 (영문)"
   },
@@ -3619,7 +3606,7 @@
    "src_kind": "해외",
    "sectors": [],
    "watch": [],
-   "id": 176,
+   "id": 175,
    "src": "GLOBAL",
    "src_name": "해외발 충격 (영문)"
   },
@@ -3637,7 +3624,7 @@
    "src_kind": "해외",
    "sectors": [],
    "watch": [],
-   "id": 177,
+   "id": 176,
    "src": "GLOBAL",
    "src_name": "해외발 충격 (영문)"
   },
@@ -3655,7 +3642,7 @@
    "src_kind": "해외",
    "sectors": [],
    "watch": [],
-   "id": 178,
+   "id": 177,
    "src": "GLOBAL",
    "src_name": "해외발 충격 (영문)"
   },
@@ -3675,7 +3662,7 @@
     "금리/통화"
    ],
    "watch": [],
-   "id": 179,
+   "id": 178,
    "src": "CALENDAR",
    "src_name": "예정 일정"
   },
@@ -3695,7 +3682,7 @@
     "금리/통화"
    ],
    "watch": [],
-   "id": 180,
+   "id": 179,
    "src": "CALENDAR",
    "src_name": "예정 일정"
   },
@@ -3715,7 +3702,7 @@
     "금리/통화"
    ],
    "watch": [],
-   "id": 181,
+   "id": 180,
    "src": "CALENDAR",
    "src_name": "예정 일정"
   },
@@ -3735,7 +3722,7 @@
     "금리/통화"
    ],
    "watch": [],
-   "id": 182,
+   "id": 181,
    "src": "CALENDAR",
    "src_name": "예정 일정"
   },
@@ -3755,7 +3742,7 @@
     "금리/통화"
    ],
    "watch": [],
-   "id": 183,
+   "id": 182,
    "src": "CALENDAR",
    "src_name": "예정 일정"
   },
@@ -3775,7 +3762,7 @@
     "금리/통화"
    ],
    "watch": [],
-   "id": 184,
+   "id": 183,
    "src": "CALENDAR",
    "src_name": "예정 일정"
   },
@@ -3795,7 +3782,7 @@
     "금리/통화"
    ],
    "watch": [],
-   "id": 185,
+   "id": 184,
    "src": "CALENDAR",
    "src_name": "예정 일정"
   },
@@ -3815,7 +3802,7 @@
     "금리/통화"
    ],
    "watch": [],
-   "id": 186,
+   "id": 185,
    "src": "CALENDAR",
    "src_name": "예정 일정"
   }

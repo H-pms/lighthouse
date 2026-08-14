@@ -141,15 +141,19 @@ GEMINI_MODEL = os.environ.get("GEMINI_MODEL", "")        # 비우면 자동 탐�
 GEMINI_THINK = os.environ.get("GEMINI_THINK", "1") != "0"  # 확장 사고 사용
 
 # 선호 순서: 상위 → 하위 (무료로 열리는 것 중 가장 좋은 것을 고른다)
-# 등급: 이름에 들어간 단어로 계열을 판정 (새 모델명이 나와도 통함)
-TIER = [("ultra", 60), ("pro", 55), ("flash", 40), ("lite", 15)]
+# 등급: 무료 티어에서 쓸 수 있는 계열을 우선한다.
+# (2026-04 이후 Pro/Ultra 는 무료 티어에서 제외됨 — 유료 결제 시에만 사용 가능)
+# FREE_FIRST=0 으로 두면 성능 우선(pro 먼저)으로 바뀐다.
+FREE_FIRST = os.environ.get("GEMINI_FREE_FIRST", "1") != "0"
+TIER_FREE = [("flash", 55), ("ultra", 25), ("pro", 20), ("lite", 15)]
+TIER_PERF = [("ultra", 60), ("pro", 55), ("flash", 40), ("lite", 15)]
 
 def _score(name):
     """무료로 쓸 수 있는 것 중 가장 좋은 모델을 고르기 위한 점수.
     계열(pro>flash>lite) + 세대 번호(높을수록) 조합. 미래 버전도 자동 인식."""
     n = name.lower()
     base = 35                                   # 정체불명 모델의 기본점
-    for key, sc in TIER:
+    for key, sc in (TIER_FREE if FREE_FIRST else TIER_PERF):
         if key in n:
             base = sc
             break                                # 앞선 계열이 우선 (ultra>pro>flash>lite)
@@ -217,7 +221,7 @@ def call_gemini(material, meta):
         else:
             cands = [{"name": "gemini-flash-latest", "max_out": 8192, "score": 0}]
 
-    for c in cands[:4]:            # 위에서부터 시도, 막히면 다음 모델로
+    for c in cands[:8]:            # 위에서부터 시도, 막히면 다음 모델로
         # 출력 한도: 모델이 허용하는 최대치를 따라간다
         cap = min(int(c.get("max_out") or 8192), 32768)
         gen = {"maxOutputTokens": cap, "temperature": 0.3}
@@ -251,7 +255,9 @@ def call_gemini(material, meta):
                     body["generationConfig"] = gen
                     print(f"[{c['name']}] 사고 모드 미지원 — 끄고 재시도")
                     continue
-                print(f"[{c['name']} 실패 {r.status_code}] {r.text[:160]}")
+                why = "무료 한도 없음/초과" if r.status_code == 429 else \
+                      ("모델 없음" if r.status_code == 404 else r.text[:120])
+                print(f"[{c['name']} 실패 {r.status_code}] {why}")
                 break
             except Exception as e:
                 print(f"[{c['name']} 오류] {type(e).__name__}: {str(e)[:120]}")

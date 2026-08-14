@@ -1,11 +1,11 @@
 {
- "generated": "2026-08-14 16:32",
+ "generated": "2026-08-14 16:47",
  "date": "2026-08-14",
  "sources": [
   {
    "id": "DART",
    "name": "국내 공시 (DART 원문)",
-   "count": 184,
+   "count": 186,
    "ok": true
   },
   {
@@ -23,7 +23,7 @@
   {
    "id": "KR_POLICY",
    "name": "한국 정책 (부처 발표)",
-   "count": 16,
+   "count": 15,
    "ok": true
   },
   {
@@ -35,7 +35,7 @@
   {
    "id": "GLOBAL",
    "name": "해외발 충격 (영문)",
-   "count": 19,
+   "count": 18,
    "ok": true
   },
   {
@@ -779,6 +779,27 @@
    "src_name": "국내 공시 (DART 원문)"
   },
   {
+   "title": "삼천리자전거 — 주요사항보고서(자기주식취득결정)",
+   "core": "삼천리자전거 주요사항보고서(자기주식취득결정)",
+   "date": "20260814",
+   "org": "DART·코스닥",
+   "official": true,
+   "kinds": [
+    "의지"
+   ],
+   "abstract": "",
+   "profile": "도매 / 코스닥 / 설립 1979",
+   "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814003415",
+   "symbol": "024950",
+   "company": "삼천리자전거",
+   "src_kind": "공시",
+   "sectors": [],
+   "watch": [],
+   "id": 33,
+   "src": "DART",
+   "src_name": "국내 공시 (DART 원문)"
+  },
+  {
    "title": "피엔티 — [기재정정]주요사항보고서(자기주식취득결정)",
    "core": "피엔티 [기재정정]주요사항보고서(자기주식취득결정)",
    "date": "20260814",
@@ -795,7 +816,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 33,
+   "id": 34,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -816,7 +837,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 34,
+   "id": 35,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -837,7 +858,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 35,
+   "id": 36,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -858,7 +879,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 36,
+   "id": 37,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -879,7 +900,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 37,
+   "id": 38,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -900,7 +921,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 38,
+   "id": 39,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -923,7 +944,7 @@
     "금융/증권"
    ],
    "watch": [],
-   "id": 39,
+   "id": 40,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -936,17 +957,15 @@
    "kinds": [
     "자본"
    ],
-   "abstract": "항 목: 정정사유 정 정 전 정 정 후 · 11. 신주권교부예정일: 관계기관의 일정 조정에따른 상장 예정일 정정 2026년 08월 18일 2026년 08월 21일 · 12. 신주의 상장 예정일: 2026년 08월 18일 2026년 08월 21일 · 【제3자배정으로서 주요사항보고서가5회 이상 정정되는: 정정 사유 : 관계기관의 일정 조정에따른 상장 예정일 정정향후 계획 : 상장완료 · 1. 신주의 종류와 수: 보통주식 (주) 1,206,647 · 2. 1주당 액면가액 (원): 500 · 3. 증자전 발행주식총수 (주): 보통주식 (주) 2,371,816 · 4. 자금조달의 목적: 시설자금 (원) · 운영자금 (원): 4,099,998,880 · 타법인 증권취득자금 (원): 4,973,986,560 · 6. 신주 발행가액: 보통주식 (원) 7,520 · 7. 기준주가: 보통주식 (원) 8,350 · 7-2. 기준주가에 대한 할인율 또는 할증율 (%): -10 · 7-3. 할인율(할증률) 산정 근거: 증권의 발행 및 공시 등에 관한 규정 제5-18조 제 1항",
-   "profile": "음료 / 코스닥 / 설립 2015",
+   "abstract": "",
+   "profile": "",
    "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814000799",
    "symbol": "276730",
    "company": "한울앤제주",
    "src_kind": "공시",
-   "sectors": [
-    "금융/증권"
-   ],
+   "sectors": [],
    "watch": [],
-   "id": 40,
+   "id": 41,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -967,7 +986,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 41,
+   "id": 42,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -988,7 +1007,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 42,
+   "id": 43,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -1009,7 +1028,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 43,
+   "id": 44,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -1030,7 +1049,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 44,
+   "id": 45,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -1055,7 +1074,7 @@
    "watch": [
     "반도체"
    ],
-   "id": 45,
+   "id": 46,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -1076,7 +1095,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 46,
+   "id": 47,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -1097,7 +1116,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 47,
+   "id": 48,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -1118,7 +1137,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 48,
+   "id": 49,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -1139,7 +1158,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 49,
+   "id": 50,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -1160,7 +1179,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 50,
+   "id": 51,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -1181,7 +1200,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 51,
+   "id": 52,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -1197,27 +1216,6 @@
    "abstract": "",
    "profile": "",
    "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260813001447",
-   "symbol": "083660",
-   "company": "CSA 코스믹",
-   "src_kind": "공시",
-   "sectors": [],
-   "watch": [],
-   "id": 52,
-   "src": "DART",
-   "src_name": "국내 공시 (DART 원문)"
-  },
-  {
-   "title": "CSA 코스믹 — [기재정정]주요사항보고서(유상증자결정)",
-   "core": "CSA 코스믹 [기재정정]주요사항보고서(유상증자결정)",
-   "date": "20260813",
-   "org": "DART·코스닥",
-   "official": true,
-   "kinds": [
-    "자본"
-   ],
-   "abstract": "",
-   "profile": "",
-   "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260813001444",
    "symbol": "083660",
    "company": "CSA 코스믹",
    "src_kind": "공시",
@@ -1238,13 +1236,34 @@
    ],
    "abstract": "",
    "profile": "",
-   "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260813001438",
+   "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260813001444",
    "symbol": "083660",
    "company": "CSA 코스믹",
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
    "id": 54,
+   "src": "DART",
+   "src_name": "국내 공시 (DART 원문)"
+  },
+  {
+   "title": "CSA 코스믹 — [기재정정]주요사항보고서(유상증자결정)",
+   "core": "CSA 코스믹 [기재정정]주요사항보고서(유상증자결정)",
+   "date": "20260813",
+   "org": "DART·코스닥",
+   "official": true,
+   "kinds": [
+    "자본"
+   ],
+   "abstract": "",
+   "profile": "",
+   "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260813001438",
+   "symbol": "083660",
+   "company": "CSA 코스믹",
+   "src_kind": "공시",
+   "sectors": [],
+   "watch": [],
+   "id": 55,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -1269,7 +1288,7 @@
    "watch": [
     "바이오"
    ],
-   "id": 55,
+   "id": 56,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -1294,7 +1313,7 @@
    "watch": [
     "바이오"
    ],
-   "id": 56,
+   "id": 57,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -1315,7 +1334,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 57,
+   "id": 58,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -1336,7 +1355,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 58,
+   "id": 59,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -1357,7 +1376,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 59,
+   "id": 60,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -1378,7 +1397,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 60,
+   "id": 61,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -1399,7 +1418,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 61,
+   "id": 62,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -1420,7 +1439,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 62,
+   "id": 63,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -1441,7 +1460,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 63,
+   "id": 64,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -1462,7 +1481,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 64,
+   "id": 65,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -1483,7 +1502,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 65,
+   "id": 66,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -1504,7 +1523,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 66,
+   "id": 67,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -1525,7 +1544,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 67,
+   "id": 68,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -1546,7 +1565,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 68,
+   "id": 69,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -1567,7 +1586,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 69,
+   "id": 70,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -1588,7 +1607,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 70,
+   "id": 71,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -1609,7 +1628,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 71,
+   "id": 72,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -1630,7 +1649,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 72,
+   "id": 73,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -1651,7 +1670,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 73,
+   "id": 74,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -1672,7 +1691,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 74,
+   "id": 75,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -1693,7 +1712,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 75,
+   "id": 76,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -1714,7 +1733,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 76,
+   "id": 77,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -1735,7 +1754,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 77,
+   "id": 78,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -1756,7 +1775,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 78,
+   "id": 79,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -1777,7 +1796,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 79,
+   "id": 80,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -1798,7 +1817,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 80,
+   "id": 81,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -1819,7 +1838,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 81,
+   "id": 82,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -1840,7 +1859,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 82,
+   "id": 83,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -1861,7 +1880,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 83,
+   "id": 84,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -1882,7 +1901,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 84,
+   "id": 85,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -1903,7 +1922,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 85,
+   "id": 86,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -1924,7 +1943,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 86,
+   "id": 87,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -1945,7 +1964,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 87,
+   "id": 88,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -1968,7 +1987,7 @@
     "바이오/의료"
    ],
    "watch": [],
-   "id": 88,
+   "id": 89,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -1991,7 +2010,7 @@
     "바이오/의료"
    ],
    "watch": [],
-   "id": 89,
+   "id": 90,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -2014,7 +2033,7 @@
     "바이오/의료"
    ],
    "watch": [],
-   "id": 90,
+   "id": 91,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -2035,7 +2054,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 91,
+   "id": 92,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -2056,7 +2075,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 92,
+   "id": 93,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -2077,7 +2096,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 93,
+   "id": 94,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -2098,7 +2117,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 94,
+   "id": 95,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -2121,7 +2140,7 @@
    "watch": [
     "로봇"
    ],
-   "id": 95,
+   "id": 96,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -2142,7 +2161,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 96,
+   "id": 97,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -2163,7 +2182,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 97,
+   "id": 98,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -2184,7 +2203,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 98,
+   "id": 99,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -2205,7 +2224,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 99,
+   "id": 100,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -2226,7 +2245,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 100,
+   "id": 101,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -2247,7 +2266,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 101,
+   "id": 102,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -2268,7 +2287,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 102,
+   "id": 103,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -2289,7 +2308,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 103,
+   "id": 104,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -2310,7 +2329,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 104,
+   "id": 105,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -2331,7 +2350,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 105,
+   "id": 106,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -2352,7 +2371,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 106,
+   "id": 107,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -2373,7 +2392,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 107,
+   "id": 108,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -2394,7 +2413,28 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 108,
+   "id": 109,
+   "src": "DART",
+   "src_name": "국내 공시 (DART 원문)"
+  },
+  {
+   "title": "삼천리자전거 — 주요사항보고서(자기주식취득결정)",
+   "core": "삼천리자전거 주요사항보고서(자기주식취득결정)",
+   "date": "20260814",
+   "org": "DART·코스닥",
+   "official": true,
+   "kinds": [
+    "의지"
+   ],
+   "abstract": "",
+   "profile": "",
+   "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814003415",
+   "symbol": "024950",
+   "company": "삼천리자전거",
+   "src_kind": "공시",
+   "sectors": [],
+   "watch": [],
+   "id": 110,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -2415,7 +2455,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 109,
+   "id": 111,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -2436,7 +2476,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 110,
+   "id": 112,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -2457,7 +2497,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 111,
+   "id": 113,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -2478,7 +2518,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 112,
+   "id": 114,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -2499,7 +2539,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 113,
+   "id": 115,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -2520,7 +2560,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 114,
+   "id": 116,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -2541,7 +2581,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 115,
+   "id": 117,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -2562,7 +2602,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 116,
+   "id": 118,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -2583,7 +2623,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 117,
+   "id": 119,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -2604,7 +2644,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 118,
+   "id": 120,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -2625,7 +2665,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 119,
+   "id": 121,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -2646,7 +2686,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 120,
+   "id": 122,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -2671,7 +2711,7 @@
    "watch": [
     "반도체"
    ],
-   "id": 121,
+   "id": 123,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -2692,7 +2732,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 122,
+   "id": 124,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -2713,7 +2753,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 123,
+   "id": 125,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -2734,7 +2774,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 124,
+   "id": 126,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -2755,7 +2795,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 125,
+   "id": 127,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -2776,7 +2816,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 126,
+   "id": 128,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -2797,7 +2837,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 127,
+   "id": 129,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -2818,7 +2858,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 128,
+   "id": 130,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -2839,7 +2879,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 129,
+   "id": 131,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -2860,7 +2900,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 130,
+   "id": 132,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -2885,7 +2925,7 @@
    "watch": [
     "바이오"
    ],
-   "id": 131,
+   "id": 133,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -2910,7 +2950,7 @@
    "watch": [
     "바이오"
    ],
-   "id": 132,
+   "id": 134,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -2931,7 +2971,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 133,
+   "id": 135,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -2952,7 +2992,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 134,
+   "id": 136,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -2973,7 +3013,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 135,
+   "id": 137,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -2994,7 +3034,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 136,
+   "id": 138,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -3015,7 +3055,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 137,
+   "id": 139,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -3036,7 +3076,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 138,
+   "id": 140,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -3057,7 +3097,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 139,
+   "id": 141,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -3078,7 +3118,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 140,
+   "id": 142,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -3099,7 +3139,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 141,
+   "id": 143,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -3120,7 +3160,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 142,
+   "id": 144,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -3141,7 +3181,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 143,
+   "id": 145,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -3162,7 +3202,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 144,
+   "id": 146,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -3183,7 +3223,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 145,
+   "id": 147,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -3204,7 +3244,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 146,
+   "id": 148,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -3225,7 +3265,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 147,
+   "id": 149,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -3246,7 +3286,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 148,
+   "id": 150,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -3267,7 +3307,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 149,
+   "id": 151,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -3288,7 +3328,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 150,
+   "id": 152,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -3309,7 +3349,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 151,
+   "id": 153,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -3330,7 +3370,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 152,
+   "id": 154,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -3351,7 +3391,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 153,
+   "id": 155,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -3372,7 +3412,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 154,
+   "id": 156,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -3393,7 +3433,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 155,
+   "id": 157,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -3414,7 +3454,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 156,
+   "id": 158,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -3435,7 +3475,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 157,
+   "id": 159,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -3456,7 +3496,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 158,
+   "id": 160,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -3477,7 +3517,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 159,
+   "id": 161,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -3498,7 +3538,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 160,
+   "id": 162,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -3519,7 +3559,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 161,
+   "id": 163,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -3540,7 +3580,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 162,
+   "id": 164,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -3561,7 +3601,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 163,
+   "id": 165,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -3584,7 +3624,7 @@
     "바이오/의료"
    ],
    "watch": [],
-   "id": 164,
+   "id": 166,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -3607,7 +3647,7 @@
     "바이오/의료"
    ],
    "watch": [],
-   "id": 165,
+   "id": 167,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -3630,7 +3670,7 @@
     "바이오/의료"
    ],
    "watch": [],
-   "id": 166,
+   "id": 168,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -3651,7 +3691,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 167,
+   "id": 169,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -3672,7 +3712,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 168,
+   "id": 170,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -3693,7 +3733,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 169,
+   "id": 171,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -3714,7 +3754,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 170,
+   "id": 172,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -3737,7 +3777,7 @@
    "watch": [
     "로봇"
    ],
-   "id": 171,
+   "id": 173,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -3758,7 +3798,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 172,
+   "id": 174,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -3779,7 +3819,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 173,
+   "id": 175,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -3800,7 +3840,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 174,
+   "id": 176,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -3821,7 +3861,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 175,
+   "id": 177,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -3842,7 +3882,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 176,
+   "id": 178,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -3863,7 +3903,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 177,
+   "id": 179,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -3884,7 +3924,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 178,
+   "id": 180,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -3905,7 +3945,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 179,
+   "id": 181,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -3926,7 +3966,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 180,
+   "id": 182,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -3947,7 +3987,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 181,
+   "id": 183,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -3968,7 +4008,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 182,
+   "id": 184,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -3989,7 +4029,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 183,
+   "id": 185,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -4010,7 +4050,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 184,
+   "id": 186,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -4030,7 +4070,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 185,
+   "id": 187,
    "src": "EDGAR",
    "src_name": "미국 공시 (SEC 원문)"
   },
@@ -4054,7 +4094,7 @@
     "항공/물류"
    ],
    "watch": [],
-   "id": 186,
+   "id": 188,
    "src": "FEDREG",
    "src_name": "미국 정책 (연방관보 원문)"
   },
@@ -4078,7 +4118,7 @@
     "반도체/AI"
    ],
    "watch": [],
-   "id": 187,
+   "id": 189,
    "src": "FEDREG",
    "src_name": "미국 정책 (연방관보 원문)"
   },
@@ -4102,7 +4142,7 @@
     "수출통제/관세"
    ],
    "watch": [],
-   "id": 188,
+   "id": 190,
    "src": "FEDREG",
    "src_name": "미국 정책 (연방관보 원문)"
   },
@@ -4124,7 +4164,7 @@
    "effective": "",
    "sectors": [],
    "watch": [],
-   "id": 189,
+   "id": 191,
    "src": "FEDREG",
    "src_name": "미국 정책 (연방관보 원문)"
   },
@@ -4146,7 +4186,7 @@
    "effective": "",
    "sectors": [],
    "watch": [],
-   "id": 190,
+   "id": 192,
    "src": "FEDREG",
    "src_name": "미국 정책 (연방관보 원문)"
   },
@@ -4170,7 +4210,7 @@
     "바이오/의료"
    ],
    "watch": [],
-   "id": 191,
+   "id": 193,
    "src": "FEDREG",
    "src_name": "미국 정책 (연방관보 원문)"
   },
@@ -4195,7 +4235,7 @@
     "항공/물류"
    ],
    "watch": [],
-   "id": 192,
+   "id": 194,
    "src": "FEDREG",
    "src_name": "미국 정책 (연방관보 원문)"
   },
@@ -4219,7 +4259,7 @@
     "조선/해운"
    ],
    "watch": [],
-   "id": 193,
+   "id": 195,
    "src": "FEDREG",
    "src_name": "미국 정책 (연방관보 원문)"
   },
@@ -4243,7 +4283,7 @@
     "모빌리티"
    ],
    "watch": [],
-   "id": 194,
+   "id": 196,
    "src": "FEDREG",
    "src_name": "미국 정책 (연방관보 원문)"
   },
@@ -4269,7 +4309,7 @@
    "watch": [
     "폴리실리콘"
    ],
-   "id": 195,
+   "id": 197,
    "src": "FEDREG",
    "src_name": "미국 정책 (연방관보 원문)"
   },
@@ -4290,7 +4330,28 @@
     "건설/부동산"
    ],
    "watch": [],
-   "id": 196,
+   "id": 198,
+   "src": "KR_POLICY",
+   "src_name": "한국 정책 (부처 발표)"
+  },
+  {
+   "title": "국민 45% “정부 세제 개편안, 부동산 시장에 부정적 영향” [한국갤럽] - 경기일보",
+   "core": "국민 45% “정부 세제 개편안, 부동산 시장에 부정적 영향” [한국갤럽]",
+   "date": "Fri, 14 Aug 2026",
+   "abstract": "국민 45% “정부 세제 개편안, 부동산 시장에 부정적 영향” [한국갤럽]&nbsp;&nbsp;경기일보",
+   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBKeGx0TmJ3V2FLZkNCTzZCbzBpU3JhZUxWT3pmc0ZCeUhVV3JrNFZpZHE3SnZNNW1UeTQ4SVNwUnBjS0ltU1NFU3l5N3lQT05OSldBMHd1dGtQcHc?oc=5",
+   "official": false,
+   "org": "경기일보",
+   "kinds": [
+    "정책"
+   ],
+   "src_kind": "정책",
+   "sectors": [
+    "보조금/세제",
+    "건설/부동산"
+   ],
+   "watch": [],
+   "id": 199,
    "src": "KR_POLICY",
    "src_name": "한국 정책 (부처 발표)"
   },
@@ -4311,7 +4372,28 @@
     "건설/부동산"
    ],
    "watch": [],
-   "id": 197,
+   "id": 200,
+   "src": "KR_POLICY",
+   "src_name": "한국 정책 (부처 발표)"
+  },
+  {
+   "title": "정부 세제 개편안에 싸늘한 여론...45% \"부동산 시장에 부정적\" - ikbc.co.kr",
+   "core": "정부 세제 개편안에 싸늘한 여론...45% \"부동산 시장에 부정적\"",
+   "date": "Fri, 14 Aug 2026",
+   "abstract": "정부 세제 개편안에 싸늘한 여론...45% \"부동산 시장에 부정적\"&nbsp;&nbsp;ikbc.co.kr",
+   "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBUMElHMlZmU2FiT0NaOTJvUkNpMXRqbl9zbXp0OXh6M1dRVUlYeXZhSnJoX3hQN0NNamlvUlRlX2h6YXNyYmtDdWUzRy1ZXzNYclJ2Ql81VDcyWTJfVEd3NQ?oc=5",
+   "official": false,
+   "org": "ikbc.co.kr",
+   "kinds": [
+    "정책"
+   ],
+   "src_kind": "정책",
+   "sectors": [
+    "보조금/세제",
+    "건설/부동산"
+   ],
+   "watch": [],
+   "id": 201,
    "src": "KR_POLICY",
    "src_name": "한국 정책 (부처 발표)"
   },
@@ -4331,7 +4413,7 @@
     "보조금/세제"
    ],
    "watch": [],
-   "id": 198,
+   "id": 202,
    "src": "KR_POLICY",
    "src_name": "한국 정책 (부처 발표)"
   },
@@ -4351,7 +4433,7 @@
     "건설/부동산"
    ],
    "watch": [],
-   "id": 199,
+   "id": 203,
    "src": "KR_POLICY",
    "src_name": "한국 정책 (부처 발표)"
   },
@@ -4371,28 +4453,7 @@
     "전력/원자력"
    ],
    "watch": [],
-   "id": 200,
-   "src": "KR_POLICY",
-   "src_name": "한국 정책 (부처 발표)"
-  },
-  {
-   "title": "국민 45% “정부 세제 개편안, 부동산 시장에 부정적 영향” [한국갤럽] - v.daum.net",
-   "core": "국민 45% “정부 세제 개편안, 부동산 시장에 부정적 영향” [한국갤럽]",
-   "date": "Fri, 14 Aug 2026",
-   "abstract": "국민 45% “정부 세제 개편안, 부동산 시장에 부정적 영향” [한국갤럽]&nbsp;&nbsp;v.daum.net",
-   "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBDOFIxc2NHcUtPMTRCNXc2N3lIdEVxalFMdVhXVjNHUUdwQmV5NndfdHN3LUFGSmRYUTVBV05tLThULXRvcjFnV19Ud1ZXVEk?oc=5",
-   "official": false,
-   "org": "v.daum.net",
-   "kinds": [
-    "정책"
-   ],
-   "src_kind": "정책",
-   "sectors": [
-    "보조금/세제",
-    "건설/부동산"
-   ],
-   "watch": [],
-   "id": 201,
+   "id": 204,
    "src": "KR_POLICY",
    "src_name": "한국 정책 (부처 발표)"
   },
@@ -4410,7 +4471,7 @@
    "src_kind": "정책",
    "sectors": [],
    "watch": [],
-   "id": 202,
+   "id": 205,
    "src": "KR_POLICY",
    "src_name": "한국 정책 (부처 발표)"
   },
@@ -4430,27 +4491,7 @@
     "건설/부동산"
    ],
    "watch": [],
-   "id": 203,
-   "src": "KR_POLICY",
-   "src_name": "한국 정책 (부처 발표)"
-  },
-  {
-   "title": "부동산 총공세 나선 국힘… \"정부, 150만호 발표 중 135만호가 재탕\" - v.daum.net",
-   "core": "부동산 총공세 나선 국힘… \"정부, 150만호 발표 중 135만호가 재탕\"",
-   "date": "Fri, 14 Aug 2026",
-   "abstract": "부동산 총공세 나선 국힘… \"정부, 150만호 발표 중 135만호가 재탕\"&nbsp;&nbsp;v.daum.net",
-   "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE11RWxJb0c5SWcyYW01SWNITFp5Z0JtbUlKc290TVJmSmx4eXJPQmtaQ1NUTjdnN01nUjV0RlRfTU5mbHFHRHhFem42NTRId28?oc=5",
-   "official": false,
-   "org": "v.daum.net",
-   "kinds": [
-    "정책"
-   ],
-   "src_kind": "정책",
-   "sectors": [
-    "건설/부동산"
-   ],
-   "watch": [],
-   "id": 204,
+   "id": 206,
    "src": "KR_POLICY",
    "src_name": "한국 정책 (부처 발표)"
   },
@@ -4470,7 +4511,7 @@
     "건설/부동산"
    ],
    "watch": [],
-   "id": 205,
+   "id": 207,
    "src": "KR_POLICY",
    "src_name": "한국 정책 (부처 발표)"
   },
@@ -4490,25 +4531,27 @@
     "건설/부동산"
    ],
    "watch": [],
-   "id": 206,
+   "id": 208,
    "src": "KR_POLICY",
    "src_name": "한국 정책 (부처 발표)"
   },
   {
-   "title": "한병도 \"정부와 국민 주거 안정 반드시 실현…국힘·서울시, 협조해야\" | - 연합인포맥스",
-   "core": "한병도 \"정부와 국민 주거 안정 반드시 실현…국힘·서울시, 협조해야\" |",
+   "title": "부동산 총공세 나선 국힘… \"정부, 150만호 발표 중 135만호가 재탕\" - v.daum.net",
+   "core": "부동산 총공세 나선 국힘… \"정부, 150만호 발표 중 135만호가 재탕\"",
    "date": "Fri, 14 Aug 2026",
-   "abstract": "한병도 \"정부와 국민 주거 안정 반드시 실현…국힘·서울시, 협조해야\" |&nbsp;&nbsp;연합인포맥스",
-   "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE54d0M1MnhURzhkNWNuUE83UXJrWUtSNk5vNzVBZlh5QUxoeDJMM1Z4eGNtR213M0lHRTZBUjJTSkFkZTB0eldtSXNxQnJiMDB4OFl0ZTRucWliMnFTeEhXNzBHSnB2Wm9VaWpmeE9VWDkwMWlC?oc=5",
+   "abstract": "부동산 총공세 나선 국힘… \"정부, 150만호 발표 중 135만호가 재탕\"&nbsp;&nbsp;v.daum.net",
+   "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE11RWxJb0c5SWcyYW01SWNITFp5Z0JtbUlKc290TVJmSmx4eXJPQmtaQ1NUTjdnN01nUjV0RlRfTU5mbHFHRHhFem42NTRId28?oc=5",
    "official": false,
-   "org": "연합인포맥스",
+   "org": "v.daum.net",
    "kinds": [
     "정책"
    ],
    "src_kind": "정책",
-   "sectors": [],
+   "sectors": [
+    "건설/부동산"
+   ],
    "watch": [],
-   "id": 207,
+   "id": 209,
    "src": "KR_POLICY",
    "src_name": "한국 정책 (부처 발표)"
   },
@@ -4528,7 +4571,25 @@
     "보조금/세제"
    ],
    "watch": [],
-   "id": 208,
+   "id": 210,
+   "src": "KR_POLICY",
+   "src_name": "한국 정책 (부처 발표)"
+  },
+  {
+   "title": "한병도 \"정부와 국민 주거 안정 반드시 실현…국힘·서울시, 협조해야\" | - 연합인포맥스",
+   "core": "한병도 \"정부와 국민 주거 안정 반드시 실현…국힘·서울시, 협조해야\" |",
+   "date": "Fri, 14 Aug 2026",
+   "abstract": "한병도 \"정부와 국민 주거 안정 반드시 실현…국힘·서울시, 협조해야\" |&nbsp;&nbsp;연합인포맥스",
+   "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE54d0M1MnhURzhkNWNuUE83UXJrWUtSNk5vNzVBZlh5QUxoeDJMM1Z4eGNtR213M0lHRTZBUjJTSkFkZTB0eldtSXNxQnJiMDB4OFl0ZTRucWliMnFTeEhXNzBHSnB2Wm9VaWpmeE9VWDkwMWlC?oc=5",
+   "official": false,
+   "org": "연합인포맥스",
+   "kinds": [
+    "정책"
+   ],
+   "src_kind": "정책",
+   "sectors": [],
+   "watch": [],
+   "id": 211,
    "src": "KR_POLICY",
    "src_name": "한국 정책 (부처 발표)"
   },
@@ -4548,48 +4609,7 @@
     "보조금/세제"
    ],
    "watch": [],
-   "id": 209,
-   "src": "KR_POLICY",
-   "src_name": "한국 정책 (부처 발표)"
-  },
-  {
-   "title": "‘8·13 부동산 대책’ 여야 연일 여론전…“신속한 실행” “재탕에 불과” - v.daum.net",
-   "core": "‘8·13 부동산 대책’ 여야 연일 여론전…“신속한 실행” “재탕에 불과”",
-   "date": "Fri, 14 Aug 2026",
-   "abstract": "‘8·13 부동산 대책’ 여야 연일 여론전…“신속한 실행” “재탕에 불과”&nbsp;&nbsp;v.daum.net",
-   "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9WUWN1SnZDemxnTzVPWHpaaWRidC1aU1ZhZktFcEdRcmJGNnJlSF9PREtfTXgwN0d6M2s4U2FsdDI1LUc0UDhYWXJ1NE53MEE?oc=5",
-   "official": false,
-   "org": "v.daum.net",
-   "kinds": [
-    "정책"
-   ],
-   "src_kind": "정책",
-   "sectors": [
-    "건설/부동산"
-   ],
-   "watch": [],
-   "id": 210,
-   "src": "KR_POLICY",
-   "src_name": "한국 정책 (부처 발표)"
-  },
-  {
-   "title": "정부 부동산 세제개편, 양산 다주택자도 종부세 부담 전망 - 양산신문",
-   "core": "정부 부동산 세제개편, 양산 다주택자도 종부세 부담 전망",
-   "date": "Thu, 13 Aug 2026",
-   "abstract": "정부 부동산 세제개편, 양산 다주택자도 종부세 부담 전망&nbsp;&nbsp;양산신문",
-   "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5uZlhQelQyLWcwb3FtV3hSenJUSHhNeGdIbDhQR2V2bkp5dWZfZW1aQVMyVkpIRUpFLU90M0RjUWcwSlFPcUtZWFA3T2lIaTJCV2xpTTJwdFlNemJ3VWlaXzJPOGxSWC1NRzlkcS1wTQ?oc=5",
-   "official": false,
-   "org": "양산신문",
-   "kinds": [
-    "정책"
-   ],
-   "src_kind": "정책",
-   "sectors": [
-    "보조금/세제",
-    "건설/부동산"
-   ],
-   "watch": [],
-   "id": 211,
+   "id": 212,
    "src": "KR_POLICY",
    "src_name": "한국 정책 (부처 발표)"
   },
@@ -4609,18 +4629,38 @@
     "수출통제/관세"
    ],
    "watch": [],
-   "id": 212,
+   "id": 213,
    "src": "KR_INDUS",
    "src_name": "한국 산업·공급망"
   },
   {
-   "title": "[분석] 반도체 뒤에서 조용히 벌었다…새 수출 효자산업으로 부상한 'K-전력기기' - polinews.co.kr",
+   "title": "中 게임 제작비 30% 지원하는데 한국은? 게임업계, “세액공제 더 미룰 수 없다” - 인포스탁데일리",
+   "core": "中 게임 제작비 30% 지원하는데 한국은? 게임업계, “세액공제 더 미룰 수 없다”",
+   "date": "Fri, 14 Aug 2026",
+   "abstract": "中 게임 제작비 30% 지원하는데 한국은? 게임업계, “세액공제 더 미룰 수 없다”&nbsp;&nbsp;인포스탁데일리",
+   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1UYnQxSXZISGdaVnVESk0zSkg5cm9RTUVCcXBySjlMVFVaM2ZHV2R3Z2UxQzRvdjVwMTJmRUowVldldjdVQk8wNVZodjhDT2RXWW9ITTdjbVd6WG9BLVZiZDBIMm5RcnRDTVhRNDBMTTZvSWpzc3c?oc=5",
+   "official": false,
+   "org": "인포스탁데일리",
+   "kinds": [
+    "정책"
+   ],
+   "src_kind": "산업",
+   "sectors": [
+    "보조금/세제"
+   ],
+   "watch": [],
+   "id": 214,
+   "src": "KR_INDUS",
+   "src_name": "한국 산업·공급망"
+  },
+  {
+   "title": "[분석] 반도체 뒤에서 조용히 벌었다…새 수출 효자산업으로 부상한 'K-전력기기' - 폴리뉴스 Polinews",
    "core": "[분석] 반도체 뒤에서 조용히 벌었다…새 수출 효자산업으로 부상한 'K",
    "date": "Fri, 14 Aug 2026",
-   "abstract": "[분석] 반도체 뒤에서 조용히 벌었다…새 수출 효자산업으로 부상한 'K-전력기기'&nbsp;&nbsp;polinews.co.kr",
+   "abstract": "[분석] 반도체 뒤에서 조용히 벌었다…새 수출 효자산업으로 부상한 'K-전력기기'&nbsp;&nbsp;폴리뉴스 Polinews",
    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9JQXA0MDBtalpuek92QkUwZ1ZIS21WVXpMaDRBVW8xUHpCWlkzb1luVDNNenFnWW1uMjd1LXlzVkZqTEFRcExwX2JnODhMZUFKX214MzNFcnpyV0xuNjJadTdEOEtoY3J1SEUwbnNn0gFyQVVfeXFMUEF0ZGZHZkVlNllKNTRkSkpDSmNpdU9CZGJNUkdscVRjWG40ejlXWG9FLVFOTzA4RVJPMXZZUDZLSzBTVmJ4Ums1cTd3ejJUYklqWGZKanZMb0g1T3ZTMlhHQnA0U1JjWGhzSHA3ZDQ5NkJB?oc=5",
    "official": false,
-   "org": "polinews.co.kr",
+   "org": "폴리뉴스 Polinews",
    "kinds": [
     "정책"
    ],
@@ -4632,7 +4672,7 @@
    "watch": [
     "반도체"
    ],
-   "id": 213,
+   "id": 215,
    "src": "KR_INDUS",
    "src_name": "한국 산업·공급망"
   },
@@ -4650,7 +4690,7 @@
    "src_kind": "산업",
    "sectors": [],
    "watch": [],
-   "id": 214,
+   "id": 216,
    "src": "KR_INDUS",
    "src_name": "한국 산업·공급망"
   },
@@ -4668,7 +4708,7 @@
    "src_kind": "산업",
    "sectors": [],
    "watch": [],
-   "id": 215,
+   "id": 217,
    "src": "KR_INDUS",
    "src_name": "한국 산업·공급망"
   },
@@ -4690,7 +4730,7 @@
    "watch": [
     "방산"
    ],
-   "id": 216,
+   "id": 218,
    "src": "KR_INDUS",
    "src_name": "한국 산업·공급망"
   },
@@ -4712,7 +4752,7 @@
    "watch": [
     "방산"
    ],
-   "id": 217,
+   "id": 219,
    "src": "KR_INDUS",
    "src_name": "한국 산업·공급망"
   },
@@ -4734,7 +4774,7 @@
    "watch": [
     "방산"
    ],
-   "id": 218,
+   "id": 220,
    "src": "KR_INDUS",
    "src_name": "한국 산업·공급망"
   },
@@ -4756,7 +4796,7 @@
    "watch": [
     "반도체"
    ],
-   "id": 219,
+   "id": 221,
    "src": "KR_INDUS",
    "src_name": "한국 산업·공급망"
   },
@@ -4776,25 +4816,7 @@
     "보조금/세제"
    ],
    "watch": [],
-   "id": 220,
-   "src": "KR_INDUS",
-   "src_name": "한국 산업·공급망"
-  },
-  {
-   "title": "태광산업, ‘모다크릴’ 라인 증설에 1500억 투자…생산량 2배로 확대 - 부산일보",
-   "core": "태광산업, ‘모다크릴’ 라인 증설에 1500억 투자…생산량 2배로 확대",
-   "date": "Thu, 13 Aug 2026",
-   "abstract": "태광산업, ‘모다크릴’ 라인 증설에 1500억 투자…생산량 2배로 확대&nbsp;&nbsp;부산일보",
-   "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5zNnB6dWhTbVhOcUFra051MzVoMW1EdXh1QjR5U014NFFYSVNyOE00OXd3N2ZmVWtXNEx6RnhyUVZNOGZfRGhzaEFOVUNFVEhzZU90ZWNZOVZ4SlljMzAwWmJnQ3BjZHBjZDBFbUItaEl3RndJVFZTODVZbGs?oc=5",
-   "official": false,
-   "org": "부산일보",
-   "kinds": [
-    "정책"
-   ],
-   "src_kind": "산업",
-   "sectors": [],
-   "watch": [],
-   "id": 221,
+   "id": 222,
    "src": "KR_INDUS",
    "src_name": "한국 산업·공급망"
   },
@@ -4816,7 +4838,25 @@
    "watch": [
     "반도체"
    ],
-   "id": 222,
+   "id": 223,
+   "src": "KR_INDUS",
+   "src_name": "한국 산업·공급망"
+  },
+  {
+   "title": "태광산업, ‘모다크릴’ 라인 증설에 1500억 투자…생산량 2배로 확대 - 부산일보",
+   "core": "태광산업, ‘모다크릴’ 라인 증설에 1500억 투자…생산량 2배로 확대",
+   "date": "Thu, 13 Aug 2026",
+   "abstract": "태광산업, ‘모다크릴’ 라인 증설에 1500억 투자…생산량 2배로 확대&nbsp;&nbsp;부산일보",
+   "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5zNnB6dWhTbVhOcUFra051MzVoMW1EdXh1QjR5U014NFFYSVNyOE00OXd3N2ZmVWtXNEx6RnhyUVZNOGZfRGhzaEFOVUNFVEhzZU90ZWNZOVZ4SlljMzAwWmJnQ3BjZHBjZDBFbUItaEl3RndJVFZTODVZbGs?oc=5",
+   "official": false,
+   "org": "부산일보",
+   "kinds": [
+    "정책"
+   ],
+   "src_kind": "산업",
+   "sectors": [],
+   "watch": [],
+   "id": 224,
    "src": "KR_INDUS",
    "src_name": "한국 산업·공급망"
   },
@@ -4838,43 +4878,25 @@
    "watch": [
     "방산"
    ],
-   "id": 223,
+   "id": 225,
    "src": "KR_INDUS",
    "src_name": "한국 산업·공급망"
   },
   {
-   "title": "중견기업 56% \"하반기 수출 증가할 것\" - getnews.co.kr",
+   "title": "중견기업 56% \"하반기 수출 증가할 것\" - 글로벌경제신문",
    "core": "중견기업 56% \"하반기 수출 증가할 것\"",
    "date": "Thu, 13 Aug 2026",
-   "abstract": "중견기업 56% \"하반기 수출 증가할 것\"&nbsp;&nbsp;getnews.co.kr",
+   "abstract": "중견기업 56% \"하반기 수출 증가할 것\"&nbsp;&nbsp;글로벌경제신문",
    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA4bFdfdVNHYVlYUWZPbS1qMjUyTTVPdEc5S2JLOXFZaEJmQXlQNEVucVRsUlFrV2dHaHZ0T2tzODUtSGR1Z3B5aUJRS3MwY0tueW5weHZ4ZDVIOG9MSU5ETm9lMERwNHRYM0xvdmNuV3HSAXBBVV95cUxQOGxXX3VTR2FZWFFmT20tajI1Mk01T3RHOUtiSzlxWWhCZkF5UDRFbnFUbFJRa1dnR2h2dE9rczg1LUhkdWdweWlCUUtzMGNLbnlucHh2eGQ1SDhvTElORE5vZTBEcDR0WDNMb3Zjbldx?oc=5",
    "official": false,
-   "org": "getnews.co.kr",
+   "org": "글로벌경제신문",
    "kinds": [
     "정책"
    ],
    "src_kind": "산업",
    "sectors": [],
    "watch": [],
-   "id": 224,
-   "src": "KR_INDUS",
-   "src_name": "한국 산업·공급망"
-  },
-  {
-   "title": "태광산업, '가발 원사' 모다크릴 생산라인 증설..생산능력 2배로 - 스마트투데이",
-   "core": "태광산업, '가발 원사' 모다크릴 생산라인 증설..생산능력 2배로",
-   "date": "Thu, 13 Aug 2026",
-   "abstract": "태광산업, '가발 원사' 모다크릴 생산라인 증설..생산능력 2배로&nbsp;&nbsp;스마트투데이",
-   "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFA2YzlPSU9hUUFpOHJXMWRDc1BPTm1XXzJyamRVYmpCTFMxbDBKMzJYR2YtOTdZS3MyM3lVSzEteEtRbHFjZVRza1VoaEpjOEx0TmdrYUxKNG0xNm42czNJ?oc=5",
-   "official": false,
-   "org": "스마트투데이",
-   "kinds": [
-    "정책"
-   ],
-   "src_kind": "산업",
-   "sectors": [],
-   "watch": [],
-   "id": 225,
+   "id": 226,
    "src": "KR_INDUS",
    "src_name": "한국 산업·공급망"
   },
@@ -4892,61 +4914,56 @@
    "src_kind": "산업",
    "sectors": [],
    "watch": [],
-   "id": 226,
-   "src": "KR_INDUS",
-   "src_name": "한국 산업·공급망"
-  },
-  {
-   "title": "CDMO·제조강국 리포트 ⑥ K-바이오 제조 경쟁력, 공급망에서 갈린다…CDMO 넘어 원료의약품까지 - kndaily.co.kr",
-   "core": "CDMO·제조강국 리포트 ⑥ K-바이오 제조 경쟁력, 공급망에서 갈린다…CDMO 넘어 원료의약품까지",
-   "date": "Thu, 13 Aug 2026",
-   "abstract": "CDMO·제조강국 리포트 ⑥ K-바이오 제조 경쟁력, 공급망에서 갈린다…CDMO 넘어 원료의약품까지&nbsp;&nbsp;kndaily.co.kr",
-   "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9CZHhJbWU4cTZSYW5lMk9Yb20tSTNTd3g3TEdYRWJDU1o4T0pXQWVFWUh2MzdZbjdWR1hPeVdIZjlsUml6QjB1QVJVWWhhQXlVektiZU5GS0NaX1JlUktfSEdTdy16N1piaHFwdA?oc=5",
-   "official": false,
-   "org": "kndaily.co.kr",
-   "kinds": [
-    "정책"
-   ],
-   "src_kind": "산업",
-   "sectors": [
-    "바이오/의료"
-   ],
-   "watch": [
-    "바이오"
-   ],
    "id": 227,
    "src": "KR_INDUS",
    "src_name": "한국 산업·공급망"
   },
   {
-   "title": "핵심광물 재자원화율 20% 목표… 첨단 공급망에 10조원 R&D 투입 - 에너지플랫폼뉴스",
-   "core": "핵심광물 재자원화율 20% 목표… 첨단 공급망에 10조원 R&D 투입",
-   "date": "Wed, 12 Aug 2026",
-   "abstract": "핵심광물 재자원화율 20% 목표… 첨단 공급망에 10조원 R&amp;D 투입&nbsp;&nbsp;에너지플랫폼뉴스",
-   "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1OM2NHcHNhdU56Y1V6UlRSU2IxYkVkbERJTWFVSkRBaTlNV1hPeFZveGNuSWx1bm9fNU0yR3NuZ1R6b1puSzE0UWdOaEVxeWxsR0F0N0Q0RGZPVDM3dzdCREpqQ0Q2RVgxYXZLTEVqZ3TSAXBBVV95cUxNTjNjR3BzYXVOemNVelJUUlNiMWJFZGxESU1hVUpEQWk5TVdYT3hWb3hjbklsdW5vXzVNMkdzbmdUem9abksxNFFnTmhFcXlsbEdBdDdENERmT1QzN3c3QkRKakNENkVYMWF2S0xFamd0?oc=5",
+   "title": "태광산업, '가발 원사' 모다크릴 생산라인 증설..생산능력 2배로 - 스마트투데이",
+   "core": "태광산업, '가발 원사' 모다크릴 생산라인 증설..생산능력 2배로",
+   "date": "Thu, 13 Aug 2026",
+   "abstract": "태광산업, '가발 원사' 모다크릴 생산라인 증설..생산능력 2배로&nbsp;&nbsp;스마트투데이",
+   "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFA2YzlPSU9hUUFpOHJXMWRDc1BPTm1XXzJyamRVYmpCTFMxbDBKMzJYR2YtOTdZS3MyM3lVSzEteEtRbHFjZVRza1VoaEpjOEx0TmdrYUxKNG0xNm42czNJ?oc=5",
    "official": false,
-   "org": "에너지플랫폼뉴스",
+   "org": "스마트투데이",
    "kinds": [
     "정책"
    ],
    "src_kind": "산업",
-   "sectors": [
-    "전력/원자력",
-    "금속/광물"
-   ],
+   "sectors": [],
    "watch": [],
    "id": 228,
    "src": "KR_INDUS",
    "src_name": "한국 산업·공급망"
   },
   {
-   "title": "수출입은행, 첫 벤처투자조합 투자 나선다…방산·공급망 벤처 육성 - polinews.co.kr",
+   "title": "핵심광물 재자원화율 20% 목표… 첨단 공급망에 10조원 R&D 투입 - e-platform.net",
+   "core": "핵심광물 재자원화율 20% 목표… 첨단 공급망에 10조원 R&D 투입",
+   "date": "Wed, 12 Aug 2026",
+   "abstract": "핵심광물 재자원화율 20% 목표… 첨단 공급망에 10조원 R&amp;D 투입&nbsp;&nbsp;e-platform.net",
+   "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1OM2NHcHNhdU56Y1V6UlRSU2IxYkVkbERJTWFVSkRBaTlNV1hPeFZveGNuSWx1bm9fNU0yR3NuZ1R6b1puSzE0UWdOaEVxeWxsR0F0N0Q0RGZPVDM3dzdCREpqQ0Q2RVgxYXZLTEVqZ3TSAXBBVV95cUxNTjNjR3BzYXVOemNVelJUUlNiMWJFZGxESU1hVUpEQWk5TVdYT3hWb3hjbklsdW5vXzVNMkdzbmdUem9abksxNFFnTmhFcXlsbEdBdDdENERmT1QzN3c3QkRKakNENkVYMWF2S0xFamd0?oc=5",
+   "official": false,
+   "org": "e-platform.net",
+   "kinds": [
+    "정책"
+   ],
+   "src_kind": "산업",
+   "sectors": [
+    "금속/광물"
+   ],
+   "watch": [],
+   "id": 229,
+   "src": "KR_INDUS",
+   "src_name": "한국 산업·공급망"
+  },
+  {
+   "title": "수출입은행, 첫 벤처투자조합 투자 나선다…방산·공급망 벤처 육성 - 폴리뉴스 Polinews",
    "core": "수출입은행, 첫 벤처투자조합 투자 나선다…방산·공급망 벤처 육성",
    "date": "Thu, 13 Aug 2026",
-   "abstract": "수출입은행, 첫 벤처투자조합 투자 나선다…방산·공급망 벤처 육성&nbsp;&nbsp;polinews.co.kr",
+   "abstract": "수출입은행, 첫 벤처투자조합 투자 나선다…방산·공급망 벤처 육성&nbsp;&nbsp;폴리뉴스 Polinews",
    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5fVjFoZVFrQkFxR0xFM3JFSUZIdEt6c0YtMjVzTXhVajFNMXYyUzRmTHZFa2Q5akdsTkFjUGREcElILTU2WEpDdjNJRzNwYlJCczYxVzVXcGFxaHRTQml0ck9VODhQaHpwQ2kwZWxn0gFyQVVfeXFMTnpxeUZRaExRLUs5SFFaZjZqaDdPZDRVVFQzalZZMnB4VlpOaUNSSkZZVWlZS3V4dzY1dVM4M2FwdFdaVktLaGJJazNBZldJOGxwYjlTcGhLaWhYbENESkdjaGFBOVJzQ2hkeTVhMVpWRjhR?oc=5",
    "official": false,
-   "org": "polinews.co.kr",
+   "org": "폴리뉴스 Polinews",
    "kinds": [
     "정책"
    ],
@@ -4957,7 +4974,7 @@
    "watch": [
     "방산"
    ],
-   "id": 229,
+   "id": 230,
    "src": "KR_INDUS",
    "src_name": "한국 산업·공급망"
   },
@@ -4979,7 +4996,7 @@
    "watch": [
     "방산"
    ],
-   "id": 230,
+   "id": 231,
    "src": "KR_INDUS",
    "src_name": "한국 산업·공급망"
   },
@@ -4997,7 +5014,7 @@
    "src_kind": "해외",
    "sectors": [],
    "watch": [],
-   "id": 231,
+   "id": 232,
    "src": "GLOBAL",
    "src_name": "해외발 충격 (영문)"
   },
@@ -5017,7 +5034,7 @@
     "금속/광물"
    ],
    "watch": [],
-   "id": 232,
+   "id": 233,
    "src": "GLOBAL",
    "src_name": "해외발 충격 (영문)"
   },
@@ -5035,7 +5052,7 @@
    "src_kind": "해외",
    "sectors": [],
    "watch": [],
-   "id": 233,
+   "id": 234,
    "src": "GLOBAL",
    "src_name": "해외발 충격 (영문)"
   },
@@ -5053,7 +5070,7 @@
    "src_kind": "해외",
    "sectors": [],
    "watch": [],
-   "id": 234,
+   "id": 235,
    "src": "GLOBAL",
    "src_name": "해외발 충격 (영문)"
   },
@@ -5072,24 +5089,6 @@
    "sectors": [
     "금속/광물"
    ],
-   "watch": [],
-   "id": 235,
-   "src": "GLOBAL",
-   "src_name": "해외발 충격 (영문)"
-  },
-  {
-   "title": "The Next Global Economic Crisis Could Be Made in China - Foreign Affairs",
-   "core": "The Next Global Economic Crisis Could Be Made in China",
-   "date": "Thu, 13 Aug 2026",
-   "abstract": "The Next Global Economic Crisis Could Be Made in China&nbsp;&nbsp;Foreign Affairs",
-   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOOGtRekxDcFBQR0ljUGpzY1RWNnNaQmZaVDMyQ1pxa0ZxVTAtQ3QzU0dsNmU4YmEzbndRbkdWSzBYZVlhZ2ZvdUl1ZFpKdTNBZnZYMnhxZVZmenJhVUNpUW5FVW9oc3RfUjM0eGYta1JXUHUtRWhmNFJQN0g3MEF1cDdBUXJLdy1BMGIxTlcxeEpEWkZS?oc=5",
-   "official": false,
-   "org": "Foreign Affairs",
-   "kinds": [
-    "정책"
-   ],
-   "src_kind": "해외",
-   "sectors": [],
    "watch": [],
    "id": 236,
    "src": "GLOBAL",

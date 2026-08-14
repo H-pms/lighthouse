@@ -66,6 +66,7 @@ jobs:
           GEMINI_FREE_FIRST: "1"     # 무료 가능한 flash 계열 우선 (0=성능 우선)
           DAILY_MAX_OUT: "16000"     # Claude 폴백 시에만 적용 (Gemini는 모델 최대치 자동)
           DAILY_COST_CAP: "600"
+          TELEGRAM_PARTS: "3"        # 보고서를 최대 3통까지 나눠 발송
           FORCE_DAILY: ${{ inputs.force }}
           DAILY_MODEL: "claude-sonnet-5"
           DAILY_MONTH_LIMIT: "40"

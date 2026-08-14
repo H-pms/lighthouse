@@ -13,7 +13,7 @@ KST = timezone(timedelta(hours=9))
 API = "https://api.anthropic.com/v1/messages"
 MODEL = os.environ.get("DAILY_MODEL", "claude-sonnet-5")
 MONTH_LIMIT = int(os.environ.get("DAILY_MONTH_LIMIT", "40"))
-MAX_OUT = int(os.environ.get("DAILY_MAX_OUT", "8000"))
+MAX_OUT = int(os.environ.get("DAILY_MAX_OUT", "16000"))
 COST_CAP = float(os.environ.get("DAILY_COST_CAP", "600"))   # 회당 예상 비용 상한(원)
 GUARD = "briefing/.last_daily.json"
 MARK = "# 오늘의 보고"
@@ -310,6 +310,8 @@ def main():
         provider = f"Claude({MODEL})"
     i = text.rfind(MARK)
     report = text[i:] if i != -1 else text
+    if usage.get("output_tokens", 0) >= MAX_OUT - 50:
+        report += "\n\n⚠️ 길이 상한에서 잘렸습니다 — DAILY_MAX_OUT 을 늘리세요."
     guard_record(st, usage)
 
     # 근거 번호를 원문 링크로

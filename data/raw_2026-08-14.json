@@ -1,11 +1,11 @@
 {
- "generated": "2026-08-14 17:06",
+ "generated": "2026-08-14 17:41",
  "date": "2026-08-14",
  "sources": [
   {
    "id": "DART",
    "name": "국내 공시 (DART 원문)",
-   "count": 94,
+   "count": 97,
    "ok": true
   },
   {
@@ -35,7 +35,7 @@
   {
    "id": "GLOBAL",
    "name": "해외발 충격 (영문)",
-   "count": 17,
+   "count": 16,
    "ok": true
   },
   {
@@ -71,6 +71,27 @@
  ],
  "items": [
   {
+   "title": "KG케미칼 — 주요사항보고서(자기주식처분결정)",
+   "core": "KG케미칼 주요사항보고서(자기주식처분결정)",
+   "date": "20260814",
+   "org": "DART·유가증권",
+   "official": true,
+   "kinds": [
+    "의지"
+   ],
+   "abstract": "",
+   "profile": "화학 / 유가증권 / 설립 1954",
+   "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814003888",
+   "symbol": "001390",
+   "company": "KG케미칼",
+   "src_kind": "공시",
+   "sectors": [],
+   "watch": [],
+   "id": 1,
+   "src": "DART",
+   "src_name": "국내 공시 (DART 원문)"
+  },
+  {
    "title": "SK네트웍스 — 주요사항보고서(자기주식처분결정)",
    "core": "SK네트웍스 주요사항보고서(자기주식처분결정)",
    "date": "20260814",
@@ -87,7 +108,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 1,
+   "id": 2,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -108,7 +129,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 2,
+   "id": 3,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -131,7 +152,7 @@
     "금융/증권"
    ],
    "watch": [],
-   "id": 3,
+   "id": 4,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -154,7 +175,7 @@
     "금융/증권"
    ],
    "watch": [],
-   "id": 4,
+   "id": 5,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -177,7 +198,7 @@
     "금융/증권"
    ],
    "watch": [],
-   "id": 5,
+   "id": 6,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -200,7 +221,7 @@
     "금융/증권"
    ],
    "watch": [],
-   "id": 6,
+   "id": 7,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -223,7 +244,7 @@
     "금융/증권"
    ],
    "watch": [],
-   "id": 7,
+   "id": 8,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -246,7 +267,7 @@
     "금융/증권"
    ],
    "watch": [],
-   "id": 8,
+   "id": 9,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -267,7 +288,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 9,
+   "id": 10,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -288,7 +309,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 10,
+   "id": 11,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -309,7 +330,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 11,
+   "id": 12,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -332,7 +353,7 @@
     "바이오/의료"
    ],
    "watch": [],
-   "id": 12,
+   "id": 13,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -355,7 +376,7 @@
     "금융/증권"
    ],
    "watch": [],
-   "id": 13,
+   "id": 14,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -376,7 +397,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 14,
+   "id": 15,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -397,7 +418,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 15,
+   "id": 16,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -420,7 +441,49 @@
     "금융/증권"
    ],
    "watch": [],
-   "id": 16,
+   "id": 17,
+   "src": "DART",
+   "src_name": "국내 공시 (DART 원문)"
+  },
+  {
+   "title": "와이엠티 — 주요사항보고서(자기주식취득결정)",
+   "core": "와이엠티 주요사항보고서(자기주식취득결정)",
+   "date": "20260814",
+   "org": "DART·코스닥",
+   "official": true,
+   "kinds": [
+    "의지"
+   ],
+   "abstract": "",
+   "profile": "화학 / 코스닥 / 설립 1999",
+   "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814003959",
+   "symbol": "251370",
+   "company": "와이엠티",
+   "src_kind": "공시",
+   "sectors": [],
+   "watch": [],
+   "id": 18,
+   "src": "DART",
+   "src_name": "국내 공시 (DART 원문)"
+  },
+  {
+   "title": "비나텍 — 주요사항보고서(전환사채권발행결정)",
+   "core": "비나텍 주요사항보고서(전환사채권발행결정)",
+   "date": "20260814",
+   "org": "DART·코스닥",
+   "official": true,
+   "kinds": [
+    "자본"
+   ],
+   "abstract": "",
+   "profile": "전기장비 / 코스닥 / 설립 1999",
+   "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814003891",
+   "symbol": "126340",
+   "company": "비나텍",
+   "src_kind": "공시",
+   "sectors": [],
+   "watch": [],
+   "id": 19,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -441,7 +504,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 17,
+   "id": 20,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -462,7 +525,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 18,
+   "id": 21,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -483,7 +546,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 19,
+   "id": 22,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -504,7 +567,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 20,
+   "id": 23,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -525,7 +588,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 21,
+   "id": 24,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -546,7 +609,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 22,
+   "id": 25,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -567,7 +630,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 23,
+   "id": 26,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -588,7 +651,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 24,
+   "id": 27,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -611,7 +674,7 @@
     "금융/증권"
    ],
    "watch": [],
-   "id": 25,
+   "id": 28,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -634,7 +697,7 @@
     "금융/증권"
    ],
    "watch": [],
-   "id": 26,
+   "id": 29,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -657,7 +720,7 @@
     "금융/증권"
    ],
    "watch": [],
-   "id": 27,
+   "id": 30,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -680,7 +743,7 @@
     "금융/증권"
    ],
    "watch": [],
-   "id": 28,
+   "id": 31,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -703,7 +766,7 @@
     "금융/증권"
    ],
    "watch": [],
-   "id": 29,
+   "id": 32,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -726,7 +789,7 @@
     "금융/증권"
    ],
    "watch": [],
-   "id": 30,
+   "id": 33,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -752,7 +815,7 @@
    "watch": [
     "반도체"
    ],
-   "id": 31,
+   "id": 34,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -775,7 +838,7 @@
     "금융/증권"
    ],
    "watch": [],
-   "id": 32,
+   "id": 35,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -796,7 +859,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 33,
+   "id": 36,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -819,7 +882,7 @@
     "금융/증권"
    ],
    "watch": [],
-   "id": 34,
+   "id": 37,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -842,7 +905,7 @@
     "금융/증권"
    ],
    "watch": [],
-   "id": 35,
+   "id": 38,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -865,7 +928,7 @@
     "금융/증권"
    ],
    "watch": [],
-   "id": 36,
+   "id": 39,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -888,7 +951,7 @@
     "금융/증권"
    ],
    "watch": [],
-   "id": 37,
+   "id": 40,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -901,17 +964,15 @@
    "kinds": [
     "자본"
    ],
-   "abstract": "항 목: 정정사유 정 정 전 정 정 후 · 9. 전환에 관한 사항> 전환가액 (원/주): 주식분할효력발생에 따른정정 3,765 1,883 · 9. 전환에 관한 사항> 전환에 따라 발행할 주식>: 1,328,021 2,655,337 · 9. 전환에 관한 사항> 시가하락에따른 전환가액 조: 2,636 1,319 · 23. 기타 투자판단에 참고할 사항: 주1) 정정 후 주1) 정정 후 · 구분: 조기상환청구기간 조기상환기일 조기상환율 · FROM: TO · 1차: 2027-08-01 2027-08-31 2027-09-30 101.0075 · 2차: 2027-10-31 2027-11-30 2027-12-30 101.2625 · 3차: 2027-01-30 2028-02-29 2028-03-30 101.5188 · 4차: 2028-05-01 2028-05-31 2028-06-30 101.7764 · 5차: 2028-08-01 2028-08-31 2028-09-30 102.0353 · 6차: 2028-10-31 2028-11-30 2028-12-30 102.2955 · 7차: 2029-01-29 2029-02-28 2029-03-30 102.5570",
-   "profile": "화학 / 코스닥 / 설립 1989",
+   "abstract": "",
+   "profile": "",
    "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260813001447",
    "symbol": "083660",
    "company": "CSA 코스믹",
    "src_kind": "공시",
-   "sectors": [
-    "금리/통화"
-   ],
+   "sectors": [],
    "watch": [],
-   "id": 38,
+   "id": 41,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -924,15 +985,15 @@
    "kinds": [
     "자본"
    ],
-   "abstract": "항 목: 정정사유 정 정 전 정 정 후 · 1. 신주의 종류와 수> 보통주식 (주): 주식분할효력발생에 따른정정 1,603,441 3,205,629 · 2. 1주당 액면가액 (원): 200 100 · 3. 증자전 발행주식총수 (주)> 보통주식 (주): 7,109,265 14,218,530 · 4. 자금조달의 목적> 운영자금 (원): 4,099,998,637 4,099,999,491 · 6. 신주 발행가액> 보통주식 (원): 2,557 1,279 · 20. 기타 투자판단에 참고할 사항: 주1) 정정 전 주1) 정정 후 · 구 분: 거래량 거래대금 가중산술평균주가 · 과거 1개월간의 가중산술평균주가(A): 208,120 634,712,357 3,049.74 · 과거 1주일간의 가중산술평균주가(B): 208,120 634,712,357 3,049.74 · 최근일 가중산술평균주가(C): 33,091 93,996,482 2,840.55 · (A),(B),(C)의 산술평균주가(D): 2,980.01 · 기준주가 : (C)와(D)중 낮은 가액: 2,840.55 · 할인율 또는 할증률 (%): -10",
-   "profile": "화학 / 코스닥 / 설립 1989",
+   "abstract": "",
+   "profile": "",
    "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260813001444",
    "symbol": "083660",
    "company": "CSA 코스믹",
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 39,
+   "id": 42,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -945,15 +1006,15 @@
    "kinds": [
     "자본"
    ],
-   "abstract": "항 목: 정정사유 정 정 전 정 정 후 · 1. 신주의 종류와 수> 보통주식 (주): 주식분할효력발생에 따른정정 5,866,249 11,727,912 · 2. 1주당 액면가액 (원): 200 100 · 3. 증자전 발행주식총수 (주)> 보통주식 (주): 7,109,265 14,218,530 · 4. 자금조달의 목적> 운영자금 (원): 14,999,998,693 14,999,999,448 · 6. 신주 발행가액> 보통주식 (원): 2,557 1,279 · 20. 기타 투자판단에 참고할 사항: 주1) 정정 전 주1) 정정 후 · 구 분: 거래량 거래대금 가중산술평균주가 · 과거 1개월간의 가중산술평균주가(A): 208,120 634,712,357 3,049.74 · 과거 1주일간의 가중산술평균주가(B): 208,120 634,712,357 3,049.74 · 최근일 가중산술평균주가(C): 33,091 93,996,482 2,840.55 · (A),(B),(C)의 산술평균주가(D): 2,980.01 · 기준주가 : (C)와(D)중 낮은 가액: 2,840.55 · 할인율 또는 할증률 (%): -10",
-   "profile": "화학 / 코스닥 / 설립 1989",
+   "abstract": "",
+   "profile": "",
    "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260813001438",
    "symbol": "083660",
    "company": "CSA 코스믹",
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 40,
+   "id": 43,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -978,7 +1039,7 @@
    "watch": [
     "바이오"
    ],
-   "id": 41,
+   "id": 44,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -1003,7 +1064,7 @@
    "watch": [
     "바이오"
    ],
-   "id": 42,
+   "id": 45,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -1024,7 +1085,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 43,
+   "id": 46,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -1045,7 +1106,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 44,
+   "id": 47,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -1066,7 +1127,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 45,
+   "id": 48,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -1087,7 +1148,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 46,
+   "id": 49,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -1108,7 +1169,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 47,
+   "id": 50,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -1129,7 +1190,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 48,
+   "id": 51,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -1150,7 +1211,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 49,
+   "id": 52,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -1171,7 +1232,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 50,
+   "id": 53,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -1192,7 +1253,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 51,
+   "id": 54,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -1213,7 +1274,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 52,
+   "id": 55,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -1234,7 +1295,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 53,
+   "id": 56,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -1255,7 +1316,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 54,
+   "id": 57,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -1276,7 +1337,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 55,
+   "id": 58,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -1297,7 +1358,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 56,
+   "id": 59,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -1318,7 +1379,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 57,
+   "id": 60,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -1339,7 +1400,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 58,
+   "id": 61,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -1360,7 +1421,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 59,
+   "id": 62,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -1381,7 +1442,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 60,
+   "id": 63,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -1402,7 +1463,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 61,
+   "id": 64,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -1423,7 +1484,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 62,
+   "id": 65,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -1444,7 +1505,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 63,
+   "id": 66,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -1465,7 +1526,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 64,
+   "id": 67,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -1486,7 +1547,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 65,
+   "id": 68,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -1507,7 +1568,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 66,
+   "id": 69,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -1528,7 +1589,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 67,
+   "id": 70,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -1549,7 +1610,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 68,
+   "id": 71,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -1570,7 +1631,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 69,
+   "id": 72,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -1591,7 +1652,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 70,
+   "id": 73,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -1612,7 +1673,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 71,
+   "id": 74,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -1633,7 +1694,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 72,
+   "id": 75,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -1654,7 +1715,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 73,
+   "id": 76,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -1677,7 +1738,7 @@
     "바이오/의료"
    ],
    "watch": [],
-   "id": 74,
+   "id": 77,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -1700,7 +1761,7 @@
     "바이오/의료"
    ],
    "watch": [],
-   "id": 75,
+   "id": 78,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -1723,7 +1784,7 @@
     "바이오/의료"
    ],
    "watch": [],
-   "id": 76,
+   "id": 79,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -1744,7 +1805,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 77,
+   "id": 80,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -1765,7 +1826,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 78,
+   "id": 81,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -1786,7 +1847,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 79,
+   "id": 82,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -1807,7 +1868,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 80,
+   "id": 83,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -1830,7 +1891,7 @@
    "watch": [
     "로봇"
    ],
-   "id": 81,
+   "id": 84,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -1851,7 +1912,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 82,
+   "id": 85,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -1872,7 +1933,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 83,
+   "id": 86,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -1893,7 +1954,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 84,
+   "id": 87,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -1914,7 +1975,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 85,
+   "id": 88,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -1935,7 +1996,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 86,
+   "id": 89,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -1956,7 +2017,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 87,
+   "id": 90,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -1977,7 +2038,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 88,
+   "id": 91,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -1998,7 +2059,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 89,
+   "id": 92,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -2019,7 +2080,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 90,
+   "id": 93,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -2040,7 +2101,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 91,
+   "id": 94,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -2061,7 +2122,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 92,
+   "id": 95,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -2082,7 +2143,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 93,
+   "id": 96,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -2103,7 +2164,7 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 94,
+   "id": 97,
    "src": "DART",
    "src_name": "국내 공시 (DART 원문)"
   },
@@ -2123,16 +2184,16 @@
    "src_kind": "공시",
    "sectors": [],
    "watch": [],
-   "id": 95,
+   "id": 98,
    "src": "EDGAR",
    "src_name": "미국 공시 (SEC 원문)"
   },
   {
    "title": "Airworthiness Directives; BRP-Rotax GmbH & Co KG (Formerly BRP-Powertrain GMBH & CO KG and Bombardier-Rotax GmbH) Engines and Various Aircraft",
-   "core": "감항성 지침; BRP-Rotax GmbH & Co KG(이전의 BRP-Powertrain GMBH & CO KG 및 Bombardier-Rotax GmbH) 엔진 및 다양한 항공기",
+   "core": "감항성 지침; BRP-Rotax GmbH & Co KG(이전 BRP-Powertrain GMBH & CO KG 및 Bombardier-Rotax GmbH) 엔진 및 다양한 항공기",
    "title_en": "Airworthiness Directives; BRP-Rotax GmbH & Co KG (Formerly BRP-Powertrain GMBH & CO KG and Bombardier-Rotax GmbH) Engines and Various Aircraft",
    "date": "2026-08-13",
-   "abstract": "FAA는 모든 BRP-Rotax GmbH & Co KG(Rotax) 모델 912 F2, 912 F3, 912 F4, 912 iSc2 Sport, 912 iSc3 Sport, 912 S2, 912 S3, 912 S4, 914 F2, 914 F3 및 914 F4 엔진에 대해 새로운 감항성 지침(AD)을 채택하고 있습니다. 다양한 항공기에 대한 형식 인증 항공기 유형 설계의 일부로 포함된 모델 912 A1, 912 A2, 912 A3 및 912 A4 엔진. 이 광고는 오일 스프링의 보고로 인해 촉발되었습니다.",
+   "abstract": "FAA는 모든 BRP-Rotax GmbH & Co KG(Rotax) 모델 912 F2, 912 F3, 912 F4, 912 iSc2 Sport, 912 iSc3 Sport, 912 S2, 912 S3, 912 S4, 914 F2, 914 F3 및 914 F4 엔진에 대해 새로운 감항성 지침(AD)을 채택하고 있습니다. 다양한 항공기에 대한 형식 인증 항공기 유형 설계의 일부로 포함된 모델 912 A1, 912 A2, 912 A3 및 912 A4 엔진. 이 광고는 오일 스프링에 대한 보고로 인해 촉발되었습니다.",
    "abstract_en": "The FAA is adopting a new airworthiness directive (AD) for all BRP-Rotax GmbH & Co KG (Rotax) Model 912 F2, 912 F3, 912 F4, 912 iSc2 Sport, 912 iSc3 Sport, 912 S2, 912 S3, 912 S4, 914 F2, 914 F3, and 914 F4 engines; and Model 912 A1, 912 A2, 912 A3, and 912 A4 engines included as part of the type-certificated aircraft type design for various aircraft. This AD was prompted by a report of an oil spray nozzle and certain screws that were not installed on the propeller gearbox. This AD requires a one-time visual inspection of the propeller gearbox to determine if the oil spray nozzle and certain screws are installed and, depending on the results, replacement of the propeller gearbox with a serviceable propeller gearbox. This AD also prohibits the installation of an affected propeller gearbox o",
    "org": "Transportation Department, Federal Aviation Administration",
    "link": "https://www.federalregister.gov/documents/2026/08/13/2026-16512/airworthiness-directives-brp-rotax-gmbh-and-co-kg-formerly-brp-powertrain-gmbh-and-co-kg-and",
@@ -2147,7 +2208,7 @@
     "항공/물류"
    ],
    "watch": [],
-   "id": 96,
+   "id": 99,
    "src": "FEDREG",
    "src_name": "미국 정책 (연방관보 원문)"
   },
@@ -2171,7 +2232,7 @@
     "반도체/AI"
    ],
    "watch": [],
-   "id": 97,
+   "id": 100,
    "src": "FEDREG",
    "src_name": "미국 정책 (연방관보 원문)"
   },
@@ -2195,7 +2256,7 @@
     "수출통제/관세"
    ],
    "watch": [],
-   "id": 98,
+   "id": 101,
    "src": "FEDREG",
    "src_name": "미국 정책 (연방관보 원문)"
   },
@@ -2217,7 +2278,7 @@
    "effective": "",
    "sectors": [],
    "watch": [],
-   "id": 99,
+   "id": 102,
    "src": "FEDREG",
    "src_name": "미국 정책 (연방관보 원문)"
   },
@@ -2239,7 +2300,7 @@
    "effective": "",
    "sectors": [],
    "watch": [],
-   "id": 100,
+   "id": 103,
    "src": "FEDREG",
    "src_name": "미국 정책 (연방관보 원문)"
   },
@@ -2263,7 +2324,7 @@
     "바이오/의료"
    ],
    "watch": [],
-   "id": 101,
+   "id": 104,
    "src": "FEDREG",
    "src_name": "미국 정책 (연방관보 원문)"
   },
@@ -2288,7 +2349,7 @@
     "항공/물류"
    ],
    "watch": [],
-   "id": 102,
+   "id": 105,
    "src": "FEDREG",
    "src_name": "미국 정책 (연방관보 원문)"
   },
@@ -2312,7 +2373,7 @@
     "조선/해운"
    ],
    "watch": [],
-   "id": 103,
+   "id": 106,
    "src": "FEDREG",
    "src_name": "미국 정책 (연방관보 원문)"
   },
@@ -2321,7 +2382,7 @@
    "core": "구동형 마이크로모빌리티 장치",
    "title_en": "Powered Micromobility Devices",
    "date": "2026-08-12",
-   "abstract": "국립공원관리청(National Park Service)은 국립공원 시스템 내에서 구동되는 마이크로모빌리티 장치의 사용을 위한 관리 프레임워크를 마무리합니다. 최종 규칙은 자동차, 전통 자전거, 전기 자전거, 인력으로 구동되는 해안 장치와 별도로 구동형 마이크로모빌리티 장치를 정의하고 국립공원 시스템 단위에서 이러한 장치를 사용할 수 있는 위치와 방법에 대한 규칙을 만듭니다. 예 o",
+   "abstract": "국립공원관리청은 국립공원 시스템 내에서 구동되는 마이크로모빌리티 장치의 사용을 위한 관리 프레임워크를 마무리합니다. 최종 규칙은 자동차, 전통 자전거, 전기 자전거, 인력으로 구동되는 해안 장치와 별도로 구동형 마이크로모빌리티 장치를 정의하고 국립공원 시스템 단위에서 이러한 장치를 사용할 수 있는 위치와 방법에 대한 규칙을 만듭니다. 예 o",
    "abstract_en": "The National Park Service finalizes a management framework for the use of powered micromobility devices within the National Park System. The final rule defines powered micromobility devices separately from motor vehicles, traditional bicycles, electric bicycles, and human powered coasting devices, and creates rules for where and how they may be used in units of the National Park System. Examples of powered micromobility devices include electric scooters (e- scooters), hoverboards, and Segways.",
    "org": "Interior Department, National Park Service",
    "link": "https://www.federalregister.gov/documents/2026/08/12/2026-16388/powered-micromobility-devices",
@@ -2336,7 +2397,7 @@
     "모빌리티"
    ],
    "watch": [],
-   "id": 104,
+   "id": 107,
    "src": "FEDREG",
    "src_name": "미국 정책 (연방관보 원문)"
   },
@@ -2362,7 +2423,7 @@
    "watch": [
     "폴리실리콘"
    ],
-   "id": 105,
+   "id": 108,
    "src": "FEDREG",
    "src_name": "미국 정책 (연방관보 원문)"
   },
@@ -2383,7 +2444,7 @@
     "건설/부동산"
    ],
    "watch": [],
-   "id": 106,
+   "id": 109,
    "src": "KR_POLICY",
    "src_name": "한국 정책 (부처 발표)"
   },
@@ -2404,7 +2465,7 @@
     "건설/부동산"
    ],
    "watch": [],
-   "id": 107,
+   "id": 110,
    "src": "KR_POLICY",
    "src_name": "한국 정책 (부처 발표)"
   },
@@ -2425,7 +2486,7 @@
     "건설/부동산"
    ],
    "watch": [],
-   "id": 108,
+   "id": 111,
    "src": "KR_POLICY",
    "src_name": "한국 정책 (부처 발표)"
   },
@@ -2445,7 +2506,28 @@
     "보조금/세제"
    ],
    "watch": [],
-   "id": 109,
+   "id": 112,
+   "src": "KR_POLICY",
+   "src_name": "한국 정책 (부처 발표)"
+  },
+  {
+   "title": "국힘, 부동산 세제·공급대책 동시 저격…\"재산권 침해·재탕 숫자놀음\" - 뉴스웍스",
+   "core": "국힘, 부동산 세제·공급대책 동시 저격…\"재산권 침해·재탕 숫자놀음\"",
+   "date": "Fri, 14 Aug 2026",
+   "abstract": "국힘, 부동산 세제·공급대책 동시 저격…\"재산권 침해·재탕 숫자놀음\"&nbsp;&nbsp;뉴스웍스",
+   "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBuQUpTelljMFQtVDgyTHJINTl6SmN3Wm45WFl4dTNDZGlrNkF3SWxPX2hNOTl0QUJfTTlFYWV3Y2VVcGhycm5QSkNpZ1VtbTFvTlVsQkdwM1dVUnlUTUFxNkhpWC02a0p1Nlo1OEhBVXpqSkk?oc=5",
+   "official": false,
+   "org": "뉴스웍스",
+   "kinds": [
+    "정책"
+   ],
+   "src_kind": "정책",
+   "sectors": [
+    "보조금/세제",
+    "건설/부동산"
+   ],
+   "watch": [],
+   "id": 113,
    "src": "KR_POLICY",
    "src_name": "한국 정책 (부처 발표)"
   },
@@ -2465,18 +2547,18 @@
     "건설/부동산"
    ],
    "watch": [],
-   "id": 110,
+   "id": 114,
    "src": "KR_POLICY",
    "src_name": "한국 정책 (부처 발표)"
   },
   {
-   "title": "재생에너지 이격거리 규제 상한 도입…지역별 과도한 규제 완화 - 냉동공조저널",
+   "title": "재생에너지 이격거리 규제 상한 도입…지역별 과도한 규제 완화 - hvacrj.co.kr",
    "core": "재생에너지 이격거리 규제 상한 도입…지역별 과도한 규제 완화",
    "date": "Fri, 14 Aug 2026",
-   "abstract": "재생에너지 이격거리 규제 상한 도입…지역별 과도한 규제 완화&nbsp;&nbsp;냉동공조저널",
+   "abstract": "재생에너지 이격거리 규제 상한 도입…지역별 과도한 규제 완화&nbsp;&nbsp;hvacrj.co.kr",
    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5ob2FWYmlOYmdMYXJCNEtpSVZ0MXI0TlRSb1NhNEJMT3MzZlhOcW9WX3l5QmlscVA1ODVINFdJb2FFZkVjSHNhYzNpOGJ6VHI5ZVJGOHN1UmxDaVMxUy1Bb2xiVjdKVjNXVWc?oc=5",
    "official": false,
-   "org": "냉동공조저널",
+   "org": "hvacrj.co.kr",
    "kinds": [
     "정책"
    ],
@@ -2485,7 +2567,7 @@
     "전력/원자력"
    ],
    "watch": [],
-   "id": 111,
+   "id": 115,
    "src": "KR_POLICY",
    "src_name": "한국 정책 (부처 발표)"
   },
@@ -2506,7 +2588,7 @@
     "건설/부동산"
    ],
    "watch": [],
-   "id": 112,
+   "id": 116,
    "src": "KR_POLICY",
    "src_name": "한국 정책 (부처 발표)"
   },
@@ -2524,7 +2606,27 @@
    "src_kind": "정책",
    "sectors": [],
    "watch": [],
-   "id": 113,
+   "id": 117,
+   "src": "KR_POLICY",
+   "src_name": "한국 정책 (부처 발표)"
+  },
+  {
+   "title": "‘8·13 부동산 대책’ 여야 연일 여론전…“신속한 실행” “재탕에 불과” - v.daum.net",
+   "core": "‘8·13 부동산 대책’ 여야 연일 여론전…“신속한 실행” “재탕에 불과”",
+   "date": "Fri, 14 Aug 2026",
+   "abstract": "‘8·13 부동산 대책’ 여야 연일 여론전…“신속한 실행” “재탕에 불과”&nbsp;&nbsp;v.daum.net",
+   "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE51QXlNbGJKcnQ0ejhLMXZjajZYTDh3S1ZiODlQN3kxSUdNdHpTcjZMdnhPNHdkWEdmZk10Tm8yX0t0Zy1DNUdwenBIUnBmMkE?oc=5",
+   "official": false,
+   "org": "v.daum.net",
+   "kinds": [
+    "정책"
+   ],
+   "src_kind": "정책",
+   "sectors": [
+    "건설/부동산"
+   ],
+   "watch": [],
+   "id": 118,
    "src": "KR_POLICY",
    "src_name": "한국 정책 (부처 발표)"
   },
@@ -2544,7 +2646,7 @@
     "건설/부동산"
    ],
    "watch": [],
-   "id": 114,
+   "id": 119,
    "src": "KR_POLICY",
    "src_name": "한국 정책 (부처 발표)"
   },
@@ -2564,7 +2666,7 @@
     "건설/부동산"
    ],
    "watch": [],
-   "id": 115,
+   "id": 120,
    "src": "KR_POLICY",
    "src_name": "한국 정책 (부처 발표)"
   },
@@ -2584,7 +2686,7 @@
     "건설/부동산"
    ],
    "watch": [],
-   "id": 116,
+   "id": 121,
    "src": "KR_POLICY",
    "src_name": "한국 정책 (부처 발표)"
   },
@@ -2604,7 +2706,7 @@
     "건설/부동산"
    ],
    "watch": [],
-   "id": 117,
+   "id": 122,
    "src": "KR_POLICY",
    "src_name": "한국 정책 (부처 발표)"
   },
@@ -2624,56 +2726,18 @@
     "보조금/세제"
    ],
    "watch": [],
-   "id": 118,
+   "id": 123,
    "src": "KR_POLICY",
    "src_name": "한국 정책 (부처 발표)"
   },
   {
-   "title": "한병도 \"정부와 국민 주거 안정 반드시 실현…국힘·서울시, 협조해야\" | - 연합인포맥스",
-   "core": "한병도 \"정부와 국민 주거 안정 반드시 실현…국힘·서울시, 협조해야\" |",
-   "date": "Fri, 14 Aug 2026",
-   "abstract": "한병도 \"정부와 국민 주거 안정 반드시 실현…국힘·서울시, 협조해야\" |&nbsp;&nbsp;연합인포맥스",
-   "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE54d0M1MnhURzhkNWNuUE83UXJrWUtSNk5vNzVBZlh5QUxoeDJMM1Z4eGNtR213M0lHRTZBUjJTSkFkZTB0eldtSXNxQnJiMDB4OFl0ZTRucWliMnFTeEhXNzBHSnB2Wm9VaWpmeE9VWDkwMWlC?oc=5",
-   "official": false,
-   "org": "연합인포맥스",
-   "kinds": [
-    "정책"
-   ],
-   "src_kind": "정책",
-   "sectors": [],
-   "watch": [],
-   "id": 119,
-   "src": "KR_POLICY",
-   "src_name": "한국 정책 (부처 발표)"
-  },
-  {
-   "title": "\"이대로 가다간 폭망한다\"… 민주당 의총서 정부 세제개편안에 비난 폭발 - 파이낸스투데이",
-   "core": "\"이대로 가다간 폭망한다\"… 민주당 의총서 정부 세제개편안에 비난 폭발",
-   "date": "Fri, 14 Aug 2026",
-   "abstract": "\"이대로 가다간 폭망한다\"… 민주당 의총서 정부 세제개편안에 비난 폭발&nbsp;&nbsp;파이낸스투데이",
-   "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9uWHcwR0JxbG9VYjc3RGxnNXNIdFdnVjJTNEFMRmU2RmlROV9CbUVoYWctMTJEc2xNeTZKSWt5ZWZoaHgzWURmbXdqRDFFMmpBekJqbTJFT2lVNndXa2VYQk5fdi1jMVU?oc=5",
-   "official": false,
-   "org": "파이낸스투데이",
-   "kinds": [
-    "정책"
-   ],
-   "src_kind": "정책",
-   "sectors": [
-    "보조금/세제"
-   ],
-   "watch": [],
-   "id": 120,
-   "src": "KR_POLICY",
-   "src_name": "한국 정책 (부처 발표)"
-  },
-  {
-   "title": "상반기 교역액 6,597억 달러…무역수지 적자 203억 달러 기록 - 굿모닝베트남미디어",
+   "title": "상반기 교역액 6,597억 달러…무역수지 적자 203억 달러 기록 - goodmorningvietnam.co.kr",
    "core": "상반기 교역액 6,597억 달러…무역수지 적자 203억 달러 기록",
    "date": "Fri, 14 Aug 2026",
-   "abstract": "상반기 교역액 6,597억 달러…무역수지 적자 203억 달러 기록&nbsp;&nbsp;굿모닝베트남미디어",
+   "abstract": "상반기 교역액 6,597억 달러…무역수지 적자 203억 달러 기록&nbsp;&nbsp;goodmorningvietnam.co.kr",
    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9NZWg5T0N0ZGJjbFpCSF9BekczN0toblYzVGo4VFo3UGZ3TVFxS0hLdEtPMGZnRXBrZ0NVeDM1Qk9rVUNtMkgwODN2RkNoSE1xNGE1aWRfZHFZN0xKd0N0c1VLQ0xrTTVJcnJ5SWRMUUY?oc=5",
    "official": false,
-   "org": "굿모닝베트남미디어",
+   "org": "goodmorningvietnam.co.kr",
    "kinds": [
     "정책"
    ],
@@ -2682,7 +2746,7 @@
     "수출통제/관세"
    ],
    "watch": [],
-   "id": 121,
+   "id": 124,
    "src": "KR_INDUS",
    "src_name": "한국 산업·공급망"
   },
@@ -2702,7 +2766,7 @@
     "보조금/세제"
    ],
    "watch": [],
-   "id": 122,
+   "id": 125,
    "src": "KR_INDUS",
    "src_name": "한국 산업·공급망"
   },
@@ -2725,7 +2789,7 @@
    "watch": [
     "반도체"
    ],
-   "id": 123,
+   "id": 126,
    "src": "KR_INDUS",
    "src_name": "한국 산업·공급망"
   },
@@ -2743,7 +2807,7 @@
    "src_kind": "산업",
    "sectors": [],
    "watch": [],
-   "id": 124,
+   "id": 127,
    "src": "KR_INDUS",
    "src_name": "한국 산업·공급망"
   },
@@ -2761,7 +2825,27 @@
    "src_kind": "산업",
    "sectors": [],
    "watch": [],
-   "id": 125,
+   "id": 128,
+   "src": "KR_INDUS",
+   "src_name": "한국 산업·공급망"
+  },
+  {
+   "title": "미국 7월 고용 2만 3천 건 급감—한국 건설·서비스 현장 비용·계약 리스크 점검 시급 - 한국AI부동산신문",
+   "core": "미국 7월 고용 2만 3천 건 급감—한국 건설·서비스 현장 비용·계약 리스크 점검 시급",
+   "date": "Fri, 14 Aug 2026",
+   "abstract": "미국 7월 고용 2만 3천 건 급감—한국 건설·서비스 현장 비용·계약 리스크 점검 시급&nbsp;&nbsp;한국AI부동산신문",
+   "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE11Yy0xNGNSVVVWSWl6TWcyV3NqSlRLZXh0cFV0T0NxNXItZFlWMDdrT3ktZUZPekd0T3ltcDctTm1PRXV4Ykd1bU5kVFc?oc=5",
+   "official": false,
+   "org": "한국AI부동산신문",
+   "kinds": [
+    "정책"
+   ],
+   "src_kind": "산업",
+   "sectors": [
+    "건설/부동산"
+   ],
+   "watch": [],
+   "id": 129,
    "src": "KR_INDUS",
    "src_name": "한국 산업·공급망"
   },
@@ -2783,7 +2867,7 @@
    "watch": [
     "방산"
    ],
-   "id": 126,
+   "id": 130,
    "src": "KR_INDUS",
    "src_name": "한국 산업·공급망"
   },
@@ -2805,7 +2889,7 @@
    "watch": [
     "방산"
    ],
-   "id": 127,
+   "id": 131,
    "src": "KR_INDUS",
    "src_name": "한국 산업·공급망"
   },
@@ -2827,29 +2911,7 @@
    "watch": [
     "방산"
    ],
-   "id": 128,
-   "src": "KR_INDUS",
-   "src_name": "한국 산업·공급망"
-  },
-  {
-   "title": "팹 증설 빠르게…규제 풀어 용인반도체클러스터 2.5조 투자 가속 - 데일리굿뉴스",
-   "core": "팹 증설 빠르게…규제 풀어 용인반도체클러스터 2.5조 투자 가속",
-   "date": "Thu, 13 Aug 2026",
-   "abstract": "팹 증설 빠르게…규제 풀어 용인반도체클러스터 2.5조 투자 가속&nbsp;&nbsp;데일리굿뉴스",
-   "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5SUmFBeExQMVcxNHhrVmd2Q05tTFhtLUtvdHl1WU1RQUhCZlYyZXlUaGJYYUtkNW1IR3lxeHJGVlE2dm1DQmNjenFkcXRjYS1fRGtjZEp0b20wMmpsNlNoUkpIZGRYQTU4YW01ZNIBcEFVX3lxTE1ydE1ZeFBZdEtHR0lycG5Xai1TTXA0OVk0aHBPT2ZscmVUUVhSaTliQThMdmJYdkhrWFluNEgtLV8wSVNsTEZfQjFOT0FYcll5bzlTUDZXSmRZdXhFNjFfR09rYklBZlVGU0lZVzNDYmU?oc=5",
-   "official": false,
-   "org": "데일리굿뉴스",
-   "kinds": [
-    "정책"
-   ],
-   "src_kind": "산업",
-   "sectors": [
-    "반도체/AI"
-   ],
-   "watch": [
-    "반도체"
-   ],
-   "id": 129,
+   "id": 132,
    "src": "KR_INDUS",
    "src_name": "한국 산업·공급망"
   },
@@ -2869,7 +2931,7 @@
     "보조금/세제"
    ],
    "watch": [],
-   "id": 130,
+   "id": 133,
    "src": "KR_INDUS",
    "src_name": "한국 산업·공급망"
   },
@@ -2891,7 +2953,7 @@
    "watch": [
     "반도체"
    ],
-   "id": 131,
+   "id": 134,
    "src": "KR_INDUS",
    "src_name": "한국 산업·공급망"
   },
@@ -2913,7 +2975,7 @@
    "watch": [
     "방산"
    ],
-   "id": 132,
+   "id": 135,
    "src": "KR_INDUS",
    "src_name": "한국 산업·공급망"
   },
@@ -2931,7 +2993,7 @@
    "src_kind": "산업",
    "sectors": [],
    "watch": [],
-   "id": 133,
+   "id": 136,
    "src": "KR_INDUS",
    "src_name": "한국 산업·공급망"
   },
@@ -2953,7 +3015,7 @@
    "watch": [
     "방산"
    ],
-   "id": 134,
+   "id": 137,
    "src": "KR_INDUS",
    "src_name": "한국 산업·공급망"
   },
@@ -2971,7 +3033,7 @@
    "src_kind": "산업",
    "sectors": [],
    "watch": [],
-   "id": 135,
+   "id": 138,
    "src": "KR_INDUS",
    "src_name": "한국 산업·공급망"
   },
@@ -2989,25 +3051,25 @@
    "src_kind": "산업",
    "sectors": [],
    "watch": [],
-   "id": 136,
+   "id": 139,
    "src": "KR_INDUS",
    "src_name": "한국 산업·공급망"
   },
   {
-   "title": "태광산업, '가발 원사' 모다크릴 생산라인 증설..생산능력 2배로 - 스마트투데이",
+   "title": "태광산업, '가발 원사' 모다크릴 생산라인 증설..생산능력 2배로 - smarttoday.co.kr",
    "core": "태광산업, '가발 원사' 모다크릴 생산라인 증설..생산능력 2배로",
    "date": "Thu, 13 Aug 2026",
-   "abstract": "태광산업, '가발 원사' 모다크릴 생산라인 증설..생산능력 2배로&nbsp;&nbsp;스마트투데이",
+   "abstract": "태광산업, '가발 원사' 모다크릴 생산라인 증설..생산능력 2배로&nbsp;&nbsp;smarttoday.co.kr",
    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFA2YzlPSU9hUUFpOHJXMWRDc1BPTm1XXzJyamRVYmpCTFMxbDBKMzJYR2YtOTdZS3MyM3lVSzEteEtRbHFjZVRza1VoaEpjOEx0TmdrYUxKNG0xNm42czNJ?oc=5",
    "official": false,
-   "org": "스마트투데이",
+   "org": "smarttoday.co.kr",
    "kinds": [
     "정책"
    ],
    "src_kind": "산업",
    "sectors": [],
    "watch": [],
-   "id": 137,
+   "id": 140,
    "src": "KR_INDUS",
    "src_name": "한국 산업·공급망"
   },
@@ -3029,7 +3091,7 @@
    "watch": [
     "방산"
    ],
-   "id": 138,
+   "id": 141,
    "src": "KR_INDUS",
    "src_name": "한국 산업·공급망"
   },
@@ -3051,7 +3113,7 @@
    "watch": [
     "바이오"
    ],
-   "id": 139,
+   "id": 142,
    "src": "KR_INDUS",
    "src_name": "한국 산업·공급망"
   },
@@ -3069,7 +3131,7 @@
    "src_kind": "해외",
    "sectors": [],
    "watch": [],
-   "id": 140,
+   "id": 143,
    "src": "GLOBAL",
    "src_name": "해외발 충격 (영문)"
   },
@@ -3087,7 +3149,7 @@
    "src_kind": "해외",
    "sectors": [],
    "watch": [],
-   "id": 141,
+   "id": 144,
    "src": "GLOBAL",
    "src_name": "해외발 충격 (영문)"
   },
@@ -3107,7 +3169,7 @@
     "금속/광물"
    ],
    "watch": [],
-   "id": 142,
+   "id": 145,
    "src": "GLOBAL",
    "src_name": "해외발 충격 (영문)"
   },
@@ -3125,18 +3187,18 @@
    "src_kind": "해외",
    "sectors": [],
    "watch": [],
-   "id": 143,
+   "id": 146,
    "src": "GLOBAL",
    "src_name": "해외발 충격 (영문)"
   },
   {
-   "title": "Rules-based critical mineral export oversight enhanced - global.chinadaily.com.cn",
-   "core": "Rules-based critical mineral export oversight enhanced",
+   "title": "Rules-based critical mineral export oversight enhanced - China Daily Global Edition",
+   "core": "Rules-based critical mineral export oversight enhanced - China Daily Global Edition",
    "date": "Thu, 13 Aug 2026",
-   "abstract": "Rules-based critical mineral export oversight enhanced&nbsp;&nbsp;global.chinadaily.com.cn",
+   "abstract": "Rules-based critical mineral export oversight enhanced&nbsp;&nbsp;China Daily Global Edition",
    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxONWNOUGt1YnJTZl9VRnNJaDByTjd2NXdJemdyS1JUT1Q0bG8yX1RpcUhnejJVdmJjSlZxUEdoeTlOblZJY3NPQlVfejlBbHptRUF4TkUtV0s2RGNJaTBKOTJwV2k3OHlDelVqQ2tkRy1pMzN2NnpjbENHTDRnbnVodnB3?oc=5",
    "official": false,
-   "org": "global.chinadaily.com.cn",
+   "org": "China Daily Global Edition",
    "kinds": [
     "정책"
    ],
@@ -3145,25 +3207,7 @@
     "금속/광물"
    ],
    "watch": [],
-   "id": 144,
-   "src": "GLOBAL",
-   "src_name": "해외발 충격 (영문)"
-  },
-  {
-   "title": "“Export Offensive Pierces Trade Barriers” Chinese EVs Push Deeper into Europe as EU Retaliates With Sweeping Trade Pressure - economy.ac",
-   "core": "“Export Offensive Pierces Trade Barriers” Chinese EVs Push Deeper into Europe as EU Retaliates With Sweeping Trade Pressure",
-   "date": "Wed, 12 Aug 2026",
-   "abstract": "“Export Offensive Pierces Trade Barriers” Chinese EVs Push Deeper into Europe as EU Retaliates With Sweeping Trade Pressure&nbsp;&nbsp;economy.ac",
-   "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE4tc0NMRGhtZU9yeXlvVzU4YkduVGZEV1hEMTEtQjU0cmIxTEpmRXJ1ME04OFgzSlJGcEV1Nlg2THl5cGV1eVZPR2pUamVlZC1jdV9tVVk1NA?oc=5",
-   "official": false,
-   "org": "economy.ac",
-   "kinds": [
-    "정책"
-   ],
-   "src_kind": "해외",
-   "sectors": [],
-   "watch": [],
-   "id": 145,
+   "id": 147,
    "src": "GLOBAL",
    "src_name": "해외발 충격 (영문)"
   },
@@ -3183,7 +3227,7 @@
     "2차전지/ESS"
    ],
    "watch": [],
-   "id": 146,
+   "id": 148,
    "src": "GLOBAL",
    "src_name": "해외발 충격 (영문)"
   },
@@ -3201,7 +3245,7 @@
    "src_kind": "해외",
    "sectors": [],
    "watch": [],
-   "id": 147,
+   "id": 149,
    "src": "GLOBAL",
    "src_name": "해외발 충격 (영문)"
   },
@@ -3219,7 +3263,7 @@
    "src_kind": "해외",
    "sectors": [],
    "watch": [],
-   "id": 148,
+   "id": 150,
    "src": "GLOBAL",
    "src_name": "해외발 충격 (영문)"
   },
@@ -3237,7 +3281,7 @@
    "src_kind": "해외",
    "sectors": [],
    "watch": [],
-   "id": 149,
+   "id": 151,
    "src": "GLOBAL",
    "src_name": "해외발 충격 (영문)"
   },
@@ -3255,7 +3299,7 @@
    "src_kind": "해외",
    "sectors": [],
    "watch": [],
-   "id": 150,
+   "id": 152,
    "src": "GLOBAL",
    "src_name": "해외발 충격 (영문)"
   },
@@ -3273,7 +3317,7 @@
    "src_kind": "해외",
    "sectors": [],
    "watch": [],
-   "id": 151,
+   "id": 153,
    "src": "GLOBAL",
    "src_name": "해외발 충격 (영문)"
   },
@@ -3293,7 +3337,7 @@
     "금속/광물"
    ],
    "watch": [],
-   "id": 152,
+   "id": 154,
    "src": "GLOBAL",
    "src_name": "해외발 충격 (영문)"
   },
@@ -3311,7 +3355,7 @@
    "src_kind": "해외",
    "sectors": [],
    "watch": [],
-   "id": 153,
+   "id": 155,
    "src": "GLOBAL",
    "src_name": "해외발 충격 (영문)"
   },
@@ -3329,7 +3373,7 @@
    "src_kind": "해외",
    "sectors": [],
    "watch": [],
-   "id": 154,
+   "id": 156,
    "src": "GLOBAL",
    "src_name": "해외발 충격 (영문)"
   },
@@ -3347,7 +3391,7 @@
    "src_kind": "해외",
    "sectors": [],
    "watch": [],
-   "id": 155,
+   "id": 157,
    "src": "GLOBAL",
    "src_name": "해외발 충격 (영문)"
   },
@@ -3365,7 +3409,7 @@
    "src_kind": "해외",
    "sectors": [],
    "watch": [],
-   "id": 156,
+   "id": 158,
    "src": "GLOBAL",
    "src_name": "해외발 충격 (영문)"
   },
@@ -3385,7 +3429,7 @@
     "금리/통화"
    ],
    "watch": [],
-   "id": 157,
+   "id": 159,
    "src": "CALENDAR",
    "src_name": "예정 일정"
   }

@@ -60,6 +60,11 @@ jobs:
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           GITHUB_REPOSITORY: ${{ github.repository }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODEL: ""            # 비우면 무료 최상급 자동 선택
+          GEMINI_THINK: "1"          # 확장 사고 사용 (0=끄기)
+          DAILY_MAX_OUT: "8000"      # Claude 폴백 시에만 적용
+          DAILY_COST_CAP: "600"
           FORCE_DAILY: ${{ inputs.force }}
           DAILY_MODEL: "claude-sonnet-5"
           DAILY_MONTH_LIMIT: "40"

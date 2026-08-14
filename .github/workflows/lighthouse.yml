@@ -63,7 +63,7 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GEMINI_MODEL: ""            # 비우면 무료 최상급 자동 선택
           GEMINI_THINK: "1"          # 확장 사고 사용 (0=끄기)
-          DAILY_MAX_OUT: "8000"      # Claude 폴백 시에만 적용
+          DAILY_MAX_OUT: "16000"     # Claude 폴백 시에만 적용 (Gemini는 모델 최대치 자동)
           DAILY_COST_CAP: "600"
           FORCE_DAILY: ${{ inputs.force }}
           DAILY_MODEL: "claude-sonnet-5"

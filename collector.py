@@ -234,6 +234,43 @@ def dart_body(rcept_no, report_nm, corp_code, key, limit=700):
     except Exception:
         return None
 
+_COMPANY = {}
+
+def dart_company(corp_code, key):
+    """기업개황 — 업종·설립·상장 (하루 캐시)"""
+    if corp_code in _COMPANY:
+        return _COMPANY[corp_code]
+    info = None
+    try:
+        r = requests.get("https://opendart.fss.or.kr/api/company.json",
+                         params={"crtfc_key": key, "corp_code": corp_code}, timeout=20)
+        if r.status_code == 200:
+            j = r.json()
+            if j.get("status") == "000":
+                info = {"induty": j.get("induty_code", ""), "ceo": j.get("ceo_nm", ""),
+                        "est": (j.get("est_dt") or "")[:4], "mkt": j.get("corp_cls", ""),
+                        "name": j.get("corp_name", "")}
+    except Exception:
+        pass
+    _COMPANY[corp_code] = info
+    return info
+
+# 표준산업분류 앞 2~3자리 → 업종명 (자주 나오는 것)
+INDUTY = {
+ "10":"식품","11":"음료","13":"섬유","14":"의복","17":"펄프·종이","19":"석유정제",
+ "20":"화학","21":"의약품","22":"고무·플라스틱","23":"비금속광물","24":"1차금속",
+ "25":"금속가공","26":"전자부품·반도체","27":"의료·정밀기기","28":"전기장비",
+ "29":"기계장비","30":"자동차","31":"기타운송장비(조선·항공)","32":"가구·기타제조",
+ "35":"전기·가스","36":"수도","41":"건설","42":"토목·전문건설","45":"자동차판매",
+ "46":"도매","47":"소매","49":"육상운송","50":"수상운송","51":"항공운송",
+ "58":"출판","59":"영상·음악","61":"통신","62":"소프트웨어","63":"정보서비스",
+ "64":"금융","65":"보험","66":"금융지원","68":"부동산","70":"연구개발","71":"전문서비스",
+ "72":"건축기술·엔지니어링","73":"기타과학기술","86":"보건업"}
+
+def induty_name(code):
+    c = str(code or "")
+    return INDUTY.get(c[:2], "")
+
 def fetch_dart():
     """전 시장 주요 공시 + 워치리스트 종목 공시"""
     key = dart_key()
@@ -256,12 +293,20 @@ def fetch_dart():
                 ks = kind_of(nm)
                 if not ks: continue
                 sc = rev.get(x.get("corp_code"), ("", x.get("corp_name","")))
+                ci = None
+                if any(k in ks for k in ("의지","자본","위험","실체")) and len(out) < 40:
+                    ci = dart_company(x.get("corp_code"), key)
                 body = ""
                 if any(k in ks for k in ("의지","자본","위험","실체")) and len(out) < 40:
                     body = dart_body(x.get("rcept_no"), nm, x.get("corp_code"), key) or ""
+                prof = ""
+                if ci:
+                    ind = induty_name(ci.get("induty"))
+                    bits = [b for b in [ind, f"{label}", f"설립 {ci['est']}" if ci.get("est") else ""] if b]
+                    prof = " / ".join(bits)
                 out.append(item(title=f"{x.get('corp_name')} — {nm}", core=f"{x.get('corp_name')} {nm}",
                     date=x.get("rcept_dt",""), org=f"DART·{label}", official=True, kinds=ks,
-                    abstract=body,
+                    abstract=body, profile=prof,
                     link=f"https://dart.fss.or.kr/dsaf001/main.do?rcpNo={x.get('rcept_no')}",
                     symbol=sc[0], company=x.get("corp_name",""), src_kind="공시"))
             time.sleep(0.15)

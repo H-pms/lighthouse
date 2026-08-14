@@ -5,7 +5,7 @@
 - 판단은 사용자 몫. AI는 재료를 정리·선별하고 근거를 붙인다.
 - 비용 안전장치: 하루 1회 · 월 상한 · 사용량/비용 표시
 """
-import os, json, glob
+import os, json, glob, time
 from datetime import datetime, timezone, timedelta
 import requests
 
@@ -67,17 +67,40 @@ CONSTITUTION = """너는 투자자를 위해 하루치 공시·정책 자료를 
 말미: "그물 범위: [원천 목록] · [기준 시각]. 여기 없는 정보는 존재할 수 있음."
 """
 
-def send_telegram(text):
+TG_LIMIT = 4000          # 텔레그램 한 통의 최대 길이
+TG_PARTS = int(os.environ.get("TELEGRAM_PARTS", "3"))   # 최대 몇 통까지 나눠 보낼지
+
+def _split(text, size=TG_LIMIT):
+    """문단·줄 경계를 지켜 나눈다 (단어 중간에서 끊기지 않게)"""
+    out, buf = [], ""
+    for para in text.split("\n"):
+        if len(buf) + len(para) + 1 > size:
+            if buf:
+                out.append(buf.rstrip()); buf = ""
+            while len(para) > size:              # 한 줄이 너무 길면 강제 분할
+                out.append(para[:size]); para = para[size:]
+        buf += para + "\n"
+    if buf.strip():
+        out.append(buf.rstrip())
+    return out
+
+def send_telegram(text, parts=1):
     tok, chat = os.environ.get("TELEGRAM_TOKEN"), os.environ.get("TELEGRAM_CHAT_ID")
     if not tok or not chat:
         print("[알림 생략] 텔레그램 미설정"); return
-    try:
-        requests.post(f"https://api.telegram.org/bot{tok}/sendMessage",
-                      json={"chat_id": chat, "text": text[:4000],
-                            "disable_web_page_preview": True}, timeout=20).raise_for_status()
-        print("[알림 OK]")
-    except Exception as e:
-        print(f"[알림 FAIL] {type(e).__name__}: {str(e)[:120]}")
+    chunks = _split(text)[:max(1, parts)]
+    for i, c in enumerate(chunks, 1):
+        tag = f"\n\n({i}/{len(chunks)})" if len(chunks) > 1 else ""
+        body = (c + tag)[:TG_LIMIT]
+        try:
+            requests.post(f"https://api.telegram.org/bot{tok}/sendMessage",
+                          json={"chat_id": chat, "text": body,
+                                "disable_web_page_preview": True}, timeout=20).raise_for_status()
+            print(f"[알림 OK {i}/{len(chunks)}]")
+        except Exception as e:
+            print(f"[알림 FAIL] {type(e).__name__}: {str(e)[:120]}"); return
+        if i < len(chunks):
+            time.sleep(1.2)      # 연속 발송 간격
 
 # ── 안전장치 ──
 def guard_check(force=False):
@@ -341,8 +364,8 @@ def main():
 
     repo = os.environ.get("GITHUB_REPOSITORY", "")
     link = f"\n\n전체: https://github.com/{repo}/blob/main/briefing/env_latest.md" if repo else ""
-    tail = (f"\n💰 {cost:,.0f}원" if cost else "\n💰 무료(Gemini)") + f" · 이번 달 {st['count']}/{MONTH_LIMIT}회"
-    send_telegram(f"🗼 {d['date']} 등대 보고\n\n{report[:1500]}{link}{tail}")
+    tail = (f"\n💰 {cost:,.0f}원" if cost else f"\n💰 무료({provider})") + f" · 이번 달 {st['count']}/{MONTH_LIMIT}회"
+    send_telegram(f"🗼 {d['date']} 등대 보고\n\n{report}{link}{tail}", parts=TG_PARTS)
 
 if __name__ == "__main__":
     main()

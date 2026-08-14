@@ -281,6 +281,7 @@ def fetch_dart():
     corp = dart_corp()
     rev = {v["code"]: (k, v["name"]) for k, v in corp.items()}
     # 전 시장 (유가/코스닥 주요공시)
+    seen_rcp = set()
     for mkt, label in (("Y","유가증권"), ("K","코스닥")):
         for page in (1, 2):
             r = requests.get("https://opendart.fss.or.kr/api/list.json",
@@ -289,9 +290,11 @@ def fetch_dart():
             j = r.json() if r.status_code == 200 else {}
             if j.get("status") != "000": break
             for x in j.get("list", []):
+                if x.get("rcept_no") in seen_rcp: continue
                 nm = x.get("report_nm","")
                 ks = kind_of(nm)
                 if not ks: continue
+                seen_rcp.add(x.get("rcept_no"))
                 sc = rev.get(x.get("corp_code"), ("", x.get("corp_name","")))
                 ci = None
                 if any(k in ks for k in ("의지","자본","위험","실체")) and len(out) < 40:
@@ -579,6 +582,19 @@ SOURCES = [
     ("CALENDAR", "예정 일정",                    fetch_calendar),
 ]
 
+def dedup(items):
+    """같은 공시·같은 기사 중복 제거 (링크 기준, 뒤에 온 것은 버림)"""
+    seen, out = set(), []
+    for x in items:
+        k = x.get("link") or x.get("core", "")
+        # DART는 접수번호가 핵심
+        m = re.search(r"rcpNo=(\d+)", k)
+        if m: k = "dart:" + m.group(1)
+        if k in seen:
+            continue
+        seen.add(k); out.append(x)
+    return out
+
 def main():
     sources, errors, items, seq = [], [], [], 0
     for sid, name, fn in SOURCES:
@@ -595,6 +611,12 @@ def main():
             errors.append({"id":sid,"name":name,"error":msg})
             sources.append({"id":sid,"name":name,"count":0,"ok":False,"error":msg})
             print(f"[FAIL] {name}: {msg}")
+    before = len(items)
+    items = dedup(items)
+    for i, x in enumerate(items, 1):
+        x["id"] = i
+    if before != len(items):
+        print(f"중복 제거: {before} → {len(items)}건")
     data = {"generated": TODAY.strftime("%Y-%m-%d %H:%M"), "date": TODAY.strftime("%Y-%m-%d"),
             "sources": sources, "errors": errors, "watchlist": load_watchlist(), "items": items,
             "coverage": "공시·정책 원문 우선. 개별 기업 주가·잡담 기사는 제외. 여기 없는 정보는 존재할 수 있음."}

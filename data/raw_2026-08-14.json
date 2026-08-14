@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-14 16:58",
+ "generated": "2026-08-14 17:06",
  "date": "2026-08-14",
  "sources": [
   {
@@ -2515,7 +2515,7 @@
    "core": "국토차관 \"年30만호 공급, 朴정부 뛰어넘어…서울시 협의했다\"",
    "date": "Fri, 14 Aug 2026",
    "abstract": "국토차관 \"年30만호 공급, 朴정부 뛰어넘어…서울시 협의했다\"&nbsp;&nbsp;연합뉴스",
-   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1xVVdUNWJ2eTBQMjhmcGdKQld3QWw2SGctSm9RM1A3ZXIxbnBSYWxtQURyVlZwR2tYQTd6Ymp0RHZBbXVFTVBlREVWdDVtN1hfbXlFR0VIV2FfbTjSAWBBVV95cUxPY3B4bmxZbDgtTlNxT1N2RHFBUXZ6dG5VOEN3OXpNMndvTkFCcUQtV3dsZVladS01UklJYjRJcFJNUUkwVXFNSE5wUXFZXzBtd1BGRHJIWWZJTFo1ZjhhWU8?oc=5",
+   "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9jcHhubFlsOC1OU3FPU3ZEcUFRdnp0blU4Q3c5ek0yd29OQUJxRC1Xd2xlWVp1LTVSSUliNElwUk1RSTBVcU1ITnBRcVlfMG13UEZEckhZZklMWjVmOGFZT9IBYEFVX3lxTE9jcHhubFlsOC1OU3FPU3ZEcUFRdnp0blU4Q3c5ek0yd29OQUJxRC1Xd2xlWVp1LTVSSUliNElwUk1RSTBVcU1ITnBRcVlfMG13UEZEckhZZklMWjVmOGFZTw?oc=5",
    "official": false,
    "org": "연합뉴스",
    "kinds": [
@@ -2896,6 +2896,28 @@
    "src_name": "한국 산업·공급망"
   },
   {
+   "title": "수출입은행, 첫 벤처투자조합 투자…방산·공급망 지원 200억원 출자 - 데일리한국",
+   "core": "수출입은행, 첫 벤처투자조합 투자…방산·공급망 지원 200억원 출자",
+   "date": "Thu, 13 Aug 2026",
+   "abstract": "수출입은행, 첫 벤처투자조합 투자…방산·공급망 지원 200억원 출자&nbsp;&nbsp;데일리한국",
+   "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFAxbHl5dzhuSll0RnZ4UEpkMHloeXRDMFZtdFQzQzI2NHlXazk0dHZxanNNOHR2cjJrVkpaQmdZWnRIZ0lYQWRpcEtncGdlbXdtV3lRMDNYZDhrb05TUU1yV3dnZlNPQldCQk1Qd3dEamt3MGPSAXNBVV95cUxQMWx5eXc4bkpZdEZ2eFBKZDB5aHl0QzBWbXRUM0MyNjR5V2s5NHR2cWpzTTh0dnIya1ZKWkJnWVp0SGdJWEFkaXBLZ3BnZW13bVd5UTAzWGQ4a29OU1FNcld3Z2ZTT0JXQkJNUHd3RGprdzBj?oc=5",
+   "official": false,
+   "org": "데일리한국",
+   "kinds": [
+    "정책"
+   ],
+   "src_kind": "산업",
+   "sectors": [
+    "방산/우주"
+   ],
+   "watch": [
+    "방산"
+   ],
+   "id": 132,
+   "src": "KR_INDUS",
+   "src_name": "한국 산업·공급망"
+  },
+  {
    "title": "태광산업, ‘모다크릴’ 라인 증설에 1500억 투자…생산량 2배로 확대 - 부산일보",
    "core": "태광산업, ‘모다크릴’ 라인 증설에 1500억 투자…생산량 2배로 확대",
    "date": "Thu, 13 Aug 2026",
@@ -2909,7 +2931,7 @@
    "src_kind": "산업",
    "sectors": [],
    "watch": [],
-   "id": 132,
+   "id": 133,
    "src": "KR_INDUS",
    "src_name": "한국 산업·공급망"
   },
@@ -2931,7 +2953,7 @@
    "watch": [
     "방산"
    ],
-   "id": 133,
+   "id": 134,
    "src": "KR_INDUS",
    "src_name": "한국 산업·공급망"
   },
@@ -2949,7 +2971,7 @@
    "src_kind": "산업",
    "sectors": [],
    "watch": [],
-   "id": 134,
+   "id": 135,
    "src": "KR_INDUS",
    "src_name": "한국 산업·공급망"
   },
@@ -2967,7 +2989,7 @@
    "src_kind": "산업",
    "sectors": [],
    "watch": [],
-   "id": 135,
+   "id": 136,
    "src": "KR_INDUS",
    "src_name": "한국 산업·공급망"
   },
@@ -2985,28 +3007,6 @@
    "src_kind": "산업",
    "sectors": [],
    "watch": [],
-   "id": 136,
-   "src": "KR_INDUS",
-   "src_name": "한국 산업·공급망"
-  },
-  {
-   "title": "CDMO·제조강국 리포트 ⑥ K-바이오 제조 경쟁력, 공급망에서 갈린다…CDMO 넘어 원료의약품까지 - 금융경제플러스",
-   "core": "CDMO·제조강국 리포트 ⑥ K-바이오 제조 경쟁력, 공급망에서 갈린다…CDMO 넘어 원료의약품까지",
-   "date": "Thu, 13 Aug 2026",
-   "abstract": "CDMO·제조강국 리포트 ⑥ K-바이오 제조 경쟁력, 공급망에서 갈린다…CDMO 넘어 원료의약품까지&nbsp;&nbsp;금융경제플러스",
-   "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9CZHhJbWU4cTZSYW5lMk9Yb20tSTNTd3g3TEdYRWJDU1o4T0pXQWVFWUh2MzdZbjdWR1hPeVdIZjlsUml6QjB1QVJVWWhhQXlVektiZU5GS0NaX1JlUktfSEdTdy16N1piaHFwdA?oc=5",
-   "official": false,
-   "org": "금융경제플러스",
-   "kinds": [
-    "정책"
-   ],
-   "src_kind": "산업",
-   "sectors": [
-    "바이오/의료"
-   ],
-   "watch": [
-    "바이오"
-   ],
    "id": 137,
    "src": "KR_INDUS",
    "src_name": "한국 산업·공급망"
@@ -3034,22 +3034,23 @@
    "src_name": "한국 산업·공급망"
   },
   {
-   "title": "핵심광물 재자원화율 20% 목표… 첨단 공급망에 10조원 R&D 투입 - 에너지플랫폼뉴스",
-   "core": "핵심광물 재자원화율 20% 목표… 첨단 공급망에 10조원 R&D 투입",
-   "date": "Wed, 12 Aug 2026",
-   "abstract": "핵심광물 재자원화율 20% 목표… 첨단 공급망에 10조원 R&amp;D 투입&nbsp;&nbsp;에너지플랫폼뉴스",
-   "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1OM2NHcHNhdU56Y1V6UlRSU2IxYkVkbERJTWFVSkRBaTlNV1hPeFZveGNuSWx1bm9fNU0yR3NuZ1R6b1puSzE0UWdOaEVxeWxsR0F0N0Q0RGZPVDM3dzdCREpqQ0Q2RVgxYXZLTEVqZ3TSAXBBVV95cUxNTjNjR3BzYXVOemNVelJUUlNiMWJFZGxESU1hVUpEQWk5TVdYT3hWb3hjbklsdW5vXzVNMkdzbmdUem9abksxNFFnTmhFcXlsbEdBdDdENERmT1QzN3c3QkRKakNENkVYMWF2S0xFamd0?oc=5",
+   "title": "CDMO·제조강국 리포트 ⑥ K-바이오 제조 경쟁력, 공급망에서 갈린다…CDMO 넘어 원료의약품까지 - 금융경제플러스",
+   "core": "CDMO·제조강국 리포트 ⑥ K-바이오 제조 경쟁력, 공급망에서 갈린다…CDMO 넘어 원료의약품까지",
+   "date": "Thu, 13 Aug 2026",
+   "abstract": "CDMO·제조강국 리포트 ⑥ K-바이오 제조 경쟁력, 공급망에서 갈린다…CDMO 넘어 원료의약품까지&nbsp;&nbsp;금융경제플러스",
+   "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9CZHhJbWU4cTZSYW5lMk9Yb20tSTNTd3g3TEdYRWJDU1o4T0pXQWVFWUh2MzdZbjdWR1hPeVdIZjlsUml6QjB1QVJVWWhhQXlVektiZU5GS0NaX1JlUktfSEdTdy16N1piaHFwdA?oc=5",
    "official": false,
-   "org": "에너지플랫폼뉴스",
+   "org": "금융경제플러스",
    "kinds": [
     "정책"
    ],
    "src_kind": "산업",
    "sectors": [
-    "전력/원자력",
-    "금속/광물"
+    "바이오/의료"
    ],
-   "watch": [],
+   "watch": [
+    "바이오"
+   ],
    "id": 139,
    "src": "KR_INDUS",
    "src_name": "한국 산업·공급망"
@@ -3129,13 +3130,13 @@
    "src_name": "해외발 충격 (영문)"
   },
   {
-   "title": "Rules-based critical mineral export oversight enhanced - China Daily Global Edition",
-   "core": "Rules-based critical mineral export oversight enhanced - China Daily Global Edition",
+   "title": "Rules-based critical mineral export oversight enhanced - global.chinadaily.com.cn",
+   "core": "Rules-based critical mineral export oversight enhanced",
    "date": "Thu, 13 Aug 2026",
-   "abstract": "Rules-based critical mineral export oversight enhanced&nbsp;&nbsp;China Daily Global Edition",
+   "abstract": "Rules-based critical mineral export oversight enhanced&nbsp;&nbsp;global.chinadaily.com.cn",
    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxONWNOUGt1YnJTZl9VRnNJaDByTjd2NXdJemdyS1JUT1Q0bG8yX1RpcUhnejJVdmJjSlZxUEdoeTlOblZJY3NPQlVfejlBbHptRUF4TkUtV0s2RGNJaTBKOTJwV2k3OHlDelVqQ2tkRy1pMzN2NnpjbENHTDRnbnVodnB3?oc=5",
    "official": false,
-   "org": "China Daily Global Edition",
+   "org": "global.chinadaily.com.cn",
    "kinds": [
     "정책"
    ],

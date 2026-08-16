@@ -1,0 +1,14 @@
+{
+ "last_date": "2026-08-16",
+ "month": "2026-08",
+ "count": 1,
+ "runs": [
+  {
+   "at": "2026-08-16 18:58",
+   "usage": {
+    "input_tokens": 224165,
+    "output_tokens": 10185
+   }
+  }
+ ]
+}

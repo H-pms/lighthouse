@@ -582,6 +582,133 @@ SOURCES = [
     ("CALENDAR", "예정 일정",                    fetch_calendar),
 ]
 
+# ══════════ 사안 추적 (연쇄의 어느 지점인지) ══════════
+STAGE = [
+    ("논의",   ["검토", "논의", "추진 방침", "구상", "협의", "의견 수렴", "연구", "타당성",
+               "대책회의", "간담회", "점검회의", "착수", "추진키로",
+               "proposed", "considering", "review"]),
+    ("예고",   ["입법예고", "행정예고", "규칙안", "초안", "공청회", "의견제출", "발의",
+               "proposed rule", "nprm", "comment period"]),
+    ("확정",   ["의결", "통과", "확정", "제정", "개정 공포", "final rule", "adopted", "approved"]),
+    ("시행",   ["시행", "발효", "적용 개시", "부과", "effective", "in effect", "imposed"]),
+    ("계약",   ["계약", "수주", "협약", "체결", "발주", "낙찰", "mou", "agreement", "contract"]),
+    ("착공",   ["착공", "기공", "공사 개시", "설비투자", "증설 결정", "groundbreaking"]),
+    ("가동",   ["준공", "가동", "양산", "상업생산", "출하", "완공", "operational", "production"]),
+]
+
+# 강한 표지 — 이게 있으면 그 단계로 확정 (다른 단어에 밀리지 않음)
+STAGE_STRONG = {
+    "예고": ["입법예고", "행정예고", "공청회", "의견제출", "발의", "규칙안", "초안", "proposed rule"],
+    "확정": ["의결", "가결", "공포", "final rule", "확정안"],
+    "시행": ["부터 시행", "발효", "시행일", "부과 개시", "effective date", "in effect"],
+    "계약": ["계약 체결", "수주", "낙찰", "발주"],
+    "착공": ["착공", "기공식"],
+    "가동": ["준공", "양산", "상업생산", "가동 개시"],
+}
+
+def stage_of(text):
+    t = (text or "").lower()
+    for name, kws in STAGE_STRONG.items():      # 강한 표지 우선
+        if any(k in t for k in kws):
+            return name
+    hits = []
+    for name, kws in STAGE:
+        if any(k in t for k in kws):
+            hits.append(name)
+    return hits[-1] if hits else None
+
+def _kw(t):
+    """사안 식별용 핵심어 (2글자 이상 명사성 토큰)"""
+    stop = set("관련 대한 위한 통한 지원 정부 발표 계획 방안 대책 추진 확대 강화 개선 검토 "
+               "the and for with from that this will has have been are was".split())
+    return {w for w in re.findall(r"[가-힣A-Za-z]{2,}", (t or "").lower()) if w not in stop}
+
+def track_issues(items, days=28):
+    """최근 보관 자료를 훑어 같은 사안의 이력·단계 이동을 붙인다"""
+    hist = []
+    base = TODAY.date()
+    for back in range(1, days + 1):
+        d = (TODAY - timedelta(days=back)).strftime("%Y-%m-%d")
+        p = f"data/raw_{d}.json"
+        if not os.path.exists(p):
+            continue
+        try:
+            j = json.load(open(p, encoding="utf-8"))
+            for x in j.get("items", []):
+                hist.append({"d": d, "core": x.get("core", ""), "sec": (x.get("sectors") or [None])[0],
+                             "stage": x.get("stage") or stage_of(x.get("core", "") + " " + (x.get("abstract") or ""))})
+        except Exception:
+            pass
+
+    for x in items:
+        blob = x.get("core", "") + " " + (x.get("abstract") or "")
+        x["stage"] = stage_of(blob)
+        kw = _kw(x.get("core", ""))
+        if len(kw) < 2:
+            continue
+        rel = []
+        for h in hist:
+            hw = _kw(h["core"])
+            if not hw:
+                continue
+            inter = kw & hw
+            if len(inter) >= 2 and len(inter) / min(len(kw), len(hw)) >= 0.35:
+                rel.append(h)
+        if not rel:
+            continue
+        rel.sort(key=lambda r: r["d"])
+        first = rel[0]["d"]
+        try:
+            weeks = max(1, round((base - datetime.fromisoformat(first).date()).days / 7))
+        except Exception:
+            weeks = None
+        stages = [r["stage"] for r in rel if r["stage"]]
+        moved = None
+        if stages and x["stage"] and stages[0] != x["stage"]:
+            moved = f"{stages[0]}→{x['stage']}"
+        x["track"] = {"first": first, "count": len(rel) + 1,
+                      "weeks": weeks, "moved": moved,
+                      "prev_stages": list(dict.fromkeys(stages))[-3:]}
+    return items
+
+# ══════════ 산업 단계 요약 (앞파도의 움직임) ══════════
+def sector_motion(items, days=28):
+    """산업별로 이번 주 vs 지난 주 건수·단계 분포의 변화"""
+    now = {}
+    for x in items:
+        for s in (x.get("sectors") or []):
+            d = now.setdefault(s, {"n": 0, "stages": {}})
+            d["n"] += 1
+            st = x.get("stage")
+            if st:
+                d["stages"][st] = d["stages"].get(st, 0) + 1
+    prev = {}
+    for back in range(7, 15):      # 지난 주 구간
+        d = (TODAY - timedelta(days=back)).strftime("%Y-%m-%d")
+        p = f"data/raw_{d}.json"
+        if not os.path.exists(p):
+            continue
+        try:
+            j = json.load(open(p, encoding="utf-8"))
+            for x in j.get("items", []):
+                for s in (x.get("sectors") or []):
+                    e = prev.setdefault(s, {"n": 0, "stages": {}})
+                    e["n"] += 1
+                    st = x.get("stage") or stage_of(x.get("core", ""))
+                    if st:
+                        e["stages"][st] = e["stages"].get(st, 0) + 1
+        except Exception:
+            pass
+    out = []
+    for s, d in sorted(now.items(), key=lambda kv: -kv[1]["n"]):
+        p = prev.get(s, {"n": 0, "stages": {}})
+        chg = None
+        if p["n"]:
+            chg = (d["n"] - p["n"]) / p["n"]
+        out.append({"sector": s, "now": d["n"], "prev": p["n"], "chg": chg,
+                    "stages_now": d["stages"], "stages_prev": p["stages"]})
+    return out[:14]
+
 def dedup(items):
     """같은 공시·같은 기사 중복 제거 (링크 기준, 뒤에 온 것은 버림)"""
     seen, out = set(), []
@@ -613,12 +740,17 @@ def main():
             print(f"[FAIL] {name}: {msg}")
     before = len(items)
     items = dedup(items)
+    items = track_issues(items)
+    motion = sector_motion(items)
+    tracked = len([x for x in items if x.get("track")])
+    print(f"사안 추적: {tracked}건에 이력 연결 / 산업 움직임 {len(motion)}개")
     for i, x in enumerate(items, 1):
         x["id"] = i
     if before != len(items):
         print(f"중복 제거: {before} → {len(items)}건")
     data = {"generated": TODAY.strftime("%Y-%m-%d %H:%M"), "date": TODAY.strftime("%Y-%m-%d"),
             "sources": sources, "errors": errors, "watchlist": load_watchlist(), "items": items,
+            "motion": motion,
             "coverage": "공시·정책 원문 우선. 개별 기업 주가·잡담 기사는 제외. 여기 없는 정보는 존재할 수 있음."}
     os.makedirs("data", exist_ok=True)
     for p in (f"data/raw_{data['date']}.json", "data/latest.json"):

@@ -1,64 +1,56 @@
-> 생성 2026-08-16 06:58 KST · 모델 Gemini(gemini-3.7-flash-video-understanding-eap·사고) · 재료 105건
-> 토큰 입력 14,531 · 출력 3,287 · 사고 7,263 · 무료 · 이번 달 8/40회
+> 생성 2026-08-16 23:54 KST · 모델 Gemini(gemini-3.6-flash·사고) · 재료 86건
+> 토큰 입력 14,197 · 출력 1,616 · 사고 3,645 · 무료 · 이번 달 9/40회
 
 # 오늘의 보고
+
 ## 한 줄 요약
-정부가 7대 미래성장동력(SEED)에 소형모듈원자로(SMR)와 기가와트(GW)급 전압형 초고압직류송전(HVDC)을 포함해 육성하기로 발표한 가운데 [59][60], 한중엔시에스의 800억원 규모 전환사채 발행 [44]과 삼천리자전거의 120.4억원 규모 자사주 공개매수 취득 [11]이 공시되었다.
+미국의 드론 수출 규제 완화로 방산·무인기 공급망 확대가 기대되는 가운데, 국내 전력장비·ESS 부품 기업들은 냉각 설비 증설을 위한 대규모 자금 조달에 나섰습니다.
+
+## 🌊 오늘의 사슬 (핵심)
+
+### [미국 BIS, 무인 항공기(드론) 및 관련 부품 수출 통제 완화]
+**무슨 일** — 미국 산업안보국(BIS)이 수출행정규정(EAR)을 개정하여 특정 무인 항공기(UAV/드론) 및 관련 부품, 소프트웨어, 기술에 대한 수출 통제를 완화함(돌풍 허용 오차 매개변수 제거 및 NAT 임계값 상향) [63].
+**단계** — 확정 (연방관보 게재 및 규제 개정 완료)
+**사슬**
+  1차 → 미국산 및 규제 대상 드론 관련 부품·기술의 해외 수출 허가 절차 및 기술 기준 요건이 완화되어 거래 절차가 단순화됨 [63].
+  2차 → 방산 및 민수용 드론 제작사의 부품 수급이 원활해지고, 글로벌 무인기 공급망 참가 기업(센서·통신·소프트웨어 부품사)의 수주 기회가 확대됨(수혜). 반면 기술 격차가 적은 후발 드론 제조사들의 가격 및 기술 경쟁 부담 가중(피해) [짐작].
+  3차 → [짐작] 미국 중심 우방국의 AI·무인 방산 체계 결속이 강화되며, AI 드론 및 무인기 관련 방산 수출 시장 개편이 가속화됨 [54], [83].
+**시점** — 규제 개정 즉시 효력 발생, 실무 공급망 계약 및 수출 실적 반영은 3~6개월 내 진행 추정 [63].
+**검증 지점** — 미국 및 국내 방산/드론 기업들의 분기별 해외 부품 조달 공시, 무인기 관련 신규 수출 계약 공시.
+
+### [한중엔시에스, ESS·배터리 냉각 설비 투자를 위한 800억 원 CB 발행]
+**무슨 일** — 한중엔시에스(전기장비 / 코스닥 / 1995년 설립, ESS 및 2차전지 냉각 모듈·부품 제조)가 시설자금 및 운영자금 조달을 위해 800억 원 규모의 무보증 사모 전환사채(CB) 발행을 결정함 [41], [44].
+**단계** — 확정 (이사회 결의 및 발행 결정 공시)
+**사슬**
+  1차 → 한중엔시에스가 800억 원의 대규모 자금을 확보하여 ESS 수냉식 냉각 시스템 및 배터리 부품 생산 설비 확충 기반을 마련함 [44].
+  2차 → 전력망 및 데이터센터용 ESS 수요 증가에 대응한 생산 능력이 확대되어 향후 글로벌 배터리·전력망 업체향 수주 경쟁력이 높아짐(수혜). 다만 향후 주식 전환 시 오버행(잠재적 매도 물량)으로 인한 기존 주주가치 희석 우려(피해) [짐작].
+  3차 → [짐작] AI 데이터센터 전력 소비 급증에 따른 ESS 및 액침/수냉식 전력 냉각 부품 공급망 선점 효과 발생.
+**시점** — 사채 납입 완료 및 시설 투자 집행이 이루어지는 2026년 하반기~2027년 초 실물 반영 추정 [44].
+**검증 지점** — 한중엔시에스의 시설투자(CAPEX) 집행 공시, 향후 ESS/전력망 관련 신규 수주 공시.
 
 ## ⭐ 감시 대상
-- **원전·SMR / 전력망**: 정부가 미래성장동력인 '7대 SEED' 육성 대상에 소형모듈원자로(SMR)와 기가와트(GW)급 전압형 초고압직류송전(HVDC) 기술을 포함하여 선정을 추진하고 있다 [59][60]. 10~20년 뒤 미래 먹거리를 선점하기 위한 중장기 전략으로 양자, 우주 등도 함께 거론되었으나, 전체 7대 세부 목록의 나머지 항목과 구체적인 배정 예산 숫자는 재료에 명시되지 않았다 [59][60]. 이는 장기 전력망 인프라와 차세대 원전 공급망에 대한 정책 지원 기조를 재확인하는 요인이다 [59][60].
-- **반도체**: 어보브반도체(마이크로컨트롤러유닛 등 비메모리 반도체 제조 / 코스닥 상장)는 임직원 성과보상을 목적으로 자기주식 보통주 61,150주(처분 단가 7,346원, 총 449,207,900원)를 한국투자증권을 통해 장외 처분하기로 결정했다 [1]. 한편 7월 한국 제조업 수출이 62.8% 폭증한 가운데 반도체와 선박, 기계가 견인하며 제조업 가동률이 74.9%를 돌파한 것으로 보도되었다 [54].
-- **방산**: 한국수출입은행이 K-방산 및 인공지능(AI) 벤처기업을 육성하기 위해 기관 설립 후 처음으로 벤처투자조합 출자에 나섰다 [61]. 또한 미국 상무부 산업안보국(BIS)이 수출행정규정(EAR)을 개정하여 무인 항공기(UAV·드론) 및 관련 부품·기술에 대한 수출 통제를 완화함에 따라 글로벌 방산·드론 공급망 규제 환경에 변화가 생겼다 [70].
-- **전기차·2차전지**: 한중엔시에스(ESS 부품 및 전기장비 제조 / 코스닥 상장)가 시설자금, 운영자금 200억원, 타법인 증권 취득자금 조달을 위해 800억원 규모의 제2회 사모 전환사채(채권형 신종자본증권) 발행을 결정했다 [44].
+- **한중엔시에스**: ESS/2차전지 수냉식 냉각 부품 제조사로 800억 원 CB 발행을 통한 설비 증설 집행 여부 [41], [44].
+- **비나텍**: 전력 저장 및 백업 전원용 슈퍼커패시터 제조사로 220억 원 CB 발행을 통한 시설자금 조달 [33].
 
-## 주목할 공시
-**한중엔시에스 (전기장비 제조업 / 코스닥) — 전환사채권발행결정**
-한중엔시에스는 시설자금, 운영자금 20,000,000,000원, 타법인 증권 취득자금 조달을 위해 80,000,000,000원 규모의 제2회차 무기명식 무보증 사모 전환사채(채권형 신종자본증권) 발행을 결정했다 [44]. 정관상 잔여 발행한도는 85,000,000,000원이며 삼성증권 등이 인수자로 참여한다 [41][44]. 800억원 규모의 대규모 자금 유입으로 사업 확장이 가속화될 수 있으나 향후 전환 시 잠재적 주식 희석 물량이 크다 [41][44].
+## 📋 그 외 공시
+- **비나텍(전기장비 / 코스닥 / 1999년 설립)**: 슈퍼커패시터 및 수소연료전지 부품 생산 시설 확충을 위해 220억 원 규모의 사모 전환사채(CB) 발행 결정 [33].
+- **정부 비축유 저장고 증설**: 정부가 에너지 안보 강화를 위해 수천만 배럴 규모의 비축유 저장고 추가 증설을 추진함 [80].
+- **미국 FDA 의료기기 규제 제안**: 미국 식품의약국(FDA)이 안전성과 유효성이 확보된 의료기기 부속품을 클래스 I(일반규제)로 분류하는 제안 목록 발표 [56].
 
-**비나텍 (슈퍼커패시터 등 전기장비 제조업 / 코스닥) — 전환사채권발행결정**
-비나텍은 시설자금 22,000,000,000원 전액 조달을 목적으로 제4회차 사모 전환사채 220억원을 발행하기로 결정했다 [33]. 표면이자율은 0.0%이며 정관상 잔여 발행한도는 439,000,000,000원이다 [33]. 무이자 조건의 220억원 시설 투자 자금을 확보하여 생산능력 확충에 나서는 구조다 [33].
+## 📈 산업 움직임
+- **금융/증권**: 지난주 대비 공시 건수가 급증(0건 → 29건)했으며, 자사주 취득 신탁계약 해지 및 체결 등 자사주 관련 재무 조율 단계(계약 6건)가 집중됨 [4], [5], [7], [13], [14], [16].
+- **건설/부동산**: 정부의 8·13 주택 공급 대책 발표 이후 정책 시행 및 시장 반응 관련 보도가 증가함(0건 → 7건) [64], [74], [76].
+- **바이오/의료**: 미국 FDA의 농약 잔류 기준 규정 검토 완료(확정 1건) 및 의료기기 부속품 분류 개정 제안 등 정책 단계 이동이 관측됨 [56], [57].
 
-**삼천리자전거 (자전거 및 운송장비 도매업 / 코스닥) — 자기주식취득결정**
-삼천리자전거는 주가 안정 및 주주가치 제고를 목적으로 보통주 2,408,000주를 총 12,040,000,000원에 공개매수 방식으로 취득하기로 결정했다 [11]. 위탁투자중개업자는 한국투자증권이며 기존 보유 자기주식은 392,000주(지분율 2.95%)다 [11]. 120억원 규모의 대규모 공개매수로 유통주식수 축소 효과가 발생한다 [11].
+## 📅 다가올 것
+- **9월 말 ~ 10월 초**: 정부의 수도권 신규택지 공개 예정 [78].
+- **2026-10-28**: 미국 연방공개시장위원회(FOMC) 기준금리 결정 회의 [86].
 
-**HL홀딩스 (지주사업 및 자동차 부품 유통업 / 유가증권) — 자기주식취득신탁계약해지결정 및 계약변경**
-HL홀딩스는 자기주식 소각을 목적으로 NH투자증권과 체결한 10,000,000,000원 규모의 자기주식취득 신탁계약 중 5,145,200,500원을 중도 해지하고 계약금액을 4,854,799,500원으로 축소 정정했다 [5][7]. 이에 따라 신탁 취득예정주식 수도 당초 220,022주에서 121,218주로 조정되었다 [7]. 신탁 자금을 해지해 실질적인 소각 절차에 돌입하는 주주환원 조치다 [5][7].
+## ❓ 모른다
+- **미국 드론 통제 완화에 따른 국내 방산 기업 수혜 폭**: 미국 BIS의 드론 수출 통제 완화가 한국 드론/방산 기업의 핵심 부품 조달 허가 속도를 얼마나 단축시킬지는 각 품목별 세부 판정 가이드라인을 더 확인해야 함 [63].
+- **한중엔시에스 CB 조달 자금의 세부 납품처**: 800억 원 중 시설자금이 특정 완성체 배터리 업체나 데이터센터용 ESS 전용 라인에 어떤 비율로 투입되는지는 공시 내용에 명시되어 있지 않음 [44].
 
-**아이큐어 (패치제 등 약물전달체 의약품·화학 제조업 / 코스닥) — 유상증자결정(기재정정)**
-아이큐어는 발행 신주 수를 기존 20,502,902주에서 24,177,949주로 확대 정정했다 [31]. 자금 조달 목적은 시설자금 2,000,000,000원, 운영자금 16,200,000,668원, 채무상환자금 3,000,000,000원이다 [31]. 조달 총액이 확대되었으나 대규모 신주 추가 발행으로 지분 희석 부담이 가중된다 [31].
-
-**아센디오 (영화·콘텐츠 제작 등 영상음악업 / 유가증권) — 유상증자결정**
-아센디오는 운영자금 9,999,998,580원을 마련하기 위해 보통주 2,890,173주(발행가액 3,460원, 기준주가 3,844원)의 유상증자를 결정했다 [26]. 증자 전 발행주식총수는 7,296,721주다 [26]. 기존 주식수 대비 약 39.6%에 달하는 대규모 신주가 발행되어 주주가치 희석이 수반된다 [26].
-
-**풍원정밀 (금속 박막 가공 및 전자부품 제조업 / 코스닥) — 유상증자결정**
-풍원정밀은 운영자금 999,998,800원과 채무상환자금 2,000,000,000원을 조달하기 위해 보통주 785,340주(발행가액 3,820원)를 유상증자하기로 결정했다 [32]. 증자 전 발행주식총수는 22,779,670주다 [32]. 차입금 상환을 통해 재무구조를 개선하려는 목적이다 [32].
-
-**SHD (표면처리강판 등 1차금속 제조업 / 유가증권) — 자기주식취득결정**
-SHD는 주주가치 제고를 목적으로 보통주 285,307주를 2,000,000,000원에 유가증권시장 장내 매수를 통해 취득하기로 결정했다 [8]. 위탁투자중개업자는 신한투자증권이다 [8]. 20억원 규모의 자사주 매입으로 유통주식을 흡수한다 [8].
-
-**코아스 (사무용 가구 제조업 / 유가증권) — 자기사채 만기전 취득**
-코아스는 사채권자의 조기상환 청구로 인해 제7회 CB 90,000,000원, 제5회 CB 150,000,000원, 제4회 BW 8,296,447원 등 총 248,296,447원 규모의 메자닌 채권을 자기자금으로 장외 매수해 취득했다 [28][29][30]. 조기상환에 따른 단기 현금 유출이나 잔여 사채 권면이 줄어들어 잠재 희석 물량이 소폭 감소한다 [28][29][30].
-
-**핌스 (OLED 메탈마스크 등 전자부품 제조업 / 코스닥) — 자기주식취득결정**
-핌스는 주가 안정 및 소각을 통한 주주가치 제고를 목적으로 보통주 226,758주(취득예정금액 200,000,556원)를 코스닥 장내매수로 직접 취득하기로 결정했다 [17]. 전량 소각 목적이 명시되어 발행주식수가 영구 축소된다 [17].
-
-## 정책·환경 변화
-- **미국 산업안보국(BIS), 드론 수출통제 기준 완화**: 미국 BIS는 수출행정규정(EAR)을 개정하여 특정 무인 항공기(UAV·드론) 및 관련 부품·소프트웨어·기술에 대한 수출 통제를 완화했다 [70]. EAR 통제 기준 매개변수에서 '돌풍 허용 오차'를 제거하고 기준 임계값을 상향했다 [70]. 무인기 및 방산 부품 공급망 기업의 미국 내 수출 규제 장벽이 낮아진다 [70].
-- **한국 정부, 7대 미래성장동력(SEED) 선정 육성**: 정부는 10~20년 뒤 미래 먹거리 선점을 위해 소형모듈원자로(SMR), 기가와트(GW)급 전압형 초고압직류송전(HVDC), 양자, 우주 등 7대 미래성장동력 육성 방침을 발표했다 [59][60]. (전체 7개 항목 중 나머지 목록과 예산 배정액은 재료에 미기재) [59][60]. 차세대 원전 및 초고압 송전망 장비 산업에 연구개발 및 정책 지원이 연결된다 [59][60].
-- **한국수출입은행, 방산·AI 전용 벤처투자조합 첫 출자**: 한국수출입은행이 K-방산과 AI 분야 혁신 벤처기업 육성을 위해 기관 설립 후 처음으로 벤처투자조합 출자에 나섰다 [61]. (구체적인 펀드 결성 총액은 재료에 미기재) [61]. 방산 및 AI 중소·벤처기업의 민간 자금 유치가 원활해질 전망이다 [61].
-- **미국 FDA, 클래스 I 의료기기 부속품 분류 목록 제안**: 미국 식품의약국(FDA)은 2017년 FDA 재승인법(FDARA)에 따라 일반 규제만으로 안전성·유효성이 확보되는 의료기기 부속품(액세서리)을 '클래스 I(Class I)'으로 분류하는 목록을 공지하고 의견 수렴에 착수했다 [63]. 의료기기 제조사의 미국 인허가 절차가 간소화되는 환경 변화다 [63].
-
-## 내일 이후 주시할 것
-- **미국 연방공개시장위원회(FOMC) 기준금리 결정**: 2026년 10월 28일 미국 기준금리 결정 회의가 예정되어 있다 [105].
-- **한국 정부 청년 고용대책 발표**: 정부가 이달 중 청년 일자리 및 고용 대책을 발표할 예정이다 [71].
-
-## 모른다
-- 정부가 선정한 '7대 미래성장동력(SEED)' 중 SMR, GW급 전압형 HVDC, 양자, 우주 외에 나머지 3개 분야가 구체적으로 무엇인지, 각 기술별 정부 예산 배정 규모가 얼마인지는 재료에 없어 알 수 없다 (정부 세부 공표 자료 확인 필요) [59][60].
-- 한중엔시에스가 공시한 800억원 전환사채 중 시설자금으로 배정된 세부 금액과 투자 대상 공장 내역은 재료상 텍스트가 누락되어 알 수 없다 (공시 원문 세부내역 확인 필요) [44].
-- 한국수출입은행이 출자하는 방산·AI 벤처펀드의 총 조성 규모 및 수은의 출자 확정 금액은 재료에 나와 있지 않다 [61].
-
----
-그물 범위: 원천 국내 공시 (DART 원문), 미국 정책 (연방관보 원문), 한국 정책 (부처 발표), 한국 산업·공급망, 해외발 충격 (영문), 예정 일정 · 2026-08-16 기준. 여기 없는 정보는 존재할 수 있음.
+말미: 그물 범위: 국내 공시 (DART 원문) · 미국 연방관보 · 한국 부처 발표 · 2026-08-16. 여기 없는 정보는 존재할 수 있음.
 
 ---
 <details><summary>근거 자료 원문 링크</summary>
@@ -116,57 +108,38 @@ SHD는 주주가치 제고를 목적으로 보통주 285,307주를 2,000,000,000
 [51] [다보링크 [기재정정]주요사항보고서(유상증자결정)](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260813001180)
 [52] [다보링크 [기재정정]주요사항보고서(유상증자결정)](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260813001160)
 [53] [젬백스 [기재정정]주요사항보고서(유상증자결정)](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260812000890)
-[54] [7월 수출 62.8% 폭증 '반도체·선박·기계 선봉'… 제조업 가동률 74.9% 돌파](https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1CMU8xaGRJRkc3ckEyNV90VkxnVkFtdWVxR05TSDI2bFBNZ3BvWlhzcV9JM2ZmQXpXNTFqUlNGN01HRW5rNDN0X0lzdGRQcVl5emg5NUJtV3RTSE42SnItZi04LUhXUXc?oc=5)
-[55] [[특집/ 향후 10년 한국의 수출을 이끌 차세대 산업 시리즈 No.3 방산] "K9에서 KF-21·AI 드론까지"…K-방산, ](https://news.google.com/rss/articles/CBMibkFVX3lxTE8tbjdlVWQzcXotS1YwbzVad2h0S3V6Sm1IVXVTc1Y1cVJVR1h5OXZiWVB0eG0tMnNfWDR4QVVGVlQ0NGx6R3ptZFMyZ3ZxTVZQSzV5MHlvb2Z4WVp5eThEQlRZcmQ2Vm5OT0RET3R3?oc=5)
-[56] [울산 조선기자재 15개사 인도·말레이시아로…수출시장 다변화](https://news.google.com/rss/articles/CBMia0FVX3lxTE5OeGxHeXAtWXNOTVRtNjc4Y0JyOE9xMVpNWldIeXd5MTlvc0c0dXhuNjdaVXlEMHJOcE5mUk1fdWxSdlBXdU5xcS1VeW5IRmJMckFBQ010S2s3NHVZTDZuVVhpdVVlbHB4MTVF?oc=5)
-[57] [[분석] 반도체 뒤에서 조용히 벌었다…새 수출 효자산업으로 부상한 'K](https://news.google.com/rss/articles/CBMibkFVX3lxTE9JQXA0MDBtalpuek92QkUwZ1ZIS21WVXpMaDRBVW8xUHpCWlkzb1luVDNNenFnWW1uMjd1LXlzVkZqTEFRcExwX2JnODhMZUFKX214MzNFcnpyV0xuNjJadTdEOEtoY3J1SEUwbnNn0gFyQVVfeXFMUEF0ZGZHZkVlNllKNTRkSkpDSmNpdU9CZGJNUkdscVRjWG40ejlXWG9FLVFOTzA4RVJPMXZZUDZLSzBTVmJ4Ums1cTd3ejJUYklqWGZKanZMb0g1T3ZTMlhHQnA0U1JjWGhzSHA3ZDQ5NkJB?oc=5)
-[58] [[이호근의 모빌리티인사이트] ‘친환경차 시대’ 韓 배터리 산업에 필요한 것은 시간](https://news.google.com/rss/articles/CBMicEFVX3lxTE9EVmNxRm1CbUk3NFprcWVwX19KLXVCT052UXlsRElVSVlWUi1WeWI2Wl90VlZjOEFoM3dOaGl2M0Q2UGVndlFWOUZVTDRuVVgyNGNKTnBiTXVwNUJvcTlZYXB3WWoteTkwaUN6cU0wTzLSAXRBVV95cUxQQzhWM2dmZHkzZ0F2YmJpTy1qMXJ1SHFCNkdUTkNGSnllYUdBSmMzWkZfQ0o4eWthVlJUVl9iZUNLRzlDWGozMUNhZHpPdXpqeDdrRHdLdmI4ampxd1EzSHFyMmE5WklfZGpRQU5iUFhpeHVlcQ?oc=5)
-[59] [정부, 미래성장 동력 ‘7대 SEED’에 SMR, GW급 전압형 HVDC 기술 포함](https://news.google.com/rss/articles/CBMiakFVX3lxTE9QMzZwNUhNSnJGNEEzOGs4Q2pSQy1IeDdVcm9EZVQyWHJQQkhJaEdzelZvSWNMVDFaYzd2ekZlelBJdncyU1M0ZldpRlNLb2Y0VU13bWZjb01ac0llYVA0MWliMkJOLU5Dd3c?oc=5)
-[60] [정부, SMR·양자·우주 등 7대 미래성장동력 육성…10~20년 뒤 먹거리 선점](https://news.google.com/rss/articles/CBMib0FVX3lxTFBDT0p0cE9DMHFRbjdTTE9XYkdTbVVQQVNHbElwdG9mQTI0WHBacDBJaHpzX09nUmlIWHVoUU5kSm9OcFV0VmRwWXNycjBVMUlvZWxXY1o0aGItNGRRc3dja3JQbVdzajFTckhLMG9fSQ?oc=5)
-[61] ["K방산·AI 벤처 키운다"...한국수출입은행, 설립 후 첫 벤처투자조합 투자 나선다](https://news.google.com/rss/articles/CBMia0FVX3lxTE4zOW92cWs2STc3dHpTS0d5a1FIYldZUmUxREJ6TXdEZVJNaXFYd1JISWo0aUN6QzhjYmVwR2E1ajh1UE9UYTA4OVdsc1g0NHpKTnlCekM3U3lWQnJwLWhhZ09MTllMc3F6S1lJ?oc=5)
-[62] [안전지대; 폭스 리버, 위스콘신주 그린베이](https://www.federalregister.gov/documents/2026/08/17/2026-16757/safety-zone-fox-river-green-bay-wi)
-[63] [의료기기; 다른 장치와 구별되는 액세서리 분류; 클래스 I에 적합한 액세서리 제안 목록; 의견 요청](https://www.federalregister.gov/documents/2026/08/17/2026-16729/medical-devices-classification-of-accessories-distinct-from-other-devices-proposed-list-of)
-[64] [다양한 상품에 함유된 농약 잔류물에 대해 제기된 농약 청원서 접수 - 2026년 5월](https://www.federalregister.gov/documents/2026/08/17/2026-16724/receipt-of-pesticide-petitions-filed-for-residues-of-pesticide-chemicals-in-or-on-various)
-[65] [수출통제 규제 관련 국가비상사태 지속](https://www.federalregister.gov/documents/2026/08/14/2026-16748/continuation-of-the-national-emergency-with-respect-to-export-control-regulations)
-[66] [감항성 지침; Gulfstream Aerospace LP(이스라엘 항공기 산업(Israel Aircraft Industries](https://www.federalregister.gov/documents/2026/08/14/2026-16659/airworthiness-directives-gulfstream-aerospace-lp-type-certificate-previously-held-by-israel-aircraft)
-[67] [안전지대; West Passage Narragansett Bay, 내러갠셋, RI](https://www.federalregister.gov/documents/2026/08/14/2026-16645/safety-zone-west-passage-narragansett-bay-narragansett-ri)
-[68] [안전지대; 세인트클레어 강; 미시간주 포트휴런](https://www.federalregister.gov/documents/2026/08/14/2026-16644/safety-zone-st-clair-river-port-huron-mi)
-[69] [안전지대; 대서양, 쿨레브라, 푸에르토리코](https://www.federalregister.gov/documents/2026/08/14/2026-16643/safety-zone-atlantic-ocean-culebra-puerto-rico)
-[70] [드론 수출에 대한 수출 통제 간소화](https://www.federalregister.gov/documents/2026/08/14/2026-16628/streamlining-export-controls-for-drone-exports)
-[71] [[경제]사라지는 청년 일자리...정부, 이달 내 고용대책 발표](https://news.google.com/rss/articles/CBMib0FVX3lxTE5pNWlMcHMyWExMU1lRWW96ckNHZG5IN3JBTlBBcGhpclRUcExxLUNmRlN5VS1CR0VFUzVHX0tETXVDcDV6czlCWTB6T1RGdDM2YXJ1RzhXSkxydXduVzJ2LWJic1o2bW9rQVlkRWhaQQ?oc=5)
-[72] [그린벨트 풀어 10만 가구 공급…강남·용산 빠진 대책 실효성은](https://news.google.com/rss/articles/CBMiYEFVX3lxTE9CckVvNzJ3V2dyelRVc3VjdzhXTWE3eFdaV0ZmVEVtY01LRVc2d0JPT25CRl85UHViaXlaQVp6MzdUR2RKR2R0aU5pczJ5ekZKSVJNMkJrVVpYOWk5OS0yTdIBeEFVX3lxTFBkUVhaTWYtS0ctS0hNMzdsVE5rQlFiSXZOR09XY0xQNDZTdnV2TFVZSVB5UkhiU2RNaHpKeWI4dFVyVzZKQ2xwajZiRzNqamtHX3ZrQldRTEN2amJwU09aUjhGa3ZwdnpvN1p3dVFtcld0TVFfbjlKVA?oc=5)
-[73] [국힘, '정부 세제개편안·공급 대책'에 쌍끌이 부동산 공세](https://news.google.com/rss/articles/CBMiRkFVX3lxTE41R3RoRjZwVzZlREtneENPMGU3OHpFRTVxS1NIRldaTjdabnI5c0JGNlhxdTBuWFZLWlhGbF84MFI5ZldwRGc?oc=5)
-[74] [정부 세제 개편안에 싸늘한 여론...45% "부동산 시장에 부정적"](https://news.google.com/rss/articles/CBMiYEFVX3lxTFBUMElHMlZmU2FiT0NaOTJvUkNpMXRqbl9zbXp0OXh6M1dRVUlYeXZhSnJoX3hQN0NNamlvUlRlX2h6YXNyYmtDdWUzRy1ZXzNYclJ2Ql81VDcyWTJfVEd3NQ?oc=5)
-[75] [국힘, '정부 세제개편안·공급 대책'에 쌍끌이 부동산 공세](https://news.google.com/rss/articles/CBMiYEFVX3lxTE5UcFZvZzZ2SEVaeXV0Sm9lUHgzcHUtNExDakRfdjNOa2Fwd1N0X1RUNkMxMk9DRi0yTThxVTExaUxQcHJ3SWNKOU5TQXBGZ084S2lZek5uWlBYMkdlM2lhbNIBYEFVX3lxTE5UcFZvZzZ2SEVaeXV0Sm9lUHgzcHUtNExDakRfdjNOa2Fwd1N0X1RUNkMxMk9DRi0yTThxVTExaUxQcHJ3SWNKOU5TQXBGZ084S2lZek5uWlBYMkdlM2lhbA?oc=5)
-[76] [대한건설협회 "정부 주택 공급·금융 대책 환영"](https://news.google.com/rss/articles/CBMiYEFVX3lxTE1xVjlCb2ZhZGNSOEN4ZHQ3ZmJpZG1KeEpad0hMczRvandZV2VMRXBfQXBrS3FrUGx6eGxnWldkRGZzdWFlVXJ4cTA5dHFjMzhRYnN4d2N1Ukk0Q3BjWnliSw?oc=5)
-[77] [김민석 "비거주 1주택자 장특공제 폐지는 증세"… 정부 세제 개편안 사실상 반대](https://news.google.com/rss/articles/CBMihgFBVV95cUxNTjBVc3V3OE5PVEJNOERMaU1NR3ZZb2ptZEpPM1Q0eXVFYnJLSzUwWXJQazdxNnotQzlzTDVQT1l3YWhPVHVqYnZMV2VZWGVoUlVHUEFRX05FVE5US0dGS2lieDlSaGpvY0wtTXRpXzc0b3FOVWNaaDBMT1ZIalhBLUZ4RFM4Zw?oc=5)
-[78] [싱가포르뉴스 싱가포르 정부, 혼인 및 출생률 하락 대응 위해 국가적 대책 본격 가동](https://news.google.com/rss/articles/CBMiWkFVX3lxTE42dDIyUGhUa3BsazdzMnl3d3FnU3VYWVctOTZFUk02ZHl4NUNwOVlZR1A2VERXNnBmaWlvcnB0Z0RwM3hOSHMyZ2xfYVFmbkYyRkNsSTVKbDF0UQ?oc=5)
-[79] [국힘, 부동산 세제개편 맹공…"벌 받는 마음으로 세금 낼 수 없다"](https://news.google.com/rss/articles/CBMicEFVX3lxTE9DSjhoQVk2MGtGVkRkZ2pHTkZ3bEVEUjc4YVI5d0ZQSVU2SFNIaHFRYVc4N0d3dnZhZXIzZ2ViN2JHd0JNLVc5bm1SWWRkcHp6Wm9iUUJ6UHllZFM2RnlSWW1RWjVSdWhibTM5M3d4VDI?oc=5)
-[80] [8·13 부동산 대책...'닥공 속도전' 선언 효과볼까?](https://news.google.com/rss/articles/CBMiXkFVX3lxTE91enVPQm84dFNta0w2TVNoQjZzLTBmU0o3bEV4d0kzd2NjZklkcmowaFV0TXFQTHdUQzB6bWxLd0lXb0R0QUVya3p1N25Ja2hmWmg4Ykt1V0lDb2NNdnc?oc=5)
-[81] [국민 45% “정부 세제 개편안, 부동산 시장에 부정적 영향” [한국갤럽]](https://news.google.com/rss/articles/CBMiT0FVX3lxTFBDOFIxc2NHcUtPMTRCNXc2N3lIdEVxalFMdVhXVjNHUUdwQmV5NndfdHN3LUFGSmRYUTVBV05tLThULXRvcjFnV19Ud1ZXVEk?oc=5)
-[82] [가격 폭락에 창고마다 보리 가득…“정부 수급 대책 시급”](https://news.google.com/rss/articles/CBMiZkFVX3lxTFA2X19nOEZrOEhUTWhfeFRnVFh0Z1FmS21WRi1TQXhRM3BKY3lfM1pDcU5yODduVG5lV21sM1RBZWQtZ1k2RWFlcDVHQy1IODM2ZkQ2dnc3X0lrby1INjUxSGZNaVZiQQ?oc=5)
-[83] [대한건협 “8·13 주택 공급대책 환영…정부 정책 적극 협력”](https://news.google.com/rss/articles/CBMibkFVX3lxTE9sRkpid19zWjhGMnFuQm9KLV9FZlQ3eVlIS3pNVHZTM1FtM1NqMnFNM3hrbmxUQnJRRUFzRHhoQ1NaN2lVVmdvQkNtMjBOcF9oVWVrUDhXMkpBSkI5X181NlhUY2RKZkR4c0dqaGp3?oc=5)
-[84] [대한건설협회 "정부 주택 공급·금융 대책 환영"](https://news.google.com/rss/articles/CBMiVEFVX3lxTE1aNU9wUGx5STV6LXV2eV9EakVxUUtzd2VDZERtZi1hY0NETmdFWEtMRWtUZDhzXzhqOUU1VG9zYmdOMTF0ZFU5ZmhIZDhjNnJteVNQaQ?oc=5)
-[85] [김민석마저…"부동산 세제개편안, 보완 논의 필요"](https://news.google.com/rss/articles/CBMia0FVX3lxTE5HMjJVelR2Q3NNWHZBMXJkSG8xcHlpUzRNbkhrZ2gzejl6TGhabHQ2cmlFMFZDMEdEWjlya3pkSEJqX2VRQkY3emFyRWpJbk43ZlJTS3pGdWd2Y24ycnIxaW9SY25teVBSX2lR?oc=5)
-[86] [민주, 전대 사흘 앞으로…국힘, 부동산·개헌 맹공](https://news.google.com/rss/articles/CBMiYEFVX3lxTFBERUN6LWpGejZSWVBwSmI1eEtrNF80MUFBLW5XTTV5dUp2Y3k1VzFiRm1RZUlSTXJhZXo3Qlo3SmxLdVpYdDJQZ2I3d21tMkJGbndYSmhFaWF5UmwtcjNXZdIBYEFVX3lxTFBERUN6LWpGejZSWVBwSmI1eEtrNF80MUFBLW5XTTV5dUp2Y3k1VzFiRm1RZUlSTXJhZXo3Qlo3SmxLdVpYdDJQZ2I3d21tMkJGbndYSmhFaWF5UmwtcjNXZQ?oc=5)
-[87] [수입과 수출은 연말 마지막 몇 달 동안 성장의 원동력을 제공합니다.](https://news.google.com/rss/articles/CBMijAFBVV95cUxQN0xobkNwYzlTWWtIUDRETHQ2TmhlN2tnYnpOVlZ6aHhSempvTGJsVFJQekVQaTR0em9VR255Y3NTQ3l2d0ZncU1MRzRsc19lXzB0aU91eTdMbFdKdnJCYkprMmthZVlIRzJhVDVkRXJkN01yanFUWnk3YzYwbWlTQUtHZ0NKeFJWR3R1Nw?oc=5)
-[88] [상반기 교역액 6,597억 달러…무역수지 적자 203억 달러 기록](https://news.google.com/rss/articles/CBMicEFVX3lxTE9NZWg5T0N0ZGJjbFpCSF9BekczN0toblYzVGo4VFo3UGZ3TVFxS0hLdEtPMGZnRXBrZ0NVeDM1Qk9rVUNtMkgwODN2RkNoSE1xNGE1aWRfZHFZN0xKd0N0c1VLQ0xrTTVJcnJ5SWRMUUY?oc=5)
-[89] [中 게임 제작비 30% 지원하는데 한국은? 게임업계, “세액공제 더 미룰 수 없다”](https://news.google.com/rss/articles/CBMidkFVX3lxTE1UYnQxSXZISGdaVnVESk0zSkg5cm9RTUVCcXBySjlMVFVaM2ZHV2R3Z2UxQzRvdjVwMTJmRUowVldldjdVQk8wNVZodjhDT2RXWW9ITTdjbVd6WG9BLVZiZDBIMm5RcnRDTVhRNDBMTTZvSWpzc3c?oc=5)
-[90] [한화그룹, KAI 지분 확대…‘독점 우려’보다 산업 경쟁력 따져봐야](https://news.google.com/rss/articles/CBMiZEFVX3lxTE1Ia2Vad1RwTXdmdzdHZFVqakVEeFJTcFdkS3BMM3ExNXRsNHZDeUI0a2QtbXI1SVpJblljbjZ6b1hZdnVxS3hNci1tbVhBWjZyVUhhWllzV0oyZGVXeXJtdU5rbmw?oc=5)
-[91] [월가 은행도 직접 뛰어들었다…'350조' 뭉칫돈 쏟아부은 곳](https://news.google.com/rss/articles/CBMiWkFVX3lxTE04S0ZQQ3BkSlEyQTFZS0tjckNuWEU2LWtsdXN3Yy1UVGFBMTl6YmdoQkIwTWNScGhvd1JXWTJaZmxPb05ZRE40WHFKb3l1eG5lSTVjM3VYdG93QQ?oc=5)
-[92] [미국 7월 고용 2만 3천 건 급감—한국 건설·서비스 현장 비용·계약 리스크 점검 시급](https://news.google.com/rss/articles/CBMiTEFVX3lxTE11Yy0xNGNSVVVWSWl6TWcyV3NqSlRLZXh0cFV0T0NxNXItZFlWMDdrT3ktZUZPekd0T3ltcDctTm1PRXV4Ykd1bU5kVFc?oc=5)
-[93] [꽝응아이성에 위치한 현대 HD 에코비나 공장 시설 개선 및 확장에 1억 1600만 달러가 투자되었습니다.](https://news.google.com/rss/articles/CBMingFBVV95cUxNcTFPNVdxR3dkOHVQcG1HYlV1eTJiSXVkUFk0TjFiRE9hVEgweEFyZkM0NnQ5OW9UTWZRVlpfWW9sTVNrU2JqR20xMHRhSTgxRkp6aFpveGJka045eGIwUVZ6SXp2QW1JRGppeDdxM0tST2ZQSGZFNUFrSUlEb2VsQThxdHZnLU5pUktnckY1dnN3N2RYM0p5YWN4VDZZUQ?oc=5)
-[94] [수출 증대와 무역 적자 해소를 위해 병목 현상을 제거합니다.](https://news.google.com/rss/articles/CBMijwFBVV95cUxNdE9JdEI4UzVRMlB4VDFhVk8tSDgwY2h1MGtBa2hhOUJkUHRuWmUyYnJOOUhRNFZrcmlvYTlnTm1qMFZUTWZfZmlJSkwtcVhRczFQS0htc0hNT1lhOGpnV1p6ZkwxSFgwbWVpcTRiNWgwUHZTaVhjSDNuMGJ2QXhfNGNBUFR1SE1kTGlKVmVTZw?oc=5)
-[95] [박완수 "정부가 과감하게 KAI 투자, 민수 사업으로도 확대"](https://news.google.com/rss/articles/CBMiU0FVX3lxTE1QbGtYcUx2T24tV2ZBd1NLMHhBZFFqZHZiWWl2VUp3YVFvSzNjSkRNYnFzcFVobWdhWHBySndIaFZxSG1RT2ZsNWZ6NkhvVHdQcHN3?oc=5)
-[96] [The exorbitant privilege of the periodic table](https://news.google.com/rss/articles/CBMidEFVX3lxTE9vWERjWnh3cGF0M1h5RmNvZFlKOGFCMEpFbVJscy1ZWmNKZE9FWnM0RV9lQjlVQnZWaWQwaWRLZFJuQ3dyaEVGbndSV3ZsLXh5ZmZVd2cwMzVFRXVsV2ZtcVhfU2pka3hZd3JkUW03R25DQ1VE?oc=5)
-[97] [Trump's critical mineral push: A boon for EVs?](https://news.google.com/rss/articles/CBMiigFBVV95cUxQZUJBVUN1blJaZ0w5NU1qX1JSRk1ONWxjcGJOcWJ1UDYtU2ZDN290MmQxbm1xY2t2VEVialp3Mmh4U3BzOXA3SXJZVVVPb3JZNEo4YzZxNTNLVzk5bEpYXzJneUdKUEs3WU1FalhGci14amVQajVzWEY1d0N0Skpxa0NoSDIxWmtyZWc?oc=5)
-[98] [Exclusive-US to tell partners they must pick sides in AI race with Chi](https://news.google.com/rss/articles/CBMiowFBVV95cUxNQnBNaUtoNzdyMnBNY3VnbVd5N3h3RjBqaWRCZ3Z5bFNqNThUM3pzdFFraDJMNHIweTQ1Vk84ZGRQZDEyRmpVWG9EdDNzQUxQUVdoUmM1bjN3QkltRnBNQVNRbnNuSGI4U08yc1hSQnFtNUdheWk4RDUzYzc2cTA2VFFxRkFPSlVlSTE1YnBPdzNXNF9ucEpfTG85YnFXalpIUWxj?oc=5)
-[99] [America Can't Make Its Own Ammunition Metal. A Nevada Project Just Def](https://news.google.com/rss/articles/CBMi-gFBVV95cUxPZEFIZmk0aE9yUnN1Rl9PN0doX2c4VUxGemZMcWczYnd3ZWVjZVJKdXpMZjcwQ3VjcGlvbVFhNW9yeGQ3d28xLUs3WThOc2MwbmdfVmdhTFNEZnFVU3FCVXV5WUJ5bHdkcmNJZjQ1WHhDS0RVWW9DaUdrSzlXWHJONC0yWWZmYlpraVVta0NMZ2t6Z0lrRDJmVU44clFVM3hYUU5jMEo5T1pPODJfYlZZRDFkTUdVR2twUng0M2hBV1BmMENfNWNRX09XcTFMSFdGSm0xTGc0Q1drbS1nWkhlTXFZM19VbmNNTTZsWlk5VjBpQllCWFVCR0dB?oc=5)
-[100] [European Union Froth Pumps - Market Analysis, Forecast, Size, Trends a](https://news.google.com/rss/articles/CBMiqwFBVV95cUxQUlVhYWZxSkVMR2c1RWtTNXRsWUtnaWdNUTQ0elFmZUhKenM5NEowQ2x5ZHVpQXlIR3RmSF85M09RQURCZU1yUHotSHBkVVpiYkkwbGV4WldQWjRWWlFrQVpGbUVmWmhQQVZnYnM2Mm9LLUtFT3VmNmQ5NTByeU0zU0wzRkV0NzBVRGNFR0JWMy05cGxGTTFLWTdtc1VIYmR0cV94blpHSkFSQTA?oc=5)
-[101] [The Liberal International Order Gives Way to the Unknown](https://news.google.com/rss/articles/CBMimAFBVV95cUxOSlNpYmFKaWtjLUNWaFpNdzFxNnF4QWFmalJ4NDdpUHk1bzRjb3BDb0pxZU14eDc4Qjg5VkxBNlNpQ2xlS2hLRDB5LUFtRkVZSVpPcjJOX3c1MVdrV0tDS3VUdUNxcWZtTi10OEcyQVNBU3pCMUc0SDBUd1EyeTFvNHJPZm1BUGx6bVNETk1lZGVHYWIzSjZ6LQ?oc=5)
-[102] [The structural opportunity behind a volatile year for rare earths](https://news.google.com/rss/articles/CBMisgFBVV95cUxPMVl4NFRtcnh0NE1KUmJxaHBaX0NLMG5FaGRtR0FxTHYwcDQxcXNVRW1Jd2lpUXRhelBDZ1JjQVpUSGtMcmFpSTA2RVlFcnp2NTcxNDRRV0poQkdJT3kxb3dfRXhNRlUtdWhsTVI3b3oxVVRxZGVRMTZUdXg5LW5sSV9laFZ1bFVvTWYxNzhsNEJmZUI4dFJteEZXYnZWeHJ5VDQ3TDZVTl9oWGloNWRKcS1R?oc=5)
-[103] [Africa Battery Material Tracking Systems - Market Analysis, Forecast, ](https://news.google.com/rss/articles/CBMivgFBVV95cUxOc19RT0p3MHlHM2g3SFQwTldpTHpvcXFqZHFnSG5WNVBxSUpsU3p4TWhKbDF4WFg0S1JSWmI4X1B4NjRtbXZXREdCSTZ4Nk9KNEMyZHQyZ2Y1VzBvOE1Eb3RBcHJ0bXJnSnpDTXd4b2hZV2wxTVkySGNMWVA2UkVROWVsaU1jUXFXblBLY2I4Nll2TkRSS1hGWC1SWWxnM0pFYXBnbkVuQUNjaEhRQ2tnVmlHU2hTOTFmaVlTdnpB?oc=5)
-[104] [America found a rare metal it desperately needs. Red tape could keep i](https://news.google.com/rss/articles/CBMi2gFBVV95cUxON2lIQWtYT0pienV4MDN5MVIwQVZlSHlfYVJCVFFYeUQyYm5nUmxtbWJtX0trQlRSbGdiWFo0TmdmdDNqNkRpUWRhX0FwZ1V5eVNjWE5LVXdRWUo1c1VUZkV5Q0UzaU11RE5xbVFTd3pWSGN2a0t4T1ozWmdKWGw5VUxqdmRKWVdYVXl3TGVzdlIyVWoxOHFROFBVaHI1YnhRVlRLSGtlYW1nQ012OWZhcnVQSXVIdnNLWC04NlFRWGFkVzlEMnE5dnQ3VHNPRXF1ZHpRQUFNcGNwZw?oc=5)
-[105] [FOMC 금리 결정 2026-10-28](https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm)
+[54] [[특집/ 향후 10년 한국의 수출을 이끌 차세대 산업 시리즈 No.3 방산] "K9에서 KF-21·AI 드론까지"…K-방산, ](https://news.google.com/rss/articles/CBMibkFVX3lxTE8tbjdlVWQzcXotS1YwbzVad2h0S3V6Sm1IVXVTc1Y1cVJVR1h5OXZiWVB0eG0tMnNfWDR4QVVGVlQ0NGx6R3ptZFMyZ3ZxTVZQSzV5MHlvb2Z4WVp5eThEQlRZcmQ2Vm5OT0RET3R3?oc=5)
+[55] [안전지대; 폭스 리버, 위스콘신주 그린베이](https://www.federalregister.gov/documents/2026/08/17/2026-16757/safety-zone-fox-river-green-bay-wi)
+[56] [의료기기; 다른 장치와 구별되는 액세서리 분류; 클래스 I에 적합한 액세서리 제안 목록; 의견 요청](https://www.federalregister.gov/documents/2026/08/17/2026-16729/medical-devices-classification-of-accessories-distinct-from-other-devices-proposed-list-of)
+[57] [다양한 상품에 함유된 농약 잔류물에 대해 제기된 농약 청원서 접수 - 2026년 5월](https://www.federalregister.gov/documents/2026/08/17/2026-16724/receipt-of-pesticide-petitions-filed-for-residues-of-pesticide-chemicals-in-or-on-various)
+[58] [수출통제 규제 관련 국가비상사태 지속](https://www.federalregister.gov/documents/2026/08/14/2026-16748/continuation-of-the-national-emergency-with-respect-to-export-control-regulations)
+[59] [감항성 지침; Gulfstream Aerospace LP(이스라엘 항공기 산업(Israel Aircraft Industries](https://www.federalregister.gov/documents/2026/08/14/2026-16659/airworthiness-directives-gulfstream-aerospace-lp-type-certificate-previously-held-by-israel-aircraft)
+[60] [안전지대; West Passage Narragansett Bay, 내러갠셋, RI](https://www.federalregister.gov/documents/2026/08/14/2026-16645/safety-zone-west-passage-narragansett-bay-narragansett-ri)
+[61] [안전지대; 세인트클레어 강; 미시간주 포트휴런](https://www.federalregister.gov/documents/2026/08/14/2026-16644/safety-zone-st-clair-river-port-huron-mi)
+[62] [안전지대; 대서양, 쿨레브라, 푸에르토리코](https://www.federalregister.gov/documents/2026/08/14/2026-16643/safety-zone-atlantic-ocean-culebra-puerto-rico)
+[63] [드론 수출에 대한 수출 통제 간소화](https://www.federalregister.gov/documents/2026/08/14/2026-16628/streamlining-export-controls-for-drone-exports)
+[64] ["닥치고 공급" 입법 총공세..野 부동산 대책은](https://news.google.com/rss/articles/CBMiWkFVX3lxTFA2d3hmUEpidkE4MWlNTnpJenoxY0FzVG9NNXdudHpmSm9HOEwxWGhYR29fT3czS0M0OVNnVG1mb0w5MEZBQnFTUXJjcjJvOVJUVVhsM3poV2twdw?oc=5)
+[65] [사라지는 청년 일자리...정부, 이달 내 고용대책 발표](https://news.google.com/rss/articles/CBMiXkFVX3lxTE50ci1vQlBXSHllbGtBMFdCcFF1N0ZRSlZ0NWRoY1c3RkthYndXdFpNQmJBNlpvbUhPWmo0T2V3VE9WcUlNMWFCT184a3N3NE5OdWxSQ04wVVhVZ1AxTnc?oc=5)
+[66] [[김병진의 세상보기]8·13 정부 부동산 대책…‘대구·경북은 없다’](https://news.google.com/rss/articles/CBMiVkFVX3lxTE1CVUdOZlZXbzE4Z1pVQzJycDJxZnZYMFR6Wld5VlVWaXV4eG1yZDNjSFd5VXN0dTNOTVo1bUhFSlo4WDBzUVpMR0pVbFAxYmM4aC1ZWmNR?oc=5)
+[67] [“집값 25%만 내세요”…정부가 수도권 아파트 공급 위해 내놓은 대책](https://news.google.com/rss/articles/CBMiVkFVX3lxTE00N0lMelk0Q0NvN01rMjRBQjdLYkRVM1JzQUZ0Z1JMX19JbzRKaTBvT1pkNzh2NEZ3YmY5Ukt3Z1JXTkIzR0pSWndQRU1meEI4dzRPb09B?oc=5)
+[68] [그린벨트 풀어 10만 가구 공급…강남·용산 빠진 대책 실효성은](https://news.google.com/rss/articles/CBMiYEFVX3lxTE9CckVvNzJ3V2dyelRVc3VjdzhXTWE3eFdaV0ZmVEVtY01LRVc2d0JPT25CRl85UHViaXlaQVp6MzdUR2RKR2R0aU5pczJ5ekZKSVJNMkJrVVpYOWk5OS0yTdIBeEFVX3lxTFBkUVhaTWYtS0ctS0hNMzdsVE5rQlFiSXZOR09XY0xQNDZTdnV2TFVZSVB5UkhiU2RNaHpKeWI4dFVyVzZKQ2xwajZiRzNqamtHX3ZrQldRTEN2amJwU09aUjhGa3ZwdnpvN1p3dVFtcld0TVFfbjlKVA?oc=5)
+[69] [[비즈토크] 집값 안정 겨냥한 공급대책…'다섯 가지 카드' 나왔다](https://news.google.com/rss/articles/CBMiWkFVX3lxTE5QU3o4b1FKcGFEdF9PWDlBT1k0WlhyWFBvQ3VCdzN6ald2MVVaQWlocXBycmdoWU1UbVJkR2VGSU55dE8zTDFIek10S1BJcld5Z05TNjlmeWJRQQ?oc=5)
+[70] [싱가포르뉴스 싱가포르 정부, 혼인 및 출생률 하락 대응 위해 국가적 대책 본격 가동](https://news.google.com/rss/articles/CBMiWkFVX3lxTE42dDIyUGhUa3BsazdzMnl3d3FnU3VYWVctOTZFUk02ZHl4NUNwOVlZR1A2VERXNnBmaWlvcnB0Z0RwM3hOSHMyZ2xfYVFmbkYyRkNsSTVKbDF0UQ?oc=5)
+[71] [석유화학 침체 폭풍 맞은 여수… “정부, 실질적 고용안정 대책 내놓아야”](https://news.google.com/rss/articles/CBMiakFVX3lxTE1rNThscmFYZ1JCdGVKNE9BMkZ0ODAyLUNDZW1pbGFsaHhiSkRQTUdNR1hsbEZDMVhMeWpPWVBfT1o5RUg0RWczbFBDWm1vX3R1T0pKMzEyZWtJQjR6OVAzRm5jeUlzZ250Mmc?oc=5)
+[72] [정부 부동산 정책, 與서도 "폭망" 우려…李 지지율 최저](https://news.google.com/rss/articles/CBMib0FVX3lxTE5sU1M2aTczaW5xSlpNNW83QmVERjlMX3hTaUVNNnJ0SlZ2T0x0RXF0a1plMHBWMjc3ZFkybGhJb3VhMzJWbXhZYWVianU2VkxlbE85YmVfZ1pfeGJkX3h0ZGl6WEtvMm5OZVdmY3ZNWQ?oc=5)
+[73] [정부는 택지, 서울시는 재건축…공급 해법 온도차](https://news.google.com/rss/articles/CBMia0FVX3lxTE9mRXE1MEExalVNWFpoNzhfRHo3dmN6RHktYkJ3SXlaZ0tuM0JzSWpYZHVKU1RIbVo3S2tpMXJ3ZkdYYTBSQkpCY0h4R3gwWlJSZVhqa0I5empKejA5YXNkSFNSSzZweDFBVTh30gFvQVVfeXFMUDltRWMxbTlmY0NpVk9VY0VtRVNiMk9NbWhRbGRRMXU2ZFZjTFdwSVhrVERTdlM3VDREOXFlVTB2Ty1mRmcyMUcya01KY3psRmV6cjJ2djY4VDhtaHAwTEVPamtaWEV3cDZMdUxZeEk4?oc=5)
+[74] [8·13 부동산 대책...'닥공 속도전' 선언 효과볼까?](https://news.google.com/rss/articles/CBMiXkFVX3lxTE91enVPQm84dFNta0w2TVNoQjZzLTBmU0o3bEV4d0kzd2NjZklkcmowaFV0TXFQTHdUQzB6bWxLd0lXb0R0QUVya3p1N25Ja2hmWmg4Ykt1V0lDb2NNdnc?oc=5)
+[75] [정부, 해상풍력발전 '필수전력원' 고수···비싼 요금·안전 대책엔 '글쎄'](https://news.google.com/rss/articles/CBMicEFVX3lxTFB4MUpCTlF2bm9Jc2hrcEkxVm1DSDVDNWRVLXJ3RlQxdVloQ0RDbVBPSWpOYVc2QXhwUlJtUnd5SUhIaF92RlhYNzczUUstd0UzejdVUWQwSHUzV0VNQWlWSDNuR3Bqb2dINXRwSlhQSmU?oc=5)
+[76] [건설협회 “8·13 대책 환영”…PF 숨통 트여 주택 공급 속도 기대](https://news.google.com/rss/articles/CBMic0FVX3lxTE84LVhTVVIyTTBuZl9sVFBlYURrNGMyRG9QaExJMlVTbW1OQS1VSWV3eGZla2VqVDNMQjZmblA0QUhybEpFVzFGcTNob2Y2WE1DTzhlc3NVMHJkZ2ZMR1puMUY4SGdZeldSMkFqRnUxT1ZFLTDSAXdBVV95cUxPLWdqYzJFUTNyQ1dYVFlNZFVvUW8zNDUxdjVwWGlMS2lmRjJkZzBqU2FCLVVkUjFGQTBaclowM0VqRjJidVFFZDFHb2NSVFhhZ1RtWl9DUTB6UWFlWWt4Y3BxdkRZaUxpNXFNd1hScXVZLU9CZ0pwRQ?oc=5)
+[77] [세제개편 발표 후 호가 하락?…정부가 사례든 아리팍 4.5억↑](https://news.google.com/rss/articles/CBMiYEFVX3lxTE5KcDM5T3hvUkhETy05WU9kLVB4SU96aWFtQUlzd0kwUFpNRzExcHNnc1cwQjV2aUE1RHljSjM4bVQ1MDRoSEZrRGVtaW1BQ1I1QUN5STJUeTF6SXJGVUV4ZtIBeEFVX3lxTE5VUVN4MHE4WjdhZjJUOFFnVTlaZXlBbXpJMDZweTNQelBCczh2VUJXaWVTT1FwSmpVaTRNWUVPajFNdGVjNFBQbkF2TU9ZX1BkNEFRd1BoYlhuM1VSRlZfd0VhamQ4ZkhIOEVhM3RYVDlkTmMtZ3B0Rw?oc=5)
+[78] [신규택지 공개 시점 ‘9말10초’ 못 박았다…관건은 ‘그린벨트 해제’](https://news.google.com/rss/articles/CBMib0FVX3lxTE5BdnpLYUlWb1hTYW94MTRuV2Y4NmdXRmxGUGlTeXM0VThkVzBKV1Y3YkJBZXNXVEliRjgtNk44bkZ6MVZtdDZGbmNibU1ncF90SjR1aVllQkkxVC1TVklKY01jSVFXbnpTTWFBTnZIY9IBc0FVX3lxTFBMckh1dE8zZE9SVlhzb0xfd2VRV3NYMUFfMk5Lbm45cVpCeWxPY24wbnVkcHhMNUxiZ1dKajBrZ1czVFpRM01EXzF0NDZkTlpqQjFfRVd5QlpaVVRSa2xPNTNraHNaUDlWTW9zdXZTQ3hXQm8?oc=5)
+[79] [10만가구 공급한다는데…강남·용산 빠진 수도권 대책 '실효성 시험대' [8.13 부동산 대책]](https://news.google.com/rss/articles/CBMiakFVX3lxTE5zaUVYRFBaOXVZS3diVlhfTWdjZm9LLThEX3ZvVkxUZ3JtdkxEY0ViX3FSSWJXWURialRhekNMQUgtQzhhbWFlRjRJcklFQTFadVdHdEFxOWZyNU1BdEE0ZlNXQW44eVJHZWfSAW5BVV95cUxPYWF0ZmFFQ1ZfcTZRb3ltanZvRVFjNTZxd04wUUdTaXdScVloQ240X2FrUFVlNmdrcVlTWEdjRzRpd2tWVjlNX25HSmJHYlVPX1VhZDR4aW1JNTU1QW1hdVRQOGwtSWRGNmtOMnFVZw?oc=5)
+[80] [[단독] 정부, ‘비축유 저장고’ 수천만 배럴 추가 증설한다](https://news.google.com/rss/articles/CBMiUkFVX3lxTE1XVWhMMzlPY3BMZzRMZF9ZRXRBc1YzYVpXdHFkMUJENTYzM0xlcTdZZXZJUXEtaU5VbmpNdEh5eDRzVHpuVWZ0UjBLMU0xUHlCSmc?oc=5)
+[81] [수입과 수출은 연말 마지막 몇 달 동안 성장의 원동력을 제공합니다.](https://news.google.com/rss/articles/CBMijAFBVV95cUxQN0xobkNwYzlTWWtIUDRETHQ2TmhlN2tnYnpOVlZ6aHhSempvTGJsVFJQekVQaTR0em9VR255Y3NTQ3l2d0ZncU1MRzRsc19lXzB0aU91eTdMbFdKdnJCYkprMmthZVlIRzJhVDVkRXJkN01yanFUWnk3YzYwbWlTQUtHZ0NKeFJWR3R1Nw?oc=5)
+[82] [꽝응아이성에 위치한 현대 HD 에코비나 공장 시설 개선 및 확장에 1억 1600만 달러가 투자되었습니다.](https://news.google.com/rss/articles/CBMingFBVV95cUxNcTFPNVdxR3dkOHVQcG1HYlV1eTJiSXVkUFk0TjFiRE9hVEgweEFyZkM0NnQ5OW9UTWZRVlpfWW9sTVNrU2JqR20xMHRhSTgxRkp6aFpveGJka045eGIwUVZ6SXp2QW1JRGppeDdxM0tST2ZQSGZFNUFrSUlEb2VsQThxdHZnLU5pUktnckY1dnN3N2RYM0p5YWN4VDZZUQ?oc=5)
+[83] [Exclusive-US to tell partners they must pick sides in AI race with Chi](https://news.google.com/rss/articles/CBMipgFBVV95cUxORkFRX3hCUFNnZ1hmMmJZY3pGcUwzRldOYVdaNUVMR3YwMzQ0eUZxd05iM1JsdnZVMGt3NzZjN1pyY2xxdEJWRjFHaF95RWJSVFZ5RjI4blRSZ3o3Yndxb2s0bTlnNWNkSnhmMVZyTDhkeUM1bE13d21hMEYyejlld2dZU0szMVVQd1l4LW5jU0MzdUEtVVZEWmwtU0FHbmloMXJjQmtR?oc=5)
+[84] [European Union Froth Pumps - Market Analysis, Forecast, Size, Trends a](https://news.google.com/rss/articles/CBMiqwFBVV95cUxQUlVhYWZxSkVMR2c1RWtTNXRsWUtnaWdNUTQ0elFmZUhKenM5NEowQ2x5ZHVpQXlIR3RmSF85M09RQURCZU1yUHotSHBkVVpiYkkwbGV4WldQWjRWWlFrQVpGbUVmWmhQQVZnYnM2Mm9LLUtFT3VmNmQ5NTByeU0zU0wzRkV0NzBVRGNFR0JWMy05cGxGTTFLWTdtc1VIYmR0cV94blpHSkFSQTA?oc=5)
+[85] [EU Prepares for Potential Trade Battle with China](https://news.google.com/rss/articles/CBMifkFVX3lxTE9WcnRxUUR3LTFidk1vRXRFQTNOX1F2QkZ0VmVwU2h1OTRnWWNydE9hX3NfM0RZR2FmcXBJZTV1VktfQUZJN0Vfa2FvRGhBbzJCV1pUTWV4aFBSak1NamJnVFdWUkVpSC1KYWZRdENKNE1nUzFfeVlNTGJaQnNUZw?oc=5)
+[86] [FOMC 금리 결정 2026-10-28](https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm)
 
 </details>

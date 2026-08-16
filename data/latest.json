@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-16 18:54",
+ "generated": "2026-08-16 23:52",
  "date": "2026-08-16",
  "sources": [
   {
@@ -24,19 +24,19 @@
   {
    "id": "KR_POLICY",
    "name": "한국 정책 (부처 발표)",
-   "count": 15,
+   "count": 16,
    "ok": true
   },
   {
    "id": "KR_INDUS",
    "name": "한국 산업·공급망",
-   "count": 5,
+   "count": 4,
    "ok": true
   },
   {
    "id": "GLOBAL",
    "name": "해외발 충격 (영문)",
-   "count": 7,
+   "count": 3,
    "ok": true
   },
   {
@@ -98,7 +98,15 @@
    "watch": [],
    "id": 1,
    "src": "DART",
-   "src_name": "국내 공시 (DART 원문)"
+   "src_name": "국내 공시 (DART 원문)",
+   "stage": null,
+   "track": {
+    "first": "2026-08-12",
+    "count": 26,
+    "weeks": 1,
+    "moved": null,
+    "prev_stages": []
+   }
   },
   {
    "title": "SK네트웍스 — 주요사항보고서(자기주식처분결정)",
@@ -121,7 +129,15 @@
    "watch": [],
    "id": 2,
    "src": "DART",
-   "src_name": "국내 공시 (DART 원문)"
+   "src_name": "국내 공시 (DART 원문)",
+   "stage": null,
+   "track": {
+    "first": "2026-08-12",
+    "count": 26,
+    "weeks": 1,
+    "moved": null,
+    "prev_stages": []
+   }
   },
   {
    "title": "아세아제지 — 주요사항보고서(자기주식취득신탁계약해지결정)",
@@ -144,7 +160,17 @@
    "watch": [],
    "id": 3,
    "src": "DART",
-   "src_name": "국내 공시 (DART 원문)"
+   "src_name": "국내 공시 (DART 원문)",
+   "stage": "계약",
+   "track": {
+    "first": "2026-08-12",
+    "count": 72,
+    "weeks": 1,
+    "moved": null,
+    "prev_stages": [
+     "계약"
+    ]
+   }
   },
   {
    "title": "아센디오 — 주요사항보고서(유상증자결정)",
@@ -167,7 +193,17 @@
    "watch": [],
    "id": 4,
    "src": "DART",
-   "src_name": "국내 공시 (DART 원문)"
+   "src_name": "국내 공시 (DART 원문)",
+   "stage": null,
+   "track": {
+    "first": "2026-08-12",
+    "count": 122,
+    "weeks": 1,
+    "moved": null,
+    "prev_stages": [
+     "논의"
+    ]
+   }
   },
   {
    "title": "HL홀딩스 — 주요사항보고서(자기주식취득신탁계약해지결정)",
@@ -190,7 +226,17 @@
    "watch": [],
    "id": 5,
    "src": "DART",
-   "src_name": "국내 공시 (DART 원문)"
+   "src_name": "국내 공시 (DART 원문)",
+   "stage": "계약",
+   "track": {
+    "first": "2026-08-12",
+    "count": 74,
+    "weeks": 1,
+    "moved": null,
+    "prev_stages": [
+     "계약"
+    ]
+   }
   },
   {
    "title": "SHD — [기재정정]주요사항보고서(자기주식취득결정)",
@@ -213,7 +259,18 @@
    "watch": [],
    "id": 6,
    "src": "DART",
-   "src_name": "국내 공시 (DART 원문)"
+   "src_name": "국내 공시 (DART 원문)",
+   "stage": null,
+   "track": {
+    "first": "2026-08-12",
+    "count": 182,
+    "weeks": 1,
+    "moved": null,
+    "prev_stages": [
+     "논의",
+     "계약"
+    ]
+   }
   },
   {
    "title": "HL홀딩스 — [기재정정]주요사항보고서(자기주식취득신탁계약체결결정)",
@@ -236,7 +293,18 @@
    "watch": [],
    "id": 7,
    "src": "DART",
-   "src_name": "국내 공시 (DART 원문)"
+   "src_name": "국내 공시 (DART 원문)",
+   "stage": "계약",
+   "track": {
+    "first": "2026-08-12",
+    "count": 186,
+    "weeks": 1,
+    "moved": "논의→계약",
+    "prev_stages": [
+     "논의",
+     "계약"
+    ]
+   }
   },
   {
    "title": "SHD — 주요사항보고서(자기주식취득결정)",
@@ -259,7 +327,15 @@
    "watch": [],
    "id": 8,
    "src": "DART",
-   "src_name": "국내 공시 (DART 원문)"
+   "src_name": "국내 공시 (DART 원문)",
+   "stage": null,
+   "track": {
+    "first": "2026-08-12",
+    "count": 32,
+    "weeks": 1,
+    "moved": null,
+    "prev_stages": []
+   }
   },
   {
    "title": "에넥스 — [기재정정]주요사항보고서(유상증자결정)",
@@ -282,7 +358,18 @@
    "watch": [],
    "id": 9,
    "src": "DART",
-   "src_name": "국내 공시 (DART 원문)"
+   "src_name": "국내 공시 (DART 원문)",
+   "stage": null,
+   "track": {
+    "first": "2026-08-12",
+    "count": 178,
+    "weeks": 1,
+    "moved": null,
+    "prev_stages": [
+     "논의",
+     "계약"
+    ]
+   }
   },
   {
    "title": "코아스 — 주요사항보고서(자기전환사채만기전취득결정)",
@@ -303,7 +390,17 @@
    "watch": [],
    "id": 10,
    "src": "DART",
-   "src_name": "국내 공시 (DART 원문)"
+   "src_name": "국내 공시 (DART 원문)",
+   "stage": null,
+   "track": {
+    "first": "2026-08-12",
+    "count": 56,
+    "weeks": 1,
+    "moved": null,
+    "prev_stages": [
+     "논의"
+    ]
+   }
   },
   {
    "title": "코아스 — 주요사항보고서(자기전환사채만기전취득결정)",
@@ -324,7 +421,17 @@
    "watch": [],
    "id": 11,
    "src": "DART",
-   "src_name": "국내 공시 (DART 원문)"
+   "src_name": "국내 공시 (DART 원문)",
+   "stage": null,
+   "track": {
+    "first": "2026-08-12",
+    "count": 56,
+    "weeks": 1,
+    "moved": null,
+    "prev_stages": [
+     "논의"
+    ]
+   }
   },
   {
    "title": "코아스 — 주요사항보고서(자기신주인수권부사채만기전취득결정)",
@@ -345,7 +452,15 @@
    "watch": [],
    "id": 12,
    "src": "DART",
-   "src_name": "국내 공시 (DART 원문)"
+   "src_name": "국내 공시 (DART 원문)",
+   "stage": null,
+   "track": {
+    "first": "2026-08-14",
+    "count": 7,
+    "weeks": 1,
+    "moved": null,
+    "prev_stages": []
+   }
   },
   {
    "title": "아이큐어 — [기재정정]주요사항보고서(유상증자결정)",
@@ -366,7 +481,18 @@
    "watch": [],
    "id": 13,
    "src": "DART",
-   "src_name": "국내 공시 (DART 원문)"
+   "src_name": "국내 공시 (DART 원문)",
+   "stage": null,
+   "track": {
+    "first": "2026-08-12",
+    "count": 178,
+    "weeks": 1,
+    "moved": null,
+    "prev_stages": [
+     "논의",
+     "계약"
+    ]
+   }
   },
   {
    "title": "풍원정밀 — 주요사항보고서(유상증자결정)",
@@ -389,7 +515,17 @@
    "watch": [],
    "id": 14,
    "src": "DART",
-   "src_name": "국내 공시 (DART 원문)"
+   "src_name": "국내 공시 (DART 원문)",
+   "stage": null,
+   "track": {
+    "first": "2026-08-12",
+    "count": 122,
+    "weeks": 1,
+    "moved": null,
+    "prev_stages": [
+     "논의"
+    ]
+   }
   },
   {
    "title": "와이엠티 — 주요사항보고서(자기주식취득결정)",
@@ -412,7 +548,15 @@
    "watch": [],
    "id": 15,
    "src": "DART",
-   "src_name": "국내 공시 (DART 원문)"
+   "src_name": "국내 공시 (DART 원문)",
+   "stage": null,
+   "track": {
+    "first": "2026-08-12",
+    "count": 32,
+    "weeks": 1,
+    "moved": null,
+    "prev_stages": []
+   }
   },
   {
    "title": "비나텍 — 주요사항보고서(전환사채권발행결정)",
@@ -435,7 +579,15 @@
    "watch": [],
    "id": 16,
    "src": "DART",
-   "src_name": "국내 공시 (DART 원문)"
+   "src_name": "국내 공시 (DART 원문)",
+   "stage": null,
+   "track": {
+    "first": "2026-08-12",
+    "count": 52,
+    "weeks": 1,
+    "moved": null,
+    "prev_stages": []
+   }
   },
   {
    "title": "코칩 — 주요사항보고서(자기주식처분결정)",
@@ -456,7 +608,15 @@
    "watch": [],
    "id": 17,
    "src": "DART",
-   "src_name": "국내 공시 (DART 원문)"
+   "src_name": "국내 공시 (DART 원문)",
+   "stage": null,
+   "track": {
+    "first": "2026-08-12",
+    "count": 26,
+    "weeks": 1,
+    "moved": null,
+    "prev_stages": []
+   }
   },
   {
    "title": "삼천리자전거 — 주요사항보고서(자기주식취득결정)",
@@ -479,7 +639,15 @@
    "watch": [],
    "id": 18,
    "src": "DART",
-   "src_name": "국내 공시 (DART 원문)"
+   "src_name": "국내 공시 (DART 원문)",
+   "stage": null,
+   "track": {
+    "first": "2026-08-12",
+    "count": 32,
+    "weeks": 1,
+    "moved": null,
+    "prev_stages": []
+   }
   },
   {
    "title": "피엔티 — [기재정정]주요사항보고서(자기주식취득결정)",
@@ -502,7 +670,18 @@
    "watch": [],
    "id": 19,
    "src": "DART",
-   "src_name": "국내 공시 (DART 원문)"
+   "src_name": "국내 공시 (DART 원문)",
+   "stage": null,
+   "track": {
+    "first": "2026-08-12",
+    "count": 182,
+    "weeks": 1,
+    "moved": null,
+    "prev_stages": [
+     "논의",
+     "계약"
+    ]
+   }
   },
   {
    "title": "이오플로우 — [기재정정]주요사항보고서(유상증자결정)",
@@ -525,7 +704,18 @@
    "watch": [],
    "id": 20,
    "src": "DART",
-   "src_name": "국내 공시 (DART 원문)"
+   "src_name": "국내 공시 (DART 원문)",
+   "stage": null,
+   "track": {
+    "first": "2026-08-12",
+    "count": 178,
+    "weeks": 1,
+    "moved": null,
+    "prev_stages": [
+     "논의",
+     "계약"
+    ]
+   }
   },
   {
    "title": "핑거스토리 — 주요사항보고서(유상증자결정)",
@@ -548,7 +738,17 @@
    "watch": [],
    "id": 21,
    "src": "DART",
-   "src_name": "국내 공시 (DART 원문)"
+   "src_name": "국내 공시 (DART 원문)",
+   "stage": null,
+   "track": {
+    "first": "2026-08-12",
+    "count": 122,
+    "weeks": 1,
+    "moved": null,
+    "prev_stages": [
+     "논의"
+    ]
+   }
   },
   {
    "title": "성호전자 — [기재정정]주요사항보고서(전환사채권발행결정)",
@@ -569,7 +769,18 @@
    "watch": [],
    "id": 22,
    "src": "DART",
-   "src_name": "국내 공시 (DART 원문)"
+   "src_name": "국내 공시 (DART 원문)",
+   "stage": null,
+   "track": {
+    "first": "2026-08-12",
+    "count": 179,
+    "weeks": 1,
+    "moved": null,
+    "prev_stages": [
+     "논의",
+     "계약"
+    ]
+   }
   },
   {
    "title": "KS인더스트리 — [기재정정]주요사항보고서(감자결정)",
@@ -590,7 +801,18 @@
    "watch": [],
    "id": 23,
    "src": "DART",
-   "src_name": "국내 공시 (DART 원문)"
+   "src_name": "국내 공시 (DART 원문)",
+   "stage": null,
+   "track": {
+    "first": "2026-08-12",
+    "count": 157,
+    "weeks": 1,
+    "moved": null,
+    "prev_stages": [
+     "논의",
+     "계약"
+    ]
+   }
   },
   {
    "title": "비스토스 — 주요사항보고서(자기주식취득신탁계약체결결정)",
@@ -613,7 +835,17 @@
    "watch": [],
    "id": 24,
    "src": "DART",
-   "src_name": "국내 공시 (DART 원문)"
+   "src_name": "국내 공시 (DART 원문)",
+   "stage": "계약",
+   "track": {
+    "first": "2026-08-12",
+    "count": 32,
+    "weeks": 1,
+    "moved": null,
+    "prev_stages": [
+     "계약"
+    ]
+   }
   },
   {
    "title": "비스토스 — 주요사항보고서(자기주식취득신탁계약해지결정)",
@@ -636,7 +868,17 @@
    "watch": [],
    "id": 25,
    "src": "DART",
-   "src_name": "국내 공시 (DART 원문)"
+   "src_name": "국내 공시 (DART 원문)",
+   "stage": "계약",
+   "track": {
+    "first": "2026-08-12",
+    "count": 74,
+    "weeks": 1,
+    "moved": null,
+    "prev_stages": [
+     "계약"
+    ]
+   }
   },
   {
    "title": "한울앤제주 — [기재정정]주요사항보고서(유상증자결정)",
@@ -659,7 +901,18 @@
    "watch": [],
    "id": 26,
    "src": "DART",
-   "src_name": "국내 공시 (DART 원문)"
+   "src_name": "국내 공시 (DART 원문)",
+   "stage": null,
+   "track": {
+    "first": "2026-08-12",
+    "count": 178,
+    "weeks": 1,
+    "moved": null,
+    "prev_stages": [
+     "논의",
+     "계약"
+    ]
+   }
   },
   {
    "title": "피엔티 — 주요사항보고서(자기주식취득결정)",
@@ -682,7 +935,15 @@
    "watch": [],
    "id": 27,
    "src": "DART",
-   "src_name": "국내 공시 (DART 원문)"
+   "src_name": "국내 공시 (DART 원문)",
+   "stage": null,
+   "track": {
+    "first": "2026-08-12",
+    "count": 32,
+    "weeks": 1,
+    "moved": null,
+    "prev_stages": []
+   }
   },
   {
    "title": "디앤씨미디어 — 주요사항보고서(자기주식취득신탁계약해지결정)",
@@ -705,7 +966,17 @@
    "watch": [],
    "id": 28,
    "src": "DART",
-   "src_name": "국내 공시 (DART 원문)"
+   "src_name": "국내 공시 (DART 원문)",
+   "stage": "계약",
+   "track": {
+    "first": "2026-08-12",
+    "count": 72,
+    "weeks": 1,
+    "moved": null,
+    "prev_stages": [
+     "계약"
+    ]
+   }
   },
   {
    "title": "제이아이테크 — 주요사항보고서(유상증자결정)",
@@ -728,7 +999,17 @@
    "watch": [],
    "id": 29,
    "src": "DART",
-   "src_name": "국내 공시 (DART 원문)"
+   "src_name": "국내 공시 (DART 원문)",
+   "stage": null,
+   "track": {
+    "first": "2026-08-12",
+    "count": 122,
+    "weeks": 1,
+    "moved": null,
+    "prev_stages": [
+     "논의"
+    ]
+   }
   },
   {
    "title": "모아데이타 — 주요사항보고서(유상증자결정)",
@@ -751,7 +1032,17 @@
    "watch": [],
    "id": 30,
    "src": "DART",
-   "src_name": "국내 공시 (DART 원문)"
+   "src_name": "국내 공시 (DART 원문)",
+   "stage": null,
+   "track": {
+    "first": "2026-08-12",
+    "count": 128,
+    "weeks": 1,
+    "moved": null,
+    "prev_stages": [
+     "논의"
+    ]
+   }
   },
   {
    "title": "어보브반도체 — 주요사항보고서(자기주식처분결정)",
@@ -777,7 +1068,15 @@
    ],
    "id": 31,
    "src": "DART",
-   "src_name": "국내 공시 (DART 원문)"
+   "src_name": "국내 공시 (DART 원문)",
+   "stage": null,
+   "track": {
+    "first": "2026-08-12",
+    "count": 26,
+    "weeks": 1,
+    "moved": null,
+    "prev_stages": []
+   }
   },
   {
    "title": "한중엔시에스 — [기재정정]주요사항보고서(전환사채권발행결정)",
@@ -800,7 +1099,18 @@
    "watch": [],
    "id": 32,
    "src": "DART",
-   "src_name": "국내 공시 (DART 원문)"
+   "src_name": "국내 공시 (DART 원문)",
+   "stage": null,
+   "track": {
+    "first": "2026-08-12",
+    "count": 179,
+    "weeks": 1,
+    "moved": null,
+    "prev_stages": [
+     "논의",
+     "계약"
+    ]
+   }
   },
   {
    "title": "성호전자 — [첨부정정]주요사항보고서(전환사채권발행결정)",
@@ -821,7 +1131,15 @@
    "watch": [],
    "id": 33,
    "src": "DART",
-   "src_name": "국내 공시 (DART 원문)"
+   "src_name": "국내 공시 (DART 원문)",
+   "stage": null,
+   "track": {
+    "first": "2026-08-12",
+    "count": 57,
+    "weeks": 1,
+    "moved": null,
+    "prev_stages": []
+   }
   },
   {
    "title": "성호전자 — [기재정정]주요사항보고서(전환사채권발행결정)",
@@ -844,7 +1162,18 @@
    "watch": [],
    "id": 34,
    "src": "DART",
-   "src_name": "국내 공시 (DART 원문)"
+   "src_name": "국내 공시 (DART 원문)",
+   "stage": null,
+   "track": {
+    "first": "2026-08-12",
+    "count": 179,
+    "weeks": 1,
+    "moved": null,
+    "prev_stages": [
+     "논의",
+     "계약"
+    ]
+   }
   },
   {
    "title": "핌스 — [기재정정]주요사항보고서(자기주식취득결정)",
@@ -867,7 +1196,18 @@
    "watch": [],
    "id": 35,
    "src": "DART",
-   "src_name": "국내 공시 (DART 원문)"
+   "src_name": "국내 공시 (DART 원문)",
+   "stage": null,
+   "track": {
+    "first": "2026-08-12",
+    "count": 182,
+    "weeks": 1,
+    "moved": null,
+    "prev_stages": [
+     "논의",
+     "계약"
+    ]
+   }
   },
   {
    "title": "한중엔시에스 — 주요사항보고서(전환사채권발행결정)",
@@ -890,7 +1230,15 @@
    "watch": [],
    "id": 36,
    "src": "DART",
-   "src_name": "국내 공시 (DART 원문)"
+   "src_name": "국내 공시 (DART 원문)",
+   "stage": null,
+   "track": {
+    "first": "2026-08-12",
+    "count": 52,
+    "weeks": 1,
+    "moved": null,
+    "prev_stages": []
+   }
   },
   {
    "title": "유니크 — 주요사항보고서(자기주식처분결정)",
@@ -913,7 +1261,15 @@
    "watch": [],
    "id": 37,
    "src": "DART",
-   "src_name": "국내 공시 (DART 원문)"
+   "src_name": "국내 공시 (DART 원문)",
+   "stage": null,
+   "track": {
+    "first": "2026-08-12",
+    "count": 26,
+    "weeks": 1,
+    "moved": null,
+    "prev_stages": []
+   }
   },
   {
    "title": "CSA 코스믹 — [기재정정]주요사항보고서(전환사채권발행결정)",
@@ -936,7 +1292,18 @@
    "watch": [],
    "id": 38,
    "src": "DART",
-   "src_name": "국내 공시 (DART 원문)"
+   "src_name": "국내 공시 (DART 원문)",
+   "stage": null,
+   "track": {
+    "first": "2026-08-12",
+    "count": 179,
+    "weeks": 1,
+    "moved": null,
+    "prev_stages": [
+     "논의",
+     "계약"
+    ]
+   }
   },
   {
    "title": "CSA 코스믹 — [기재정정]주요사항보고서(유상증자결정)",
@@ -957,7 +1324,18 @@
    "watch": [],
    "id": 39,
    "src": "DART",
-   "src_name": "국내 공시 (DART 원문)"
+   "src_name": "국내 공시 (DART 원문)",
+   "stage": null,
+   "track": {
+    "first": "2026-08-12",
+    "count": 178,
+    "weeks": 1,
+    "moved": null,
+    "prev_stages": [
+     "논의",
+     "계약"
+    ]
+   }
   },
   {
    "title": "CSA 코스믹 — [기재정정]주요사항보고서(유상증자결정)",
@@ -978,7 +1356,18 @@
    "watch": [],
    "id": 40,
    "src": "DART",
-   "src_name": "국내 공시 (DART 원문)"
+   "src_name": "국내 공시 (DART 원문)",
+   "stage": null,
+   "track": {
+    "first": "2026-08-12",
+    "count": 178,
+    "weeks": 1,
+    "moved": null,
+    "prev_stages": [
+     "논의",
+     "계약"
+    ]
+   }
   },
   {
    "title": "애드바이오텍 — [기재정정]주요사항보고서(전환사채권발행결정)",
@@ -1003,7 +1392,18 @@
    ],
    "id": 41,
    "src": "DART",
-   "src_name": "국내 공시 (DART 원문)"
+   "src_name": "국내 공시 (DART 원문)",
+   "stage": null,
+   "track": {
+    "first": "2026-08-12",
+    "count": 179,
+    "weeks": 1,
+    "moved": null,
+    "prev_stages": [
+     "논의",
+     "계약"
+    ]
+   }
   },
   {
    "title": "애드바이오텍 — [기재정정]주요사항보고서(전환사채권발행결정)",
@@ -1028,7 +1428,18 @@
    ],
    "id": 42,
    "src": "DART",
-   "src_name": "국내 공시 (DART 원문)"
+   "src_name": "국내 공시 (DART 원문)",
+   "stage": null,
+   "track": {
+    "first": "2026-08-12",
+    "count": 179,
+    "weeks": 1,
+    "moved": null,
+    "prev_stages": [
+     "논의",
+     "계약"
+    ]
+   }
   },
   {
    "title": "유티아이 — [기재정정]주요사항보고서(전환사채권발행결정)",
@@ -1049,7 +1460,18 @@
    "watch": [],
    "id": 43,
    "src": "DART",
-   "src_name": "국내 공시 (DART 원문)"
+   "src_name": "국내 공시 (DART 원문)",
+   "stage": null,
+   "track": {
+    "first": "2026-08-12",
+    "count": 179,
+    "weeks": 1,
+    "moved": null,
+    "prev_stages": [
+     "논의",
+     "계약"
+    ]
+   }
   },
   {
    "title": "엔시트론 — 주요사항보고서(유상증자결정)",
@@ -1070,7 +1492,17 @@
    "watch": [],
    "id": 44,
    "src": "DART",
-   "src_name": "국내 공시 (DART 원문)"
+   "src_name": "국내 공시 (DART 원문)",
+   "stage": null,
+   "track": {
+    "first": "2026-08-12",
+    "count": 122,
+    "weeks": 1,
+    "moved": null,
+    "prev_stages": [
+     "논의"
+    ]
+   }
   },
   {
    "title": "파라텍 — [첨부정정]주요사항보고서(전환사채권발행결정)",
@@ -1091,7 +1523,15 @@
    "watch": [],
    "id": 45,
    "src": "DART",
-   "src_name": "국내 공시 (DART 원문)"
+   "src_name": "국내 공시 (DART 원문)",
+   "stage": null,
+   "track": {
+    "first": "2026-08-12",
+    "count": 57,
+    "weeks": 1,
+    "moved": null,
+    "prev_stages": []
+   }
   },
   {
    "title": "핌스 — 주요사항보고서(자기주식취득결정)",
@@ -1112,7 +1552,15 @@
    "watch": [],
    "id": 46,
    "src": "DART",
-   "src_name": "국내 공시 (DART 원문)"
+   "src_name": "국내 공시 (DART 원문)",
+   "stage": null,
+   "track": {
+    "first": "2026-08-12",
+    "count": 32,
+    "weeks": 1,
+    "moved": null,
+    "prev_stages": []
+   }
   },
   {
    "title": "다보링크 — [기재정정]주요사항보고서(유상증자결정)",
@@ -1133,7 +1581,18 @@
    "watch": [],
    "id": 47,
    "src": "DART",
-   "src_name": "국내 공시 (DART 원문)"
+   "src_name": "국내 공시 (DART 원문)",
+   "stage": null,
+   "track": {
+    "first": "2026-08-12",
+    "count": 178,
+    "weeks": 1,
+    "moved": null,
+    "prev_stages": [
+     "논의",
+     "계약"
+    ]
+   }
   },
   {
    "title": "다보링크 — [기재정정]주요사항보고서(유상증자결정)",
@@ -1154,7 +1613,18 @@
    "watch": [],
    "id": 48,
    "src": "DART",
-   "src_name": "국내 공시 (DART 원문)"
+   "src_name": "국내 공시 (DART 원문)",
+   "stage": null,
+   "track": {
+    "first": "2026-08-12",
+    "count": 178,
+    "weeks": 1,
+    "moved": null,
+    "prev_stages": [
+     "논의",
+     "계약"
+    ]
+   }
   },
   {
    "title": "브이티 — 주요사항보고서(자기주식취득결정)",
@@ -1175,7 +1645,15 @@
    "watch": [],
    "id": 49,
    "src": "DART",
-   "src_name": "국내 공시 (DART 원문)"
+   "src_name": "국내 공시 (DART 원문)",
+   "stage": null,
+   "track": {
+    "first": "2026-08-12",
+    "count": 32,
+    "weeks": 1,
+    "moved": null,
+    "prev_stages": []
+   }
   },
   {
    "title": "이노메트리 — 주요사항보고서(자기주식취득신탁계약해지결정)",
@@ -1196,7 +1674,17 @@
    "watch": [],
    "id": 50,
    "src": "DART",
-   "src_name": "국내 공시 (DART 원문)"
+   "src_name": "국내 공시 (DART 원문)",
+   "stage": "계약",
+   "track": {
+    "first": "2026-08-12",
+    "count": 72,
+    "weeks": 1,
+    "moved": null,
+    "prev_stages": [
+     "계약"
+    ]
+   }
   },
   {
    "title": "율촌 — 주요사항보고서(자기주식취득신탁계약해지결정)",
@@ -1217,7 +1705,17 @@
    "watch": [],
    "id": 51,
    "src": "DART",
-   "src_name": "국내 공시 (DART 원문)"
+   "src_name": "국내 공시 (DART 원문)",
+   "stage": "계약",
+   "track": {
+    "first": "2026-08-12",
+    "count": 72,
+    "weeks": 1,
+    "moved": null,
+    "prev_stages": [
+     "계약"
+    ]
+   }
   },
   {
    "title": "에스폴리텍 — 주요사항보고서(자기주식취득결정)",
@@ -1238,7 +1736,15 @@
    "watch": [],
    "id": 52,
    "src": "DART",
-   "src_name": "국내 공시 (DART 원문)"
+   "src_name": "국내 공시 (DART 원문)",
+   "stage": null,
+   "track": {
+    "first": "2026-08-12",
+    "count": 32,
+    "weeks": 1,
+    "moved": null,
+    "prev_stages": []
+   }
   },
   {
    "title": "젬백스 — [기재정정]주요사항보고서(유상증자결정)",
@@ -1259,7 +1765,18 @@
    "watch": [],
    "id": 53,
    "src": "DART",
-   "src_name": "국내 공시 (DART 원문)"
+   "src_name": "국내 공시 (DART 원문)",
+   "stage": null,
+   "track": {
+    "first": "2026-08-12",
+    "count": 178,
+    "weeks": 1,
+    "moved": null,
+    "prev_stages": [
+     "논의",
+     "계약"
+    ]
+   }
   },
   {
    "title": "Safety Zone; Fox River, Green Bay, WI",
@@ -1283,7 +1800,8 @@
    "watch": [],
    "id": 54,
    "src": "FEDREG",
-   "src_name": "미국 정책 (연방관보 원문)"
+   "src_name": "미국 정책 (연방관보 원문)",
+   "stage": null
   },
   {
    "title": "Medical Devices; Classification of Accessories Distinct From Other Devices; Proposed List of Accessories Suitable for Class I; Request for Comments",
@@ -1307,7 +1825,8 @@
    "watch": [],
    "id": 55,
    "src": "FEDREG",
-   "src_name": "미국 정책 (연방관보 원문)"
+   "src_name": "미국 정책 (연방관보 원문)",
+   "stage": null
   },
   {
    "title": "Receipt of Pesticide Petitions Filed for Residues of Pesticide Chemicals in or on Various Commodities-May 2026",
@@ -1331,7 +1850,8 @@
    "watch": [],
    "id": 56,
    "src": "FEDREG",
-   "src_name": "미국 정책 (연방관보 원문)"
+   "src_name": "미국 정책 (연방관보 원문)",
+   "stage": "확정"
   },
   {
    "title": "Continuation of the National Emergency With Respect to Export Control Regulations",
@@ -1355,7 +1875,15 @@
    "watch": [],
    "id": 57,
    "src": "FEDREG",
-   "src_name": "미국 정책 (연방관보 원문)"
+   "src_name": "미국 정책 (연방관보 원문)",
+   "stage": null,
+   "track": {
+    "first": "2026-08-15",
+    "count": 2,
+    "weeks": 1,
+    "moved": null,
+    "prev_stages": []
+   }
   },
   {
    "title": "Airworthiness Directives; Gulfstream Aerospace LP (Type Certificate Previously Held by Israel Aircraft Industries, Ltd.) Airplanes",
@@ -1379,7 +1907,15 @@
    "watch": [],
    "id": 58,
    "src": "FEDREG",
-   "src_name": "미국 정책 (연방관보 원문)"
+   "src_name": "미국 정책 (연방관보 원문)",
+   "stage": null,
+   "track": {
+    "first": "2026-08-15",
+    "count": 2,
+    "weeks": 1,
+    "moved": null,
+    "prev_stages": []
+   }
   },
   {
    "title": "Safety Zone; West Passage Narragansett Bay, Narragansett, RI",
@@ -1403,7 +1939,15 @@
    "watch": [],
    "id": 59,
    "src": "FEDREG",
-   "src_name": "미국 정책 (연방관보 원문)"
+   "src_name": "미국 정책 (연방관보 원문)",
+   "stage": null,
+   "track": {
+    "first": "2026-08-15",
+    "count": 2,
+    "weeks": 1,
+    "moved": null,
+    "prev_stages": []
+   }
   },
   {
    "title": "Safety Zone; St. Clair River; Port Huron, MI",
@@ -1427,7 +1971,15 @@
    "watch": [],
    "id": 60,
    "src": "FEDREG",
-   "src_name": "미국 정책 (연방관보 원문)"
+   "src_name": "미국 정책 (연방관보 원문)",
+   "stage": null,
+   "track": {
+    "first": "2026-08-15",
+    "count": 2,
+    "weeks": 1,
+    "moved": null,
+    "prev_stages": []
+   }
   },
   {
    "title": "Safety Zone; Atlantic Ocean, Culebra, Puerto Rico",
@@ -1451,7 +2003,15 @@
    "watch": [],
    "id": 61,
    "src": "FEDREG",
-   "src_name": "미국 정책 (연방관보 원문)"
+   "src_name": "미국 정책 (연방관보 원문)",
+   "stage": null,
+   "track": {
+    "first": "2026-08-15",
+    "count": 2,
+    "weeks": 1,
+    "moved": null,
+    "prev_stages": []
+   }
   },
   {
    "title": "Streamlining Export Controls for Drone Exports",
@@ -1475,7 +2035,15 @@
    "watch": [],
    "id": 62,
    "src": "FEDREG",
-   "src_name": "미국 정책 (연방관보 원문)"
+   "src_name": "미국 정책 (연방관보 원문)",
+   "stage": null,
+   "track": {
+    "first": "2026-08-15",
+    "count": 2,
+    "weeks": 1,
+    "moved": null,
+    "prev_stages": []
+   }
   },
   {
    "title": "\"닥치고 공급\" 입법 총공세..野 부동산 대책은 - 파이낸셜뉴스",
@@ -1495,7 +2063,15 @@
    "watch": [],
    "id": 63,
    "src": "KR_POLICY",
-   "src_name": "한국 정책 (부처 발표)"
+   "src_name": "한국 정책 (부처 발표)",
+   "stage": null,
+   "track": {
+    "first": "2026-08-12",
+    "count": 2,
+    "weeks": 1,
+    "moved": null,
+    "prev_stages": []
+   }
   },
   {
    "title": "사라지는 청년 일자리...정부, 이달 내 고용대책 발표 - YTN",
@@ -1513,7 +2089,48 @@
    "watch": [],
    "id": 64,
    "src": "KR_POLICY",
-   "src_name": "한국 정책 (부처 발표)"
+   "src_name": "한국 정책 (부처 발표)",
+   "stage": null
+  },
+  {
+   "title": "[김병진의 세상보기]8·13 정부 부동산 대책…‘대구·경북은 없다’ - 헤럴드경제",
+   "core": "[김병진의 세상보기]8·13 정부 부동산 대책…‘대구·경북은 없다’",
+   "date": "Sun, 16 Aug 2026",
+   "abstract": "[김병진의 세상보기]8·13 정부 부동산 대책…‘대구·경북은 없다’&nbsp;&nbsp;헤럴드경제",
+   "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1CVUdOZlZXbzE4Z1pVQzJycDJxZnZYMFR6Wld5VlVWaXV4eG1yZDNjSFd5VXN0dTNOTVo1bUhFSlo4WDBzUVpMR0pVbFAxYmM4aC1ZWmNR?oc=5",
+   "official": false,
+   "org": "헤럴드경제",
+   "kinds": [
+    "정책"
+   ],
+   "src_kind": "정책",
+   "sectors": [
+    "건설/부동산"
+   ],
+   "watch": [],
+   "id": 65,
+   "src": "KR_POLICY",
+   "src_name": "한국 정책 (부처 발표)",
+   "stage": null
+  },
+  {
+   "title": "“집값 25%만 내세요”…정부가 수도권 아파트 공급 위해 내놓은 대책 - wikitree.co.kr",
+   "core": "“집값 25%만 내세요”…정부가 수도권 아파트 공급 위해 내놓은 대책",
+   "date": "Sun, 16 Aug 2026",
+   "abstract": "“집값 25%만 내세요”…정부가 수도권 아파트 공급 위해 내놓은 대책&nbsp;&nbsp;wikitree.co.kr",
+   "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE00N0lMelk0Q0NvN01rMjRBQjdLYkRVM1JzQUZ0Z1JMX19JbzRKaTBvT1pkNzh2NEZ3YmY5Ukt3Z1JXTkIzR0pSWndQRU1meEI4dzRPb09B?oc=5",
+   "official": false,
+   "org": "wikitree.co.kr",
+   "kinds": [
+    "정책"
+   ],
+   "src_kind": "정책",
+   "sectors": [],
+   "watch": [],
+   "id": 66,
+   "src": "KR_POLICY",
+   "src_name": "한국 정책 (부처 발표)",
+   "stage": null
   },
   {
    "title": "그린벨트 풀어 10만 가구 공급…강남·용산 빠진 대책 실효성은 - 뉴시스",
@@ -1529,47 +2146,10 @@
    "src_kind": "정책",
    "sectors": [],
    "watch": [],
-   "id": 65,
-   "src": "KR_POLICY",
-   "src_name": "한국 정책 (부처 발표)"
-  },
-  {
-   "title": "“집값 25%만 내세요”…정부가 수도권 아파트 공급 위해 내놓은 대책 - 위키트리",
-   "core": "“집값 25%만 내세요”…정부가 수도권 아파트 공급 위해 내놓은 대책",
-   "date": "Sun, 16 Aug 2026",
-   "abstract": "“집값 25%만 내세요”…정부가 수도권 아파트 공급 위해 내놓은 대책&nbsp;&nbsp;위키트리",
-   "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE00N0lMelk0Q0NvN01rMjRBQjdLYkRVM1JzQUZ0Z1JMX19JbzRKaTBvT1pkNzh2NEZ3YmY5Ukt3Z1JXTkIzR0pSWndQRU1meEI4dzRPb09B?oc=5",
-   "official": false,
-   "org": "위키트리",
-   "kinds": [
-    "정책"
-   ],
-   "src_kind": "정책",
-   "sectors": [],
-   "watch": [],
-   "id": 66,
-   "src": "KR_POLICY",
-   "src_name": "한국 정책 (부처 발표)"
-  },
-  {
-   "title": "대한건설협회 \"정부 주택 공급·금융 대책 환영\" - 아시아경제",
-   "core": "대한건설협회 \"정부 주택 공급·금융 대책 환영\"",
-   "date": "Fri, 14 Aug 2026",
-   "abstract": "대한건설협회 \"정부 주택 공급·금융 대책 환영\"&nbsp;&nbsp;아시아경제",
-   "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1xVjlCb2ZhZGNSOEN4ZHQ3ZmJpZG1KeEpad0hMczRvandZV2VMRXBfQXBrS3FrUGx6eGxnWldkRGZzdWFlVXJ4cTA5dHFjMzhRYnN4d2N1Ukk0Q3BjWnliSw?oc=5",
-   "official": false,
-   "org": "아시아경제",
-   "kinds": [
-    "정책"
-   ],
-   "src_kind": "정책",
-   "sectors": [
-    "건설/부동산"
-   ],
-   "watch": [],
    "id": 67,
    "src": "KR_POLICY",
-   "src_name": "한국 정책 (부처 발표)"
+   "src_name": "한국 정책 (부처 발표)",
+   "stage": null
   },
   {
    "title": "[비즈토크] 집값 안정 겨냥한 공급대책…'다섯 가지 카드' 나왔다 - 경제 | 기사 - 더팩트",
@@ -1587,45 +2167,8 @@
    "watch": [],
    "id": 68,
    "src": "KR_POLICY",
-   "src_name": "한국 정책 (부처 발표)"
-  },
-  {
-   "title": "가격 폭락에 창고마다 보리 가득…“정부 수급 대책 시급” - KBS 뉴스",
-   "core": "가격 폭락에 창고마다 보리 가득…“정부 수급 대책 시급”",
-   "date": "Fri, 14 Aug 2026",
-   "abstract": "가격 폭락에 창고마다 보리 가득…“정부 수급 대책 시급”&nbsp;&nbsp;KBS 뉴스",
-   "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFA2X19nOEZrOEhUTWhfeFRnVFh0Z1FmS21WRi1TQXhRM3BKY3lfM1pDcU5yODduVG5lV21sM1RBZWQtZ1k2RWFlcDVHQy1IODM2ZkQ2dnc3X0lrby1INjUxSGZNaVZiQQ?oc=5",
-   "official": false,
-   "org": "KBS 뉴스",
-   "kinds": [
-    "정책"
-   ],
-   "src_kind": "정책",
-   "sectors": [],
-   "watch": [],
-   "id": 69,
-   "src": "KR_POLICY",
-   "src_name": "한국 정책 (부처 발표)"
-  },
-  {
-   "title": "10만가구 공급한다는데…강남·용산 빠진 수도권 대책 '실효성 시험대' [8.13 부동산 대책] - 뉴시안",
-   "core": "10만가구 공급한다는데…강남·용산 빠진 수도권 대책 '실효성 시험대' [8.13 부동산 대책]",
-   "date": "Sat, 15 Aug 2026",
-   "abstract": "10만가구 공급한다는데…강남·용산 빠진 수도권 대책 '실효성 시험대' [8.13 부동산 대책]&nbsp;&nbsp;뉴시안",
-   "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5zaUVYRFBaOXVZS3diVlhfTWdjZm9LLThEX3ZvVkxUZ3JtdkxEY0ViX3FSSWJXWURialRhekNMQUgtQzhhbWFlRjRJcklFQTFadVdHdEFxOWZyNU1BdEE0ZlNXQW44eVJHZWfSAW5BVV95cUxPYWF0ZmFFQ1ZfcTZRb3ltanZvRVFjNTZxd04wUUdTaXdScVloQ240X2FrUFVlNmdrcVlTWEdjRzRpd2tWVjlNX25HSmJHYlVPX1VhZDR4aW1JNTU1QW1hdVRQOGwtSWRGNmtOMnFVZw?oc=5",
-   "official": false,
-   "org": "뉴시안",
-   "kinds": [
-    "정책"
-   ],
-   "src_kind": "정책",
-   "sectors": [
-    "건설/부동산"
-   ],
-   "watch": [],
-   "id": 70,
-   "src": "KR_POLICY",
-   "src_name": "한국 정책 (부처 발표)"
+   "src_name": "한국 정책 (부처 발표)",
+   "stage": null
   },
   {
    "title": "싱가포르뉴스 싱가포르 정부, 혼인 및 출생률 하락 대응 위해 국가적 대책 본격 가동 - 뉴스케이",
@@ -1641,105 +2184,10 @@
    "src_kind": "정책",
    "sectors": [],
    "watch": [],
-   "id": 71,
+   "id": 69,
    "src": "KR_POLICY",
-   "src_name": "한국 정책 (부처 발표)"
-  },
-  {
-   "title": "대한건협 “8·13 주택 공급대책 환영…정부 정책 적극 협력” - 아시아투데이",
-   "core": "대한건협 “8·13 주택 공급대책 환영…정부 정책 적극 협력”",
-   "date": "Fri, 14 Aug 2026",
-   "abstract": "대한건협 “8·13 주택 공급대책 환영…정부 정책 적극 협력”&nbsp;&nbsp;아시아투데이",
-   "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9sRkpid19zWjhGMnFuQm9KLV9FZlQ3eVlIS3pNVHZTM1FtM1NqMnFNM3hrbmxUQnJRRUFzRHhoQ1NaN2lVVmdvQkNtMjBOcF9oVWVrUDhXMkpBSkI5X181NlhUY2RKZkR4c0dqaGp3?oc=5",
-   "official": false,
-   "org": "아시아투데이",
-   "kinds": [
-    "정책"
-   ],
-   "src_kind": "정책",
-   "sectors": [],
-   "watch": [],
-   "id": 72,
-   "src": "KR_POLICY",
-   "src_name": "한국 정책 (부처 발표)"
-  },
-  {
-   "title": "신규택지 공개 시점 ‘9말10초’ 못 박았다…관건은 ‘그린벨트 해제’ - sisajournal.com",
-   "core": "신규택지 공개 시점 ‘9말10초’ 못 박았다…관건은 ‘그린벨트 해제’",
-   "date": "Sun, 16 Aug 2026",
-   "abstract": "신규택지 공개 시점 ‘9말10초’ 못 박았다…관건은 ‘그린벨트 해제’&nbsp;&nbsp;sisajournal.com",
-   "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5BdnpLYUlWb1hTYW94MTRuV2Y4NmdXRmxGUGlTeXM0VThkVzBKV1Y3YkJBZXNXVEliRjgtNk44bkZ6MVZtdDZGbmNibU1ncF90SjR1aVllQkkxVC1TVklKY01jSVFXbnpTTWFBTnZIY9IBc0FVX3lxTFBMckh1dE8zZE9SVlhzb0xfd2VRV3NYMUFfMk5Lbm45cVpCeWxPY24wbnVkcHhMNUxiZ1dKajBrZ1czVFpRM01EXzF0NDZkTlpqQjFfRVd5QlpaVVRSa2xPNTNraHNaUDlWTW9zdXZTQ3hXQm8?oc=5",
-   "official": false,
-   "org": "sisajournal.com",
-   "kinds": [
-    "정책"
-   ],
-   "src_kind": "정책",
-   "sectors": [],
-   "watch": [],
-   "id": 73,
-   "src": "KR_POLICY",
-   "src_name": "한국 정책 (부처 발표)"
-  },
-  {
-   "title": "8·13 부동산 대책...'닥공 속도전' 선언 효과볼까? - YTN",
-   "core": "8·13 부동산 대책...'닥공 속도전' 선언 효과볼까?",
-   "date": "Sat, 15 Aug 2026",
-   "abstract": "8·13 부동산 대책...'닥공 속도전' 선언 효과볼까?&nbsp;&nbsp;YTN",
-   "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE91enVPQm84dFNta0w2TVNoQjZzLTBmU0o3bEV4d0kzd2NjZklkcmowaFV0TXFQTHdUQzB6bWxLd0lXb0R0QUVya3p1N25Ja2hmWmg4Ykt1V0lDb2NNdnc?oc=5",
-   "official": false,
-   "org": "YTN",
-   "kinds": [
-    "정책"
-   ],
-   "src_kind": "정책",
-   "sectors": [
-    "건설/부동산"
-   ],
-   "watch": [],
-   "id": 74,
-   "src": "KR_POLICY",
-   "src_name": "한국 정책 (부처 발표)"
-  },
-  {
-   "title": "세제개편 발표 후 호가 하락?…정부가 사례든 아리팍 4.5억↑ - 뉴시스",
-   "core": "세제개편 발표 후 호가 하락?…정부가 사례든 아리팍 4.5억↑",
-   "date": "Fri, 14 Aug 2026",
-   "abstract": "세제개편 발표 후 호가 하락?…정부가 사례든 아리팍 4.5억↑&nbsp;&nbsp;뉴시스",
-   "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5KcDM5T3hvUkhETy05WU9kLVB4SU96aWFtQUlzd0kwUFpNRzExcHNnc1cwQjV2aUE1RHljSjM4bVQ1MDRoSEZrRGVtaW1BQ1I1QUN5STJUeTF6SXJGVUV4ZtIBeEFVX3lxTE5VUVN4MHE4WjdhZjJUOFFnVTlaZXlBbXpJMDZweTNQelBCczh2VUJXaWVTT1FwSmpVaTRNWUVPajFNdGVjNFBQbkF2TU9ZX1BkNEFRd1BoYlhuM1VSRlZfd0VhamQ4ZkhIOEVhM3RYVDlkTmMtZ3B0Rw?oc=5",
-   "official": false,
-   "org": "뉴시스",
-   "kinds": [
-    "정책"
-   ],
-   "src_kind": "정책",
-   "sectors": [
-    "보조금/세제"
-   ],
-   "watch": [],
-   "id": 75,
-   "src": "KR_POLICY",
-   "src_name": "한국 정책 (부처 발표)"
-  },
-  {
-   "title": "‘8·13 부동산 대책’ 여야 연일 여론전…“신속한 실행” “재탕에 불과” - v.daum.net",
-   "core": "‘8·13 부동산 대책’ 여야 연일 여론전…“신속한 실행” “재탕에 불과”",
-   "date": "Fri, 14 Aug 2026",
-   "abstract": "‘8·13 부동산 대책’ 여야 연일 여론전…“신속한 실행” “재탕에 불과”&nbsp;&nbsp;v.daum.net",
-   "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9sNXFOallNX3dFWXFJVXFCTmVPT082by1yVUhOV1hTcTFoVDZHX1JYRUczMWNoS0JrV3lBeXB6dlBTMWNkS2c?oc=5",
-   "official": false,
-   "org": "v.daum.net",
-   "kinds": [
-    "정책"
-   ],
-   "src_kind": "정책",
-   "sectors": [
-    "건설/부동산"
-   ],
-   "watch": [],
-   "id": 76,
-   "src": "KR_POLICY",
-   "src_name": "한국 정책 (부처 발표)"
+   "src_name": "한국 정책 (부처 발표)",
+   "stage": "가동"
   },
   {
    "title": "석유화학 침체 폭풍 맞은 여수… “정부, 실질적 고용안정 대책 내놓아야” - 여수넷통뉴스",
@@ -1757,9 +2205,202 @@
     "원유/가스"
    ],
    "watch": [],
+   "id": 70,
+   "src": "KR_POLICY",
+   "src_name": "한국 정책 (부처 발표)",
+   "stage": null
+  },
+  {
+   "title": "정부 부동산 정책, 與서도 \"폭망\" 우려…李 지지율 최저 - 시사포커스",
+   "core": "정부 부동산 정책, 與서도 \"폭망\" 우려…李 지지율 최저",
+   "date": "Sat, 15 Aug 2026",
+   "abstract": "정부 부동산 정책, 與서도 \"폭망\" 우려…李 지지율 최저&nbsp;&nbsp;시사포커스",
+   "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5sU1M2aTczaW5xSlpNNW83QmVERjlMX3hTaUVNNnJ0SlZ2T0x0RXF0a1plMHBWMjc3ZFkybGhJb3VhMzJWbXhZYWVianU2VkxlbE85YmVfZ1pfeGJkX3h0ZGl6WEtvMm5OZVdmY3ZNWQ?oc=5",
+   "official": false,
+   "org": "시사포커스",
+   "kinds": [
+    "정책"
+   ],
+   "src_kind": "정책",
+   "sectors": [
+    "건설/부동산"
+   ],
+   "watch": [],
+   "id": 71,
+   "src": "KR_POLICY",
+   "src_name": "한국 정책 (부처 발표)",
+   "stage": null
+  },
+  {
+   "title": "정부는 택지, 서울시는 재건축…공급 해법 온도차 - 한스경제",
+   "core": "정부는 택지, 서울시는 재건축…공급 해법 온도차",
+   "date": "Fri, 14 Aug 2026",
+   "abstract": "정부는 택지, 서울시는 재건축…공급 해법 온도차&nbsp;&nbsp;한스경제",
+   "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9mRXE1MEExalVNWFpoNzhfRHo3dmN6RHktYkJ3SXlaZ0tuM0JzSWpYZHVKU1RIbVo3S2tpMXJ3ZkdYYTBSQkpCY0h4R3gwWlJSZVhqa0I5empKejA5YXNkSFNSSzZweDFBVTh30gFvQVVfeXFMUDltRWMxbTlmY0NpVk9VY0VtRVNiMk9NbWhRbGRRMXU2ZFZjTFdwSVhrVERTdlM3VDREOXFlVTB2Ty1mRmcyMUcya01KY3psRmV6cjJ2djY4VDhtaHAwTEVPamtaWEV3cDZMdUxZeEk4?oc=5",
+   "official": false,
+   "org": "한스경제",
+   "kinds": [
+    "정책"
+   ],
+   "src_kind": "정책",
+   "sectors": [
+    "건설/부동산"
+   ],
+   "watch": [],
+   "id": 72,
+   "src": "KR_POLICY",
+   "src_name": "한국 정책 (부처 발표)",
+   "stage": null
+  },
+  {
+   "title": "8·13 부동산 대책...'닥공 속도전' 선언 효과볼까? - YTN",
+   "core": "8·13 부동산 대책...'닥공 속도전' 선언 효과볼까?",
+   "date": "Sat, 15 Aug 2026",
+   "abstract": "8·13 부동산 대책...'닥공 속도전' 선언 효과볼까?&nbsp;&nbsp;YTN",
+   "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE91enVPQm84dFNta0w2TVNoQjZzLTBmU0o3bEV4d0kzd2NjZklkcmowaFV0TXFQTHdUQzB6bWxLd0lXb0R0QUVya3p1N25Ja2hmWmg4Ykt1V0lDb2NNdnc?oc=5",
+   "official": false,
+   "org": "YTN",
+   "kinds": [
+    "정책"
+   ],
+   "src_kind": "정책",
+   "sectors": [
+    "건설/부동산"
+   ],
+   "watch": [],
+   "id": 73,
+   "src": "KR_POLICY",
+   "src_name": "한국 정책 (부처 발표)",
+   "stage": null
+  },
+  {
+   "title": "정부, 해상풍력발전 '필수전력원' 고수···비싼 요금·안전 대책엔 '글쎄' - 공공투데이",
+   "core": "정부, 해상풍력발전 '필수전력원' 고수···비싼 요금·안전 대책엔 '글쎄'",
+   "date": "Sat, 15 Aug 2026",
+   "abstract": "정부, 해상풍력발전 '필수전력원' 고수···비싼 요금·안전 대책엔 '글쎄'&nbsp;&nbsp;공공투데이",
+   "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB4MUpCTlF2bm9Jc2hrcEkxVm1DSDVDNWRVLXJ3RlQxdVloQ0RDbVBPSWpOYVc2QXhwUlJtUnd5SUhIaF92RlhYNzczUUstd0UzejdVUWQwSHUzV0VNQWlWSDNuR3Bqb2dINXRwSlhQSmU?oc=5",
+   "official": false,
+   "org": "공공투데이",
+   "kinds": [
+    "정책"
+   ],
+   "src_kind": "정책",
+   "sectors": [
+    "전력/원자력"
+   ],
+   "watch": [],
+   "id": 74,
+   "src": "KR_POLICY",
+   "src_name": "한국 정책 (부처 발표)",
+   "stage": null
+  },
+  {
+   "title": "건설협회 “8·13 대책 환영”…PF 숨통 트여 주택 공급 속도 기대 - 핀포인트뉴스",
+   "core": "건설협회 “8·13 대책 환영”…PF 숨통 트여 주택 공급 속도 기대",
+   "date": "Sat, 15 Aug 2026",
+   "abstract": "건설협회 “8·13 대책 환영”…PF 숨통 트여 주택 공급 속도 기대&nbsp;&nbsp;핀포인트뉴스",
+   "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE84LVhTVVIyTTBuZl9sVFBlYURrNGMyRG9QaExJMlVTbW1OQS1VSWV3eGZla2VqVDNMQjZmblA0QUhybEpFVzFGcTNob2Y2WE1DTzhlc3NVMHJkZ2ZMR1puMUY4SGdZeldSMkFqRnUxT1ZFLTDSAXdBVV95cUxPLWdqYzJFUTNyQ1dYVFlNZFVvUW8zNDUxdjVwWGlMS2lmRjJkZzBqU2FCLVVkUjFGQTBaclowM0VqRjJidVFFZDFHb2NSVFhhZ1RtWl9DUTB6UWFlWWt4Y3BxdkRZaUxpNXFNd1hScXVZLU9CZ0pwRQ?oc=5",
+   "official": false,
+   "org": "핀포인트뉴스",
+   "kinds": [
+    "정책"
+   ],
+   "src_kind": "정책",
+   "sectors": [
+    "건설/부동산"
+   ],
+   "watch": [],
+   "id": 75,
+   "src": "KR_POLICY",
+   "src_name": "한국 정책 (부처 발표)",
+   "stage": null,
+   "track": {
+    "first": "2026-08-15",
+    "count": 3,
+    "weeks": 1,
+    "moved": null,
+    "prev_stages": []
+   }
+  },
+  {
+   "title": "세제개편 발표 후 호가 하락?…정부가 사례든 아리팍 4.5억↑ - 뉴시스",
+   "core": "세제개편 발표 후 호가 하락?…정부가 사례든 아리팍 4.5억↑",
+   "date": "Fri, 14 Aug 2026",
+   "abstract": "세제개편 발표 후 호가 하락?…정부가 사례든 아리팍 4.5억↑&nbsp;&nbsp;뉴시스",
+   "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5KcDM5T3hvUkhETy05WU9kLVB4SU96aWFtQUlzd0kwUFpNRzExcHNnc1cwQjV2aUE1RHljSjM4bVQ1MDRoSEZrRGVtaW1BQ1I1QUN5STJUeTF6SXJGVUV4ZtIBeEFVX3lxTE5VUVN4MHE4WjdhZjJUOFFnVTlaZXlBbXpJMDZweTNQelBCczh2VUJXaWVTT1FwSmpVaTRNWUVPajFNdGVjNFBQbkF2TU9ZX1BkNEFRd1BoYlhuM1VSRlZfd0VhamQ4ZkhIOEVhM3RYVDlkTmMtZ3B0Rw?oc=5",
+   "official": false,
+   "org": "뉴시스",
+   "kinds": [
+    "정책"
+   ],
+   "src_kind": "정책",
+   "sectors": [
+    "보조금/세제"
+   ],
+   "watch": [],
+   "id": 76,
+   "src": "KR_POLICY",
+   "src_name": "한국 정책 (부처 발표)",
+   "stage": null
+  },
+  {
+   "title": "신규택지 공개 시점 ‘9말10초’ 못 박았다…관건은 ‘그린벨트 해제’ - 시사저널",
+   "core": "신규택지 공개 시점 ‘9말10초’ 못 박았다…관건은 ‘그린벨트 해제’",
+   "date": "Sun, 16 Aug 2026",
+   "abstract": "신규택지 공개 시점 ‘9말10초’ 못 박았다…관건은 ‘그린벨트 해제’&nbsp;&nbsp;시사저널",
+   "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5BdnpLYUlWb1hTYW94MTRuV2Y4NmdXRmxGUGlTeXM0VThkVzBKV1Y3YkJBZXNXVEliRjgtNk44bkZ6MVZtdDZGbmNibU1ncF90SjR1aVllQkkxVC1TVklKY01jSVFXbnpTTWFBTnZIY9IBc0FVX3lxTFBMckh1dE8zZE9SVlhzb0xfd2VRV3NYMUFfMk5Lbm45cVpCeWxPY24wbnVkcHhMNUxiZ1dKajBrZ1czVFpRM01EXzF0NDZkTlpqQjFfRVd5QlpaVVRSa2xPNTNraHNaUDlWTW9zdXZTQ3hXQm8?oc=5",
+   "official": false,
+   "org": "시사저널",
+   "kinds": [
+    "정책"
+   ],
+   "src_kind": "정책",
+   "sectors": [],
+   "watch": [],
    "id": 77,
    "src": "KR_POLICY",
-   "src_name": "한국 정책 (부처 발표)"
+   "src_name": "한국 정책 (부처 발표)",
+   "stage": null
+  },
+  {
+   "title": "10만가구 공급한다는데…강남·용산 빠진 수도권 대책 '실효성 시험대' [8.13 부동산 대책] - 뉴시안",
+   "core": "10만가구 공급한다는데…강남·용산 빠진 수도권 대책 '실효성 시험대' [8.13 부동산 대책]",
+   "date": "Sat, 15 Aug 2026",
+   "abstract": "10만가구 공급한다는데…강남·용산 빠진 수도권 대책 '실효성 시험대' [8.13 부동산 대책]&nbsp;&nbsp;뉴시안",
+   "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5zaUVYRFBaOXVZS3diVlhfTWdjZm9LLThEX3ZvVkxUZ3JtdkxEY0ViX3FSSWJXWURialRhekNMQUgtQzhhbWFlRjRJcklFQTFadVdHdEFxOWZyNU1BdEE0ZlNXQW44eVJHZWfSAW5BVV95cUxPYWF0ZmFFQ1ZfcTZRb3ltanZvRVFjNTZxd04wUUdTaXdScVloQ240X2FrUFVlNmdrcVlTWEdjRzRpd2tWVjlNX25HSmJHYlVPX1VhZDR4aW1JNTU1QW1hdVRQOGwtSWRGNmtOMnFVZw?oc=5",
+   "official": false,
+   "org": "뉴시안",
+   "kinds": [
+    "정책"
+   ],
+   "src_kind": "정책",
+   "sectors": [
+    "건설/부동산"
+   ],
+   "watch": [],
+   "id": 78,
+   "src": "KR_POLICY",
+   "src_name": "한국 정책 (부처 발표)",
+   "stage": null
+  },
+  {
+   "title": "[단독] 정부, ‘비축유 저장고’ 수천만 배럴 추가 증설한다 - 매일경제 마켓",
+   "core": "[단독] 정부, ‘비축유 저장고’ 수천만 배럴 추가 증설한다",
+   "date": "Sun, 16 Aug 2026",
+   "abstract": "[단독] 정부, ‘비축유 저장고’ 수천만 배럴 추가 증설한다&nbsp;&nbsp;매일경제 마켓",
+   "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1XVWhMMzlPY3BMZzRMZF9ZRXRBc1YzYVpXdHFkMUJENTYzM0xlcTdZZXZJUXEtaU5VbmpNdEh5eDRzVHpuVWZ0UjBLMU0xUHlCSmc?oc=5",
+   "official": false,
+   "org": "매일경제 마켓",
+   "kinds": [
+    "정책"
+   ],
+   "src_kind": "산업",
+   "sectors": [],
+   "watch": [],
+   "id": 79,
+   "src": "KR_INDUS",
+   "src_name": "한국 산업·공급망",
+   "stage": null
   },
   {
    "title": "수입과 수출은 연말 마지막 몇 달 동안 성장의 원동력을 제공합니다. - Vietnam.vn",
@@ -1775,9 +2416,10 @@
    "src_kind": "산업",
    "sectors": [],
    "watch": [],
-   "id": 78,
+   "id": 80,
    "src": "KR_INDUS",
-   "src_name": "한국 산업·공급망"
+   "src_name": "한국 산업·공급망",
+   "stage": null
   },
   {
    "title": "[특집/ 향후 10년 한국의 수출을 이끌 차세대 산업 시리즈 No.3 방산] \"K9에서 KF-21·AI 드론까지\"…K-방산, 향후 10년 한국 수출 이끌 핵심 산업으로 부상 - 코리아포스트 한글판",
@@ -1797,31 +2439,10 @@
    "watch": [
     "방산"
    ],
-   "id": 79,
+   "id": 81,
    "src": "KR_INDUS",
-   "src_name": "한국 산업·공급망"
-  },
-  {
-   "title": "정부, 미래성장 동력 ‘7대 SEED’에 SMR, GW급 전압형 HVDC 기술 포함 - 한국전력신문",
-   "core": "정부, 미래성장 동력 ‘7대 SEED’에 SMR, GW급 전압형 HVDC 기술 포함",
-   "date": "Fri, 14 Aug 2026",
-   "abstract": "정부, 미래성장 동력 ‘7대 SEED’에 SMR, GW급 전압형 HVDC 기술 포함&nbsp;&nbsp;한국전력신문",
-   "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9QMzZwNUhNSnJGNEEzOGs4Q2pSQy1IeDdVcm9EZVQyWHJQQkhJaEdzelZvSWNMVDFaYzd2ekZlelBJdncyU1M0ZldpRlNLb2Y0VU13bWZjb01ac0llYVA0MWliMkJOLU5Dd3c?oc=5",
-   "official": false,
-   "org": "한국전력신문",
-   "kinds": [
-    "정책"
-   ],
-   "src_kind": "산업",
-   "sectors": [
-    "전력/원자력"
-   ],
-   "watch": [
-    "SMR"
-   ],
-   "id": 80,
-   "src": "KR_INDUS",
-   "src_name": "한국 산업·공급망"
+   "src_name": "한국 산업·공급망",
+   "stage": null
   },
   {
    "title": "꽝응아이성에 위치한 현대 HD 에코비나 공장 시설 개선 및 확장에 1억 1600만 달러가 투자되었습니다. - Vietnam.vn",
@@ -1837,56 +2458,38 @@
    "src_kind": "산업",
    "sectors": [],
    "watch": [],
-   "id": 81,
-   "src": "KR_INDUS",
-   "src_name": "한국 산업·공급망"
-  },
-  {
-   "title": "Các nước Đông Bắc Á 'cất cánh' nhờ doanh nghiệp đầu tàu - Vietnam.vn",
-   "core": "Các nước Đông Bắc Á 'cất cánh' nhờ doanh nghiệp đầu tàu",
-   "date": "Fri, 14 Aug 2026",
-   "abstract": "Các nước Đông Bắc Á 'cất cánh' nhờ doanh nghiệp đầu tàu&nbsp;&nbsp;Vietnam.vn",
-   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQNlltZ3RpU2dJX05vd0JCQW1TeHFZcFZyNEg1X2tTekp1U2hrN3hhaFZkZ3loOHRiRmpobGxYTVRIREMzVHB4YXJ1ZWNhZ1VrQXFRSkxYdml4VmktM2diTXR1V0FiLVNqS2ppSlBRVTNtdXF6cE5aRjNVckp4cVg1SUctaHdkUQ?oc=5",
-   "official": false,
-   "org": "Vietnam.vn",
-   "kinds": [
-    "정책"
-   ],
-   "src_kind": "산업",
-   "sectors": [],
-   "watch": [],
    "id": 82,
    "src": "KR_INDUS",
-   "src_name": "한국 산업·공급망"
+   "src_name": "한국 산업·공급망",
+   "stage": null
   },
   {
-   "title": "Trump's critical mineral push: A boon for EVs? - Seeking Alpha",
-   "core": "Trump's critical mineral push: A boon for EVs?",
+   "title": "Exclusive-US to tell partners they must pick sides in AI race with China - 95kqds.com",
+   "core": "Exclusive-US to tell partners they must pick sides in AI race with China",
    "date": "Fri, 14 Aug 2026",
-   "abstract": "Trump's critical mineral push: A boon for EVs?&nbsp;&nbsp;Seeking Alpha",
-   "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQZUJBVUN1blJaZ0w5NU1qX1JSRk1ONWxjcGJOcWJ1UDYtU2ZDN290MmQxbm1xY2t2VEVialp3Mmh4U3BzOXA3SXJZVVVPb3JZNEo4YzZxNTNLVzk5bEpYXzJneUdKUEs3WU1FalhGci14amVQajVzWEY1d0N0Skpxa0NoSDIxWmtyZWc?oc=5",
+   "abstract": "Exclusive-US to tell partners they must pick sides in AI race with China&nbsp;&nbsp;95kqds.com",
+   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxORkFRX3hCUFNnZ1hmMmJZY3pGcUwzRldOYVdaNUVMR3YwMzQ0eUZxd05iM1JsdnZVMGt3NzZjN1pyY2xxdEJWRjFHaF95RWJSVFZ5RjI4blRSZ3o3Yndxb2s0bTlnNWNkSnhmMVZyTDhkeUM1bE13d21hMEYyejlld2dZU0szMVVQd1l4LW5jU0MzdUEtVVZEWmwtU0FHbmloMXJjQmtR?oc=5",
    "official": false,
-   "org": "Seeking Alpha",
+   "org": "95kqds.com",
    "kinds": [
     "정책"
    ],
    "src_kind": "해외",
-   "sectors": [
-    "금속/광물"
-   ],
+   "sectors": [],
    "watch": [],
    "id": 83,
    "src": "GLOBAL",
-   "src_name": "해외발 충격 (영문)"
+   "src_name": "해외발 충격 (영문)",
+   "stage": null
   },
   {
-   "title": "Exclusive-US to tell partners they must pick sides in AI race with China - 95 KQDS",
-   "core": "Exclusive-US to tell partners they must pick sides in AI race with China",
+   "title": "European Union Froth Pumps - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+   "core": "European Union Froth Pumps - Market Analysis, Forecast, Size, Trends and Insights",
    "date": "Fri, 14 Aug 2026",
-   "abstract": "Exclusive-US to tell partners they must pick sides in AI race with China&nbsp;&nbsp;95 KQDS",
-   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxORkFRX3hCUFNnZ1hmMmJZY3pGcUwzRldOYVdaNUVMR3YwMzQ0eUZxd05iM1JsdnZVMGt3NzZjN1pyY2xxdEJWRjFHaF95RWJSVFZ5RjI4blRSZ3o3Yndxb2s0bTlnNWNkSnhmMVZyTDhkeUM1bE13d21hMEYyejlld2dZU0szMVVQd1l4LW5jU0MzdUEtVVZEWmwtU0FHbmloMXJjQmtR?oc=5",
+   "abstract": "European Union Froth Pumps - Market Analysis, Forecast, Size, Trends and Insights&nbsp;&nbsp;IndexBox",
+   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQUlVhYWZxSkVMR2c1RWtTNXRsWUtnaWdNUTQ0elFmZUhKenM5NEowQ2x5ZHVpQXlIR3RmSF85M09RQURCZU1yUHotSHBkVVpiYkkwbGV4WldQWjRWWlFrQVpGbUVmWmhQQVZnYnM2Mm9LLUtFT3VmNmQ5NTByeU0zU0wzRkV0NzBVRGNFR0JWMy05cGxGTTFLWTdtc1VIYmR0cV94blpHSkFSQTA?oc=5",
    "official": false,
-   "org": "95 KQDS",
+   "org": "IndexBox",
    "kinds": [
     "정책"
    ],
@@ -1895,61 +2498,15 @@
    "watch": [],
    "id": 84,
    "src": "GLOBAL",
-   "src_name": "해외발 충격 (영문)"
-  },
-  {
-   "title": "The Liberal International Order Gives Way to the Unknown - Geopolitical Monitor",
-   "core": "The Liberal International Order Gives Way to the Unknown",
-   "date": "Fri, 14 Aug 2026",
-   "abstract": "The Liberal International Order Gives Way to the Unknown&nbsp;&nbsp;Geopolitical Monitor",
-   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOSlNpYmFKaWtjLUNWaFpNdzFxNnF4QWFmalJ4NDdpUHk1bzRjb3BDb0pxZU14eDc4Qjg5VkxBNlNpQ2xlS2hLRDB5LUFtRkVZSVpPcjJOX3c1MVdrV0tDS3VUdUNxcWZtTi10OEcyQVNBU3pCMUc0SDBUd1EyeTFvNHJPZm1BUGx6bVNETk1lZGVHYWIzSjZ6LQ?oc=5",
-   "official": false,
-   "org": "Geopolitical Monitor",
-   "kinds": [
-    "정책"
-   ],
-   "src_kind": "해외",
-   "sectors": [],
-   "watch": [],
-   "id": 85,
-   "src": "GLOBAL",
-   "src_name": "해외발 충격 (영문)"
-  },
-  {
-   "title": "European Union Froth Pumps - Market Analysis, Forecast, Size, Trends and Insights - indexbox.io",
-   "core": "European Union Froth Pumps - Market Analysis, Forecast, Size, Trends and Insights",
-   "date": "Fri, 14 Aug 2026",
-   "abstract": "European Union Froth Pumps - Market Analysis, Forecast, Size, Trends and Insights&nbsp;&nbsp;indexbox.io",
-   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQUlVhYWZxSkVMR2c1RWtTNXRsWUtnaWdNUTQ0elFmZUhKenM5NEowQ2x5ZHVpQXlIR3RmSF85M09RQURCZU1yUHotSHBkVVpiYkkwbGV4WldQWjRWWlFrQVpGbUVmWmhQQVZnYnM2Mm9LLUtFT3VmNmQ5NTByeU0zU0wzRkV0NzBVRGNFR0JWMy05cGxGTTFLWTdtc1VIYmR0cV94blpHSkFSQTA?oc=5",
-   "official": false,
-   "org": "indexbox.io",
-   "kinds": [
-    "정책"
-   ],
-   "src_kind": "해외",
-   "sectors": [],
-   "watch": [],
-   "id": 86,
-   "src": "GLOBAL",
-   "src_name": "해외발 충격 (영문)"
-  },
-  {
-   "title": "The structural opportunity behind a volatile year for rare earths - The Armchair Trader",
-   "core": "The structural opportunity behind a volatile year for rare earths",
-   "date": "Fri, 14 Aug 2026",
-   "abstract": "The structural opportunity behind a volatile year for rare earths&nbsp;&nbsp;The Armchair Trader",
-   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPMVl4NFRtcnh0NE1KUmJxaHBaX0NLMG5FaGRtR0FxTHYwcDQxcXNVRW1Jd2lpUXRhelBDZ1JjQVpUSGtMcmFpSTA2RVlFcnp2NTcxNDRRV0poQkdJT3kxb3dfRXhNRlUtdWhsTVI3b3oxVVRxZGVRMTZUdXg5LW5sSV9laFZ1bFVvTWYxNzhsNEJmZUI4dFJteEZXYnZWeHJ5VDQ3TDZVTl9oWGloNWRKcS1R?oc=5",
-   "official": false,
-   "org": "The Armchair Trader",
-   "kinds": [
-    "정책"
-   ],
-   "src_kind": "해외",
-   "sectors": [],
-   "watch": [],
-   "id": 87,
-   "src": "GLOBAL",
-   "src_name": "해외발 충격 (영문)"
+   "src_name": "해외발 충격 (영문)",
+   "stage": null,
+   "track": {
+    "first": "2026-08-12",
+    "count": 2,
+    "weeks": 1,
+    "moved": null,
+    "prev_stages": []
+   }
   },
   {
    "title": "EU Prepares for Potential Trade Battle with China - slguardian.org",
@@ -1965,27 +2522,10 @@
    "src_kind": "해외",
    "sectors": [],
    "watch": [],
-   "id": 88,
+   "id": 85,
    "src": "GLOBAL",
-   "src_name": "해외발 충격 (영문)"
-  },
-  {
-   "title": "America found a rare metal it desperately needs. Red tape could keep it in the ground for ages - bizpacreview.com",
-   "core": "America found a rare metal it desperately needs. Red tape could keep it in the ground for ages",
-   "date": "Fri, 14 Aug 2026",
-   "abstract": "America found a rare metal it desperately needs. Red tape could keep it in the ground for ages&nbsp;&nbsp;bizpacreview.com",
-   "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxON2lIQWtYT0pienV4MDN5MVIwQVZlSHlfYVJCVFFYeUQyYm5nUmxtbWJtX0trQlRSbGdiWFo0TmdmdDNqNkRpUWRhX0FwZ1V5eVNjWE5LVXdRWUo1c1VUZkV5Q0UzaU11RE5xbVFTd3pWSGN2a0t4T1ozWmdKWGw5VUxqdmRKWVdYVXl3TGVzdlIyVWoxOHFROFBVaHI1YnhRVlRLSGtlYW1nQ012OWZhcnVQSXVIdnNLWC04NlFRWGFkVzlEMnE5dnQ3VHNPRXF1ZHpRQUFNcGNwZw?oc=5",
-   "official": false,
-   "org": "bizpacreview.com",
-   "kinds": [
-    "정책"
-   ],
-   "src_kind": "해외",
-   "sectors": [],
-   "watch": [],
-   "id": 89,
-   "src": "GLOBAL",
-   "src_name": "해외발 충격 (영문)"
+   "src_name": "해외발 충격 (영문)",
+   "stage": null
   },
   {
    "title": "[예정] FOMC 2026-10-28",
@@ -2003,9 +2543,119 @@
     "금리/통화"
    ],
    "watch": [],
-   "id": 90,
+   "id": 86,
    "src": "CALENDAR",
-   "src_name": "예정 일정"
+   "src_name": "예정 일정",
+   "stage": null,
+   "track": {
+    "first": "2026-08-12",
+    "count": 19,
+    "weeks": 1,
+    "moved": null,
+    "prev_stages": []
+   }
+  }
+ ],
+ "motion": [
+  {
+   "sector": "금융/증권",
+   "now": 29,
+   "prev": 0,
+   "chg": null,
+   "stages_now": {
+    "계약": 6
+   },
+   "stages_prev": {}
+  },
+  {
+   "sector": "건설/부동산",
+   "now": 7,
+   "prev": 0,
+   "chg": null,
+   "stages_now": {},
+   "stages_prev": {}
+  },
+  {
+   "sector": "바이오/의료",
+   "now": 4,
+   "prev": 0,
+   "chg": null,
+   "stages_now": {
+    "확정": 1
+   },
+   "stages_prev": {}
+  },
+  {
+   "sector": "조선/해운",
+   "now": 4,
+   "prev": 0,
+   "chg": null,
+   "stages_now": {},
+   "stages_prev": {}
+  },
+  {
+   "sector": "금리/통화",
+   "now": 2,
+   "prev": 0,
+   "chg": null,
+   "stages_now": {},
+   "stages_prev": {}
+  },
+  {
+   "sector": "항공/물류",
+   "now": 2,
+   "prev": 0,
+   "chg": null,
+   "stages_now": {},
+   "stages_prev": {}
+  },
+  {
+   "sector": "반도체/AI",
+   "now": 1,
+   "prev": 0,
+   "chg": null,
+   "stages_now": {},
+   "stages_prev": {}
+  },
+  {
+   "sector": "수출통제/관세",
+   "now": 1,
+   "prev": 0,
+   "chg": null,
+   "stages_now": {},
+   "stages_prev": {}
+  },
+  {
+   "sector": "원유/가스",
+   "now": 1,
+   "prev": 0,
+   "chg": null,
+   "stages_now": {},
+   "stages_prev": {}
+  },
+  {
+   "sector": "전력/원자력",
+   "now": 1,
+   "prev": 0,
+   "chg": null,
+   "stages_now": {},
+   "stages_prev": {}
+  },
+  {
+   "sector": "보조금/세제",
+   "now": 1,
+   "prev": 0,
+   "chg": null,
+   "stages_now": {},
+   "stages_prev": {}
+  },
+  {
+   "sector": "방산/우주",
+   "now": 1,
+   "prev": 0,
+   "chg": null,
+   "stages_now": {},
+   "stages_prev": {}
   }
  ],
  "coverage": "공시·정책 원문 우선. 개별 기업 주가·잡담 기사는 제외. 여기 없는 정보는 존재할 수 있음."

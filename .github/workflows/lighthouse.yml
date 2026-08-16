@@ -84,6 +84,9 @@ jobs:
         if: steps.sw.outputs.state != 'off' && (github.event.schedule == '0 9 * * 0' || inputs.weekly)
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_THINK: "1"
+          GEMINI_FREE_FIRST: "1"
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           GITHUB_REPOSITORY: ${{ github.repository }}
@@ -99,3 +102,4 @@ jobs:
           git add -A
           git diff --cached --quiet || git commit -m "등대 $(date -u +'%Y-%m-%d %H:%M UTC')"
           git push
+          

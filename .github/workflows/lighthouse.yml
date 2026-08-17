@@ -3,18 +3,18 @@ on:
   workflow_dispatch:          # 수동 실행 버튼
     inputs:
       weekly:
-        description: '주간 AI 보고서도 함께 실행 (유료 — API 크레딧 소모)'
+        description: '주간 종합보고도 함께 실행 (무료 · 평소엔 일요일 자동)'
+        type: boolean
+        default: false
+      no_ai:
+        description: 'AI 없이 목록만 만들기 (요약·사슬 없음)'
         type: boolean
         default: false
       force:
-        description: '오늘 이미 만들었어도 다시 생성 (중복 방지 해제)'
+        description: '오늘 이미 만들었어도 다시 생성'
         type: boolean
         default: false
-      free:
-        description: '무료 요약만 (AI 미사용 · 비용 0원)'
-        type: boolean
-        default: false
-  schedule:
+    schedule:
     - cron: "30 21 * * *"     # 매일 06:30 KST 무렵 (수집+요약)
     - cron: "0 9 * * 0"       # 일요일 18:00 KST 무렵 (+ AI 주간보고)
 permissions:
@@ -52,8 +52,8 @@ jobs:
           DART_KEY: ${{ secrets.DART_KEY }}
         run: python collector.py
 
-      - name: 2) 일일 AI 요약 + 텔레그램
-        if: steps.sw.outputs.state != 'off' && inputs.free != true
+      - name: 2) 일일 보고 (AI) + 텔레그램
+        if: steps.sw.outputs.state != 'off' && inputs.no_ai != true
         continue-on-error: true
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
@@ -72,15 +72,15 @@ jobs:
           DAILY_MONTH_LIMIT: "40"
         run: python daily.py
 
-      - name: 2b) 무료 요약 (free 옵션을 켰을 때만)
-        if: steps.sw.outputs.state != 'off' && inputs.free == true
+      - name: 2b) 목록만 (AI 없이)
+        if: steps.sw.outputs.state != 'off' && inputs.no_ai == true
         env:
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           GITHUB_REPOSITORY: ${{ github.repository }}
         run: python digest.py
 
-      - name: 3) 주간 AI 보고 (일요일 또는 수동 선택 시)
+      - name: 3) 주간 종합보고 (일요일 자동 / 수동 선택)
         if: steps.sw.outputs.state != 'off' && (github.event.schedule == '0 9 * * 0' || inputs.weekly)
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
@@ -102,4 +102,3 @@ jobs:
           git add -A
           git diff --cached --quiet || git commit -m "등대 $(date -u +'%Y-%m-%d %H:%M UTC')"
           git push
-          

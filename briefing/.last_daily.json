@@ -1,7 +1,7 @@
 {
  "last_date": "2026-08-17",
  "month": "2026-08",
- "count": 10,
+ "count": 11,
  "runs": [
   {
    "at": "2026-08-12 22:02",
@@ -90,6 +90,15 @@
     "input_tokens": 9756,
     "output_tokens": 2046,
     "thinking_tokens": 4720,
+    "max_out": 32768
+   }
+  },
+  {
+   "at": "2026-08-17 13:29",
+   "usage": {
+    "input_tokens": 10302,
+    "output_tokens": 1997,
+    "thinking_tokens": 3685,
     "max_out": 32768
    }
   }

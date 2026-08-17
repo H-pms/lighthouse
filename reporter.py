@@ -3,7 +3,7 @@
 분석관 p4.2 — 주간 보고서 (실패 시 텔레그램 경고): 워치리스트 ⭐ + 개방형 산업 분류. 상한 6000.
 역할: 분석관(Opus 5)=요약 작성만 / 검토관(Fable 5)=누락 검사·수정 명령 / 판단=사용자.
 """
-import os, json, glob
+import os, re, json, glob, time
 from datetime import datetime, timezone, timedelta
 import requests
 
@@ -219,7 +219,7 @@ def call_gemini(prompt):
                 "contents": [{"role": "user", "parts": [{"text": prompt}]}],
                 "generationConfig": gen}
         url = f"https://generativelanguage.googleapis.com/v1beta/models/{c['name']}:generateContent"
-        for attempt in (1, 2):
+        for attempt in (1, 2, 3):
             try:
                 r = requests.post(url, params={"key": key}, json=body, timeout=900)
                 if r.status_code == 200:
@@ -237,6 +237,10 @@ def call_gemini(prompt):
                                       "thinking_tokens": um.get("thoughtsTokenCount", 0)}}
                 if r.status_code == 400 and "thinking" in r.text.lower() and attempt == 1:
                     gen.pop("thinkingConfig", None); body["generationConfig"] = gen
+                    continue
+                if r.status_code in (500, 502, 503, 504) and attempt == 1:
+                    print(f"[{c['name']}] 일시 혼잡({r.status_code}) - 8초 후 재시도")
+                    time.sleep(8)
                     continue
                 why = "무료 한도 없음/초과" if r.status_code == 429 else \
                       ("모델 없음" if r.status_code == 404 else r.text[:100])

@@ -1,104 +1,14 @@
 {
- "last_date": "2026-08-17",
- "month": "2026-08",
- "count": 11,
+ "last_date": "2026-09-10",
+ "month": "2026-09",
+ "count": 1,
  "runs": [
   {
-   "at": "2026-08-12 22:02",
+   "at": "2026-09-10 22:23",
    "usage": {
-    "input_tokens": 13115,
-    "cache_creation_input_tokens": 0,
-    "cache_read_input_tokens": 0,
-    "output_tokens": 1294
-   }
-  },
-  {
-   "at": "2026-08-13 08:26",
-   "usage": {
-    "input_tokens": 22209,
-    "cache_creation_input_tokens": 0,
-    "cache_read_input_tokens": 0,
-    "output_tokens": 3500
-   }
-  },
-  {
-   "at": "2026-08-14 08:28",
-   "usage": {
-    "input_tokens": 23779,
-    "cache_creation_input_tokens": 0,
-    "cache_read_input_tokens": 0,
-    "output_tokens": 3500
-   }
-  },
-  {
-   "at": "2026-08-14 17:02",
-   "usage": {
-    "input_tokens": 20623,
-    "cache_creation_input_tokens": 0,
-    "cache_read_input_tokens": 0,
-    "output_tokens": 9772
-   }
-  },
-  {
-   "at": "2026-08-14 17:09",
-   "usage": {
-    "input_tokens": 15189,
-    "output_tokens": 2254,
-    "thinking_tokens": 4173,
-    "max_out": 32768
-   }
-  },
-  {
-   "at": "2026-08-14 17:44",
-   "usage": {
-    "input_tokens": 14718,
-    "output_tokens": 3308,
-    "thinking_tokens": 6314,
-    "max_out": 32768
-   }
-  },
-  {
-   "at": "2026-08-15 07:02",
-   "usage": {
-    "input_tokens": 15659,
-    "output_tokens": 2732,
-    "thinking_tokens": 5296,
-    "max_out": 32768
-   }
-  },
-  {
-   "at": "2026-08-16 06:58",
-   "usage": {
-    "input_tokens": 14531,
-    "output_tokens": 3287,
-    "thinking_tokens": 7263,
-    "max_out": 32768
-   }
-  },
-  {
-   "at": "2026-08-16 23:54",
-   "usage": {
-    "input_tokens": 14197,
-    "output_tokens": 1616,
-    "thinking_tokens": 3645,
-    "max_out": 32768
-   }
-  },
-  {
-   "at": "2026-08-17 00:06",
-   "usage": {
-    "input_tokens": 9756,
-    "output_tokens": 2046,
-    "thinking_tokens": 4720,
-    "max_out": 32768
-   }
-  },
-  {
-   "at": "2026-08-17 13:29",
-   "usage": {
-    "input_tokens": 10302,
-    "output_tokens": 1997,
-    "thinking_tokens": 3685,
+    "input_tokens": 18281,
+    "output_tokens": 2329,
+    "thinking_tokens": 3803,
     "max_out": 32768
    }
   }

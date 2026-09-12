@@ -1,0 +1,223 @@
+{
+  "cards": {
+    "0b871431732ab786": {
+      "id": "0b871431732ab786",
+      "event": "한국 소형모듈원자로(SMR) 특별법 및 시행령 시행(2026-09-11)과 경상남도의 4조 6,990억 원 규모 SMR 제조거점 육성 계획 발표",
+      "refs": [
+        80,
+        81,
+        82,
+        83,
+        85,
+        86,
+        87
+      ],
+      "status": "미확인",
+      "update": "신규 등록 사안으로 이전 가설 대비 변화 미확인",
+      "steps": [
+        {
+          "effect": "SMR 상용화 및 실증 지원체계의 법적 근거가 마련되어 정부 주도 R&D 및 인허가 지원 체계 본격 가동",
+          "refs": [
+            80,
+            81,
+            82,
+            83
+          ],
+          "condition": "특별법 하위 지침 제정 완료 및 상용화 실증 관련 정부 예산의 정상 집행",
+          "benefit": "SMR 원자로 설계 및 기술 개발 참여 기관·기업",
+          "harm": "미확인",
+          "alternative": "세부 예산 집행 지연이나 인허가 기준 마련 지체 시 실증 일정 순연",
+          "observe": "산업통상자원부 SMR 실증 지원 사업 공고 및 예산 배정 현황",
+          "timing": "2026년 하반기 중 확인"
+        },
+        {
+          "effect": "경남 지역을 중심으로 SMR 제조 설비 투자 및 주기기·보조기기 공급망 구축 추진",
+          "refs": [
+            85,
+            86,
+            87
+          ],
+          "condition": "경남도의 4조 6,990억 원 투자 재원 조달 및 지자체-기업 간 제조 설비 착공",
+          "benefit": "원전 주·단조 및 SMR 부품 가공 설비를 보유한 기자재 제조사",
+          "harm": "지방비 매칭 실패 시 투자 계획이 축소되는 지자체 및 유치 실패 기업",
+          "alternative": "글로벌 SMR 발주 지연 또는 경제성 확보 실패 시 설비 투자 집행 속도 둔화",
+          "observe": "경남도 SMR 제조 클러스터 착공 공시 및 주요 원전 기자재사 수주 계약",
+          "timing": "2035년까지 단계적 집행 (단기 확인 시점은 미확인)"
+        }
+      ],
+      "date": "2026-09-12",
+      "sources": [
+        {
+          "number": 80,
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBsWFF6SUs1Ylc2b25UUDd0SWhKQk5KRmhQOG55VERzckxobl9pQmhwU0g3clN2OUh3RFJMM2xiVEpJWU9CRlhXeHRQeHFIUXZpRDR2VExteENUd181WnBkdURSWDRfQ0U?oc=5",
+          "date": "Fri, 11 Sep 2026"
+        },
+        {
+          "number": 81,
+          "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9HZ1Z2bUhDNXZ6clBURm5UbW5lQy1oOHFKTGZwOVBtSmstdC1NT2w5ZmFfWU5id0tOVXBTdWc5Z0FCa3FPR1E?oc=5",
+          "date": "Fri, 11 Sep 2026"
+        },
+        {
+          "number": 82,
+          "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5DTWZXRElmcl9za2pUMTdJOXZjZ1dGRWlycExnNDZ0ZWVZbjFBVFB4djl4eU94Q25RZklWaFFhemdyZkJEWDBMYlNES3FFZTR2YmRPRWZtNF_SAVhBVV95cUxOQ01mV0RJZnJfc2tqVDE3STl2Y2dXRkVpcnBMZzQ2dGVlWW4xQVRQeHY5eHlPeENuUWZJVmhRYXpncmZCRFgwTGJTREtxRWU0dmJkT0VmbTRf?oc=5",
+          "date": "Fri, 11 Sep 2026"
+        },
+        {
+          "number": 83,
+          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQa2N1LWZ6b1VyZGUzR2tkT1J3SUY4Sno1dVE1LWVEc3FMRWZNM0RMTmJTTWRJVEpYQXlLTjQ4ZGpnMC1lSE02REFyMU1MTE9HSTNYV2pPWU5VTGFvTkJNSVJpY1o4R09xWE1yTGd0RVBNSndrSl9jYUUyaDV3N29QWWFYbm5UV2p5Qk16Ug?oc=5",
+          "date": "Fri, 11 Sep 2026"
+        },
+        {
+          "number": 85,
+          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPS1o2ZEZvcnZBMGs5Yi1tYmJ3SEk1N3NFVFg5aU5zM0FiNEVVc0duejE1SFY2Z2R4UTFpWE5qaHBXQkcxTFc5UXZtNWo2ZFBLRklJQUVnNmFQVEZhNGwxQTlfLWxkSzBVRDBDX1F5UVR5Ym9aT2RKaXdSZ041SVJPN0JPQ0hLaUQ2aVMzS0NR?oc=5",
+          "date": "Thu, 10 Sep 2026"
+        },
+        {
+          "number": 86,
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5vWmFoaXo3V2RCVGZheEZlRUxPX0h6bDlZMGZuemJxLXRpdGVJSnF6Q2d5YTd4bUQ2T0JKQnFhUF9zajdwVTBTZjlyandwb1FzRHZQNjMzaWN0amtzd3NQTjdfd0haR1BsQmdPOU11UUbSAXBBVV95cUxOb1phaGl6N1dkQlRmYXhGZUVMT19Iemw5WTBmbnpicS10aXRlSUpxekNneWE3eG1ENk9CSkJxYVBfc2o3cFUwU2Y5cmp3cG9Rc0R2UDYzM2ljdGprc3dzUE43X3dIWkdQbEJnTzlNdVFG?oc=5",
+          "date": "Thu, 10 Sep 2026"
+        },
+        {
+          "number": 87,
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE0xMUFLZ1JfV2g4WHJMUVpxQ0JnN3hlZ0FoZ1ZKRm9OWGtacng2bFEtd1FoQlpMUVQ3QUhRa2Y5TFlWWkRYWTF5dGhMY2ZMSnhIcXlIRXB5T0FxTWZPZWtDMTdSNTdGQ01NTlh2btIBb0FVX3lxTE82cUFITWhUQXlaVHhoN3RhdVc2a0YyTUNCdXpqNlFSaEZkVlZBTWI1ZnRLVlU1Vi1aME1rWXpvUjk3bGcyeEoxcmp5bVdNRTVPS0hQWHV1aEMxMUxtWVgzcWFsNE92QzdROHdVWjFuOA?oc=5",
+          "date": "Thu, 10 Sep 2026"
+        }
+      ]
+    },
+    "6e5a2a33c1944577": {
+      "id": "6e5a2a33c1944577",
+      "event": "미국 FCC의 통신 공급망 안보 강화 조치로 Covered List 대상 기업이 제작한 로직 부품 탑재 장비의 인증 불허 규정 도입",
+      "refs": [
+        96
+      ],
+      "status": "미확인",
+      "update": "신규 등록 사안으로 이전 가설 대비 변화 미확인",
+      "steps": [
+        {
+          "effect": "Covered List 기업이 생산한 로직 반도체·부품을 사용한 통신 장비의 미국 내 신규 기기 인증 및 유통 차단",
+          "refs": [
+            96
+          ],
+          "condition": "FCC 최종 규칙 발효 및 기기 인증(Equipment Authorization) 심사 기준 적용",
+          "benefit": "미국 및 우방국 소재 통신용 반도체·로직 부품 제조업체",
+          "harm": "Covered List 등재 기업 부품을 사용해 온 통신장비 및 부품 제조사",
+          "alternative": "규제 적용 예외 조항 신설 또는 유예 조치 부여 시 시장 차단 효과 반감",
+          "observe": "미 연방관보(Federal Register) 내 최종 규칙 발효일 공고 및 FCC 인증 승인 현황",
+          "timing": "미확인"
+        },
+        {
+          "effect": "글로벌 통신 장비 제조사의 부품 공급망 탈중국 재설계 및 재인증 비용 발생",
+          "refs": [
+            96
+          ],
+          "condition": "통신장비 완제품 제조사의 비중국산 로직 부품으로의 전면 교체 및 전체 인증 재신청",
+          "benefit": "공급망 적격 인증을 획득한 대체 통신 부품 공급망",
+          "harm": "장비 재설계 및 인증 지연에 따른 원가 상승을 겪는 완제품 제조사",
+          "alternative": "대체 부품의 공급 부족으로 완제품 출하 지연 발생 가능",
+          "observe": "글로벌 통신장비 업체의 부품 교체 공시 및 FCC 인증 소요 기간",
+          "timing": "미확인"
+        }
+      ],
+      "date": "2026-09-12",
+      "sources": [
+        {
+          "number": 96,
+          "link": "https://www.federalregister.gov/documents/2026/09/11/2026-18535/protecting-against-national-security-threats-to-the-communications-supply-chain-through-the",
+          "date": "2026-09-11"
+        }
+      ]
+    },
+    "af43d2e9563b578b": {
+      "id": "af43d2e9563b578b",
+      "event": "미국 국방 조달 계약업체 대상 희토류 영구자석 공급망 규제 강화 발표",
+      "refs": [
+        119
+      ],
+      "status": "미확인",
+      "update": "신규 등록 사안으로 이전 가설 대비 변화 미확인",
+      "steps": [
+        {
+          "effect": "미국 방산 무기체계 납품 기업의 비우방국산 희토류 영구자석 사용 제한 및 공급망 원산지 추적 요건 강화",
+          "refs": [
+            119
+          ],
+          "condition": "미 국방 조달 규정(DFARS) 세부 기준 개정 및 방산 납품 검사 적용",
+          "benefit": "미국 및 동맹국에 위치한 희토류 정제 및 영구자석 제조사",
+          "harm": "기존 공급망을 통해 특정국산 희토류 자석을 조달하던 방산 협력업체",
+          "alternative": "대체 공급선 부족 시 국방부의 한시적 면제(Waiver) 승인으로 규제 적용 유예",
+          "observe": "미 국방부 조달 규정 개정안 및 방산 계약 조건 변경 공고",
+          "timing": "미확인"
+        },
+        {
+          "effect": "비우방국 외 지역에서의 희토류 채굴·정제 및 영구자석 장기 공급 계약 수요 확대",
+          "refs": [
+            119,
+            136
+          ],
+          "condition": "방산 체계업체의 대체 공급망 확보를 위한 장기 구매 계약 체결",
+          "benefit": "서방 공급망 내 희토류 제련 및 영구자석 소결 공장 운영 기업",
+          "harm": "원자재 조달 단가 상승에 따른 무기 제조 비용 증가",
+          "alternative": "자석 정제 단가 상승이 방산 계약 단가로 전가되지 않을 경우 제조사 마진 악화",
+          "observe": "희토류 영구자석 공급 계약 체결 공시 및 조달 단가 변동",
+          "timing": "미확인"
+        }
+      ],
+      "date": "2026-09-12",
+      "sources": [
+        {
+          "number": 119,
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPYV9CTWtZMDJ0WnR6YW1EZXJJZ09GczM5QjJ2bE8xaDgzNXl3VExsWGlhVHAxWGRPS2R3TVhvTDluS2IzRUk1Ti1tZUNSc05xSk1QXy1XUm03WUxaOHBwWDJyMWdZczU2U0VNTkl4X1lERDMybnZSY01wS2pEWkRNclhmTjJUa2szcjEtQ0RLSjFnWVVja1l0SjFlZ01RVXNNRWxZNVRHQ3pjZ3FBS2k4?oc=5",
+          "date": "Fri, 11 Sep 2026"
+        },
+        {
+          "number": 136,
+          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNUXpaNHJXMUJaWVBleWthMGVPcWphaW9EeXBWcXNSZkpYeVdkVnhQNnUzaE40RktqRlgyU3h3Rlh1YXB2RnBpNG5rak12Ykx1U1RJUVBzbkJqYU5aZ01TR0Ftc0FoYnZBZWNfN2o1MmhhaUVraDQwU0NLU1AzOW9qSVRMdmZPYUJ1eGFXdWo2TVBWSFNxeE5OeDhsVHVndk5SS0t2RmM0QkhOcW9PM0lEWUN2a2UwTDlN?oc=5",
+          "date": "Thu, 10 Sep 2026"
+        }
+      ]
+    },
+    "7e1e6a8f62801c40": {
+      "id": "7e1e6a8f62801c40",
+      "event": "미국 FDA의 심혈관 질환 머신러닝 기반 알림 소프트웨어 Class II(특별 관리) 품목 분류 결정",
+      "refs": [
+        91
+      ],
+      "status": "미확인",
+      "update": "신규 등록 사안으로 이전 가설 대비 변화 미확인",
+      "steps": [
+        {
+          "effect": "심혈관 머신러닝 알림 소프트웨어의 인허가 기준이 Class II로 정문화되어 규제 불확실성 완화 및 시장 진입 경로 명확화",
+          "refs": [
+            91
+          ],
+          "condition": "FDA 특별 관리(Special Controls) 기준 고시 충족 및 510(k) 심사 통과",
+          "benefit": "머신러닝 기반 심혈관 진단·모니터링 소프트웨어 개발사",
+          "harm": "특별 관리 기준을 충족하지 못하는 기존 저품질 소프트웨어 개발사",
+          "alternative": "알고리즘 안전성 검증 실패 또는 추가 임상 요구 시 승인 지연",
+          "observe": "FDA 510(k) 데이터베이스 내 심혈관 머신러닝 소프트웨어 승인 목록",
+          "timing": "발표일 이후 상시"
+        },
+        {
+          "effect": "미국 내 의료기관의 AI 심혈관 알림 소프트웨어 채택 확대 및 상용화 가속",
+          "refs": [
+            91
+          ],
+          "condition": "미국 병원 시스템 도입 및 관련 의료 보험 수가 적용",
+          "benefit": "FDA 승인을 획득한 의료 AI 및 디지털 헬스케어 솔루션 기업",
+          "harm": "전통적 수동 모니터링 방식 장비 공급사",
+          "alternative": "보험 수가 미적용 시 병원 도입 지연으로 상용화 속도 저하",
+          "observe": "미국 메디케어/민간보험 수가 코드 등재 여부 및 주요 AI 의료기기 매출 공시",
+          "timing": "미확인"
+        }
+      ],
+      "date": "2026-09-12",
+      "sources": [
+        {
+          "number": 91,
+          "link": "https://www.federalregister.gov/documents/2026/09/11/2026-18612/medical-devices-cardiovascular-devices-classification-of-the-cardiovascular-machine-learning-based",
+          "date": "2026-09-11"
+        }
+      ]
+    }
+  }
+}

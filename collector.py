@@ -608,6 +608,18 @@ STAGE_STRONG = {
 
 def stage_of(text):
     t = (text or "").lower()
+    # Future/negated language cannot establish an accomplished stage.
+    if re.search(r'예정|계획|미정|취소|철회|연기|않|아니|will|planned|proposed', t):
+        return None
+    if any(int(y) > TODAY.year for y in re.findall(r'(20\d{2})년', t)):
+        return None
+    dates = re.findall(r'(20\d{2})[-년]\s*(\d{1,2})[-월]\s*(\d{1,2})', t)
+    for y, m, d in dates:
+        try:
+            if datetime(int(y), int(m), int(d)).date() > TODAY.date():
+                return None
+        except ValueError:
+            return None
     for name, kws in STAGE_STRONG.items():      # 강한 표지 우선
         if any(k in t for k in kws):
             return name
@@ -664,8 +676,8 @@ def track_issues(items, days=28):
             weeks = None
         stages = [r["stage"] for r in rel if r["stage"]]
         moved = None
-        if stages and x["stage"] and stages[0] != x["stage"]:
-            moved = f"{stages[0]}→{x['stage']}"
+        if stages and x["stage"] and stages[-1] != x["stage"]:
+            moved = f"{stages[-1]}→{x['stage']}"
         x["track"] = {"first": first, "count": len(rel) + 1,
                       "weeks": weeks, "moved": moved,
                       "prev_stages": list(dict.fromkeys(stages))[-3:]}
@@ -674,40 +686,47 @@ def track_issues(items, days=28):
 # ══════════ 산업 단계 요약 (앞파도의 움직임) ══════════
 def sector_motion(items, days=28):
     """산업별로 이번 주 vs 지난 주 건수·단계 분포의 변화"""
-    now = {}
-    for x in items:
-        for s in (x.get("sectors") or []):
-            d = now.setdefault(s, {"n": 0, "stages": {}})
-            d["n"] += 1
-            st = x.get("stage")
-            if st:
-                d["stages"][st] = d["stages"].get(st, 0) + 1
-    prev = {}
-    for back in range(7, 15):      # 지난 주 구간
-        d = (TODAY - timedelta(days=back)).strftime("%Y-%m-%d")
-        p = f"data/raw_{d}.json"
-        if not os.path.exists(p):
-            continue
-        try:
-            j = json.load(open(p, encoding="utf-8"))
-            for x in j.get("items", []):
-                for s in (x.get("sectors") or []):
-                    e = prev.setdefault(s, {"n": 0, "stages": {}})
-                    e["n"] += 1
-                    st = x.get("stage") or stage_of(x.get("core", ""))
-                    if st:
-                        e["stages"][st] = e["stages"].get(st, 0) + 1
-        except Exception:
-            pass
-    out = []
-    for s, d in sorted(now.items(), key=lambda kv: -kv[1]["n"]):
-        p = prev.get(s, {"n": 0, "stages": {}})
-        chg = None
-        if p["n"]:
-            chg = (d["n"] - p["n"]) / p["n"]
-        out.append({"sector": s, "now": d["n"], "prev": p["n"], "chg": chg,
-                    "stages_now": d["stages"], "stages_prev": p["stages"]})
-    return out[:14]
+    buckets = [{}, {}]
+    seen = set()
+    coverage = [0, 0]
+    for back in range(13, -1, -1):
+        if back == 0:
+            rows = items
+        else:
+            p = f"data/raw_{(TODAY - timedelta(days=back)).strftime('%Y-%m-%d')}.json"
+            if not os.path.exists(p):
+                continue
+            try:
+                with open(p, encoding="utf-8") as f:
+                    raw = json.load(f)
+                if any(not src.get("ok") for src in raw.get("sources", [])):
+                    continue
+                rows = raw.get("items", [])
+            except (OSError, ValueError):
+                continue
+        bucket = 0 if back < 7 else 1
+        coverage[bucket] += 1
+        for x in rows:
+            key = x.get("link") or x.get("core")
+            if not key or key in seen:
+                continue
+            seen.add(key)
+            for sector in x.get("sectors", []):
+                record = buckets[bucket].setdefault(sector, {"n": 0, "stages": {}})
+                record["n"] += 1
+                stage = x.get("stage")
+                if stage:
+                    record["stages"][stage] = record["stages"].get(stage, 0) + 1
+    result = []
+    for sector in sorted(set(buckets[0]) | set(buckets[1])):
+        now = buckets[0].get(sector, {"n": 0, "stages": {}})
+        prev = buckets[1].get(sector, {"n": 0, "stages": {}})
+        complete = coverage == [7, 7]
+        result.append({"sector": sector, "now": now["n"], "prev": prev["n"],
+                       "chg": (now["n"] / prev["n"] - 1) if complete and prev["n"] else None,
+                       "coverage_days": coverage, "stages_now": now["stages"], "stages_prev": prev["stages"]})
+    return result
+
 
 def dedup(items):
     """같은 공시·같은 기사 중복 제거 (링크 기준, 뒤에 온 것은 버림)"""
@@ -742,6 +761,10 @@ def main():
     items = dedup(items)
     items = track_issues(items)
     motion = sector_motion(items)
+    if errors:
+        for m in motion:
+            m['chg'] = None
+            m['coverage_days'][0] = max(0, m['coverage_days'][0] - 1)
     tracked = len([x for x in items if x.get("track")])
     print(f"사안 추적: {tracked}건에 이력 연결 / 산업 움직임 {len(motion)}개")
     for i, x in enumerate(items, 1):

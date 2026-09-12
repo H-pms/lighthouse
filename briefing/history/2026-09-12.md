@@ -1,267 +1,50 @@
-> 생성 2026-09-12 13:21 KST · 모델 Gemini(gemini-3.7-flash·사고) · 재료 139건
-> 토큰 입력 29,474 · 출력 2,356 · 사고 4,833 · 요금 미확인 · 이번 달 2/40회
+> 생성 2026-09-12 13:31 KST · 모델 Gemini(gemini-3.6-flash·사고) · 재료 140건
+> 토큰 입력 33,574 · 출력 1,915 · 사고 3,972 · 요금 미확인 · 이번 달 3/40회
 
 # 오늘의 보고
 
-> 연결과 상태 판정은 AI의 [짐작]입니다. 근거 번호·필수 항목만 기계 검사했으며 인과관계의 진실성을 보증하지 않습니다.
+## 전체 영향 [짐작]
+SMR 특별법 시행과 미국의 통신·방산 공급망 규제 강화, FDA의 의료 AI 규제 완화가 동시에 진행되며 에너지·안보·헬스케어 분야의 정책 환경 변수가 구체적인 제도 시행 단계로 진입함.
+- 수혜 방향: SMR 기자재·제조사, 비중국산 통신 부품 및 희토류 영구자석 공급망 기업, FDA 기준 충족 의료 AI 개발사
+- 부담 방향: Covered List 부품 활용 통신장비사, 특정국 희토류 의존 방산 협력사, 규제 기준 미달 의료 S/W 업체
+- 다음 확인: 산업부 SMR 사업 공고, 미 FCC 통신장비 승인 현황, 미 국방부 방산 조달 규정 개정, FDA 510(k) 승인 데이터베이스
+- 예상 변경 조건: SMR 실증 예산 집행 지연, 미 방산 희토류 자석 공급 부족에 따른 규제 적용 유예, FCC 통신 부품 규제 예외 신설 시
 
-## 한국 소형모듈원자로(SMR) 특별법 및 시행령 시행(2026-09-11)과 경상남도의 4조 6,990억 원 규모 SMR 제조거점 육성 계획 발표
-[짐작] 상태: 미확인
-사건 근거 발췌: [80](https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBsWFF6SUs1Ylc2b25UUDd0SWhKQk5KRmhQOG55VERzckxobl9pQmhwU0g3clN2OUh3RFJMM2xiVEpJWU9CRlhXeHRQeHFIUXZpRDR2VExteENUd181WnBkdURSWDRfQ0U?oc=5) [81](https://news.google.com/rss/articles/CBMiRkFVX3lxTE9HZ1Z2bUhDNXZ6clBURm5UbW5lQy1oOHFKTGZwOVBtSmstdC1NT2w5ZmFfWU5id0tOVXBTdWc5Z0FCa3FPR1E?oc=5) [82](https://news.google.com/rss/articles/CBMiWEFVX3lxTE5DTWZXRElmcl9za2pUMTdJOXZjZ1dGRWlycExnNDZ0ZWVZbjFBVFB4djl4eU94Q25RZklWaFFhemdyZkJEWDBMYlNES3FFZTR2YmRPRWZtNF_SAVhBVV95cUxOQ01mV0RJZnJfc2tqVDE3STl2Y2dXRkVpcnBMZzQ2dGVlWW4xQVRQeHY5eHlPeENuUWZJVmhRYXpncmZCRFgwTGJTREtxRWU0dmJkT0VmbTRf?oc=5) [83](https://news.google.com/rss/articles/CBMijAFBVV95cUxQa2N1LWZ6b1VyZGUzR2tkT1J3SUY4Sno1dVE1LWVEc3FMRWZNM0RMTmJTTWRJVEpYQXlLTjQ4ZGpnMC1lSE02REFyMU1MTE9HSTNYV2pPWU5VTGFvTkJNSVJpY1o4R09xWE1yTGd0RVBNSndrSl9jYUUyaDV3N29QWWFYbm5UV2p5Qk16Ug?oc=5) [85](https://news.google.com/rss/articles/CBMijgFBVV95cUxPS1o2ZEZvcnZBMGs5Yi1tYmJ3SEk1N3NFVFg5aU5zM0FiNEVVc0duejE1SFY2Z2R4UTFpWE5qaHBXQkcxTFc5UXZtNWo2ZFBLRklJQUVnNmFQVEZhNGwxQTlfLWxkSzBVRDBDX1F5UVR5Ym9aT2RKaXdSZ041SVJPN0JPQ0hLaUQ2aVMzS0NR?oc=5) [86](https://news.google.com/rss/articles/CBMicEFVX3lxTE5vWmFoaXo3V2RCVGZheEZlRUxPX0h6bDlZMGZuemJxLXRpdGVJSnF6Q2d5YTd4bUQ2T0JKQnFhUF9zajdwVTBTZjlyandwb1FzRHZQNjMzaWN0amtzd3NQTjdfd0haR1BsQmdPOU11UUbSAXBBVV95cUxOb1phaGl6N1dkQlRmYXhGZUVMT19Iemw5WTBmbnpicS10aXRlSUpxekNneWE3eG1ENk9CSkJxYVBfc2o3cFUwU2Y5cmp3cG9Rc0R2UDYzM2ljdGprc3dzUE43X3dIWkdQbEJnTzlNdVFG?oc=5) [87](https://news.google.com/rss/articles/CBMibEFVX3lxTE0xMUFLZ1JfV2g4WHJMUVpxQ0JnN3hlZ0FoZ1ZKRm9OWGtacng2bFEtd1FoQlpMUVQ3QUhRa2Y5TFlWWkRYWTF5dGhMY2ZMSnhIcXlIRXB5T0FxTWZPZWtDMTdSNTdGQ01NTlh2btIBb0FVX3lxTE82cUFITWhUQXlaVHhoN3RhdVc2a0YyTUNCdXpqNlFSaEZkVlZBTWI1ZnRLVlU1Vi1aME1rWXpvUjk3bGcyeEoxcmp5bVdNRTVPS0hQWHV1aEMxMUxtWVgzcWFsNE92QzdROHdVWjFuOA?oc=5)
-이전 기록: 신규
-[짐작] 갱신: 신규 등록 사안으로 이전 가설 대비 변화 미확인
+## 핵심 흐름 [짐작]
 
-### 1차 영향 [짐작]
-SMR 상용화 및 실증 지원체계의 법적 근거가 마련되어 정부 주도 R&D 및 인허가 지원 체계 본격 가동
-- 성립 조건: 특별법 하위 지침 제정 완료 및 상용화 실증 관련 정부 예산의 정상 집행
-- 수혜: SMR 원자로 설계 및 기술 개발 참여 기관·기업
-- 피해: 미확인
-- 반대 경로·무효 조건: 세부 예산 집행 지연이나 인허가 기준 마련 지체 시 실증 일정 순연
-- 다음 확인 대상: 산업통상자원부 SMR 실증 지원 사업 공고 및 예산 배정 현황
-- 확인 시점: 2026년 하반기 중 확인
-- 근거 발췌 출처: [80](https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBsWFF6SUs1Ylc2b25UUDd0SWhKQk5KRmhQOG55VERzckxobl9pQmhwU0g3clN2OUh3RFJMM2xiVEpJWU9CRlhXeHRQeHFIUXZpRDR2VExteENUd181WnBkdURSWDRfQ0U?oc=5) [81](https://news.google.com/rss/articles/CBMiRkFVX3lxTE9HZ1Z2bUhDNXZ6clBURm5UbW5lQy1oOHFKTGZwOVBtSmstdC1NT2w5ZmFfWU5id0tOVXBTdWc5Z0FCa3FPR1E?oc=5) [82](https://news.google.com/rss/articles/CBMiWEFVX3lxTE5DTWZXRElmcl9za2pUMTdJOXZjZ1dGRWlycExnNDZ0ZWVZbjFBVFB4djl4eU94Q25RZklWaFFhemdyZkJEWDBMYlNES3FFZTR2YmRPRWZtNF_SAVhBVV95cUxOQ01mV0RJZnJfc2tqVDE3STl2Y2dXRkVpcnBMZzQ2dGVlWW4xQVRQeHY5eHlPeENuUWZJVmhRYXpncmZCRFgwTGJTREtxRWU0dmJkT0VmbTRf?oc=5) [83](https://news.google.com/rss/articles/CBMijAFBVV95cUxQa2N1LWZ6b1VyZGUzR2tkT1J3SUY4Sno1dVE1LWVEc3FMRWZNM0RMTmJTTWRJVEpYQXlLTjQ4ZGpnMC1lSE02REFyMU1MTE9HSTNYV2pPWU5VTGFvTkJNSVJpY1o4R09xWE1yTGd0RVBNSndrSl9jYUUyaDV3N29QWWFYbm5UV2p5Qk16Ug?oc=5)
+**한국 SMR 특별법·시행령 공식 시행 및 경남도의 4.7조 원 규모 SMR 제조거점 육성 추진** · 진행
+SMR 개발 및 상용화 지원체계의 법적 근거 마련으로 정부 주도 R&D 및 인허가 단축 지원 구체화 → 경남 지역 중심 SMR 제조 설비 투자 및 주기기·보조기기 공급망 형성
+변화: 2026년 9월 11일자로 SMR 특별법과 시행령이 공식 시행되어 범정부 지원체계의 법적 근거가 확정됨.
 
-### 2차 영향 [짐작]
-경남 지역을 중심으로 SMR 제조 설비 투자 및 주기기·보조기기 공급망 구축 추진
-- 성립 조건: 경남도의 4조 6,990억 원 투자 재원 조달 및 지자체-기업 간 제조 설비 착공
-- 수혜: 원전 주·단조 및 SMR 부품 가공 설비를 보유한 기자재 제조사
-- 피해: 지방비 매칭 실패 시 투자 계획이 축소되는 지자체 및 유치 실패 기업
-- 반대 경로·무효 조건: 글로벌 SMR 발주 지연 또는 경제성 확보 실패 시 설비 투자 집행 속도 둔화
-- 다음 확인 대상: 경남도 SMR 제조 클러스터 착공 공시 및 주요 원전 기자재사 수주 계약
-- 확인 시점: 2035년까지 단계적 집행 (단기 확인 시점은 미확인)
-- 근거 발췌 출처: [85](https://news.google.com/rss/articles/CBMijgFBVV95cUxPS1o2ZEZvcnZBMGs5Yi1tYmJ3SEk1N3NFVFg5aU5zM0FiNEVVc0duejE1SFY2Z2R4UTFpWE5qaHBXQkcxTFc5UXZtNWo2ZFBLRklJQUVnNmFQVEZhNGwxQTlfLWxkSzBVRDBDX1F5UVR5Ym9aT2RKaXdSZ041SVJPN0JPQ0hLaUQ2aVMzS0NR?oc=5) [86](https://news.google.com/rss/articles/CBMicEFVX3lxTE5vWmFoaXo3V2RCVGZheEZlRUxPX0h6bDlZMGZuemJxLXRpdGVJSnF6Q2d5YTd4bUQ2T0JKQnFhUF9zajdwVTBTZjlyandwb1FzRHZQNjMzaWN0amtzd3NQTjdfd0haR1BsQmdPOU11UUbSAXBBVV95cUxOb1phaGl6N1dkQlRmYXhGZUVMT19Iemw5WTBmbnpicS10aXRlSUpxekNneWE3eG1ENk9CSkJxYVBfc2o3cFUwU2Y5cmp3cG9Rc0R2UDYzM2ljdGprc3dzUE43X3dIWkdQbEJnTzlNdVFG?oc=5) [87](https://news.google.com/rss/articles/CBMibEFVX3lxTE0xMUFLZ1JfV2g4WHJMUVpxQ0JnN3hlZ0FoZ1ZKRm9OWGtacng2bFEtd1FoQlpMUVQ3QUhRa2Y5TFlWWkRYWTF5dGhMY2ZMSnhIcXlIRXB5T0FxTWZPZWtDMTdSNTdGQ01NTlh2btIBb0FVX3lxTE82cUFITWhUQXlaVHhoN3RhdVc2a0YyTUNCdXpqNlFSaEZkVlZBTWI1ZnRLVlU1Vi1aME1rWXpvUjk3bGcyeEoxcmp5bVdNRTVPS0hQWHV1aEMxMUxtWVgzcWFsNE92QzdROHdVWjFuOA?oc=5)
+**미국 FCC의 Covered List 등재 기업 로직 부품 탑재 통신장비 신규 인증 불허 결정** · 진행
+Covered List 기업 생산 로직 반도체·부품 사용 통신 기기의 미국 내 신규 인증 및 유통 완전 차단 → 글로벌 통신장비 기업들의 부품 공급망 재설계 및 비중국산 대체 부품 전환 가속
+변화: Covered List 기업이 로직 부품만 공급한 경우에도 기기 전체의 인증을 차단하는 허점 봉쇄 규정 확정.
 
-## 미국 FCC의 통신 공급망 안보 강화 조치로 Covered List 대상 기업이 제작한 로직 부품 탑재 장비의 인증 불허 규정 도입
-[짐작] 상태: 미확인
-사건 근거 발췌: [96](https://www.federalregister.gov/documents/2026/09/11/2026-18535/protecting-against-national-security-threats-to-the-communications-supply-chain-through-the)
-이전 기록: 신규
-[짐작] 갱신: 신규 등록 사안으로 이전 가설 대비 변화 미확인
+**미국 국방 조달 계약업체 대상 희토류 영구자석 규제 강화** · 진행
+미 방산 무기체계 납품 기업의 비우방국산 희토류 영구자석 사용 제한 및 공급망 추적성 강화 → 우방국 내 희토류 채굴·정제 및 영구자석 수급을 위한 장기 공급 계약 증가
+변화: 방산 계약자 대상 희토류 영구자석 원산지 및 공급망 규제 강화 지침 확정 발표.
 
-### 1차 영향 [짐작]
-Covered List 기업이 생산한 로직 반도체·부품을 사용한 통신 장비의 미국 내 신규 기기 인증 및 유통 차단
-- 성립 조건: FCC 최종 규칙 발효 및 기기 인증(Equipment Authorization) 심사 기준 적용
-- 수혜: 미국 및 우방국 소재 통신용 반도체·로직 부품 제조업체
-- 피해: Covered List 등재 기업 부품을 사용해 온 통신장비 및 부품 제조사
-- 반대 경로·무효 조건: 규제 적용 예외 조항 신설 또는 유예 조치 부여 시 시장 차단 효과 반감
-- 다음 확인 대상: 미 연방관보(Federal Register) 내 최종 규칙 발효일 공고 및 FCC 인증 승인 현황
-- 확인 시점: 미확인
-- 근거 발췌 출처: [96](https://www.federalregister.gov/documents/2026/09/11/2026-18535/protecting-against-national-security-threats-to-the-communications-supply-chain-through-the)
+**미국 FDA의 심혈관 질환 머신러닝 기반 알림 소프트웨어 Class II(특별관리) 분류 고시** · 진행
+심혈관 머신러닝 알림 소프트웨어의 Class II 분류로 인허가 및 규제 요건 상의 불확실성 해소 → 미국 내 의료기관의 심혈관 AI 알림 소프트웨어 채택 확대 및 상용화 가속
+변화: FDA가 해당 의료 AI 소프트웨어를 Class II 품목으로 최종 분류 고시함.
 
-### 2차 영향 [짐작]
-글로벌 통신 장비 제조사의 부품 공급망 탈중국 재설계 및 재인증 비용 발생
-- 성립 조건: 통신장비 완제품 제조사의 비중국산 로직 부품으로의 전면 교체 및 전체 인증 재신청
-- 수혜: 공급망 적격 인증을 획득한 대체 통신 부품 공급망
-- 피해: 장비 재설계 및 인증 지연에 따른 원가 상승을 겪는 완제품 제조사
-- 반대 경로·무효 조건: 대체 부품의 공급 부족으로 완제품 출하 지연 발생 가능
-- 다음 확인 대상: 글로벌 통신장비 업체의 부품 교체 공시 및 FCC 인증 소요 기간
-- 확인 시점: 미확인
-- 근거 발췌 출처: [96](https://www.federalregister.gov/documents/2026/09/11/2026-18535/protecting-against-national-security-threats-to-the-communications-supply-chain-through-the)
+미확인: SMR 실증 사업 및 경남 제조 클러스터 구축에 필요한 세부 예산 배정액과 단기 착공 일정 미확인 / 미국 FCC 규제 및 국방부 희토류 규제의 세부 유예 기간 및 우방국 예외 적용 여부 미확인
 
-## 미국 국방 조달 계약업체 대상 희토류 영구자석 공급망 규제 강화 발표
-[짐작] 상태: 미확인
-사건 근거 발췌: [119](https://news.google.com/rss/articles/CBMirwFBVV95cUxPYV9CTWtZMDJ0WnR6YW1EZXJJZ09GczM5QjJ2bE8xaDgzNXl3VExsWGlhVHAxWGRPS2R3TVhvTDluS2IzRUk1Ti1tZUNSc05xSk1QXy1XUm03WUxaOHBwWDJyMWdZczU2U0VNTkl4X1lERDMybnZSY01wS2pEWkRNclhmTjJUa2szcjEtQ0RLSjFnWVVja1l0SjFlZ01RVXNNRWxZNVRHQ3pjZ3FBS2k4?oc=5)
-이전 기록: 신규
-[짐작] 갱신: 신규 등록 사안으로 이전 가설 대비 변화 미확인
+<details><summary>사용한 근거만 보기</summary>
 
-### 1차 영향 [짐작]
-미국 방산 무기체계 납품 기업의 비우방국산 희토류 영구자석 사용 제한 및 공급망 원산지 추적 요건 강화
-- 성립 조건: 미 국방 조달 규정(DFARS) 세부 기준 개정 및 방산 납품 검사 적용
-- 수혜: 미국 및 동맹국에 위치한 희토류 정제 및 영구자석 제조사
-- 피해: 기존 공급망을 통해 특정국산 희토류 자석을 조달하던 방산 협력업체
-- 반대 경로·무효 조건: 대체 공급선 부족 시 국방부의 한시적 면제(Waiver) 승인으로 규제 적용 유예
-- 다음 확인 대상: 미 국방부 조달 규정 개정안 및 방산 계약 조건 변경 공고
-- 확인 시점: 미확인
-- 근거 발췌 출처: [119](https://news.google.com/rss/articles/CBMirwFBVV95cUxPYV9CTWtZMDJ0WnR6YW1EZXJJZ09GczM5QjJ2bE8xaDgzNXl3VExsWGlhVHAxWGRPS2R3TVhvTDluS2IzRUk1Ti1tZUNSc05xSk1QXy1XUm03WUxaOHBwWDJyMWdZczU2U0VNTkl4X1lERDMybnZSY01wS2pEWkRNclhmTjJUa2szcjEtQ0RLSjFnWVVja1l0SjFlZ01RVXNNRWxZNVRHQ3pjZ3FBS2k4?oc=5)
+- [80] [소형모듈원자로(SMR) 개발·상용화 가속...정부, '특별법·시행령' 시행](https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBsWFF6SUs1Ylc2b25UUDd0SWhKQk5KRmhQOG55VERzckxobl9pQmhwU0g3clN2OUh3RFJMM2xiVEpJWU9CRlhXeHRQeHFIUXZpRDR2VExteENUd181WnBkdURSWDRfQ0U?oc=5) · Fri, 11 Sep 2026
+- [81] [SMR 특별법·시행령 11일부터 시행…범정부 지원체계 구체화](https://news.google.com/rss/articles/CBMiRkFVX3lxTE9HZ1Z2bUhDNXZ6clBURm5UbW5lQy1oOHFKTGZwOVBtSmstdC1NT2w5ZmFfWU5id0tOVXBTdWc5Z0FCa3FPR1E?oc=5) · Fri, 11 Sep 2026
+- [82] [소형모듈원자로 지원체계 구체화...SMR 특별법·시행령 오늘부터 시행](https://news.google.com/rss/articles/CBMiWEFVX3lxTE5DTWZXRElmcl9za2pUMTdJOXZjZ1dGRWlycExnNDZ0ZWVZbjFBVFB4djl4eU94Q25RZklWaFFhemdyZkJEWDBMYlNES3FFZTR2YmRPRWZtNF_SAVhBVV95cUxOQ01mV0RJZnJfc2tqVDE3STl2Y2dXRkVpcnBMZzQ2dGVlWW4xQVRQeHY5eHlPeENuUWZJVmhRYXpncmZCRFgwTGJTREtxRWU0dmJkT0VmbTRf?oc=5) · Fri, 11 Sep 2026
+- [84] [경남, SMR 제조거점 육성…원천기술 확보도(종합)](https://news.google.com/rss/articles/CBMijgFBVV95cUxPS1o2ZEZvcnZBMGs5Yi1tYmJ3SEk1N3NFVFg5aU5zM0FiNEVVc0duejE1SFY2Z2R4UTFpWE5qaHBXQkcxTFc5UXZtNWo2ZFBLRklJQUVnNmFQVEZhNGwxQTlfLWxkSzBVRDBDX1F5UVR5Ym9aT2RKaXdSZ041SVJPN0JPQ0hLaUQ2aVMzS0NR?oc=5) · Thu, 10 Sep 2026
+- [85] [경남, SMR에 4.7조 승부수…세계시장 60% 노려](https://news.google.com/rss/articles/CBMicEFVX3lxTE5vWmFoaXo3V2RCVGZheEZlRUxPX0h6bDlZMGZuemJxLXRpdGVJSnF6Q2d5YTd4bUQ2T0JKQnFhUF9zajdwVTBTZjlyandwb1FzRHZQNjMzaWN0amtzd3NQTjdfd0haR1BsQmdPOU11UUbSAXBBVV95cUxOb1phaGl6N1dkQlRmYXhGZUVMT19Iemw5WTBmbnpicS10aXRlSUpxekNneWE3eG1ENk9CSkJxYVBfc2o3cFUwU2Y5cmp3cG9Rc0R2UDYzM2ljdGprc3dzUE43X3dIWkdQbEJnTzlNdVFG?oc=5) · Thu, 10 Sep 2026
+- [86] [경남, 2035년까지 SMR 제조 점유율 60% 목표…4조6990억 투자해 글로벌 거점 육성](https://news.google.com/rss/articles/CBMibEFVX3lxTE0xMUFLZ1JfV2g4WHJMUVpxQ0JnN3hlZ0FoZ1ZKRm9OWGtacng2bFEtd1FoQlpMUVQ3QUhRa2Y5TFlWWkRYWTF5dGhMY2ZMSnhIcXlIRXB5T0FxTWZPZWtDMTdSNTdGQ01NTlh2btIBb0FVX3lxTE82cUFITWhUQXlaVHhoN3RhdVc2a0YyTUNCdXpqNlFSaEZkVlZBTWI1ZnRLVlU1Vi1aME1rWXpvUjk3bGcyeEoxcmp5bVdNRTVPS0hQWHV1aEMxMUxtWVgzcWFsNE92QzdROHdVWjFuOA?oc=5) · Thu, 10 Sep 2026
+- [90] [Medical Devices; Cardiovascular Devices; Classification of the Cardiov](https://www.federalregister.gov/documents/2026/09/11/2026-18612/medical-devices-cardiovascular-devices-classification-of-the-cardiovascular-machine-learning-based) · 2026-09-11
+- [95] [Protecting Against National Security Threats to the Communications Sup](https://www.federalregister.gov/documents/2026/09/11/2026-18535/protecting-against-national-security-threats-to-the-communications-supply-chain-through-the) · 2026-09-11
+- [120] [Rare Earth Magnet Rules Tighten for Defense Contractors](https://news.google.com/rss/articles/CBMirwFBVV95cUxPYV9CTWtZMDJ0WnR6YW1EZXJJZ09GczM5QjJ2bE8xaDgzNXl3VExsWGlhVHAxWGRPS2R3TVhvTDluS2IzRUk1Ti1tZUNSc05xSk1QXy1XUm03WUxaOHBwWDJyMWdZczU2U0VNTkl4X1lERDMybnZSY01wS2pEWkRNclhmTjJUa2szcjEtQ0RLSjFnWVVja1l0SjFlZ01RVXNNRWxZNVRHQ3pjZ3FBS2k4?oc=5) · Fri, 11 Sep 2026
 
-### 2차 영향 [짐작]
-비우방국 외 지역에서의 희토류 채굴·정제 및 영구자석 장기 공급 계약 수요 확대
-- 성립 조건: 방산 체계업체의 대체 공급망 확보를 위한 장기 구매 계약 체결
-- 수혜: 서방 공급망 내 희토류 제련 및 영구자석 소결 공장 운영 기업
-- 피해: 원자재 조달 단가 상승에 따른 무기 제조 비용 증가
-- 반대 경로·무효 조건: 자석 정제 단가 상승이 방산 계약 단가로 전가되지 않을 경우 제조사 마진 악화
-- 다음 확인 대상: 희토류 영구자석 공급 계약 체결 공시 및 조달 단가 변동
-- 확인 시점: 미확인
-- 근거 발췌 출처: [119](https://news.google.com/rss/articles/CBMirwFBVV95cUxPYV9CTWtZMDJ0WnR6YW1EZXJJZ09GczM5QjJ2bE8xaDgzNXl3VExsWGlhVHAxWGRPS2R3TVhvTDluS2IzRUk1Ti1tZUNSc05xSk1QXy1XUm03WUxaOHBwWDJyMWdZczU2U0VNTkl4X1lERDMybnZSY01wS2pEWkRNclhmTjJUa2szcjEtQ0RLSjFnWVVja1l0SjFlZ01RVXNNRWxZNVRHQ3pjZ3FBS2k4?oc=5) [136](https://news.google.com/rss/articles/CBMiuAFBVV95cUxNUXpaNHJXMUJaWVBleWthMGVPcWphaW9EeXBWcXNSZkpYeVdkVnhQNnUzaE40RktqRlgyU3h3Rlh1YXB2RnBpNG5rak12Ykx1U1RJUVBzbkJqYU5aZ01TR0Ftc0FoYnZBZWNfN2o1MmhhaUVraDQwU0NLU1AzOW9qSVRMdmZPYUJ1eGFXdWo2TVBWSFNxeE5OeDhsVHVndk5SS0t2RmM0QkhOcW9PM0lEWUN2a2UwTDlN?oc=5)
+</details>
 
-## 미국 FDA의 심혈관 질환 머신러닝 기반 알림 소프트웨어 Class II(특별 관리) 품목 분류 결정
-[짐작] 상태: 미확인
-사건 근거 발췌: [91](https://www.federalregister.gov/documents/2026/09/11/2026-18612/medical-devices-cardiovascular-devices-classification-of-the-cardiovascular-machine-learning-based)
-이전 기록: 신규
-[짐작] 갱신: 신규 등록 사안으로 이전 가설 대비 변화 미확인
-
-### 1차 영향 [짐작]
-심혈관 머신러닝 알림 소프트웨어의 인허가 기준이 Class II로 정문화되어 규제 불확실성 완화 및 시장 진입 경로 명확화
-- 성립 조건: FDA 특별 관리(Special Controls) 기준 고시 충족 및 510(k) 심사 통과
-- 수혜: 머신러닝 기반 심혈관 진단·모니터링 소프트웨어 개발사
-- 피해: 특별 관리 기준을 충족하지 못하는 기존 저품질 소프트웨어 개발사
-- 반대 경로·무효 조건: 알고리즘 안전성 검증 실패 또는 추가 임상 요구 시 승인 지연
-- 다음 확인 대상: FDA 510(k) 데이터베이스 내 심혈관 머신러닝 소프트웨어 승인 목록
-- 확인 시점: 발표일 이후 상시
-- 근거 발췌 출처: [91](https://www.federalregister.gov/documents/2026/09/11/2026-18612/medical-devices-cardiovascular-devices-classification-of-the-cardiovascular-machine-learning-based)
-
-### 2차 영향 [짐작]
-미국 내 의료기관의 AI 심혈관 알림 소프트웨어 채택 확대 및 상용화 가속
-- 성립 조건: 미국 병원 시스템 도입 및 관련 의료 보험 수가 적용
-- 수혜: FDA 승인을 획득한 의료 AI 및 디지털 헬스케어 솔루션 기업
-- 피해: 전통적 수동 모니터링 방식 장비 공급사
-- 반대 경로·무효 조건: 보험 수가 미적용 시 병원 도입 지연으로 상용화 속도 저하
-- 다음 확인 대상: 미국 메디케어/민간보험 수가 코드 등재 여부 및 주요 AI 의료기기 매출 공시
-- 확인 시점: 미확인
-- 근거 발췌 출처: [91](https://www.federalregister.gov/documents/2026/09/11/2026-18612/medical-devices-cardiovascular-devices-classification-of-the-cardiovascular-machine-learning-based)
-
-## 모른다 / 추가 확인
-- 소형모듈원자로(SMR) 특별법 시행에 따른 정부 차원의 연간 지원 예산 규모 및 1호 실증로 노형 선정 일정 [80, 81, 82, 83]
-- 경상남도 SMR 제조거점 육성 계획(4조 6,990억 원)의 민간/국비/지방비 세부 분담 비율 및 세부 부지 착공 시점 [85, 86, 87]
-- FCC Covered List 로직 부품 탑재 기기 인증 불허 조치의 구체적 연방관보 발효일 및 기존 인증 제품에 대한 사후 규제 여부 [96]
-- 미국 국방 조달 희토류 자석 규제의 세부 준수 기한, 적용 대상 무기체계 범위 및 예외(Waiver) 조항 세부 내용 [119]
-- FDA Class II 지정 심혈관 머신러닝 소프트웨어의 특별 관리 요건 세부 임상 지침 및 보험 수가 반영 여부 [91]
-
-수집 기준: 2026-09-12 13:19
+수집 기준: 2026-09-12 13:29
 확보 원천: 국내 공시 (DART 원문), 미국 공시 (SEC 원문), 미국 정책 (연방관보 원문), 한국 정책 (부처 발표), 한국 산업·공급망, 해외발 충격 (영문), 예정 일정
 수집 실패·미확인: 
 수집 범위 밖의 정보는 존재할 수 있습니다. 원문 링크의 발췌만 분석했습니다.
-
----
-<details><summary>근거 자료 원문 링크</summary>
-
-[1] [시프트업 주요사항보고서(자기주식취득신탁계약해지결정)](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260910000386)
-[2] [KISCO홀딩스 주요사항보고서(자기주식취득신탁계약해지결정)](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260909000492)
-[3] [한국철강 주요사항보고서(자기주식취득신탁계약해지결정)](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260909000484)
-[4] [케이티 주요사항보고서(자기주식취득신탁계약해지결정)](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260909000349)
-[5] [젬백스 주요사항보고서(자기주식처분결정)](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260910000502)
-[6] [국영지앤엠 주요사항보고서(자기주식취득결정)](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260910000446)
-[7] [PN풍년 주요사항보고서(자기주식취득결정)](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260910000116)
-[8] [쎄노텍 [기재정정]주요사항보고서(자기주식취득결정)](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260909000412)
-[9] [베셀 [기재정정]주요사항보고서(자기주식취득신탁계약해지결정)](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260909000206)
-[10] [쎄노텍 주요사항보고서(자기주식취득결정)](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260909000132)
-[11] [티피씨글로벌 주요사항보고서(자기주식취득신탁계약해지결정)](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260909000110)
-[12] [이노테나 [기재정정]주요사항보고서(자기주식취득신탁계약체결결정)](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260909000085)
-[13] [베셀 주요사항보고서(자기주식취득신탁계약해지결정)](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260909000079)
-[14] [큐에스아이 주요사항보고서(자기주식취득신탁계약체결결정)](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260909000074)
-[15] [이노테나 주요사항보고서(자기주식취득신탁계약체결결정)](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260909000019)
-[16] [에이프로젠바이오로직스 [기재정정]주요사항보고서(유상증자결정)](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260911000555)
-[17] [아리바이오홀딩스 주요사항보고서(자기전환사채매도결정)](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260910000354)
-[18] [바이오비쥬 주요사항보고서(전환사채권발행결정)](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260910000280)
-[19] [아리바이오LAB 주요사항보고서(전환사채권발행결정)](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260909000478)
-[20] [금호전기 [기재정정]주요사항보고서(전환사채권발행결정)](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260911000574)
-[21] [에이프로젠 [기재정정]주요사항보고서(전환사채권발행결정)](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260911000497)
-[22] [에넥스 [기재정정]주요사항보고서(유상증자결정)](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260911000504)
-[23] [우성머티리얼스 주요사항보고서(유상증자결정)](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260910000580)
-[24] [MDS스피어 주요사항보고서(자기전환사채만기전취득결정)](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260910000568)
-[25] [주성코퍼레이션 [기재정정]주요사항보고서(유상증자결정)](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260910000105)
-[26] [주성코퍼레이션 [기재정정]주요사항보고서(전환사채권발행결정)](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260910000095)
-[27] [KS인더스트리 주요사항보고서(유상증자결정)](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260911000600)
-[28] [모아데이타 [기재정정]주요사항보고서(자기전환사채만기전취득결정)](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260911000593)
-[29] [오늘이엔엠 주요사항보고서(유상증자결정)](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260911000570)
-[30] [아이텍 [기재정정]주요사항보고서(유상증자결정)](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260911000566)
-[31] [아미노로직스 주요사항보고서(제3자의전환사채매수선택권행사)](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260911000552)
-[32] [루멘스 주요사항보고서(유상증자결정)](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260911000526)
-[33] [아미노로직스 주요사항보고서(전환사채매수선택권행사자지정)](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260911000546)
-[34] [루멘스 주요사항보고서(감자결정)](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260911000535)
-[35] [엔투텍 [기재정정]주요사항보고서(전환사채권발행결정)](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260911000496)
-[36] [엑스페릭스 [기재정정]주요사항보고서(전환사채권발행결정)](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260911000479)
-[37] [넥사다이내믹스 [기재정정]주요사항보고서(유상증자결정)](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260911000372)
-[38] [엑스페릭스 [기재정정]주요사항보고서(전환사채권발행결정)](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260911000347)
-[39] [파이온엑스 [기재정정]주요사항보고서(유상증자결정)](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260911000341)
-[40] [다보링크 [기재정정]주요사항보고서(전환사채권발행결정)](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260911000313)
-[41] [아티스트스튜디오 주요사항보고서(유상증자결정)](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260911000271)
-[42] [옵티코어 [기재정정]주요사항보고서(자기전환사채만기전취득결정)](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260911000224)
-[43] [케스피온 [기재정정]주요사항보고서(유상증자결정)](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260911000215)
-[44] [엔투텍 [기재정정]주요사항보고서(전환사채권발행결정)](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260911000004)
-[45] [엔투텍 [기재정정]주요사항보고서(전환사채권발행결정)](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260911000001)
-[46] [엔투텍 [기재정정]주요사항보고서(전환사채권발행결정)](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260910000592)
-[47] [CSA 코스믹 주요사항보고서(전환사채권발행결정)](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260910000549)
-[48] [크라우드웍스 주요사항보고서(유상증자결정)](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260910000465)
-[49] [사토시홀딩스 주요사항보고서(자기전환사채만기전취득결정)](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260910000443)
-[50] [엠젠솔루션 [기재정정]주요사항보고서(유상증자결정)](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260910000445)
-[51] [제이케이시냅스 [기재정정]주요사항보고서(자기전환사채매도결정)](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260910000383)
-[52] [엣지파운드리 [기재정정]주요사항보고서(유상증자결정)](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260910000395)
-[53] [제이케이시냅스 [기재정정]주요사항보고서(자기전환사채매도결정)](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260910000379)
-[54] [헝셩그룹 주요사항보고서(유상증자결정)](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260910000423)
-[55] [넥써쓰 주요사항보고서(유상증자결정)](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260910000357)
-[56] [E8 주요사항보고서(유상증자결정)](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260910000322)
-[57] [GMI벤처 주요사항보고서(유상증자결정)](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260910000314)
-[58] [아이엘 주요사항보고서(전환사채권발행결정)](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260910000248)
-[59] [엠젠솔루션 주요사항보고서(유상증자결정)](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260909000543)
-[60] [엠젠솔루션 주요사항보고서(유상증자결정)](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260909000544)
-[61] [본느 [첨부정정]주요사항보고서(유상증자결정)](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260909000542)
-[62] [모아데이타 [기재정정]주요사항보고서(유상증자결정)](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260909000532)
-[63] [바른손이앤에이 주요사항보고서(유상증자결정)](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260909000531)
-[64] [SKAI 주요사항보고서(유상증자결정)](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260909000507)
-[65] [본느 [기재정정]주요사항보고서(유상증자결정)](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260909000528)
-[66] [이렘 [기재정정]주요사항보고서(유상증자결정)](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260909000431)
-[67] [캔버스엔 [기재정정]주요사항보고서(전환사채권발행결정)](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260909000352)
-[68] [캔버스엔 [기재정정]주요사항보고서(전환사채권발행결정)](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260909000346)
-[69] [캔버스엔 [기재정정]주요사항보고서(유상증자결정)](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260909000329)
-[70] [인콘 [기재정정]주요사항보고서(전환사채권발행결정)](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260909000319)
-[71] [더코디 [기재정정]주요사항보고서(유상증자결정)](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260909000290)
-[72] [더코디 [기재정정]주요사항보고서(유상증자결정)](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260909000220)
-[73] [엠디바이스 주요사항보고서(자기전환사채만기전취득결정)](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260909000158)
-[74] [더코디 [기재정정]주요사항보고서(자기전환사채매도결정)](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260909000003)
-[75] [넥사다이내믹스 주요사항보고서(유상증자결정)](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260909000002)
-[76] [더코디 [기재정정]주요사항보고서(전환사채권발행결정)](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260909000001)
-[77] [HLB펩 주요사항보고서(자기전환사채만기전취득결정)](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260908000431)
-[78] [SOUNDHOUND AI, INC. 3 3](https://www.sec.gov/Archives/edgar/data/1840856/000180638626000023/xslF345X06/primarydocument.xml)
-[79] [SOUNDHOUND AI, INC. 4 내부자 매매](https://www.sec.gov/Archives/edgar/data/1840856/000180638626000024/xslF345X06/primarydocument.xml)
-[80] [소형모듈원자로(SMR) 개발·상용화 가속...정부, '특별법·시행령' 시행](https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBsWFF6SUs1Ylc2b25UUDd0SWhKQk5KRmhQOG55VERzckxobl9pQmhwU0g3clN2OUh3RFJMM2xiVEpJWU9CRlhXeHRQeHFIUXZpRDR2VExteENUd181WnBkdURSWDRfQ0U?oc=5)
-[81] [SMR 특별법·시행령 11일부터 시행…범정부 지원체계 구체화](https://news.google.com/rss/articles/CBMiRkFVX3lxTE9HZ1Z2bUhDNXZ6clBURm5UbW5lQy1oOHFKTGZwOVBtSmstdC1NT2w5ZmFfWU5id0tOVXBTdWc5Z0FCa3FPR1E?oc=5)
-[82] [소형모듈원자로 지원체계 구체화...SMR 특별법·시행령 오늘부터 시행](https://news.google.com/rss/articles/CBMiWEFVX3lxTE5DTWZXRElmcl9za2pUMTdJOXZjZ1dGRWlycExnNDZ0ZWVZbjFBVFB4djl4eU94Q25RZklWaFFhemdyZkJEWDBMYlNES3FFZTR2YmRPRWZtNF_SAVhBVV95cUxOQ01mV0RJZnJfc2tqVDE3STl2Y2dXRkVpcnBMZzQ2dGVlWW4xQVRQeHY5eHlPeENuUWZJVmhRYXpncmZCRFgwTGJTREtxRWU0dmJkT0VmbTRf?oc=5)
-[83] [SMR 상용화 지원체계 가동… 특별법·시행령 오늘부터 시행](https://news.google.com/rss/articles/CBMijAFBVV95cUxQa2N1LWZ6b1VyZGUzR2tkT1J3SUY4Sno1dVE1LWVEc3FMRWZNM0RMTmJTTWRJVEpYQXlLTjQ4ZGpnMC1lSE02REFyMU1MTE9HSTNYV2pPWU5VTGFvTkJNSVJpY1o4R09xWE1yTGd0RVBNSndrSl9jYUUyaDV3N29QWWFYbm5UV2p5Qk16Ug?oc=5)
-[84] [연천군, 중진공과 그린바이오 산업 육성...기업 자금·수출·인력 지원 연계](https://news.google.com/rss/articles/CBMiaEFVX3lxTE5VVHhJdGMzWWZpR3JmQU45ZDIxcVNlZ1d2M09YSzFqQjhSZ3daUjRnc0l0cWNIM0hrSkxvWEdYaFRHVVRMMHlNTXYxbGNHWkc2MGhPVWktODdPdUp5THRBQVN2TEJLZGs0?oc=5)
-[85] [경남, SMR 제조거점 육성…원천기술 확보도(종합)](https://news.google.com/rss/articles/CBMijgFBVV95cUxPS1o2ZEZvcnZBMGs5Yi1tYmJ3SEk1N3NFVFg5aU5zM0FiNEVVc0duejE1SFY2Z2R4UTFpWE5qaHBXQkcxTFc5UXZtNWo2ZFBLRklJQUVnNmFQVEZhNGwxQTlfLWxkSzBVRDBDX1F5UVR5Ym9aT2RKaXdSZ041SVJPN0JPQ0hLaUQ2aVMzS0NR?oc=5)
-[86] [경남, SMR에 4.7조 승부수…세계시장 60% 노려](https://news.google.com/rss/articles/CBMicEFVX3lxTE5vWmFoaXo3V2RCVGZheEZlRUxPX0h6bDlZMGZuemJxLXRpdGVJSnF6Q2d5YTd4bUQ2T0JKQnFhUF9zajdwVTBTZjlyandwb1FzRHZQNjMzaWN0amtzd3NQTjdfd0haR1BsQmdPOU11UUbSAXBBVV95cUxOb1phaGl6N1dkQlRmYXhGZUVMT19Iemw5WTBmbnpicS10aXRlSUpxekNneWE3eG1ENk9CSkJxYVBfc2o3cFUwU2Y5cmp3cG9Rc0R2UDYzM2ljdGprc3dzUE43X3dIWkdQbEJnTzlNdVFG?oc=5)
-[87] [경남, 2035년까지 SMR 제조 점유율 60% 목표…4조6990억 투자해 글로벌 거점 육성](https://news.google.com/rss/articles/CBMibEFVX3lxTE0xMUFLZ1JfV2g4WHJMUVpxQ0JnN3hlZ0FoZ1ZKRm9OWGtacng2bFEtd1FoQlpMUVQ3QUhRa2Y5TFlWWkRYWTF5dGhMY2ZMSnhIcXlIRXB5T0FxTWZPZWtDMTdSNTdGQ01NTlh2btIBb0FVX3lxTE82cUFITWhUQXlaVHhoN3RhdVc2a0YyTUNCdXpqNlFSaEZkVlZBTWI1ZnRLVlU1Vi1aME1rWXpvUjk3bGcyeEoxcmp5bVdNRTVPS0hQWHV1aEMxMUxtWVgzcWFsNE92QzdROHdVWjFuOA?oc=5)
-[88] [Adjusting Certain Delegations Under the Defense Production Act](https://www.federalregister.gov/documents/2026/09/11/2026-18739/adjusting-certain-delegations-under-the-defense-production-act)
-[89] [Special Local Regulations; Marine Events Within the Sector Columbia Ri](https://www.federalregister.gov/documents/2026/09/11/2026-18670/special-local-regulations-marine-events-within-the-sector-columbia-river-captain-of-the-port-zone)
-[90] [Amendment to the International Traffic in Arms Regulations: Prohibited](https://www.federalregister.gov/documents/2026/09/11/2026-18630/amendment-to-the-international-traffic-in-arms-regulations-prohibited-exports-imports-and-sales-to)
-[91] [Medical Devices; Cardiovascular Devices; Classification of the Cardiov](https://www.federalregister.gov/documents/2026/09/11/2026-18612/medical-devices-cardiovascular-devices-classification-of-the-cardiovascular-machine-learning-based)
-[92] [Airworthiness Directives; Gulfstream Aerospace LP (Type Certificate Pr](https://www.federalregister.gov/documents/2026/09/11/2026-18600/airworthiness-directives-gulfstream-aerospace-lp-type-certificate-previously-held-by-israel-aircraft)
-[93] [Special Local Regulation; Southern California Annual Marine Events for](https://www.federalregister.gov/documents/2026/09/11/2026-18558/special-local-regulation-southern-california-annual-marine-events-for-the-san-diego-captain-of-the)
-[94] [Safety Zone; York River, Yorktown, VA](https://www.federalregister.gov/documents/2026/09/11/2026-18557/safety-zone-york-river-yorktown-va)
-[95] [Route Designations-Vehicle Length, Width, and Weight Limitations](https://www.federalregister.gov/documents/2026/09/11/2026-18548/route-designations-vehicle-length-width-and-weight-limitations)
-[96] [Protecting Against National Security Threats to the Communications Sup](https://www.federalregister.gov/documents/2026/09/11/2026-18535/protecting-against-national-security-threats-to-the-communications-supply-chain-through-the)
-[97] [Special Local Regulation; Southern California Annual Marine Events for](https://www.federalregister.gov/documents/2026/09/10/2026-18492/special-local-regulation-southern-california-annual-marine-events-for-the-san-diego-captain-of-the)
-[98] [“집값 잡을 생각 없구나”“이러다 폭등”…親정부 부동산 전문가도 쓴소리](https://news.google.com/rss/articles/CBMiakFVX3lxTFBxQnNUa1lCWU84dmtLandZOEU1dWtpVUxmWi1CdF9LbGgzQk91Q1V4SXVnZjBTTjJOVk9HWUh1WU12YWFjdTAxQjRSRi1HTDgyVFBONmozUjdFRXhGc3JqWFVYajdjbHZtVGfSAW5BVV95cUxQVTV0cjBEU0NBTFBhOVZCZUpMN0VTQU8wamRuQ1JNQWc4ZkYwcWl6ZHR5M3E3WGdVR2JHNTJOUnh6RWJ2LWhWWktCcDZaRUNvUnRIQ3Y5OXRuR3F3dHlicHBLbFlDeDlmbnBQNGZQdw?oc=5)
-[99] [이재명 대통령, "피터팬 아빠 소원 잊지 않겠다"…발달장애인 대책 발표 |](https://news.google.com/rss/articles/CBMiaEFVX3lxTFBkQldhaXVuYjFIYUw3cUtLX0dMMzN5NG5UODlmQnlmRzFadlhKakRNdnhIb1NZYzVZNVl6alBqU0hhempsWDI3RVlLQzdYV3RURE1va1BBTWlMaV9nakFLRWFhak9xNXdH?oc=5)
-[100] [가을철 남는 전력 잡는다…정부 58일간 특별대책 가동](https://news.google.com/rss/articles/CBMibEFVX3lxTE1lR0V1UVJBakdhWmhEU2xVeVJUbU13dzZpc2NJSS1Dd0UyV3pqNmVqX29PaFpja1VwZnpZN3ZfNTMzM245Q2xkWFVwQTljLUtjMHdwWFQzTVM3aks0UlhnLW1LbEE4NElEU2s1Mw?oc=5)
-[101] [텅 빈 지식산업센터를 원룸으로?…정부 대책에도 과제 ‘산적’](https://news.google.com/rss/articles/CBMiowJBVV95cUxQVm9KM0loZmMxdTJCMXZKb2VwOUo1ZjF6cmZpZ1l4a1A3ZFQweEsxY25iazE0LXJ4NDJWTGZIbTlPNHl6NENybHZtN3hpNGtlUHdRUXNJRDJVOUhFUG5pTkMxY0EwMlNlX0l3OXFISDFwa1BwajRSdUgxdVJmOUprWWdVcnNNY3VjUnNpcXBkczAwWVBXRjVTNlVjNS0tdkFjUnp4UWJiVEVTOTE1bEt5dkJoTTZQalR4VFVqWWY2Zl9rUVh1TTlBWWFVUnFZeWFVSExZenlBNnJSWS1CeXZ2MUdQYlN4Nld2YzFOWlBmZm1lWFZHRnJOdktXYnl2eWUxQ0xGZ09GMHNKUmF5RzIwRldWVmF6MGxhSm5lR181Yng5NXc?oc=5)
-[102] ["집값 잡을 생각 없구나"...李정부 지지하던 한문도도 한탄](https://news.google.com/rss/articles/CBMiWkFVX3lxTFBtSVdMZFNBbGQyUzVxT0xPbkZnSU5YMFJLNENfb0dYMXdSRUpuX0tZd0Nfa3FXR0FGbnNhdUg2STBXUDhQd0Q4ZW1BckNWR3JvSF9OTWhwZmkzdw?oc=5)
-[103] ["집값 잡을 생각 없나"…정부 우군 한문도·이광수도 '쓴소리'](https://news.google.com/rss/articles/CBMiYEFVX3lxTE9SdVdPak5zZ21BeTgwZ3BWSTREZFBVYlo2bWtSQk5UOElMcEh4THBZRGRTV3ZCZFV2cUk4Q1FoVXdKWk9mQ2U0elNNRUc4Um5IM3UtQ1ROYnRkdkNDRk1qYdIBYEFVX3lxTE9SdVdPak5zZ21BeTgwZ3BWSTREZFBVYlo2bWtSQk5UOElMcEh4THBZRGRTV3ZCZFV2cUk4Q1FoVXdKWk9mQ2U0elNNRUc4Um5IM3UtQ1ROYnRkdkNDRk1qYQ?oc=5)
-[104] [지산센터, 청년 임대주택 되나…정부 공실 대책 발표](https://news.google.com/rss/articles/CBMiakFVX3lxTFBwTS1zM09LZHgtV2xZY25nSnBDQ1F1RDJESjI0a19Jb0hNU0tuMFVsc0ltX1ZycUZ0bHFTd0N2MHpYTGFsU2hHTjF5WVFFc1I2Wm1DMjFacWY4X3ppbTV3MG5PVjVmV3lBbnc?oc=5)
-[105] [“자살은 이 시대 아픔이자 사회적 재난...정부·국회·지자체가 대책 마련해야”](https://news.google.com/rss/articles/CBMiUEFVX3lxTE5iVk96cEY1RXo5c3VycWgyTjhOZDFkTlBwaThvQzFUMExFd2pXMU1maHdMODFwaGUwa1ZEcU9TU2twZHZpVkcxLVB2YU10anV6?oc=5)
-[106] ["집값 잡을 생각 없구나"...李정부 지지하던 한문도도 한탄](https://news.google.com/rss/articles/CBMiRkFVX3lxTE1RUWJsd2lnYkx2c0hRUGtLUFpyeXNTNGx1V29xdnoxT1RlTmdCV1ZPMF8yZ1lHeERLaTRETlVJeHJxX2hfbHc?oc=5)
-[107] [“통신망에 남은 중국 통신장비 정부 보안대책 필요”](https://news.google.com/rss/articles/CBMiT0FVX3lxTE51N09Bbjg3R0FnaHFKeUZKdkJaMGFTNDRuNnRTcUJZX3c3dDJjS2tCM3dpUHU3M2pXZzFfbWRPdy1Jb0NvdmZTRzgxNTYxQ0E?oc=5)
-[108] [포천소방서, 추석대비 화재예방·구급대책 중점 점검](https://news.google.com/rss/articles/CBMiakFVX3lxTE1CRV9PRlJfMGk5aF9XbHlrVm56YjRkS1UtQmRkbnJCY0RiZ0QtN2FvM1Vqa0ltNWxHQXZDVjdxUjQ1c1R0U2ZocXJkZl9QdE9BMjdYWW5SWG9HRmZxMzdZcmNBSGVsOGJlYnfSAW5BVV95cUxPYk9yOEJralFoZG90TmxFdzkyN0JFQ0p6Ym5aMTNlRG1odEZuRTVUYzFLS0c3bkh3aXJMMWZCRUNLTGZsdG15VzZOODc3Ynl4VTRaaW12NloyLUgxWGxpMXBqYlBrSndiR1NrQXhEZw?oc=5)
-[109] [[821조 슈퍼예산⑩] 금융위 '서민생활 안정' '청년 지원' 예산 대폭 확대, 시중은행 포용금융 힘 실린다](https://news.google.com/rss/articles/CBMic0FVX3lxTE1GdEdxbjJ1d2U0STlkSjRHal9aaDBHWUw3Z1NJR3JDYVdXcGlzTGd3aDNsVkdFTTJBWXh1QWRKNW9uMFluOVo2V3BfYzB6TkNZNms2UTNKNWZKbHd5VU5SX3hHbjMyMWNmLWZvRTlTRTdLalU?oc=5)
-[110] [횡성의 한 中企가 500만불 수출탑 받기까지 '아낌없는 지원'](https://news.google.com/rss/articles/CBMiVEFVX3lxTE0tWUpSNGtudTZPQ0NpU2hBU1BPTTAxQVJHM3pKUDhsQkhHcmlkOF8tTFRrRFREU0d5ME1MLWd5WE1JZEZTQUlUZmpvaDM0Z2lyd3VDMA?oc=5)
-[111] [우리 종자산업, 이대로는 안 된다](https://news.google.com/rss/articles/CBMibEFVX3lxTE5oRy0wakdBTVFaS0ljRkg5cVk3cl9TRmhydm16SEFlV19KTWtWTE9nZjc1UzUwalBZa1d4QXJnVkRndlFZbkRlMGMxM3d0RF94cXZUS292TXMtdVljQXk4bWhNUEE0aUdoQ0hYZw?oc=5)
-[112] [동미전기공업, 전주에 1000억 투자 시동](https://news.google.com/rss/articles/CBMiUkFVX3lxTE9CMlNLWmRSazBBMkZ4MFRRMTE5eVQ4b0kwQkNSMTR6VGgzNGU0WWZWN0NhSzd4RmhQa1pncldPc0JadGRRM3ZMZWMtOFhacUNDeWc?oc=5)
-[113] [경북도, 식품한류산업 산학연 협력체계 구축…기술·기업·콘텐츠 연결](https://news.google.com/rss/articles/CBMiYkFVX3lxTFB4dTlpVGVUaHI3Ull3cGgtV0RCWTNpdmhkS3FwVjU2QUVtSTNSd0x0cXRCQUpoOGJpanNGWGlJUzN1c0Mwc2RlTVNZTEJjbnFMV0NJM1NuOFpuUDRKakFXS2t3?oc=5)
-[114] [경북도, AI·메타버스 영상제, 돈 되는 산업으로 본격 육성](https://news.google.com/rss/articles/CBMiTEFVX3lxTFBVUkxIeEtxZkVEUENVRGN2ZUdIMTdWMVNrUlhtaVVlbTRwM0lTaS11eENWUlhuN1BlNU1pMldVYlFBeTFabGRYaTYtZFU?oc=5)
-[115] [전남해양수산창업투자지원센터, '수출패키지 결실'... 4.3억 원대 전복 일본 선적](https://news.google.com/rss/articles/CBMicEFVX3lxTFBFaC00TG1OU1FQUTUyTUhoSURUblBHZkdIRkxNSThFbTFRTUY5dFNNbXhUd1ZrR05MNFhCLTFVaFBnMUFnNGNZQm1Wcm1obW5KV1YzSDE5SmFDUDhXREZrUk00S1diY3puMGtIeXQydmLSAXRBVV95cUxORjk3TEhNWFl4ZmViLTh1bzRpTE1LT2hSMFY4WTRyUnd5QjI1ZEVZeUJSOTdmbVZnY2RUTjNQV1FSZ0I3T3p3ZXdqbjFqMTljMXlTOGt1QVBvU0NNYVhCQWFTa2FIMnA4VEtmTEdsc3BxeU5DdA?oc=5)
-[116] [우즈베키스탄과 대한민국, 투자 파트너십에서 기술협력으로 교역·투자·설비 공급 넘어 산업·기술협력 새 단계 진입](https://news.google.com/rss/articles/CBMiZEFVX3lxTE5MV1JRYkpJdFpwQmNVNzJuVGpVaGtxRmYwU0FoVkxLRkFiam84VnA2OWdiSHZJSW1MZVc1R3ZULTN1cDVzNnlKT3gxSXNfYTdBQXIyOGZ4MUgxdU9pMm9UVmhQRDY?oc=5)
-[117] [[아시아포럼] "베트남, 저비용 생산기지 넘어 동반성장 파트너로"…AI·에너지 투자 기회 열린다](https://news.google.com/rss/articles/CBMiXEFVX3lxTE5uT04yZ3pwNVVLVFZBVmg0ZnVFXzBwT09SR08wUmc5N0JqenJqSE5KWEJxX0txcUtNcFBkV0tBNmp4eG5xRFlHTUNIaXRQUXI4Ym43VUp5SVNhd3Nn?oc=5)
-[118] [국가 주도로 리커머스 키우는 中·日…“韓 제도 정비해 수출길 열어줘야”](https://news.google.com/rss/articles/CBMiVEFVX3lxTE9RMU81N3ZhVHhqckpnWlhRYi1HUDM2WU1yVHA1LUdabnpLUmVMN3hwQmV2Sk5lRmQyMWJoRHNfS2h1RzBwdTZ4MEhDdVI3c1pReDdYRA?oc=5)
-[119] [Rare Earth Magnet Rules Tighten for Defense Contractors](https://news.google.com/rss/articles/CBMirwFBVV95cUxPYV9CTWtZMDJ0WnR6YW1EZXJJZ09GczM5QjJ2bE8xaDgzNXl3VExsWGlhVHAxWGRPS2R3TVhvTDluS2IzRUk1Ti1tZUNSc05xSk1QXy1XUm03WUxaOHBwWDJyMWdZczU2U0VNTkl4X1lERDMybnZSY01wS2pEWkRNclhmTjJUa2szcjEtQ0RLSjFnWVVja1l0SjFlZ01RVXNNRWxZNVRHQ3pjZ3FBS2k4?oc=5)
-[120] [EU scrutiny of Anglo-MMG nickel deal tests China stance](https://news.google.com/rss/articles/CBMihgFBVV95cUxPZFBtZUxURWtsOFZWRVRjb29fTlRsRW5FbmREcFVaMEJjaWpMV05TRnVHaE5vc0JuYjAwLUVlMkRMT0N5SnNiNlZWMkFGNTVSSGJfaTZxSW1LbkRNNTdiWDQ4RDRKUnZMd24tODNucHlrUGtCZjRJdXVkSzFqZTVlUGNFbTNHUQ?oc=5)
-[121] [Fastmarkets’ European Battery Raw Materials conference: Eight trends t](https://news.google.com/rss/articles/CBMitAFBVV95cUxPTkFYbjVKeFVvSjFLbGlOQ281ZEJ6UlFJTlkxLXU2d2xYVzJVVFFsUC04LXRpSEVxWDFSRWdtVThIbm8wU0MwZktyOG85cjY5R0lNVzBFUnBKQ3VVM0NDSUdWcmg2RjF0dEdRcGRIT00yeFB1dlBIa19sQktwaDFGbDR6cXZKSEtUN01kaFVRbC1WN3YtNm5kTVlEZ0lyWEJWXzV3TE9aNXoybW1YNVl0NS1zVUE?oc=5)
-[122] [Trump’s critical-minerals strategy confronts China’s supply](https://news.google.com/rss/articles/CBMi2wFBVV95cUxQc1J1Y0pUeFhkejU5d3lINnNyYzhET2Q0RDFWUWJGTUdocVM0bmd2Y2E1TGt6dU1CdnBkeGR5Y2lJczI2dC1LTVR2cENudkdNMExQZ01waS1FQ00xTnZkZG4xa0hsVzBzZFBtMjZ5VExvZGNEejJZXzR2UGlVYk9yZ1ZZSVZfeEtydDFwZ0swS3ZqQnk2MDNsaXZjOWl3RXZ4Y1IwUUVaNjlmVTNudDVoS0Y4dXFkb0MxV1otNFoxQzN0d0JzbndkUGhEN0FnZXEzLVhWSXEyWTdQdXc?oc=5)
-[123] [Can Africa Turn Its Critical Minerals Wealth Into Economic Power?](https://news.google.com/rss/articles/CBMipgFBVV95cUxQR3FSMTdtd01mRHdMc2c1azd0N2EwM05vWWlVSlp4TGUtOWl2cElfS3R6eUJVaDlnSkhvY2JGUzEyQ3hnWEprWjRJNy1lR1JGWkMxdi1TanlhM2VhenNfQU1uLVFibzM0QnNDYUNjYVVqYUN3OUtCbUx4SFR5YlJmS2FQVWRrVFZmWVRDQnJ0NGR4UER6UzNSWjVTRG9QZVQxQ0hrV0hn?oc=5)
-[124] [Zinc Dithiocarbamate Market Outlook to 2035](https://news.google.com/rss/articles/CBMifkFVX3lxTE5CWFprb1hrUWpOQ2lDUHRheFNDcVdWN1ZLYVoyM2hzYTRKUkxhVTBDWklYYUdfTXQxWG5ISWZkYmIxQ29BV3E1T242eFlYLTF2eVJzUEJVeTd0S25jTlBvRUd6T085UElhX1NfWEswRklFU1NWdEVmLXZRb0h4dw?oc=5)
-[125] [Why China is Barring AI Engineers from Foreign Travels - Australian In](https://news.google.com/rss/articles/CBMiswFBVV95cUxQYkdITWJvVGZUODE3THE2WlQ0RERvZnA3VXQzYkF0eWZqOHFUaGVHNGllaTBwd2NhZnBkNktWelI0R2VqNS1XT3U5WU5xdW5uZGZ6NDFWYjFVc3ItNGJLSkYwaWxqcGZwMXNWeUVxa0d4ZEtKcmV5T0dSemJJUHNxOUdrZ2RRU1N1WktCX1BUS3NRQS1ROTY2UU5xMVlldlNMR1hGVWNoNnJ5cUk2OXhGSUdPSQ?oc=5)
-[126] [RED THREAD: See you after the trade war?](https://news.google.com/rss/articles/CBMieEFVX3lxTFBvQ29kakxNTUMyZGJqM1JSV0dicEZpZUtOck42cGRXZHFlaXhZMkFhdDN6SGJHOHplT3c0SUJkd1J3eTlYMUxtYjd5dWNzSXdBdGxPM0l5eUNTbFF3QWlVbUhqX3JhY1FHOEtZMWJ1OWNOdS1wX1JSeg?oc=5)
-[127] [EU dropped aluminium scrap duty plan over India concerns, sources say](https://news.google.com/rss/articles/CBMinAFBVV95cUxPS2xoNzFQSDB5cjF0RmxIamNVNUFUblhlTEhxX1M2ZXBWLXJrbjI3VWNwajlSeWkxbFlRbjYyNEJYSkg1QkN3dG0weWZ2ZEUzRVM3SnFhVzFHWGpZR01iaUNVRkswU3VzSUhwdkFvSlBSWkMxa1JEdlhiNk42WFVZcEZrMGpXX184dnFWdjE3cThxZFBKcG15SnQ4azM?oc=5)
-[128] [Strengthening The Africa](https://news.google.com/rss/articles/CBMiigFBVV95cUxOM3A0TlRfWlI0M29rb3hveUl1N0M4Y2d6YndXRnRDUGI2NzY4cVVaS2ktbW5fcmdITmhITVJ1dzE5c0tSTWtRakR6Q0ZIY3ZSWWFTYThJQWRHM0ZtWHNaWDFPU3VqdkdrYjlIM3YyTmJFbkhiNnNxT3N4cjd2bnJBbS1xcFZ1Y3NYOUE?oc=5)
-[129] [From Reliance to Resilience](https://news.google.com/rss/articles/CBMibEFVX3lxTFBvR1l6NzlXOUhHd05QT2R2cU9SdEh2X0dWRm96UVVGUnFvR0FMVi1zbzZGbU5XcFU1NXZ1enBZZWJBblFnandnYzBXN1pMUkFoclZEeGxJQ2puRF9zdV8wNzA3LWJjTmMtOWhIeA?oc=5)
-[130] [First Shift: Energy shock, procurement policy and peak-season imports ](https://news.google.com/rss/articles/CBMixwFBVV95cUxOYUFocHRjc2tHT2dLX3JpalpmTEE0aE5HMUp4LW96eUN3eXpLTFFGVzIwRU5xVTVRVy14YTRNcllrdFlXcHliXzRpSGlJZllMQzJrOW9mQ3l1VEo5bVdsTVhJLTF1QldKNlV3V0JhclBYNWtuT0tQR2lKLXlmOEQxejJERW13RGdxWG82OV85czVBRkF5TkstZTA5TW00NWxOR18yaXhKbUhMdTJ0Tl9tOG93WlI1VWV1QXJlZExaNEdpdzBjTjNv?oc=5)
-[131] [Can Africa Seize Its Moment in the Race for Critical Minerals?](https://news.google.com/rss/articles/CBMigAFBVV95cUxOUTZEVEZLUHFCeUFueFM5cktlNWtUMmxGM0hzUlVrMHJ1U2tkakZkVk9ZbHpjRUtsclFLQmZZbk0zSjhZMUpUZzhEbW1ZOUZmdlhGT3hON0ZuRHUxUWpFWDNTYk9wUThuOVNHYUd2eUUtTUN3NUg3Qkk3d0NDbC1qWQ?oc=5)
-[132] [Canada’s evolving foreign investment review in an age of uncertainty](https://news.google.com/rss/articles/CBMi7wFBVV95cUxNWnpZMi1ud0pKakp0TGdqNzlYRlZuZXJxVk9TcjE2dVJ0Ry1jajFRRENzZXY0UGJLZERBSEFVYlFGcHNmeXBJc0RmbUNramM4Wm1JSTV2S2dYSnhMZkl2Qk5xVU40T2E1ZnZtR3d1Y3p4Z3BZVkx6TlhZZzhPa1BhY1FGRy1aOFVidHZjZVhKZWpsSm5EeGVkYVJRbXNSOU93Smc2Y3J0ZXNqeUVXY3pES3RWUTBrdlIyeVU5YmxkX3Ytd191dzBqWlpUZmJrSHhTZjcxTW9oclRPVVFPNnZSV2I3MEUydFRsSEl3YlFFUQ?oc=5)
-[133] [India’s Critical Mineral Strategy: A Policy Review Of Mineral Security](https://news.google.com/rss/articles/CBMi3gFBVV95cUxQLUFkaUtHTl9uZGdvVlpZNEJ5NHdZM29JQWVvUUNua0JCRXVBLXE3N28wTUtuangwbGF3N01xcWNLOVJVeVltemlEVkJUMV9zanRhcm4yR1hPb18zZ1pUV2NONm5NNlR1dkZVYjE3QUlZTU9sbkhIekN6WjYzT0Jmank1eng3YzFXSGR2UllEaWllZTNQWGthdW5SQlQ4NklWU01UQTlWU3h5Sm5hUzlYNjRILUxxYlRRb2h0Q00yYnpQUHNPOU9kTmd5VWpjcUJIQk1Md2tIcE5FMzBPUHc?oc=5)
-[134] [Report | An Australia–United Kingdom agenda for economic security - Un](https://news.google.com/rss/articles/CBMihwFBVV95cUxQRFN5WjZSWWVvSmdmMHJRMVZGS05XMjFjeXB6R0ZJcGhEQy1TVV9CRENkUjZFOWxQREN1Nm1xN2s1U0g0alNjMzVLZ0VfVF8xQ05Qb1RHSFhFTkw3eDVxNjkxS0ZEOHZ2dUtkb2Znb3FsTVdiTC12UkFtLXg2aEVraTJUb1duNlE?oc=5)
-[135] [US says it will help develop Kenya's critical minerals processing](https://news.google.com/rss/articles/CBMisgFBVV95cUxNanFKWkxNU3FONFlOd0lGSFo0OHRMUnhxeHNOZzRmR2dnSWV4SUo3eU5sVnp5T0c1R2xGZjRYNlRQMC1qd1hLTWVRaFJVb3VlMFZHTFoyQ0d1eWFrTm1KUVUzUEtOWTlEeXFpTi0wVHRBTlFWUWtuenR3aDUySUR6eFJnWWtBTXM3cV9NX3NOQTh0UWlrMWtBU1NDNzVTekkyaDVobUNMTTA3QU9mR2RDMmlB?oc=5)
-[136] [Rare Earth Element Extraction Chemical Market to Accelerate on Recycli](https://news.google.com/rss/articles/CBMiuAFBVV95cUxNUXpaNHJXMUJaWVBleWthMGVPcWphaW9EeXBWcXNSZkpYeVdkVnhQNnUzaE40RktqRlgyU3h3Rlh1YXB2RnBpNG5rak12Ykx1U1RJUVBzbkJqYU5aZ01TR0Ftc0FoYnZBZWNfN2o1MmhhaUVraDQwU0NLU1AzOW9qSVRMdmZPYUJ1eGFXdWo2TVBWSFNxeE5OeDhsVHVndk5SS0t2RmM0QkhOcW9PM0lEWUN2a2UwTDlN?oc=5)
-[137] [BRICS Urged to Link Payments, Boost Local Currency Trade](https://news.google.com/rss/articles/CBMiqwFBVV95cUxQcnlOd3BvdHIxd0s5SjZPX2dzeTNMbGhNNFlMU2ZXYXVBX1J3Q3NFR19fT1UxbzViTzhxRnluM2xRRHlMWl9OM1Y2UVVjSTlNY0JKVzNmTGxZc2ZsSUJrMVdRRTNIQ0loMnhSeW1fWmUyMzhUeHR6eXowaGUtUElsREw1SXBWLXBDMGxOMmlIS1htcTg3VThMclR0TEo4SGQxSGN4em54cnNYd1HSAbABQVVfeXFMUDZHbVF5WjdaU1E0cWNtUFUwWGU2d3pvbEZGRmtsUDJrVi0xcGlJNDVTYTZKanNWbGxRNUJ6Yzhqc0NFVjU5QUJwWHI2dzdxZmQzNTJvSG1TSVZOSUVDMEpoSlJGcHZydVpPdXdqWFRiNTQzd29aeFB0MkFnbm1nUGtuMG1IZE9QSXV1NzUzNWZiZGUzUENaSGQtcTlMSGNZZGRwSC0tZGpHbmZsZ0gyVzY?oc=5)
-[138] [India urges BRICS to link payment systems, encourage local currency tr](https://news.google.com/rss/articles/CBMi6AFBVV95cUxORkk5NDQ5QVRONUpRVXV1cThlRmRqejgzZ21pdmMxZVQ3aW0zRTBSWE11OGhBNDEzc1BhMWViNkRuVVFRQ2dWc0d2aUc5dVZYLUpuSy1UcE16a1JONG5WTlFJUGplYzI5a1VTV05iRmlmQU5FUXRTZVhZTHdobDA0bU1zRUItdk1DSUhNcHFoRzktUW4xRGRvaU5ON3ZxMHZvVndPQ2tpZXdjaFpsdUdtX0M3SDZucDBsN2ROT0p6bHBNSFhZd1FLd3pPT1lSNzMxQVVIVmZtaHBSUlBjT0hILURzbkJLY2hM0gHuAUFVX3lxTFB0TmJ2XzVNWmtPZzlvUk5Pb1hxV0h4blRzaHF5U0tFOXVnajh4cjdnQnZTOE1WTUpaN1lDRjhBUUZDUFdlX3RlekNYMWtROS1fUHBid0JiNHJ2V2UzSy1jTktPZWlxbXhJOVRFRTJqalk0WHhSMlJKaTVCSVR3Vmk5eXAwV1VQZDF3OUdKMkpqSTY1RHFsY0pRM3A5R2c3ZWU4ekMxTXFtamJ2SkRETzY3aE1HTU9Lamc3eGhRYUZRWDY0SWNDTmxyM1Zuc241amZrMmZxUXp2bUJCeWdCMnRFUERncElYYlZ5REFCeFE?oc=5)
-[139] [FOMC 금리 결정 2026-10-28](https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm)
-
-</details>

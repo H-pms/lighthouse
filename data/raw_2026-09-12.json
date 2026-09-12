@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-12 13:19",
+ "generated": "2026-09-12 13:29",
  "date": "2026-09-12",
  "sources": [
   {
@@ -29,7 +29,7 @@
   {
    "id": "KR_INDUS",
    "name": "한국 산업·공급망",
-   "count": 14,
+   "count": 15,
    "ok": true
   },
   {
@@ -2843,18 +2843,19 @@
    "stage": null
   },
   {
-   "title": "소형모듈원자로(SMR) 개발·상용화 가속...정부, '특별법·시행령' 시행 - aitimes.kr",
+   "title": "소형모듈원자로(SMR) 개발·상용화 가속...정부, '특별법·시행령' 시행 - 인공지능신문",
    "core": "소형모듈원자로(SMR) 개발·상용화 가속...정부, '특별법·시행령' 시행",
    "date": "Fri, 11 Sep 2026",
-   "abstract": "소형모듈원자로(SMR) 개발·상용화 가속...정부, '특별법·시행령' 시행&nbsp;&nbsp;aitimes.kr",
+   "abstract": "소형모듈원자로(SMR) 개발·상용화 가속...정부, '특별법·시행령' 시행&nbsp;&nbsp;인공지능신문",
    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBsWFF6SUs1Ylc2b25UUDd0SWhKQk5KRmhQOG55VERzckxobl9pQmhwU0g3clN2OUh3RFJMM2xiVEpJWU9CRlhXeHRQeHFIUXZpRDR2VExteENUd181WnBkdURSWDRfQ0U?oc=5",
    "official": false,
-   "org": "aitimes.kr",
+   "org": "인공지능신문",
    "kinds": [
     "정책"
    ],
    "src_kind": "정책",
    "sectors": [
+    "반도체/AI",
     "전력/원자력"
    ],
    "watch": [
@@ -2913,13 +2914,13 @@
    }
   },
   {
-   "title": "텅 빈 지식산업센터를 원룸으로?…정부 대책에도 과제 ‘산적’ - dailian.co.kr",
+   "title": "텅 빈 지식산업센터를 원룸으로?…정부 대책에도 과제 ‘산적’ - 데일리안",
    "core": "텅 빈 지식산업센터를 원룸으로?…정부 대책에도 과제 ‘산적’",
    "date": "Thu, 10 Sep 2026",
-   "abstract": "텅 빈 지식산업센터를 원룸으로?…정부 대책에도 과제 ‘산적’&nbsp;&nbsp;dailian.co.kr",
+   "abstract": "텅 빈 지식산업센터를 원룸으로?…정부 대책에도 과제 ‘산적’&nbsp;&nbsp;데일리안",
    "link": "https://news.google.com/rss/articles/CBMiowJBVV95cUxQVm9KM0loZmMxdTJCMXZKb2VwOUo1ZjF6cmZpZ1l4a1A3ZFQweEsxY25iazE0LXJ4NDJWTGZIbTlPNHl6NENybHZtN3hpNGtlUHdRUXNJRDJVOUhFUG5pTkMxY0EwMlNlX0l3OXFISDFwa1BwajRSdUgxdVJmOUprWWdVcnNNY3VjUnNpcXBkczAwWVBXRjVTNlVjNS0tdkFjUnp4UWJiVEVTOTE1bEt5dkJoTTZQalR4VFVqWWY2Zl9rUVh1TTlBWWFVUnFZeWFVSExZenlBNnJSWS1CeXZ2MUdQYlN4Nld2YzFOWlBmZm1lWFZHRnJOdktXYnl2eWUxQ0xGZ09GMHNKUmF5RzIwRldWVmF6MGxhSm5lR181Yng5NXc?oc=5",
    "official": false,
-   "org": "dailian.co.kr",
+   "org": "데일리안",
    "kinds": [
     "정책"
    ],
@@ -3045,25 +3046,6 @@
    }
   },
   {
-   "title": "\"집값 잡을 생각 없구나\"...李정부 지지하던 한문도도 한탄 - v.daum.net",
-   "core": "\"집값 잡을 생각 없구나\"...李정부 지지하던 한문도도 한탄",
-   "date": "Thu, 10 Sep 2026",
-   "abstract": "\"집값 잡을 생각 없구나\"...李정부 지지하던 한문도도 한탄&nbsp;&nbsp;v.daum.net",
-   "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1RUWJsd2lnYkx2c0hRUGtLUFpyeXNTNGx1V29xdnoxT1RlTmdCV1ZPMF8yZ1lHeERLaTRETlVJeHJxX2hfbHc?oc=5",
-   "official": false,
-   "org": "v.daum.net",
-   "kinds": [
-    "정책"
-   ],
-   "src_kind": "정책",
-   "sectors": [],
-   "watch": [],
-   "id": 100,
-   "src": "KR_POLICY",
-   "src_name": "한국 정책 (부처 발표)",
-   "stage": null
-  },
-  {
    "title": "“통신망에 남은 중국 통신장비 정부 보안대책 필요” - v.daum.net",
    "core": "“통신망에 남은 중국 통신장비 정부 보안대책 필요”",
    "date": "Thu, 10 Sep 2026",
@@ -3077,7 +3059,7 @@
    "src_kind": "정책",
    "sectors": [],
    "watch": [],
-   "id": 101,
+   "id": 100,
    "src": "KR_POLICY",
    "src_name": "한국 정책 (부처 발표)",
    "stage": null,
@@ -3103,7 +3085,7 @@
    "src_kind": "정책",
    "sectors": [],
    "watch": [],
-   "id": 102,
+   "id": 101,
    "src": "KR_POLICY",
    "src_name": "한국 정책 (부처 발표)",
    "stage": null
@@ -3126,42 +3108,59 @@
    "watch": [
     "SMR"
    ],
-   "id": 103,
+   "id": 102,
    "src": "KR_POLICY",
    "src_name": "한국 정책 (부처 발표)",
    "stage": "시행"
   },
   {
-   "title": "SMR 상용화 지원체계 가동… 특별법·시행령 오늘부터 시행 - Chosunbiz",
-   "core": "SMR 상용화 지원체계 가동… 특별법·시행령 오늘부터 시행",
+   "title": "경북도, 콩 수급안정 대책회의 개최…농가 피해 최소화 총력 - 구미뉴스",
+   "core": "경북도, 콩 수급안정 대책회의 개최…농가 피해 최소화 총력",
    "date": "Fri, 11 Sep 2026",
-   "abstract": "SMR 상용화 지원체계 가동… 특별법·시행령 오늘부터 시행&nbsp;&nbsp;Chosunbiz",
-   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQa2N1LWZ6b1VyZGUzR2tkT1J3SUY4Sno1dVE1LWVEc3FMRWZNM0RMTmJTTWRJVEpYQXlLTjQ4ZGpnMC1lSE02REFyMU1MTE9HSTNYV2pPWU5VTGFvTkJNSVJpY1o4R09xWE1yTGd0RVBNSndrSl9jYUUyaDV3N29QWWFYbm5UV2p5Qk16Ug?oc=5",
+   "abstract": "경북도, 콩 수급안정 대책회의 개최…농가 피해 최소화 총력&nbsp;&nbsp;구미뉴스",
+   "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9CR2dfM05fS1lmM2t6eDdyOXRSOHlYbmE2amV1VDN5d3VsaElKLWJzZDZHVGI5cmhQNkdqTzItM0xUdzZEcElnaEM1c3FaQVRuY3I0MFBhT2E5ZnI3U2V3LXdTTFM2bHlYel94S0gzNml2LW12?oc=5",
    "official": false,
-   "org": "Chosunbiz",
+   "org": "구미뉴스",
+   "kinds": [
+    "정책"
+   ],
+   "src_kind": "정책",
+   "sectors": [],
+   "watch": [],
+   "id": 103,
+   "src": "KR_POLICY",
+   "src_name": "한국 정책 (부처 발표)",
+   "stage": "논의"
+  },
+  {
+   "title": "“이대로는 집값 폭등”…‘명픽’ 부동산 전문가마저 변심? - 매일경제",
+   "core": "“이대로는 집값 폭등”…‘명픽’ 부동산 전문가마저 변심?",
+   "date": "Fri, 11 Sep 2026",
+   "abstract": "“이대로는 집값 폭등”…‘명픽’ 부동산 전문가마저 변심?&nbsp;&nbsp;매일경제",
+   "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBDTUFaZnhSQXgxMWExOXBUUHFhbzJBSzRTNmNuYnM1VHFjRlIzc1JZQ2s0RU16NDloX19XUHo3a0xiOFVaRXdwRVFIcXlqY1g0bmsySEtR?oc=5",
+   "official": false,
+   "org": "매일경제",
    "kinds": [
     "정책"
    ],
    "src_kind": "정책",
    "sectors": [
-    "전력/원자력"
+    "건설/부동산"
    ],
-   "watch": [
-    "SMR"
-   ],
+   "watch": [],
    "id": 104,
    "src": "KR_POLICY",
    "src_name": "한국 정책 (부처 발표)",
-   "stage": "시행"
+   "stage": null
   },
   {
-   "title": "[821조 슈퍼예산⑩] 금융위 '서민생활 안정' '청년 지원' 예산 대폭 확대, 시중은행 포용금융 힘 실린다 - businesspost.co.kr",
+   "title": "[821조 슈퍼예산⑩] 금융위 '서민생활 안정' '청년 지원' 예산 대폭 확대, 시중은행 포용금융 힘 실린다 - 비즈니스포스트",
    "core": "[821조 슈퍼예산⑩] 금융위 '서민생활 안정' '청년 지원' 예산 대폭 확대, 시중은행 포용금융 힘 실린다",
    "date": "Fri, 11 Sep 2026",
-   "abstract": "[821조 슈퍼예산⑩] 금융위 '서민생활 안정' '청년 지원' 예산 대폭 확대, 시중은행 포용금융 힘 실린다&nbsp;&nbsp;businesspost.co.kr",
+   "abstract": "[821조 슈퍼예산⑩] 금융위 '서민생활 안정' '청년 지원' 예산 대폭 확대, 시중은행 포용금융 힘 실린다&nbsp;&nbsp;비즈니스포스트",
    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1GdEdxbjJ1d2U0STlkSjRHal9aaDBHWUw3Z1NJR3JDYVdXcGlzTGd3aDNsVkdFTTJBWXh1QWRKNW9uMFluOVo2V3BfYzB6TkNZNms2UTNKNWZKbHd5VU5SX3hHbjMyMWNmLWZvRTlTRTdLalU?oc=5",
    "official": false,
-   "org": "businesspost.co.kr",
+   "org": "비즈니스포스트",
    "kinds": [
     "정책"
    ],
@@ -3248,13 +3247,13 @@
    }
   },
   {
-   "title": "우리 종자산업, 이대로는 안 된다 - nongupin.co.kr",
+   "title": "우리 종자산업, 이대로는 안 된다 - 농업인신문",
    "core": "우리 종자산업, 이대로는 안 된다",
    "date": "Fri, 11 Sep 2026",
-   "abstract": "우리 종자산업, 이대로는 안 된다&nbsp;&nbsp;nongupin.co.kr",
+   "abstract": "우리 종자산업, 이대로는 안 된다&nbsp;&nbsp;농업인신문",
    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5oRy0wakdBTVFaS0ljRkg5cVk3cl9TRmhydm16SEFlV19KTWtWTE9nZjc1UzUwalBZa1d4QXJnVkRndlFZbkRlMGMxM3d0RF94cXZUS292TXMtdVljQXk4bWhNUEE0aUdoQ0hYZw?oc=5",
    "official": false,
-   "org": "nongupin.co.kr",
+   "org": "농업인신문",
    "kinds": [
     "정책"
    ],
@@ -3431,20 +3430,41 @@
    }
   },
   {
-   "title": "우즈베키스탄과 대한민국, 투자 파트너십에서 기술협력으로 교역·투자·설비 공급 넘어 산업·기술협력 새 단계 진입 - djournal.co.kr",
+   "title": "새만금, 대한민국을 바꿀 10GW의 에너지를 켜다 - 대한민국 정책브리핑",
+   "core": "새만금, 대한민국을 바꿀 10GW의 에너지를 켜다",
+   "date": "Sat, 12 Sep 2026",
+   "abstract": "새만금, 대한민국을 바꿀 10GW의 에너지를 켜다&nbsp;&nbsp;대한민국 정책브리핑",
+   "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9XdEZEU0F4OWFOLXRoaUMwZnhyQnllaFducE9PTXN0OHFlZlFrLW5RLVl2U2xTN3JxSnhWSFhyaVlyMlkwYU53cjRlRmNlSDF6ZEZDNUk0U1AtNmRfUXBFRW05N09UaUFw?oc=5",
+   "official": false,
+   "org": "대한민국 정책브리핑",
+   "kinds": [
+    "정책"
+   ],
+   "src_kind": "산업",
+   "sectors": [
+    "전력/원자력"
+   ],
+   "watch": [],
+   "id": 116,
+   "src": "KR_INDUS",
+   "src_name": "한국 산업·공급망",
+   "stage": null
+  },
+  {
+   "title": "우즈베키스탄과 대한민국, 투자 파트너십에서 기술협력으로 교역·투자·설비 공급 넘어 산업·기술협력 새 단계 진입 - 외교저널",
    "core": "우즈베키스탄과 대한민국, 투자 파트너십에서 기술협력으로 교역·투자·설비 공급 넘어 산업·기술협력 새 단계 진입",
    "date": "Sat, 12 Sep 2026",
-   "abstract": "우즈베키스탄과 대한민국, 투자 파트너십에서 기술협력으로 교역·투자·설비 공급 넘어 산업·기술협력 새 단계 진입&nbsp;&nbsp;djournal.co.kr",
+   "abstract": "우즈베키스탄과 대한민국, 투자 파트너십에서 기술협력으로 교역·투자·설비 공급 넘어 산업·기술협력 새 단계 진입&nbsp;&nbsp;외교저널",
    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5MV1JRYkpJdFpwQmNVNzJuVGpVaGtxRmYwU0FoVkxLRkFiam84VnA2OWdiSHZJSW1MZVc1R3ZULTN1cDVzNnlKT3gxSXNfYTdBQXIyOGZ4MUgxdU9pMm9UVmhQRDY?oc=5",
    "official": false,
-   "org": "djournal.co.kr",
+   "org": "외교저널",
    "kinds": [
     "정책"
    ],
    "src_kind": "산업",
    "sectors": [],
    "watch": [],
-   "id": 116,
+   "id": 117,
    "src": "KR_INDUS",
    "src_name": "한국 산업·공급망",
    "stage": null
@@ -3465,7 +3485,7 @@
     "전력/원자력"
    ],
    "watch": [],
-   "id": 117,
+   "id": 118,
    "src": "KR_INDUS",
    "src_name": "한국 산업·공급망",
    "stage": null
@@ -3484,7 +3504,7 @@
    "src_kind": "산업",
    "sectors": [],
    "watch": [],
-   "id": 118,
+   "id": 119,
    "src": "KR_INDUS",
    "src_name": "한국 산업·공급망",
    "stage": null
@@ -3506,7 +3526,7 @@
     "금속/광물"
    ],
    "watch": [],
-   "id": 119,
+   "id": 120,
    "src": "GLOBAL",
    "src_name": "해외발 충격 (영문)",
    "stage": "계약"
@@ -3525,7 +3545,7 @@
    "src_kind": "해외",
    "sectors": [],
    "watch": [],
-   "id": 120,
+   "id": 121,
    "src": "GLOBAL",
    "src_name": "해외발 충격 (영문)",
    "stage": null,
@@ -3540,13 +3560,13 @@
    }
   },
   {
-   "title": "Fastmarkets’ European Battery Raw Materials conference: Eight trends to follow - fastmarkets.com",
+   "title": "Fastmarkets’ European Battery Raw Materials conference: Eight trends to follow - Fastmarkets",
    "core": "Fastmarkets’ European Battery Raw Materials conference: Eight trends to follow",
    "date": "Fri, 11 Sep 2026",
-   "abstract": "Fastmarkets’ European Battery Raw Materials conference: Eight trends to follow&nbsp;&nbsp;fastmarkets.com",
+   "abstract": "Fastmarkets’ European Battery Raw Materials conference: Eight trends to follow&nbsp;&nbsp;Fastmarkets",
    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPTkFYbjVKeFVvSjFLbGlOQ281ZEJ6UlFJTlkxLXU2d2xYVzJVVFFsUC04LXRpSEVxWDFSRWdtVThIbm8wU0MwZktyOG85cjY5R0lNVzBFUnBKQ3VVM0NDSUdWcmg2RjF0dEdRcGRIT00yeFB1dlBIa19sQktwaDFGbDR6cXZKSEtUN01kaFVRbC1WN3YtNm5kTVlEZ0lyWEJWXzV3TE9aNXoybW1YNVl0NS1zVUE?oc=5",
    "official": false,
-   "org": "fastmarkets.com",
+   "org": "Fastmarkets",
    "kinds": [
     "정책"
    ],
@@ -3555,7 +3575,7 @@
     "2차전지/ESS"
    ],
    "watch": [],
-   "id": 121,
+   "id": 122,
    "src": "GLOBAL",
    "src_name": "해외발 충격 (영문)",
    "stage": null
@@ -3574,7 +3594,7 @@
    "src_kind": "해외",
    "sectors": [],
    "watch": [],
-   "id": 122,
+   "id": 123,
    "src": "GLOBAL",
    "src_name": "해외발 충격 (영문)",
    "stage": null,
@@ -3600,7 +3620,7 @@
    "src_kind": "해외",
    "sectors": [],
    "watch": [],
-   "id": 123,
+   "id": 124,
    "src": "GLOBAL",
    "src_name": "해외발 충격 (영문)",
    "stage": null
@@ -3619,7 +3639,7 @@
    "src_kind": "해외",
    "sectors": [],
    "watch": [],
-   "id": 124,
+   "id": 125,
    "src": "GLOBAL",
    "src_name": "해외발 충격 (영문)",
    "stage": null,
@@ -3645,7 +3665,7 @@
    "src_kind": "해외",
    "sectors": [],
    "watch": [],
-   "id": 125,
+   "id": 126,
    "src": "GLOBAL",
    "src_name": "해외발 충격 (영문)",
    "stage": null
@@ -3664,7 +3684,7 @@
    "src_kind": "해외",
    "sectors": [],
    "watch": [],
-   "id": 126,
+   "id": 127,
    "src": "GLOBAL",
    "src_name": "해외발 충격 (영문)",
    "stage": null,
@@ -3690,26 +3710,26 @@
    "src_kind": "해외",
    "sectors": [],
    "watch": [],
-   "id": 127,
+   "id": 128,
    "src": "GLOBAL",
    "src_name": "해외발 충격 (영문)",
    "stage": null
   },
   {
-   "title": "Strengthening The Africa-Europe Economic Corridor - ConstructAfrica",
+   "title": "Strengthening The Africa-Europe Economic Corridor - constructafrica.com",
    "core": "Strengthening The Africa",
    "date": "Fri, 11 Sep 2026",
-   "abstract": "Strengthening The Africa-Europe Economic Corridor&nbsp;&nbsp;ConstructAfrica",
+   "abstract": "Strengthening The Africa-Europe Economic Corridor&nbsp;&nbsp;constructafrica.com",
    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOM3A0TlRfWlI0M29rb3hveUl1N0M4Y2d6YndXRnRDUGI2NzY4cVVaS2ktbW5fcmdITmhITVJ1dzE5c0tSTWtRakR6Q0ZIY3ZSWWFTYThJQWRHM0ZtWHNaWDFPU3VqdkdrYjlIM3YyTmJFbkhiNnNxT3N4cjd2bnJBbS1xcFZ1Y3NYOUE?oc=5",
    "official": false,
-   "org": "ConstructAfrica",
+   "org": "constructafrica.com",
    "kinds": [
     "정책"
    ],
    "src_kind": "해외",
    "sectors": [],
    "watch": [],
-   "id": 128,
+   "id": 129,
    "src": "GLOBAL",
    "src_name": "해외발 충격 (영문)",
    "stage": null
@@ -3728,7 +3748,7 @@
    "src_kind": "해외",
    "sectors": [],
    "watch": [],
-   "id": 129,
+   "id": 130,
    "src": "GLOBAL",
    "src_name": "해외발 충격 (영문)",
    "stage": null
@@ -3747,7 +3767,7 @@
    "src_kind": "해외",
    "sectors": [],
    "watch": [],
-   "id": 130,
+   "id": 131,
    "src": "GLOBAL",
    "src_name": "해외발 충격 (영문)",
    "stage": "논의"
@@ -3766,7 +3786,7 @@
    "src_kind": "해외",
    "sectors": [],
    "watch": [],
-   "id": 131,
+   "id": 132,
    "src": "GLOBAL",
    "src_name": "해외발 충격 (영문)",
    "stage": null,
@@ -3792,7 +3812,7 @@
    "src_kind": "해외",
    "sectors": [],
    "watch": [],
-   "id": 132,
+   "id": 133,
    "src": "GLOBAL",
    "src_name": "해외발 충격 (영문)",
    "stage": "논의"
@@ -3813,7 +3833,7 @@
     "금속/광물"
    ],
    "watch": [],
-   "id": 133,
+   "id": 134,
    "src": "GLOBAL",
    "src_name": "해외발 충격 (영문)",
    "stage": "논의",
@@ -3839,7 +3859,7 @@
    "src_kind": "해외",
    "sectors": [],
    "watch": [],
-   "id": 134,
+   "id": 135,
    "src": "GLOBAL",
    "src_name": "해외발 충격 (영문)",
    "stage": null
@@ -3858,7 +3878,7 @@
    "src_kind": "해외",
    "sectors": [],
    "watch": [],
-   "id": 135,
+   "id": 136,
    "src": "GLOBAL",
    "src_name": "해외발 충격 (영문)",
    "stage": null
@@ -3879,7 +3899,7 @@
     "금속/광물"
    ],
    "watch": [],
-   "id": 136,
+   "id": 137,
    "src": "GLOBAL",
    "src_name": "해외발 충격 (영문)",
    "stage": null
@@ -3898,7 +3918,7 @@
    "src_kind": "해외",
    "sectors": [],
    "watch": [],
-   "id": 137,
+   "id": 138,
    "src": "GLOBAL",
    "src_name": "해외발 충격 (영문)",
    "stage": null
@@ -3917,7 +3937,7 @@
    "src_kind": "해외",
    "sectors": [],
    "watch": [],
-   "id": 138,
+   "id": 139,
    "src": "GLOBAL",
    "src_name": "해외발 충격 (영문)",
    "stage": null
@@ -3938,7 +3958,7 @@
     "금리/통화"
    ],
    "watch": [],
-   "id": 139,
+   "id": 140,
    "src": "CALENDAR",
    "src_name": "예정 일정",
    "stage": null,
@@ -3966,7 +3986,7 @@
   },
   {
    "sector": "건설/부동산",
-   "now": 1,
+   "now": 2,
    "prev": 0,
    "chg": null,
    "coverage_days": [
@@ -4049,14 +4069,16 @@
   },
   {
    "sector": "반도체/AI",
-   "now": 1,
+   "now": 2,
    "prev": 0,
    "chg": null,
    "coverage_days": [
     2,
     0
    ],
-   "stages_now": {},
+   "stages_now": {
+    "시행": 1
+   },
    "stages_prev": {}
   },
   {
@@ -4109,7 +4131,7 @@
    ],
    "stages_now": {
     "논의": 1,
-    "시행": 4,
+    "시행": 3,
     "가동": 1
    },
    "stages_prev": {}

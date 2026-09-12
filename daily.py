@@ -8,6 +8,7 @@
 import os, json, glob, time
 from datetime import datetime, timezone, timedelta
 import requests
+import impact
 
 KST = timezone(timedelta(hours=9))
 API = "https://api.anthropic.com/v1/messages"
@@ -96,6 +97,7 @@ CONSTITUTION = """너는 투자자의 환경 변수 대응을 돕는 분석관�
 말미: "그물 범위: [원천] · [기준 시각]. 여기 없는 정보는 존재할 수 있음."
 """
 TG_LIMIT = 4000          # 텔레그램 한 통의 최대 길이
+CONSTITUTION += impact.INSTRUCTIONS
 TG_PARTS = int(os.environ.get("TELEGRAM_PARTS", "3"))   # 최대 몇 통까지 나눠 보낼지
 
 def _split(text, size=TG_LIMIT):
@@ -187,10 +189,10 @@ def build_material(d):
             t = f"{tr.get('weeks','?')}주째·{tr.get('count')}건"
             if tr.get("moved"): t += f"·이동 {tr['moved']}"
             marks.append(t)
-        head = f"[{n}] ({'|'.join(m for m in marks if m)}) {x['core'][:110]}{prof}"
+        head = f"[{n}] (발표: {x.get('date') or '미확인'}|{'|'.join(m for m in marks if m)}) {x['core'][:110]}{prof}"
         ab = (x.get("abstract") or "").strip().replace("\n", " ")
         if ab:
-            head += f"\n    {ab[:220]}"
+            head += f"\n    [발췌] {ab[:700]}"
         if x.get("effective"):
             head += f"\n    시행일: {x['effective']}"
         lines.append(head)
@@ -208,6 +210,7 @@ def motion_text(mo):
         sn = " ".join(f"{k}{v}" for k, v in sorted(m.get("stages_now", {}).items()))
         sp = " ".join(f"{k}{v}" for k, v in sorted(m.get("stages_prev", {}).items()))
         L.append(f"- {m['sector']}: {m['prev']}건 -> {m['now']}건{chg}"
+                 + f" | 정상 수집 일수(이번/지난): {m.get('coverage_days', '미확인')} · 최초 관측 고유 자료 기준, 산업 성장률 아님"
                  + (f" | 단계 지난주[{sp}] 이번주[{sn}]" if (sn or sp) else ""))
     return "\n".join(L)
 
@@ -355,7 +358,7 @@ def main():
     force = os.environ.get("FORCE_DAILY", "").lower() in ("1", "true", "yes")
     ok, st = guard_check(force)
     if not ok: return
-    if not os.environ.get("ANTHROPIC_API_KEY"):
+    if not (os.environ.get("ANTHROPIC_API_KEY") or os.environ.get("GEMINI_API_KEY")):
         print("[생략] ANTHROPIC_API_KEY 없음")
         send_telegram("⚠️ 일일 보고 생략: API 키가 금고에 없습니다"); return
     if not os.path.exists("data/latest.json"):
@@ -364,6 +367,8 @@ def main():
     d = json.load(open("data/latest.json", encoding="utf-8"))
     material, items = build_material(d)
     material += "\n" + motion_text(d.get("motion") or [])
+    material += impact.context()
+    material += '\n[수집 실패·미확인 범위]\n' + json.dumps(d.get('errors', []), ensure_ascii=False)
     srcs = ", ".join(s["name"] for s in d["sources"] if s["ok"])
     meta = {"date": d["date"], "srcs": srcs, "n": len(items),
             "wl": ", ".join(d.get("watchlist", [])[:24])}
@@ -374,6 +379,8 @@ def main():
         text, usage, cost, provider = got["text"], got["usage"], 0.0, got["provider"]
     else:
         # 2순위: 클로드 (유료) — 비용 상한 확인
+        if not os.environ.get('ANTHROPIC_API_KEY'):
+            print('[생략] Gemini 실패, 대체 API 키 없음'); return
         est_in = int(len(material) / 2.2) + 1200
         pre = est_cost({"input_tokens": est_in, "output_tokens": MAX_OUT})
         if pre and pre > COST_CAP:
@@ -389,22 +396,27 @@ def main():
         usage = {k: v for k, v in (resp.get("usage") or {}).items() if isinstance(v, int)}
         cost = est_cost(usage)
         provider = f"Claude({MODEL})"
-    i = text.rfind(MARK)
-    report = text[i:] if i != -1 else text
+    try:
+        report = impact.finalize(text, items, d['date'])
+    except (ValueError, TypeError, KeyError) as e:
+        report = '# 오늘의 보고\n\n영향 경로 검증 실패 — 분석 게시를 보류했습니다.\n' + str(e)
+    report += '\n\n수집 기준: ' + str(d.get('generated', d['date'])) + '\n확보 원천: ' + srcs
+    report += '\n수집 실패·미확인: ' + ', '.join(e.get('name', e.get('id', '?')) for e in d.get('errors', []))
+    report += '\n수집 범위 밖의 정보는 존재할 수 있습니다. 원문 링크의 발췌만 분석했습니다.'
     if usage.get("output_tokens", 0) >= MAX_OUT - 50:
         report += "\n\n⚠️ 길이 상한에서 잘렸습니다 — DAILY_MAX_OUT 을 늘리세요."
     guard_record(st, usage)
 
     # 근거 번호를 원문 링크로
     links = []
-    for x in items[:200]:
+    for x in items:
         if x.get("_no") and x.get("link"):
             links.append(f"[{x['_no']}] [{x['core'][:70]}]({x['link']})")
     stamp = datetime.now(KST).strftime("%Y-%m-%d %H:%M")
     head = (f"> 생성 {stamp} KST · 모델 {provider} · 재료 {len(items)}건\n"
             f"> 토큰 입력 {usage.get('input_tokens',0):,} · 출력 {usage.get('output_tokens',0):,}"
             + (f" · 사고 {usage['thinking_tokens']:,}" if usage.get("thinking_tokens") else "")
-            + (f" · 약 {cost:,.0f}원" if cost else " · 무료")
+            + (f" · 약 {cost:,.0f}원" if cost else " · 요금 미확인")
             + f" · 이번 달 {st['count']}/{MONTH_LIMIT}회\n\n")
     final = head + report + "\n\n---\n<details><summary>근거 자료 원문 링크</summary>\n\n" + \
             "\n".join(links) + "\n\n</details>\n"
@@ -416,7 +428,7 @@ def main():
 
     repo = os.environ.get("GITHUB_REPOSITORY", "")
     link = f"\n\n전체: https://github.com/{repo}/blob/main/briefing/env_latest.md" if repo else ""
-    tail = (f"\n💰 {cost:,.0f}원" if cost else f"\n💰 무료({provider})") + f" · 이번 달 {st['count']}/{MONTH_LIMIT}회"
+    tail = (f"\n💰 {cost:,.0f}원" if cost else f"\n💰 요금 미확인({provider})") + f" · 이번 달 {st['count']}/{MONTH_LIMIT}회"
     send_telegram(f"🗼 {d['date']} 등대 보고\n\n{report}{link}{tail}", parts=TG_PARTS)
 
 if __name__ == "__main__":

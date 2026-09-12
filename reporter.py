@@ -6,6 +6,7 @@
 import os, re, json, glob, time
 from datetime import datetime, timezone, timedelta
 import requests
+import impact
 
 KST = timezone(timedelta(hours=9))
 API_URL = "https://api.anthropic.com/v1/messages"
@@ -96,6 +97,16 @@ CONSTITUTION = """너는 투자자의 환경 변수 대응을 돕는 주간 분�
 ADVISOR_LINE = ("(Advisor: 너의 유일한 임무는 완결성 검사다. 아래 재료 전체와 실행자의 "
                 "커버리지 목록을 대조해, 빠진 중요 항목의 재료 번호만 지적하라. "
                 "새 해석·새 지식 추가 금지. 80단어 이내.)")
+CONSTITUTION += '''
+최종 출력은 위의 긴 형식 대신 아래 간결한 형식을 우선한다. 전체 1,200자 이내.
+1. 전체 통합 영향 [짐작]: 여러 사건이 서로 강화하거나 상쇄하는 연결을 3문장 이내로.
+   관련 없는 사건을 억지로 연결하지 말고 연결이 약하면 명시한다.
+2. 수혜 방향 / 부담 방향: 각 1줄.
+3. 다음 확인: 가장 중요한 변수·관측 대상·시점 최대 3개.
+4. 예상 변경 조건: 1~2줄. 이전 가설이 진행·지연·무효화됐는지 근거가 있을 때만 쓴다.
+5. 미확인과 수집 범위: 1~2줄.
+본문에 URL이나 전체 자료 목록을 나열하지 않는다. 필요한 날짜별 근거 번호만 유지한다.
+'''
 
 def _split(text, size=4000):
     out, buf = [], ""
@@ -130,6 +141,9 @@ def send_telegram(text, parts=1):
 
 def load_material(days=7):
     files = sorted(glob.glob("briefing/history/*.md"))[-days:]
+    cutoff = (datetime.now(KST).date() - timedelta(days=days - 1)).isoformat()
+    today = datetime.now(KST).date().isoformat()
+    files = [p for p in files if cutoff <= os.path.basename(p)[:-3] <= today]
     if not files:
         return None, 0, ""
     parts, n = [], 0
@@ -139,6 +153,7 @@ def load_material(days=7):
         with open(fp, encoding="utf-8") as f:
             for line in f:
                 s = line.rstrip("\n")
+                s = re.sub(r'\[(\d+)\]', lambda m: '[' + date + ':' + m.group(1) + ']', s)
                 if s.startswith("- "):
                     n += 1
                     s = f"{n}. {s[2:]}"
@@ -268,7 +283,7 @@ def _main():
     okg, st = guard_check(force)
     if not okg:
         return
-    if not os.environ.get("ANTHROPIC_API_KEY"):
+    if not (os.environ.get("ANTHROPIC_API_KEY") or os.environ.get("GEMINI_API_KEY")):
         print("[생략] ANTHROPIC_API_KEY 미설정")
         send_telegram("⚠️ 주간 보고 생략: API 키가 금고에 없습니다 (ANTHROPIC_API_KEY)")
         return
@@ -284,6 +299,8 @@ def _main():
     except FileNotFoundError:
         wl = []
     wl_line = ", ".join(wl) if wl else "없음"
+    material += impact.context()
+    material += '\n장부와 일일 분석은 과거 추론이다. 진행·지연·무효화의 근거와 날짜별 출처를 보존하라. 확인되지 않은 변화는 미확인으로 남겨라.'
     prompt = ("[워치리스트(강조 감시어): " + wl_line + "]\n"
               f"[재료: 한 주치 일일 보고 모음, 항목 {count}건, 기간 {period}]\n"
               f"{material}\n\n지시: 위 재료로 이번 주 주간 보고서를 작성하라. "
@@ -300,6 +317,8 @@ def _main():
         report = texts[idx:] if idx != -1 else texts
     else:
         # 2순위: Claude (유료 폴백)
+        if not os.environ.get('ANTHROPIC_API_KEY'):
+            print('[생략] Gemini 실패, 대체 API 키 없음'); return
         messages = [{"role": "user", "content": prompt}]
         all_blocks, resp = [], None
         for i in range(4):
@@ -327,7 +346,7 @@ def _main():
     header = (f"> 생성: {stamp} KST · 모델 {provider} · 재료 {count}건 ({period})\n"
               f"> 사용 토큰: 입력 {usage.get('input_tokens',0):,} · 출력 {usage.get('output_tokens',0):,}"
               + (f" · 사고 {usage['thinking_tokens']:,}" if usage.get("thinking_tokens") else "")
-              + (f" · 추정 비용 약 {cost:,.0f}원" if cost else " · 무료")
+              + (f" · 추정 비용 약 {cost:,.0f}원" if cost else " · 요금 미확인")
               + f" · 이번 달 {st['count']}/{MONTH_LIMIT}회\n\n")
     final = header + report
     os.makedirs("briefing/reports", exist_ok=True)
@@ -339,7 +358,7 @@ def _main():
 
     repo = os.environ.get("GITHUB_REPOSITORY", "")
     link = f"\n전문: https://github.com/{repo}/blob/main/briefing/report_latest.md" if repo else ""
-    tail = (f"\n\n💰 {cost:,.0f}원" if cost else f"\n\n💰 무료({provider})") + f" · 이번 달 {st['count']}/{MONTH_LIMIT}회"
+    tail = (f"\n\n💰 {cost:,.0f}원" if cost else f"\n\n💰 요금 미확인({provider})") + f" · 이번 달 {st['count']}/{MONTH_LIMIT}회"
     send_telegram(f"📊 주간 보고서 ({period})\n\n{report}{link}{tail}", parts=3)
 
 # ══════════ 비용 안전장치 ══════════

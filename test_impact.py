@@ -22,11 +22,11 @@ class ImpactTests(unittest.TestCase):
                      alternative='허가 예외로 공급 유지', observe='통관량과 납기', timing='시행 이후') ]}
 
     def payload(self):
-        return json.dumps({'cards': [self.card], 'unknowns': ['재고 수준 미확인']})
+        return json.dumps({'overview': dict(flow='combined flow', benefit='benefit', harm='harm', watch='observe', **{'break':'condition'}, refs=[1]), 'cards': [self.card], 'unknowns': ['재고 수준 미확인']})
 
     def test_persists_updates_and_revision(self):
         report = impact.finalize(self.payload(), self.items, '2026-09-12')
-        self.assertIn('반대 경로', report)
+        self.assertIn('전체 영향', report)
         cid = next(iter(impact.previous()['cards']))
         self.card.update(id=cid, status='지연', update='지연 가능성 갱신')
         impact.finalize(self.payload(), self.items, '2026-09-12')

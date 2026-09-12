@@ -407,19 +407,13 @@ def main():
         report += "\n\n⚠️ 길이 상한에서 잘렸습니다 — DAILY_MAX_OUT 을 늘리세요."
     guard_record(st, usage)
 
-    # 근거 번호를 원문 링크로
-    links = []
-    for x in items:
-        if x.get("_no") and x.get("link"):
-            links.append(f"[{x['_no']}] [{x['core'][:70]}]({x['link']})")
     stamp = datetime.now(KST).strftime("%Y-%m-%d %H:%M")
     head = (f"> 생성 {stamp} KST · 모델 {provider} · 재료 {len(items)}건\n"
             f"> 토큰 입력 {usage.get('input_tokens',0):,} · 출력 {usage.get('output_tokens',0):,}"
             + (f" · 사고 {usage['thinking_tokens']:,}" if usage.get("thinking_tokens") else "")
             + (f" · 약 {cost:,.0f}원" if cost else " · 요금 미확인")
             + f" · 이번 달 {st['count']}/{MONTH_LIMIT}회\n\n")
-    final = head + report + "\n\n---\n<details><summary>근거 자료 원문 링크</summary>\n\n" + \
-            "\n".join(links) + "\n\n</details>\n"
+    final = head + report
 
     os.makedirs("briefing/history", exist_ok=True)
     open("briefing/env_latest.md", "w", encoding="utf-8").write(final)
@@ -429,6 +423,8 @@ def main():
     repo = os.environ.get("GITHUB_REPOSITORY", "")
     link = f"\n\n전체: https://github.com/{repo}/blob/main/briefing/env_latest.md" if repo else ""
     tail = (f"\n💰 {cost:,.0f}원" if cost else f"\n💰 요금 미확인({provider})") + f" · 이번 달 {st['count']}/{MONTH_LIMIT}회"
+    import re
+    report = re.sub(r"<details>.*?</details>", "", report, flags=re.S).strip()
     send_telegram(f"🗼 {d['date']} 등대 보고\n\n{report}{link}{tail}", parts=TG_PARTS)
 
 if __name__ == "__main__":

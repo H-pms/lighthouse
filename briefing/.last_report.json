@@ -1,28 +1,14 @@
 {
- "last_date": "2026-08-17",
- "month": "2026-08",
- "count": 3,
+ "last_date": "2026-09-13",
+ "month": "2026-09",
+ "count": 1,
  "runs": [
   {
-   "at": "2026-08-16 18:58",
+   "at": "2026-09-13 20:55",
    "usage": {
-    "input_tokens": 224165,
-    "output_tokens": 10185
-   }
-  },
-  {
-   "at": "2026-08-17 00:10",
-   "usage": {
-    "input_tokens": 355313,
-    "output_tokens": 11621
-   }
-  },
-  {
-   "at": "2026-08-17 13:30",
-   "usage": {
-    "input_tokens": 91049,
-    "output_tokens": 4480,
-    "thinking_tokens": 5285
+    "input_tokens": 32287,
+    "output_tokens": 1129,
+    "thinking_tokens": 1197
    }
   }
  ]

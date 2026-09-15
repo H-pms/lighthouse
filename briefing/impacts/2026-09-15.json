@@ -1,0 +1,432 @@
+[
+  {
+    "cards": {
+      "0b871431732ab786": {
+        "id": "0b871431732ab786",
+        "event": "한국 SMR 특별법·시행령 공식 시행 및 경남도의 4.7조 원 규모 SMR 제조거점 육성 추진",
+        "refs": [
+          80,
+          81,
+          82,
+          84,
+          85,
+          86
+        ],
+        "status": "진행",
+        "update": "2026년 9월 11일자로 SMR 특별법과 시행령이 공식 시행되어 범정부 지원체계의 법적 근거가 확정됨.",
+        "steps": [
+          {
+            "effect": "SMR 개발 및 상용화 지원체계의 법적 근거 마련으로 정부 주도 R&D 및 인허가 단축 지원 구체화",
+            "refs": [
+              80,
+              81,
+              82
+            ],
+            "condition": "특별법 하위 행정규칙 제정 및 정부 예산 상반기 집행",
+            "benefit": "SMR 원자로 설계 및 기술 개발 참여 기관·기업",
+            "harm": "미확인",
+            "alternative": "인허가 세부 지침 마련 지연 시 상용화 실증 일정 순연",
+            "observe": "산업통상자원부 SMR 지원 사업 공고 및 예산 배정 현황",
+            "timing": "2026년 하반기 중 확인"
+          },
+          {
+            "effect": "경남 지역 중심 SMR 제조 설비 투자 및 주기기·보조기기 공급망 형성",
+            "refs": [
+              84,
+              85,
+              86
+            ],
+            "condition": "경남도 및 참여 기업의 4.7조 원 투자 재원 집행 및 공장 착공",
+            "benefit": "원전 주기기 단조 및 SMR 부품 가공 설비 보유 제조사",
+            "harm": "지자체 매칭 예산 확보 실패 시 투자 규모 축소",
+            "alternative": "글로벌 SMR 발주 지연 시 설비 투자 집행 속도 조절",
+            "observe": "경남도 SMR 제조 클러스터 착공 공시 및 주요 기자재 수주 계약",
+            "timing": "2035년까지 단계적 추진 (단기 시점 미확인)"
+          }
+        ],
+        "date": "2026-09-12",
+        "sources": [
+          {
+            "number": 80,
+            "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBsWFF6SUs1Ylc2b25UUDd0SWhKQk5KRmhQOG55VERzckxobl9pQmhwU0g3clN2OUh3RFJMM2xiVEpJWU9CRlhXeHRQeHFIUXZpRDR2VExteENUd181WnBkdURSWDRfQ0U?oc=5",
+            "date": "Fri, 11 Sep 2026"
+          },
+          {
+            "number": 81,
+            "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9HZ1Z2bUhDNXZ6clBURm5UbW5lQy1oOHFKTGZwOVBtSmstdC1NT2w5ZmFfWU5id0tOVXBTdWc5Z0FCa3FPR1E?oc=5",
+            "date": "Fri, 11 Sep 2026"
+          },
+          {
+            "number": 82,
+            "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5DTWZXRElmcl9za2pUMTdJOXZjZ1dGRWlycExnNDZ0ZWVZbjFBVFB4djl4eU94Q25RZklWaFFhemdyZkJEWDBMYlNES3FFZTR2YmRPRWZtNF_SAVhBVV95cUxOQ01mV0RJZnJfc2tqVDE3STl2Y2dXRkVpcnBMZzQ2dGVlWW4xQVRQeHY5eHlPeENuUWZJVmhRYXpncmZCRFgwTGJTREtxRWU0dmJkT0VmbTRf?oc=5",
+            "date": "Fri, 11 Sep 2026"
+          },
+          {
+            "number": 84,
+            "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPS1o2ZEZvcnZBMGs5Yi1tYmJ3SEk1N3NFVFg5aU5zM0FiNEVVc0duejE1SFY2Z2R4UTFpWE5qaHBXQkcxTFc5UXZtNWo2ZFBLRklJQUVnNmFQVEZhNGwxQTlfLWxkSzBVRDBDX1F5UVR5Ym9aT2RKaXdSZ041SVJPN0JPQ0hLaUQ2aVMzS0NR?oc=5",
+            "date": "Thu, 10 Sep 2026"
+          },
+          {
+            "number": 85,
+            "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5vWmFoaXo3V2RCVGZheEZlRUxPX0h6bDlZMGZuemJxLXRpdGVJSnF6Q2d5YTd4bUQ2T0JKQnFhUF9zajdwVTBTZjlyandwb1FzRHZQNjMzaWN0amtzd3NQTjdfd0haR1BsQmdPOU11UUbSAXBBVV95cUxOb1phaGl6N1dkQlRmYXhGZUVMT19Iemw5WTBmbnpicS10aXRlSUpxekNneWE3eG1ENk9CSkJxYVBfc2o3cFUwU2Y5cmp3cG9Rc0R2UDYzM2ljdGprc3dzUE43X3dIWkdQbEJnTzlNdVFG?oc=5",
+            "date": "Thu, 10 Sep 2026"
+          },
+          {
+            "number": 86,
+            "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE0xMUFLZ1JfV2g4WHJMUVpxQ0JnN3hlZ0FoZ1ZKRm9OWGtacng2bFEtd1FoQlpMUVQ3QUhRa2Y5TFlWWkRYWTF5dGhMY2ZMSnhIcXlIRXB5T0FxTWZPZWtDMTdSNTdGQ01NTlh2btIBb0FVX3lxTE82cUFITWhUQXlaVHhoN3RhdVc2a0YyTUNCdXpqNlFSaEZkVlZBTWI1ZnRLVlU1Vi1aME1rWXpvUjk3bGcyeEoxcmp5bVdNRTVPS0hQWHV1aEMxMUxtWVgzcWFsNE92QzdROHdVWjFuOA?oc=5",
+            "date": "Thu, 10 Sep 2026"
+          }
+        ]
+      },
+      "6e5a2a33c1944577": {
+        "id": "6e5a2a33c1944577",
+        "event": "미국 FCC의 Covered List 등재 기업 로직 부품 탑재 통신장비 신규 인증 불허 결정",
+        "refs": [
+          95
+        ],
+        "status": "진행",
+        "update": "Covered List 기업이 로직 부품만 공급한 경우에도 기기 전체의 인증을 차단하는 허점 봉쇄 규정 확정.",
+        "steps": [
+          {
+            "effect": "Covered List 기업 생산 로직 반도체·부품 사용 통신 기기의 미국 내 신규 인증 및 유통 완전 차단",
+            "refs": [
+              95
+            ],
+            "condition": "FCC 최종 규칙 발효 및 기기 인증 심사 적용",
+            "benefit": "미국 및 우방국 소재 통신용 반도체·로직 부품 제조업체",
+            "harm": "Covered List 등재 기업 부품을 사용하는 통신장비 제조사",
+            "alternative": "규제 예외 조항 신설 시 시장 차단 효과 반감",
+            "observe": "미 연방관보 고시 발효일 및 FCC Equipment Authorization 승인 현황",
+            "timing": "미확인"
+          },
+          {
+            "effect": "글로벌 통신장비 기업들의 부품 공급망 재설계 및 비중국산 대체 부품 전환 가속",
+            "refs": [
+              95
+            ],
+            "condition": "완제품 제조사의 대체 부품 적용 및 전체 재인증 신청",
+            "benefit": "공급망 적격 인증을 획득한 비중국계 통신 부품 공급사",
+            "harm": "장비 재설계 및 재인증에 따른 비용 상승을 부담하는 제조사",
+            "alternative": "대체 부품 수급 난항 시 통신장비 출하 지연 발생",
+            "observe": "통신장비 기업의 부품 공급처 변경 공시 및 FCC 재인증 소요 기간",
+            "timing": "미확인"
+          }
+        ],
+        "date": "2026-09-12",
+        "sources": [
+          {
+            "number": 95,
+            "link": "https://www.federalregister.gov/documents/2026/09/11/2026-18535/protecting-against-national-security-threats-to-the-communications-supply-chain-through-the",
+            "date": "2026-09-11"
+          }
+        ]
+      },
+      "af43d2e9563b578b": {
+        "id": "af43d2e9563b578b",
+        "event": "미국 국방 조달 계약업체 대상 희토류 영구자석 규제 강화",
+        "refs": [
+          120
+        ],
+        "status": "진행",
+        "update": "방산 계약자 대상 희토류 영구자석 원산지 및 공급망 규제 강화 지침 확정 발표.",
+        "steps": [
+          {
+            "effect": "미 방산 무기체계 납품 기업의 비우방국산 희토류 영구자석 사용 제한 및 공급망 추적성 강화",
+            "refs": [
+              120
+            ],
+            "condition": "미 국방 조달 규정 세부 지침 시행 및 납품 검사 적용",
+            "benefit": "미국 및 우방국 소재 희토류 정제 및 영구자석 제조사",
+            "harm": "비우방국산 희토류 자석을 조달하던 방산 부품 협력업체",
+            "alternative": "수급 불균형 시 미 국방부의 한시적 이행 유예(Waiver) 승인 가능",
+            "observe": "미 국방부 조달 규정 개정안 및 방산 계약 조건 공고",
+            "timing": "미확인"
+          },
+          {
+            "effect": "우방국 내 희토류 채굴·정제 및 영구자석 수급을 위한 장기 공급 계약 증가",
+            "refs": [
+              120
+            ],
+            "condition": "방산 체계업체의 대체 희토류 공급망 확충 계약 체결",
+            "benefit": "서방 공급망 내 희토류 제련 및 영구자석 소결 공장 운영 기업",
+            "harm": "원자재 조달 단가 상승에 따른 무기 제조 원가 부담 증가",
+            "alternative": "원가 상승분이 방산 계약 단가로 전가되지 않을 경우 제조사 마진 악화",
+            "observe": "희토류 영구자석 공급 계약 체결 공시 및 가격 변동",
+            "timing": "미확인"
+          }
+        ],
+        "date": "2026-09-12",
+        "sources": [
+          {
+            "number": 120,
+            "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPYV9CTWtZMDJ0WnR6YW1EZXJJZ09GczM5QjJ2bE8xaDgzNXl3VExsWGlhVHAxWGRPS2R3TVhvTDluS2IzRUk1Ti1tZUNSc05xSk1QXy1XUm03WUxaOHBwWDJyMWdZczU2U0VNTkl4X1lERDMybnZSY01wS2pEWkRNclhmTjJUa2szcjEtQ0RLSjFnWVVja1l0SjFlZ01RVXNNRWxZNVRHQ3pjZ3FBS2k4?oc=5",
+            "date": "Fri, 11 Sep 2026"
+          }
+        ]
+      },
+      "7e1e6a8f62801c40": {
+        "id": "7e1e6a8f62801c40",
+        "event": "미국 FDA의 심혈관 질환 머신러닝 기반 알림 소프트웨어 Class II(특별관리) 최종 분류 고시",
+        "refs": [
+          63
+        ],
+        "status": "진행",
+        "update": "FDA가 해당 의료 AI 소프트웨어를 Class II 품목으로 최종 분류 고시함이 재확인됨.",
+        "steps": [
+          {
+            "effect": "Class II 분류 및 특별관리(Special Controls) 기준 준수로 의료 AI 알림 소프트웨어의 인허가 절과 규제 불확실성 해소",
+            "refs": [
+              63
+            ],
+            "condition": "개발사의 FDA 510(k) 요건 및 특별관리 기준 충족",
+            "benefit": "심혈관 진단 및 모니터링 AI 소프트웨어 개발사",
+            "harm": "미확인",
+            "alternative": "임상 데이터 검증 실패 시 승인 보류 또는 추가 임상 요구",
+            "observe": "FDA 510(k) 승인 데이터베이스 및 품목 허가 공고",
+            "timing": "2026-09-11 고시 이후 상시"
+          },
+          {
+            "effect": "인허가 요건 명확화에 따른 미국 내 의료기관의 심혈관 AI 진단·모니터링 시스템 채택 및 도입 가속",
+            "refs": [
+              63
+            ],
+            "condition": "미국 병원 인프라 연결 및 메디케어·민간보험 수가 코드 적용",
+            "benefit": "FDA 승인을 획득한 글로벌 의료 AI 솔루션 기업",
+            "harm": "전통적 수동 모니터링 의료기기 제조사",
+            "alternative": "의료 보험 수가 미적용 시 병원 도입 지연으로 상용화 속도 저하",
+            "observe": "미국 메디케어·메디케이드 서비스 센터(CMS) 수가 등재 및 관련 기업 매출 공시",
+            "timing": "2026년 하반기~2027년"
+          }
+        ],
+        "date": "2026-09-13",
+        "sources": [
+          {
+            "number": 63,
+            "link": "https://www.federalregister.gov/documents/2026/09/11/2026-18612/medical-devices-cardiovascular-devices-classification-of-the-cardiovascular-machine-learning-based",
+            "date": "2026-09-11"
+          }
+        ]
+      },
+      "317230db1b51bcbd": {
+        "id": "317230db1b51bcbd",
+        "event": "미국-캐나다 상호 보복 관세 시행 및 캐나다의 EU 밀착 행보",
+        "refs": [
+          53,
+          106,
+          112
+        ],
+        "status": "진행",
+        "update": "캐나다의 대미 보복 관세가 발효되고 미국도 캐나다산 제품 관세 범위를 조정함에 따라, 캐나다가 미국 의존도를 낮추기 위해 EU 준회원국 지위 확보를 모색하는 등 갈등이 격화됨.",
+        "steps": [
+          {
+            "effect": "북미 자유무역망(USMCA) 내 교역 비용 즉각 상승 및 공급망 분절",
+            "refs": [
+              53,
+              112
+            ],
+            "condition": "양국 세관의 추가 관세 징수 개시",
+            "benefit": "북미 외 지역에서 대체재를 공급하는 글로벌 원자재 및 부품 기업",
+            "harm": "북미 국경 간 부품 공급망에 의존하는 완성차 및 기계 제조업체",
+            "alternative": "양국 간 한시적 관세 유예 협상 타결 시 비용 부담 완화",
+            "observe": "미국 세관국경보호청(CBP) 통관 지침 및 양국 교역량 통계",
+            "timing": "2026년 9월 중 즉시"
+          }
+        ],
+        "date": "2026-09-15",
+        "sources": [
+          {
+            "number": 53,
+            "link": "https://www.federalregister.gov/documents/2026/09/14/2026-18839/modifying-the-scope-of-products-of-canada-subject-to-the-additional-duties-imposed-to-offset",
+            "date": "2026-09-14"
+          },
+          {
+            "number": 106,
+            "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE11WmZIdVB3OElSNnhFa3RCYVVLX2hmYnFQRE9FTF81SFJyQ01hNThMa0x5SElRdmVLMlhhSjZ6LVVmOXZ6ZW80TW1rd3Z6S1ZiMzZ5c1FKVXY5ZFJyTWg0?oc=5",
+            "date": "Sun, 13 Sep 2026"
+          },
+          {
+            "number": 112,
+            "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNQzNGVVdHVjV1R0NLTEFBazZLbG14NkxBRGl1N2wyOTdlX3F4SGdzRmtoRnc5dXl2SFh3clUyWG1CekZTQ28zRHZDU0JINDNuVWFuVEdfRE9mWUxlUzFid3BWblgzZkVDeUpqQzlxUUh3QlJHSVRSQlk1R0Q5LTR0ZG9lNmlpejNNdkFhcXo0d212NU9CaUNUZEgxWnFGQ0pfdHhhQUh4VVB1TURlcVlmTmstNTJZdnpxd1lnQTZBMHlmQ3RQck5HV1ZtSjdmRHJwTDBlc1BFdWlvN1BCQlgw?oc=5",
+            "date": "Mon, 14 Sep 2026"
+          }
+        ]
+      },
+      "6673b4c2115eb7ce": {
+        "id": "6673b4c2115eb7ce",
+        "event": "국내 코스닥 기술 기업들의 유상증자 및 전환사채 납입 연쇄 지연",
+        "refs": [
+          21,
+          24,
+          30
+        ],
+        "status": "진행",
+        "update": "다보링크(반도체/전자부품), 셀레믹스(바이오), 이렘(금속) 등 코스닥 상장사들의 자금 조달 납입일이 재차 연기되며 유동성 확보 일정이 지연됨.",
+        "steps": [
+          {
+            "effect": "신규 시설 투자 및 운영 자금 집행 공백으로 인한 성장 동력 정체 및 재무 불안정성 가중",
+            "refs": [
+              24,
+              30
+            ],
+            "condition": "변경 예정일까지 투자자의 주금 납입 미이행",
+            "benefit": "미확인",
+            "harm": "자금 조달을 추진 중인 코스닥 상장사 및 해당 기업의 설비/원재료 협력사",
+            "alternative": "연기된 납입일에 정상 납입 완료 시 계획된 투자 재개 가능",
+            "observe": "DART 기재정정공시를 통한 납입 완료 여부 및 증권발행실적보고서",
+            "timing": "2026년 10월~12월 중"
+          }
+        ],
+        "date": "2026-09-15",
+        "sources": [
+          {
+            "number": 21,
+            "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260915000300",
+            "date": "20260915"
+          },
+          {
+            "number": 24,
+            "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260915000270",
+            "date": "20260915"
+          },
+          {
+            "number": 30,
+            "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260914000421",
+            "date": "20260914"
+          }
+        ]
+      },
+      "14090dc3cd762104": {
+        "id": "14090dc3cd762104",
+        "event": "엠젠솔루션 유상증자 발행가액 확정 및 계약에서 확정 단계로 이동",
+        "refs": [
+          38
+        ],
+        "status": "진행",
+        "update": "엠젠솔루션의 유상증자 신주 발행가액이 1,242원에서 1,366원으로 상향 확정됨.",
+        "steps": [
+          {
+            "effect": "발행가 확정에 따른 조달 금액 산정 완료 및 청약 일정 진행",
+            "refs": [
+              38
+            ],
+            "condition": "청약 및 주금 납입 정상 진행",
+            "benefit": "엠젠솔루션 (운영자금 20억 원 확보)",
+            "harm": "신주 발행에 따른 기존 주주 지분 가치 희석",
+            "alternative": "청약 미달 시 실권주 발생 및 자금 조달 규모 감소 가능성",
+            "observe": "증권발행실적보고서 및 청약 결과 공시",
+            "timing": "2026년 9월 중"
+          }
+        ],
+        "date": "2026-09-13",
+        "sources": [
+          {
+            "number": 38,
+            "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260910000445",
+            "date": "20260910"
+          }
+        ]
+      },
+      "5c434fde13c9dfef": {
+        "id": "5c434fde13c9dfef",
+        "event": "미국의 텅스텐 비축 계약 체결 및 우방국 중심 공급망 재편",
+        "refs": [
+          102,
+          104,
+          108,
+          119
+        ],
+        "status": "진행",
+        "update": "미국이 20억 달러 규모의 텅스텐 비축 계약을 체결하고 르완다 텅스텐 합작법인 지분을 확보하는 등 중국 의존도를 낮추기 위한 실질적 조치에 착수함.",
+        "steps": [
+          {
+            "effect": "미국의 대규모 비축 및 우방국 조달처 확보로 비중국산 텅스텐 공급망의 가격 프리미엄 형성",
+            "refs": [
+              102,
+              119
+            ],
+            "condition": "미국 국방 공급 규정 발효 및 비축 물량 인도 개시",
+            "benefit": "비중국계 텅스텐 광산 및 제련 기업 (예: Almonty 등)",
+            "harm": "중국산 저가 텅스텐에 의존하던 글로벌 반도체 및 방산 부품 제조사",
+            "alternative": "중국의 보복성 추가 수출 제한 조치 시 글로벌 텅스텐 공급 부족 심화",
+            "observe": "국제 텅스텐 가격 지표 및 미국 국방부 비축유/광물 조달 현황 공시",
+            "timing": "2026년 4분기 내"
+          }
+        ],
+        "date": "2026-09-15",
+        "sources": [
+          {
+            "number": 102,
+            "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQUG1DYkZfX2dKcEpBYnpJVUpxZ1lTWjZ4N0lrb3pvR05Xb2FERnVPVzBUZkZHLVN6YjhOdURhUnZLaFRrYjlPTE9SdGNLcmI4WDFKQW9lZENObk1mTkQ5ZDRCdU9mX21CU2xPTExvSE1ab18xRndMZnoweWhhNUhmNl9Bc0hwS1VBei1qbGVnVXA1aUtfaHZheGY5TFJsRlc1RUxKZ0Exa1VuOGhLT1AzdU04WGZobTlQMzZCUzJzajJGQVF5WjBOdmd2bVBhOVNZbzNtYnM4Y01DZw?oc=5",
+            "date": "Tue, 15 Sep 2026"
+          },
+          {
+            "number": 104,
+            "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPd1pxVmdlbHVhSWRkSjVyVGY4cFN1VUV5VUUtTzRtV3ZFSjJ0SHl0NjZyM0F4N0hpX0F6Wnktd0QwN0ZKazFVbmtkU0h5czBYa3drWHFWclpuMERuVlRsbUdTOWl2N25LU25RNGk3TW9wMTFzcllNZ1p0RG5WOUgyaEdDd3FHWVZmX0RoUmJfcjE5QndyNlVwX1BUclRJRWZ0c05v?oc=5",
+            "date": "Mon, 14 Sep 2026"
+          },
+          {
+            "number": 108,
+            "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOb3dyWDc1Vlc1T3Mta1p1Z3IyNXotUU9vLVF2TmhhTGhlSm1kZWVzeXJoWXF5djVUMW1MNVdpeXBKelZ0VjBpVHdkNVFxbkhOc0pwcnVRNl9kUjdNX01COFpBdE1vMTQxREZsY1ItRWw5TUdLNHpWaHlISFEwcDMtQmFiU1JkYUgtYVBwVk9RbU5fYTBBSmdJSjhGMUx5QXlTUTFR?oc=5",
+            "date": "Mon, 14 Sep 2026"
+          },
+          {
+            "number": 119,
+            "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNQ3RTT1RSUFZQa3hxYWo1Qkc3SlFzQ19hVkFPbFMtQll5RXBEWWJKUGo4ZGNTdlE0dEgtQWZYSW4zS1dvYkpDQmdQMEg1YndKcGxyamFFREh3Zm9ITnZCekRNd093WHVlMDlPSTNqODZDdWtCcWw3UWpQellnMm1qSUJiZTFLNWhHOUJBaU1Mcw?oc=5",
+            "date": "Mon, 14 Sep 2026"
+          }
+        ]
+      },
+      "9b21d1203f360bf7": {
+        "id": "9b21d1203f360bf7",
+        "event": "중국의 고부가 희토류 이트륨(Yttrium) 수출 통제 시행",
+        "refs": [
+          103,
+          115
+        ],
+        "status": "진행",
+        "update": "중국이 첨단 IT 및 방산 공급망의 핵심 소재인 이트륨 수출을 제한하며 자원 무기화 조치를 구체화함.",
+        "steps": [
+          {
+            "effect": "글로벌 고성능 반도체, 디스플레이 및 방산 부품용 이트륨 수급난 및 가격 급등",
+            "refs": [
+              103
+            ],
+            "condition": "중국 상무부의 이트륨 수출 허가제 엄격 적용",
+            "benefit": "호주, 미국 등 비중국계 희토류 채굴 및 정제 기업",
+            "harm": "이트륨을 필수 소재로 사용하는 글로벌 반도체 소자 및 디스플레이 패널 제조사",
+            "alternative": "대체 소재 개발 성공 또는 타 우방국 공급망 조기 가동 시 타격 최소화",
+            "observe": "이트륨(Yttrium) 국제 시세 및 국내 소재 기업의 원재료 수입 통계",
+            "timing": "2026년 4분기"
+          }
+        ],
+        "date": "2026-09-15",
+        "sources": [
+          {
+            "number": 103,
+            "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5jaDlOZUt1dDg5VlBFWFdkSzdPRURacnJ3bHRfNFJ0WjNJS2NfelV3QUMxVzZpVldOa3pDdllILWt3UWJISDhHVjg4cXRmdzJLQ3VZZkNibnZPWjJFY2dKQV9GczNnN0ZOZWVvRQ?oc=5",
+            "date": "Mon, 14 Sep 2026"
+          },
+          {
+            "number": 115,
+            "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOM00xLUh4WDJtZEhlRUxvbWdHZjd2cXpoRzItOW1YZmQxNEhKeXFuTWFpeTJGTHVzYWpmN0hCXzREZV9WaE8xM0ZyUW5ZZmR6Y2xTYmpEYktLZGgxRVdUeUVudmJnbXppQTZieWk3bGdBSGZqMkZvc0dBY2l3clZVNnZLX1NIbUEzTG1iWVlIU29Nalg2Ql9hbDZCWFlhSkZFNzdabkxzNFprclJlcVZBSS1MTnkzYUp0Yk0ycEJRYmQ?oc=5",
+            "date": "Mon, 14 Sep 2026"
+          }
+        ]
+      }
+    },
+    "overview": {
+      "flow": "미·중 간 핵심광물(텅스텐, 이트륨) 공급망 무기화와 미·캐나다 관세 갈등이 심화되는 가운데, 국내 코스닥 기술 기업들의 자금 조달 지연이 지속되며 대외 공급망 리스크와 대내 유동성 압박이 동시에 가중되고 있습니다.",
+      "benefit": "비중국계 희토류 및 대체 광물 공급망 보유 기업, 북미 외 지역 다변화에 성공한 소재사",
+      "harm": "중국산 특수 광물 의존도가 높은 반도체·IT 제조사, 자금 조달이 지연된 코스닥 한계 기업",
+      "watch": "중국 이트륨 수출 제한 영향 및 북미 관세 발효에 따른 소재 가격 변동 (2026년 9~10월)",
+      "break": "미-중 또는 미-캐나다 간 극적인 무역 합의 도출 시 공급망 다변화 압박 완화",
+      "refs": [
+        53,
+        102,
+        103,
+        112
+      ],
+      "date": "2026-09-15"
+    }
+  }
+]

@@ -208,96 +208,89 @@
     },
     "317230db1b51bcbd": {
       "id": "317230db1b51bcbd",
-      "event": "미국 연방관보의 캐나다산 수입품 대상 추가 관세 범위 조정 및 일부 품목 수입 제외 시행",
+      "event": "미국-캐나다 상호 보복 관세 시행 및 캐나다의 EU 밀착 행보",
       "refs": [
-        52,
         53,
-        54,
-        55
+        106,
+        112
       ],
       "status": "진행",
-      "update": "캐나다산 제품에 대한 추가 관세 부과 범위 조정 및 수입 제외 최종 규칙이 확정되어 시행됨.",
+      "update": "캐나다의 대미 보복 관세가 발효되고 미국도 캐나다산 제품 관세 범위를 조정함에 따라, 캐나다가 미국 의존도를 낮추기 위해 EU 준회원국 지위 확보를 모색하는 등 갈등이 격화됨.",
       "steps": [
         {
-          "effect": "캐나다산 특정 원자재 및 완제품의 미국 수입 관세율 변동에 따른 무역 수입 단가 및 수급 환경 변화",
+          "effect": "북미 자유무역망(USMCA) 내 교역 비용 즉각 상승 및 공급망 분절",
           "refs": [
-            52,
-            53
+            53,
+            112
           ],
-          "condition": "미 세관국경보호청(CBP) 통관 지침 적용 및 제외 품목 확인",
-          "benefit": "관세 제외 품목을 수출하는 캐나다 제조업체 및 미국 내 원자재 수요 기업",
-          "harm": "추가 관세 대상 품목을 수입하는 미국 내 완제품 제조업체",
-          "alternative": "미-캐나다 양자 무역 협상 결과에 따라 관세율 추가 개정",
-          "observe": "미 연방관보 최종 규칙 및 CBP 통관 세부 지침",
-          "timing": "2026-09-14 시행"
+          "condition": "양국 세관의 추가 관세 징수 개시",
+          "benefit": "북미 외 지역에서 대체재를 공급하는 글로벌 원자재 및 부품 기업",
+          "harm": "북미 국경 간 부품 공급망에 의존하는 완성차 및 기계 제조업체",
+          "alternative": "양국 간 한시적 관세 유예 협상 타결 시 비용 부담 완화",
+          "observe": "미국 세관국경보호청(CBP) 통관 지침 및 양국 교역량 통계",
+          "timing": "2026년 9월 중 즉시"
         }
       ],
-      "date": "2026-09-13",
+      "date": "2026-09-15",
       "sources": [
         {
-          "number": 52,
+          "number": 53,
           "link": "https://www.federalregister.gov/documents/2026/09/14/2026-18839/modifying-the-scope-of-products-of-canada-subject-to-the-additional-duties-imposed-to-offset",
           "date": "2026-09-14"
         },
         {
-          "number": 53,
-          "link": "https://www.federalregister.gov/documents/2026/09/14/2026-18837/excluding-certain-canadian-products-from-importation-into-the-united-states-in-response-to-continued",
-          "date": "2026-09-14"
+          "number": 106,
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE11WmZIdVB3OElSNnhFa3RCYVVLX2hmYnFQRE9FTF81SFJyQ01hNThMa0x5SElRdmVLMlhhSjZ6LVVmOXZ6ZW80TW1rd3Z6S1ZiMzZ5c1FKVXY5ZFJyTWg0?oc=5",
+          "date": "Sun, 13 Sep 2026"
         },
         {
-          "number": 54,
-          "link": "https://www.federalregister.gov/documents/2026/09/14/2026-18836/excluding-certain-canadian-products-from-importation-into-the-united-states-in-response-to-continued",
-          "date": "2026-09-14"
-        },
-        {
-          "number": 55,
-          "link": "https://www.federalregister.gov/documents/2026/09/14/2026-18835/excluding-certain-canadian-products-from-importation-into-the-united-states-in-response-to-continued",
-          "date": "2026-09-14"
+          "number": 112,
+          "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNQzNGVVdHVjV1R0NLTEFBazZLbG14NkxBRGl1N2wyOTdlX3F4SGdzRmtoRnc5dXl2SFh3clUyWG1CekZTQ28zRHZDU0JINDNuVWFuVEdfRE9mWUxlUzFid3BWblgzZkVDeUpqQzlxUUh3QlJHSVRSQlk1R0Q5LTR0ZG9lNmlpejNNdkFhcXo0d212NU9CaUNUZEgxWnFGQ0pfdHhhQUh4VVB1TURlcVlmTmstNTJZdnpxd1lnQTZBMHlmQ3RQck5HV1ZtSjdmRHJwTDBlc1BFdWlvN1BCQlgw?oc=5",
+          "date": "Mon, 14 Sep 2026"
         }
       ]
     },
     "6673b4c2115eb7ce": {
       "id": "6673b4c2115eb7ce",
-      "event": "국내 바이오 및 반도체 상장사들의 유상증자 및 전환사채 납입일 연쇄 연기",
+      "event": "국내 코스닥 기술 기업들의 유상증자 및 전환사채 납입 연쇄 지연",
       "refs": [
-        5,
-        9,
-        40
+        21,
+        24,
+        30
       ],
       "status": "진행",
-      "update": "에이프로젠바이오로직스, 에이프로젠, 엣지파운드리 등의 자금 조달 납입일이 9월 말 및 11월로 연기됨.",
+      "update": "다보링크(반도체/전자부품), 셀레믹스(바이오), 이렘(금속) 등 코스닥 상장사들의 자금 조달 납입일이 재차 연기되며 유동성 확보 일정이 지연됨.",
       "steps": [
         {
-          "effect": "주금 납입 일정이 밀리며 타법인 증권 취득 및 시설·운영 자금 집행 불확실성 증대",
+          "effect": "신규 시설 투자 및 운영 자금 집행 공백으로 인한 성장 동력 정체 및 재무 불안정성 가중",
           "refs": [
-            5,
-            9,
-            40
+            24,
+            30
           ],
-          "condition": "변경 납입일까지 투자자의 주금 납입 완료",
+          "condition": "변경 예정일까지 투자자의 주금 납입 미이행",
           "benefit": "미확인",
-          "harm": "자금 조달을 추진하는 에이프로젠, 엣지파운드리 등 발행 기업",
-          "alternative": "납입 완료 시 예정된 타법인 지분 인수 및 시설 투자 정상 진행",
-          "observe": "DART 기재정정공시 내 납입 여부 및 수탁계약 이행 확인",
-          "timing": "2026-09-23(에이프로젠 그룹), 2026-11-12(엣지파운드리)"
+          "harm": "자금 조달을 추진 중인 코스닥 상장사 및 해당 기업의 설비/원재료 협력사",
+          "alternative": "연기된 납입일에 정상 납입 완료 시 계획된 투자 재개 가능",
+          "observe": "DART 기재정정공시를 통한 납입 완료 여부 및 증권발행실적보고서",
+          "timing": "2026년 10월~12월 중"
         }
       ],
-      "date": "2026-09-13",
+      "date": "2026-09-15",
       "sources": [
         {
-          "number": 5,
-          "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260911000555",
-          "date": "20260911"
+          "number": 21,
+          "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260915000300",
+          "date": "20260915"
         },
         {
-          "number": 9,
-          "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260911000497",
-          "date": "20260911"
+          "number": 24,
+          "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260915000270",
+          "date": "20260915"
         },
         {
-          "number": 40,
-          "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260910000395",
-          "date": "20260910"
+          "number": 30,
+          "link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260914000421",
+          "date": "20260914"
         }
       ]
     },
@@ -331,22 +324,107 @@
           "date": "20260910"
         }
       ]
+    },
+    "5c434fde13c9dfef": {
+      "id": "5c434fde13c9dfef",
+      "event": "미국의 텅스텐 비축 계약 체결 및 우방국 중심 공급망 재편",
+      "refs": [
+        102,
+        104,
+        108,
+        119
+      ],
+      "status": "진행",
+      "update": "미국이 20억 달러 규모의 텅스텐 비축 계약을 체결하고 르완다 텅스텐 합작법인 지분을 확보하는 등 중국 의존도를 낮추기 위한 실질적 조치에 착수함.",
+      "steps": [
+        {
+          "effect": "미국의 대규모 비축 및 우방국 조달처 확보로 비중국산 텅스텐 공급망의 가격 프리미엄 형성",
+          "refs": [
+            102,
+            119
+          ],
+          "condition": "미국 국방 공급 규정 발효 및 비축 물량 인도 개시",
+          "benefit": "비중국계 텅스텐 광산 및 제련 기업 (예: Almonty 등)",
+          "harm": "중국산 저가 텅스텐에 의존하던 글로벌 반도체 및 방산 부품 제조사",
+          "alternative": "중국의 보복성 추가 수출 제한 조치 시 글로벌 텅스텐 공급 부족 심화",
+          "observe": "국제 텅스텐 가격 지표 및 미국 국방부 비축유/광물 조달 현황 공시",
+          "timing": "2026년 4분기 내"
+        }
+      ],
+      "date": "2026-09-15",
+      "sources": [
+        {
+          "number": 102,
+          "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQUG1DYkZfX2dKcEpBYnpJVUpxZ1lTWjZ4N0lrb3pvR05Xb2FERnVPVzBUZkZHLVN6YjhOdURhUnZLaFRrYjlPTE9SdGNLcmI4WDFKQW9lZENObk1mTkQ5ZDRCdU9mX21CU2xPTExvSE1ab18xRndMZnoweWhhNUhmNl9Bc0hwS1VBei1qbGVnVXA1aUtfaHZheGY5TFJsRlc1RUxKZ0Exa1VuOGhLT1AzdU04WGZobTlQMzZCUzJzajJGQVF5WjBOdmd2bVBhOVNZbzNtYnM4Y01DZw?oc=5",
+          "date": "Tue, 15 Sep 2026"
+        },
+        {
+          "number": 104,
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPd1pxVmdlbHVhSWRkSjVyVGY4cFN1VUV5VUUtTzRtV3ZFSjJ0SHl0NjZyM0F4N0hpX0F6Wnktd0QwN0ZKazFVbmtkU0h5czBYa3drWHFWclpuMERuVlRsbUdTOWl2N25LU25RNGk3TW9wMTFzcllNZ1p0RG5WOUgyaEdDd3FHWVZmX0RoUmJfcjE5QndyNlVwX1BUclRJRWZ0c05v?oc=5",
+          "date": "Mon, 14 Sep 2026"
+        },
+        {
+          "number": 108,
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOb3dyWDc1Vlc1T3Mta1p1Z3IyNXotUU9vLVF2TmhhTGhlSm1kZWVzeXJoWXF5djVUMW1MNVdpeXBKelZ0VjBpVHdkNVFxbkhOc0pwcnVRNl9kUjdNX01COFpBdE1vMTQxREZsY1ItRWw5TUdLNHpWaHlISFEwcDMtQmFiU1JkYUgtYVBwVk9RbU5fYTBBSmdJSjhGMUx5QXlTUTFR?oc=5",
+          "date": "Mon, 14 Sep 2026"
+        },
+        {
+          "number": 119,
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNQ3RTT1RSUFZQa3hxYWo1Qkc3SlFzQ19hVkFPbFMtQll5RXBEWWJKUGo4ZGNTdlE0dEgtQWZYSW4zS1dvYkpDQmdQMEg1YndKcGxyamFFREh3Zm9ITnZCekRNd093WHVlMDlPSTNqODZDdWtCcWw3UWpQellnMm1qSUJiZTFLNWhHOUJBaU1Mcw?oc=5",
+          "date": "Mon, 14 Sep 2026"
+        }
+      ]
+    },
+    "9b21d1203f360bf7": {
+      "id": "9b21d1203f360bf7",
+      "event": "중국의 고부가 희토류 이트륨(Yttrium) 수출 통제 시행",
+      "refs": [
+        103,
+        115
+      ],
+      "status": "진행",
+      "update": "중국이 첨단 IT 및 방산 공급망의 핵심 소재인 이트륨 수출을 제한하며 자원 무기화 조치를 구체화함.",
+      "steps": [
+        {
+          "effect": "글로벌 고성능 반도체, 디스플레이 및 방산 부품용 이트륨 수급난 및 가격 급등",
+          "refs": [
+            103
+          ],
+          "condition": "중국 상무부의 이트륨 수출 허가제 엄격 적용",
+          "benefit": "호주, 미국 등 비중국계 희토류 채굴 및 정제 기업",
+          "harm": "이트륨을 필수 소재로 사용하는 글로벌 반도체 소자 및 디스플레이 패널 제조사",
+          "alternative": "대체 소재 개발 성공 또는 타 우방국 공급망 조기 가동 시 타격 최소화",
+          "observe": "이트륨(Yttrium) 국제 시세 및 국내 소재 기업의 원재료 수입 통계",
+          "timing": "2026년 4분기"
+        }
+      ],
+      "date": "2026-09-15",
+      "sources": [
+        {
+          "number": 103,
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5jaDlOZUt1dDg5VlBFWFdkSzdPRURacnJ3bHRfNFJ0WjNJS2NfelV3QUMxVzZpVldOa3pDdllILWt3UWJISDhHVjg4cXRmdzJLQ3VZZkNibnZPWjJFY2dKQV9GczNnN0ZOZWVvRQ?oc=5",
+          "date": "Mon, 14 Sep 2026"
+        },
+        {
+          "number": 115,
+          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOM00xLUh4WDJtZEhlRUxvbWdHZjd2cXpoRzItOW1YZmQxNEhKeXFuTWFpeTJGTHVzYWpmN0hCXzREZV9WaE8xM0ZyUW5ZZmR6Y2xTYmpEYktLZGgxRVdUeUVudmJnbXppQTZieWk3bGdBSGZqMkZvc0dBY2l3clZVNnZLX1NIbUEzTG1iWVlIU29Nalg2Ql9hbDZCWFlhSkZFNzdabkxzNFprclJlcVZBSS1MTnkzYUp0Yk0ycEJRYmQ?oc=5",
+          "date": "Mon, 14 Sep 2026"
+        }
+      ]
     }
   },
   "overview": {
-    "flow": "FDA의 의료 AI 규제 체계 명확화와 미-캐나다 관세 조치가 시행되는 가운데, 국내 자본시장에서는 바이오·반도체 기업들의 유상증자·CB 납입 연기 및 자금 조달 일정 변경이 잇따르고 있음.",
-    "benefit": "FDA 규제 불확실성이 해소된 의료 AI 개발사와 관세 제외 대상 캐나다산 원자재를 조달하는 미국 제조업체",
-    "harm": "추가 관세 부과 대상 품목을 수입하는 미국 기업 및 자금 조달 납입 연기로 사업 투자가 지연되는 국내 상장사",
-    "watch": "FDA 510(k) 승인 데이터베이스 및 에이프로젠·엣지파운드리 등 주요 기업의 9~11월 주금 납입 공시",
-    "break": "미-캐나다 무역 협상 타결로 관세 조치 철회 또는 납입 연기 기업들의 투자자 참여 철회 공시 발생 시",
+    "flow": "미·중 간 핵심광물(텅스텐, 이트륨) 공급망 무기화와 미·캐나다 관세 갈등이 심화되는 가운데, 국내 코스닥 기술 기업들의 자금 조달 지연이 지속되며 대외 공급망 리스크와 대내 유동성 압박이 동시에 가중되고 있습니다.",
+    "benefit": "비중국계 희토류 및 대체 광물 공급망 보유 기업, 북미 외 지역 다변화에 성공한 소재사",
+    "harm": "중국산 특수 광물 의존도가 높은 반도체·IT 제조사, 자금 조달이 지연된 코스닥 한계 기업",
+    "watch": "중국 이트륨 수출 제한 영향 및 북미 관세 발효에 따른 소재 가격 변동 (2026년 9~10월)",
+    "break": "미-중 또는 미-캐나다 간 극적인 무역 합의 도출 시 공급망 다변화 압박 완화",
     "refs": [
-      5,
-      9,
-      38,
-      40,
-      52,
-      63
+      53,
+      102,
+      103,
+      112
     ],
-    "date": "2026-09-13"
+    "date": "2026-09-15"
   }
 }
